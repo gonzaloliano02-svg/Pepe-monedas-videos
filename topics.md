@@ -1,7 +1,7 @@
 # Escala Brutal: topic bank
 
-One Short = one subject, 3–4 scale comparisons against things people know
-(you, a bus, the Eiffel Tower, a football pitch). Mark a topic `[x]` with its
+Ideas across all formats in `FORMATS.md` (not only animals!). One Short =
+one subject with a surprising number made tangible. Mark a topic `[x]` with its
 episode id once it is published. Add new topics at the bottom, especially
 ones that are trending (check vidIQ rising keywords once a week).
 
@@ -53,3 +53,29 @@ ones that are trending (check vidIQ rising keywords once a week).
 - [ ] Cuántas veces late tu corazón en una vida vs un ratón vs una ballena
 - [ ] Tu ADN estirado: hasta dónde llega
 - [ ] Neuronas vs estrellas de la Vía Láctea
+
+## Time
+- [ ] Si la historia de la Tierra fuera un solo día: los humanos aparecen a las 23:59:56
+- [ ] Cuánto tardaría la luz del Sol en llegar si apagaras el Sol (8 min)
+- [ ] Un millón de segundos vs mil millones de segundos (11 días vs 31 años)
+- [ ] Los dinosaurios vivieron más tiempo separados entre sí que de nosotros
+
+## What if (science-based, conservative)
+- [ ] ¿Y si la Tierra dejara de girar un segundo?
+- [ ] ¿Y si cayeras por un túnel que atraviesa la Tierra?
+- [ ] ¿Y si la Luna estuviera tan cerca como la Estación Espacial?
+
+## Places
+- [ ] Oymyakon: el pueblo habitado más frío del mundo
+- [ ] La ciudad más alta del mundo (La Rinconada, Perú)
+- [ ] El lugar más seco del planeta (desierto de Atacama)
+
+## Machines & engineering
+- [ ] Bagger 288: la máquina terrestre más grande del mundo
+- [ ] El cohete más grande jamás construido vs la Torre Eiffel
+- [ ] El túnel más largo del mundo (San Gotardo)
+
+## History
+- [ ] Cleopatra vivió más cerca del iPhone que de las pirámides
+- [ ] Oxford es más antigua que el Imperio azteca
+- [ ] Cuántas personas han vivido en toda la historia

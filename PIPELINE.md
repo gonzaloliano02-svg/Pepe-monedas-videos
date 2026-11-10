@@ -5,10 +5,15 @@ publication of 3 Shorts per day to their YouTube channel and their TikTok,
 through Metricool (brand blogId `8001188`, timezone Europe/Madrid).
 
 **Style (owner's request): real footage + 3D, cinematic, NOT charts.**
-Every video = real animated footage (Pexels) with a big headline figure on
-screen, TikTok-style captions, voice-over, music, and ONE 3D scale scene
-(person next to the subject, camera pulls back). Format: `"format": "doc"`.
-Reference: `episodes/2026-11-10-a.json`.
+Every video = real animated footage with a big headline on screen,
+TikTok-style captions, voice-over, music, and (when it fits) ONE 3D scene.
+Format: `"format": "doc"`. Reference: `episodes/2026-11-10-a.json`.
+
+**Content (owner's request): VARIETY and ORIGINALITY. Do not get stuck on
+animal sizes.** "Escala Brutal" means *things that blow your mind by their
+scale*: size, time, money, speed, numbers, history, the human body,
+technology, places, "what if". See `FORMATS.md` for the format catalogue and
+the variety rules; they are mandatory.
 
 ## Daily run (3 videos)
 
@@ -16,9 +21,19 @@ Reference: `episodes/2026-11-10-a.json`.
    `npm ci && pip install -q piper-tts numpy`.
    The Spanish voice model lives in `voices/` (committed).
    3D renders need `--gl=swangle` (already in `scripts/build_episode.py`).
-2. **Pick 3 topics** from `topics.md` (unchecked, varied categories). Keep
-   the bank above 10 unchecked topics. Once a week refresh with vidIQ
-   `keyword_research` mode `rising` (language `es`).
+2. **Research & pick 3 topics** (every day, ~10 min):
+   - Read the last 7 days of `log.md` (what was published and how it did).
+   - Check what is trending today, for free: WebSearch (e.g. "tendencias
+     TikTok España hoy", "temas virales hoy", "Google Trends España hoy",
+     current events, anniversaries, releases, sports, space missions,
+     weather records). Avoid politics, tragedies and anything sensitive.
+   - Spend vidIQ credits on research only on Mondays (see Weekly).
+   - Pick 3 topics that follow the variety rules in `FORMATS.md`: three
+     different formats, at least one tied to something current, at most one
+     animal video, and video **c** is the experimental slot (a new format or
+     an unusual angle).
+   - Write today's choice and the reason in `log.md`. Keep `topics.md`
+     above 15 unchecked ideas across all categories.
 3. **Find footage** for each scene (vertical, >= 720 px wide, >= 6 s).
    - **First: Pixabay** (free, unlimited, HD):
      `python3 scripts/pixabay.py "<english query>"`. Needs the
@@ -37,7 +52,13 @@ Reference: `episodes/2026-11-10-a.json`.
    - Never reuse the same clip in two videos on the same day.
    - Record the source/photographers in `credits`.
 4. **Write each script** as `episodes/<YYYY-MM-DD>-a.json` / `-b.json` / `-c.json`:
-   - 25–40 s. Scenes: hook `clip` → `scale3d` → 2–3 `clip` → outro `clip`.
+   - 25–40 s. Typical: hook `clip` → 3–4 `clip`/`scale3d` → outro `clip`.
+     The hook must create curiosity in the first 2 seconds; vary hook styles
+     (question, shocking claim, "this is X", countdown, "nobody tells you").
+     Vary the outro line too (not always "sígueme para más escalas").
+   - Use a `scale3d` scene whenever a size comparison fits; add new 3D
+     subjects (planets, buildings, vehicles, objects) instead of forcing
+     animals. Not every video needs it.
    - `stamp` = the big on-screen headline: 1–4 words, one figure, highlight
      with `*...*`; use a non-breaking space inside numbers+units ("8 kg").
    - `scale3d.subject`: `whale`, `sperm-whale`, `bus`, `tower` (size =
@@ -74,9 +95,13 @@ Reference: `episodes/2026-11-10-a.json`.
 8. **Log** the result in `log.md` (date, ids, titles, Metricool planner URLs).
 
 ## Weekly (Mondays)
-Read last week's stats (vidIQ `user_videos`; Windsor `tiktok_organic`),
-note in `log.md` which topics/hooks worked, and bias the next topics
-toward the winners.
+- Read last week's stats (vidIQ `user_videos`, 5 credits; Windsor
+  `tiktok_organic`, free). Rank videos by views and retention.
+- vidIQ research (max ~15 credits): `keyword_research` mode `rising`
+  (language `es`) and one `outliers` search for Shorts in Spanish.
+- Write a short review in `log.md`: which formats/hooks/topics won, which
+  failed, and what to try this week. Update `FORMATS.md` (promote winners,
+  drop losers, add at least one new format to test).
 
 ## Hard rules
 - Never post anything that isn't a finished `videos/*.mp4` from this repo.
