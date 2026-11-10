@@ -4,10 +4,12 @@
 Usage: python3 scripts/pexels.py "sperm whale underwater" [n]
 Prints: <mp4 url>  <seconds>s  <w>x<h>  <photographer>  <pexels page>
 
-The API key is injected by the cloud environment's network proxy for
-api.pexels.com, so no key is read here.
+The API key is normally injected by the cloud environment's network proxy
+for api.pexels.com. If it is instead set as the PEXELS_API_KEY environment
+variable, that value is sent.
 """
 import json
+import os
 import sys
 import urllib.parse
 import urllib.request
@@ -17,7 +19,7 @@ def search(query: str, n: int = 6):
     url = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode(
         {"query": query, "orientation": "portrait", "size": "medium", "per_page": 15}
     )
-    req = urllib.request.Request(url, headers={"Authorization": "proxy-injected"})
+    req = urllib.request.Request(url, headers={"Authorization": os.environ.get("PEXELS_API_KEY", "proxy-injected")})
     data = json.load(urllib.request.urlopen(req, timeout=30))
     out = []
     for v in data.get("videos", []):
