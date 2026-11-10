@@ -1,7 +1,7 @@
 # Escala Brutal: daily pipeline
 
 The owner of this repo has authorised fully automated creation and
-publication of 2 Shorts per day to their YouTube channel and their TikTok,
+publication of 3 Shorts per day to their YouTube channel and their TikTok,
 through Metricool (brand blogId `8001188`, timezone Europe/Madrid).
 
 **Style (owner's request): real footage + 3D, cinematic, NOT charts.**
@@ -10,13 +10,13 @@ screen, TikTok-style captions, voice-over, music, and ONE 3D scale scene
 (person next to the subject, camera pulls back). Format: `"format": "doc"`.
 Reference: `episodes/2026-11-10-a.json`.
 
-## Daily run (2 videos)
+## Daily run (3 videos)
 
 1. **Setup** (fresh container):
    `npm ci && pip install -q piper-tts numpy`.
    The Spanish voice model lives in `voices/` (committed).
    3D renders need `--gl=swangle` (already in `scripts/build_episode.py`).
-2. **Pick 2 topics** from `topics.md` (unchecked, varied categories). Keep
+2. **Pick 3 topics** from `topics.md` (unchecked, varied categories). Keep
    the bank above 10 unchecked topics. Once a week refresh with vidIQ
    `keyword_research` mode `rising` (language `es`).
 3. **Find footage** for each scene (vertical, >= 720 px wide, >= 6 s).
@@ -36,7 +36,7 @@ Reference: `episodes/2026-11-10-a.json`.
    - Add every useful new clip to `footage.md`.
    - Never reuse the same clip in two videos on the same day.
    - Record the source/photographers in `credits`.
-4. **Write each script** as `episodes/<YYYY-MM-DD>-a.json` / `-b.json`:
+4. **Write each script** as `episodes/<YYYY-MM-DD>-a.json` / `-b.json` / `-c.json`:
    - 25–40 s. Scenes: hook `clip` → `scale3d` → 2–3 `clip` → outro `clip`.
    - `stamp` = the big on-screen headline: 1–4 words, one figure, highlight
      with `*...*`; use a non-breaking space inside numbers+units ("8 kg").
@@ -60,8 +60,9 @@ Reference: `episodes/2026-11-10-a.json`.
    `https://raw.githubusercontent.com/gonzaloliano02-svg/pepe-monedas-videos/main/videos/<id>.mp4`
 7. **Schedule in Metricool** (`createScheduledPost`), one post per video with
    providers `youtube` + `tiktok`:
-   - slots: **12:00** (video a) and **18:00** (video b), Europe/Madrid, today
-     (Metricool best-time data for this account peaks at 10h, 12h and 18h);
+   - slots: **10:00** (video a), **12:00** (video b) and **18:00** (video c),
+     Europe/Madrid, today (Metricool best-time data for this account peaks at
+     10h, 12h and 18h);
      if a slot has passed, use the next free slot ≥ 30 min from now.
    - `youtubeData`: `{title, type: "short", privacy: "public", madeForKids: false, isAiGeneratedContent: false, category: "EDUCATION", tags}`
      (realistic synthetic footage is not used: footage is real, 3D is
