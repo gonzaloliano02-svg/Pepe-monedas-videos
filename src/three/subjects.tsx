@@ -6,7 +6,8 @@ export type SubjectKind =
   | "sperm-whale"
   | "bus"
   | "tower" // skyscraper / monument / tree: tall thing, size = height
-  | "sphere"; // planet, moon, ball: size = diameter
+  | "sphere" // planet, moon, ball: size = diameter
+  | "elephant"; // size = shoulder height
 
 const Mat: React.FC<{ color: string; rough?: number }> = ({ color, rough = 0.55 }) => (
   <meshStandardMaterial color={color} roughness={rough} flatShading />
@@ -133,6 +134,69 @@ const Planet: React.FC<{ size: number; color: string; frame: number }> = ({
   </mesh>
 );
 
+const Elephant: React.FC<{ size: number; color: string; frame: number }> = ({ size, color, frame }) => {
+  // proportions of an African bush elephant, normalised to shoulder height 1
+  const k = size;
+  const sway = Math.sin(frame / 18) * 0.06;
+  const skin = <meshStandardMaterial color={color} roughness={0.85} />;
+  return (
+    <group scale={k}>
+      {/* body */}
+      <mesh castShadow position={[0, 0.72, 0]} scale={[0.62, 0.36, 0.34]}>
+        <sphereGeometry args={[1, 32, 24]} />
+        {skin}
+      </mesh>
+      {/* legs */}
+      {[[-0.38, -0.17], [-0.38, 0.17], [0.36, -0.17], [0.36, 0.17]].map(([x, z], i) => (
+        <mesh key={i} castShadow position={[x, 0.27, z]}>
+          <cylinderGeometry args={[0.1, 0.11, 0.56, 16]} />
+          {skin}
+        </mesh>
+      ))}
+      {/* head */}
+      <mesh castShadow position={[-0.66, 0.92, 0]} scale={[0.24, 0.26, 0.22]}>
+        <sphereGeometry args={[1, 28, 20]} />
+        {skin}
+      </mesh>
+      {/* ears */}
+      {[-1, 1].map((sd) => (
+        <mesh key={sd} castShadow position={[-0.55, 0.9, sd * 0.24]} rotation={[0, sd * 0.35, 0]} scale={[0.2, 0.28, 0.02]}>
+          <sphereGeometry args={[1, 24, 16]} />
+          {skin}
+        </mesh>
+      ))}
+      {/* trunk: tapered segments curving down */}
+      <group position={[-0.84, 0.86, 0]} rotation={[0, 0, sway]}>
+        {Array.from({ length: 7 }).map((_, i) => (
+          <mesh key={i} castShadow position={[-0.03 * i, -0.08 * i, 0]} rotation={[0, 0, -0.25 - i * 0.04]}>
+            <cylinderGeometry args={[0.07 - i * 0.006, 0.075 - i * 0.006, 0.1, 14]} />
+            {skin}
+          </mesh>
+        ))}
+      </group>
+      {/* tusks */}
+      {[-1, 1].map((sd) => (
+        <mesh key={sd} position={[-0.83, 0.74, sd * 0.09]} rotation={[0, 0, 1.9]}>
+          <coneGeometry args={[0.025, 0.24, 12]} />
+          <meshStandardMaterial color="#f1ead6" roughness={0.4} />
+        </mesh>
+      ))}
+      {/* eyes */}
+      {[-1, 1].map((sd) => (
+        <mesh key={sd} position={[-0.8, 0.99, sd * 0.13]}>
+          <sphereGeometry args={[0.015, 10, 10]} />
+          <meshStandardMaterial color="#111" />
+        </mesh>
+      ))}
+      {/* tail */}
+      <mesh position={[0.64, 0.68, 0]} rotation={[0, 0, -0.35 + sway]}>
+        <cylinderGeometry args={[0.012, 0.012, 0.32, 8]} />
+        {skin}
+      </mesh>
+    </group>
+  );
+};
+
 export const Subject: React.FC<{
   kind: SubjectKind;
   size: number;
@@ -148,6 +212,8 @@ export const Subject: React.FC<{
       return <Bus size={size} color={color ?? "#ff4d6d"} />;
     case "tower":
       return <Tower size={size} color={color ?? "#9fb3c8"} />;
+    case "elephant":
+      return <Elephant size={size} color={color ?? "#8a8580"} frame={frame} />;
     case "sphere":
       return <Planet size={size} color={color ?? "#3ddcff"} frame={frame} />;
   }

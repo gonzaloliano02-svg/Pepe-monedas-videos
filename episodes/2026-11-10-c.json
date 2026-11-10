@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-10-c",
+  "format": "doc",
+  "title": "Lo que come un elefante en UN SOLO día 🐘",
+  "description": "Mide hasta 4 metros, come unos 150 kilos de plantas y bebe hasta 200 litros de agua al día. Y en libertad duerme solo unas dos horas. El elefante africano comparado contigo.\n\nDatos aproximados de fuentes divulgativas (WWF, National Geographic, Gravett et al. 2017). Imágenes: Pexels (Roman Odintsov, Georgie Mortimer). Video creado con ayuda de IA.",
+  "tags": ["elefante", "animales", "africa", "curiosidades", "escala"],
+  "credits": ["ROMAN ODINTSOV (Pexels)", "Georgie Mortimer (Pexels)"],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://videos.pexels.com/video-files/11760754/11760754-hd_720_1366_30fps.mp4",
+      "startFrom": 2,
+      "stamp": "Lo que come en *un solo día*",
+      "narration": "¿Sabes cuánto come un elefante en un solo día? Te va a sorprender."
+    },
+    {
+      "type": "scale3d",
+      "subject": "elephant",
+      "size": 4,
+      "env": "land",
+      "color": "#8d8781",
+      "stamp": "Hasta *4 metros*",
+      "narration": "Un elefante africano puede medir hasta cuatro metros de altura. Más del doble que tú."
+    },
+    {
+      "type": "clip",
+      "src": "https://videos.pexels.com/video-files/11760785/11760785-hd_1080_2048_30fps.mp4",
+      "startFrom": 2,
+      "stamp": "*150 kg* de comida",
+      "narration": "Para mover ese cuerpo, come unos ciento cincuenta kilos de plantas al día. Lo que pesan dos personas adultas."
+    },
+    {
+      "type": "clip",
+      "src": "https://videos.pexels.com/video-files/11760754/11760754-hd_720_1366_30fps.mp4",
+      "startFrom": 26,
+      "stamp": "*200* litros de agua",
+      "narration": "Y puede beber hasta doscientos litros de agua al día. Una bañera llena."
+    },
+    {
+      "type": "clip",
+      "src": "https://videos.pexels.com/video-files/39328494/16735965_360_640_30fps.mp4",
+      "startFrom": 4,
+      "stamp": "Duerme *2* horas",
+      "narration": "Lo más loco: en libertad duerme solo unas dos horas al día. Uno de los mamíferos que menos duerme del planeta."
+    },
+    {
+      "type": "clip",
+      "src": "https://videos.pexels.com/video-files/11760785/11760785-hd_1080_2048_30fps.mp4",
+      "startFrom": 12,
+      "stamp": "Sigue para más *escalas brutales*",
+      "narration": "Sígueme para más escalas brutales."
+    }
+  ]
+}

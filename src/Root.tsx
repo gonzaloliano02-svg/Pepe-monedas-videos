@@ -22,7 +22,7 @@ export const RemotionRoot: React.FC = () => {
       height={1920}
       fps={30}
       durationInFrames={150}
-      defaultProps={{ subject: "sperm-whale" as const, size: 16, env: "ocean" as const }}
+      defaultProps={{ subject: "elephant" as const, size: 4, env: "land" as const }}
     />
     <Composition
       id="Doc"
