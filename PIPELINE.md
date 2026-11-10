@@ -19,7 +19,9 @@ the variety rules; they are mandatory.
 ## Daily run (3 videos)
 
 1. **Setup** (fresh container):
-   `npm ci && pip install -q piper-tts numpy`.
+   `npm ci && pip install -q piper-tts numpy kokoro-onnx soundfile`.
+   Voice-over: Kokoro `em_santa` (chosen by the owner), model in `voices/kokoro/`;
+   Piper `voices/es_ES-davefx-medium` is only the fallback.
    The Spanish voice model lives in `voices/` (committed).
    3D renders need `--gl=swangle` (already in `scripts/build_episode.py`).
 2. **Research & pick 3 topics** (every day, ~10 min):

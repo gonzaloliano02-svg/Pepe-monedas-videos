@@ -19,11 +19,30 @@ VOICE = ROOT / "voices" / "es_ES-davefx-medium.onnx"
 SR = 44100
 
 
+KOKORO_MODEL = ROOT / "voices" / "kokoro" / "model.onnx"
+KOKORO_VOICES = ROOT / "voices" / "kokoro" / "voices.npz"
+KOKORO_VOICE = "em_santa"  # chosen by the owner (sample 10)
+_kokoro = None
+
+
 def tts(text: str, out: Path) -> float:
+    """Voice-over with Kokoro (em_santa); falls back to Piper if unavailable."""
+    global _kokoro
+    try:
+        import soundfile as sf
+        from kokoro_onnx import Kokoro
+
+        if _kokoro is None:
+            _kokoro = Kokoro(str(KOKORO_MODEL), str(KOKORO_VOICES))
+        samples, sr = _kokoro.create(text, voice=KOKORO_VOICE, speed=1.05, lang="es")
+        sf.write(str(out), samples, sr, subtype="PCM_16")
+        return len(samples) / sr
+    except Exception as e:  # keep the pipeline running with the old voice
+        print(f"Kokoro failed ({e}); using Piper", flush=True)
     from piper import PiperVoice, SynthesisConfig
 
     voice = PiperVoice.load(str(VOICE))
-    cfg = SynthesisConfig(length_scale=0.88)  # a bit faster: Shorts pacing
+    cfg = SynthesisConfig(length_scale=0.88)
     with wave.open(str(out), "wb") as wf:
         voice.synthesize_wav(text, wf, syn_config=cfg)
     with wave.open(str(out), "rb") as wf:

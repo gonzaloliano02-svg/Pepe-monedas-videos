@@ -6,8 +6,3 @@ out
 build
 __pycache__
 public/episodes
-# candidate voices (not committed until one is chosen; daniela-high is >100 MB)
-voices/kokoro/
-voices/es_MX-*
-voices/es_AR-*
-voices/es_ES-sharvard-*
