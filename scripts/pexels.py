@@ -19,7 +19,7 @@ def search(query: str, n: int = 6):
     url = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode(
         {"query": query, "orientation": "portrait", "size": "medium", "per_page": 15}
     )
-    req = urllib.request.Request(url, headers={"Authorization": os.environ.get("PEXELS_API_KEY", "proxy-injected")})
+    req = urllib.request.Request(url, headers={"Authorization": os.environ.get("PEXELS_API_KEY", "proxy-injected"), "User-Agent": "escala-brutal/1.0 (+curl-compatible)"})
     data = json.load(urllib.request.urlopen(req, timeout=30))
     out = []
     for v in data.get("videos", []):
