@@ -8,7 +8,7 @@ ones that are trending (check vidIQ rising keywords once a week).
 ## Animals
 - [x] Cachalote: tamaño, profundidad, sonido, cerebro (2026-11-10-a)
 - [ ] Calamar gigante vs colosal: ojos del tamaño de un balón
-- [ ] Ballena azul: corazón del tamaño de un coche, lengua, latidos
+- [x] Ballena azul: corazón, peso, latidos (2026-11-10-b)
 - [ ] Orca: velocidad, mordida, peso vs tiburón blanco
 - [ ] Hormiga: fuerza relativa, si midiera como tú
 - [ ] Pulga: salto escalado a tamaño humano
