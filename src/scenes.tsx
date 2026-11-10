@@ -101,7 +101,7 @@ export const HookScene: React.FC<{ scene: Scene }> = ({ scene }) => {
 };
 
 const BASELINE = 1330;
-const MAX_H = 900;
+const MAX_H = 860;
 const SIDE = 70;
 
 export const CompareScene: React.FC<{ scene: Scene }> = ({ scene }) => {
@@ -172,11 +172,11 @@ export const CompareScene: React.FC<{ scene: Scene }> = ({ scene }) => {
         });
         const h = Math.min(
           Math.max(it.value * scale * appear, appear > 0 ? 6 : 0),
-          MAX_H * 1.08,
+          MAX_H * 1.03,
         );
         const color = it.color ?? C.palette[i % C.palette.length];
         const left = SIDE + i * (barW + gap);
-        const labelTop = Math.max(BASELINE - h - 92, 380);
+        const labelTop = Math.max(BASELINE - h - 92, 372);
         return (
           <React.Fragment key={i}>
             <div

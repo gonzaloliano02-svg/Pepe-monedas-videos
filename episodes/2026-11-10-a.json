@@ -1,53 +1,63 @@
 {
   "id": "2026-11-10-a",
+  "format": "doc",
   "title": "Por qué NUNCA querrías encontrarte con un cachalote 🐋",
-  "description": "Mide más que un autobús, baja a más de 2.000 metros y hace el sonido más fuerte del reino animal. Así de brutal es un cachalote comparado contigo.\n\nDatos aproximados de fuentes divulgativas (NOAA, National Geographic). Video creado con ayuda de IA.",
-  "tags": ["cachalote", "animales", "oceano", "curiosidades", "escala", "comparacion"],
+  "description": "Mide más que un autobús, baja a más de 2.000 metros y hace el sonido más fuerte del reino animal. Así de brutal es un cachalote comparado contigo.\n\nDatos aproximados de fuentes divulgativas (NOAA, National Geographic). Imágenes: Pexels. Video creado con ayuda de IA.",
+  "tags": [
+    "cachalote",
+    "animales",
+    "oceano",
+    "curiosidades",
+    "escala"
+  ],
+  "credits": [
+    "Ivan Stecko (Pexels)",
+    "JUN HO LEE (Pexels)",
+    "Chen EdisoN (Pexels)",
+    "Cheng (Pexels)"
+  ],
   "scenes": [
     {
-      "type": "hook",
-      "text": "¿Por qué *nunca* querrías encontrarte con un cachalote?",
+      "type": "clip",
+      "src": "https://videos.pexels.com/video-files/14146693/14146693-hd_1080_1920_30fps.mp4",
+      "startFrom": 2,
+      "stamp": "¿Por qué *nunca* querrías encontrarte con uno?",
       "narration": "¿Por qué nunca querrías encontrarte con un cachalote?"
     },
     {
-      "type": "compare",
-      "heading": "*Tamaño*",
-      "narration": "Un macho adulto mide hasta dieciséis metros. Más largo que un autobús entero.",
-      "items": [
-        { "label": "Tú", "value": 1.75, "display": "1,75 m" },
-        { "label": "Autobús", "value": 12, "display": "12 m" },
-        { "label": "Cachalote", "value": 16, "display": "16 m" }
-      ]
+      "type": "scale3d",
+      "subject": "sperm-whale",
+      "size": 16,
+      "env": "ocean",
+      "stamp": "*16* metros",
+      "narration": "Para empezar, un macho adulto mide hasta dieciséis metros. Tú, a su lado, eres esto."
     },
     {
-      "type": "compare",
-      "heading": "¿Hasta qué *profundidad* baja?",
-      "narration": "Y se sumerge a más de dos mil metros. Diez veces más hondo que el récord humano en apnea.",
-      "items": [
-        { "label": "Buceador", "value": 40, "display": "40 m" },
-        { "label": "Récord apnea", "value": 214, "display": "214 m" },
-        { "label": "Cachalote", "value": 2250, "display": "2.250 m" }
-      ]
+      "type": "clip",
+      "src": "https://videos.pexels.com/video-files/33422095/14225457_360_640_60fps.mp4",
+      "startFrom": 1,
+      "stamp": "Más de *2.000 m*",
+      "narration": "Y baja a más de dos mil metros de profundidad, donde no llega la luz. Diez veces más que el récord humano en apnea."
     },
     {
-      "type": "stat",
-      "value": 230,
-      "suffix": " dB",
-      "label": "el sonido *más fuerte* del reino animal",
-      "narration": "Sus clics alcanzan doscientos treinta decibelios bajo el agua. Ningún otro animal hace tanto ruido."
+      "type": "clip",
+      "src": "https://videos.pexels.com/video-files/36717426/15561858_360_640_30fps.mp4",
+      "startFrom": 3,
+      "stamp": "*230* decibelios",
+      "narration": "Para cazar en esa oscuridad lanza clics de hasta doscientos treinta decibelios. El sonido más fuerte de cualquier animal."
     },
     {
-      "type": "compare",
-      "heading": "Peso del *cerebro*",
-      "narration": "Y tiene el cerebro más grande del planeta. Unos ocho kilos, casi seis veces el tuyo.",
-      "items": [
-        { "label": "Tu cerebro", "value": 1.4, "display": "1,4 kg" },
-        { "label": "Cachalote", "value": 8, "display": "8 kg" }
-      ]
+      "type": "clip",
+      "src": "https://videos.pexels.com/video-files/13841194/13841194-hd_720_1280_30fps.mp4",
+      "startFrom": 1,
+      "stamp": "Cerebro de *8 kg*",
+      "narration": "Y tiene el cerebro más grande del planeta. Unos ocho kilos. Casi seis veces el tuyo."
     },
     {
-      "type": "outro",
-      "text": "Sigue para más *escalas brutales*",
+      "type": "clip",
+      "src": "https://videos.pexels.com/video-files/18568945/18568945-hd_1080_1920_30fps.mp4",
+      "startFrom": 2,
+      "stamp": "Sigue para más *escalas brutales*",
       "narration": "Sígueme para más escalas brutales."
     }
   ]

@@ -92,11 +92,17 @@ def main(path: str):
     eid = ep["id"]
     adir = ROOT / "public" / "episodes" / eid
     adir.mkdir(parents=True, exist_ok=True)
+    doc = ep.get("format") == "doc"
     total = 0
     for i, sc in enumerate(ep["scenes"]):
+        if doc and sc.get("src", "").startswith("http"):
+            clip = adir / f"clip{i}.mp4"
+            if not clip.exists():
+                subprocess.run(["curl", "-sSfL", "-o", str(clip), sc["src"]], check=True)
+            sc["src"] = f"episodes/{eid}/clip{i}.mp4"
         wav = adir / f"s{i}.wav"
         secs = tts(sc["narration"], wav)
-        minimum = {"hook": 2.2, "compare": 3.5, "stat": 3.0, "outro": 2.0}[sc["type"]]
+        minimum = {"hook": 2.2, "compare": 3.5, "stat": 3.0, "outro": 2.0, "clip": 2.5, "scale3d": 5.5}[sc["type"]]
         sc["durationInFrames"] = int(math.ceil(max(secs + 0.35, minimum) * FPS))
         sc["audio"] = f"episodes/{eid}/s{i}.wav"
         total += sc["durationInFrames"]
@@ -109,8 +115,8 @@ def main(path: str):
     out = ROOT / "videos" / f"{eid}.mp4"
     subprocess.run(
         [
-            "npx", "remotion", "render", "src/index.ts", "Short", str(out),
-            f"--props={props}", "--crf=23", "--concurrency=4",
+            "npx", "remotion", "render", "src/index.ts", "Doc" if doc else "Short", str(out),
+            f"--props={props}", "--crf=21", "--concurrency=4", "--gl=swangle",
         ],
         cwd=ROOT,
         check=True,
