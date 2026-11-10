@@ -9,8 +9,9 @@ Every video = real animated footage with a big headline on screen,
 TikTok-style captions, voice-over, music, and (when it fits) ONE 3D scene.
 Format: `"format": "doc"`. Reference: `episodes/2026-11-10-a.json`.
 
-**Content (owner's request): VARIETY and ORIGINALITY. Do not get stuck on
-animal sizes.** "Escala Brutal" means *things that blow your mind by their
+**Content (owner's request): VARIETY and ORIGINALITY, guided by data. Not
+a single-topic channel, but if something works really well, keep doing it
+(with new angles); just don't get stuck.** "Escala Brutal" means *things that blow your mind by their
 scale*: size, time, money, speed, numbers, history, the human body,
 technology, places, "what if". See `FORMATS.md` for the format catalogue and
 the variety rules; they are mandatory.
@@ -28,10 +29,9 @@ the variety rules; they are mandatory.
      current events, anniversaries, releases, sports, space missions,
      weather records). Avoid politics, tragedies and anything sensitive.
    - Spend vidIQ credits on research only on Mondays (see Weekly).
-   - Pick 3 topics that follow the variety rules in `FORMATS.md`: three
-     different formats, at least one tied to something current, at most one
-     animal video, and video **c** is the experimental slot (a new format or
-     an unusual angle).
+   - Pick 3 topics following the variety rules in `FORMATS.md`: follow
+     what the data says works, avoid monotony, keep exploring (video **c**
+     is usually the experimental slot), something current most days.
    - Write today's choice and the reason in `log.md`. Keep `topics.md`
      above 15 unchecked ideas across all categories.
 3. **Find footage** for each scene (vertical, >= 720 px wide, >= 6 s).
