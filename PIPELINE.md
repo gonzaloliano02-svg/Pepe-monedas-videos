@@ -29,7 +29,7 @@ Reference: `episodes/2026-11-10-a.json`.
      description anyway.
    - Then reuse clips from `footage.md`.
    - Last resort: vidIQ `generate_broll` (`orientation: portrait`), 1 credit
-     per search, **max 2 searches per video** (150 credits/month). If the
+     per search, **max 1 search per video** (150 credits/month). If the
      balance (`vidiq_balance`) is under 10, don't search.
    - (Pexels' own API is unusable: new keys are paused.)
    - Prefer >= 1080 px wide; at most one low-res (360 px) clip per video.
