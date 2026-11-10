@@ -1,5 +1,6 @@
 import { Composition } from "remotion";
 import { Scale3D } from "./three/Scale3D";
+import { Avatar } from "./three/Avatar";
 import { Short } from "./Short";
 import { Doc, type DocEpisode } from "./Doc";
 import type { Episode } from "./types";
@@ -8,6 +9,7 @@ import sample from "../episodes/sample.json";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+    <Composition id="Avatar" component={Avatar} width={1080} height={1080} fps={30} durationInFrames={1} />
     <Composition
       id="Test3D"
       component={Scale3D}
