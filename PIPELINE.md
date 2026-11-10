@@ -36,7 +36,8 @@ through Metricool (brand blogId `8001188`, timezone Europe/Madrid).
    `https://raw.githubusercontent.com/gonzaloliano02-svg/pepe-monedas-videos/main/videos/<id>.mp4`
 6. **Schedule in Metricool** (`createScheduledPost`), one post per video with
    providers `youtube` + `tiktok`:
-   - slots: **13:30** (video a) and **20:30** (video b), Europe/Madrid, today;
+   - slots: **12:00** (video a) and **18:00** (video b), Europe/Madrid, today
+     (Metricool best-time data for this account peaks at 10h, 12h and 18h);
      if a slot has passed, use the next free slot ≥ 30 min from now.
    - `youtubeData`: `{title, type: "short", privacy: "public", madeForKids: false, isAiGeneratedContent: false, category: "EDUCATION", tags}`
      (`isAiGeneratedContent` is for realistic synthetic footage; these are

@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-10-b",
+  "title": "Su corazón pesa como una moto: la ballena azul a escala 🫀",
+  "description": "Mide como dos autobuses y medio, pesa más que 25 elefantes y su corazón pesa unos 180 kilos. La ballena azul, el animal más grande que se conoce, comparada contigo.\n\nDatos aproximados de fuentes divulgativas (NOAA, Stanford/Goldbogen et al. 2019). Video creado con ayuda de IA.",
+  "tags": ["ballena azul", "animales", "oceano", "curiosidades", "escala", "comparacion"],
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "El animal más grande que *jamás* has visto, a escala",
+      "narration": "El animal más grande que se conoce, comparado contigo."
+    },
+    {
+      "type": "compare",
+      "heading": "*Longitud*",
+      "narration": "Una ballena azul puede medir hasta treinta metros. Dos autobuses y medio en fila.",
+      "items": [
+        { "label": "Tú", "value": 1.75, "display": "1,75 m" },
+        { "label": "Autobús", "value": 12, "display": "12 m" },
+        { "label": "Ballena azul", "value": 30, "display": "30 m" }
+      ]
+    },
+    {
+      "type": "compare",
+      "heading": "*Peso*",
+      "narration": "Y pesa unas ciento cincuenta toneladas. Más que veinticinco elefantes juntos.",
+      "items": [
+        { "label": "Elefante", "value": 6, "display": "6 t" },
+        { "label": "T. rex", "value": 8, "display": "8 t" },
+        { "label": "Ballena azul", "value": 150, "display": "150 t" }
+      ]
+    },
+    {
+      "type": "compare",
+      "heading": "Peso del *corazón*",
+      "narration": "Solo su corazón pesa unos ciento ochenta kilos. Como una moto grande.",
+      "items": [
+        { "label": "Tu corazón", "value": 0.3, "display": "0,3 kg" },
+        { "label": "Ballena azul", "value": 180, "display": "180 kg" }
+      ]
+    },
+    {
+      "type": "stat",
+      "value": 2,
+      "suffix": " lpm",
+      "label": "su corazón cuando bucea: *casi se para*",
+      "narration": "Y cuando se sumerge, ese corazón late solo dos veces por minuto."
+    },
+    {
+      "type": "outro",
+      "text": "Sigue para más *escalas brutales*",
+      "narration": "Sígueme para más escalas brutales."
+    }
+  ]
+}
