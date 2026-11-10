@@ -19,12 +19,16 @@ Reference: `episodes/2026-11-10-a.json`.
 2. **Pick 2 topics** from `topics.md` (unchecked, varied categories). Keep
    the bank above 10 unchecked topics. Once a week refresh with vidIQ
    `keyword_research` mode `rising` (language `es`).
-3. **Find footage** for each scene (vertical, ≥ 720 px wide, ≥ 6 s):
-   - Preferred: `python3 scripts/pexels.py "<english query>"` (free, unlimited).
-   - Fallback if that returns 401: vidIQ `generate_broll` with
-     `orientation: portrait` (1 credit per search; the account has ~150
-     credits/month, so max ~4 searches per video). Prefer links containing
-     `hd_1080` or `hd_720`; avoid `360_640` links except for one short scene.
+3. **Find footage** for each scene (vertical, >= 720 px wide, >= 6 s).
+   Pexels has paused new API keys, so `scripts/pexels.py` does not work.
+   - First reuse clips from `footage.md`.
+   - Then vidIQ `generate_broll` (`orientation: portrait`): 1 credit per
+     search, 4 clips each. **Max 2 searches per video** (the account has
+     150 credits/month; budget about 120 for footage). Check the balance
+     with `vidiq_balance`; if it drops below 10, use only `footage.md` clips.
+   - Prefer links containing `hd_1080` or `hd_720`; at most one `360_640`
+     clip per video, kept short.
+   - Add every useful new clip to `footage.md`.
    - Never reuse the same clip in two videos on the same day.
    - Record photographers in `credits`.
 4. **Write each script** as `episodes/<YYYY-MM-DD>-a.json` / `-b.json`:
