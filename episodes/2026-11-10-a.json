@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-10-a",
+  "title": "Por qué NUNCA querrías encontrarte con un cachalote 🐋",
+  "description": "Mide más que un autobús, baja a más de 2.000 metros y hace el sonido más fuerte del reino animal. Así de brutal es un cachalote comparado contigo.\n\nDatos aproximados de fuentes divulgativas (NOAA, National Geographic). Video creado con ayuda de IA.",
+  "tags": ["cachalote", "animales", "oceano", "curiosidades", "escala", "comparacion"],
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "¿Por qué *nunca* querrías encontrarte con un cachalote?",
+      "narration": "¿Por qué nunca querrías encontrarte con un cachalote?"
+    },
+    {
+      "type": "compare",
+      "heading": "*Tamaño*",
+      "narration": "Un macho adulto mide hasta dieciséis metros. Más largo que un autobús entero.",
+      "items": [
+        { "label": "Tú", "value": 1.75, "display": "1,75 m" },
+        { "label": "Autobús", "value": 12, "display": "12 m" },
+        { "label": "Cachalote", "value": 16, "display": "16 m" }
+      ]
+    },
+    {
+      "type": "compare",
+      "heading": "¿Hasta qué *profundidad* baja?",
+      "narration": "Y se sumerge a más de dos mil metros. Diez veces más hondo que el récord humano en apnea.",
+      "items": [
+        { "label": "Buceador", "value": 40, "display": "40 m" },
+        { "label": "Récord apnea", "value": 214, "display": "214 m" },
+        { "label": "Cachalote", "value": 2250, "display": "2.250 m" }
+      ]
+    },
+    {
+      "type": "stat",
+      "value": 230,
+      "suffix": " dB",
+      "label": "el sonido *más fuerte* del reino animal",
+      "narration": "Sus clics alcanzan doscientos treinta decibelios bajo el agua. Ningún otro animal hace tanto ruido."
+    },
+    {
+      "type": "compare",
+      "heading": "Peso del *cerebro*",
+      "narration": "Y tiene el cerebro más grande del planeta. Unos ocho kilos, casi seis veces el tuyo.",
+      "items": [
+        { "label": "Tu cerebro", "value": 1.4, "display": "1,4 kg" },
+        { "label": "Cachalote", "value": 8, "display": "8 kg" }
+      ]
+    },
+    {
+      "type": "outro",
+      "text": "Sigue para más *escalas brutales*",
+      "narration": "Sígueme para más escalas brutales."
+    }
+  ]
+}
