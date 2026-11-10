@@ -20,17 +20,22 @@ Reference: `episodes/2026-11-10-a.json`.
    the bank above 10 unchecked topics. Once a week refresh with vidIQ
    `keyword_research` mode `rising` (language `es`).
 3. **Find footage** for each scene (vertical, >= 720 px wide, >= 6 s).
-   Pexels has paused new API keys, so `scripts/pexels.py` does not work.
-   - First reuse clips from `footage.md`.
-   - Then vidIQ `generate_broll` (`orientation: portrait`): 1 credit per
-     search, 4 clips each. **Max 2 searches per video** (the account has
-     150 credits/month; budget about 120 for footage). Check the balance
-     with `vidiq_balance`; if it drops below 10, use only `footage.md` clips.
-   - Prefer links containing `hd_1080` or `hd_720`; at most one `360_640`
-     clip per video, kept short.
+   - **First: Pixabay** (free, unlimited, HD):
+     `python3 scripts/pixabay.py "<english query>"`. Needs the
+     `PIXABAY_API_KEY` environment variable (set in the environment
+     settings; it loads when the session starts/resumes). Vertical clips are
+     listed first; landscape ones get centre-cropped, so use them only for
+     wide scenery. Pixabay needs no attribution, but name "Pixabay" in the
+     description anyway.
+   - Then reuse clips from `footage.md`.
+   - Last resort: vidIQ `generate_broll` (`orientation: portrait`), 1 credit
+     per search, **max 2 searches per video** (150 credits/month). If the
+     balance (`vidiq_balance`) is under 10, don't search.
+   - (Pexels' own API is unusable: new keys are paused.)
+   - Prefer >= 1080 px wide; at most one low-res (360 px) clip per video.
    - Add every useful new clip to `footage.md`.
    - Never reuse the same clip in two videos on the same day.
-   - Record photographers in `credits`.
+   - Record the source/photographers in `credits`.
 4. **Write each script** as `episodes/<YYYY-MM-DD>-a.json` / `-b.json`:
    - 25–40 s. Scenes: hook `clip` → `scale3d` → 2–3 `clip` → outro `clip`.
    - `stamp` = the big on-screen headline: 1–4 words, one figure, highlight
