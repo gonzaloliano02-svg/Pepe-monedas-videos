@@ -2,5 +2,6 @@
 
 ## 2026-11-10
 - a · 12:00 · "Por qué NUNCA querrías encontrarte con un cachalote 🐋" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-9954282876875184 · PUBLISHED: https://www.youtube.com/shorts/zE0Kq0O1uaA · https://www.tiktok.com/@pepe.monedass/video/7706497421471124758
-- b · 18:00 · "Su corazón pesa como una moto: la ballena azul a escala 🫀" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=3438527942480973323
+- b · 16:30 (moved from 18:00, re-rendered with louder music as b-v2) · "Su corazón pesa como una moto: la ballena azul a escala 🫀" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=3438527942480973323
+- c · 18:00 · "Lo que come un elefante en UN SOLO día 🐘" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=1356893914610681058
 - Notes: first "doc" style videos (real footage + 3D scale scene). Footage via vidIQ b-roll because the Pexels key returned 401.

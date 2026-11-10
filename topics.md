@@ -13,7 +13,7 @@ ones that are trending (check vidIQ rising keywords once a week).
 - [ ] Hormiga: fuerza relativa, si midiera como tú
 - [ ] Pulga: salto escalado a tamaño humano
 - [ ] Guepardo vs Usain Bolt vs coche
-- [ ] Elefante: cuánto come y bebe al día comparado contigo
+- [x] Elefante: come, bebe, mide, duerme (2026-11-10-c)
 - [ ] Anaconda vs pitón reticulada vs autobús
 - [ ] Cocodrilo de agua salada: mordida vs león vs humano
 - [ ] Halcón peregrino: el animal más rápido vs avión, F1
