@@ -261,7 +261,7 @@ export const Doc: React.FC<DocEpisode> = (ep) => {
         ))}
       </Series>
       <Brand />
-      {ep.music ? <Audio src={staticFile(ep.music)} volume={0.16} /> : null}
+      {ep.music ? <Audio src={staticFile(ep.music)} volume={0.35} /> : null}
     </AbsoluteFill>
   );
 };
