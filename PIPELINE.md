@@ -107,6 +107,29 @@ the variety rules; they are mandatory.
    - `autoPublish: true`.
 8. **Log** the result in `log.md` (date, ids, titles, Metricool planner URLs).
 
+## Comments (every day, after scheduling)
+The owner asked me to handle comments fully, replying directly.
+1. **Free check:** Windsor `get_data` (connector `youtube`, fields
+   `video`, `video_title`, `video_comment_count`, last 30 days). Compare with
+   the counts saved in `comments.md`; only videos whose count went up need
+   attention.
+2. **Read** only those videos: vidIQ `video_comments` (videoId,
+   order `time`, 5 credits per call).
+3. **Reply** to every new top-level comment not written by the channel
+   (`byChannelOwner` false) with vidIQ `reply_to_comment` (1 credit each).
+   Reply in Spanish, short (1–2 sentences), warm, with personality, and add
+   value: answer the question, add an extra fact (real and conservative),
+   or invite them to suggest the next topic. Never argue, never insult,
+   no politics, no promises, no links. Spam, insults or hate: don't reply.
+   Topic suggestions from comments go to `topics.md` (they are gold).
+4. Never reply twice to the same comment (record replied comment IDs in
+   `comments.md`); never retry automatically after an uncertain result.
+5. If `reply_to_comment` returns `verification_required`, don't retry: tell
+   the owner in the daily summary that YouTube needs re-authorisation
+   (vidIQ `authorize_with_youtube` with `commentReplyChannelId`).
+6. TikTok: no tool can reply there yet; note TikTok comment counts in the
+   weekly review only.
+
 ## Weekly (Mondays)
 - Read last week's stats (vidIQ `user_videos`, 5 credits; Windsor
   `tiktok_organic`, free). Rank videos by views and retention.
