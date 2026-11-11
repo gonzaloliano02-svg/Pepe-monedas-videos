@@ -11,6 +11,14 @@ reschedule today's posts without asking. Still tell the owner what changed in
 the daily summary, and still ask before anything that costs money or
 can't be undone (paid plans, deleting published videos, account settings).
 
+**Credits (owner, 2026-11-11): spend as few vidIQ credits as possible,
+ideally none.** Free tools first, always: Pixabay (footage), WebSearch
+(trends, fact checks), Windsor (YouTube/TikTok stats and comment counts),
+Metricool (scheduling, best times). vidIQ credits are only for:
+(1) reading + replying to NEW YouTube comments (no free tool can reply), and
+(2) b-roll as a true last resort when Pixabay and footage.md have nothing.
+No vidIQ for research, stats, scripts, thumbnails or images.
+
 **Style (owner's request): real footage + 3D, cinematic, NOT charts.**
 Every video = real animated footage with a big headline on screen,
 TikTok-style captions, voice-over, music, and (when it fits) ONE 3D scene.
@@ -37,7 +45,7 @@ the variety rules; they are mandatory.
      TikTok España hoy", "temas virales hoy", "Google Trends España hoy",
      current events, anniversaries, releases, sports, space missions,
      weather records). Avoid politics, tragedies and anything sensitive.
-   - Spend vidIQ credits on research only on Mondays (see Weekly).
+   - No vidIQ for research: use WebSearch and Windsor only.
    - Pick 3 topics following the variety rules in `FORMATS.md`: follow
      what the data says works, avoid monotony, keep exploring (video **c**
      is usually the experimental slot), something current most days.
@@ -113,8 +121,9 @@ The owner asked me to handle comments fully, replying directly.
    `video`, `video_title`, `video_comment_count`, last 30 days). Compare with
    the counts saved in `comments.md`; only videos whose count went up need
    attention.
-2. **Read** only those videos: vidIQ `video_comments` (videoId,
-   order `time`, 5 credits per call).
+2. **Read** only when the free check shows new comments, and then with a
+   single channel-wide call: vidIQ `video_comments` (channelId, order
+   `time`, 5 credits), never per video. No new comments → 0 credits.
 3. **Reply** to every new top-level comment not written by the channel
    (`byChannelOwner` false) with vidIQ `reply_to_comment` (1 credit each).
    Reply in Spanish, short (1–2 sentences), warm, with personality, and add
@@ -131,10 +140,10 @@ The owner asked me to handle comments fully, replying directly.
    weekly review only.
 
 ## Weekly (Mondays)
-- Read last week's stats (vidIQ `user_videos`, 5 credits; Windsor
-  `tiktok_organic`, free). Rank videos by views and retention.
-- vidIQ research (max ~15 credits): `keyword_research` mode `rising`
-  (language `es`) and one `outliers` search for Shorts in Spanish.
+- Read last week's stats for free with Windsor: `youtube` (views,
+  average_view_percentage, likes, comments, shares, subscribers_gained per
+  video) and `tiktok_organic`. Rank videos by views and retention.
+- Trend research for free with WebSearch (no vidIQ).
 - Write a short review in `log.md`: which formats/hooks/topics won, which
   failed, and what to try this week. Update `FORMATS.md` (promote winners,
   drop losers, add at least one new format to test).
