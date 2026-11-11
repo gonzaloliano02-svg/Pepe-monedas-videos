@@ -13,3 +13,4 @@
 - b · 12:00 · "Si la historia de la Tierra fuera UN día, llegamos a las 23:59:54 ⏰" · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=4734090690942617773
 - c · 18:00 · "¿La Gran Muralla se ve desde el espacio? MITO o REALIDAD 🚀" · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=3280901669322965265
 - Notes: Pixabay titles can be wrong (a "warehouse" clip was a cake; a "money" clip was a countdown) → always preview a frame before using a clip. Added `"fit": "contain"` for landscape clips whose subject would be cropped out. vidIQ credits used today: 0.
+- Comments: YouTube reply permission granted by the owner. First pass: 4 replies (7 comments in total; 1 already answered, 2 were our own). vidIQ credits: 9.
