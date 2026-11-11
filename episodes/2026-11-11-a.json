@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-11-a",
+  "format": "doc",
+  "title": "El día que se gasta MÁS dinero del planeta (y es hoy) 💸",
+  "description": "Hoy es 11.11, el Día del Soltero chino, el mayor festival de compras del mundo. En 2021, la última vez que Alibaba publicó la cifra, vendió 540.300 millones de yuanes (unos 84.500 millones de dólares) en 11 días. Más de 4 veces lo que vendió online EE. UU. en Black Friday y Cyber Monday juntos.\n\nFuentes: Alibaba vía SCMP (2021), Adobe Analytics (2021). Imágenes: Pixabay. Video creado con ayuda de IA.",
+  "tags": [
+    "11.11",
+    "dia del soltero",
+    "dinero",
+    "compras",
+    "curiosidades",
+    "escala"
+  ],
+  "credits": [
+    "Pixabay: Yasir1120, kjrajib, u_6lflka2vj7, 34168960, Mabelle-Elise, Janhom"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/09/26/233382_small.mp4",
+      "startFrom": 1,
+      "stamp": "Hoy se gasta *más dinero* que nunca",
+      "narration": "Hoy, once de noviembre, se celebra el mayor festival de compras del planeta. Y no, no es el Black Friday."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/01/11/327127_large.mp4",
+      "startFrom": 0,
+      "stamp": "*11.11* Día del Soltero",
+      "narration": "Es el Día del Soltero chino. Once días de ofertas que terminan hoy, el once del once."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/10/25/238098_small.mp4",
+      "startFrom": 0,
+      "stamp": "*84.500 millones* de dólares",
+      "narration": "La última vez que Alibaba dio la cifra vendió más de ochenta y cuatro mil millones de dólares. Más de cuatro veces el Black Friday y el Cyber Monday online de Estados Unidos juntos."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2023/03/06/153458-805688489_small.mp4",
+      "startFrom": 1,
+      "stamp": "*80.000 $* por segundo",
+      "narration": "Eso son más de ochenta mil dólares por segundo. Durante once días seguidos. Sin parar."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2022/08/06/126923-737187446_large.mp4",
+      "startFrom": 2,
+      "stamp": "Una torre de *90 km*",
+      "narration": "En billetes de cien dólares, haría una torre de más de noventa kilómetros. Diez veces el Everest."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/06/26/360754_small.mp4",
+      "startFrom": 2,
+      "stamp": "¿Y tú, has *comprado* algo hoy?",
+      "narration": "¿Y tú, has comprado algo hoy? Cuéntamelo en comentarios."
+    }
+  ]
+}
