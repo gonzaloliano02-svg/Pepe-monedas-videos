@@ -55,7 +55,7 @@ ones that are trending (check vidIQ rising keywords once a week).
 - [ ] Neuronas vs estrellas de la Vía Láctea
 
 ## Time
-- [ ] Si la historia de la Tierra fuera un solo día: los humanos aparecen a las 23:59:56
+- [x] Si la historia de la Tierra fuera un solo día (2026-11-11-b)
 - [ ] Cuánto tardaría la luz del Sol en llegar si apagaras el Sol (8 min)
 - [ ] Un millón de segundos vs mil millones de segundos (11 días vs 31 años)
 - [ ] Los dinosaurios vivieron más tiempo separados entre sí que de nosotros
@@ -79,3 +79,13 @@ ones that are trending (check vidIQ rising keywords once a week).
 - [ ] Cleopatra vivió más cerca del iPhone que de las pirámides
 - [ ] Oxford es más antigua que el Imperio azteca
 - [ ] Cuántas personas han vivido en toda la historia
+
+## Done outside the bank
+- [x] 11.11 Día del Soltero, dinero a escala (2026-11-11-a)
+- [x] Mito o realidad: la Gran Muralla desde el espacio (2026-11-11-c)
+
+## Myths to check (new format)
+- [ ] ¿Usamos solo el 10% del cerebro?
+- [ ] ¿Un rayo nunca cae dos veces en el mismo sitio?
+- [ ] ¿Los camellos guardan agua en la joroba?
+- [ ] ¿Se ve el Everest desde el espacio?

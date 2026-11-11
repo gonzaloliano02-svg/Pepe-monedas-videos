@@ -50,6 +50,10 @@ the variety rules; they are mandatory.
      balance (`vidiq_balance`) is under 10, don't search.
    - (Pexels' own API is unusable: new keys are paused.)
    - Prefer >= 1080 px wide; at most one low-res (360 px) clip per video.
+   - **Always preview one frame of each clip before using it**
+     (download with curl, `ffmpeg -ss 2 -i clip.mp4 -frames:v 1`): stock
+     titles are often wrong. For landscape clips whose subject would be
+     cropped out, set `"fit": "contain"` on the scene.
    - Add every useful new clip to `footage.md`.
    - Never reuse the same clip in two videos on the same day.
    - Record the source/photographers in `credits`.

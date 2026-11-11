@@ -21,3 +21,18 @@ clip you find (HD links first). Don't use the same clip twice on one day.
 | underwater sun rays | https://videos.pexels.com/video-files/33994574/14421299_360_640_60fps.mp4 | 360 | JUN HO LEE |
 | whale tail, ocean | https://videos.pexels.com/video-files/30987951/13247812_360_640_30fps.mp4 | 360 | silvia lusetti |
 | freediver | https://videos.pexels.com/video-files/26579203/11963872_360_640_30fps.mp4 | 360 | Dai Nogucih |
+| Earth from space, night lights (Pixabay) | https://cdn.pixabay.com/video/2024/02/21/201404-915375388_large.mp4 | 1080 (6 s) | Nerd_Nonsense |
+| Earth glowing, space (Pixabay) | https://cdn.pixabay.com/video/2022/08/06/126923-737187446_large.mp4 | 1080 | Mabelle-Elise |
+| ISS window view of Earth (Pixabay) | https://cdn.pixabay.com/video/2026/08/25/372471_large.mp4 | 1080 | ScienceStuff |
+| lava texture (Pixabay) | https://cdn.pixabay.com/video/2026/04/12/345912_small.mp4 | 1080 | olenchic |
+| tide pool shallow water (Pixabay) | https://cdn.pixabay.com/video/2022/10/04/133508-756991153_small.mp4 | 1080 | Marsel_beijing |
+| dinosaur silhouette, rain (landscape, use fit contain) | https://cdn.pixabay.com/video/2019/11/27/29555-375947261_large.mp4 | 1080 | Xhuzka_Beats |
+| city highway at dusk (Pixabay) | https://cdn.pixabay.com/video/2025/09/13/303794_medium.mp4 | 1080 | engrahmad2653 |
+| Shanghai skyline night (Pixabay) | https://cdn.pixabay.com/video/2026/01/11/327127_large.mp4 | 1080 | kjrajib |
+| falling 100 $ bills (Pixabay) | https://cdn.pixabay.com/video/2024/10/25/238098_small.mp4 | 1080 | u_6lflka2vj7 |
+| pile of 100 $ bills (landscape) | https://cdn.pixabay.com/video/2023/03/06/153458-805688489_small.mp4 | 1080 | 34168960 |
+| phone + laptop online shopping (Pixabay) | https://cdn.pixabay.com/video/2024/09/26/233382_small.mp4 | 1080 | Yasir1120 |
+| Great Wall, tower close (Pixabay) | https://cdn.pixabay.com/video/2024/02/04/199199-909835655_large.mp4 | 1080 | jianmeittup |
+| Great Wall aerial green (landscape) | https://cdn.pixabay.com/video/2024/02/03/199127-909835479_small.mp4 | 1080 | D-GM |
+| Great Wall golden hour (landscape, fit contain) | https://cdn.pixabay.com/video/2025/03/26/267748_small.mp4 | 1080 | TungArt7 |
+| astronaut + ISS over night Earth, CG (landscape) | https://cdn.pixabay.com/video/2023/11/17/189455-885804454_large.mp4 | 1080 | UniverseUnique |
