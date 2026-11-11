@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-11-c",
+  "format": "doc",
+  "title": "¿La Gran Muralla se ve desde el espacio? MITO o REALIDAD 🚀",
+  "description": "Mide más de 21.000 km de largo… pero solo unos 6 metros de ancho. Desde la Estación Espacial (unos 400 km) es como intentar ver una moneda de un euro a kilómetro y medio. Yang Liwei, el primer astronauta chino, no la vio. Solo aparece en fotos con teleobjetivo.\n\nFuentes: NASA, Yang Liwei (2003). Imágenes: Pixabay. Video creado con ayuda de IA.",
+  "tags": ["gran muralla china", "espacio", "mito o realidad", "astronautas", "curiosidades", "escala"],
+  "credits": ["Pixabay: jianmeittup, ScienceStuff, D-GM, TungArt7, UniverseUnique"],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/02/04/199199-909835655_large.mp4",
+      "startFrom": 0,
+      "stamp": "¿*Mito* o realidad?",
+      "narration": "Dicen que la Gran Muralla China es lo único hecho por el ser humano que se ve desde el espacio. ¿Mito o realidad?"
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/08/25/372471_large.mp4",
+      "startFrom": 0,
+      "stamp": "A *400 km* de altura",
+      "narration": "Desde la Estación Espacial, a unos cuatrocientos kilómetros, los astronautas la han buscado."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/02/03/199127-909835479_small.mp4",
+      "startFrom": 4,
+      "stamp": "Más de *21.000 km*",
+      "narration": "El problema no es el largo. Mide más de veintiún mil kilómetros. El problema es el ancho: unos seis metros."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/03/26/267748_small.mp4",
+      "startFrom": 1,
+      "fit": "contain",
+      "stamp": "Una moneda a *1,5 km*",
+      "narration": "Verla desde allí es como intentar ver una moneda de un euro a kilómetro y medio. Y del mismo color que el terreno."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2023/11/17/189455-885804454_large.mp4",
+      "startFrom": 1,
+      "fit": "contain",
+      "stamp": "Veredicto: *MITO*",
+      "narration": "Veredicto: mito. El primer astronauta chino lo confirmó: no la vio. Solo aparece en fotos con teleobjetivo."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/02/04/199199-909835655_large.mp4",
+      "startFrom": 3,
+      "stamp": "¿Qué mito *comprobamos*?",
+      "narration": "¿Qué otro mito quieres que comprobemos? Déjalo en comentarios."
+    }
+  ]
+}
