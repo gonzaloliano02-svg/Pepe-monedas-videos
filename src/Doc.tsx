@@ -27,6 +27,7 @@ export type DocScene = {
   // clip
   src?: string; // file under public/
   startFrom?: number; // seconds into the clip
+  fit?: "cover" | "contain"; // contain = whole landscape clip over a blurred fill
   // scale3d
   subject?: SubjectKind;
   size?: number;
@@ -58,6 +59,37 @@ const Clip: React.FC<{ scene: DocScene }> = ({ scene }) => {
           transform: `scale(${scale}) rotateY(${rot}deg) rotateX(${-rot / 2}deg)`,
         }}
       >
+        {scene.fit === "contain" ? (
+          <>
+            <OffthreadVideo
+              src={staticFile(scene.src!)}
+              muted
+              startFrom={Math.round((scene.startFrom ?? 0) * fps)}
+              style={{
+                position: "absolute",
+                inset: 0,
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                filter: "blur(40px) brightness(0.55) saturate(1.2)",
+                transform: "scale(1.15)",
+              }}
+            />
+            <OffthreadVideo
+              src={staticFile(scene.src!)}
+              muted
+              startFrom={Math.round((scene.startFrom ?? 0) * fps)}
+              style={{
+                position: "absolute",
+                left: 0,
+                width: "100%",
+                top: "50%",
+                transform: "translateY(-50%) scale(1.35)",
+                filter: "contrast(1.12) saturate(1.15) brightness(0.92)",
+              }}
+            />
+          </>
+        ) : (
         <OffthreadVideo
           src={staticFile(scene.src!)}
           muted
@@ -69,6 +101,7 @@ const Clip: React.FC<{ scene: DocScene }> = ({ scene }) => {
             filter: "contrast(1.12) saturate(1.15) brightness(0.92)",
           }}
         />
+        )}
       </AbsoluteFill>
     </AbsoluteFill>
   );

@@ -1,0 +1,62 @@
+{
+  "id": "2026-11-11-b",
+  "format": "doc",
+  "title": "Si la historia de la Tierra fuera UN día, llegamos a las 23:59:54 ⏰",
+  "description": "Comprimimos los 4.540 millones de años de la Tierra en 24 horas. La vida aparece de madrugada, los dinosaurios casi a las 11 de la noche… y los humanos, 6 segundos antes de medianoche. Tu vida entera: una milésima y media de segundo.\n\nCálculo con edades aproximadas: Tierra 4.540 Ma, primeras evidencias de vida más de 3.500 Ma, dinosaurios desde unos 230 Ma hasta 66 Ma, Homo sapiens unos 300.000 años. Imágenes: Pixabay. Video creado con ayuda de IA.",
+  "tags": [
+    "historia de la tierra",
+    "tiempo",
+    "dinosaurios",
+    "ciencia",
+    "curiosidades",
+    "escala"
+  ],
+  "credits": [
+    "Pixabay: Nerd_Nonsense, olenchic, Marsel_beijing, Xhuzka_Beats, engrahmad2653, kjrajib"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/02/21/201404-915375388_large.mp4",
+      "startFrom": 0,
+      "stamp": "La Tierra en *24 horas*",
+      "narration": "Si toda la historia de la Tierra cupiera en un solo día, ¿a qué hora crees que aparecemos nosotros?"
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/04/12/345912_small.mp4",
+      "startFrom": 0,
+      "stamp": "*00:00* Nace la Tierra",
+      "narration": "A medianoche nace la Tierra. Una bola de roca fundida."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2022/10/04/133508-756991153_small.mp4",
+      "startFrom": 1,
+      "stamp": "*05:30* Primera vida",
+      "narration": "Hacia las cinco y media de la madrugada aparece la primera vida. Microbios en el agua. Y durante casi todo el día, no hay nada más."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2019/11/27/29555-375947261_large.mp4",
+      "startFrom": 1,
+      "stamp": "*22:47* Dinosaurios",
+      "narration": "Los dinosaurios no llegan hasta las once menos cuarto de la noche. Y se extinguen a las doce menos veinte.",
+      "fit": "contain"
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/09/13/303794_medium.mp4",
+      "startFrom": 2,
+      "stamp": "*23:59:54* Humanos",
+      "narration": "¿Y nosotros? Los humanos modernos aparecen seis segundos antes de medianoche. Toda la historia escrita, en la última décima de segundo."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/02/21/201404-915375388_large.mp4",
+      "startFrom": 0,
+      "stamp": "Tu vida: *0,0015 s*",
+      "narration": "Y tu vida entera duraría una milésima y media de segundo. Así que aprovéchala."
+    }
+  ]
+}
