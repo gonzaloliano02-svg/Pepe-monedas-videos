@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-12-b",
+  "format": "doc",
+  "title": "¿Y si saltaras por un túnel que atraviesa la Tierra? 🕳️",
+  "description": "Un túnel recto de lado a lado: casi 13.000 km de caída, el núcleo a más de 5.000 °C y, sin aire que te frene, más de 28.000 km/h en el centro. Llegarías al otro lado en unos 40 minutos (desde España, a Nueva Zelanda). Lo malo: el agujero más profundo jamás hecho, el pozo de Kola, apenas pasa de 12 km.\n\nCálculo físico idealizado (sin rozamiento ni rotación). Imágenes: Pixabay. Video creado con ayuda de IA.",
+  "tags": ["que pasaria si", "tierra", "nucleo", "fisica", "curiosidades", "escala"],
+  "credits": ["Pixabay: Mabelle-Elise, tiburi, adzr, olenchic, KariKitt, doktorkleinmusic"],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2022/08/06/126923-737187446_large.mp4",
+      "startFrom": 0,
+      "stamp": "¿Y si cayeras *a través* de la Tierra?",
+      "narration": "¿Qué pasaría si cavaras un túnel que atraviesa la Tierra entera, y saltaras dentro?"
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2017/05/06/9005-216332135_large.mp4",
+      "startFrom": 1,
+      "stamp": "*12.742 km* de caída",
+      "narration": "Caerías casi trece mil kilómetros, de un lado al otro del planeta."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/10/22/384375_large.mp4",
+      "startFrom": 0,
+      "fit": "contain",
+      "stamp": "Núcleo: *5.000 °C*",
+      "narration": "A mitad de camino cruzarías el núcleo, a más de cinco mil grados. Casi tan caliente como la superficie del Sol."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/08/07/225335_large.mp4",
+      "startFrom": 0,
+      "stamp": "*28.000 km/h*",
+      "narration": "Sin aire que te frene, pasarías por el centro a más de veintiocho mil kilómetros por hora."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2023/10/02/183285-870515512_large.mp4",
+      "startFrom": 2,
+      "stamp": "Llegas en *40 min*",
+      "narration": "Y en unos cuarenta minutos asomarías la cabeza al otro lado. Si saltas desde España, en Nueva Zelanda."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/08/25/372589_small.mp4",
+      "startFrom": 0,
+      "stamp": "Lo más hondo: *12 km*",
+      "narration": "El problema: el agujero más profundo que hemos hecho nunca apenas pasa de doce kilómetros. ¿Qué pregunta loca resolvemos mañana?"
+    }
+  ]
+}
