@@ -98,9 +98,11 @@ the variety rules; they are mandatory.
    → `videos/<id>.mp4` (~5 min each). Check a frame sheet:
    `ffmpeg -i videos/<id>.mp4 -vf "fps=1/2.3,scale=216:-1,tile=7x2" -frames:v 1 build/sheet.png`
    and fix anything clipped, unreadable or off-topic before publishing.
-6. **Commit & push** to `main`: episode JSONs, MP4s, `topics.md` (mark
-   topics `[x]` with the episode id). Public URL of each video:
-   `https://raw.githubusercontent.com/gonzaloliano02-svg/pepe-monedas-videos/main/videos/<id>.mp4`
+6. **Publish media & commit:** `scripts/publish_media.sh videos/<id>.mp4`
+   puts the file on the `media` branch (today's files only) and prints its
+   public URL (`https://raw.githubusercontent.com/gonzaloliano02-svg/pepe-monedas-videos/media/<id>.mp4`).
+   Videos are NOT committed to `main` any more. Then commit & push to `main`
+   the episode JSONs and `topics.md` (mark topics `[x]` with the episode id).
 7. **Schedule in Metricool** (`createScheduledPost`), one post per video with
    providers `youtube` + `tiktok`:
    - slots: **10:00** (video a), **12:00** (video b) and **18:00** (video c),
@@ -115,6 +117,66 @@ the variety rules; they are mandatory.
    - `text`: description + 4–6 hashtags (#escalabrutal #curiosidades ...).
    - `autoPublish: true`.
 8. **Log** the result in `log.md` (date, ids, titles, Metricool planner URLs).
+
+## Long-form (2 videos per day, YouTube only) — owner's request 2026-11-12
+
+"Al menos dos vídeos diarios de al menos 10 minutos… en 2D… locutor de habla
+natural… del estilo de los que se están haciendo famosos… gráficos buenos,
+entretenidos, que parezcan currados… dale mimo… análisis diario."
+
+**Niche (from research, 2026-11-12):** 2D animated documentaries: real,
+dramatic stories (history, disasters, mysteries, extreme places, science
+events) told with tension and chapters — the fastest-growing faceless
+long-form genre, with high RPM (~$10–13) and proven Spanish demand
+(Memorias de Pez, Academia Play). Second slot: long-form versions of what
+works on Shorts (rankings / "¿Qué pasaría si…?" / escala), also in 2D.
+Re-evaluate with Windsor stats every Monday (views, average view %, CTR
+isn't available: judge thumbnails/titles by views in the first 48 h).
+
+**Daily:** `episodes/<date>-L1.json` (documentary) and `-L2.json`
+(ranking / what-if / escala), format `"story"`. Reference:
+`episodes/2026-11-13-L1.json`.
+
+**Script rules**
+- 10–12 min: **1.750–2.000 words** of narration (the voice speaks ~181 wpm;
+  each scene adds ~0.6 s). Check the word count before building.
+- Structure: cold open with the most shocking fact + a promise ("quédate
+  hasta el final porque…") → 5–6 chapters (`title` scene "Capítulo N") →
+  conclusion that ties back to the opening → CTA (suscríbete + comment
+  question). Open loops: tease what comes later.
+- Storytelling, not a list of facts: people, dates, places, sensory detail,
+  quotes, consequences, surprising links (Tambora → Frankenstein).
+- Facts must be real and well sourced; conservative numbers; say
+  "estimaciones", "se cree", "según…" when uncertain. Sources in the
+  description. No politics, no gore, nothing sensitive or recent tragedies.
+- Scenes of 6–14 s (25–40 words). Vary scene types constantly: never 3
+  `landscape` in a row; use `map` whenever places matter; 1–3 `stat`,
+  1–3 `quote`, 1–2 `compare`, 1 `timeline`, optional `footage` (Pixabay).
+- Every `landscape` gets 1–3 Twemoji props that illustrate the sentence,
+  with animation (walk, float, pop, rise, shake, fall, spin); different
+  `env` and `seed` from the previous scene.
+- Map country names must match world-atlas (`United States of America`,
+  `United Kingdom`, `China`, `Indonesia`, …).
+- `thumbnail`: 2–4 words, ONE emotion/curiosity hook, big emoji, env.
+- Title: ≤ 70 chars, curiosity + specificity (number/year/name), CAPS on
+  one word. Description: summary, chapter timestamps (from the props
+  durations), sources, "Mapas: Natural Earth. Ilustraciones: Twemoji
+  (CC-BY 4.0). Video creado con ayuda de IA."
+- Mimo: watch a frame sheet (`fps=1/12`) of the whole video and fix
+  anything ugly (overlaps, empty scenes, wrong emoji, unreadable text).
+
+**Build:** `python3 scripts/build_episode.py episodes/<id>.json` → video
+(≤ 95 MB) + `videos/<id>-thumb.jpg`. Render takes long (allow ~1 h each):
+build the Shorts first, then L1, then L2.
+
+**Publish:** `scripts/publish_media.sh videos/<id>.mp4 videos/<id>-thumb.jpg`,
+then Metricool `createScheduledPost` with provider `youtube` only,
+`youtubeData: {title, type: "video", privacy: "public", madeForKids: false,
+isAiGeneratedContent: false, category: "EDUCATION", tags}` and
+`videoThumbnailUrl` = the thumbnail URL. If Metricool rejects the thumbnail
+(channel not verified), schedule without it and tell the owner that
+verifying the channel (phone) enables custom thumbnails.
+Slots: **L1 16:00**, **L2 20:00** Europe/Madrid (if passed, next ≥ 30 min).
 
 ## Comments (every day, after scheduling)
 The owner asked me to handle comments fully, replying directly.
