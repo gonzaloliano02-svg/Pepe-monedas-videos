@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-12-a",
+  "format": "doc",
+  "title": "El tiburón blanco a su lado parece PEQUEÑO: el megalodón a escala 🦈",
+  "description": "El megalodón pudo medir unos 15 metros, más del doble que un tiburón blanco. Sus dientes superaban los 17 cm y cazaba ballenas: hay huesos fósiles de ballena con marcas de sus mordiscos. Se extinguió hace unos 3,6 millones de años.\n\nDatos aproximados de fuentes divulgativas (Natural History Museum, Smithsonian). Imágenes: Pixabay. Video creado con ayuda de IA.",
+  "tags": [
+    "megalodon",
+    "tiburon",
+    "tiburon blanco",
+    "oceano",
+    "curiosidades",
+    "escala"
+  ],
+  "credits": [
+    "Pixabay: PixelLabs, TonyDias7, ghasoub, makabera, doktorkleinmusic"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/07/26/293618_large.mp4",
+      "startFrom": 0,
+      "stamp": "El tiburón *más grande* de la historia",
+      "narration": "Existió un tiburón tan grande que, a su lado, el tiburón blanco parecería pequeño."
+    },
+    {
+      "type": "scale3d",
+      "subject": "shark",
+      "size": 15,
+      "env": "ocean",
+      "color": "#5d6c78",
+      "stamp": "Unos *15* metros",
+      "narration": "El megalodón pudo medir unos quince metros. Más largo que un autobús. Y tú, a su lado, eres este puntito amarillo."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/01/09/326788_small.mp4",
+      "startFrom": 0,
+      "stamp": "Tiburón blanco: *6 m*",
+      "narration": "El tiburón blanco, el mayor depredador actual, mide unos seis metros. El megalodón le sacaba más del doble."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/10/12/309451_small.mp4",
+      "startFrom": 0,
+      "stamp": "Dientes de *17 cm*",
+      "narration": "Sus dientes superaban los diecisiete centímetros. Casi como tu mano entera."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2022/04/16/114099-700074124_large.mp4",
+      "startFrom": 2,
+      "stamp": "Cazaba *ballenas*",
+      "narration": "Y no se conformaba con peces. Cazaba ballenas: hay huesos fósiles con las marcas de sus mordiscos.",
+      "fit": "contain"
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/04/02/344033_small.mp4",
+      "startFrom": 0,
+      "stamp": "¿Qué *monstruo* quieres ver?",
+      "narration": "Por suerte, desapareció hace unos tres millones y medio de años. ¿Qué otro monstruo quieres ver a escala?"
+    }
+  ]
+}

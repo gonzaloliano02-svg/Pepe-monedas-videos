@@ -81,7 +81,7 @@ export const Scale3D: React.FC<Scale3DProps> = ({
   // Long subjects (whales, buses) lie side-on with the nose beside the
   // person; tall/round subjects stand behind-right. The camera pulls back
   // until the whole subject fits the vertical frame.
-  const long = subject === "whale" || subject === "sperm-whale" || subject === "bus" || subject === "elephant";
+  const long = subject === "whale" || subject === "sperm-whale" || subject === "bus" || subject === "elephant" || subject === "shark";
   const yaw = 0;
   const isEle = subject === "elephant";
   const subjectPos: [number, number, number] = isEle

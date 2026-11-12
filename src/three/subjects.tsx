@@ -7,7 +7,8 @@ export type SubjectKind =
   | "bus"
   | "tower" // skyscraper / monument / tree: tall thing, size = height
   | "sphere" // planet, moon, ball: size = diameter
-  | "elephant"; // size = shoulder height
+  | "elephant" // size = shoulder height
+  | "shark"; // size = length
 
 const Mat: React.FC<{ color: string; rough?: number }> = ({ color, rough = 0.55 }) => (
   <meshStandardMaterial color={color} roughness={rough} flatShading />
@@ -197,6 +198,82 @@ const Elephant: React.FC<{ size: number; color: string; frame: number }> = ({ si
   );
 };
 
+const sharkProfile = () => {
+  const pts: THREE.Vector2[] = [];
+  const N = 40;
+  for (let i = 0; i <= N; i++) {
+    const u = i / N; // 0 = snout, 1 = tail
+    const r = u < 0.32 ? Math.sin((u / 0.32) * Math.PI / 2) ** 0.8 : Math.max(1 - Math.pow((u - 0.32) / 0.68, 1.3), 0.03);
+    pts.push(new THREE.Vector2(Math.max(r, 0.001), u));
+  }
+  return pts;
+};
+
+const Fin: React.FC<{ w: number; h: number; t: number; color: string; pos: [number, number, number]; rot: [number, number, number] }> = ({ w, h, t, color, pos, rot }) => {
+  const shape = React.useMemo(() => {
+    const sh = new THREE.Shape();
+    sh.moveTo(0, 0);
+    sh.quadraticCurveTo(w * 0.35, h * 0.6, w * 0.75, h);
+    sh.quadraticCurveTo(w * 0.8, h * 0.4, w, 0);
+    sh.lineTo(0, 0);
+    return sh;
+  }, [w, h]);
+  return (
+    <mesh castShadow position={pos} rotation={rot}>
+      <extrudeGeometry args={[shape, { depth: t, bevelEnabled: true, bevelSize: t * 0.4, bevelThickness: t * 0.4, bevelSegments: 2 }]} />
+      <meshStandardMaterial color={color} roughness={0.5} />
+    </mesh>
+  );
+};
+
+const Shark: React.FC<{ size: number; color: string; frame: number }> = ({ size, color, frame }) => {
+  const L = size;
+  const R = L * 0.085;
+  const swim = Math.sin(frame / 9);
+  const profile = React.useMemo(() => sharkProfile(), []);
+  return (
+    <group position={[0, R * 1.6, 0]} rotation={[0, swim * 0.03, 0]}>
+      <mesh castShadow rotation={[0, 0, -Math.PI / 2]} position={[-L / 2, 0, 0]} scale={[R, L, R * 0.85]}>
+        <latheGeometry args={[profile, 48]} />
+        <meshStandardMaterial color={color} roughness={0.45} />
+      </mesh>
+      {/* white belly */}
+      <mesh rotation={[0, 0, -Math.PI / 2]} position={[-L / 2 + L * 0.01, -R * 0.15, 0]} scale={[R * 0.95, L * 0.8, R * 0.82]}>
+        <latheGeometry args={[profile, 48, Math.PI * 0.7, Math.PI * 0.6]} />
+        <meshStandardMaterial color="#e8edf0" roughness={0.6} side={THREE.DoubleSide} />
+      </mesh>
+      {/* dorsal fin */}
+      <Fin w={L * 0.13} h={L * 0.12} t={L * 0.006} color={color} pos={[-L * 0.12, R * 0.8, -L * 0.003]} rot={[0, 0, 0]} />
+      {/* tail: upper and lower lobes */}
+      <group position={[L * 0.47, 0, 0]} rotation={[0, swim * 0.3, 0]}>
+        <Fin w={L * 0.1} h={L * 0.16} t={L * 0.005} color={color} pos={[-L * 0.04, 0, -L * 0.0025]} rot={[0, 0, -0.5]} />
+        <Fin w={L * 0.07} h={L * 0.09} t={L * 0.005} color={color} pos={[-L * 0.03, 0, -L * 0.0025]} rot={[Math.PI, 0, 0.6]} />
+      </group>
+      {/* pectoral fins */}
+      {[-1, 1].map((sd) => (
+        <mesh key={sd} castShadow position={[-L * 0.17, -R * 0.55, sd * R * 0.9]} rotation={[sd * 0.6, sd * 0.4, -0.5]} scale={[L * 0.08, L * 0.006, L * 0.035]}>
+          <sphereGeometry args={[1, 16, 8]} />
+          <meshStandardMaterial color={color} roughness={0.5} />
+        </mesh>
+      ))}
+      {/* eyes */}
+      {[-1, 1].map((sd) => (
+        <mesh key={sd} position={[-L * 0.4, R * 0.15, sd * R * 0.6]}>
+          <sphereGeometry args={[L * 0.005, 10, 10]} />
+          <meshStandardMaterial color="#050505" roughness={0.1} />
+        </mesh>
+      ))}
+      {/* gill slits */}
+      {[0, 1, 2, 3, 4].map((g) => [-1, 1].map((sd) => (
+        <mesh key={`${g}${sd}`} position={[-L * (0.3 - g * 0.018), -R * 0.05, sd * R * 0.8]} rotation={[0, 0, 0.15]}>
+          <boxGeometry args={[L * 0.003, R * 0.6, L * 0.002]} />
+          <meshStandardMaterial color="#2a3238" />
+        </mesh>
+      )))}
+    </group>
+  );
+};
+
 export const Subject: React.FC<{
   kind: SubjectKind;
   size: number;
@@ -214,6 +291,8 @@ export const Subject: React.FC<{
       return <Tower size={size} color={color ?? "#9fb3c8"} />;
     case "elephant":
       return <Elephant size={size} color={color ?? "#8a8580"} frame={frame} />;
+    case "shark":
+      return <Shark size={size} color={color ?? "#6b7a86"} frame={frame} />;
     case "sphere":
       return <Planet size={size} color={color ?? "#3ddcff"} frame={frame} />;
   }
