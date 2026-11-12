@@ -129,11 +129,99 @@ def make_music(seconds: float, out: Path, seed: int):
         wf.writeframes(data.tobytes())
 
 
+def make_long_music(seconds: float, out: Path, seed: int):
+    """Long-form bed: different sections (~70 s each) so it never feels looped."""
+    import tempfile
+    parts = []
+    t = 0.0
+    k = 0
+    tmp = Path(tempfile.mkdtemp(prefix="music-"))
+    while t < seconds + 2:
+        sec = min(72.0, seconds + 2 - t) if seconds + 2 - t > 20 else 20.0
+        f = tmp / f"m{k}.wav"
+        make_music(sec + 2, f, seed=seed + k * 101)
+        parts.append(f)
+        t += sec
+        k += 1
+    # crossfade sections together with ffmpeg
+    if len(parts) == 1:
+        parts[0].replace(out)
+        return
+    cmd = ["ffmpeg", "-v", "error", "-y"]
+    for f in parts:
+        cmd += ["-i", str(f)]
+    chain = ""
+    last = "[0:a]"
+    for i in range(1, len(parts)):
+        lab = f"[a{i}]"
+        chain += f"{last}[{i}:a]acrossfade=d=2:c1=tri:c2=tri{lab};"
+        last = lab
+    cmd += ["-filter_complex", chain.rstrip(";"), "-map", last, "-t", f"{seconds:.2f}", str(out)]
+    subprocess.run(cmd, check=True)
+
+
+STORY_MIN = {"title": 4.0, "landscape": 3.0, "map": 5.0, "stat": 3.5, "quote": 4.0, "compare": 4.0, "timeline": 6.0, "footage": 3.0}
+MAX_MB = 95  # GitHub refuses files over 100 MB
+
+
+def build_story(ep: dict, adir: Path) -> None:
+    """Long-form 2D video (format "story"), 1920x1080 @ 24 fps, plus thumbnail."""
+    eid = ep["id"]
+    fps = 24
+    total = 0
+    for i, sc in enumerate(ep["scenes"]):
+        if sc.get("src", "").startswith("http"):
+            clip = adir / f"clip{i}.mp4"
+            if not clip.exists():
+                subprocess.run(["curl", "-sSfL", "-o", str(clip), sc["src"]], check=True)
+            sc["src"] = f"episodes/{eid}/clip{i}.mp4"
+        wav = adir / f"s{i}.wav"
+        secs = tts(sc["narration"], wav)
+        sc["durationInFrames"] = int(math.ceil(max(secs + 0.6, STORY_MIN[sc["type"]]) * fps))
+        sc["audio"] = f"episodes/{eid}/s{i}.wav"
+        total += sc["durationInFrames"]
+    print(f"narration {total / fps / 60:.1f} min, {len(ep['scenes'])} scenes", flush=True)
+    make_long_music(total / fps, adir / "music.wav", seed=sum(map(ord, eid)))
+    ep["music"] = f"episodes/{eid}/music.wav"
+    props = ROOT / "build" / f"{eid}.props.json"
+    props.write_text(json.dumps(ep, ensure_ascii=False))
+    out = ROOT / "videos" / f"{eid}.mp4"
+    subprocess.run(
+        ["npx", "remotion", "render", "src/index.ts", "Story", str(out),
+         f"--props={props}", "--crf=24", "--concurrency=4", "--x264-preset=medium"],
+        cwd=ROOT, check=True,
+    )
+    mb = out.stat().st_size / 1e6
+    if mb > MAX_MB:  # re-encode to fit GitHub's limit
+        kbps = int(MAX_MB * 8000 / (total / fps) * 0.92) - 128
+        tmp = out.with_suffix(".tmp.mp4")
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(out), "-c:v", "libx264", "-b:v", f"{kbps}k",
+                        "-maxrate", f"{int(kbps * 1.4)}k", "-bufsize", f"{kbps * 2}k", "-preset", "medium",
+                        "-c:a", "aac", "-b:a", "128k", str(tmp)], check=True)
+        tmp.replace(out)
+    thumb_png = ROOT / "build" / f"{eid}-thumb.png"
+    subprocess.run(["npx", "remotion", "still", "src/index.ts", "StoryThumb", str(thumb_png), f"--props={props}"],
+                   cwd=ROOT, check=True)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(thumb_png), "-vf", "scale=1280:720", "-q:v", "3",
+                    str(ROOT / "videos" / f"{eid}-thumb.jpg")], check=True)
+    print(f"OK {out} {total / fps / 60:.1f} min {out.stat().st_size / 1e6:.0f} MB", flush=True)
+
+
 def main(path: str):
     ep = json.loads(Path(path).read_text())
     eid = ep["id"]
     adir = ROOT / "public" / "episodes" / eid
     adir.mkdir(parents=True, exist_ok=True)
+    (ROOT / "build").mkdir(exist_ok=True)
+    (ROOT / "videos").mkdir(exist_ok=True)
+    tw = ROOT / "public" / "twemoji"
+    if not tw.exists() or not any(tw.iterdir()):
+        tw.mkdir(parents=True, exist_ok=True)
+        for f in (ROOT / "node_modules" / "@twemoji" / "svg").glob("*.svg"):
+            (tw / f.name).write_bytes(f.read_bytes())
+    if ep.get("format") == "story":
+        build_story(ep, adir)
+        return
     doc = ep.get("format") == "doc"
     total = 0
     for i, sc in enumerate(ep["scenes"]):
