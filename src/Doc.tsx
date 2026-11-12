@@ -15,10 +15,11 @@ import {
 import { Audio } from "@remotion/media";
 import { C, FONT_BODY, FONT_DISPLAY, FONT_MONO, loadFonts } from "./theme";
 import { Scale3D } from "./three/Scale3D";
+import { Skyline3D, type SkylineItem } from "./three/Skyline3D";
 import type { SubjectKind } from "./three/subjects";
 
 export type DocScene = {
-  type: "clip" | "scale3d";
+  type: "clip" | "scale3d" | "skyline3d";
   narration: string;
   audio?: string;
   durationInFrames?: number;
@@ -33,6 +34,10 @@ export type DocScene = {
   size?: number;
   env?: "ocean" | "land" | "space";
   color?: string;
+  // skyline3d
+  items?: SkylineItem[];
+  focus?: number;
+  prevFocus?: number;
 };
 
 export type DocEpisode = {
@@ -239,6 +244,8 @@ const SceneView: React.FC<{ scene: DocScene; index: number }> = ({ scene, index 
       >
         {scene.type === "clip" ? (
           <Clip scene={scene} />
+        ) : scene.type === "skyline3d" ? (
+          <Skyline3D items={scene.items!} focus={scene.focus ?? 0} prevFocus={scene.prevFocus} />
         ) : (
           <Scale3D subject={scene.subject!} size={scene.size!} env={scene.env} color={scene.color} />
         )}

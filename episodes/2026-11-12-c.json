@@ -1,0 +1,178 @@
+{
+  "id": "2026-11-12-c",
+  "format": "doc",
+  "title": "Los 5 rascacielos más ALTOS del mundo (el nº1 es una locura) 🏙️",
+  "description": "Cuenta atrás de los rascacielos terminados más altos del planeta: Ping An (599 m), la Torre del Reloj de La Meca (601 m), la Torre de Shanghái (632 m), Merdeka 118 (679 m) y el Burj Khalifa (828 m). Y la Jeddah Tower, en obras, pretende superar el kilómetro.\n\nAlturas arquitectónicas según el CTBUH. Torres en 3D a escala. Imágenes: Pixabay. Video creado con ayuda de IA.",
+  "tags": [
+    "rascacielos",
+    "burj khalifa",
+    "edificios mas altos",
+    "ranking",
+    "curiosidades",
+    "escala"
+  ],
+  "credits": [
+    "Pixabay: engrahmad2653"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/08/12/296958_medium.mp4",
+      "startFrom": 0,
+      "stamp": "Los 5 rascacielos *más altos*",
+      "narration": "Estos son los cinco rascacielos más altos del mundo. Y el número uno es una auténtica locura."
+    },
+    {
+      "type": "skyline3d",
+      "items": [
+        {
+          "h": 599,
+          "shape": "taper"
+        },
+        {
+          "h": 601,
+          "shape": "block"
+        },
+        {
+          "h": 632,
+          "shape": "twist"
+        },
+        {
+          "h": 679,
+          "shape": "spire"
+        },
+        {
+          "h": 828,
+          "shape": "spire"
+        }
+      ],
+      "focus": 0,
+      "prevFocus": 0,
+      "stamp": "#5 Ping An · *599 m*",
+      "narration": "Número cinco: el Ping An de Shenzhen, en China. Quinientos noventa y nueve metros."
+    },
+    {
+      "type": "skyline3d",
+      "items": [
+        {
+          "h": 599,
+          "shape": "taper"
+        },
+        {
+          "h": 601,
+          "shape": "block"
+        },
+        {
+          "h": 632,
+          "shape": "twist"
+        },
+        {
+          "h": 679,
+          "shape": "spire"
+        },
+        {
+          "h": 828,
+          "shape": "spire"
+        }
+      ],
+      "focus": 1,
+      "prevFocus": 0,
+      "stamp": "#4 Torre del Reloj · *601 m*",
+      "narration": "Número cuatro: la Torre del Reloj de La Meca. Tiene el reloj más grande del mundo."
+    },
+    {
+      "type": "skyline3d",
+      "items": [
+        {
+          "h": 599,
+          "shape": "taper"
+        },
+        {
+          "h": 601,
+          "shape": "block"
+        },
+        {
+          "h": 632,
+          "shape": "twist"
+        },
+        {
+          "h": 679,
+          "shape": "spire"
+        },
+        {
+          "h": 828,
+          "shape": "spire"
+        }
+      ],
+      "focus": 2,
+      "prevFocus": 1,
+      "stamp": "#3 Shanghái · *632 m*",
+      "narration": "Número tres: la Torre de Shanghái. Seiscientos treinta y dos metros, y se retuerce como un tornillo."
+    },
+    {
+      "type": "skyline3d",
+      "items": [
+        {
+          "h": 599,
+          "shape": "taper"
+        },
+        {
+          "h": 601,
+          "shape": "block"
+        },
+        {
+          "h": 632,
+          "shape": "twist"
+        },
+        {
+          "h": 679,
+          "shape": "spire"
+        },
+        {
+          "h": 828,
+          "shape": "spire"
+        }
+      ],
+      "focus": 3,
+      "prevFocus": 2,
+      "stamp": "#2 Merdeka 118 · *679 m*",
+      "narration": "Número dos: Merdeka ciento dieciocho, en Kuala Lumpur. Seiscientos setenta y nueve metros."
+    },
+    {
+      "type": "skyline3d",
+      "items": [
+        {
+          "h": 599,
+          "shape": "taper"
+        },
+        {
+          "h": 601,
+          "shape": "block"
+        },
+        {
+          "h": 632,
+          "shape": "twist"
+        },
+        {
+          "h": 679,
+          "shape": "spire"
+        },
+        {
+          "h": 828,
+          "shape": "spire"
+        }
+      ],
+      "focus": 4,
+      "prevFocus": 3,
+      "stamp": "#1 Burj Khalifa · *828 m*",
+      "narration": "Y el número uno: el Burj Khalifa, en Dubái. Ochocientos veintiocho metros. Dos torres Eiffel y media, una encima de otra."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/08/22/299162_medium.mp4",
+      "startFrom": 0,
+      "stamp": "Próximo récord: *+1.000 m*",
+      "narration": "Pero en Arabia Saudí ya construyen una que pretende superar el kilómetro. ¿Te subirías hasta arriba?"
+    }
+  ]
+}

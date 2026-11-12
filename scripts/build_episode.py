@@ -144,7 +144,7 @@ def main(path: str):
             sc["src"] = f"episodes/{eid}/clip{i}.mp4"
         wav = adir / f"s{i}.wav"
         secs = tts(sc["narration"], wav)
-        minimum = {"hook": 2.2, "compare": 3.5, "stat": 3.0, "outro": 2.0, "clip": 2.5, "scale3d": 5.5}[sc["type"]]
+        minimum = {"hook": 2.2, "compare": 3.5, "stat": 3.0, "outro": 2.0, "clip": 2.5, "scale3d": 5.5, "skyline3d": 3.0}[sc["type"]]
         sc["durationInFrames"] = int(math.ceil(max(secs + 0.35, minimum) * FPS))
         sc["audio"] = f"episodes/{eid}/s{i}.wav"
         total += sc["durationInFrames"]
