@@ -96,7 +96,7 @@ const PropView: React.FC<{ p: Prop }> = ({ p }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
   const f = frame - (p.delay ?? 0) * fps;
-  const size = p.size ?? 180;
+  const size = (p.size ?? 180) * 1.55; // illustrations read better big on 16:9
   const s = spring({ frame: f, fps, config: { damping: 12, stiffness: 120 } });
   let x = p.x;
   let y = p.y;

@@ -514,14 +514,14 @@
    "text": "Un paisaje *gris*",
    "props": [
     {
-     "emoji": "🌫️",
+     "emoji": "☁️",
      "x": 30,
      "y": 60,
      "size": 220,
      "anim": "float"
     },
     {
-     "emoji": "🌫️",
+     "emoji": "☁️",
      "x": 70,
      "y": 55,
      "size": 220,

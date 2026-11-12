@@ -139,6 +139,34 @@ export const Landscape: React.FC<{ env: Env; seed?: string; drift?: number }> = 
             fill={`url(#sun-${env})`}
           />
         ) : null}
+        {["mountains", "sea", "desert", "forest", "ice", "city", "storm"].includes(env) ? (
+          // soft drifting clouds + a few birds so the sky never feels empty
+          <g opacity={env === "storm" ? 0.9 : 0.75}>
+            {Array.from({ length: 6 }).map((_, k) => {
+              const cx = ((k * 410 + frame * (0.4 + (k % 3) * 0.25) * drift + Math.abs(noise2D(seed + "c", k, 0)) * 300) % 2400) - 240;
+              const cy = 120 + (k % 3) * 90 + noise2D(seed + "cy", k, 1) * 40;
+              const sc = 0.8 + (k % 3) * 0.35;
+              const col = env === "storm" ? "#59616d" : env === "desert" ? "#ffe6c2" : "#ffffff";
+              return (
+                <g key={k} transform={`translate(${cx},${cy}) scale(${sc})`} opacity={0.55 + (k % 2) * 0.25}>
+                  <ellipse cx="0" cy="0" rx="120" ry="34" fill={col} />
+                  <ellipse cx="-50" cy="-18" rx="60" ry="40" fill={col} />
+                  <ellipse cx="35" cy="-26" rx="72" ry="48" fill={col} />
+                </g>
+              );
+            })}
+            {env !== "storm" && env !== "ice"
+              ? Array.from({ length: 5 }).map((_, k) => {
+                  const bx = ((k * 260 + frame * 2.2) % 2300) - 200;
+                  const by = 260 + k * 22 + Math.sin(frame / 10 + k) * 8;
+                  const flap = Math.sin(frame / 3 + k) * 8;
+                  return (
+                    <path key={"b" + k} d={`M${bx - 14},${by + flap} Q${bx - 6},${by - 6} ${bx},${by} Q${bx + 6},${by - 6} ${bx + 14},${by + flap}`} stroke="#2b2b2b" strokeWidth="3" fill="none" opacity="0.55" />
+                  );
+                })
+              : null}
+          </g>
+        ) : null}
         {env === "volcano" ? (
           <>
             {/* volcano cone + glow + smoke */}

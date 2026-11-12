@@ -199,6 +199,11 @@ def build_story(ep: dict, adir: Path) -> None:
                         "-maxrate", f"{int(kbps * 1.4)}k", "-bufsize", f"{kbps * 2}k", "-preset", "medium",
                         "-c:a", "aac", "-b:a", "128k", str(tmp)], check=True)
         tmp.replace(out)
+    # loudness to YouTube's reference (-14 LUFS); video stream copied untouched
+    tmp = out.with_suffix(".ln.mp4")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(out), "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
+                    "-c:a", "aac", "-b:a", "160k", str(tmp)], check=True)
+    tmp.replace(out)
     thumb_png = ROOT / "build" / f"{eid}-thumb.png"
     subprocess.run(["npx", "remotion", "still", "src/index.ts", "StoryThumb", str(thumb_png), f"--props={props}"],
                    cwd=ROOT, check=True)
