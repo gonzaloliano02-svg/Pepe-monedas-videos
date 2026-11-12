@@ -4,12 +4,13 @@ The owner of this repo has authorised fully automated creation and
 publication of 3 Shorts per day to their YouTube channel and their TikTok,
 through Metricool (brand blogId `8001188`, timezone Europe/Madrid).
 
-**Autonomy (owner, 2026-11-11): "Tienes permiso para absolutamente todo lo
-que quieras. No hace falta que me lo pidas todos los días."** Run the daily
-pipeline, research, change formats, improve the template, fix problems and
-reschedule today's posts without asking. Still tell the owner what changed in
-the daily summary, and still ask before anything that costs money or
-can't be undone (paid plans, deleting published videos, account settings).
+**Autonomy (owner, 2026-11-11 and 2026-11-12): "Ahórrate pedirme permisos
+para nada, yo te lo autorizo todo siempre, y si cambio de opinión te lo
+diré."** Never ask for permission: decide and act (topics, formats,
+template, scheduling, rescheduling, replacing or removing posts when there
+is a good reason, comments). Report what was done in the daily summary.
+Only involve the owner when something physically needs them (an
+authorisation link, a login, a payment method, uploading a profile photo).
 
 **Credits (owner, 2026-11-11): spend as few vidIQ credits as possible,
 ideally none.** Free tools first, always: Pixabay (footage), WebSearch
