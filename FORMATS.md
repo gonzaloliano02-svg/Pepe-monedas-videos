@@ -37,9 +37,11 @@ only animal sizes. Mix formats every day.
 | Récords del planeta | Extremes of nature | El rayo más largo registrado |
 | Historia a escala | Historical facts with surprising scale | Cleopatra está más cerca del iPhone que de las pirámides |
 
+## Tested (waiting for data)
+- **Mito o realidad** (2026-11-11-c, Gran Muralla)
+- **Ranking cuenta atrás** with the 3D skyline (2026-11-12-c, rascacielos)
+
 ## To test (experimental slot)
-- **Ranking cuenta atrás** (5 → 1, final reveal)
-- **Mito o realidad** (claim on screen, reveal with the number)
 - **Antes vs ahora** (how something changed in scale over time)
 - **Lo que pasa en 1 segundo en el mundo**
 - **Adivina cuál es más grande** (two options, pause, reveal)

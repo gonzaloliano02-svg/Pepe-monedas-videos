@@ -36,3 +36,15 @@ clip you find (HD links first). Don't use the same clip twice on one day.
 | Great Wall aerial green (landscape) | https://cdn.pixabay.com/video/2024/02/03/199127-909835479_small.mp4 | 1080 | D-GM |
 | Great Wall golden hour (landscape, fit contain) | https://cdn.pixabay.com/video/2025/03/26/267748_small.mp4 | 1080 | TungArt7 |
 | astronaut + ISS over night Earth, CG (landscape) | https://cdn.pixabay.com/video/2023/11/17/189455-885804454_large.mp4 | 1080 | UniverseUnique |
+| stormy dark ocean with lifebuoy (Pixabay) | https://cdn.pixabay.com/video/2025/07/26/293618_large.mp4 | 1080 | PixelLabs |
+| foggy dark ocean (Pixabay) | https://cdn.pixabay.com/video/2026/04/02/344033_small.mp4 | 1080 | doktorkleinmusic |
+| shark swimming, sun rays (Pixabay) | https://cdn.pixabay.com/video/2026/01/09/326788_small.mp4 | 1080 | TonyDias7 |
+| shark open jaws, CG (Pixabay) | https://cdn.pixabay.com/video/2025/10/12/309451_small.mp4 | 1080 | ghasoub |
+| sand tiger shark close, aquarium (landscape, fit contain) | https://cdn.pixabay.com/video/2022/04/16/114099-700074124_large.mp4 | 1080 | makabera |
+| subway tunnel moving (landscape) | https://cdn.pixabay.com/video/2017/05/06/9005-216332135_large.mp4 | 1080 | tiburi |
+| teal warp-speed tunnel (landscape) | https://cdn.pixabay.com/video/2024/08/07/225335_large.mp4 | 1080 | olenchic |
+| molten lava closeup (landscape, fit contain) | https://cdn.pixabay.com/video/2026/10/22/384375_large.mp4 | 1080 | adzr |
+| Wanaka tree, New Zealand (Pixabay) | https://cdn.pixabay.com/video/2023/10/02/183285-870515512_large.mp4 | 1080 | KariKitt |
+| tunnel boring drill, CG (Pixabay) | https://cdn.pixabay.com/video/2026/08/25/372589_small.mp4 | 1080 | doktorkleinmusic |
+| Burj Khalifa dusk skyline (Pixabay) | https://cdn.pixabay.com/video/2025/08/12/296958_medium.mp4 | 1080 | engrahmad2653 |
+| Burj Khalifa night skyline (Pixabay) | https://cdn.pixabay.com/video/2025/08/22/299162_medium.mp4 | 1080 | engrahmad2653 |

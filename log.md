@@ -14,3 +14,12 @@
 - c · 18:00 · "¿La Gran Muralla se ve desde el espacio? MITO o REALIDAD 🚀" · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=3280901669322965265
 - Notes: Pixabay titles can be wrong (a "warehouse" clip was a cake; a "money" clip was a countdown) → always preview a frame before using a clip. Added `"fit": "contain"` for landscape clips whose subject would be cropped out. vidIQ credits used today: 0.
 - Comments: YouTube reply permission granted by the owner. First pass: 4 replies (7 comments in total; 1 already answered, 2 were our own). vidIQ credits: 9.
+
+## 2026-11-12
+- Data (Windsor, free): the two 3D ocean-giant videos are the clear winners (ballena azul 1.253 views, cachalote 1.203; rest of channel mostly < 300). Elefante 276, Tierra en 24 h 191 (first day), 11.11 52, Gran Muralla 20 (only hours old).
+- Choice: a = Escala animal / ocean giant + 3D (back the winner, new angle: megalodón; no real orca footage existed, so not orca vs shark); b = ¿Qué pasaría si...? (túnel a través de la Tierra; España → Nueva Zelanda); c = experiment, new format "Ranking cuenta atrás" (5 rascacielos más altos) with a new 3D skyline scene, because no accurate footage of 4 of the 5 towers exists.
+- a · 10:00 · "El tiburón blanco a su lado parece PEQUEÑO: el megalodón a escala 🦈" · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-1162231720111488168
+- b · 12:00 · "¿Y si saltaras por un túnel que atraviesa la Tierra? 🕳️" · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=4815829084537571703
+- c · 18:00 · "Los 5 rascacielos más ALTOS del mundo (el nº1 es una locura) 🏙️" · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=4358440856254366511
+- New tools: 3D shark subject, 3D skyline (countdown) scene, scripts/preview.py (contact sheet of candidate clips).
+- Comments: no new viewer comments (count increases were our own replies). vidIQ credits used today: 0.

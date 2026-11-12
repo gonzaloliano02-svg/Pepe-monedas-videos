@@ -17,7 +17,7 @@ ones that are trending (check vidIQ rising keywords once a week).
 - [ ] Anaconda vs pitón reticulada vs autobús
 - [ ] Cocodrilo de agua salada: mordida vs león vs humano
 - [ ] Halcón peregrino: el animal más rápido vs avión, F1
-- [ ] Megalodón vs tiburón blanco vs autobús
+- [x] Megalodón vs tiburón blanco (2026-11-12-a)
 - [ ] Mantis marina: golpe comparado con una bala
 - [ ] Tardígrado: lo que aguanta (temperatura, radiación, presión)
 
@@ -62,7 +62,7 @@ ones that are trending (check vidIQ rising keywords once a week).
 
 ## What if (science-based, conservative)
 - [ ] ¿Y si la Tierra dejara de girar un segundo?
-- [ ] ¿Y si cayeras por un túnel que atraviesa la Tierra?
+- [x] ¿Y si cayeras por un túnel que atraviesa la Tierra? (2026-11-12-b)
 - [ ] ¿Y si la Luna estuviera tan cerca como la Estación Espacial?
 
 ## Places
@@ -89,3 +89,11 @@ ones that are trending (check vidIQ rising keywords once a week).
 - [ ] ¿Un rayo nunca cae dos veces en el mismo sitio?
 - [ ] ¿Los camellos guardan agua en la joroba?
 - [ ] ¿Se ve el Everest desde el espacio?
+- [x] Ranking: 5 rascacielos más altos (2026-11-12-c)
+
+## Ocean giants (current winners: keep new angles coming)
+- [ ] Calamar colosal: ojos del tamaño de un balón (3D: needs a squid subject)
+- [ ] Tiburón ballena: el pez más grande del mundo
+- [ ] Orca vs tiburón blanco (only if real orca footage appears)
+- [ ] La ballena de Groenlandia: puede vivir más de 200 años
+- [ ] Fosa de las Marianas: cuántos Everest caben
