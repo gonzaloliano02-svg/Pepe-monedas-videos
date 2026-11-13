@@ -41,3 +41,4 @@
 - L1 · 16:00 · "1816: el año en que el VERANO no llegó (y la culpa fue de un volcán)" · YouTube · RE-VOZ 2A (borrador antiguo actualizado, capítulos recalculados) · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-1208998648163515602
 - 17:15 · Usuario: bajar música. Doc 0.45→0.25, Story 0.22→0.12. Re-render c (18:00) y L2 (20:00) con música baja.
 - c actualizado a c-v2 (música baja) · id 427174340
+- L2 · 20:00 · "¿Qué pasaría si la LUNA desapareciera esta noche? 🌕" · YouTube · 10:15 · voz 2A · música 0.12 · +3 escenas (CERN, plancton ártico, Medio Otoño) para pasar de 10 min · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-5901062988801686960
