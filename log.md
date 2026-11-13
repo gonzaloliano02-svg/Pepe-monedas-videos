@@ -23,3 +23,8 @@
 - c · 18:00 · "Los 5 rascacielos más ALTOS del mundo (el nº1 es una locura) 🏙️" · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=4358440856254366511
 - New tools: 3D shark subject, 3D skyline (countdown) scene, scripts/preview.py (contact sheet of candidate clips).
 - Comments: no new viewer comments (count increases were our own replies). vidIQ credits used today: 0.
+
+## 2026-11-13 (madrugada) — primer vídeo largo
+- L1 "1816: el año en que el VERANO no llegó" (Tambora), 10,5 min, 60 escenas, -14,3 LUFS, 90 MB.
+- Programado en Metricool para 2026-11-13 16:00 (YouTube, vídeo, id 426577299) con miniatura personalizada (aceptada).
+- Capítulos corregidos con las duraciones reales del render.

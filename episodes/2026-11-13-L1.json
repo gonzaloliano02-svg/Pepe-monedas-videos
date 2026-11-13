@@ -1,1274 +1,1274 @@
 {
- "id": "2026-11-13-L1",
- "format": "story",
- "title": "1816: el año en que el VERANO no llegó (y la culpa fue de un volcán)",
- "description": "En 1815 el volcán Tambora (Indonesia) protagonizó la erupción más potente de la historia escrita. Un año después, nevó en junio en Estados Unidos, Europa pasó hambre... y nacieron Frankenstein y el antepasado de la bicicleta.\n\nCapítulos:\n00:00 Introducción\n01:00 La montaña\n02:15 La explosión\n04:30 Lo que quedó\n05:45 El año sin verano\n08:00 Monstruos y bicicletas\n10:00 ¿Podría volver a pasar?\n\nFuentes: Smithsonian Global Volcanism Program, Oppenheimer (2003) 'Climatic, environmental and human consequences of the largest known historic eruption', Wood (2014) 'Tambora: The Eruption That Changed the World'. Cifras aproximadas.\nMapas: Natural Earth. Ilustraciones: Twemoji (CC-BY 4.0). Video creado con ayuda de IA.",
- "tags": [
-  "tambora",
-  "año sin verano",
-  "1816",
-  "volcanes",
-  "historia",
-  "frankenstein",
-  "documental",
-  "curiosidades"
- ],
- "thumbnail": {
-  "text": "El año sin *verano*",
-  "emoji": "🌋",
-  "env": "volcano",
-  "kicker": "1816"
- },
- "scenes": [
-  {
-   "type": "title",
-   "kicker": "Escala Brutal · Historias",
-   "text": "El año en que el *verano* no llegó",
-   "env": "volcano",
-   "emoji": "🌋",
-   "narration": "En el verano de mil ochocientos dieciséis nevó en junio en Estados Unidos. Las cosechas de media Europa se pudrieron bajo una lluvia que no paraba. Y en Suiza, una chica de dieciocho años, encerrada en casa por el mal tiempo, empezó a escribir la historia de un monstruo."
+  "id": "2026-11-13-L1",
+  "format": "story",
+  "title": "1816: el año en que el VERANO no llegó (y la culpa fue de un volcán)",
+  "description": "En 1815 el volcán Tambora (Indonesia) protagonizó la erupción más potente de la historia escrita. Un año después, nevó en junio en Estados Unidos, Europa pasó hambre... y nacieron Frankenstein y el antepasado de la bicicleta.\n\nCapítulos:\n00:00 Introducción\n00:48 La montaña\n01:50 La explosión\n03:55 Lo que quedó\n04:55 El año sin verano\n07:21 Monstruos y bicicletas\n08:56 ¿Podría volver a pasar?\n\nFuentes: Smithsonian Global Volcanism Program, Oppenheimer (2003) 'Climatic, environmental and human consequences of the largest known historic eruption', Wood (2014) 'Tambora: The Eruption That Changed the World'. Cifras aproximadas.\nMapas: Natural Earth. Ilustraciones: Twemoji (CC-BY 4.0). Video creado con ayuda de IA.",
+  "tags": [
+    "tambora",
+    "año sin verano",
+    "1816",
+    "volcanes",
+    "historia",
+    "frankenstein",
+    "documental",
+    "curiosidades"
+  ],
+  "thumbnail": {
+    "text": "El año sin *verano*",
+    "emoji": "🌋",
+    "env": "volcano",
+    "kicker": "1816"
   },
-  {
-   "type": "landscape",
-   "env": "ice",
-   "text": "Nieve en *junio*",
-   "props": [
+  "scenes": [
     {
-     "emoji": "🌾",
-     "x": 30,
-     "y": 92,
-     "size": 170,
-     "anim": "shake"
+      "type": "title",
+      "kicker": "Escala Brutal · Historias",
+      "text": "El año en que el *verano* no llegó",
+      "env": "volcano",
+      "emoji": "🌋",
+      "narration": "En el verano de mil ochocientos dieciséis nevó en junio en Estados Unidos. Las cosechas de media Europa se pudrieron bajo una lluvia que no paraba. Y en Suiza, una chica de dieciocho años, encerrada en casa por el mal tiempo, empezó a escribir la historia de un monstruo."
     },
     {
-     "emoji": "❄️",
-     "x": 65,
-     "y": 40,
-     "size": 140,
-     "anim": "float"
+      "type": "landscape",
+      "env": "ice",
+      "text": "Nieve en *junio*",
+      "props": [
+        {
+          "emoji": "🌾",
+          "x": 30,
+          "y": 92,
+          "size": 170,
+          "anim": "shake"
+        },
+        {
+          "emoji": "❄️",
+          "x": 65,
+          "y": 40,
+          "size": 140,
+          "anim": "float"
+        },
+        {
+          "emoji": "🥶",
+          "x": 50,
+          "y": 90,
+          "size": 200,
+          "anim": "pop",
+          "delay": 1
+        }
+      ],
+      "narration": "Nadie entendía lo que estaba pasando. Unos culpaban a las manchas solares, otros al fin del mundo. La verdadera causa estaba a doce mil kilómetros de distancia, en una isla de la que casi nadie en Europa había oído hablar."
     },
     {
-     "emoji": "🥶",
-     "x": 50,
-     "y": 90,
-     "size": 200,
-     "anim": "pop",
-     "delay": 1
-    }
-   ],
-   "narration": "Nadie entendía lo que estaba pasando. Unos culpaban a las manchas solares, otros al fin del mundo. La verdadera causa estaba a doce mil kilómetros de distancia, en una isla de la que casi nadie en Europa había oído hablar."
-  },
-  {
-   "type": "map",
-   "kicker": "Indonesia",
-   "text": "La isla de *Sumbawa*",
-   "to": {
-    "lon": 118,
-    "lat": -8,
-    "zoom": 5.5
-   },
-   "highlight": [
-    "Indonesia"
-   ],
-   "markers": [
-    {
-     "lon": 118.0,
-     "lat": -8.25,
-     "label": "Tambora",
-     "emoji": "🌋"
-    }
-   ],
-   "narration": "Esta es la historia del volcán Tambora. La erupción más potente de toda la historia escrita. Una explosión tan brutal que cambió el clima del planeta entero durante más de un año.",
-   "from": {
-    "lon": 10,
-    "lat": 20,
-    "zoom": 1
-   }
-  },
-  {
-   "type": "landscape",
-   "env": "night",
-   "text": "Quédate hasta el *final*",
-   "props": [
-    {
-     "emoji": "🧟",
-     "x": 35,
-     "y": 90,
-     "size": 200,
-     "anim": "rise"
+      "type": "map",
+      "kicker": "Indonesia",
+      "text": "La isla de *Sumbawa*",
+      "to": {
+        "lon": 118,
+        "lat": -8,
+        "zoom": 5.5
+      },
+      "highlight": [
+        "Indonesia"
+      ],
+      "markers": [
+        {
+          "lon": 118.0,
+          "lat": -8.25,
+          "label": "Tambora",
+          "emoji": "🌋"
+        }
+      ],
+      "narration": "Esta es la historia del volcán Tambora. La erupción más potente de toda la historia escrita. Una explosión tan brutal que cambió el clima del planeta entero durante más de un año.",
+      "from": {
+        "lon": 10,
+        "lat": 20,
+        "zoom": 1
+      }
     },
     {
-     "emoji": "🚲",
-     "x": 65,
-     "y": 90,
-     "size": 200,
-     "anim": "rise",
-     "delay": 0.6
-    }
-   ],
-   "narration": "Y quédate hasta el final, porque de esta catástrofe nacieron dos cosas que seguro conoces: el monstruo más famoso de la literatura, y el abuelo de la bicicleta."
-  },
-  {
-   "type": "title",
-   "kicker": "Capítulo 1",
-   "text": "La montaña",
-   "env": "mountains",
-   "seed": "m1",
-   "emoji": "⛰️",
-   "narration": "Capítulo uno. La montaña."
-  },
-  {
-   "type": "landscape",
-   "env": "forest",
-   "seed": "f1",
-   "text": "Sumbawa, *1815*",
-   "props": [
-    {
-     "emoji": "🛖",
-     "x": 30,
-     "y": 90,
-     "size": 200
+      "type": "landscape",
+      "env": "night",
+      "text": "Quédate hasta el *final*",
+      "props": [
+        {
+          "emoji": "🧟",
+          "x": 35,
+          "y": 90,
+          "size": 200,
+          "anim": "rise"
+        },
+        {
+          "emoji": "🚲",
+          "x": 65,
+          "y": 90,
+          "size": 200,
+          "anim": "rise",
+          "delay": 0.6
+        }
+      ],
+      "narration": "Y quédate hasta el final, porque de esta catástrofe nacieron dos cosas que seguro conoces: el monstruo más famoso de la literatura, y el abuelo de la bicicleta."
     },
     {
-     "emoji": "🛖",
-     "x": 44,
-     "y": 92,
-     "size": 160
+      "type": "title",
+      "kicker": "Capítulo 1",
+      "text": "La montaña",
+      "env": "mountains",
+      "seed": "m1",
+      "emoji": "⛰️",
+      "narration": "Capítulo uno. La montaña."
     },
     {
-     "emoji": "🐃",
-     "x": 70,
-     "y": 92,
-     "size": 180,
-     "anim": "walk",
-     "to": [
-      60,
-      92
-     ],
-     "flip": true
-    }
-   ],
-   "narration": "A principios del siglo diecinueve, Sumbawa era una isla tranquila del archipiélago indonesio. Arroz, búfalos, caballos y pequeños reinos que comerciaban con los barcos que pasaban."
-  },
-  {
-   "type": "landscape",
-   "env": "mountains",
-   "seed": "m2",
-   "text": "Un gigante *dormido*",
-   "props": [
-    {
-     "emoji": "🗻",
-     "x": 50,
-     "y": 85,
-     "size": 520,
-     "anim": "rise"
-    }
-   ],
-   "narration": "Sobre todos ellos se alzaba el Tambora, una montaña de más de cuatro mil metros. Más alta que cualquier pico de los Alpes. Llevaba siglos dormida, y nadie la consideraba un peligro."
-  },
-  {
-   "type": "landscape",
-   "env": "forest",
-   "seed": "f2",
-   "text": "El reino de *Tambora*",
-   "props": [
-    {
-     "emoji": "👑",
-     "x": 50,
-     "y": 60,
-     "size": 220,
-     "anim": "float"
+      "type": "landscape",
+      "env": "forest",
+      "seed": "f1",
+      "text": "Sumbawa, *1815*",
+      "props": [
+        {
+          "emoji": "🛖",
+          "x": 30,
+          "y": 90,
+          "size": 200
+        },
+        {
+          "emoji": "🛖",
+          "x": 44,
+          "y": 92,
+          "size": 160
+        },
+        {
+          "emoji": "🐃",
+          "x": 70,
+          "y": 92,
+          "size": 180,
+          "anim": "walk",
+          "to": [
+            60,
+            92
+          ],
+          "flip": true
+        }
+      ],
+      "narration": "A principios del siglo diecinueve, Sumbawa era una isla tranquila del archipiélago indonesio. Arroz, búfalos, caballos y pequeños reinos que comerciaban con los barcos que pasaban."
     },
     {
-     "emoji": "🧑‍🌾",
-     "x": 30,
-     "y": 92,
-     "size": 170
+      "type": "landscape",
+      "env": "mountains",
+      "seed": "m2",
+      "text": "Un gigante *dormido*",
+      "props": [
+        {
+          "emoji": "🗻",
+          "x": 50,
+          "y": 85,
+          "size": 520,
+          "anim": "rise"
+        }
+      ],
+      "narration": "Sobre todos ellos se alzaba el Tambora, una montaña de más de cuatro mil metros. Más alta que cualquier pico de los Alpes. Llevaba siglos dormida, y nadie la consideraba un peligro."
     },
     {
-     "emoji": "🧕",
-     "x": 70,
-     "y": 92,
-     "size": 170
-    }
-   ],
-   "narration": "A sus pies vivía un pequeño reino que llevaba el mismo nombre que el volcán. Tenía su propio sultán, su propio comercio de caballos y miel, y hasta su propia lengua, distinta a todas las de alrededor."
-  },
-  {
-   "type": "landscape",
-   "env": "mountains",
-   "seed": "m3",
-   "text": "Los *avisos*",
-   "props": [
-    {
-     "emoji": "🗻",
-     "x": 55,
-     "y": 86,
-     "size": 460
+      "type": "landscape",
+      "env": "forest",
+      "seed": "f2",
+      "text": "El reino de *Tambora*",
+      "props": [
+        {
+          "emoji": "👑",
+          "x": 50,
+          "y": 60,
+          "size": 220,
+          "anim": "float"
+        },
+        {
+          "emoji": "🧑‍🌾",
+          "x": 30,
+          "y": 92,
+          "size": 170
+        },
+        {
+          "emoji": "🧕",
+          "x": 70,
+          "y": 92,
+          "size": 170
+        }
+      ],
+      "narration": "A sus pies vivía un pequeño reino que llevaba el mismo nombre que el volcán. Tenía su propio sultán, su propio comercio de caballos y miel, y hasta su propia lengua, distinta a todas las de alrededor."
     },
     {
-     "emoji": "💨",
-     "x": 57,
-     "y": 42,
-     "size": 160,
-     "anim": "float"
-    }
-   ],
-   "narration": "En mil ochocientos doce, la montaña empezó a rugir. Pequeños temblores, nubes de vapor saliendo de la cima. Durante tres años, el Tambora fue avisando. Pero nadie sabía leer aquellas señales."
-  },
-  {
-   "type": "landscape",
-   "env": "sea",
-   "seed": "se1",
-   "text": "Un mar lleno de *barcos*",
-   "props": [
-    {
-     "emoji": "⛵",
-     "x": 25,
-     "y": 82,
-     "size": 200,
-     "anim": "walk",
-     "to": [
-      45,
-      82
-     ]
+      "type": "landscape",
+      "env": "mountains",
+      "seed": "m3",
+      "text": "Los *avisos*",
+      "props": [
+        {
+          "emoji": "🗻",
+          "x": 55,
+          "y": 86,
+          "size": 460
+        },
+        {
+          "emoji": "💨",
+          "x": 57,
+          "y": 42,
+          "size": 160,
+          "anim": "float"
+        }
+      ],
+      "narration": "En mil ochocientos doce, la montaña empezó a rugir. Pequeños temblores, nubes de vapor saliendo de la cima. Durante tres años, el Tambora fue avisando. Pero nadie sabía leer aquellas señales."
     },
     {
-     "emoji": "🚢",
-     "x": 70,
-     "y": 84,
-     "size": 240,
-     "anim": "float"
-    }
-   ],
-   "narration": "Por aquellas aguas pasaban barcos británicos, holandeses y comerciantes de toda Asia. Gracias a sus cuadernos de bitácora y a las cartas de los funcionarios coloniales hoy sabemos, casi hora a hora, lo que ocurrió en los días siguientes."
-  },
-  {
-   "type": "title",
-   "kicker": "Capítulo 2",
-   "text": "La *explosión*",
-   "env": "volcano",
-   "seed": "v1",
-   "emoji": "💥",
-   "narration": "Capítulo dos. La explosión."
-  },
-  {
-   "type": "landscape",
-   "env": "volcano",
-   "seed": "v2",
-   "text": "5 de abril de *1815*",
-   "props": [
-    {
-     "emoji": "💥",
-     "x": 48,
-     "y": 38,
-     "size": 260,
-     "anim": "pop"
-    }
-   ],
-   "narration": "El cinco de abril de mil ochocientos quince, el volcán despertó de golpe. Una primera explosión lanzó una columna de ceniza de más de veinticinco kilómetros de altura. Pero solo era el aviso."
-  },
-  {
-   "type": "map",
-   "kicker": "Java",
-   "text": "¿*Cañonazos*?",
-   "to": {
-    "lon": 110,
-    "lat": -7,
-    "zoom": 4.2
-   },
-   "markers": [
-    {
-     "lon": 118.0,
-     "lat": -8.25,
-     "emoji": "🌋"
+      "type": "landscape",
+      "env": "sea",
+      "seed": "se1",
+      "text": "Un mar lleno de *barcos*",
+      "props": [
+        {
+          "emoji": "⛵",
+          "x": 25,
+          "y": 82,
+          "size": 200,
+          "anim": "walk",
+          "to": [
+            45,
+            82
+          ]
+        },
+        {
+          "emoji": "🚢",
+          "x": 70,
+          "y": 84,
+          "size": 240,
+          "anim": "float"
+        }
+      ],
+      "narration": "Por aquellas aguas pasaban barcos británicos, holandeses y comerciantes de toda Asia. Gracias a sus cuadernos de bitácora y a las cartas de los funcionarios coloniales hoy sabemos, casi hora a hora, lo que ocurrió en los días siguientes."
     },
     {
-     "lon": 106.8,
-     "lat": -6.2,
-     "label": "Batavia",
-     "emoji": "💂"
-    }
-   ],
-   "routes": [
-    {
-     "from": [
-      118.0,
-      -8.25
-     ],
-     "to": [
-      106.8,
-      -6.2
-     ],
-     "color": "#e8a33d"
-    }
-   ],
-   "narration": "Los estallidos se oyeron a cientos de kilómetros. En la isla de Java, los soldados británicos creyeron que eran cañonazos de un barco atacado por piratas, y enviaron tropas a buscarlo. No encontraron a nadie.",
-   "from": {
-    "lon": 112,
-    "lat": -7,
-    "zoom": 5
-   }
-  },
-  {
-   "type": "landscape",
-   "env": "volcano",
-   "seed": "v3",
-   "text": "10 de abril: *el clímax*",
-   "props": [
-    {
-     "emoji": "🌋",
-     "x": 50,
-     "y": 80,
-     "size": 480,
-     "anim": "shake"
+      "type": "title",
+      "kicker": "Capítulo 2",
+      "text": "La *explosión*",
+      "env": "volcano",
+      "seed": "v1",
+      "emoji": "💥",
+      "narration": "Capítulo dos. La explosión."
     },
     {
-     "emoji": "🔥",
-     "x": 38,
-     "y": 60,
-     "size": 140,
-     "anim": "float"
+      "type": "landscape",
+      "env": "volcano",
+      "seed": "v2",
+      "text": "5 de abril de *1815*",
+      "props": [
+        {
+          "emoji": "💥",
+          "x": 48,
+          "y": 38,
+          "size": 260,
+          "anim": "pop"
+        }
+      ],
+      "narration": "El cinco de abril de mil ochocientos quince, el volcán despertó de golpe. Una primera explosión lanzó una columna de ceniza de más de veinticinco kilómetros de altura. Pero solo era el aviso."
     },
     {
-     "emoji": "🔥",
-     "x": 62,
-     "y": 58,
-     "size": 140,
-     "anim": "float"
-    }
-   ],
-   "narration": "Cinco días después llegó lo peor. La noche del diez de abril, la montaña entera explotó. Tres columnas de fuego salieron de la cima y se unieron en una sola. Testigos contaron que la montaña parecía un cuerpo de fuego líquido."
-  },
-  {
-   "type": "quote",
-   "env": "volcano",
-   "seed": "v7",
-   "text": "La montaña entera parecía un cuerpo de fuego líquido",
-   "author": "Relato del rajá de Sanggar, superviviente",
-   "emoji": "👳",
-   "narration": "Uno de los pocos supervivientes cercanos, el rajá de Sanggar, contó que vio cómo las llamas cubrían toda la montaña y cómo caían piedras del cielo, algunas del tamaño de un puño, durante horas."
-  },
-  {
-   "type": "stat",
-   "env": "volcano",
-   "seed": "v4",
-   "value": 2000,
-   "suffix": " km",
-   "emoji": "👂",
-   "label": "distancia a la que se *oyeron* las explosiones",
-   "narration": "Las explosiones se oyeron a más de dos mil kilómetros. Es como si un estruendo en Madrid se escuchara en Moscú."
-  },
-  {
-   "type": "compare",
-   "env": "mountains",
-   "seed": "m4",
-   "text": "Material *expulsado*",
-   "items": [
-    {
-     "emoji": "🗻",
-     "label": "Vesubio (año 79)",
-     "value": 3,
-     "display": "~3 km³"
+      "type": "map",
+      "kicker": "Java",
+      "text": "¿*Cañonazos*?",
+      "to": {
+        "lon": 110,
+        "lat": -7,
+        "zoom": 4.2
+      },
+      "markers": [
+        {
+          "lon": 118.0,
+          "lat": -8.25,
+          "emoji": "🌋"
+        },
+        {
+          "lon": 106.8,
+          "lat": -6.2,
+          "label": "Batavia",
+          "emoji": "💂"
+        }
+      ],
+      "routes": [
+        {
+          "from": [
+            118.0,
+            -8.25
+          ],
+          "to": [
+            106.8,
+            -6.2
+          ],
+          "color": "#e8a33d"
+        }
+      ],
+      "narration": "Los estallidos se oyeron a cientos de kilómetros. En la isla de Java, los soldados británicos creyeron que eran cañonazos de un barco atacado por piratas, y enviaron tropas a buscarlo. No encontraron a nadie.",
+      "from": {
+        "lon": 112,
+        "lat": -7,
+        "zoom": 5
+      }
     },
     {
-     "emoji": "🌋",
-     "label": "Tambora (1815)",
-     "value": 150,
-     "display": "~150 km³"
-    }
-   ],
-   "narration": "El Tambora escupió unos ciento cincuenta kilómetros cúbicos de roca y ceniza. El Vesubio, el volcán que sepultó Pompeya, expulsó unos tres. Cincuenta veces menos."
-  },
-  {
-   "type": "landscape",
-   "env": "storm",
-   "seed": "s1",
-   "text": "Torbellinos de *fuego*",
-   "props": [
-    {
-     "emoji": "🌪️",
-     "x": 40,
-     "y": 85,
-     "size": 260,
-     "anim": "shake"
+      "type": "landscape",
+      "env": "volcano",
+      "seed": "v3",
+      "text": "10 de abril: *el clímax*",
+      "props": [
+        {
+          "emoji": "🌋",
+          "x": 50,
+          "y": 80,
+          "size": 480,
+          "anim": "shake"
+        },
+        {
+          "emoji": "🔥",
+          "x": 38,
+          "y": 60,
+          "size": 140,
+          "anim": "float"
+        },
+        {
+          "emoji": "🔥",
+          "x": 62,
+          "y": 58,
+          "size": 140,
+          "anim": "float"
+        }
+      ],
+      "narration": "Cinco días después llegó lo peor. La noche del diez de abril, la montaña entera explotó. Tres columnas de fuego salieron de la cima y se unieron en una sola. Testigos contaron que la montaña parecía un cuerpo de fuego líquido."
     },
     {
-     "emoji": "🏚️",
-     "x": 65,
-     "y": 92,
-     "size": 180,
-     "anim": "shake"
-    }
-   ],
-   "narration": "Ríos de roca ardiente bajaron por las laderas a toda velocidad y llegaron hasta el mar. Se formaron torbellinos que arrancaban árboles de raíz y levantaban casas enteras por los aires."
-  },
-  {
-   "type": "landscape",
-   "env": "sea",
-   "seed": "se2",
-   "text": "Un *tsunami*",
-   "props": [
-    {
-     "emoji": "🌊",
-     "x": 50,
-     "y": 88,
-     "size": 420,
-     "anim": "rise"
+      "type": "quote",
+      "env": "volcano",
+      "seed": "v7",
+      "text": "La montaña entera parecía un cuerpo de fuego líquido",
+      "author": "Relato del rajá de Sanggar, superviviente",
+      "emoji": "👳",
+      "narration": "Uno de los pocos supervivientes cercanos, el rajá de Sanggar, contó que vio cómo las llamas cubrían toda la montaña y cómo caían piedras del cielo, algunas del tamaño de un puño, durante horas."
     },
     {
-     "emoji": "🛶",
-     "x": 30,
-     "y": 70,
-     "size": 140,
-     "anim": "shake"
-    }
-   ],
-   "narration": "Cuando la roca ardiente tocó el mar, provocó un tsunami. Olas de varios metros golpearon las costas de las islas vecinas y arrastraron aldeas enteras."
-  },
-  {
-   "type": "landscape",
-   "env": "sea",
-   "seed": "se3",
-   "text": "Islas de *piedra pómez*",
-   "props": [
-    {
-     "emoji": "🪨",
-     "x": 35,
-     "y": 80,
-     "size": 180,
-     "anim": "float"
+      "type": "stat",
+      "env": "volcano",
+      "seed": "v4",
+      "value": 2000,
+      "suffix": " km",
+      "emoji": "👂",
+      "label": "distancia a la que se *oyeron* las explosiones",
+      "narration": "Las explosiones se oyeron a más de dos mil kilómetros. Es como si un estruendo en Madrid se escuchara en Moscú."
     },
     {
-     "emoji": "🪨",
-     "x": 60,
-     "y": 82,
-     "size": 150,
-     "anim": "float"
+      "type": "compare",
+      "env": "mountains",
+      "seed": "m4",
+      "text": "Material *expulsado*",
+      "items": [
+        {
+          "emoji": "🗻",
+          "label": "Vesubio (año 79)",
+          "value": 3,
+          "display": "~3 km³"
+        },
+        {
+          "emoji": "🌋",
+          "label": "Tambora (1815)",
+          "value": 150,
+          "display": "~150 km³"
+        }
+      ],
+      "narration": "El Tambora escupió unos ciento cincuenta kilómetros cúbicos de roca y ceniza. El Vesubio, el volcán que sepultó Pompeya, expulsó unos tres. Cincuenta veces menos."
     },
     {
-     "emoji": "🚢",
-     "x": 80,
-     "y": 84,
-     "size": 200,
-     "anim": "walk",
-     "to": [
-      65,
-      84
-     ],
-     "flip": true
-    }
-   ],
-   "narration": "Y el mar se llenó de piedra pómez, una roca volcánica tan ligera que flota. Se formaron auténticas balsas flotantes de varios kilómetros, y los barcos que pasaban por allí tuvieron que abrirse paso entre ellas durante años."
-  },
-  {
-   "type": "compare",
-   "env": "mountains",
-   "seed": "m5",
-   "text": "La montaña *perdió*",
-   "items": [
-    {
-     "emoji": "⛰️",
-     "label": "Antes",
-     "value": 4300,
-     "display": "~4.300 m"
+      "type": "landscape",
+      "env": "storm",
+      "seed": "s1",
+      "text": "Torbellinos de *fuego*",
+      "props": [
+        {
+          "emoji": "🌪️",
+          "x": 40,
+          "y": 85,
+          "size": 260,
+          "anim": "shake"
+        },
+        {
+          "emoji": "🏚️",
+          "x": 65,
+          "y": 92,
+          "size": 180,
+          "anim": "shake"
+        }
+      ],
+      "narration": "Ríos de roca ardiente bajaron por las laderas a toda velocidad y llegaron hasta el mar. Se formaron torbellinos que arrancaban árboles de raíz y levantaban casas enteras por los aires."
     },
     {
-     "emoji": "🗻",
-     "label": "Después",
-     "value": 2850,
-     "display": "~2.850 m"
-    }
-   ],
-   "narration": "Cuando todo terminó, el Tambora había perdido casi mil quinientos metros de altura. Donde antes estaba la cima, ahora había un cráter gigantesco de unos seis kilómetros de ancho."
-  },
-  {
-   "type": "landscape",
-   "env": "night",
-   "seed": "n1",
-   "text": "Tres días de *oscuridad*",
-   "props": [
-    {
-     "emoji": "🕯️",
-     "x": 50,
-     "y": 85,
-     "size": 200,
-     "anim": "float"
-    }
-   ],
-   "narration": "La ceniza tapó el sol. En un radio de cientos de kilómetros, la oscuridad fue total durante dos o tres días. Tan total, que la gente no podía ver su propia mano delante de la cara."
-  },
-  {
-   "type": "title",
-   "kicker": "Capítulo 3",
-   "text": "Lo que quedó",
-   "env": "storm",
-   "seed": "s2",
-   "emoji": "🌫️",
-   "narration": "Capítulo tres. Lo que quedó."
-  },
-  {
-   "type": "landscape",
-   "env": "desert",
-   "seed": "d1",
-   "text": "Un paisaje *gris*",
-   "props": [
-    {
-     "emoji": "☁️",
-     "x": 30,
-     "y": 60,
-     "size": 220,
-     "anim": "float"
+      "type": "landscape",
+      "env": "sea",
+      "seed": "se2",
+      "text": "Un *tsunami*",
+      "props": [
+        {
+          "emoji": "🌊",
+          "x": 50,
+          "y": 88,
+          "size": 420,
+          "anim": "rise"
+        },
+        {
+          "emoji": "🛶",
+          "x": 30,
+          "y": 70,
+          "size": 140,
+          "anim": "shake"
+        }
+      ],
+      "narration": "Cuando la roca ardiente tocó el mar, provocó un tsunami. Olas de varios metros golpearon las costas de las islas vecinas y arrastraron aldeas enteras."
     },
     {
-     "emoji": "☁️",
-     "x": 70,
-     "y": 55,
-     "size": 220,
-     "anim": "float"
-    }
-   ],
-   "narration": "Cuando volvió la luz, Sumbawa era irreconocible. Una capa de ceniza cubría los campos de arroz, envenenaba el agua y mataba al ganado."
-  },
-  {
-   "type": "landscape",
-   "env": "sea",
-   "seed": "se4",
-   "text": "Llega la *ayuda*",
-   "props": [
-    {
-     "emoji": "⛵",
-     "x": 20,
-     "y": 82,
-     "size": 220,
-     "anim": "walk",
-     "to": [
-      55,
-      82
-     ]
+      "type": "landscape",
+      "env": "sea",
+      "seed": "se3",
+      "text": "Islas de *piedra pómez*",
+      "props": [
+        {
+          "emoji": "🪨",
+          "x": 35,
+          "y": 80,
+          "size": 180,
+          "anim": "float"
+        },
+        {
+          "emoji": "🪨",
+          "x": 60,
+          "y": 82,
+          "size": 150,
+          "anim": "float"
+        },
+        {
+          "emoji": "🚢",
+          "x": 80,
+          "y": 84,
+          "size": 200,
+          "anim": "walk",
+          "to": [
+            65,
+            84
+          ],
+          "flip": true
+        }
+      ],
+      "narration": "Y el mar se llenó de piedra pómez, una roca volcánica tan ligera que flota. Se formaron auténticas balsas flotantes de varios kilómetros, y los barcos que pasaban por allí tuvieron que abrirse paso entre ellas durante años."
     },
     {
-     "emoji": "🍚",
-     "x": 75,
-     "y": 86,
-     "size": 170,
-     "anim": "pop",
-     "delay": 1.5
-    }
-   ],
-   "narration": "Semanas después, el gobernador británico de Java envió un barco cargado de arroz. El oficial al mando, el teniente Owen Phillips, escribió que nunca había visto una desolación igual: aldeas vacías, cuerpos en los caminos y supervivientes que llevaban días sin comer."
-  },
-  {
-   "type": "stat",
-   "env": "storm",
-   "seed": "s3",
-   "value": 71000,
-   "emoji": "💀",
-   "label": "muertos estimados en Sumbawa y Lombok",
-   "narration": "Unas diez mil personas murieron en la erupción. Pero lo peor vino después: el hambre y las enfermedades. Las estimaciones más aceptadas hablan de unas setenta y un mil víctimas en total en la zona."
-  },
-  {
-   "type": "landscape",
-   "env": "mountains",
-   "seed": "m6",
-   "text": "Un reino *borrado*",
-   "props": [
-    {
-     "emoji": "👑",
-     "x": 50,
-     "y": 70,
-     "size": 200,
-     "anim": "fall"
-    }
-   ],
-   "narration": "El reino de Tambora desapareció por completo. Y con él, su lengua. Solo sabemos de ella por unas pocas palabras que un explorador británico apuntó años antes."
-  },
-  {
-   "type": "quote",
-   "env": "storm",
-   "seed": "s4",
-   "text": "Un pequeño Pompeya en Indonesia",
-   "author": "Así lo llamaron los arqueólogos",
-   "emoji": "⛏️",
-   "narration": "En dos mil cuatro, unos arqueólogos excavaron bajo la ceniza y encontraron casas, cerámica y restos de personas, tal y como quedaron aquella noche. Lo llamaron la Pompeya del Este."
-  },
-  {
-   "type": "title",
-   "kicker": "Capítulo 4",
-   "text": "El año sin *verano*",
-   "env": "ice",
-   "seed": "i1",
-   "emoji": "❄️",
-   "narration": "Capítulo cuatro. El año sin verano."
-  },
-  {
-   "type": "landscape",
-   "env": "space",
-   "seed": "sp1",
-   "text": "Un velo en el *cielo*",
-   "props": [
-    {
-     "emoji": "🌍",
-     "x": 50,
-     "y": 75,
-     "size": 380,
-     "anim": "spin"
-    }
-   ],
-   "narration": "El Tambora no solo lanzó ceniza. Lanzó millones de toneladas de gases de azufre hasta la estratosfera, a más de veinte kilómetros de altura. Allí formaron un velo finísimo que dio la vuelta al planeta."
-  },
-  {
-   "type": "landscape",
-   "env": "ice",
-   "seed": "i2",
-   "text": "El sol, *atenuado*",
-   "props": [
-    {
-     "emoji": "🌥️",
-     "x": 50,
-     "y": 40,
-     "size": 260,
-     "anim": "float"
+      "type": "compare",
+      "env": "mountains",
+      "seed": "m5",
+      "text": "La montaña *perdió*",
+      "items": [
+        {
+          "emoji": "⛰️",
+          "label": "Antes",
+          "value": 4300,
+          "display": "~4.300 m"
+        },
+        {
+          "emoji": "🗻",
+          "label": "Después",
+          "value": 2850,
+          "display": "~2.850 m"
+        }
+      ],
+      "narration": "Cuando todo terminó, el Tambora había perdido casi mil quinientos metros de altura. Donde antes estaba la cima, ahora había un cráter gigantesco de unos seis kilómetros de ancho."
     },
     {
-     "emoji": "🌡️",
-     "x": 70,
-     "y": 85,
-     "size": 200,
-     "anim": "shake"
-    }
-   ],
-   "narration": "Ese velo reflejaba parte de la luz del sol. Y la Tierra se enfrió. La temperatura media del planeta bajó cerca de medio grado. Parece poco, pero en algunas regiones el verano fue varios grados más frío de lo normal."
-  },
-  {
-   "type": "map",
-   "kicker": "Verano de 1816",
-   "text": "Nieve en *junio*",
-   "to": {
-    "lon": -72,
-    "lat": 43,
-    "zoom": 4
-   },
-   "highlight": [
-    "United States of America",
-    "Canada"
-   ],
-   "markers": [
-    {
-     "lon": -72.6,
-     "lat": 44.0,
-     "label": "Nueva Inglaterra",
-     "emoji": "❄️"
-    }
-   ],
-   "narration": "En junio de mil ochocientos dieciséis nevó en Nueva Inglaterra, al noreste de Estados Unidos. Hubo heladas en julio y en agosto. Los granjeros perdieron la cosecha una y otra vez.",
-   "from": {
-    "lon": -40,
-    "lat": 40,
-    "zoom": 1.6
-   }
-  },
-  {
-   "type": "landscape",
-   "env": "ice",
-   "seed": "i3",
-   "text": "Rumbo al *oeste*",
-   "props": [
-    {
-     "emoji": "🐎",
-     "x": 20,
-     "y": 92,
-     "size": 200,
-     "anim": "walk",
-     "to": [
-      75,
-      92
-     ]
+      "type": "landscape",
+      "env": "night",
+      "seed": "n1",
+      "text": "Tres días de *oscuridad*",
+      "props": [
+        {
+          "emoji": "🕯️",
+          "x": 50,
+          "y": 85,
+          "size": 200,
+          "anim": "float"
+        }
+      ],
+      "narration": "La ceniza tapó el sol. En un radio de cientos de kilómetros, la oscuridad fue total durante dos o tres días. Tan total, que la gente no podía ver su propia mano delante de la cara."
     },
     {
-     "emoji": "🛒",
-     "x": 10,
-     "y": 92,
-     "size": 160,
-     "anim": "walk",
-     "to": [
-      65,
-      92
-     ]
-    }
-   ],
-   "narration": "Miles de familias abandonaron sus granjas heladas y se marcharon hacia el oeste, en busca de tierras más cálidas. Aquel frío ayudó a dibujar el mapa de los Estados Unidos."
-  },
-  {
-   "type": "map",
-   "kicker": "Europa, 1816",
-   "text": "Lluvia que *no para*",
-   "to": {
-    "lon": 8,
-    "lat": 48,
-    "zoom": 4.5
-   },
-   "highlight": [
-    "Switzerland",
-    "France",
-    "Germany",
-    "United Kingdom",
-    "Ireland"
-   ],
-   "markers": [
-    {
-     "lon": 8.2,
-     "lat": 46.8,
-     "label": "Suiza",
-     "emoji": "🌧️"
-    }
-   ],
-   "narration": "En Europa fue todavía peor. Llovió durante semanas sin parar. En Suiza, Francia, Alemania, Irlanda o Reino Unido, el trigo y las patatas se pudrieron en el campo.",
-   "from": {
-    "lon": -40,
-    "lat": 45,
-    "zoom": 2
-   }
-  },
-  {
-   "type": "landscape",
-   "env": "storm",
-   "seed": "s7",
-   "text": "Ríos *desbordados*",
-   "props": [
-    {
-     "emoji": "🌧️",
-     "x": 40,
-     "y": 35,
-     "size": 200,
-     "anim": "float"
+      "type": "title",
+      "kicker": "Capítulo 3",
+      "text": "Lo que quedó",
+      "env": "storm",
+      "seed": "s2",
+      "emoji": "🌫️",
+      "narration": "Capítulo tres. Lo que quedó."
     },
     {
-     "emoji": "🏘️",
-     "x": 60,
-     "y": 90,
-     "size": 260,
-     "anim": "shake"
-    }
-   ],
-   "narration": "Los ríos del Rin y de otras regiones se desbordaron. Hubo inundaciones, puentes arrastrados y caminos convertidos en barro. En muchas zonas de Europa, el sol apenas se dejó ver en todo el verano."
-  },
-  {
-   "type": "stat",
-   "env": "storm",
-   "seed": "s5",
-   "value": 3,
-   "suffix": "×",
-   "emoji": "🍞",
-   "label": "lo que llegó a subir el *pan* en algunas ciudades",
-   "narration": "El precio del grano se disparó. En algunas ciudades el pan llegó a costar el triple. Hubo hambrunas, saqueos y revueltas por la comida."
-  },
-  {
-   "type": "landscape",
-   "env": "city",
-   "seed": "c1",
-   "text": "Hambre en *Europa*",
-   "props": [
-    {
-     "emoji": "🧺",
-     "x": 40,
-     "y": 92,
-     "size": 170
+      "type": "landscape",
+      "env": "desert",
+      "seed": "d1",
+      "text": "Un paisaje *gris*",
+      "props": [
+        {
+          "emoji": "☁️",
+          "x": 30,
+          "y": 60,
+          "size": 220,
+          "anim": "float"
+        },
+        {
+          "emoji": "☁️",
+          "x": 70,
+          "y": 55,
+          "size": 220,
+          "anim": "float"
+        }
+      ],
+      "narration": "Cuando volvió la luz, Sumbawa era irreconocible. Una capa de ceniza cubría los campos de arroz, envenenaba el agua y mataba al ganado."
     },
     {
-     "emoji": "😟",
-     "x": 55,
-     "y": 92,
-     "size": 170
+      "type": "landscape",
+      "env": "sea",
+      "seed": "se4",
+      "text": "Llega la *ayuda*",
+      "props": [
+        {
+          "emoji": "⛵",
+          "x": 20,
+          "y": 82,
+          "size": 220,
+          "anim": "walk",
+          "to": [
+            55,
+            82
+          ]
+        },
+        {
+          "emoji": "🍚",
+          "x": 75,
+          "y": 86,
+          "size": 170,
+          "anim": "pop",
+          "delay": 1.5
+        }
+      ],
+      "narration": "Semanas después, el gobernador británico de Java envió un barco cargado de arroz. El oficial al mando, el teniente Owen Phillips, escribió que nunca había visto una desolación igual: aldeas vacías, cuerpos en los caminos y supervivientes que llevaban días sin comer."
     },
     {
-     "emoji": "🔥",
-     "x": 70,
-     "y": 90,
-     "size": 150,
-     "anim": "float"
-    }
-   ],
-   "narration": "Mucha gente se vio obligada a comer lo que encontraba: hierbas, cortezas, animales que nunca se habían comido. Fue la última gran crisis de subsistencia del mundo occidental."
-  },
-  {
-   "type": "landscape",
-   "env": "mountains",
-   "seed": "m10",
-   "text": "Suiza, *el país del hambre*",
-   "props": [
-    {
-     "emoji": "🏔️",
-     "x": 50,
-     "y": 80,
-     "size": 360
+      "type": "stat",
+      "env": "storm",
+      "seed": "s3",
+      "value": 71000,
+      "emoji": "💀",
+      "label": "muertos estimados en Sumbawa y Lombok",
+      "narration": "Unas diez mil personas murieron en la erupción. Pero lo peor vino después: el hambre y las enfermedades. Las estimaciones más aceptadas hablan de unas setenta y un mil víctimas en total en la zona."
     },
     {
-     "emoji": "🥖",
-     "x": 30,
-     "y": 90,
-     "size": 150,
-     "anim": "fall"
-    }
-   ],
-   "narration": "Suiza fue uno de los países más golpeados. Las autoridades tuvieron que repartir sopa a los hambrientos, y en algunos pueblos la gente llegó a comer musgo y hierba. Muchas familias suizas y alemanas decidieron emigrar a América."
-  },
-  {
-   "type": "map",
-   "kicker": "1816-1817",
-   "text": "La gran *huida*",
-   "from": {
-    "lon": -20,
-    "lat": 45,
-    "zoom": 2
-   },
-   "to": {
-    "lon": -35,
-    "lat": 43,
-    "zoom": 1.8
-   },
-   "routes": [
-    {
-     "from": [
-      8,
-      47
-     ],
-     "to": [
-      -74,
-      40.7
-     ],
-     "color": "#e8a33d"
+      "type": "landscape",
+      "env": "mountains",
+      "seed": "m6",
+      "text": "Un reino *borrado*",
+      "props": [
+        {
+          "emoji": "👑",
+          "x": 50,
+          "y": 70,
+          "size": 200,
+          "anim": "fall"
+        }
+      ],
+      "narration": "El reino de Tambora desapareció por completo. Y con él, su lengua. Solo sabemos de ella por unas pocas palabras que un explorador británico apuntó años antes."
     },
     {
-     "from": [
-      9,
-      51
-     ],
-     "to": [
-      -75,
-      39.9
-     ],
-     "color": "#e8a33d"
-    }
-   ],
-   "markers": [
-    {
-     "lon": -74,
-     "lat": 40.7,
-     "label": "Nueva York",
-     "emoji": "🗽"
-    }
-   ],
-   "narration": "Decenas de miles de europeos cruzaron el Atlántico buscando comida y una vida nueva. Muchos de ellos acabaron, paradójicamente, en las mismas tierras americanas que también sufrían el frío."
-  },
-  {
-   "type": "map",
-   "kicker": "Asia, 1816-1818",
-   "text": "El frío llega a *China*",
-   "from": {
-    "lon": 20,
-    "lat": 40,
-    "zoom": 1.6
-   },
-   "to": {
-    "lon": 102,
-    "lat": 25,
-    "zoom": 4.5
-   },
-   "highlight": [
-    "China",
-    "India"
-   ],
-   "markers": [
-    {
-     "lon": 102.7,
-     "lat": 25.0,
-     "label": "Yunnan",
-     "emoji": "🌾"
+      "type": "quote",
+      "env": "storm",
+      "seed": "s4",
+      "text": "Un pequeño Pompeya en Indonesia",
+      "author": "Así lo llamaron los arqueólogos",
+      "emoji": "⛏️",
+      "narration": "En dos mil cuatro, unos arqueólogos excavaron bajo la ceniza y encontraron casas, cerámica y restos de personas, tal y como quedaron aquella noche. Lo llamaron la Pompeya del Este."
     },
     {
-     "lon": 88.4,
-     "lat": 22.6,
-     "label": "Bengala",
-     "emoji": "🌧️"
-    }
-   ],
-   "narration": "Y no fue solo Occidente. En la provincia china de Yunnan, varios veranos fríos seguidos arruinaron las cosechas de arroz y provocaron una terrible hambruna. En la India, el monzón se desordenó por completo."
-  },
-  {
-   "type": "landscape",
-   "env": "ice",
-   "seed": "i4",
-   "text": "Un planeta *desordenado*",
-   "props": [
-    {
-     "emoji": "🌍",
-     "x": 50,
-     "y": 80,
-     "size": 360,
-     "anim": "float"
+      "type": "title",
+      "kicker": "Capítulo 4",
+      "text": "El año sin *verano*",
+      "env": "ice",
+      "seed": "i1",
+      "emoji": "❄️",
+      "narration": "Capítulo cuatro. El año sin verano."
     },
     {
-     "emoji": "🌡️",
-     "x": 72,
-     "y": 60,
-     "size": 160,
-     "anim": "shake"
-    }
-   ],
-   "narration": "Fue la primera vez en la historia moderna que una sola catástrofe golpeó a la vez a América, Europa y Asia. Y nadie, en ningún lugar, sabía por qué."
-  },
-  {
-   "type": "timeline",
-   "env": "night",
-   "seed": "n2",
-   "text": "Una cadena de *desastres*",
-   "points": [
-    {
-     "year": "1815",
-     "label": "Erupción del Tambora",
-     "emoji": "🌋"
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp1",
+      "text": "Un velo en el *cielo*",
+      "props": [
+        {
+          "emoji": "🌍",
+          "x": 50,
+          "y": 75,
+          "size": 380,
+          "anim": "spin"
+        }
+      ],
+      "narration": "El Tambora no solo lanzó ceniza. Lanzó millones de toneladas de gases de azufre hasta la estratosfera, a más de veinte kilómetros de altura. Allí formaron un velo finísimo que dio la vuelta al planeta."
     },
     {
-     "year": "1816",
-     "label": "El año sin verano",
-     "emoji": "❄️"
+      "type": "landscape",
+      "env": "ice",
+      "seed": "i2",
+      "text": "El sol, *atenuado*",
+      "props": [
+        {
+          "emoji": "🌥️",
+          "x": 50,
+          "y": 40,
+          "size": 260,
+          "anim": "float"
+        },
+        {
+          "emoji": "🌡️",
+          "x": 70,
+          "y": 85,
+          "size": 200,
+          "anim": "shake"
+        }
+      ],
+      "narration": "Ese velo reflejaba parte de la luz del sol. Y la Tierra se enfrió. La temperatura media del planeta bajó cerca de medio grado. Parece poco, pero en algunas regiones el verano fue varios grados más frío de lo normal."
     },
     {
-     "year": "1817",
-     "label": "Hambre y epidemias",
-     "emoji": "🌾"
+      "type": "map",
+      "kicker": "Verano de 1816",
+      "text": "Nieve en *junio*",
+      "to": {
+        "lon": -72,
+        "lat": 43,
+        "zoom": 4
+      },
+      "highlight": [
+        "United States of America",
+        "Canada"
+      ],
+      "markers": [
+        {
+          "lon": -72.6,
+          "lat": 44.0,
+          "label": "Nueva Inglaterra",
+          "emoji": "❄️"
+        }
+      ],
+      "narration": "En junio de mil ochocientos dieciséis nevó en Nueva Inglaterra, al noreste de Estados Unidos. Hubo heladas en julio y en agosto. Los granjeros perdieron la cosecha una y otra vez.",
+      "from": {
+        "lon": -40,
+        "lat": 40,
+        "zoom": 1.6
+      }
     },
     {
-     "year": "1818",
-     "label": "El clima vuelve a la normalidad",
-     "emoji": "☀️"
-    }
-   ],
-   "narration": "Y nadie sabía que todo estaba conectado. No fue hasta el siglo veinte cuando los científicos unieron las piezas y señalaron al Tambora como culpable."
-  },
-  {
-   "type": "title",
-   "kicker": "Capítulo 5",
-   "text": "Monstruos y *bicicletas*",
-   "env": "night",
-   "seed": "n3",
-   "emoji": "🧟",
-   "narration": "Capítulo cinco. Monstruos y bicicletas."
-  },
-  {
-   "type": "map",
-   "kicker": "Lago de Ginebra",
-   "text": "Villa *Diodati*",
-   "to": {
-    "lon": 6.2,
-    "lat": 46.3,
-    "zoom": 14
-   },
-   "highlight": [
-    "Switzerland"
-   ],
-   "markers": [
-    {
-     "lon": 6.15,
-     "lat": 46.22,
-     "label": "Villa Diodati",
-     "emoji": "🏰"
-    }
-   ],
-   "narration": "Volvamos a Suiza, junio de mil ochocientos dieciséis. A orillas del lago de Ginebra, un grupo de jóvenes escritores pasaba el verano en una mansión llamada Villa Diodati.",
-   "from": {
-    "lon": 8,
-    "lat": 47,
-    "zoom": 5
-   }
-  },
-  {
-   "type": "landscape",
-   "env": "storm",
-   "seed": "s6",
-   "text": "Encerrados por la *tormenta*",
-   "props": [
-    {
-     "emoji": "🏰",
-     "x": 50,
-     "y": 88,
-     "size": 380
+      "type": "landscape",
+      "env": "ice",
+      "seed": "i3",
+      "text": "Rumbo al *oeste*",
+      "props": [
+        {
+          "emoji": "🐎",
+          "x": 20,
+          "y": 92,
+          "size": 200,
+          "anim": "walk",
+          "to": [
+            75,
+            92
+          ]
+        },
+        {
+          "emoji": "🛒",
+          "x": 10,
+          "y": 92,
+          "size": 160,
+          "anim": "walk",
+          "to": [
+            65,
+            92
+          ]
+        }
+      ],
+      "narration": "Miles de familias abandonaron sus granjas heladas y se marcharon hacia el oeste, en busca de tierras más cálidas. Aquel frío ayudó a dibujar el mapa de los Estados Unidos."
     },
     {
-     "emoji": "⚡",
-     "x": 72,
-     "y": 30,
-     "size": 160,
-     "anim": "pop",
-     "delay": 1
-    }
-   ],
-   "narration": "Entre ellos estaban el poeta Lord Byron, el joven Percy Shelley y su pareja, Mary, de solo dieciocho años. Las tormentas no paraban, así que se pasaban los días encerrados junto al fuego."
-  },
-  {
-   "type": "quote",
-   "env": "night",
-   "seed": "n4",
-   "text": "Cada uno de nosotros escribirá una historia de fantasmas",
-   "author": "Lord Byron, junio de 1816",
-   "emoji": "🎩",
-   "narration": "Una noche, aburrido, Byron propuso un reto: que cada uno escribiera una historia de terror."
-  },
-  {
-   "type": "landscape",
-   "env": "night",
-   "seed": "n5",
-   "text": "Nace *Frankenstein*",
-   "props": [
-    {
-     "emoji": "🕯️",
-     "x": 30,
-     "y": 88,
-     "size": 160,
-     "anim": "float"
+      "type": "map",
+      "kicker": "Europa, 1816",
+      "text": "Lluvia que *no para*",
+      "to": {
+        "lon": 8,
+        "lat": 48,
+        "zoom": 4.5
+      },
+      "highlight": [
+        "Switzerland",
+        "France",
+        "Germany",
+        "United Kingdom",
+        "Ireland"
+      ],
+      "markers": [
+        {
+          "lon": 8.2,
+          "lat": 46.8,
+          "label": "Suiza",
+          "emoji": "🌧️"
+        }
+      ],
+      "narration": "En Europa fue todavía peor. Llovió durante semanas sin parar. En Suiza, Francia, Alemania, Irlanda o Reino Unido, el trigo y las patatas se pudrieron en el campo.",
+      "from": {
+        "lon": -40,
+        "lat": 45,
+        "zoom": 2
+      }
     },
     {
-     "emoji": "📖",
-     "x": 50,
-     "y": 88,
-     "size": 200,
-     "anim": "pop"
+      "type": "landscape",
+      "env": "storm",
+      "seed": "s7",
+      "text": "Ríos *desbordados*",
+      "props": [
+        {
+          "emoji": "🌧️",
+          "x": 40,
+          "y": 35,
+          "size": 200,
+          "anim": "float"
+        },
+        {
+          "emoji": "🏘️",
+          "x": 60,
+          "y": 90,
+          "size": 260,
+          "anim": "shake"
+        }
+      ],
+      "narration": "Los ríos del Rin y de otras regiones se desbordaron. Hubo inundaciones, puentes arrastrados y caminos convertidos en barro. En muchas zonas de Europa, el sol apenas se dejó ver en todo el verano."
     },
     {
-     "emoji": "🧟",
-     "x": 72,
-     "y": 90,
-     "size": 240,
-     "anim": "rise",
-     "delay": 1
-    }
-   ],
-   "narration": "De aquel reto salió Frankenstein, la novela de Mary Shelley, publicada dos años después. Y otro de los invitados, John Polidori, escribió El vampiro, una de las primeras novelas modernas de vampiros. Sin el Tambora, quizá ninguna de las dos existiría."
-  },
-  {
-   "type": "quote",
-   "env": "night",
-   "seed": "n7",
-   "text": "Tuve un sueño que no era del todo un sueño. El brillante sol se había apagado",
-   "author": "Lord Byron, «Oscuridad», 1816",
-   "emoji": "🖋️",
-   "narration": "Byron, por su parte, escribió aquel mismo verano un poema llamado Oscuridad. Empieza así: tuve un sueño que no era del todo un sueño. El brillante sol se había apagado. Era exactamente lo que estaban viviendo."
-  },
-  {
-   "type": "landscape",
-   "env": "mountains",
-   "seed": "m7",
-   "text": "Ni *avena* para los caballos",
-   "props": [
-    {
-     "emoji": "🐴",
-     "x": 35,
-     "y": 92,
-     "size": 220,
-     "anim": "shake"
+      "type": "stat",
+      "env": "storm",
+      "seed": "s5",
+      "value": 3,
+      "suffix": "×",
+      "emoji": "🍞",
+      "label": "lo que llegó a subir el *pan* en algunas ciudades",
+      "narration": "El precio del grano se disparó. En algunas ciudades el pan llegó a costar el triple. Hubo hambrunas, saqueos y revueltas por la comida."
     },
     {
-     "emoji": "🌾",
-     "x": 60,
-     "y": 92,
-     "size": 170,
-     "anim": "fall"
-    }
-   ],
-   "narration": "Pero el frío tuvo otra consecuencia inesperada. Con las cosechas arruinadas, no había avena para alimentar a los caballos, y muchos murieron o fueron sacrificados."
-  },
-  {
-   "type": "landscape",
-   "env": "forest",
-   "seed": "f3",
-   "text": "La *draisiana*",
-   "props": [
-    {
-     "emoji": "🚲",
-     "x": 20,
-     "y": 92,
-     "size": 230,
-     "anim": "walk",
-     "to": [
-      70,
-      92
-     ]
-    }
-   ],
-   "narration": "En Alemania, un inventor llamado Karl Drais presentó en mil ochocientos diecisiete una máquina de dos ruedas que se movía empujando el suelo con los pies. Muchos historiadores creen que la falta de caballos le dio la idea. Era el antepasado de la bicicleta."
-  },
-  {
-   "type": "landscape",
-   "env": "desert",
-   "seed": "d2",
-   "text": "Atardeceres de *fuego*",
-   "props": [
-    {
-     "emoji": "🎨",
-     "x": 40,
-     "y": 88,
-     "size": 200
+      "type": "landscape",
+      "env": "city",
+      "seed": "c1",
+      "text": "Hambre en *Europa*",
+      "props": [
+        {
+          "emoji": "🧺",
+          "x": 40,
+          "y": 92,
+          "size": 170
+        },
+        {
+          "emoji": "😟",
+          "x": 55,
+          "y": 92,
+          "size": 170
+        },
+        {
+          "emoji": "🔥",
+          "x": 70,
+          "y": 90,
+          "size": 150,
+          "anim": "float"
+        }
+      ],
+      "narration": "Mucha gente se vio obligada a comer lo que encontraba: hierbas, cortezas, animales que nunca se habían comido. Fue la última gran crisis de subsistencia del mundo occidental."
     },
     {
-     "emoji": "🖼️",
-     "x": 62,
-     "y": 86,
-     "size": 220,
-     "anim": "pop"
-    }
-   ],
-   "narration": "Y hay un detalle precioso: el azufre en el aire teñía los atardeceres de naranjas y rojos intensísimos. Algunos científicos creen que esos cielos se ven en los cuadros del pintor William Turner de aquellos años."
-  },
-  {
-   "type": "title",
-   "kicker": "Capítulo 6",
-   "text": "¿Podría volver a *pasar*?",
-   "env": "space",
-   "seed": "sp2",
-   "emoji": "🌍",
-   "narration": "Capítulo seis. ¿Podría volver a pasar?"
-  },
-  {
-   "type": "landscape",
-   "env": "volcano",
-   "seed": "v5",
-   "text": "El Tambora *hoy*",
-   "props": [
-    {
-     "emoji": "🗻",
-     "x": 50,
-     "y": 86,
-     "size": 440
-    }
-   ],
-   "narration": "Hoy el Tambora sigue activo, aunque tranquilo. Su enorme cráter es uno de los paisajes más impresionantes de Indonesia, y cada año suben a verlo cientos de excursionistas."
-  },
-  {
-   "type": "compare",
-   "env": "mountains",
-   "seed": "m9",
-   "text": "Erupciones *famosas*",
-   "items": [
-    {
-     "emoji": "🗻",
-     "label": "Pinatubo (1991)",
-     "value": 10,
-     "display": "~10 km³"
+      "type": "landscape",
+      "env": "mountains",
+      "seed": "m10",
+      "text": "Suiza, *el país del hambre*",
+      "props": [
+        {
+          "emoji": "🏔️",
+          "x": 50,
+          "y": 80,
+          "size": 360
+        },
+        {
+          "emoji": "🥖",
+          "x": 30,
+          "y": 90,
+          "size": 150,
+          "anim": "fall"
+        }
+      ],
+      "narration": "Suiza fue uno de los países más golpeados. Las autoridades tuvieron que repartir sopa a los hambrientos, y en algunos pueblos la gente llegó a comer musgo y hierba. Muchas familias suizas y alemanas decidieron emigrar a América."
     },
     {
-     "emoji": "⛰️",
-     "label": "Krakatoa (1883)",
-     "value": 20,
-     "display": "~20 km³"
+      "type": "map",
+      "kicker": "1816-1817",
+      "text": "La gran *huida*",
+      "from": {
+        "lon": -20,
+        "lat": 45,
+        "zoom": 2
+      },
+      "to": {
+        "lon": -35,
+        "lat": 43,
+        "zoom": 1.8
+      },
+      "routes": [
+        {
+          "from": [
+            8,
+            47
+          ],
+          "to": [
+            -74,
+            40.7
+          ],
+          "color": "#e8a33d"
+        },
+        {
+          "from": [
+            9,
+            51
+          ],
+          "to": [
+            -75,
+            39.9
+          ],
+          "color": "#e8a33d"
+        }
+      ],
+      "markers": [
+        {
+          "lon": -74,
+          "lat": 40.7,
+          "label": "Nueva York",
+          "emoji": "🗽"
+        }
+      ],
+      "narration": "Decenas de miles de europeos cruzaron el Atlántico buscando comida y una vida nueva. Muchos de ellos acabaron, paradójicamente, en las mismas tierras americanas que también sufrían el frío."
     },
     {
-     "emoji": "🌋",
-     "label": "Tambora (1815)",
-     "value": 150,
-     "display": "~150 km³"
-    }
-   ],
-   "narration": "Para que te hagas una idea: el famoso Krakatoa, en mil ochocientos ochenta y tres, expulsó unas siete veces menos material. Y el Pinatubo, en Filipinas, en mil novecientos noventa y uno, unas quince veces menos. Aun así, el Pinatubo enfrió el planeta casi medio grado durante dos años."
-  },
-  {
-   "type": "stat",
-   "env": "space",
-   "seed": "sp3",
-   "value": 2,
-   "emoji": "📅",
-   "label": "erupciones así por cada *mil años*, aproximadamente",
-   "narration": "Los vulcanólogos calculan que una erupción de este tamaño ocurre, de media, una o dos veces cada mil años. No sabemos ni dónde ni cuándo será la próxima."
-  },
-  {
-   "type": "landscape",
-   "env": "city",
-   "seed": "c2",
-   "text": "Un mundo *conectado*",
-   "props": [
-    {
-     "emoji": "✈️",
-     "x": 30,
-     "y": 40,
-     "size": 180,
-     "anim": "walk",
-     "to": [
-      70,
-      30
-     ]
+      "type": "map",
+      "kicker": "Asia, 1816-1818",
+      "text": "El frío llega a *China*",
+      "from": {
+        "lon": 20,
+        "lat": 40,
+        "zoom": 1.6
+      },
+      "to": {
+        "lon": 102,
+        "lat": 25,
+        "zoom": 4.5
+      },
+      "highlight": [
+        "China",
+        "India"
+      ],
+      "markers": [
+        {
+          "lon": 102.7,
+          "lat": 25.0,
+          "label": "Yunnan",
+          "emoji": "🌾"
+        },
+        {
+          "lon": 88.4,
+          "lat": 22.6,
+          "label": "Bengala",
+          "emoji": "🌧️"
+        }
+      ],
+      "narration": "Y no fue solo Occidente. En la provincia china de Yunnan, varios veranos fríos seguidos arruinaron las cosechas de arroz y provocaron una terrible hambruna. En la India, el monzón se desordenó por completo."
     },
     {
-     "emoji": "🌐",
-     "x": 50,
-     "y": 88,
-     "size": 220,
-     "anim": "spin"
-    }
-   ],
-   "narration": "La diferencia es que hoy somos ocho mil millones de personas, conectadas por aviones, barcos y cadenas de suministro. Un nuevo año sin verano afectaría a las cosechas de todo el planeta a la vez."
-  },
-  {
-   "type": "landscape",
-   "env": "mountains",
-   "seed": "m8",
-   "text": "Vigilancia *constante*",
-   "props": [
-    {
-     "emoji": "🛰️",
-     "x": 65,
-     "y": 35,
-     "size": 200,
-     "anim": "float"
+      "type": "landscape",
+      "env": "ice",
+      "seed": "i4",
+      "text": "Un planeta *desordenado*",
+      "props": [
+        {
+          "emoji": "🌍",
+          "x": 50,
+          "y": 80,
+          "size": 360,
+          "anim": "float"
+        },
+        {
+          "emoji": "🌡️",
+          "x": 72,
+          "y": 60,
+          "size": 160,
+          "anim": "shake"
+        }
+      ],
+      "narration": "Fue la primera vez en la historia moderna que una sola catástrofe golpeó a la vez a América, Europa y Asia. Y nadie, en ningún lugar, sabía por qué."
     },
     {
-     "emoji": "📡",
-     "x": 35,
-     "y": 88,
-     "size": 200
-    }
-   ],
-   "narration": "Por suerte, hoy vigilamos los volcanes con satélites y sensores, y sabríamos reaccionar mucho antes. En mil ochocientos quince nadie tuvo esa oportunidad."
-  },
-  {
-   "type": "landscape",
-   "env": "forest",
-   "seed": "f4",
-   "text": "La lección del *Tambora*",
-   "props": [
+      "type": "timeline",
+      "env": "night",
+      "seed": "n2",
+      "text": "Una cadena de *desastres*",
+      "points": [
+        {
+          "year": "1815",
+          "label": "Erupción del Tambora",
+          "emoji": "🌋"
+        },
+        {
+          "year": "1816",
+          "label": "El año sin verano",
+          "emoji": "❄️"
+        },
+        {
+          "year": "1817",
+          "label": "Hambre y epidemias",
+          "emoji": "🌾"
+        },
+        {
+          "year": "1818",
+          "label": "El clima vuelve a la normalidad",
+          "emoji": "☀️"
+        }
+      ],
+      "narration": "Y nadie sabía que todo estaba conectado. No fue hasta el siglo veinte cuando los científicos unieron las piezas y señalaron al Tambora como culpable."
+    },
     {
-     "emoji": "🌱",
-     "x": 50,
-     "y": 90,
-     "size": 220,
-     "anim": "rise"
-    }
-   ],
-   "narration": "La gran lección del Tambora es que el clima del planeta es mucho más frágil de lo que parece. Un cambio de medio grado bastó para provocar hambre en tres continentes. Por eso los científicos siguen estudiando esta erupción doscientos años después."
-  },
-  {
-   "type": "title",
-   "kicker": "Escala Brutal",
-   "text": "Una montaña cambió el *mundo*",
-   "env": "volcano",
-   "seed": "v6",
-   "emoji": "🌋",
-   "narration": "Una sola montaña, en una isla lejana, enfrió el planeta, provocó hambre en tres continentes, empujó a miles de familias hacia el oeste e inspiró a Frankenstein. Esa es la escala de la naturaleza."
-  },
-  {
-   "type": "landscape",
-   "env": "night",
-   "seed": "n6",
-   "text": "¿Qué historia *brutal* quieres?",
-   "props": [
+      "type": "title",
+      "kicker": "Capítulo 5",
+      "text": "Monstruos y *bicicletas*",
+      "env": "night",
+      "seed": "n3",
+      "emoji": "🧟",
+      "narration": "Capítulo cinco. Monstruos y bicicletas."
+    },
     {
-     "emoji": "💬",
-     "x": 50,
-     "y": 75,
-     "size": 260,
-     "anim": "pop"
+      "type": "map",
+      "kicker": "Lago de Ginebra",
+      "text": "Villa *Diodati*",
+      "to": {
+        "lon": 6.2,
+        "lat": 46.3,
+        "zoom": 14
+      },
+      "highlight": [
+        "Switzerland"
+      ],
+      "markers": [
+        {
+          "lon": 6.15,
+          "lat": 46.22,
+          "label": "Villa Diodati",
+          "emoji": "🏰"
+        }
+      ],
+      "narration": "Volvamos a Suiza, junio de mil ochocientos dieciséis. A orillas del lago de Ginebra, un grupo de jóvenes escritores pasaba el verano en una mansión llamada Villa Diodati.",
+      "from": {
+        "lon": 8,
+        "lat": 47,
+        "zoom": 5
+      }
+    },
+    {
+      "type": "landscape",
+      "env": "storm",
+      "seed": "s6",
+      "text": "Encerrados por la *tormenta*",
+      "props": [
+        {
+          "emoji": "🏰",
+          "x": 50,
+          "y": 88,
+          "size": 380
+        },
+        {
+          "emoji": "⚡",
+          "x": 72,
+          "y": 30,
+          "size": 160,
+          "anim": "pop",
+          "delay": 1
+        }
+      ],
+      "narration": "Entre ellos estaban el poeta Lord Byron, el joven Percy Shelley y su pareja, Mary, de solo dieciocho años. Las tormentas no paraban, así que se pasaban los días encerrados junto al fuego."
+    },
+    {
+      "type": "quote",
+      "env": "night",
+      "seed": "n4",
+      "text": "Cada uno de nosotros escribirá una historia de fantasmas",
+      "author": "Lord Byron, junio de 1816",
+      "emoji": "🎩",
+      "narration": "Una noche, aburrido, Byron propuso un reto: que cada uno escribiera una historia de terror."
+    },
+    {
+      "type": "landscape",
+      "env": "night",
+      "seed": "n5",
+      "text": "Nace *Frankenstein*",
+      "props": [
+        {
+          "emoji": "🕯️",
+          "x": 30,
+          "y": 88,
+          "size": 160,
+          "anim": "float"
+        },
+        {
+          "emoji": "📖",
+          "x": 50,
+          "y": 88,
+          "size": 200,
+          "anim": "pop"
+        },
+        {
+          "emoji": "🧟",
+          "x": 72,
+          "y": 90,
+          "size": 240,
+          "anim": "rise",
+          "delay": 1
+        }
+      ],
+      "narration": "De aquel reto salió Frankenstein, la novela de Mary Shelley, publicada dos años después. Y otro de los invitados, John Polidori, escribió El vampiro, una de las primeras novelas modernas de vampiros. Sin el Tambora, quizá ninguna de las dos existiría."
+    },
+    {
+      "type": "quote",
+      "env": "night",
+      "seed": "n7",
+      "text": "Tuve un sueño que no era del todo un sueño. El brillante sol se había apagado",
+      "author": "Lord Byron, «Oscuridad», 1816",
+      "emoji": "🖋️",
+      "narration": "Byron, por su parte, escribió aquel mismo verano un poema llamado Oscuridad. Empieza así: tuve un sueño que no era del todo un sueño. El brillante sol se había apagado. Era exactamente lo que estaban viviendo."
+    },
+    {
+      "type": "landscape",
+      "env": "mountains",
+      "seed": "m7",
+      "text": "Ni *avena* para los caballos",
+      "props": [
+        {
+          "emoji": "🐴",
+          "x": 35,
+          "y": 92,
+          "size": 220,
+          "anim": "shake"
+        },
+        {
+          "emoji": "🌾",
+          "x": 60,
+          "y": 92,
+          "size": 170,
+          "anim": "fall"
+        }
+      ],
+      "narration": "Pero el frío tuvo otra consecuencia inesperada. Con las cosechas arruinadas, no había avena para alimentar a los caballos, y muchos murieron o fueron sacrificados."
+    },
+    {
+      "type": "landscape",
+      "env": "forest",
+      "seed": "f3",
+      "text": "La *draisiana*",
+      "props": [
+        {
+          "emoji": "🚲",
+          "x": 20,
+          "y": 92,
+          "size": 230,
+          "anim": "walk",
+          "to": [
+            70,
+            92
+          ]
+        }
+      ],
+      "narration": "En Alemania, un inventor llamado Karl Drais presentó en mil ochocientos diecisiete una máquina de dos ruedas que se movía empujando el suelo con los pies. Muchos historiadores creen que la falta de caballos le dio la idea. Era el antepasado de la bicicleta."
+    },
+    {
+      "type": "landscape",
+      "env": "desert",
+      "seed": "d2",
+      "text": "Atardeceres de *fuego*",
+      "props": [
+        {
+          "emoji": "🎨",
+          "x": 40,
+          "y": 88,
+          "size": 200
+        },
+        {
+          "emoji": "🖼️",
+          "x": 62,
+          "y": 86,
+          "size": 220,
+          "anim": "pop"
+        }
+      ],
+      "narration": "Y hay un detalle precioso: el azufre en el aire teñía los atardeceres de naranjas y rojos intensísimos. Algunos científicos creen que esos cielos se ven en los cuadros del pintor William Turner de aquellos años."
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 6",
+      "text": "¿Podría volver a *pasar*?",
+      "env": "space",
+      "seed": "sp2",
+      "emoji": "🌍",
+      "narration": "Capítulo seis. ¿Podría volver a pasar?"
+    },
+    {
+      "type": "landscape",
+      "env": "volcano",
+      "seed": "v5",
+      "text": "El Tambora *hoy*",
+      "props": [
+        {
+          "emoji": "🗻",
+          "x": 50,
+          "y": 86,
+          "size": 440
+        }
+      ],
+      "narration": "Hoy el Tambora sigue activo, aunque tranquilo. Su enorme cráter es uno de los paisajes más impresionantes de Indonesia, y cada año suben a verlo cientos de excursionistas."
+    },
+    {
+      "type": "compare",
+      "env": "mountains",
+      "seed": "m9",
+      "text": "Erupciones *famosas*",
+      "items": [
+        {
+          "emoji": "🗻",
+          "label": "Pinatubo (1991)",
+          "value": 10,
+          "display": "~10 km³"
+        },
+        {
+          "emoji": "⛰️",
+          "label": "Krakatoa (1883)",
+          "value": 20,
+          "display": "~20 km³"
+        },
+        {
+          "emoji": "🌋",
+          "label": "Tambora (1815)",
+          "value": 150,
+          "display": "~150 km³"
+        }
+      ],
+      "narration": "Para que te hagas una idea: el famoso Krakatoa, en mil ochocientos ochenta y tres, expulsó unas siete veces menos material. Y el Pinatubo, en Filipinas, en mil novecientos noventa y uno, unas quince veces menos. Aun así, el Pinatubo enfrió el planeta casi medio grado durante dos años."
+    },
+    {
+      "type": "stat",
+      "env": "space",
+      "seed": "sp3",
+      "value": 2,
+      "emoji": "📅",
+      "label": "erupciones así por cada *mil años*, aproximadamente",
+      "narration": "Los vulcanólogos calculan que una erupción de este tamaño ocurre, de media, una o dos veces cada mil años. No sabemos ni dónde ni cuándo será la próxima."
+    },
+    {
+      "type": "landscape",
+      "env": "city",
+      "seed": "c2",
+      "text": "Un mundo *conectado*",
+      "props": [
+        {
+          "emoji": "✈️",
+          "x": 30,
+          "y": 40,
+          "size": 180,
+          "anim": "walk",
+          "to": [
+            70,
+            30
+          ]
+        },
+        {
+          "emoji": "🌐",
+          "x": 50,
+          "y": 88,
+          "size": 220,
+          "anim": "spin"
+        }
+      ],
+      "narration": "La diferencia es que hoy somos ocho mil millones de personas, conectadas por aviones, barcos y cadenas de suministro. Un nuevo año sin verano afectaría a las cosechas de todo el planeta a la vez."
+    },
+    {
+      "type": "landscape",
+      "env": "mountains",
+      "seed": "m8",
+      "text": "Vigilancia *constante*",
+      "props": [
+        {
+          "emoji": "🛰️",
+          "x": 65,
+          "y": 35,
+          "size": 200,
+          "anim": "float"
+        },
+        {
+          "emoji": "📡",
+          "x": 35,
+          "y": 88,
+          "size": 200
+        }
+      ],
+      "narration": "Por suerte, hoy vigilamos los volcanes con satélites y sensores, y sabríamos reaccionar mucho antes. En mil ochocientos quince nadie tuvo esa oportunidad."
+    },
+    {
+      "type": "landscape",
+      "env": "forest",
+      "seed": "f4",
+      "text": "La lección del *Tambora*",
+      "props": [
+        {
+          "emoji": "🌱",
+          "x": 50,
+          "y": 90,
+          "size": 220,
+          "anim": "rise"
+        }
+      ],
+      "narration": "La gran lección del Tambora es que el clima del planeta es mucho más frágil de lo que parece. Un cambio de medio grado bastó para provocar hambre en tres continentes. Por eso los científicos siguen estudiando esta erupción doscientos años después."
+    },
+    {
+      "type": "title",
+      "kicker": "Escala Brutal",
+      "text": "Una montaña cambió el *mundo*",
+      "env": "volcano",
+      "seed": "v6",
+      "emoji": "🌋",
+      "narration": "Una sola montaña, en una isla lejana, enfrió el planeta, provocó hambre en tres continentes, empujó a miles de familias hacia el oeste e inspiró a Frankenstein. Esa es la escala de la naturaleza."
+    },
+    {
+      "type": "landscape",
+      "env": "night",
+      "seed": "n6",
+      "text": "¿Qué historia *brutal* quieres?",
+      "props": [
+        {
+          "emoji": "💬",
+          "x": 50,
+          "y": 75,
+          "size": 260,
+          "anim": "pop"
+        }
+      ],
+      "narration": "Si te ha gustado, suscríbete y déjame en comentarios qué otra historia brutal quieres que contemos. Nos vemos en la siguiente."
     }
-   ],
-   "narration": "Si te ha gustado, suscríbete y déjame en comentarios qué otra historia brutal quieres que contemos. Nos vemos en la siguiente."
-  }
- ]
+  ]
 }
