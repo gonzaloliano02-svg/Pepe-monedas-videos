@@ -215,3 +215,10 @@ The owner asked me to handle comments fully, replying directly.
 - Never post anything that isn't a finished `videos/*.mp4` from this repo.
 - Never delete or edit existing posts on the accounts.
 - If a step fails, do not publish a broken video: log the error and stop.
+
+## 2026-11-13 — voice & long-form music change (user feedback)
+- The user rejects Kokoro/Chatterbox voices as robotic: NO video goes out with them. Voice must be ElevenLabs-quality
+  (pending: ElevenLabs API key or Google Cloud TTS Chirp 3 HD key from the user). Until a key exists, Shorts use
+  vidIQ voiceover (ElevenLabs, 28 credits/1000 chars) only while credits last; long-form is on hold.
+- Long-form music is now `make_calm_music` (slow e-piano + warm pad, no drums). Shorts keep `make_music`.
+- L1 Tambora moved to draft (2026-11-20 16:00) until re-voiced.

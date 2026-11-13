@@ -129,6 +129,74 @@ def make_music(seconds: float, out: Path, seed: int):
         wf.writeframes(data.tobytes())
 
 
+def make_calm_music(seconds: float, out: Path, seed: int):
+    """Relaxed documentary bed for long videos: warm pad + soft electric piano,
+    slow tempo, no drums. Major/'curious' progressions so 10 minutes never feel tense."""
+    rng = np.random.default_rng(seed)
+    bpm = 72 + int(rng.integers(0, 10))
+    beat = 60 / bpm
+    bar = beat * 4
+    n = int(seconds * SR) + SR
+    mix = np.zeros(n)
+    progs = [  # (root midi, chord intervals) — Imaj7 / vi7 / IVmaj7 / V style
+        [(60, (0, 4, 7, 11)), (57, (0, 3, 7, 10)), (53, (0, 4, 7, 11)), (55, (0, 4, 7, 10))],
+        [(62, (0, 3, 7, 10)), (58, (0, 4, 7, 11)), (60, (0, 4, 7, 9)), (57, (0, 3, 7, 10))],
+        [(55, (0, 4, 7, 11)), (52, (0, 3, 7, 10)), (48, (0, 4, 7, 14)), (50, (0, 5, 7, 10))],
+        [(53, (0, 4, 7, 14)), (57, (0, 3, 7, 10)), (55, (0, 4, 7, 9)), (60, (0, 4, 7, 11))],
+    ]
+    prog = progs[int(rng.integers(0, len(progs)))]
+    midi = lambda m: 440 * 2 ** ((m - 69) / 12)
+
+    def epiano(f, L):
+        t = np.arange(L) / SR
+        tone = (np.sin(2 * np.pi * f * t) + 0.35 * np.sin(2 * np.pi * 2 * f * t) * np.exp(-t * 3)
+                + 0.12 * np.sin(2 * np.pi * 3 * f * t) * np.exp(-t * 6))
+        return tone * np.exp(-t * 1.6) * np.minimum(t / 0.006, 1)
+
+    bars = int(math.ceil(seconds / bar)) + 1
+    for b in range(bars):
+        root, ivs = prog[b % 4]
+        start = int(b * bar * SR)
+        L = int(bar * 1.15 * SR)
+        t = np.arange(L) / SR
+        env = np.minimum(t / 0.8, 1) * np.minimum((bar * 1.15 - t) / 0.8, 1)
+        pad = sum(np.sin(2 * np.pi * midi(root + iv) * t + 0.3 * np.sin(2 * np.pi * 0.2 * t))
+                  + 0.25 * np.sin(2 * np.pi * 2 * midi(root + iv) * t) for iv in ivs) * 0.035
+        seg = mix[start:start + L]
+        seg += (pad * env)[:len(seg)]
+        # soft bass note (with a harmonic so phones hear it)
+        bl = int(bar * SR)
+        bt = np.arange(bl) / SR
+        bass = (np.sin(2 * np.pi * midi(root - 12) * bt) + 0.4 * np.sin(2 * np.pi * midi(root) * bt)) \
+            * np.exp(-bt * 0.8) * np.minimum(bt / 0.05, 1) * 0.07
+        seg = mix[start:start + bl]
+        seg += bass[:len(seg)]
+        # sparse e-piano melody: 3-5 notes per bar from the chord, one octave up
+        k_notes = int(rng.integers(3, 6))
+        slots = sorted(rng.choice(8, size=k_notes, replace=False))
+        for sl in slots:
+            s0 = start + int(sl * beat / 2 * SR)
+            iv = ivs[int(rng.integers(0, len(ivs)))] + (12 if rng.random() < 0.6 else 24)
+            nl = int(1.6 * SR)
+            note_ = epiano(midi(root + iv), nl) * (0.07 + 0.03 * rng.random())
+            seg = mix[s0:s0 + nl]
+            seg += note_[:len(seg)]
+    mix = mix[: int(seconds * SR)]
+    fade = int(1.5 * SR)
+    mix[:fade] *= np.linspace(0, 1, fade)
+    mix[-fade:] *= np.linspace(1, 0, fade)
+    mix = mix / (np.max(np.abs(mix)) + 1e-9) * 0.8
+    raw = out.with_suffix(".raw.wav")
+    with wave.open(str(raw), "wb") as wf:
+        wf.setnchannels(1); wf.setsampwidth(2); wf.setframerate(SR)
+        wf.writeframes((mix * 32767).astype(np.int16).tobytes())
+    # gentle room reverb + stereo width
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(raw), "-af",
+                    "aecho=0.8:0.7:60|130|220:0.35|0.25|0.15,highpass=f=70,lowpass=f=9000,"
+                    "aformat=channel_layouts=stereo", str(out)], check=True)
+    raw.unlink()
+
+
 def make_long_music(seconds: float, out: Path, seed: int):
     """Long-form bed: different sections (~70 s each) so it never feels looped."""
     import tempfile
@@ -139,7 +207,7 @@ def make_long_music(seconds: float, out: Path, seed: int):
     while t < seconds + 2:
         sec = min(72.0, seconds + 2 - t) if seconds + 2 - t > 20 else 20.0
         f = tmp / f"m{k}.wav"
-        make_music(sec + 2, f, seed=seed + k * 101)
+        make_calm_music(sec + 2, f, seed=seed + k * 101)
         parts.append(f)
         t += sec
         k += 1
