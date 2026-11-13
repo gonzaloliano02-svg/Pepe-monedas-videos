@@ -217,8 +217,9 @@ The owner asked me to handle comments fully, replying directly.
 - If a step fails, do not publish a broken video: log the error and stop.
 
 ## 2026-11-13 — voice & long-form music change (user feedback)
-- The user rejects Kokoro/Chatterbox voices as robotic: NO video goes out with them. Voice must be ElevenLabs-quality
-  (pending: ElevenLabs API key or Google Cloud TTS Chirp 3 HD key from the user). Until a key exists, Shorts use
-  vidIQ voiceover (ElevenLabs, 28 credits/1000 chars) only while credits last; long-form is on hold.
+- VOICE: the owner picked "Voz nueva A" = Chatterbox multilingual default voice (scripts/cbx_worker.py, venv
+  /opt/cbx/venv, exaggeration 0.55, cfg 0.5). Kokoro/Piper are BANNED (robotic): tts() has no fallback on purpose.
+  The worker checks every chunk with Whisper and regenerates if <80% of words are heard. ~4x slower than real time:
+  a 10-min video needs ~45 min of TTS, so start long-form builds early. No vidIQ voiceover needed.
 - Long-form music is now `make_calm_music` (slow e-piano + warm pad, no drums). Shorts keep `make_music`.
-- L1 Tambora moved to draft (2026-11-20 16:00) until re-voiced.
+- L1 Tambora re-voiced with voice A + calm music, rescheduled for 2026-11-13 16:00.

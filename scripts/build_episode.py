@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build one Short: voice (Piper), music, then Remotion render.
+"""Build one episode: voice (Chatterbox, voice A), music, then Remotion render.
 
 Usage: python3 scripts/build_episode.py episodes/<id>.json
 Output: videos/<id>.mp4
@@ -25,8 +25,29 @@ KOKORO_VOICE = "em_santa"  # chosen by the owner (sample 10)
 _kokoro = None
 
 
+CBX_PY = Path("/opt/cbx/venv/bin/python")
+_cbx = None
+
+
+def _cbx_tts(text: str, out: Path) -> float:
+    """Natural voice (Chatterbox multilingual, default voice "A")."""
+    global _cbx
+    if _cbx is None:
+        _cbx = subprocess.Popen([str(CBX_PY), str(ROOT / "scripts" / "cbx_worker.py")], stdin=subprocess.PIPE,
+                                stdout=subprocess.PIPE, stderr=open(ROOT / "build" / "tts.log", "a"), text=True, bufsize=1)
+        json.loads(_cbx.stdout.readline())  # wait for {"ready": true}
+    _cbx.stdin.write(json.dumps({"text": text, "out": str(out)}) + "\n")
+    _cbx.stdin.flush()
+    return float(json.loads(_cbx.stdout.readline())["secs"])
+
+
 def tts(text: str, out: Path) -> float:
-    """Voice-over with Kokoro (em_santa); falls back to Piper if unavailable."""
+    """Voice-over. Chatterbox is mandatory: the owner rejected Kokoro/Piper as robotic,
+    so no fallback to them (fail loudly instead of publishing a robotic voice)."""
+    return _cbx_tts(text, out)
+
+
+def _old_tts(text: str, out: Path) -> float:
     global _kokoro
     try:
         import soundfile as sf
