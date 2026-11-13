@@ -469,6 +469,33 @@
       "narration": "Incluso hay centrales eléctricas que funcionan con las mareas. La de La Rance, en Francia, lleva funcionando desde los años sesenta. Sin la Luna, producirían bastante menos electricidad."
     },
     {
+      "type": "map",
+      "kicker": "Suiza",
+      "text": "Hasta la *tierra* tiene mareas",
+      "from": {
+        "lon": 0,
+        "lat": 20,
+        "zoom": 1
+      },
+      "to": {
+        "lon": 6,
+        "lat": 46,
+        "zoom": 6
+      },
+      "highlight": [
+        "Switzerland"
+      ],
+      "markers": [
+        {
+          "lon": 6.05,
+          "lat": 46.23,
+          "label": "CERN",
+          "emoji": "🔬"
+        }
+      ],
+      "narration": "Y aquí viene algo que casi nadie sabe: la Luna no solo mueve el agua. También estira la roca. El suelo bajo tus pies sube y baja unos veinte centímetros cada día. En el CERN, cerca de Ginebra, tuvieron que corregir sus experimentos porque la Luna deformaba su gigantesco acelerador."
+    },
+    {
       "type": "landscape",
       "env": "sea",
       "seed": "se7",
@@ -712,6 +739,32 @@
     },
     {
       "type": "landscape",
+      "env": "ice",
+      "seed": "ic7z",
+      "text": "Plancton que sigue a la *Luna*",
+      "props": [
+        {
+          "emoji": "🦐",
+          "x": 35,
+          "y": 60,
+          "size": 120,
+          "anim": "walk",
+          "to": [
+            50,
+            45
+          ]
+        },
+        {
+          "emoji": "🌕",
+          "x": 70,
+          "y": 22,
+          "size": 150
+        }
+      ],
+      "narration": "Incluso en el Ártico, durante la larga noche polar, cuando el Sol no sale en meses, se ha visto que pequeños crustáceos del plancton suben y bajan en el agua siguiendo la luz de la Luna. Sin ella, perderían su única referencia en plena oscuridad."
+    },
+    {
+      "type": "landscape",
       "env": "night",
       "seed": "n7",
       "text": "¿Y *nosotros*?",
@@ -880,6 +933,33 @@
         }
       ],
       "narration": "Hoy, el calendario islámico sigue siendo lunar, y la fecha de la Semana Santa se calcula con la primera luna llena de la primavera. Sin Luna, habría que reinventar muchas fiestas."
+    },
+    {
+      "type": "map",
+      "kicker": "China",
+      "text": "Fiestas bajo la *luna llena*",
+      "from": {
+        "lon": 0,
+        "lat": 20,
+        "zoom": 1
+      },
+      "to": {
+        "lon": 110,
+        "lat": 33,
+        "zoom": 3
+      },
+      "highlight": [
+        "China"
+      ],
+      "markers": [
+        {
+          "lon": 116.4,
+          "lat": 39.9,
+          "label": "Pekín",
+          "emoji": "🥮"
+        }
+      ],
+      "narration": "Y no solo eso. En China, Corea o Vietnam, millones de familias celebran cada otoño la Fiesta del Medio Otoño bajo la luna llena, comiendo pasteles de luna. Sin Luna, desaparecerían fiestas, leyendas y canciones que llevan miles de años con nosotros."
     },
     {
       "type": "landscape",
