@@ -28,3 +28,11 @@
 - L1 "1816: el año en que el VERANO no llegó" (Tambora), 10,5 min, 60 escenas, -14,3 LUFS, 90 MB.
 - Programado en Metricool para 2026-11-13 16:00 (YouTube, vídeo, id 426577299) con miniatura personalizada (aceptada).
 - Capítulos corregidos con las duraciones reales del render.
+
+## 2026-11-13
+- Owner feedback (morning): voice must sound human → new voice "A" (Chatterbox, local, free) with Whisper QA; Kokoro/Piper banned. Long-form music → calm documentary bed (approved). L1 re-voiced.
+- Data (Windsor, cached): old what-if / extreme-place Shorts still lead (pueblo sin sol 1.517, Luna desaparece 1.435, cachalote 1.384, ballena 1.316, 8.000 M saltando 1.201, medusa inmortal 1.092). Last two days weak (megalodón 81, túnel 59, rascacielos 24, Gran Muralla 23) → back to the proven angles: extreme places, body-at-scale, what-if.
+- Choice: a = Lugares imposibles (Oymyakon; echoes "pueblo sin sol"); b = Tu cuerpo a escala (corazón en una vida); c = ¿Qué pasaría si...? (la Tierra deja de girar). L1 = documental Tambora (re-voiced). L2 = long-form what-if "¿Y si la Luna desapareciera?" (our 2nd best Short, now as a 10-min 2D video).
+- a · 10:00 · "Aquí viven 500 personas a -50 °C: el pueblo más FRÍO del mundo 🥶" · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-3407994138442579487
+- Fixes: TTS worker OOM when two builds ran at once → one worker at a time (file lock), worker freed before rendering, TTS cached by text. publish_media.sh failed on a leftover `media-new` branch → fixed.
+- Comments: no new viewer comments (Windsor). vidIQ credits used: 0.

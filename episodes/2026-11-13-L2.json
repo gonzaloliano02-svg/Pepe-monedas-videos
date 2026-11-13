@@ -1,0 +1,1197 @@
+{
+  "id": "2026-11-13-L2",
+  "format": "story",
+  "title": "¿Qué pasaría si la LUNA desapareciera esta noche? 🌕",
+  "description": "",
+  "tags": [
+    "que pasaria si",
+    "luna",
+    "sin luna",
+    "mareas",
+    "eclipse",
+    "espacio",
+    "ciencia",
+    "documental",
+    "curiosidades"
+  ],
+  "thumbnail": {
+    "text": "Sin *Luna*",
+    "emoji": "🌕",
+    "env": "night",
+    "kicker": "¿Qué pasaría?"
+  },
+  "scenes": [
+    {
+      "type": "title",
+      "kicker": "Escala Brutal · ¿Qué pasaría si...?",
+      "text": "¿Y si la Luna *desapareciera*?",
+      "env": "night",
+      "emoji": "🌕",
+      "narration": "Esta noche sales a la calle, miras al cielo, y la Luna no está. No se ha escondido detrás de una nube. No es luna nueva. Simplemente, ha desaparecido."
+    },
+    {
+      "type": "landscape",
+      "env": "night",
+      "seed": "n1",
+      "text": "Un cielo *vacío*",
+      "props": [
+        {
+          "emoji": "🧍",
+          "x": 40,
+          "y": 92,
+          "size": 200
+        },
+        {
+          "emoji": "❓",
+          "x": 58,
+          "y": 45,
+          "size": 160,
+          "anim": "float"
+        }
+      ],
+      "narration": "Parece una tontería. Al fin y al cabo, la Luna está a casi cuatrocientos mil kilómetros. ¿Qué más da una piedra lejana en el cielo? Pues resulta que da mucho más de lo que crees."
+    },
+    {
+      "type": "landscape",
+      "env": "sea",
+      "seed": "se1",
+      "text": "Mares, animales, *días*",
+      "props": [
+        {
+          "emoji": "🌊",
+          "x": 30,
+          "y": 85,
+          "size": 220,
+          "anim": "shake"
+        },
+        {
+          "emoji": "🐢",
+          "x": 55,
+          "y": 92,
+          "size": 150,
+          "anim": "walk",
+          "to": [
+            65,
+            92
+          ]
+        },
+        {
+          "emoji": "🕰️",
+          "x": 78,
+          "y": 45,
+          "size": 150,
+          "anim": "float"
+        }
+      ],
+      "narration": "Sin la Luna cambiarían las mareas, la vida de miles de animales, la duración de los días, e incluso la inclinación del planeta entero. Algunas cosas pasarían esa misma noche. Otras tardarían millones de años."
+    },
+    {
+      "type": "map",
+      "kicker": "",
+      "text": "Quédate hasta el *final*",
+      "from": {
+        "lon": 0,
+        "lat": 20,
+        "zoom": 1
+      },
+      "to": {
+        "lon": 20,
+        "lat": 10,
+        "zoom": 1.3
+      },
+      "highlight": [],
+      "markers": [],
+      "narration": "Y quédate hasta el final, porque te voy a contar por qué, sin la Luna, quizá tú y yo ni siquiera estaríamos aquí para contarlo."
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 1",
+      "text": "Un segundo *después*",
+      "env": "night",
+      "emoji": "⏱️",
+      "narration": "Capítulo uno. Un segundo después.",
+      "seed": "n2"
+    },
+    {
+      "type": "landscape",
+      "env": "city",
+      "seed": "c1",
+      "text": "No pasa *nada*",
+      "props": [
+        {
+          "emoji": "🏙️",
+          "x": 50,
+          "y": 80,
+          "size": 260
+        },
+        {
+          "emoji": "😴",
+          "x": 72,
+          "y": 60,
+          "size": 140,
+          "anim": "float"
+        }
+      ],
+      "narration": "Lo primero que hay que saber es que no habría ninguna explosión. Si la Luna se desvaneciera sin más, sin escombros ni choques, la Tierra no saldría disparada ni temblaría el suelo. La mayoría de la gente seguiría durmiendo."
+    },
+    {
+      "type": "stat",
+      "env": "space",
+      "seed": "sp2",
+      "value": 384400,
+      "suffix": " km",
+      "emoji": "🌕",
+      "label": "distancia media a la *Luna*",
+      "narration": "La Luna está, de media, a unos trescientos ochenta y cuatro mil kilómetros. Su luz tarda poco más de un segundo en llegar hasta aquí. Así que, un segundo después, el cielo se quedaría sin ella."
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp2b",
+      "text": "Una luna *gigante*",
+      "props": [
+        {
+          "emoji": "🌍",
+          "x": 38,
+          "y": 55,
+          "size": 260
+        },
+        {
+          "emoji": "🌕",
+          "x": 70,
+          "y": 55,
+          "size": 80,
+          "anim": "float"
+        }
+      ],
+      "narration": "Y no es una luna cualquiera. Su diámetro es más de una cuarta parte del de la Tierra. Ningún otro planeta rocoso del sistema solar tiene una luna tan grande en proporción. Por eso su ausencia se notaría tanto."
+    },
+    {
+      "type": "landscape",
+      "env": "night",
+      "seed": "n3",
+      "text": "Los primeros en *notarlo*",
+      "props": [
+        {
+          "emoji": "🔭",
+          "x": 35,
+          "y": 88,
+          "size": 200
+        },
+        {
+          "emoji": "🧑‍🔬",
+          "x": 60,
+          "y": 92,
+          "size": 180
+        },
+        {
+          "emoji": "❗",
+          "x": 62,
+          "y": 50,
+          "size": 120,
+          "anim": "pop",
+          "delay": 1
+        }
+      ],
+      "narration": "Los primeros en darse cuenta serían los astrónomos y los pescadores de noche. Y también unos cuantos laboratorios que, todavía hoy, disparan láseres hacia la Luna."
+    },
+    {
+      "type": "map",
+      "kicker": "1969 – 1972",
+      "text": "Espejos en la *Luna*",
+      "from": {
+        "lon": 0,
+        "lat": 20,
+        "zoom": 1
+      },
+      "to": {
+        "lon": -100,
+        "lat": 35,
+        "zoom": 2.2
+      },
+      "highlight": [
+        "United States of America"
+      ],
+      "markers": [
+        {
+          "lon": -105.8,
+          "lat": 32.8,
+          "label": "Observatorio Apache Point",
+          "emoji": "🔦"
+        }
+      ],
+      "narration": "Los astronautas de las misiones Apolo dejaron allí espejos especiales. Desde observatorios como el de Apache Point, en Nuevo México, se lanzan pulsos de láser que rebotan en ellos y vuelven. Así se mide la distancia con una precisión de milímetros."
+    },
+    {
+      "type": "stat",
+      "env": "night",
+      "seed": "n4",
+      "value": 3.8,
+      "suffix": " cm al año",
+      "emoji": "📏",
+      "label": "lo que la Luna se *aleja* de nosotros",
+      "narration": "Gracias a esos espejos sabemos algo curioso: la Luna se aleja de nosotros unos tres coma ocho centímetros cada año. Más o menos lo que te crecen las uñas. Esa noche, los láseres ya no volverían.",
+      "decimals": 1
+    },
+    {
+      "type": "landscape",
+      "env": "night",
+      "seed": "n4b",
+      "text": "*Venus* manda",
+      "props": [
+        {
+          "emoji": "✨",
+          "x": 60,
+          "y": 30,
+          "size": 150,
+          "anim": "float"
+        },
+        {
+          "emoji": "🧍",
+          "x": 38,
+          "y": 92,
+          "size": 190
+        }
+      ],
+      "narration": "Esa misma noche, el objeto más brillante del cielo nocturno pasaría a ser Venus. Un puntito precioso, sí, pero incapaz de iluminar un camino o de proyectar tu sombra en el suelo."
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 2",
+      "text": "El mar se *calma*",
+      "env": "sea",
+      "emoji": "🌊",
+      "narration": "Capítulo dos. El mar se calma.",
+      "seed": "se2"
+    },
+    {
+      "type": "landscape",
+      "env": "sea",
+      "seed": "se3",
+      "text": "La Luna *tira* del mar",
+      "props": [
+        {
+          "emoji": "🌕",
+          "x": 70,
+          "y": 25,
+          "size": 150,
+          "anim": "float"
+        },
+        {
+          "emoji": "🌊",
+          "x": 40,
+          "y": 85,
+          "size": 240,
+          "anim": "rise"
+        }
+      ],
+      "narration": "La gravedad de la Luna tira del océano y forma dos abultamientos de agua que dan la vuelta al planeta. Por eso, en casi todas las costas, el mar sube y baja dos veces al día."
+    },
+    {
+      "type": "compare",
+      "env": "sea",
+      "seed": "se4",
+      "text": "¿Quién mueve las *mareas*?",
+      "items": [
+        {
+          "emoji": "🌕",
+          "label": "Luna",
+          "value": 100,
+          "display": "≈ 2/3"
+        },
+        {
+          "emoji": "☀️",
+          "label": "Sol",
+          "value": 46,
+          "display": "≈ 1/3"
+        }
+      ],
+      "narration": "El Sol también provoca mareas, pero su efecto es más o menos la mitad que el de la Luna. Sin ella, las mareas no desaparecerían. Se quedarían, más o menos, en un tercio de lo que son hoy."
+    },
+    {
+      "type": "map",
+      "kicker": "Canadá",
+      "text": "La bahía de *Fundy*",
+      "from": {
+        "lon": 0,
+        "lat": 20,
+        "zoom": 1
+      },
+      "to": {
+        "lon": -65,
+        "lat": 45,
+        "zoom": 6
+      },
+      "highlight": [
+        "Canada"
+      ],
+      "markers": [
+        {
+          "lon": -64.7,
+          "lat": 45.3,
+          "label": "Bahía de Fundy",
+          "emoji": "🌊"
+        }
+      ],
+      "narration": "En algunos lugares el cambio sería brutal. En la bahía de Fundy, en Canadá, la diferencia entre marea alta y baja puede superar los quince metros. Es como un edificio de cinco plantas de agua que entra y sale cada pocas horas."
+    },
+    {
+      "type": "stat",
+      "env": "sea",
+      "seed": "se5",
+      "value": 16,
+      "suffix": " m",
+      "emoji": "🏢",
+      "label": "diferencia de marea en *Fundy* (récord)",
+      "narration": "Sin la Luna, esa diferencia se quedaría en una fracción. Puertos, playas y pueblos que viven del ritmo del mar tendrían que adaptarse a un océano mucho más tranquilo."
+    },
+    {
+      "type": "landscape",
+      "env": "sea",
+      "seed": "se5b",
+      "text": "Mareas *vivas* y *muertas*",
+      "props": [
+        {
+          "emoji": "🌕",
+          "x": 30,
+          "y": 30,
+          "size": 140,
+          "anim": "float"
+        },
+        {
+          "emoji": "☀️",
+          "x": 72,
+          "y": 28,
+          "size": 150,
+          "anim": "float"
+        },
+        {
+          "emoji": "🌊",
+          "x": 50,
+          "y": 85,
+          "size": 230,
+          "anim": "rise"
+        }
+      ],
+      "narration": "Hoy, cuando el Sol y la Luna se alinean, en luna llena y luna nueva, sus fuerzas se suman y llegan las mareas vivas. Sin Luna, se acabarían esas subidas extra del mar."
+    },
+    {
+      "type": "map",
+      "kicker": "España",
+      "text": "Tablas de *mareas*",
+      "from": {
+        "lon": 0,
+        "lat": 20,
+        "zoom": 1
+      },
+      "to": {
+        "lon": -4,
+        "lat": 43,
+        "zoom": 7
+      },
+      "highlight": [
+        "Spain"
+      ],
+      "markers": [
+        {
+          "lon": -2.7,
+          "lat": 43.41,
+          "label": "Mundaka",
+          "emoji": "🏄"
+        },
+        {
+          "lon": -8.4,
+          "lat": 43.37,
+          "label": "A Coruña",
+          "emoji": "🎣"
+        }
+      ],
+      "narration": "Surfistas, pescadores y marineros consultan cada día las tablas de mareas. Con un mar mucho más quieto, olas, corrientes y horarios de pesca cambiarían en todas las costas."
+    },
+    {
+      "type": "landscape",
+      "env": "sea",
+      "seed": "se6",
+      "text": "Las *pozas* de marea",
+      "props": [
+        {
+          "emoji": "🦀",
+          "x": 30,
+          "y": 92,
+          "size": 150,
+          "anim": "walk",
+          "to": [
+            40,
+            92
+          ]
+        },
+        {
+          "emoji": "🐚",
+          "x": 55,
+          "y": 94,
+          "size": 120
+        },
+        {
+          "emoji": "⭐",
+          "x": 72,
+          "y": 92,
+          "size": 140,
+          "anim": "spin"
+        }
+      ],
+      "narration": "Las zonas que hoy quedan al descubierto con la marea baja, llenas de cangrejos, estrellas de mar y algas, se reducirían muchísimo. Y con ellas, una parte enorme de la vida costera."
+    },
+    {
+      "type": "map",
+      "kicker": "Francia",
+      "text": "Energía de las *mareas*",
+      "from": {
+        "lon": 0,
+        "lat": 20,
+        "zoom": 1
+      },
+      "to": {
+        "lon": -2,
+        "lat": 48,
+        "zoom": 6
+      },
+      "highlight": [
+        "France"
+      ],
+      "markers": [
+        {
+          "lon": -2.02,
+          "lat": 48.62,
+          "label": "La Rance",
+          "emoji": "⚡"
+        }
+      ],
+      "narration": "Incluso hay centrales eléctricas que funcionan con las mareas. La de La Rance, en Francia, lleva funcionando desde los años sesenta. Sin la Luna, producirían bastante menos electricidad."
+    },
+    {
+      "type": "landscape",
+      "env": "sea",
+      "seed": "se7",
+      "text": "¿Y la *vida*?",
+      "props": [
+        {
+          "emoji": "🦠",
+          "x": 35,
+          "y": 60,
+          "size": 150,
+          "anim": "float"
+        },
+        {
+          "emoji": "🌊",
+          "x": 55,
+          "y": 88,
+          "size": 220,
+          "anim": "shake"
+        }
+      ],
+      "narration": "Hay quien va más allá. Algunos científicos creen que las mareas, que mojaban y secaban las costas una y otra vez, pudieron ayudar a que la vida diera sus primeros pasos fuera del mar. Es una hipótesis, pero da que pensar."
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 3",
+      "text": "La noche más *oscura*",
+      "env": "night",
+      "emoji": "🌑",
+      "narration": "Capítulo tres. La noche más oscura.",
+      "seed": "n5"
+    },
+    {
+      "type": "landscape",
+      "env": "forest",
+      "seed": "f1",
+      "text": "Noches *negras*",
+      "props": [
+        {
+          "emoji": "🦉",
+          "x": 30,
+          "y": 55,
+          "size": 160,
+          "anim": "float"
+        },
+        {
+          "emoji": "🌲",
+          "x": 60,
+          "y": 88,
+          "size": 240
+        },
+        {
+          "emoji": "🌑",
+          "x": 78,
+          "y": 22,
+          "size": 120
+        }
+      ],
+      "narration": "La luna llena ilumina la noche lo suficiente como para caminar por el campo sin linterna. Sin ella, todas las noches serían como las de luna nueva. Negras de verdad, solo con la luz de las estrellas."
+    },
+    {
+      "type": "stat",
+      "env": "night",
+      "seed": "n6",
+      "value": 400000,
+      "suffix": " veces",
+      "emoji": "☀️",
+      "label": "más brillante el *Sol* que la luna llena",
+      "narration": "Puede parecer poca luz: la luna llena es unas cuatrocientas mil veces más débil que el Sol. Pero para muchos animales, esa luz lo cambia todo."
+    },
+    {
+      "type": "landscape",
+      "env": "desert",
+      "seed": "d1",
+      "text": "Cazar a *oscuras*",
+      "props": [
+        {
+          "emoji": "🦁",
+          "x": 30,
+          "y": 90,
+          "size": 200,
+          "anim": "walk",
+          "to": [
+            42,
+            90
+          ]
+        },
+        {
+          "emoji": "🦓",
+          "x": 72,
+          "y": 90,
+          "size": 190
+        }
+      ],
+      "narration": "En la sabana, por ejemplo, los leones suelen cazar con más éxito en las noches más oscuras. Sin Luna, el reparto entre cazadores y presas cambiaría para siempre."
+    },
+    {
+      "type": "map",
+      "kicker": "Australia",
+      "text": "La Gran Barrera de *Coral*",
+      "from": {
+        "lon": 0,
+        "lat": 20,
+        "zoom": 1
+      },
+      "to": {
+        "lon": 147,
+        "lat": -18,
+        "zoom": 4
+      },
+      "highlight": [
+        "Australia"
+      ],
+      "markers": [
+        {
+          "lon": 147.7,
+          "lat": -18.3,
+          "label": "Gran Barrera de Coral",
+          "emoji": "🪸"
+        }
+      ],
+      "narration": "Y luego está uno de los espectáculos más bonitos del planeta. Cada año, por estas fechas, pocos días después de la luna llena de noviembre o diciembre, los corales de la Gran Barrera liberan a la vez millones de huevos."
+    },
+    {
+      "type": "landscape",
+      "env": "sea",
+      "seed": "se8",
+      "text": "Un reloj *lunar*",
+      "props": [
+        {
+          "emoji": "🪸",
+          "x": 30,
+          "y": 90,
+          "size": 190
+        },
+        {
+          "emoji": "🫧",
+          "x": 50,
+          "y": 55,
+          "size": 140,
+          "anim": "rise"
+        },
+        {
+          "emoji": "🪸",
+          "x": 70,
+          "y": 90,
+          "size": 170
+        }
+      ],
+      "narration": "Los corales usan la luz de la Luna como un reloj para ponerse de acuerdo. Si todos sueltan sus huevos la misma noche, se encuentran entre ellos. Sin Luna, ese reloj desaparecería, y muchos se quedarían desincronizados."
+    },
+    {
+      "type": "landscape",
+      "env": "sea",
+      "seed": "se9",
+      "text": "Tortugas *perdidas*",
+      "props": [
+        {
+          "emoji": "🐢",
+          "x": 35,
+          "y": 92,
+          "size": 150,
+          "anim": "walk",
+          "to": [
+            55,
+            92
+          ]
+        },
+        {
+          "emoji": "🐢",
+          "x": 25,
+          "y": 94,
+          "size": 120,
+          "anim": "walk",
+          "to": [
+            45,
+            94
+          ]
+        },
+        {
+          "emoji": "🌕",
+          "x": 75,
+          "y": 25,
+          "size": 130
+        }
+      ],
+      "narration": "Las crías de tortuga marina, al salir del huevo de noche, buscan el horizonte más brillante para llegar al mar. Ese brillo suele venir del cielo reflejado en el agua. En noches más oscuras, a muchas les costaría más orientarse."
+    },
+    {
+      "type": "map",
+      "kicker": "California",
+      "text": "Peces que bailan en la *playa*",
+      "from": {
+        "lon": 0,
+        "lat": 20,
+        "zoom": 1
+      },
+      "to": {
+        "lon": -119,
+        "lat": 34,
+        "zoom": 5
+      },
+      "highlight": [
+        "United States of America"
+      ],
+      "markers": [
+        {
+          "lon": -118.4,
+          "lat": 33.9,
+          "label": "Grunion",
+          "emoji": "🐟"
+        }
+      ],
+      "narration": "En las playas de California hay un pez, el grunion, que sale del agua para desovar en la arena justo en las noches de mareas más altas, tras la luna llena y la nueva. Sin Luna, perdería su calendario."
+    },
+    {
+      "type": "map",
+      "kicker": "Sudáfrica",
+      "text": "Escarabajos con *brújula*",
+      "from": {
+        "lon": 0,
+        "lat": 20,
+        "zoom": 1
+      },
+      "to": {
+        "lon": 25,
+        "lat": -27,
+        "zoom": 4
+      },
+      "highlight": [
+        "South Africa"
+      ],
+      "markers": [
+        {
+          "lon": 26.0,
+          "lat": -25.0,
+          "label": "Escarabajo pelotero",
+          "emoji": "🪲"
+        }
+      ],
+      "narration": "Hasta algunos escarabajos peloteros usan la luz de la Luna para rodar su bola en línea recta durante la noche. Les sirve de brújula. Sin ella, darían vueltas sin rumbo."
+    },
+    {
+      "type": "landscape",
+      "env": "night",
+      "seed": "n7",
+      "text": "¿Y *nosotros*?",
+      "props": [
+        {
+          "emoji": "🛏️",
+          "x": 40,
+          "y": 90,
+          "size": 200
+        },
+        {
+          "emoji": "😵‍💫",
+          "x": 62,
+          "y": 55,
+          "size": 150,
+          "anim": "float"
+        }
+      ],
+      "narration": "¿Y los humanos? Algunos estudios sugieren que dormimos un poco menos en las noches anteriores a la luna llena. Puede que, sin Luna, durmiéramos algo mejor. Aunque ningún hombre lobo estaría contento."
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 4",
+      "text": "Adiós a los *eclipses*",
+      "env": "space",
+      "emoji": "🌘",
+      "narration": "Capítulo cuatro. Adiós a los eclipses.",
+      "seed": "sp3"
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp4",
+      "text": "Una *casualidad* perfecta",
+      "props": [
+        {
+          "emoji": "☀️",
+          "x": 35,
+          "y": 45,
+          "size": 240,
+          "anim": "float"
+        },
+        {
+          "emoji": "🌑",
+          "x": 62,
+          "y": 45,
+          "size": 200,
+          "anim": "walk",
+          "to": [
+            40,
+            45
+          ]
+        }
+      ],
+      "narration": "Hay una casualidad increíble en nuestro cielo. El Sol es unas cuatrocientas veces más grande que la Luna, pero también está unas cuatrocientas veces más lejos. Por eso, vistos desde aquí, miden casi lo mismo."
+    },
+    {
+      "type": "compare",
+      "env": "space",
+      "seed": "sp5",
+      "text": "Tamaños *reales*",
+      "items": [
+        {
+          "emoji": "🌕",
+          "label": "Luna",
+          "value": 1,
+          "display": "3.474 km"
+        },
+        {
+          "emoji": "☀️",
+          "label": "Sol",
+          "value": 400,
+          "display": "1.392.000 km"
+        }
+      ],
+      "narration": "Gracias a esa coincidencia, la Luna puede tapar el Sol justo por completo. Es un eclipse total: el día se convierte en noche durante unos minutos y aparece la corona solar."
+    },
+    {
+      "type": "map",
+      "kicker": "12 de agosto de 2026",
+      "text": "El eclipse de *España*",
+      "from": {
+        "lon": 0,
+        "lat": 20,
+        "zoom": 1
+      },
+      "to": {
+        "lon": -3.5,
+        "lat": 40.5,
+        "zoom": 6.5
+      },
+      "highlight": [
+        "Spain"
+      ],
+      "markers": [
+        {
+          "lon": -5.85,
+          "lat": 43.36,
+          "label": "Oviedo",
+          "emoji": "🌘"
+        },
+        {
+          "lon": -0.88,
+          "lat": 41.65,
+          "label": "Zaragoza",
+          "emoji": "🌘"
+        },
+        {
+          "lon": -0.38,
+          "lat": 39.47,
+          "label": "Valencia",
+          "emoji": "🌘"
+        }
+      ],
+      "narration": "Este mismo verano, el doce de agosto, millones de personas en España vieron el primer eclipse total en más de un siglo. Sin Luna, nadie en la historia habría visto uno. Y el de agosto de dos mil veintisiete, en el sur, tampoco llegaría."
+    },
+    {
+      "type": "quote",
+      "env": "space",
+      "seed": "sp5b",
+      "text": "Es un pequeño paso para un hombre, un gran salto para la humanidad",
+      "author": "Neil Armstrong, 20 de julio de 1969",
+      "emoji": "👨‍🚀",
+      "narration": "Y perderíamos también un pedazo de nuestra historia. En julio de mil novecientos sesenta y nueve, Neil Armstrong pisó la Luna y pronunció una de las frases más famosas jamás dichas."
+    },
+    {
+      "type": "stat",
+      "env": "space",
+      "seed": "sp5c",
+      "value": 12,
+      "suffix": " personas",
+      "emoji": "👣",
+      "label": "han caminado sobre la *Luna*",
+      "narration": "Entre mil novecientos sesenta y nueve y mil novecientos setenta y dos, solo doce personas caminaron sobre ella. Sin Luna, la carrera espacial habría sido muy distinta."
+    },
+    {
+      "type": "stat",
+      "env": "night",
+      "seed": "n8",
+      "value": 29.5,
+      "decimals": 1,
+      "suffix": " días",
+      "emoji": "🌙",
+      "label": "dura un ciclo de *fases* lunares: el origen del *mes*",
+      "narration": "También perderíamos algo que usamos todos los días sin pensarlo. La palabra mes viene de la Luna: un ciclo de fases dura unos veintinueve días y medio. Durante miles de años, la gente contó el tiempo mirándola."
+    },
+    {
+      "type": "landscape",
+      "env": "city",
+      "seed": "c2",
+      "text": "Calendarios *rotos*",
+      "props": [
+        {
+          "emoji": "🕌",
+          "x": 30,
+          "y": 85,
+          "size": 200
+        },
+        {
+          "emoji": "🐣",
+          "x": 62,
+          "y": 90,
+          "size": 160,
+          "anim": "pop",
+          "delay": 0.5
+        }
+      ],
+      "narration": "Hoy, el calendario islámico sigue siendo lunar, y la fecha de la Semana Santa se calcula con la primera luna llena de la primavera. Sin Luna, habría que reinventar muchas fiestas."
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp6",
+      "text": "¿Un *escudo*?",
+      "props": [
+        {
+          "emoji": "☄️",
+          "x": 30,
+          "y": 30,
+          "size": 170,
+          "anim": "fall"
+        },
+        {
+          "emoji": "🌍",
+          "x": 62,
+          "y": 65,
+          "size": 240
+        }
+      ],
+      "narration": "Y un mito que conviene aclarar: mucha gente cree que la Luna nos protege de los asteroides. En realidad, ocupa una parte minúscula del cielo, y apenas nos tapa. Su ausencia no haría que nos cayeran más rocas."
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 5",
+      "text": "El planeta se *tambalea*",
+      "env": "space",
+      "emoji": "🌍",
+      "narration": "Capítulo cinco. El planeta se tambalea.",
+      "seed": "sp7"
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp8",
+      "text": "Un eje *inclinado*",
+      "props": [
+        {
+          "emoji": "🌍",
+          "x": 50,
+          "y": 55,
+          "size": 300,
+          "anim": "shake"
+        }
+      ],
+      "narration": "Aquí viene lo más importante, y lo más lento. La Tierra gira inclinada, unos veintitrés grados y medio. Esa inclinación es la que nos da las estaciones: verano, otoño, invierno y primavera."
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp9",
+      "text": "La Luna *estabiliza*",
+      "props": [
+        {
+          "emoji": "🌍",
+          "x": 42,
+          "y": 55,
+          "size": 260,
+          "anim": "spin"
+        },
+        {
+          "emoji": "🌕",
+          "x": 72,
+          "y": 40,
+          "size": 120,
+          "anim": "float"
+        }
+      ],
+      "narration": "La Luna actúa como un contrapeso que mantiene esa inclinación bastante estable. Gracias a ella, en los últimos millones de años solo ha variado un poco más de un grado arriba o abajo."
+    },
+    {
+      "type": "stat",
+      "env": "space",
+      "seed": "sp10",
+      "value": 23.4,
+      "suffix": "°",
+      "emoji": "📐",
+      "label": "inclinación actual del *eje* terrestre",
+      "narration": "Sin la Luna, según varios estudios, a lo largo de millones de años el eje podría bambolearse mucho más, quizá decenas de grados. Y eso cambiaría el clima por completo.",
+      "decimals": 1
+    },
+    {
+      "type": "landscape",
+      "env": "ice",
+      "seed": "i1",
+      "text": "Climas *extremos*",
+      "props": [
+        {
+          "emoji": "🧊",
+          "x": 30,
+          "y": 88,
+          "size": 190
+        },
+        {
+          "emoji": "🔥",
+          "x": 68,
+          "y": 88,
+          "size": 190,
+          "anim": "shake"
+        }
+      ],
+      "narration": "Con un eje muy inclinado, los polos podrían pasar medio año apuntando al Sol, y regiones heladas se volverían desiertos. Los cambios serían lentos, pero brutales para cualquier ser vivo."
+    },
+    {
+      "type": "compare",
+      "env": "space",
+      "seed": "sp10b",
+      "text": "El ejemplo de *Marte*",
+      "items": [
+        {
+          "emoji": "🌍",
+          "label": "Tierra (con Luna)",
+          "value": 2,
+          "display": "~1° de vaivén"
+        },
+        {
+          "emoji": "🔴",
+          "label": "Marte (lunas diminutas)",
+          "value": 40,
+          "display": "decenas de grados"
+        }
+      ],
+      "narration": "Tenemos un ejemplo cerca: Marte. Sus dos lunas son diminutas, y los cálculos indican que la inclinación de su eje ha cambiado muchísimo a lo largo de millones de años, con épocas en las que sus polos se derretían en parte."
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp11",
+      "text": "Días que se *alargan*",
+      "props": [
+        {
+          "emoji": "🕰️",
+          "x": 45,
+          "y": 55,
+          "size": 220,
+          "anim": "spin"
+        },
+        {
+          "emoji": "🌕",
+          "x": 72,
+          "y": 38,
+          "size": 120
+        }
+      ],
+      "narration": "Y hay más. Las mareas que provoca la Luna frenan poco a poco la rotación de la Tierra. Hace cientos de millones de años, un día duraba bastante menos de veinticuatro horas."
+    },
+    {
+      "type": "timeline",
+      "env": "night",
+      "seed": "n9",
+      "text": "Días cada vez más *largos*",
+      "points": [
+        {
+          "year": "Hace 4.500 M años",
+          "label": "Nace la Luna",
+          "emoji": "🌕"
+        },
+        {
+          "year": "Hace 620 M años",
+          "label": "Días de ~22 horas",
+          "emoji": "🕰️"
+        },
+        {
+          "year": "Hoy",
+          "label": "Días de 24 horas",
+          "emoji": "🌍"
+        },
+        {
+          "year": "Futuro",
+          "label": "Días aún más largos",
+          "emoji": "⏳"
+        }
+      ],
+      "narration": "Los fósiles de corales antiguos, con sus anillos de crecimiento diarios, muestran que hace unos seiscientos millones de años un día duraba alrededor de veintidós horas. La Luna nos ha ido regalando tiempo."
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp12",
+      "text": "Un *origen* violento",
+      "props": [
+        {
+          "emoji": "🪐",
+          "x": 30,
+          "y": 45,
+          "size": 170,
+          "anim": "walk",
+          "to": [
+            45,
+            50
+          ]
+        },
+        {
+          "emoji": "🌍",
+          "x": 62,
+          "y": 55,
+          "size": 230
+        },
+        {
+          "emoji": "💥",
+          "x": 52,
+          "y": 50,
+          "size": 150,
+          "anim": "pop",
+          "delay": 1.5
+        }
+      ],
+      "narration": "Y quizá lo más loco de todo: la teoría más aceptada dice que la Luna nació de un choque gigantesco, cuando un planeta del tamaño de Marte golpeó la Tierra joven. Ese golpe pudo cambiar también nuestro planeta."
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp12b",
+      "text": "Eclipses con *fecha de caducidad*",
+      "props": [
+        {
+          "emoji": "🌑",
+          "x": 40,
+          "y": 45,
+          "size": 180,
+          "anim": "walk",
+          "to": [
+            55,
+            45
+          ]
+        },
+        {
+          "emoji": "☀️",
+          "x": 62,
+          "y": 45,
+          "size": 220
+        }
+      ],
+      "narration": "Y un detalle curioso: como la Luna se aleja poco a poco, dentro de cientos de millones de años se verá demasiado pequeña para tapar el Sol entero. Los eclipses totales tienen fecha de caducidad. Somos afortunados de verlos."
+    },
+    {
+      "type": "title",
+      "kicker": "Escala Brutal",
+      "text": "Una piedra que lo *cambia todo*",
+      "env": "night",
+      "emoji": "🌕",
+      "narration": "Así que, si la Luna desapareciera esta noche, no habría explosiones ni fin del mundo inmediato. Pero empezaría algo mucho más lento y profundo.",
+      "seed": "n10"
+    },
+    {
+      "type": "timeline",
+      "env": "night",
+      "seed": "n11",
+      "text": "Lo que *perderíamos*",
+      "points": [
+        {
+          "year": "Esa noche",
+          "label": "Noches más oscuras",
+          "emoji": "🌑"
+        },
+        {
+          "year": "Ese año",
+          "label": "Mareas débiles, corales perdidos",
+          "emoji": "🪸"
+        },
+        {
+          "year": "Siempre",
+          "label": "Sin eclipses",
+          "emoji": "🌘"
+        },
+        {
+          "year": "Millones de años",
+          "label": "Un eje que se tambalea",
+          "emoji": "🌍"
+        }
+      ],
+      "narration": "Mareas más débiles, noches más oscuras, corales desorientados, nada de eclipses y, con los millones de años, un planeta tambaleándose con climas extremos."
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp13",
+      "text": "Por eso *estamos aquí*",
+      "props": [
+        {
+          "emoji": "🌍",
+          "x": 42,
+          "y": 55,
+          "size": 260,
+          "anim": "spin"
+        },
+        {
+          "emoji": "🌕",
+          "x": 70,
+          "y": 38,
+          "size": 130,
+          "anim": "float"
+        }
+      ],
+      "narration": "Por eso hay científicos que piensan que tener una Luna así de grande fue una de las razones por las que la Tierra pudo mantener un clima estable el tiempo suficiente para que apareciera la vida. Y nosotros con ella."
+    },
+    {
+      "type": "landscape",
+      "env": "night",
+      "seed": "n12",
+      "text": "¿Qué *quieres* ver?",
+      "props": [
+        {
+          "emoji": "💬",
+          "x": 50,
+          "y": 50,
+          "size": 240,
+          "anim": "pop"
+        }
+      ],
+      "narration": "La próxima vez que veas la Luna, mírala con un poco más de cariño. Si te ha gustado, suscríbete a Escala Brutal. Y cuéntame en los comentarios: ¿qué pasaría si desapareciera otra cosa? ¿El Sol? ¿Los océanos? Tú eliges el próximo vídeo."
+    }
+  ]
+}

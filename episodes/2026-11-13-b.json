@@ -1,0 +1,62 @@
+{
+  "id": "2026-11-13-b",
+  "format": "doc",
+  "title": "Tu corazón llenaría 80 PISCINAS olímpicas en tu vida ❤️",
+  "description": "Un corazón del tamaño de un puño late unas 100.000 veces al día: cerca de 3.000 millones de latidos en 80 años. Bombea unos 7.000 litros diarios, unos 200 millones de litros en una vida: como 80 piscinas olímpicas.\n\nCifras aproximadas para un adulto en reposo (unos 70 latidos por minuto). Imágenes: Pixabay. Video creado con ayuda de IA.",
+  "tags": [
+    "corazon",
+    "cuerpo humano",
+    "latidos",
+    "curiosidades",
+    "escala",
+    "salud"
+  ],
+  "credits": [
+    "Pixabay (varios autores)"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/06/10/357549_small.mp4",
+      "startFrom": 0,
+      "stamp": "Del tamaño de *tu puño*",
+      "narration": "Tienes en el pecho una máquina del tamaño de tu puño que no ha parado ni un segundo desde antes de que nacieras."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2020/02/12/32264-391201301_large.mp4",
+      "startFrom": 2,
+      "fit": "contain",
+      "stamp": "*100.000* latidos al día",
+      "narration": "Late unas cien mil veces al día. En ochenta años, cerca de tres mil millones de latidos."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2019/02/23/21617-319452308_large.mp4",
+      "startFrom": 3,
+      "stamp": "*7.000 litros* al día",
+      "narration": "Y en cada latido empuja sangre. Al día mueve unos siete mil litros, aunque tú solo tengas unos cinco."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/02/01/331792_large.mp4",
+      "startFrom": 0,
+      "stamp": "Vuelta completa: *1 minuto*",
+      "narration": "Tu sangre da la vuelta completa al cuerpo en más o menos un minuto. Si corres, mucho más rápido."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2021/06/17/78059-564490562_medium.mp4",
+      "startFrom": 0,
+      "stamp": "*80 piscinas* olímpicas",
+      "narration": "En toda una vida bombea unos doscientos millones de litros. Eso llenaría unas ochenta piscinas olímpicas."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2020/04/09/35461-405897690_large.mp4",
+      "startFrom": 0,
+      "stamp": "Y *nunca* descansa",
+      "narration": "Y todo eso sin un solo día libre. ¿Qué otra parte de tu cuerpo quieres ver a escala?"
+    }
+  ]
+}

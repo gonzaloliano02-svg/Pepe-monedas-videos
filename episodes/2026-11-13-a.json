@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-13-a",
+  "format": "doc",
+  "title": "Aquí viven 500 personas a -50 °C: el pueblo más FRÍO del mundo 🥶",
+  "description": "Oymyakon (Yakutia, Rusia) es el pueblo habitado más frío del planeta: en 1933 registró -67,7 °C y en enero la media ronda los -46 °C. Muchos coches se quedan encendidos todo el invierno y los niños solo se quedan en casa cuando baja de unos -52 °C.\n\nCifras aproximadas de registros meteorológicos y prensa local. Imágenes: Pixabay (ilustrativas). Video creado con ayuda de IA.",
+  "tags": ["oymyakon", "pueblo mas frio", "siberia", "frio extremo", "lugares extremos", "curiosidades"],
+  "credits": ["Pixabay: Matthias_Groeneveld, Motionwell, doktorkleinmusic, Marsel_beijing, iddea_photo, Arystan_001"],
+  "scenes": [
+    {"type": "clip", "src": "https://cdn.pixabay.com/video/2026/02/19/335558_large.mp4", "startFrom": 0,
+     "stamp": "*-67,7 °C*",
+     "narration": "Imagina salir de casa a casi setenta grados bajo cero. Aquí viven unas quinientas personas."},
+    {"type": "clip", "src": "https://cdn.pixabay.com/video/2026/02/25/336603_small.mp4", "startFrom": 1,
+     "stamp": "Oymyakon, *Siberia*",
+     "narration": "Es Oymyakon, en Siberia, el pueblo habitado más frío del planeta. En mil novecientos treinta y tres llegó a sesenta y siete grados bajo cero."},
+    {"type": "clip", "src": "https://cdn.pixabay.com/video/2026/02/03/332529_small.mp4", "startFrom": 0,
+     "stamp": "Enero: *-46 °C* de media",
+     "narration": "Y no es un día raro: en enero, la temperatura media ronda los cuarenta y seis bajo cero."},
+    {"type": "clip", "src": "https://cdn.pixabay.com/video/2025/01/18/253308_small.mp4", "startFrom": 0,
+     "stamp": "Coches *siempre* encendidos",
+     "narration": "Muchos dejan el coche encendido todo el invierno, o lo guardan en garajes con calefacción. Si se apaga, el motor se congela."},
+    {"type": "clip", "src": "https://cdn.pixabay.com/video/2025/01/22/253998_small.mp4", "startFrom": 0,
+     "stamp": "Cole hasta *-52 °C*",
+     "narration": "¿Y el colegio? Los niños solo se quedan en casa cuando baja de unos cincuenta y dos bajo cero."},
+    {"type": "clip", "src": "https://cdn.pixabay.com/video/2024/06/02/215026_large.mp4", "startFrom": 0,
+     "stamp": "¿Vivirías *aquí*?",
+     "narration": "Así que la próxima vez que pases frío, acuérdate de Oymyakon. ¿Tú aguantarías un invierno aquí?"}
+  ]
+}

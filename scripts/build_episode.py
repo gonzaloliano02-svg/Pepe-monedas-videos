@@ -27,12 +27,16 @@ _kokoro = None
 
 CBX_PY = Path("/opt/cbx/venv/bin/python")
 _cbx = None
+_lock = None
 
 
 def _cbx_tts(text: str, out: Path) -> float:
     """Natural voice (Chatterbox multilingual, default voice "A")."""
-    global _cbx
+    global _cbx, _lock
     if _cbx is None:
+        import fcntl
+        _lock = open(ROOT / "build" / "tts.lock", "w")
+        fcntl.flock(_lock, fcntl.LOCK_EX)  # one ~6 GB TTS worker at a time
         _cbx = subprocess.Popen([str(CBX_PY), str(ROOT / "scripts" / "cbx_worker.py")], stdin=subprocess.PIPE,
                                 stdout=subprocess.PIPE, stderr=open(ROOT / "build" / "tts.log", "a"), text=True, bufsize=1)
         json.loads(_cbx.stdout.readline())  # wait for {"ready": true}
@@ -41,7 +45,30 @@ def _cbx_tts(text: str, out: Path) -> float:
     return float(json.loads(_cbx.stdout.readline())["secs"])
 
 
+def stop_tts():
+    """Free the TTS worker's ~6 GB before rendering (two at once get OOM-killed)."""
+    global _cbx
+    if _cbx is not None:
+        _cbx.stdin.close()
+        _cbx.wait(timeout=60)
+        _cbx = None
+        _lock.close()
+
+
 def tts(text: str, out: Path) -> float:
+    """Voice-over (cached: the same text is not synthesised twice)."""
+    import hashlib
+    key = out.with_suffix(".key")
+    h = hashlib.sha1(("cbxA1|" + text).encode()).hexdigest()
+    if out.exists() and key.exists() and key.read_text() == h:
+        with wave.open(str(out), "rb") as wf:
+            return wf.getnframes() / wf.getframerate()
+    secs = _tts_uncached(text, out)
+    key.write_text(h)
+    return secs
+
+
+def _tts_uncached(text: str, out: Path) -> float:
     """Voice-over. Chatterbox is mandatory: the owner rejected Kokoro/Piper as robotic,
     so no fallback to them (fail loudly instead of publishing a robotic voice)."""
     return _cbx_tts(text, out)
@@ -270,6 +297,7 @@ def build_story(ep: dict, adir: Path) -> None:
         sc["audio"] = f"episodes/{eid}/s{i}.wav"
         total += sc["durationInFrames"]
     print(f"narration {total / fps / 60:.1f} min, {len(ep['scenes'])} scenes", flush=True)
+    stop_tts()
     make_long_music(total / fps, adir / "music.wav", seed=sum(map(ord, eid)))
     ep["music"] = f"episodes/{eid}/music.wav"
     props = ROOT / "build" / f"{eid}.props.json"
@@ -330,6 +358,7 @@ def main(path: str):
         sc["durationInFrames"] = int(math.ceil(max(secs + 0.35, minimum) * FPS))
         sc["audio"] = f"episodes/{eid}/s{i}.wav"
         total += sc["durationInFrames"]
+    stop_tts()
     make_music(total / FPS, adir / "music.wav", seed=sum(map(ord, eid)))
     ep["music"] = f"episodes/{eid}/music.wav"
     (ROOT / "build").mkdir(exist_ok=True)

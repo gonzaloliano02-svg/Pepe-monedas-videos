@@ -15,6 +15,7 @@ WT="$ROOT/build/media-wt"
 cd "$ROOT"
 git worktree remove --force "$WT" 2>/dev/null || rm -rf "$WT"
 git worktree prune
+git branch -D media-new 2>/dev/null || true
 if git fetch -q origin media 2>/dev/null && git log -1 --format=%s FETCH_HEAD | grep -q "$TODAY"; then
   git worktree add -q --detach "$WT" FETCH_HEAD
 else

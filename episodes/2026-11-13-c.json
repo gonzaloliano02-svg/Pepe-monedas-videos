@@ -1,0 +1,62 @@
+{
+  "id": "2026-11-13-c",
+  "format": "doc",
+  "title": "¿Y si la Tierra dejara de GIRAR un segundo? 🌍",
+  "description": "La Tierra gira a unos 1.670 km/h en el ecuador (unos 1.300 km/h a la altura de España). Si frenara de golpe, todo lo que no está anclado seguiría moviéndose a esa velocidad. Y si dejara de girar para siempre, un día duraría un año y los océanos se irían hacia los polos. Tranquilo: la rotación solo se frena unos 2 milisegundos por siglo.\n\nEscenario hipotético simplificado. Imágenes: Pixabay. Video creado con ayuda de IA.",
+  "tags": [
+    "que pasaria si",
+    "tierra",
+    "rotacion",
+    "ciencia",
+    "curiosidades",
+    "escala"
+  ],
+  "credits": [
+    "Pixabay (varios autores)"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/02/21/201404-915375388_large.mp4",
+      "startFrom": 0,
+      "stamp": "¿Y si *se parara*?",
+      "narration": "¿Qué pasaría si la Tierra dejara de girar, de golpe, solo un segundo?"
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/08/12/296958_medium.mp4",
+      "startFrom": 0,
+      "stamp": "*1.300 km/h*",
+      "narration": "Ahora mismo, aunque no lo notes, en España te mueves con el planeta a unos mil trescientos kilómetros por hora."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/04/23/348490_small.mp4",
+      "startFrom": 0,
+      "stamp": "Todo *saldría volando*",
+      "narration": "Si el suelo frenara en seco, todo lo que no está anclado seguiría a esa velocidad. Personas, coches, el aire y el mar."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/06/24/360429_small.mp4",
+      "startFrom": 0,
+      "stamp": "Océanos *a los polos*",
+      "narration": "Y si no volviera a girar, los océanos se irían poco a poco hacia los polos, y en el ecuador aparecería un supercontinente."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2022/08/06/126925-737187453_large.mp4",
+      "startFrom": 0,
+      "stamp": "*6 meses* de noche",
+      "narration": "Un día duraría un año entero: seis meses de sol abrasador y seis meses de noche helada."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2016/01/29/1992-153555258_large.mp4",
+      "startFrom": 0,
+      "fit": "contain",
+      "stamp": "Solo frena *2 ms* por siglo",
+      "narration": "Tranquilo: la Tierra solo se frena unas dos milésimas de segundo cada siglo. ¿Qué otro qué pasaría si quieres ver?"
+    }
+  ]
+}
