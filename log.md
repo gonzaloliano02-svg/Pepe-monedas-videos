@@ -36,3 +36,4 @@
 - a · 10:00 · "Aquí viven 500 personas a -50 °C: el pueblo más FRÍO del mundo 🥶" · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-3407994138442579487
 - Fixes: TTS worker OOM when two builds ran at once → one worker at a time (file lock), worker freed before rendering, TTS cached by text. publish_media.sh failed on a leftover `media-new` branch → fixed.
 - Comments: no new viewer comments (Windsor). vidIQ credits used: 0.
+- b · 12:00 · "Tu corazón llenaría 80 PISCINAS olímpicas en tu vida ❤️" · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-1110029331976729413
