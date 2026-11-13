@@ -223,3 +223,6 @@ The owner asked me to handle comments fully, replying directly.
   a 10-min video needs ~45 min of TTS, so start long-form builds early. No vidIQ voiceover needed.
 - Long-form music is now `make_calm_music` (slow e-piano + warm pad, no drums). Shorts keep `make_music`.
 - L1 Tambora re-voiced with voice A + calm music, rescheduled for 2026-11-13 16:00.
+
+## 2026-11-13 (tarde) — música más baja
+- Petición del usuario: música aún muy alta. Volúmenes: Shorts (Doc.tsx) 0.45 → 0.25; largos (Story.tsx) 0.22 → 0.12 (≈ -5 dB). NO subir sin que lo pida.

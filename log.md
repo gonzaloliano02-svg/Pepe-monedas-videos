@@ -39,3 +39,4 @@
 - b · 12:00 · "Tu corazón llenaría 80 PISCINAS olímpicas en tu vida ❤️" · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-1110029331976729413
 - c · 18:00 · "¿Y si la Tierra dejara de GIRAR un segundo? 🌍" · YouTube + TikTok · voz 2A · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=1463678071972973093
 - L1 · 16:00 · "1816: el año en que el VERANO no llegó (y la culpa fue de un volcán)" · YouTube · RE-VOZ 2A (borrador antiguo actualizado, capítulos recalculados) · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-1208998648163515602
+- 17:15 · Usuario: bajar música. Doc 0.45→0.25, Story 0.22→0.12. Re-render c (18:00) y L2 (20:00) con música baja.

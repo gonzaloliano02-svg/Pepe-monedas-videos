@@ -488,7 +488,7 @@ export const Story: React.FC<StoryEpisode> = (ep) => {
         ))}
       </Series>
       <Brand />
-      {ep.music ? <Audio src={staticFile(ep.music)} volume={0.22} /> : null}
+      {ep.music ? <Audio src={staticFile(ep.music)} volume={0.12} /> : null}
     </AbsoluteFill>
   );
 };
