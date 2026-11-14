@@ -58,3 +58,5 @@
 - Reinicio del contenedor mató el build de L2 al inicio del TTS; relanzado con build/q14all.sh (13:19 UTC). Objetivo 20:00.
 - L2: detectado en revisión que las 3 primeras escenas eran del guion de L1 (ola de Lituya, error de copia en el generador). Render abortado; sustituidas por un gancho propio del ranking (presión en la fosa de las Marianas, comparación Everest, resumen de extremos). Re-build 15:30 UTC.
 - Voz: el usuario pide narración tan natural como un vídeo de referencia (YouTube bloqueado en la red, no se pudo escuchar). Prueba A/B en build/voztest: B (exag 0.7, cfg 0.3) alucinaba → descartada; C (frase a frase, exag 0.6, cfg 0.4, temp 0.75, pausas por puntuación, QA Whisper) enviada al usuario. Pendiente de su elección.
+- L2 re-renderizado (10.5 min, 90 MB), revisado (frames + miniatura). Programado YouTube 20:00 (Metricool id 428148798, uuid -8647511092840018392).
+- Voz C aplicada en scripts/cbx_worker.py (clave caché cbxC1). Desde el 2026-11-15 todos los vídeos con voz C.
