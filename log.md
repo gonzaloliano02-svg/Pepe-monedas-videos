@@ -48,3 +48,6 @@
 - Comments: counts unchanged vs comments.md → no new comments, 0 vidIQ credits.
 - Choice: a = Lugares extremos (Atacama, el desierto más seco); b = Tu cuerpo a escala (vasos sanguíneos = 2,5 vueltas a la Tierra); c = ¿Qué pasaría si...? (el Sol se apaga). L1 = documental Lituya Bay 1958 (la ola de 524 m; disasters/history niche). L2 = ranking "Los 10 lugares más extremos de la Tierra" (long-form version of our best Short theme).
 - Container restarted at 06:38 UTC; files and venv survived.
+- Container restarted again ~07:00–09:28 UTC (builds lost; 10:00 slot missed) → a moved to 10:45.
+- a · 10:45 · "Aquí casi NUNCA llueve: el desierto más seco del planeta 🏜️" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=2543728861049146204
+- b · 12:00 · "Tus venas darían 2 VUELTAS a la Tierra 🩸" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-7602042269884855477
