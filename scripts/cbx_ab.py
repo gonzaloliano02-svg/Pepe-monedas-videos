@@ -22,20 +22,42 @@ def trim(w, thr=0.01):
 def sil(sec):
     return torch.zeros(1, int(m.sr * sec))
 
-# A: actual (bloques de 230 caracteres, exag 0.55, cfg 0.5, pausa fija 0.18 s)
-torch.manual_seed(1)
-a = m.generate(TEXT, language_id="es", exaggeration=0.55, cfg_weight=0.5)
-torchaudio.save(f"{OUT}/A_actual.wav", a, m.sr)
+import numpy as np, scipy.signal as ss, unicodedata
+from faster_whisper import WhisperModel
+asr = WhisperModel("small", device="cpu", compute_type="int8")
+def words(t):
+    t = unicodedata.normalize("NFKD", t.lower())
+    return "".join(c for c in t if c.isalnum() or c.isspace()).split()
+def cov(w, text):
+    x = ss.resample_poly(w[0].numpy(), 16000, m.sr).astype("float32")
+    segs, _ = asr.transcribe(x, language="es")
+    heard = words(" ".join(z.text for z in segs)); want = words(text)
+    hs = set(heard)
+    c = sum(1 for z in want if z in hs) / max(1, len(want))
+    extra = max(0, len(heard) - len(want)) / max(1, len(want))  # penaliza alucinaciones
+    return c - extra
 
-# B: frase a frase, más expresiva, ritmo más pausado, pausas según puntuación
-sents = re.split(r"(?<=[.!?…])\s+", TEXT.strip())
+def groups(text, minlen=45):
+    sents = re.split(r"(?<=[.!?…])\s+", text.strip())
+    out = []
+    for x in sents:
+        if out and len(out[-1]) < minlen:
+            out[-1] += " " + x
+        else:
+            out.append(x)
+    return out
+
 parts = []
-for i, s in enumerate(sents):
-    torch.manual_seed(1 + i)
-    w = trim(m.generate(s, language_id="es", exaggeration=0.7, cfg_weight=0.3, temperature=0.8))
-    parts.append(w)
-    end = s.rstrip()[-1]
-    parts.append(sil(0.55 if end == "?" else 0.6 if s.rstrip().endswith("...") else 0.42))
-b = torch.cat(parts[:-1], dim=1)
-torchaudio.save(f"{OUT}/B_natural.wav", b, m.sr)
+for i, g in enumerate(groups(TEXT)):
+    best, bc = None, -9
+    for att in range(4):
+        torch.manual_seed(1 + i + 1000 * att)
+        w = trim(m.generate(g, language_id="es", exaggeration=0.6, cfg_weight=0.4, temperature=0.75))
+        c = cov(w, g)
+        if c > bc: best, bc = w, c
+        if c >= 0.9: break
+    print("grupo", i, round(bc, 2), g, flush=True)
+    parts.append(best)
+    parts.append(sil(0.55 if g.rstrip().endswith("?") else 0.45))
+torchaudio.save(f"{OUT}/C_natural.wav", torch.cat(parts[:-1], dim=1), m.sr)
 print("done")
