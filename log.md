@@ -51,3 +51,4 @@
 - Container restarted again ~07:00–09:28 UTC (builds lost; 10:00 slot missed) → a moved to 10:45.
 - a · 10:45 · "Aquí casi NUNCA llueve: el desierto más seco del planeta 🏜️" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=2543728861049146204
 - b · 12:00 · "Tus venas darían 2 VUELTAS a la Tierra 🩸" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-7602042269884855477
+- c · 18:00 · "¿Y si el SOL se apagara ahora mismo? ☀️" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-2226096056371822446
