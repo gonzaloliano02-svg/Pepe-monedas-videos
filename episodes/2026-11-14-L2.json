@@ -23,17 +23,17 @@
  "scenes": [
   {
    "type": "title",
-   "kicker": "Escala Brutal · Historias",
-   "text": "La ola de *524 metros*",
+   "kicker": "Escala Brutal · Ranking",
+   "text": "El nº1 te *aplastaría*",
    "env": "sea",
    "emoji": "🌊",
-   "narration": "La noche del nueve de julio de mil novecientos cincuenta y ocho, en una bahía remota de Alaska, el agua subió por la ladera de una montaña hasta quinientos veinticuatro metros de altura."
+   "narration": "A once kilómetros bajo el mar hay un lugar donde la presión es más de mil veces la que sientes ahora mismo. Si bajaras sin protección, tu cuerpo no aguantaría ni un instante. Y no es el único rincón del planeta que parece hecho para echarnos."
   },
   {
    "type": "compare",
-   "env": "city",
-   "seed": "ci1x",
-   "text": "Más alta que…",
+   "env": "sea",
+   "seed": "se1r",
+   "text": "Más profundo que…",
    "items": [
     {
      "emoji": "🗼",
@@ -42,49 +42,49 @@
      "display": "330 m"
     },
     {
-     "emoji": "🏙️",
-     "label": "Empire State",
-     "value": 381,
-     "display": "381 m"
+     "emoji": "🏔️",
+     "label": "Everest",
+     "value": 8849,
+     "display": "8.849 m"
     },
     {
      "emoji": "🌊",
-     "label": "La ola",
-     "value": 524,
-     "display": "524 m"
+     "label": "Fosa de las Marianas",
+     "value": 10935,
+     "display": "10.935 m"
     }
    ],
-   "narration": "Para que te hagas una idea: más alta que la Torre Eiffel. Más alta que el Empire State. Es la mayor ola de la que se tiene registro en toda la historia."
+   "narration": "Para que te hagas una idea: si metieras el Everest entero en ese abismo, su cima quedaría todavía a unos dos kilómetros por debajo de la superficie."
   },
   {
    "type": "landscape",
-   "env": "sea",
-   "seed": "se2x",
-   "text": "Tres barcos en la *bahía*",
+   "env": "desert",
+   "seed": "de2r",
+   "text": "Calor, frío y *presión*",
    "props": [
     {
-     "emoji": "⛵",
-     "x": 30,
-     "y": 62,
-     "size": 150,
+     "emoji": "🔥",
+     "x": 28,
+     "y": 60,
+     "size": 140,
      "anim": "float"
     },
     {
-     "emoji": "🚤",
-     "x": 55,
-     "y": 66,
+     "emoji": "🧊",
+     "x": 52,
+     "y": 62,
      "size": 130,
      "anim": "float"
     },
     {
-     "emoji": "⛵",
+     "emoji": "🌋",
      "x": 76,
-     "y": 63,
-     "size": 120,
+     "y": 58,
+     "size": 150,
      "anim": "float"
     }
    ],
-   "narration": "Y aquella noche, dentro de esa bahía, había tres pequeños barcos de pesca anclados. En uno de ellos, un padre y su hijo de siete años."
+   "narration": "Calor que hace hervir el suelo, frío que congela el aliento, lluvias que no paran durante meses y un aire tan fino que cuesta pensar. Hoy los vamos a ver todos."
   },
   {
    "type": "title",
