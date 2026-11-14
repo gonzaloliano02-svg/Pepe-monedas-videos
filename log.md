@@ -52,3 +52,7 @@
 - a · 10:45 · "Aquí casi NUNCA llueve: el desierto más seco del planeta 🏜️" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=2543728861049146204
 - b · 12:00 · "Tus venas darían 2 VUELTAS a la Tierra 🩸" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-7602042269884855477
 - c · 18:00 · "¿Y si el SOL se apagara ahora mismo? ☀️" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-2226096056371822446
+
+### 2026-11-14 (mediodía)
+- L1 "La ola MÁS ALTA de la historia: 524 metros" renderizado (10.1 min, 90 MB, -14.0 LUFS). Programado YouTube 16:00 (Metricool id 427993927, uuid -4090158543380856659).
+- Reinicio del contenedor mató el build de L2 al inicio del TTS; relanzado con build/q14all.sh (13:19 UTC). Objetivo 20:00.
