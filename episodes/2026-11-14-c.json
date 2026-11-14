@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-14-c",
+  "format": "doc",
+  "title": "¿Y si el SOL se apagara ahora mismo? ☀️",
+  "description": "La luz del Sol tarda unos 8 minutos y 20 segundos en llegar a la Tierra, así que durante ese tiempo no notaríamos nada. Después, la Luna también se apagaría (solo refleja la luz del Sol), las plantas dejarían de hacer la fotosíntesis y, según algunas estimaciones, en una semana la temperatura media bajaría de 0 °C y en un año rondaría los -70 °C. La Tierra seguiría orbitando, porque la gravedad del Sol seguiría ahí. Y bajo el hielo de los océanos, el calor interno del planeta mantendría agua líquida durante muchísimo tiempo.\n\nEscenario hipotético simplificado; cifras aproximadas. Imágenes: Pixabay. Video creado con ayuda de IA.",
+  "tags": ["que pasaria si", "sol", "se apaga el sol", "espacio", "ciencia", "curiosidades"],
+  "credits": ["Pixabay: Mario_Krimer, Kanenori, raihanrafi, PrimePixels, doktorkleinmusic"],
+  "scenes": [
+    {"type": "clip", "src": "https://cdn.pixabay.com/video/2026/05/03/350198_large.mp4", "startFrom": 0,
+     "stamp": "¿Y si se *apagara*?",
+     "narration": "¿Qué pasaría si el Sol se apagara ahora mismo? Lo más raro es que no te enterarías."},
+    {"type": "clip", "src": "https://cdn.pixabay.com/video/2026/03/25/342229_small.mp4", "startFrom": 0,
+     "stamp": "*8 min 20 s* de retraso",
+     "narration": "Su luz tarda unos ocho minutos y veinte segundos en llegar hasta aquí. Durante ese tiempo, todo seguiría igual."},
+    {"type": "clip", "src": "https://cdn.pixabay.com/video/2023/03/06/153559-805688681_large.mp4", "startFrom": 0,
+     "stamp": "Adiós también a la *Luna*",
+     "narration": "Después, oscuridad total. Y la Luna también desaparecería del cielo, porque solo refleja la luz del Sol."},
+    {"type": "clip", "src": "https://cdn.pixabay.com/video/2026/05/24/354476_small.mp4", "startFrom": 0,
+     "stamp": "Sin *fotosíntesis*",
+     "narration": "Las plantas dejarían de hacer la fotosíntesis, y con ellas, poco a poco, casi toda la cadena de alimentos."},
+    {"type": "clip", "src": "https://cdn.pixabay.com/video/2025/01/27/254850_small.mp4", "startFrom": 0,
+     "stamp": "*-70 °C* en un año",
+     "narration": "Según algunas estimaciones, en una semana la temperatura media bajaría de cero. Y en un año, rondaría los setenta bajo cero."},
+    {"type": "clip", "src": "https://cdn.pixabay.com/video/2025/05/07/277463_small.mp4", "startFrom": 0,
+     "stamp": "Océanos *congelados*... por arriba",
+     "narration": "Los océanos se congelarían por arriba. Pero debajo del hielo, el calor interno del planeta mantendría agua líquida durante muchísimo tiempo."},
+    {"type": "clip", "src": "https://cdn.pixabay.com/video/2026/08/18/371300_small.mp4", "startFrom": 0,
+     "stamp": "¿Quién *sobreviviría*?",
+     "narration": "Y allí abajo, junto a las fuentes termales del fondo marino, algunos seres vivos podrían aguantar. ¿Tú qué harías?"}
+  ]
+}

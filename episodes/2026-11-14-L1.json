@@ -1,0 +1,1246 @@
+{
+ "id": "2026-11-14-L1",
+ "format": "story",
+ "title": "La ola MÁS ALTA de la historia: 524 metros en Alaska (1958)",
+ "description": "",
+ "tags": [
+  "lituya bay",
+  "megatsunami",
+  "ola mas alta",
+  "alaska",
+  "1958",
+  "tsunami",
+  "historia",
+  "documental",
+  "curiosidades"
+ ],
+ "thumbnail": {
+  "text": "*524 m*",
+  "emoji": "🌊",
+  "env": "storm",
+  "kicker": "La ola más alta"
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "kicker": "Escala Brutal · Historias",
+   "text": "La ola de *524 metros*",
+   "env": "sea",
+   "emoji": "🌊",
+   "narration": "La noche del nueve de julio de mil novecientos cincuenta y ocho, en una bahía remota de Alaska, el agua subió por la ladera de una montaña hasta quinientos veinticuatro metros de altura."
+  },
+  {
+   "type": "compare",
+   "env": "city",
+   "seed": "ci1x",
+   "text": "Más alta que…",
+   "items": [
+    {
+     "emoji": "🗼",
+     "label": "Torre Eiffel",
+     "value": 330,
+     "display": "330 m"
+    },
+    {
+     "emoji": "🏙️",
+     "label": "Empire State",
+     "value": 381,
+     "display": "381 m"
+    },
+    {
+     "emoji": "🌊",
+     "label": "La ola",
+     "value": 524,
+     "display": "524 m"
+    }
+   ],
+   "narration": "Para que te hagas una idea: más alta que la Torre Eiffel. Más alta que el Empire State. Es la mayor ola de la que se tiene registro en toda la historia."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se2x",
+   "text": "Tres barcos en la *bahía*",
+   "props": [
+    {
+     "emoji": "⛵",
+     "x": 30,
+     "y": 62,
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "emoji": "🚤",
+     "x": 55,
+     "y": 66,
+     "size": 130,
+     "anim": "float"
+    },
+    {
+     "emoji": "⛵",
+     "x": 76,
+     "y": 63,
+     "size": 120,
+     "anim": "float"
+    }
+   ],
+   "narration": "Y aquella noche, dentro de esa bahía, había tres pequeños barcos de pesca anclados. En uno de ellos, un padre y su hijo de siete años."
+  },
+  {
+   "type": "map",
+   "kicker": "",
+   "text": "Quédate hasta el *final*",
+   "from": {
+    "lon": 0,
+    "lat": 30,
+    "zoom": 1
+   },
+   "to": {
+    "lon": -140,
+    "lat": 55,
+    "zoom": 2
+   },
+   "highlight": [
+    "United States of America"
+   ],
+   "markers": [],
+   "narration": "Quédate hasta el final, porque esta historia tiene supervivientes increíbles, una leyenda indígena y una pregunta inquietante: ¿podría volver a pasar?"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 1",
+   "text": "Una bahía *maldita*",
+   "env": "forest",
+   "emoji": "🏔️",
+   "narration": "Capítulo uno. Una bahía maldita."
+  },
+  {
+   "type": "map",
+   "kicker": "Alaska",
+   "text": "Bahía *Lituya*",
+   "from": {
+    "lon": -145,
+    "lat": 60,
+    "zoom": 2.5
+   },
+   "to": {
+    "lon": -137.55,
+    "lat": 58.62,
+    "zoom": 7
+   },
+   "highlight": [
+    "United States of America"
+   ],
+   "markers": [
+    {
+     "lon": -137.55,
+     "lat": 58.62,
+     "label": "Bahía Lituya",
+     "emoji": "🌊"
+    }
+   ],
+   "narration": "La bahía Lituya está en el sureste de Alaska, dentro de lo que hoy es el Parque Nacional de Glacier Bay. Es un fiordo de unos catorce kilómetros de largo, rodeado de montañas y glaciares. Un lugar precioso, salvaje y casi siempre vacío, al que solo se llega por mar o en avioneta."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic3x",
+   "text": "Forma de *T*",
+   "props": [
+    {
+     "emoji": "🏔️",
+     "x": 25,
+     "y": 55,
+     "size": 220
+    },
+    {
+     "emoji": "🧊",
+     "x": 72,
+     "y": 60,
+     "size": 160,
+     "anim": "float"
+    }
+   ],
+   "narration": "Al fondo, la bahía se abre en forma de T, con dos brazos estrechos donde los glaciares llegan hasta el agua. Y en la entrada, hacia el océano, hay un paso muy estrecho donde las corrientes son brutales."
+  },
+  {
+   "type": "timeline",
+   "env": "sea",
+   "seed": "se4x",
+   "text": "Ya avisaba…",
+   "points": [
+    {
+     "year": "1786",
+     "label": "Expedición de La Pérouse",
+     "emoji": "⛵"
+    },
+    {
+     "year": "1853",
+     "label": "Gran ola",
+     "emoji": "🌊"
+    },
+    {
+     "year": "1936",
+     "label": "Otra ola gigante",
+     "emoji": "🌊"
+    },
+    {
+     "year": "1958",
+     "label": "La mayor de todas",
+     "emoji": "⚠️"
+    }
+   ],
+   "narration": "Esa entrada ya tenía mala fama. En mil setecientos ochenta y seis llegó hasta aquí el explorador francés La Pérouse. Y la bahía, como verás, llevaba siglos dando avisos."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "st5x",
+   "text": "La entrada *mortal*",
+   "props": [
+    {
+     "emoji": "🚣",
+     "x": 35,
+     "y": 62,
+     "size": 140,
+     "anim": "shake"
+    },
+    {
+     "emoji": "🌊",
+     "x": 60,
+     "y": 70,
+     "size": 180,
+     "anim": "rise"
+    }
+   ],
+   "narration": "Durante la expedición, varios botes intentaron cruzar la entrada con la marea en contra. Las corrientes los volcaron. Murieron veintiún marineros. Fue una de las mayores tragedias de toda su expedición, y el propio La Pérouse escribió sobre ella con enorme tristeza."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo6x",
+   "text": "Isla *Cenotafio*",
+   "props": [
+    {
+     "emoji": "🏝️",
+     "x": 50,
+     "y": 62,
+     "size": 220
+    },
+    {
+     "emoji": "🪦",
+     "x": 50,
+     "y": 45,
+     "size": 110,
+     "anim": "pop"
+    }
+   ],
+   "narration": "En su honor, a la pequeña isla del centro de la bahía la llamaron Cenotaph, la isla Cenotafio. Un monumento a los que nunca volvieron."
+  },
+  {
+   "type": "quote",
+   "env": "night",
+   "seed": "ni7x",
+   "text": "Un monstruo bajo el agua que sacudía la bahía cuando alguien se acercaba",
+   "author": "Leyenda tlingit de Kah Lituya",
+   "emoji": "🐉",
+   "narration": "Los tlingit, el pueblo indígena de la zona, tenían su propia explicación: una criatura que vivía bajo el agua y que, enfadada con los intrusos, agitaba la bahía y provocaba olas enormes."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic8x",
+   "text": "Huellas en el *bosque*",
+   "props": [
+    {
+     "emoji": "🌲",
+     "x": 30,
+     "y": 60,
+     "size": 180
+    },
+    {
+     "emoji": "🌲",
+     "x": 50,
+     "y": 62,
+     "size": 150
+    },
+    {
+     "emoji": "🔍",
+     "x": 72,
+     "y": 45,
+     "size": 140,
+     "anim": "float"
+    }
+   ],
+   "narration": "Y la leyenda tenía algo de razón. En las laderas, los científicos encontraron líneas en el bosque: zonas donde los árboles eran mucho más jóvenes, como si algo los hubiera arrancado de golpe."
+  },
+  {
+   "type": "stat",
+   "env": "forest",
+   "seed": "fo9x",
+   "value": 4,
+   "suffix": "",
+   "emoji": "🌊",
+   "label": "grandes olas en menos de *un siglo*",
+   "narration": "Antes de mil novecientos cincuenta y ocho, la bahía ya había sufrido varias olas gigantes. Una en mil ochocientos cincuenta y tres, y otra en mil novecientos treinta y seis que arrasó el bosque hasta unos ciento cincuenta metros de altura."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 2",
+   "text": "9 de julio de *1958*",
+   "env": "sea",
+   "emoji": "📅",
+   "narration": "Capítulo dos. Nueve de julio de mil novecientos cincuenta y ocho."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se10x",
+   "text": "Una tarde *tranquila*",
+   "props": [
+    {
+     "emoji": "⛵",
+     "x": 40,
+     "y": 64,
+     "size": 170,
+     "anim": "float"
+    },
+    {
+     "emoji": "☀️",
+     "x": 72,
+     "y": 25,
+     "size": 130
+    }
+   ],
+   "narration": "Era una tarde de verano. En Alaska, en julio, apenas oscurece, y a las diez de la noche todavía había luz. El agua de la bahía estaba en calma."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "ni11x",
+   "value": 18,
+   "suffix": " h",
+   "emoji": "🌅",
+   "label": "de luz al día en Alaska en julio",
+   "narration": "En esa época del año, en esta parte de Alaska hay alrededor de dieciocho horas de luz al día. Los pescadores aprovechaban esas noches claras para descansar en la bahía, protegidos del oleaje del océano."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni12x",
+   "text": "El Edrie",
+   "props": [
+    {
+     "emoji": "👨",
+     "x": 38,
+     "y": 80,
+     "size": 150
+    },
+    {
+     "emoji": "👦",
+     "x": 52,
+     "y": 84,
+     "size": 110
+    },
+    {
+     "emoji": "⚓",
+     "x": 72,
+     "y": 70,
+     "size": 110,
+     "anim": "float"
+    }
+   ],
+   "narration": "En el Edrie, un barco de pesca, estaban Howard Ulrich y su hijo de siete años, también llamado Howard, al que llamaban Sonny. Habían fondeado en una pequeña cala cerca de la entrada."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se13x",
+   "text": "El Badger y el Sunmore",
+   "props": [
+    {
+     "emoji": "🚤",
+     "x": 33,
+     "y": 64,
+     "size": 140,
+     "anim": "float"
+    },
+    {
+     "emoji": "⛵",
+     "x": 65,
+     "y": 62,
+     "size": 150,
+     "anim": "float"
+    }
+   ],
+   "narration": "Un poco más allá estaba el Badger, con el matrimonio formado por Bill y Vivian Swanson. Y el Sunmore, con otra pareja, Orville y Mickey Wagner. Todos esperaban a la mañana para salir a pescar."
+  },
+  {
+   "type": "map",
+   "kicker": "Alaska",
+   "text": "La falla *Fairweather*",
+   "from": {
+    "lon": -137.55,
+    "lat": 58.62,
+    "zoom": 5
+   },
+   "to": {
+    "lon": -137.2,
+    "lat": 58.8,
+    "zoom": 7
+   },
+   "highlight": [
+    "United States of America"
+   ],
+   "markers": [
+    {
+     "lon": -137.2,
+     "lat": 58.9,
+     "label": "Falla Fairweather",
+     "emoji": "⚡"
+    },
+    {
+     "lon": -137.55,
+     "lat": 58.62,
+     "label": "Bahía Lituya",
+     "emoji": "🌊"
+    }
+   ],
+   "narration": "Lo que nadie sabía es que, justo debajo, corre una de las fallas más activas de Norteamérica: la falla Fairweather, que separa dos placas tectónicas. Es la misma frontera que, más al sur, forma la famosa falla de San Andrés, en California."
+  },
+  {
+   "type": "stat",
+   "env": "storm",
+   "seed": "st14x",
+   "value": 7.8,
+   "suffix": "",
+   "emoji": "📈",
+   "label": "magnitud del terremoto",
+   "narration": "A las diez y cuarto de la noche, la falla se rompió. Un terremoto de magnitud siete coma ocho sacudió toda la región."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "st15x",
+   "text": "La tierra *tiembla*",
+   "props": [
+    {
+     "emoji": "🏔️",
+     "x": 45,
+     "y": 55,
+     "size": 230,
+     "anim": "shake"
+    },
+    {
+     "emoji": "🌲",
+     "x": 72,
+     "y": 62,
+     "size": 140,
+     "anim": "shake"
+    }
+   ],
+   "narration": "Ulrich contó después que las montañas se movían como si estuvieran vivas. Desde el barco veía cómo los glaciares temblaban y los picos se agitaban."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 3",
+   "text": "La *ola*",
+   "env": "storm",
+   "emoji": "🌊",
+   "narration": "Capítulo tres. La ola."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic16x",
+   "text": "Se desprende la *montaña*",
+   "props": [
+    {
+     "emoji": "🪨",
+     "x": 42,
+     "y": 30,
+     "size": 170,
+     "anim": "fall"
+    },
+    {
+     "emoji": "🪨",
+     "x": 58,
+     "y": 25,
+     "size": 120,
+     "anim": "fall"
+    },
+    {
+     "emoji": "🌊",
+     "x": 50,
+     "y": 80,
+     "size": 160
+    }
+   ],
+   "narration": "Al fondo de la bahía, en el brazo llamado Gilbert, el temblor arrancó un pedazo enorme de la montaña. Una masa de roca cayó desde cientos de metros de altura directamente al agua. Todo ocurrió en apenas unos segundos, mientras la tierra seguía temblando."
+  },
+  {
+   "type": "stat",
+   "env": "ice",
+   "seed": "ic17x",
+   "value": 30,
+   "suffix": "M m³",
+   "emoji": "🪨",
+   "label": "de roca cayeron al agua",
+   "narration": "Se calcula que fueron unos treinta millones de metros cúbicos de roca. Más o menos el volumen de doce mil piscinas olímpicas, cayendo de golpe en un brazo de mar estrecho."
+  },
+  {
+   "type": "quote",
+   "env": "night",
+   "seed": "ni18x",
+   "text": "Al principio no era una ola. Era como una explosión",
+   "author": "Howard Ulrich, testigo",
+   "emoji": "💥",
+   "narration": "Ulrich lo describió así: al principio no parecía una ola. Era como una explosión. Una pared de agua que salía disparada desde el fondo de la bahía."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo19x",
+   "text": "*524 metros* de altura",
+   "props": [
+    {
+     "emoji": "🌊",
+     "x": 40,
+     "y": 55,
+     "size": 230,
+     "anim": "rise"
+    },
+    {
+     "emoji": "🌲",
+     "x": 70,
+     "y": 60,
+     "size": 150,
+     "anim": "fall"
+    }
+   ],
+   "narration": "El agua salió despedida contra la ladera de enfrente y subió por ella hasta quinientos veinticuatro metros de altura. Arrancó árboles, tierra y roca, dejando la montaña pelada hasta la piedra."
+  },
+  {
+   "type": "compare",
+   "env": "sea",
+   "seed": "se20x",
+   "text": "No es lo mismo",
+   "items": [
+    {
+     "emoji": "🌊",
+     "label": "Altura de la ola",
+     "value": 50,
+     "display": "30–50 m"
+    },
+    {
+     "emoji": "⛰️",
+     "label": "Hasta dónde subió",
+     "value": 524,
+     "display": "524 m"
+    }
+   ],
+   "narration": "Ojo, un detalle importante: los quinientos veinticuatro metros son lo alto que llegó el agua al subir por la montaña. La ola que luego recorrió la bahía era más baja, pero seguía siendo monstruosa."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "st21x",
+   "text": "Hacia la *salida*",
+   "props": [
+    {
+     "emoji": "🌊",
+     "x": 25,
+     "y": 65,
+     "size": 200,
+     "anim": "walk",
+     "to": [
+      70,
+      65
+     ]
+    },
+    {
+     "emoji": "⛵",
+     "x": 80,
+     "y": 62,
+     "size": 120,
+     "anim": "shake"
+    }
+   ],
+   "narration": "Esa ola, de varias decenas de metros, empezó a correr hacia la salida de la bahía. Según las estimaciones, a unos ciento cincuenta o doscientos kilómetros por hora. En apenas unos minutos podía recorrer toda la bahía, de un extremo a otro."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic22x",
+   "text": "Isla *Cenotafio*",
+   "props": [
+    {
+     "emoji": "🏝️",
+     "x": 48,
+     "y": 62,
+     "size": 200
+    },
+    {
+     "emoji": "🌊",
+     "x": 28,
+     "y": 60,
+     "size": 170,
+     "anim": "walk",
+     "to": [
+      60,
+      60
+     ]
+    }
+   ],
+   "narration": "Pasó por encima de los bordes de la isla Cenotafio, la misma que recordaba a los marineros de La Pérouse, arrancando los árboles de su orilla. Y siguió avanzando hacia los tres barcos."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 4",
+   "text": "Los *supervivientes*",
+   "env": "night",
+   "emoji": "🛟",
+   "narration": "Capítulo cuatro. Los supervivientes."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se23x",
+   "text": "Una cadena que se *rompe*",
+   "props": [
+    {
+     "emoji": "⛓️",
+     "x": 40,
+     "y": 45,
+     "size": 150,
+     "anim": "shake"
+    },
+    {
+     "emoji": "⛵",
+     "x": 62,
+     "y": 66,
+     "size": 150,
+     "anim": "rise"
+    }
+   ],
+   "narration": "Ulrich vio venir la ola desde lejos, una pared blanca que crecía. Intentó levantar el ancla, pero no le dio tiempo. Puso un chaleco salvavidas a su hijo y encendió el motor para encarar la ola de frente."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "st24x",
+   "text": "Subiendo la *pared*",
+   "props": [
+    {
+     "emoji": "⛵",
+     "x": 50,
+     "y": 40,
+     "size": 160,
+     "anim": "rise"
+    },
+    {
+     "emoji": "🌊",
+     "x": 50,
+     "y": 78,
+     "size": 230
+    }
+   ],
+   "narration": "La ola levantó el Edrie como si fuera de papel. La cadena del ancla se partió y el barco subió por la pared de agua. Y, de algún modo, quedó encima y no se volcó."
+  },
+  {
+   "type": "stat",
+   "env": "sea",
+   "seed": "se25x",
+   "value": 30,
+   "suffix": " m",
+   "emoji": "⛵",
+   "label": "altura estimada de la ola que pasó bajo el Edrie",
+   "narration": "Ulrich calculó que la ola que pasó bajo su barco tenía unos treinta metros. Cuando el agua bajó, padre e hijo seguían a flote. Habían sobrevivido."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni26x",
+   "text": "El Badger *vuela*",
+   "props": [
+    {
+     "emoji": "🚤",
+     "x": 35,
+     "y": 40,
+     "size": 150,
+     "anim": "spin"
+    },
+    {
+     "emoji": "🌲",
+     "x": 68,
+     "y": 64,
+     "size": 170
+    }
+   ],
+   "narration": "Los Swanson vivieron algo aún más increíble. La ola levantó el Badger y lo llevó por encima de la lengua de tierra que cierra la bahía. Por encima del bosque."
+  },
+  {
+   "type": "stat",
+   "env": "forest",
+   "seed": "fo27x",
+   "value": 25,
+   "suffix": " m",
+   "emoji": "🌲",
+   "label": "por encima de los árboles, según Swanson",
+   "narration": "Bill Swanson contó después que, mirando hacia abajo, veía las copas de los árboles muy por debajo del barco. Según él, iban unos veinticinco metros por encima del bosque. Navegando en el aire."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se28x",
+   "text": "Un bote en el *océano*",
+   "props": [
+    {
+     "emoji": "🛶",
+     "x": 45,
+     "y": 64,
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "emoji": "🌅",
+     "x": 72,
+     "y": 28,
+     "size": 130
+    }
+   ],
+   "narration": "El barco cayó al otro lado, en el océano abierto, golpeó el agua con fuerza y empezó a hundirse en segundos. Los Swanson consiguieron subir a un pequeño bote auxiliar. Horas después, otro pesquero los rescató."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni29x",
+   "text": "El Sunmore",
+   "props": [
+    {
+     "emoji": "⛵",
+     "x": 50,
+     "y": 62,
+     "size": 150,
+     "anim": "fall"
+    },
+    {
+     "emoji": "🕯️",
+     "x": 72,
+     "y": 40,
+     "size": 110,
+     "anim": "float"
+    }
+   ],
+   "narration": "El Sunmore no tuvo tanta suerte. Intentó escapar hacia la salida, pero la ola lo alcanzó. Orville y Mickey Wagner nunca fueron encontrados."
+  },
+  {
+   "type": "map",
+   "kicker": "Alaska",
+   "text": "Un terremoto *enorme*",
+   "from": {
+    "lon": -137.55,
+    "lat": 58.62,
+    "zoom": 6
+   },
+   "to": {
+    "lon": -138.5,
+    "lat": 59.2,
+    "zoom": 5
+   },
+   "highlight": [
+    "United States of America"
+   ],
+   "markers": [
+    {
+     "lon": -137.55,
+     "lat": 58.62,
+     "label": "Bahía Lituya",
+     "emoji": "🌊"
+    },
+    {
+     "lon": -139.73,
+     "lat": 59.55,
+     "label": "Yakutat",
+     "emoji": "🏘️"
+    }
+   ],
+   "narration": "Aquella noche murieron cinco personas en total: los Wagner en la bahía, y otras tres más al norte, cerca de Yakutat, cuando parte de una isla se hundió por el terremoto."
+  },
+  {
+   "type": "quote",
+   "env": "forest",
+   "seed": "fo30x",
+   "text": "La bahía entera parecía haber sido arrasada",
+   "author": "Testigos al amanecer",
+   "emoji": "🌅",
+   "narration": "Por la mañana, quienes llegaron a la bahía no la reconocieron. Las orillas, antes cubiertas de bosque, eran ahora roca desnuda. Y el agua estaba llena de troncos flotando. Algunos troncos aparecieron después flotando en el océano, a kilómetros de la entrada."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 5",
+   "text": "El misterio de la *ola*",
+   "env": "forest",
+   "emoji": "🔬",
+   "narration": "Capítulo cinco. El misterio de la ola."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo31x",
+   "text": "Llega el *geólogo*",
+   "props": [
+    {
+     "emoji": "🧑‍🔬",
+     "x": 35,
+     "y": 82,
+     "size": 150
+    },
+    {
+     "emoji": "📏",
+     "x": 62,
+     "y": 45,
+     "size": 140,
+     "anim": "float"
+    }
+   ],
+   "narration": "Pocas semanas después llegó el geólogo Don Miller, del Servicio Geológico de Estados Unidos. Llevaba años estudiando aquella bahía y sus extrañas líneas en el bosque. Y lo que encontró superaba todo lo que había imaginado."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic32x",
+   "text": "La línea de los *árboles*",
+   "props": [
+    {
+     "emoji": "🌲",
+     "x": 28,
+     "y": 64,
+     "size": 170
+    },
+    {
+     "emoji": "🪨",
+     "x": 55,
+     "y": 48,
+     "size": 170
+    },
+    {
+     "emoji": "🌲",
+     "x": 80,
+     "y": 66,
+     "size": 140
+    }
+   ],
+   "narration": "Miller midió hasta dónde había llegado el agua siguiendo el límite entre el bosque intacto y la roca desnuda. Así obtuvo la cifra: quinientos veinticuatro metros."
+  },
+  {
+   "type": "compare",
+   "env": "forest",
+   "seed": "fo33x",
+   "text": "Bosque *arrancado*",
+   "items": [
+    {
+     "emoji": "🌲",
+     "label": "Antes",
+     "value": 100,
+     "display": "bosque"
+    },
+    {
+     "emoji": "🪨",
+     "label": "Después",
+     "value": 8,
+     "display": "roca"
+    }
+   ],
+   "narration": "En total, el agua arrasó más de diez kilómetros cuadrados de bosque. Desde un avión, la bahía parecía rodeada por una enorme cicatriz clara."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "st34x",
+   "text": "¿Por qué tan *alta*?",
+   "props": [
+    {
+     "emoji": "🪨",
+     "x": 40,
+     "y": 30,
+     "size": 150,
+     "anim": "fall"
+    },
+    {
+     "emoji": "💦",
+     "x": 55,
+     "y": 62,
+     "size": 180,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Durante años hubo dudas. ¿Cómo podía una ola subir tan alto? La clave está en la forma de la bahía. La roca cayó en un brazo de mar estrecho, cerrado y no muy profundo."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se35x",
+   "text": "Como una *bañera*",
+   "props": [
+    {
+     "emoji": "🛁",
+     "x": 42,
+     "y": 62,
+     "size": 180
+    },
+    {
+     "emoji": "🪨",
+     "x": 62,
+     "y": 30,
+     "size": 120,
+     "anim": "fall"
+    }
+   ],
+   "narration": "Imagina tirar una piedra enorme en una bañera estrecha. El agua no tiene a dónde ir, así que sale disparada hacia arriba, contra la pared de enfrente."
+  },
+  {
+   "type": "timeline",
+   "env": "forest",
+   "seed": "fo36x",
+   "text": "Tsunami vs *megatsunami*",
+   "points": [
+    {
+     "year": "Terremoto",
+     "label": "Mueve el fondo del mar",
+     "emoji": "🌍"
+    },
+    {
+     "year": "Desprendimiento",
+     "label": "Empuja el agua de golpe",
+     "emoji": "🪨"
+    },
+    {
+     "year": "Resultado",
+     "label": "Olas locales gigantes",
+     "emoji": "🌊"
+    }
+   ],
+   "narration": "Por eso estas olas tienen nombre propio: megatsunamis. No nacen como los tsunamis normales, que mueven todo el océano, sino de un golpe brutal y localizado. Son enormes, pero no cruzan océanos."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic37x",
+   "text": "Un *experimento*",
+   "props": [
+    {
+     "emoji": "🧪",
+     "x": 35,
+     "y": 55,
+     "size": 150,
+     "anim": "pop"
+    },
+    {
+     "emoji": "🌊",
+     "x": 62,
+     "y": 62,
+     "size": 160,
+     "anim": "rise"
+    }
+   ],
+   "narration": "Décadas más tarde, investigadores reprodujeron el desprendimiento en laboratorio, con modelos a escala. Y el agua volvió a subir por la ladera, más o menos hasta la misma altura que en mil novecientos cincuenta y ocho."
+  },
+  {
+   "type": "compare",
+   "env": "storm",
+   "seed": "st38x",
+   "text": "Los grandes *megatsunamis*",
+   "items": [
+    {
+     "emoji": "🌊",
+     "label": "Lituya 1958",
+     "value": 524,
+     "display": "524 m"
+    },
+    {
+     "emoji": "🌋",
+     "label": "Spirit Lake 1980",
+     "value": 260,
+     "display": "≈260 m"
+    },
+    {
+     "emoji": "🧊",
+     "label": "Groenlandia 2023",
+     "value": 200,
+     "display": "≈200 m"
+    },
+    {
+     "emoji": "🏔️",
+     "label": "Taan 2015",
+     "value": 193,
+     "display": "≈193 m"
+    }
+   ],
+   "narration": "Desde entonces se han estudiado otros megatsunamis. En mil novecientos ochenta, la erupción del monte Santa Helena lanzó una avalancha al lago Spirit, y el agua subió unos doscientos sesenta metros. Pero Lituya sigue siendo el récord."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 6",
+   "text": "¿Podría volver a *pasar*?",
+   "env": "ice",
+   "emoji": "❓",
+   "narration": "Capítulo seis. ¿Podría volver a pasar?"
+  },
+  {
+   "type": "map",
+   "kicker": "Alaska",
+   "text": "Fiordo *Taan*",
+   "from": {
+    "lon": -145,
+    "lat": 60,
+    "zoom": 3
+   },
+   "to": {
+    "lon": -141.2,
+    "lat": 60.2,
+    "zoom": 6
+   },
+   "highlight": [
+    "United States of America"
+   ],
+   "markers": [
+    {
+     "lon": -141.2,
+     "lat": 60.2,
+     "label": "Fiordo Taan",
+     "emoji": "🌊"
+    }
+   ],
+   "narration": "La respuesta es sí. Y de hecho ya ha pasado. En dos mil quince, en el fiordo Taan, también en Alaska, un desprendimiento provocó una ola que subió hasta unos ciento noventa metros. Por suerte, allí no había nadie."
+  },
+  {
+   "type": "map",
+   "kicker": "Groenlandia",
+   "text": "Fiordo *Dickson*",
+   "from": {
+    "lon": -30,
+    "lat": 60,
+    "zoom": 2
+   },
+   "to": {
+    "lon": -27,
+    "lat": 72.8,
+    "zoom": 5
+   },
+   "highlight": [
+    "Greenland"
+   ],
+   "markers": [
+    {
+     "lon": -27,
+     "lat": 72.8,
+     "label": "Fiordo Dickson",
+     "emoji": "🌊"
+    }
+   ],
+   "narration": "Y en septiembre de dos mil veintitrés, en un fiordo de Groenlandia, una montaña se derrumbó sobre el agua y formó una ola de unos doscientos metros."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic39x",
+   "text": "Un fiordo que *vibra*",
+   "props": [
+    {
+     "emoji": "〰️",
+     "x": 45,
+     "y": 50,
+     "size": 170,
+     "anim": "shake"
+    },
+    {
+     "emoji": "📡",
+     "x": 72,
+     "y": 40,
+     "size": 130,
+     "anim": "float"
+    }
+   ],
+   "narration": "Lo más alucinante vino después: el agua se quedó oscilando dentro del fiordo durante nueve días. Y esa vibración la detectaron sismógrafos de todo el planeta, que durante meses no sabían qué estaban captando."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic40x",
+   "text": "¿Por qué ahora *más*?",
+   "props": [
+    {
+     "emoji": "🧊",
+     "x": 40,
+     "y": 55,
+     "size": 170,
+     "anim": "fall"
+    },
+    {
+     "emoji": "🌡️",
+     "x": 65,
+     "y": 45,
+     "size": 150,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Los científicos creen que este tipo de desprendimientos pueden volverse más frecuentes. Al derretirse los glaciares, dejan de sujetar las laderas de las montañas, que quedan inestables."
+  },
+  {
+   "type": "map",
+   "kicker": "Alaska",
+   "text": "Barry *Arm*",
+   "from": {
+    "lon": -150,
+    "lat": 60,
+    "zoom": 4
+   },
+   "to": {
+    "lon": -148.15,
+    "lat": 61.13,
+    "zoom": 7
+   },
+   "highlight": [
+    "United States of America"
+   ],
+   "markers": [
+    {
+     "lon": -148.15,
+     "lat": 61.13,
+     "label": "Barry Arm",
+     "emoji": "⚠️"
+    }
+   ],
+   "narration": "Por eso hay lugares vigilados de cerca. En Barry Arm, en Alaska, los científicos detectaron en dos mil veinte una enorme ladera inestable sobre un fiordo visitado por barcos, pescadores y kayakistas. Desde entonces la monitorizan con satélites y sensores."
+  },
+  {
+   "type": "map",
+   "kicker": "Canarias",
+   "text": "¿Y *La Palma*?",
+   "from": {
+    "lon": -15,
+    "lat": 35,
+    "zoom": 2
+   },
+   "to": {
+    "lon": -17.85,
+    "lat": 28.65,
+    "zoom": 6
+   },
+   "highlight": [
+    "Spain"
+   ],
+   "markers": [
+    {
+     "lon": -17.85,
+     "lat": 28.65,
+     "label": "La Palma",
+     "emoji": "🌋"
+    }
+   ],
+   "narration": "Seguro que has oído hablar del miedo a un megatsunami desde La Palma, en Canarias. Una hipótesis de principios de los dos mil sugería que un colapso de la isla podría arrasar la costa americana."
+  },
+  {
+   "type": "landscape",
+   "env": "volcano",
+   "seed": "vo41x",
+   "text": "Mucho menos *probable*",
+   "props": [
+    {
+     "emoji": "🌋",
+     "x": 40,
+     "y": 58,
+     "size": 200
+    },
+    {
+     "emoji": "📉",
+     "x": 68,
+     "y": 40,
+     "size": 140,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Pero estudios posteriores creen que ese escenario se exageró mucho: un colapso así parece muy improbable y, si ocurriera, la ola perdería gran parte de su fuerza al cruzar el océano. Tranquilidad."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo42x",
+   "text": "Lituya *hoy*",
+   "props": [
+    {
+     "emoji": "🌲",
+     "x": 30,
+     "y": 64,
+     "size": 150
+    },
+    {
+     "emoji": "🌲",
+     "x": 48,
+     "y": 66,
+     "size": 120
+    },
+    {
+     "emoji": "🏕️",
+     "x": 72,
+     "y": 70,
+     "size": 130
+    }
+   ],
+   "narration": "Hoy, la bahía Lituya vuelve a estar cubierta de bosque. Pero si te fijas bien desde el aire, todavía se ve la línea: árboles más jóvenes por debajo, árboles viejos por encima. Una cicatriz que el bosque todavía no ha conseguido borrar, más de sesenta años después. Los pescadores de la zona todavía cuentan la historia."
+  },
+  {
+   "type": "title",
+   "kicker": "Escala Brutal",
+   "text": "La noche que el agua *subió la montaña*",
+   "env": "sea",
+   "emoji": "🌊",
+   "narration": "Así que, la próxima vez que veas una ola en la playa, recuerda Lituya: una noche de verano en la que el agua subió más alto que la Torre Eiffel. Y en la que una bahía tranquila, en mitad de la nada, demostró de lo que es capaz la naturaleza."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni43x",
+   "text": "Padre e *hijo*",
+   "props": [
+    {
+     "emoji": "👨",
+     "x": 40,
+     "y": 82,
+     "size": 150
+    },
+    {
+     "emoji": "👦",
+     "x": 54,
+     "y": 86,
+     "size": 110
+    },
+    {
+     "emoji": "⭐",
+     "x": 72,
+     "y": 25,
+     "size": 90,
+     "anim": "float"
+    }
+   ],
+   "narration": "Y recuerda a Howard Ulrich y a su hijo Sonny, que estaban allí, en un pequeño barco de pesca, y vivieron para contarlo."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni44x",
+   "text": "¿Qué historia *quieres*?",
+   "props": [
+    {
+     "emoji": "💬",
+     "x": 50,
+     "y": 50,
+     "size": 200,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Si te ha gustado, suscríbete a Escala Brutal para más historias como esta. Y cuéntame en los comentarios: ¿qué desastre natural increíble quieres que investiguemos en el próximo vídeo?"
+  }
+ ]
+}

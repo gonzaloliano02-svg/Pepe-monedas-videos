@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-14-b",
+  "format": "doc",
+  "title": "Tus venas darían 2 VUELTAS a la Tierra 🩸",
+  "description": "Si pusieras en fila todos los vasos sanguíneos de un adulto, sumarían unos 100.000 km según las estimaciones más citadas: unas dos vueltas y media al ecuador (40.075 km). Caminando sin parar a 5 km/h tardarías más de dos años en recorrerlos. La mayoría son capilares, unas diez veces más finos que un pelo, y en reposo la sangre tarda alrededor de un minuto en dar la vuelta completa al cuerpo.\n\nCifras aproximadas (estimaciones para un adulto). Imágenes: Pixabay. Video creado con ayuda de IA.",
+  "tags": [
+    "vasos sanguineos",
+    "cuerpo humano",
+    "venas",
+    "sangre",
+    "curiosidades",
+    "escala"
+  ],
+  "credits": [
+    "Pixabay: motionstock, olenchic, Nerd_Nonsense, Matthias_Groeneveld"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2019/09/12/26799-359604172_small.mp4",
+      "startFrom": 0,
+      "stamp": "*100.000 km* dentro de ti",
+      "narration": "Dentro de ti hay una red de tubos tan larga que podría dar dos vueltas a la Tierra."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/09/05/229978_large.mp4",
+      "startFrom": 0,
+      "stamp": "Tus *vasos sanguíneos*",
+      "narration": "Si pusieras en fila todos tus vasos sanguíneos, sumarían unos cien mil kilómetros, según las estimaciones más citadas."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/02/21/201404-915375388_large.mp4",
+      "startFrom": 0,
+      "stamp": "*2,5 vueltas* al ecuador",
+      "narration": "El ecuador mide unos cuarenta mil. Así que darían dos vueltas y media al planeta."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/01/21/197531-905015052_large.mp4",
+      "startFrom": 0,
+      "stamp": "*Más de 2 años* caminando",
+      "narration": "Caminando sin parar, ni para dormir, tardarías más de dos años en recorrerlos."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2020/04/09/35461-405897690_large.mp4",
+      "startFrom": 0,
+      "stamp": "*10 veces* más finos que un pelo",
+      "narration": "Casi todos son capilares, unas diez veces más finos que un pelo."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2019/09/12/26799-359604172_small.mp4",
+      "startFrom": 10,
+      "stamp": "Vuelta completa en *1 minuto*",
+      "narration": "Y aun así, en reposo, tu sangre tarda más o menos un minuto en dar la vuelta completa a tu cuerpo. ¿Lo sabías?"
+    }
+  ]
+}

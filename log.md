@@ -42,3 +42,9 @@
 - 17:15 · Usuario: bajar música. Doc 0.45→0.25, Story 0.22→0.12. Re-render c (18:00) y L2 (20:00) con música baja.
 - c actualizado a c-v2 (música baja) · id 427174340
 - L2 · 20:00 · "¿Qué pasaría si la LUNA desapareciera esta noche? 🌕" · YouTube · 10:15 · voz 2A · música 0.12 · +3 escenas (CERN, plancton ártico, Medio Otoño) para pasar de 10 min · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-5901062988801686960
+
+## 2026-11-14
+- Data (Windsor, cached): yesterday's 3 Shorts all ~1.000 views in <24 h (Tierra deja de girar 1.036, Oymyakon 1.025, corazón 968) → the proven angles work: extreme places, body-at-scale, what-if. Long-form: Tambora 2, Luna 1 (first hours; long-form starts slowly).
+- Comments: counts unchanged vs comments.md → no new comments, 0 vidIQ credits.
+- Choice: a = Lugares extremos (Atacama, el desierto más seco); b = Tu cuerpo a escala (vasos sanguíneos = 2,5 vueltas a la Tierra); c = ¿Qué pasaría si...? (el Sol se apaga). L1 = documental Lituya Bay 1958 (la ola de 524 m; disasters/history niche). L2 = ranking "Los 10 lugares más extremos de la Tierra" (long-form version of our best Short theme).
+- Container restarted at 06:38 UTC; files and venv survived.

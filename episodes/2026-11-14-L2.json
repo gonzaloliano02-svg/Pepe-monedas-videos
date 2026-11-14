@@ -1,0 +1,1128 @@
+{
+ "id": "2026-11-14-L2",
+ "format": "story",
+ "title": "Los 10 lugares más EXTREMOS de la Tierra (el nº1 te aplastaría)",
+ "description": "",
+ "tags": [
+  "lugares extremos",
+  "ranking",
+  "top 10",
+  "fosa de las marianas",
+  "vostok",
+  "everest",
+  "desierto",
+  "curiosidades",
+  "geografia"
+ ],
+ "thumbnail": {
+  "text": "*10* lugares extremos",
+  "emoji": "🌋",
+  "env": "volcano",
+  "kicker": "Ranking"
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "kicker": "Escala Brutal · Historias",
+   "text": "La ola de *524 metros*",
+   "env": "sea",
+   "emoji": "🌊",
+   "narration": "La noche del nueve de julio de mil novecientos cincuenta y ocho, en una bahía remota de Alaska, el agua subió por la ladera de una montaña hasta quinientos veinticuatro metros de altura."
+  },
+  {
+   "type": "compare",
+   "env": "city",
+   "seed": "ci1x",
+   "text": "Más alta que…",
+   "items": [
+    {
+     "emoji": "🗼",
+     "label": "Torre Eiffel",
+     "value": 330,
+     "display": "330 m"
+    },
+    {
+     "emoji": "🏙️",
+     "label": "Empire State",
+     "value": 381,
+     "display": "381 m"
+    },
+    {
+     "emoji": "🌊",
+     "label": "La ola",
+     "value": 524,
+     "display": "524 m"
+    }
+   ],
+   "narration": "Para que te hagas una idea: más alta que la Torre Eiffel. Más alta que el Empire State. Es la mayor ola de la que se tiene registro en toda la historia."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se2x",
+   "text": "Tres barcos en la *bahía*",
+   "props": [
+    {
+     "emoji": "⛵",
+     "x": 30,
+     "y": 62,
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "emoji": "🚤",
+     "x": 55,
+     "y": 66,
+     "size": 130,
+     "anim": "float"
+    },
+    {
+     "emoji": "⛵",
+     "x": 76,
+     "y": 63,
+     "size": 120,
+     "anim": "float"
+    }
+   ],
+   "narration": "Y aquella noche, dentro de esa bahía, había tres pequeños barcos de pesca anclados. En uno de ellos, un padre y su hijo de siete años."
+  },
+  {
+   "type": "title",
+   "kicker": "Escala Brutal · Ranking",
+   "text": "Los 10 lugares más *extremos* de la Tierra",
+   "env": "volcano",
+   "emoji": "🌍",
+   "narration": "Hay lugares en este planeta donde el cuerpo humano no debería poder sobrevivir. Sitios donde hace tanto calor que el suelo quema, tanto frío que respirar duele, o tanta presión que aplastaría un submarino. Y aun así, en muchos de ellos vive gente."
+  },
+  {
+   "type": "map",
+   "kicker": "",
+   "text": "Un viaje por el *límite*",
+   "from": {
+    "lon": 0,
+    "lat": 30,
+    "zoom": 1
+   },
+   "to": {
+    "lon": 20,
+    "lat": 10,
+    "zoom": 1.2
+   },
+   "highlight": [],
+   "markers": [],
+   "narration": "Hoy vamos a recorrer los diez lugares más extremos de la Tierra. De menos a más. Y quédate hasta el número uno, porque es un lugar al que, durante más de cincuenta años, había ido menos gente que a la Luna."
+  },
+  {
+   "type": "title",
+   "kicker": "Número 10",
+   "text": "La ciudad más *alta*",
+   "env": "ice",
+   "emoji": "🏔️",
+   "narration": "Número diez. La ciudad más alta del mundo."
+  },
+  {
+   "type": "map",
+   "kicker": "Perú",
+   "text": "La *Rinconada*",
+   "from": {
+    "lon": -70,
+    "lat": -12,
+    "zoom": 2.5
+   },
+   "to": {
+    "lon": -69.45,
+    "lat": -14.63,
+    "zoom": 6
+   },
+   "highlight": [
+    "Peru"
+   ],
+   "markers": [
+    {
+     "lon": -69.45,
+     "lat": -14.63,
+     "label": "La Rinconada",
+     "emoji": "🏘️"
+    }
+   ],
+   "narration": "En los Andes de Perú, junto a un glaciar, está La Rinconada. A unos cinco mil cien metros de altura, se considera la ciudad habitada permanentemente más alta del planeta. Para llegar hay que subir por carreteras de tierra durante horas, y muchos visitantes sufren mal de altura nada más bajar del coche."
+  },
+  {
+   "type": "compare",
+   "env": "ice",
+   "seed": "ic3x",
+   "text": "Tan alta como…",
+   "items": [
+    {
+     "emoji": "🏘️",
+     "label": "La Rinconada",
+     "value": 5100,
+     "display": "≈5.100 m"
+    },
+    {
+     "emoji": "🏔️",
+     "label": "Mont Blanc",
+     "value": 4808,
+     "display": "4.808 m"
+    },
+    {
+     "emoji": "🏙️",
+     "label": "Madrid",
+     "value": 667,
+     "display": "667 m"
+    }
+   ],
+   "narration": "Para hacerte una idea: está más alta que la cumbre del Mont Blanc, el pico más alto de Europa occidental. Y allí viven decenas de miles de personas."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic4x",
+   "text": "Medio *oxígeno*",
+   "props": [
+    {
+     "emoji": "🫁",
+     "x": 38,
+     "y": 50,
+     "size": 170,
+     "anim": "pop"
+    },
+    {
+     "emoji": "⛏️",
+     "x": 65,
+     "y": 60,
+     "size": 140,
+     "anim": "shake"
+    }
+   ],
+   "narration": "A esa altura, cada vez que respiras entra aproximadamente la mitad de oxígeno que al nivel del mar. ¿Y por qué vive gente allí? Por el oro. Muchos trabajan en minas cercanas, en condiciones muy duras."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "ni5x",
+   "value": 0,
+   "suffix": " °C",
+   "emoji": "🥶",
+   "label": "temperatura habitual por la noche, o menos",
+   "narration": "Y no hay calefacción central ni alcantarillado en buena parte de la ciudad. Por las noches, la temperatura suele bajar de cero durante casi todo el año. Vivir allí es una prueba diaria de resistencia."
+  },
+  {
+   "type": "title",
+   "kicker": "Número 9",
+   "text": "El lugar más *lluvioso*",
+   "env": "storm",
+   "emoji": "🌧️",
+   "narration": "Número nueve. El lugar donde más llueve."
+  },
+  {
+   "type": "map",
+   "kicker": "India",
+   "text": "*Mawsynram*",
+   "from": {
+    "lon": 80,
+    "lat": 20,
+    "zoom": 2.5
+   },
+   "to": {
+    "lon": 91.58,
+    "lat": 25.3,
+    "zoom": 6
+   },
+   "highlight": [
+    "India"
+   ],
+   "markers": [
+    {
+     "lon": 91.58,
+     "lat": 25.3,
+     "label": "Mawsynram",
+     "emoji": "🌧️"
+    }
+   ],
+   "narration": "En el noreste de la India, en las colinas de Meghalaya, está el pueblo de Mawsynram. Según el libro Guinness, es el lugar con más lluvia media al año del planeta. Allí las nubes del monzón chocan contra las montañas, se elevan de golpe y descargan casi todo el agua que traen."
+  },
+  {
+   "type": "stat",
+   "env": "storm",
+   "seed": "st6x",
+   "value": 11872,
+   "suffix": " mm",
+   "emoji": "🌧️",
+   "label": "de lluvia al año de media",
+   "narration": "Casi doce mil milímetros al año. Para comparar, en Madrid caen unos cuatrocientos. Es como si en Mawsynram lloviera en un año lo que en Madrid en casi treinta."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo7x",
+   "text": "Paraguas de *hojas*",
+   "props": [
+    {
+     "emoji": "☂️",
+     "x": 38,
+     "y": 45,
+     "size": 170,
+     "anim": "float"
+    },
+    {
+     "emoji": "🌉",
+     "x": 66,
+     "y": 62,
+     "size": 170
+    }
+   ],
+   "narration": "Allí la gente usa unos paraguas tradicionales que cubren todo el cuerpo, llamados knups. Y en la zona hay puentes vivos: raíces de árboles guiadas durante años hasta formar pasarelas sobre los ríos."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "st8x",
+   "text": "El ruido de la *lluvia*",
+   "props": [
+    {
+     "emoji": "🏠",
+     "x": 40,
+     "y": 66,
+     "size": 170
+    },
+    {
+     "emoji": "🌧️",
+     "x": 60,
+     "y": 30,
+     "size": 150,
+     "anim": "shake"
+    }
+   ],
+   "narration": "En la temporada del monzón puede llover durante días sin parar, y el ruido sobre los tejados es tan fuerte que muchos vecinos los cubren con hierba para amortiguarlo. Hay días en que es difícil incluso hablar."
+  },
+  {
+   "type": "title",
+   "kicker": "Número 8",
+   "text": "El desierto más *seco*",
+   "env": "desert",
+   "emoji": "🏜️",
+   "narration": "Número ocho. El desierto más seco."
+  },
+  {
+   "type": "map",
+   "kicker": "Chile",
+   "text": "*Atacama*",
+   "from": {
+    "lon": -70,
+    "lat": -20,
+    "zoom": 2.5
+   },
+   "to": {
+    "lon": -69.5,
+    "lat": -23.5,
+    "zoom": 5
+   },
+   "highlight": [
+    "Chile"
+   ],
+   "markers": [
+    {
+     "lon": -69.5,
+     "lat": -23.5,
+     "label": "Atacama",
+     "emoji": "🏜️"
+    }
+   ],
+   "narration": "Saltamos al extremo contrario. En el norte de Chile está Atacama, el desierto no polar más seco del mundo. En algunas zonas no se ha registrado lluvia en décadas. Hay montañas, salares y volcanes, pero ni un solo charco."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de9x",
+   "text": "Un pedazo de *Marte*",
+   "props": [
+    {
+     "emoji": "🤖",
+     "x": 40,
+     "y": 62,
+     "size": 160,
+     "anim": "walk",
+     "to": [
+      55,
+      62
+     ]
+    },
+    {
+     "emoji": "🔭",
+     "x": 72,
+     "y": 45,
+     "size": 140
+    }
+   ],
+   "narration": "Su suelo se parece tanto al de Marte que la NASA prueba allí instrumentos para sus misiones. Y como casi nunca hay nubes, alberga algunos de los telescopios más potentes del planeta."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo10x",
+   "text": "El desierto *florido*",
+   "props": [
+    {
+     "emoji": "🌸",
+     "x": 35,
+     "y": 65,
+     "size": 140,
+     "anim": "pop"
+    },
+    {
+     "emoji": "🌼",
+     "x": 55,
+     "y": 68,
+     "size": 120,
+     "anim": "pop"
+    },
+    {
+     "emoji": "🌺",
+     "x": 74,
+     "y": 64,
+     "size": 130,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Pero algunos años, cuando llueve más de lo normal, ocurre algo mágico: semillas que llevaban años dormidas germinan a la vez y el desierto se cubre de flores. Lo llaman el desierto florido."
+  },
+  {
+   "type": "stat",
+   "env": "desert",
+   "seed": "de11x",
+   "value": 1,
+   "suffix": " mm",
+   "emoji": "💧",
+   "label": "de lluvia al año en algunas ciudades",
+   "narration": "Hay ciudades de la costa, como Arica, donde caen de media menos de un milímetro de lluvia al año. Ni siquiera llega a mojar el suelo. Y aun así, la niebla del océano permite que algunas plantas sobrevivan."
+  },
+  {
+   "type": "title",
+   "kicker": "Número 7",
+   "text": "El pueblo más *frío*",
+   "env": "ice",
+   "emoji": "🥶",
+   "narration": "Número siete. El pueblo habitado más frío."
+  },
+  {
+   "type": "map",
+   "kicker": "Rusia",
+   "text": "*Oymyakon*",
+   "from": {
+    "lon": 100,
+    "lat": 60,
+    "zoom": 2
+   },
+   "to": {
+    "lon": 143.15,
+    "lat": 63.46,
+    "zoom": 5
+   },
+   "highlight": [
+    "Russia"
+   ],
+   "markers": [
+    {
+     "lon": 143.15,
+     "lat": 63.46,
+     "label": "Oymyakon",
+     "emoji": "❄️"
+    }
+   ],
+   "narration": "En Siberia está Oymyakon, un pueblo de unos quinientos habitantes. En enero, la temperatura media ronda los cuarenta y seis grados bajo cero. Y en invierno el sol apenas asoma unas pocas horas al día."
+  },
+  {
+   "type": "stat",
+   "env": "ice",
+   "seed": "ic12x",
+   "value": -67.7,
+   "suffix": " °C",
+   "emoji": "🌡️",
+   "label": "temperatura mínima registrada",
+   "narration": "En mil novecientos treinta y tres llegó a sesenta y siete coma siete grados bajo cero, la temperatura más baja registrada en un lugar habitado de forma permanente."
+  },
+  {
+   "type": "landscape",
+   "env": "city",
+   "seed": "ci13x",
+   "text": "Coches que nunca se *apagan*",
+   "props": [
+    {
+     "emoji": "🚗",
+     "x": 40,
+     "y": 68,
+     "size": 170,
+     "anim": "shake"
+    },
+    {
+     "emoji": "🔥",
+     "x": 62,
+     "y": 60,
+     "size": 110,
+     "anim": "float"
+    }
+   ],
+   "narration": "Allí, muchos dejan el coche encendido todo el invierno o lo guardan en garajes con calefacción, porque si el motor se enfría, ya no arranca. Y los niños solo se quedan en casa cuando baja de unos cincuenta y dos bajo cero."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic14x",
+   "text": "Comida *congelada*",
+   "props": [
+    {
+     "emoji": "🐟",
+     "x": 40,
+     "y": 62,
+     "size": 150
+    },
+    {
+     "emoji": "🍖",
+     "x": 62,
+     "y": 62,
+     "size": 130
+    }
+   ],
+   "narration": "Casi no se puede cultivar nada, así que la dieta se basa en carne de reno y caballo, y en pescado que se vende congelado al aire libre. No hacen falta neveras: el mercado entero es un congelador."
+  },
+  {
+   "type": "title",
+   "kicker": "Número 6",
+   "text": "El lugar habitado más *caluroso*",
+   "env": "volcano",
+   "emoji": "🔥",
+   "narration": "Número seis. Un infierno de colores."
+  },
+  {
+   "type": "map",
+   "kicker": "Etiopía",
+   "text": "*Dallol*",
+   "from": {
+    "lon": 40,
+    "lat": 10,
+    "zoom": 3
+   },
+   "to": {
+    "lon": 40.3,
+    "lat": 14.24,
+    "zoom": 6
+   },
+   "highlight": [
+    "Ethiopia"
+   ],
+   "markers": [
+    {
+     "lon": 40.3,
+     "lat": 14.24,
+     "label": "Dallol",
+     "emoji": "🔥"
+    }
+   ],
+   "narration": "En el desierto de Danakil, en Etiopía, está Dallol. Entre mil novecientos sesenta y mil novecientos sesenta y seis tuvo una temperatura media anual de unos treinta y cuatro grados: la más alta registrada en un lugar habitado. Y no hablamos de un día de calor: hablamos de la media de todo el año, contando las noches y el invierno."
+  },
+  {
+   "type": "landscape",
+   "env": "volcano",
+   "seed": "vo15x",
+   "text": "Charcos de *ácido*",
+   "props": [
+    {
+     "emoji": "🟡",
+     "x": 35,
+     "y": 62,
+     "size": 120,
+     "anim": "pop"
+    },
+    {
+     "emoji": "🟢",
+     "x": 55,
+     "y": 66,
+     "size": 110,
+     "anim": "pop"
+    },
+    {
+     "emoji": "🟠",
+     "x": 74,
+     "y": 62,
+     "size": 120,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Y su paisaje parece de otro planeta: fuentes termales amarillas, verdes y naranjas, llenas de sal, azufre y ácido. Algunas de estas aguas son tan ácidas que muy pocas formas de vida pueden sobrevivir en ellas."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de16x",
+   "text": "Bajo el *mar*",
+   "props": [
+    {
+     "emoji": "🐪",
+     "x": 38,
+     "y": 64,
+     "size": 160,
+     "anim": "walk",
+     "to": [
+      55,
+      64
+     ]
+    },
+    {
+     "emoji": "🧂",
+     "x": 72,
+     "y": 62,
+     "size": 120
+    }
+   ],
+   "narration": "Además, la zona está por debajo del nivel del mar. Allí, caravanas de camellos todavía transportan bloques de sal cortados a mano, como se lleva haciendo desde hace siglos."
+  },
+  {
+   "type": "quote",
+   "env": "volcano",
+   "seed": "vo17x",
+   "text": "Uno de los lugares más hostiles del planeta",
+   "author": "Así lo describen muchos geólogos",
+   "emoji": "🌋",
+   "narration": "Muchos científicos lo consideran uno de los lugares más hostiles del planeta. Y a la vez, uno de los más útiles para entender cómo podría ser la vida en otros mundos, como Marte o algunas lunas de Júpiter."
+  },
+  {
+   "type": "title",
+   "kicker": "Número 5",
+   "text": "El valle de la *Muerte*",
+   "env": "desert",
+   "emoji": "🌡️",
+   "narration": "Número cinco. Un nombre que lo dice todo."
+  },
+  {
+   "type": "map",
+   "kicker": "Estados Unidos",
+   "text": "Valle de la *Muerte*",
+   "from": {
+    "lon": -100,
+    "lat": 40,
+    "zoom": 2
+   },
+   "to": {
+    "lon": -116.87,
+    "lat": 36.46,
+    "zoom": 5
+   },
+   "highlight": [
+    "United States of America"
+   ],
+   "markers": [
+    {
+     "lon": -116.87,
+     "lat": 36.46,
+     "label": "Death Valley",
+     "emoji": "🌡️"
+    }
+   ],
+   "narration": "En California está el Valle de la Muerte. El diez de julio de mil novecientos trece se registraron allí cincuenta y seis coma siete grados, el récord oficial de temperatura del aire en el planeta. Aunque algunos expertos dudan de aquella medición."
+  },
+  {
+   "type": "compare",
+   "env": "desert",
+   "seed": "de18x",
+   "text": "Un verano *brutal*",
+   "items": [
+    {
+     "emoji": "🔥",
+     "label": "Death Valley (récord)",
+     "value": 56.7,
+     "display": "56,7 °C"
+    },
+    {
+     "emoji": "☀️",
+     "label": "Sevilla (récord)",
+     "value": 46.6,
+     "display": "≈46 °C"
+    },
+    {
+     "emoji": "🏖️",
+     "label": "Verano normal",
+     "value": 30,
+     "display": "30 °C"
+    }
+   ],
+   "narration": "Y no hace falta irse a los récords. En pleno verano, en el valle es normal superar los cuarenta y cinco grados durante días seguidos, y por la noche puede seguir haciendo más de treinta."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de19x",
+   "text": "Piedras que *caminan*",
+   "props": [
+    {
+     "emoji": "🪨",
+     "x": 35,
+     "y": 66,
+     "size": 140,
+     "anim": "walk",
+     "to": [
+      60,
+      66
+     ]
+    },
+    {
+     "emoji": "🧊",
+     "x": 70,
+     "y": 50,
+     "size": 110,
+     "anim": "float"
+    }
+   ],
+   "narration": "Y allí ocurre algo curioso: piedras que se mueven solas por el suelo de un lago seco, dejando surcos. Durante décadas fue un misterio, hasta que en dos mil catorce se descubrió que las empujan finas placas de hielo y el viento."
+  },
+  {
+   "type": "stat",
+   "env": "desert",
+   "seed": "de20x",
+   "value": -86,
+   "suffix": " m",
+   "emoji": "📉",
+   "label": "el punto más bajo de Norteamérica",
+   "narration": "Además, en el valle está Badwater, a ochenta y seis metros por debajo del nivel del mar: el punto más bajo de toda Norteamérica. El calor queda atrapado entre montañas, como en un horno."
+  },
+  {
+   "type": "title",
+   "kicker": "Número 4",
+   "text": "El suelo más *caliente*",
+   "env": "desert",
+   "emoji": "🔥",
+   "narration": "Número cuatro. El suelo más caliente de la Tierra."
+  },
+  {
+   "type": "map",
+   "kicker": "Irán",
+   "text": "Desierto de *Lut*",
+   "from": {
+    "lon": 55,
+    "lat": 30,
+    "zoom": 3
+   },
+   "to": {
+    "lon": 58.8,
+    "lat": 30.5,
+    "zoom": 5
+   },
+   "highlight": [
+    "Iran"
+   ],
+   "markers": [
+    {
+     "lon": 58.8,
+     "lat": 30.5,
+     "label": "Desierto de Lut",
+     "emoji": "🔥"
+    }
+   ],
+   "narration": "En Irán está el desierto de Lut. Aquí no medimos el aire, sino la superficie del suelo, y para eso hacen falta satélites. Su arena oscura absorbe el calor del sol durante todo el día, como si fuera una sartén al fuego."
+  },
+  {
+   "type": "stat",
+   "env": "desert",
+   "seed": "de21x",
+   "value": 70.7,
+   "suffix": " °C",
+   "emoji": "🛰️",
+   "label": "temperatura del suelo medida por satélite",
+   "narration": "En dos mil cinco, un satélite de la NASA midió allí una temperatura de la superficie de setenta coma siete grados. Suficiente para freír un huevo, literalmente."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de22x",
+   "text": "Sin *vida*",
+   "props": [
+    {
+     "emoji": "🦂",
+     "x": 40,
+     "y": 66,
+     "size": 140,
+     "anim": "walk",
+     "to": [
+      55,
+      66
+     ]
+    },
+    {
+     "emoji": "☀️",
+     "x": 72,
+     "y": 25,
+     "size": 150,
+     "anim": "spin"
+    }
+   ],
+   "narration": "Durante años se pensó que en las zonas más calientes del Lut no podía vivir nada. Después se encontraron algunos insectos, escorpiones y reptiles que aguantan escondiéndose del sol."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de23x",
+   "text": "*Kaluts* gigantes",
+   "props": [
+    {
+     "emoji": "🗿",
+     "x": 38,
+     "y": 62,
+     "size": 170
+    },
+    {
+     "emoji": "💨",
+     "x": 66,
+     "y": 44,
+     "size": 150,
+     "anim": "walk",
+     "to": [
+      78,
+      44
+     ]
+    }
+   ],
+   "narration": "El viento ha esculpido en el Lut enormes crestas de roca y arena, llamadas kaluts, de decenas de metros de altura. Desde el aire parecen las ruinas de una ciudad gigante abandonada."
+  },
+  {
+   "type": "title",
+   "kicker": "Número 3",
+   "text": "El techo del *mundo*",
+   "env": "ice",
+   "emoji": "🏔️",
+   "narration": "Número tres. El techo del mundo."
+  },
+  {
+   "type": "map",
+   "kicker": "Nepal y China",
+   "text": "El *Everest*",
+   "from": {
+    "lon": 85,
+    "lat": 25,
+    "zoom": 2.5
+   },
+   "to": {
+    "lon": 86.92,
+    "lat": 27.99,
+    "zoom": 6
+   },
+   "highlight": [
+    "Nepal",
+    "China"
+   ],
+   "markers": [
+    {
+     "lon": 86.92,
+     "lat": 27.99,
+     "label": "Everest",
+     "emoji": "🏔️"
+    }
+   ],
+   "narration": "Entre Nepal y China se levanta el Everest, la montaña más alta del planeta, con ocho mil ochocientos cuarenta y nueve metros sobre el nivel del mar. Y sigue creciendo unos milímetros cada año, porque la India continúa empujando contra Asia."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic24x",
+   "text": "La zona de la *muerte*",
+   "props": [
+    {
+     "emoji": "🧗",
+     "x": 40,
+     "y": 60,
+     "size": 150,
+     "anim": "rise"
+    },
+    {
+     "emoji": "💀",
+     "x": 68,
+     "y": 40,
+     "size": 120,
+     "anim": "float"
+    }
+   ],
+   "narration": "Por encima de los ocho mil metros empieza lo que los montañeros llaman la zona de la muerte. Allí hay más o menos un tercio del oxígeno disponible al nivel del mar, y el cuerpo empieza a deteriorarse poco a poco."
+  },
+  {
+   "type": "quote",
+   "env": "night",
+   "seed": "ni25x",
+   "text": "Porque está ahí",
+   "author": "George Mallory, 1923",
+   "emoji": "🏔️",
+   "narration": "Cuando le preguntaron a George Mallory por qué quería subir el Everest, respondió con tres palabras que se hicieron legendarias: porque está ahí. Murió en la montaña en mil novecientos veinticuatro."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic26x",
+   "text": "Atascos en la *cumbre*",
+   "props": [
+    {
+     "emoji": "🧗",
+     "x": 30,
+     "y": 58,
+     "size": 120
+    },
+    {
+     "emoji": "🧗",
+     "x": 48,
+     "y": 52,
+     "size": 120
+    },
+    {
+     "emoji": "🧗",
+     "x": 66,
+     "y": 46,
+     "size": 120
+    }
+   ],
+   "narration": "Hoy, en los mejores días de primavera, se forman colas de decenas de alpinistas esperando para llegar a la cima. Y cada minuto parado en la zona de la muerte es peligroso."
+  },
+  {
+   "type": "title",
+   "kicker": "Número 2",
+   "text": "El frío más *extremo*",
+   "env": "ice",
+   "emoji": "🧊",
+   "narration": "Número dos. El lugar más frío jamás medido."
+  },
+  {
+   "type": "map",
+   "kicker": "Antártida",
+   "text": "Estación *Vostok*",
+   "from": {
+    "lon": 0,
+    "lat": -60,
+    "zoom": 1.5
+   },
+   "to": {
+    "lon": 106.8,
+    "lat": -78.46,
+    "zoom": 3
+   },
+   "highlight": [
+    "Antarctica"
+   ],
+   "markers": [
+    {
+     "lon": 106.8,
+     "lat": -78.46,
+     "label": "Vostok",
+     "emoji": "❄️"
+    }
+   ],
+   "narration": "En el centro de la Antártida está la estación Vostok. El veintiuno de julio de mil novecientos ochenta y tres sus termómetros marcaron ochenta y nueve coma dos grados bajo cero. A esa temperatura, el aliento se congela casi al instante y el metal desnudo puede quemar la piel como si estuviera ardiendo."
+  },
+  {
+   "type": "stat",
+   "env": "ice",
+   "seed": "ic27x",
+   "value": -89.2,
+   "suffix": " °C",
+   "emoji": "🌡️",
+   "label": "la temperatura del aire más baja medida en la Tierra",
+   "narration": "Es la temperatura del aire más baja jamás medida directamente en la Tierra. Y algunos satélites han detectado zonas cercanas que podrían llegar a rondar los noventa y ocho bajo cero."
+  },
+  {
+   "type": "quote",
+   "env": "night",
+   "seed": "ni28x",
+   "text": "Dios mío, este es un lugar horrible",
+   "author": "Robert Falcon Scott, Polo Sur, 1912",
+   "emoji": "🧭",
+   "narration": "Cuando el explorador Robert Falcon Scott llegó al Polo Sur en mil novecientos doce, escribió en su diario: Dios mío, este es un lugar horrible. Nunca volvió a casa."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic29x",
+   "text": "Un lago *escondido*",
+   "props": [
+    {
+     "emoji": "🧊",
+     "x": 40,
+     "y": 40,
+     "size": 170
+    },
+    {
+     "emoji": "💧",
+     "x": 55,
+     "y": 72,
+     "size": 130,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Y lo más increíble: bajo la estación Vostok, debajo de casi cuatro kilómetros de hielo, hay un lago enorme de agua líquida, aislado del resto del mundo durante muchísimo tiempo."
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "sp30x",
+   "text": "Un ensayo para *otros mundos*",
+   "props": [
+    {
+     "emoji": "🛰️",
+     "x": 40,
+     "y": 35,
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "emoji": "🌍",
+     "x": 62,
+     "y": 62,
+     "size": 170
+    }
+   ],
+   "narration": "Por eso la Antártida es uno de los lugares favoritos de los científicos para ensayar cómo sería buscar vida en lugares como Europa, una luna de Júpiter con un océano bajo el hielo."
+  },
+  {
+   "type": "title",
+   "kicker": "Número 1",
+   "text": "El punto más *profundo*",
+   "env": "sea",
+   "emoji": "🌊",
+   "narration": "Número uno. El lugar más extremo de todos."
+  },
+  {
+   "type": "map",
+   "kicker": "Océano Pacífico",
+   "text": "Fosa de las *Marianas*",
+   "from": {
+    "lon": 140,
+    "lat": 15,
+    "zoom": 2
+   },
+   "to": {
+    "lon": 142.2,
+    "lat": 11.35,
+    "zoom": 5
+   },
+   "highlight": [],
+   "markers": [
+    {
+     "lon": 142.2,
+     "lat": 11.35,
+     "label": "Abismo Challenger",
+     "emoji": "🌊"
+    }
+   ],
+   "narration": "En el océano Pacífico, cerca de la isla de Guam, está la fosa de las Marianas. Y en su fondo, el abismo Challenger: el punto más profundo conocido de los océanos. Para llegar hasta el fondo, un submarino tarda varias horas en bajar en total oscuridad."
+  },
+  {
+   "type": "compare",
+   "env": "sea",
+   "seed": "se31x",
+   "text": "Más profundo que *alto*",
+   "items": [
+    {
+     "emoji": "🌊",
+     "label": "Abismo Challenger",
+     "value": 10935,
+     "display": "≈10.900 m"
+    },
+    {
+     "emoji": "🏔️",
+     "label": "Everest",
+     "value": 8849,
+     "display": "8.849 m"
+    }
+   ],
+   "narration": "Tiene unos diez mil novecientos metros de profundidad. Si metieras el Everest dentro, todavía quedarían más de dos kilómetros de agua por encima de la cumbre."
+  },
+  {
+   "type": "stat",
+   "env": "sea",
+   "seed": "se32x",
+   "value": 1000,
+   "suffix": "x",
+   "emoji": "⚖️",
+   "label": "la presión que en la superficie",
+   "narration": "Allí abajo la presión es más de mil veces mayor que en la superficie. Es como tener encima el peso de varios camiones en cada palmo de tu cuerpo."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni33x",
+   "text": "Más visitado el *espacio*",
+   "props": [
+    {
+     "emoji": "🚀",
+     "x": 35,
+     "y": 40,
+     "size": 150,
+     "anim": "rise"
+    },
+    {
+     "emoji": "🤿",
+     "x": 65,
+     "y": 62,
+     "size": 150,
+     "anim": "fall"
+    }
+   ],
+   "narration": "Y aquí va el dato que te prometí: doce personas han caminado sobre la Luna, pero hasta dos mil diecinueve solo tres habían bajado al abismo Challenger. Los primeros fueron Jacques Piccard y Don Walsh, en mil novecientos sesenta. Y en dos mil doce, James Cameron bajó él solo."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se34x",
+   "text": "Vida en la *oscuridad*",
+   "props": [
+    {
+     "emoji": "🦐",
+     "x": 38,
+     "y": 62,
+     "size": 130,
+     "anim": "float"
+    },
+    {
+     "emoji": "🐟",
+     "x": 62,
+     "y": 58,
+     "size": 140,
+     "anim": "walk",
+     "to": [
+      48,
+      58
+     ]
+    }
+   ],
+   "narration": "Y aun así, allí abajo hay vida. Pequeños crustáceos, gusanos y extraños peces que viven a oscuras, en el frío y bajo una presión brutal. Demostrando que la vida casi siempre encuentra la forma."
+  },
+  {
+   "type": "stat",
+   "env": "sea",
+   "seed": "se35x",
+   "value": 4,
+   "suffix": " °C",
+   "emoji": "🌡️",
+   "label": "temperatura aproximada del agua en el fondo",
+   "narration": "El agua del fondo está a pocos grados sobre cero y en total oscuridad: la luz del sol no llega más allá de unos mil metros. Todo lo que vive allí lo hace sin ver nunca el día."
+  },
+  {
+   "type": "title",
+   "kicker": "Escala Brutal",
+   "text": "Un planeta *al límite*",
+   "env": "space",
+   "emoji": "🌍",
+   "narration": "Así que ya lo ves: desde ciudades donde falta el aire hasta abismos donde la presión aplasta, nuestro planeta tiene rincones que parecen de otro mundo. Y aun así, en casi todos ellos, hay alguien o algo que consigue vivir."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni36x",
+   "text": "¿Qué lugar *quieres* ver?",
+   "props": [
+    {
+     "emoji": "💬",
+     "x": 50,
+     "y": 50,
+     "size": 200,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Si te ha gustado, suscríbete a Escala Brutal. Y cuéntame en los comentarios: ¿en cuál de estos diez lugares aguantarías más tiempo? Y ¿qué lugar extremo quieres que exploremos en el próximo vídeo? Te leo en los comentarios."
+  }
+ ]
+}
