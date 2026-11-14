@@ -3,26 +3,52 @@
   "format": "doc",
   "title": "Aquí casi NUNCA llueve: el desierto más seco del planeta 🏜️",
   "description": "El desierto de Atacama, en el norte de Chile, es el desierto no polar más seco del mundo: en ciudades como Arica caen de media menos de 1 mm de lluvia al año, y hay zonas donde no se ha registrado lluvia en décadas. Su suelo se parece tanto al de Marte que la NASA prueba allí instrumentos para sus misiones, y su cielo limpio atrae a algunos de los telescopios más potentes del planeta. Y cuando llueve de forma excepcional, ocurre el «desierto florido».\n\nCifras aproximadas. Imágenes: Pixabay (ilustrativas). Video creado con ayuda de IA.",
-  "tags": ["atacama", "desierto mas seco", "chile", "lugares extremos", "curiosidades", "desierto florido"],
-  "credits": ["Pixabay: antonlukin, Positive_Hedgehog, Matthias_Groeneveld, doktorkleinmusic, Kanenori, ZT_OSCAR"],
+  "tags": [
+    "atacama",
+    "desierto mas seco",
+    "chile",
+    "lugares extremos",
+    "curiosidades",
+    "desierto florido"
+  ],
+  "credits": [
+    "Pixabay: antonlukin, Positive_Hedgehog, Matthias_Groeneveld, doktorkleinmusic, ZT_OSCAR"
+  ],
   "scenes": [
-    {"type": "clip", "src": "https://cdn.pixabay.com/video/2025/06/09/284568_small.mp4", "startFrom": 0,
-     "stamp": "Menos de *1 mm* al año",
-     "narration": "En este lugar cae menos de un milímetro de lluvia al año. Y hay zonas donde no se ha registrado ni una gota en décadas."},
-    {"type": "clip", "src": "https://cdn.pixabay.com/video/2025/05/06/277170_medium.mp4", "startFrom": 0,
-     "stamp": "Atacama, *Chile*",
-     "narration": "Es el desierto de Atacama, en el norte de Chile. El desierto no polar más seco del planeta."},
-    {"type": "clip", "src": "https://cdn.pixabay.com/video/2026/09/23/378416_small.mp4", "startFrom": 0,
-     "stamp": "Un pedazo de *Marte*",
-     "narration": "Su suelo se parece tanto al de Marte que la NASA viene aquí a probar instrumentos para sus misiones."},
-    {"type": "clip", "src": "https://cdn.pixabay.com/video/2023/09/09/179777-862771693_large.mp4", "startFrom": 0,
-     "stamp": "Cielos *perfectos*",
-     "narration": "Y como casi nunca hay nubes, aquí se han instalado algunos de los telescopios más potentes del mundo."},
-    {"type": "clip", "src": "https://cdn.pixabay.com/video/2025/06/03/283431_small.mp4", "startFrom": 0,
-     "stamp": "Noches *así*",
-     "narration": "Por las noches, el cielo se ve así de limpio."},
-    {"type": "clip", "src": "https://cdn.pixabay.com/video/2025/08/18/298187_small.mp4", "startFrom": 0,
-     "stamp": "El desierto *florido*",
-     "narration": "Pero lo más increíble pasa algunos años: cuando llueve más de lo normal, el desierto se llena de flores. ¿Te gustaría verlo?"}
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/06/09/284568_small.mp4",
+      "startFrom": 0,
+      "stamp": "Menos de *1 mm* al año",
+      "narration": "En este lugar cae menos de un milímetro de lluvia al año. Y hay zonas donde no se ha registrado ni una gota en décadas."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/05/06/277170_medium.mp4",
+      "startFrom": 0,
+      "stamp": "Atacama, *Chile*",
+      "narration": "Es el desierto de Atacama, en el norte de Chile. El desierto no polar más seco del planeta."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/09/23/378416_small.mp4",
+      "startFrom": 0,
+      "stamp": "Un pedazo de *Marte*",
+      "narration": "Su suelo se parece tanto al de Marte que la NASA viene aquí a probar instrumentos para sus misiones."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2023/09/09/179777-862771693_large.mp4",
+      "startFrom": 0,
+      "stamp": "Cielos *perfectos*",
+      "narration": "Y como casi nunca hay nubes, aquí se han instalado algunos de los telescopios más potentes del mundo. Sus noches están entre las más limpias del planeta."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/08/18/298187_small.mp4",
+      "startFrom": 0,
+      "stamp": "El desierto *florido*",
+      "narration": "Pero lo más increíble pasa algunos años: cuando llueve más de lo normal, el desierto se llena de flores. ¿Te gustaría verlo?"
+    }
   ]
 }
