@@ -226,3 +226,8 @@ The owner asked me to handle comments fully, replying directly.
 
 ## 2026-11-13 (tarde) — música más baja
 - Petición del usuario: música aún muy alta. Volúmenes: Shorts (Doc.tsx) 0.45 → 0.25; largos (Story.tsx) 0.22 → 0.12 (≈ -5 dB). NO subir sin que lo pida.
+
+## 2026-11-14 — voz 2A con entrega "C" (aprobada por el usuario)
+- Misma voz 2A (Chatterbox default), pero generada frase a frase (frases cortas se fusionan), exaggeration 0.6, cfg_weight 0.4, temperature 0.75, silencios recortados y pausas 0.45 s (0.55 s tras "?" o "..."). QA Whisper con números normalizados (num2words) y penalización de palabras inventadas; hasta 4 intentos por frase.
+- Clave de caché TTS: "cbxC1|" (los vídeos anteriores usaban "cbxA1|").
+- NO subir exaggeration > 0.6 ni bajar cfg < 0.4: con 0.7/0.3 alucinaba (prueba B descartada).

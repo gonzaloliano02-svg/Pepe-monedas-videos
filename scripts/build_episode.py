@@ -59,7 +59,7 @@ def tts(text: str, out: Path) -> float:
     """Voice-over (cached: the same text is not synthesised twice)."""
     import hashlib
     key = out.with_suffix(".key")
-    h = hashlib.sha1(("cbxA1|" + text).encode()).hexdigest()
+    h = hashlib.sha1(("cbxC1|" + text).encode()).hexdigest()
     if out.exists() and key.exists() and key.read_text() == h:
         with wave.open(str(out), "rb") as wf:
             return wf.getnframes() / wf.getframerate()
