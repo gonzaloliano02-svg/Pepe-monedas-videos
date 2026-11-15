@@ -69,3 +69,4 @@
 - 08:05 UTC: el contenedor se reinició y la cola había saltado b/c/L1/L2 (leía logs de ayer con OK). Corregido (logs con fecha) y relanzado. a programado 10:00 (id 428679555).
 - b · 12:00 · "En Marte hay un volcán casi 3 veces más ALTO que el Everest 🌋" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=1522201642917185357
 - c · 18:00 · "Un millón de segundos son 11 días. ¿Y MIL MILLONES? ⏳" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=6430227300302996336
+- L1 16:00 "La tormenta solar que INCENDIÓ los telégrafos (1859)" — 10.5 min, Metricool id 428767864 (uuid -1653727423456195848). Revisado frame-sheet + miniatura.
