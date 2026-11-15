@@ -769,6 +769,29 @@
   },
   {
    "type": "landscape",
+   "env": "desert",
+   "seed": "de29y",
+   "text": "El aviso de *Marte*",
+   "props": [
+    {
+     "emoji": "🔴",
+     "x": 42,
+     "y": 40,
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "emoji": "💨",
+     "x": 68,
+     "y": 52,
+     "size": 120,
+     "anim": "shake"
+    }
+   ],
+   "narration": "Tenemos un ejemplo cerca. Marte perdió su campo magnético global hace miles de millones de años, y desde entonces el viento solar le ha ido arrancando buena parte de su atmósfera. La sonda MAVEN de la NASA lo ha medido."
+  },
+  {
+   "type": "landscape",
    "env": "storm",
    "seed": "st30x",
    "text": "Más *radiación*",
@@ -826,6 +849,16 @@
     }
    ],
    "narration": "Y los satélites geoestacionarios, los que parecen quietos sobre un punto del planeta para darnos televisión o datos del tiempo, dejarían de estar quietos: el suelo ya no giraría con ellos."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "ni32y",
+   "value": 35786,
+   "suffix": " km",
+   "emoji": "🛰️",
+   "label": "de altura: la órbita *geoestacionaria*",
+   "narration": "Esos satélites están a unos treinta y cinco mil setecientos ochenta y seis kilómetros de altura, justo donde una vuelta completa dura lo mismo que un día. Con la Tierra parada, las antenas de nuestros tejados apuntarían a un satélite que se va moviendo por el cielo, y tendríamos que perseguirlo."
   },
   {
    "type": "title",
