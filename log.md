@@ -70,3 +70,5 @@
 - b · 12:00 · "En Marte hay un volcán casi 3 veces más ALTO que el Everest 🌋" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=1522201642917185357
 - c · 18:00 · "Un millón de segundos son 11 días. ¿Y MIL MILLONES? ⏳" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=6430227300302996336
 - L1 16:00 "La tormenta solar que INCENDIÓ los telégrafos (1859)" — 10.5 min, Metricool id 428767864 (uuid -1653727423456195848). Revisado frame-sheet + miniatura.
+- L2 20:00 "¿Qué pasaría si la Tierra dejara de GIRAR? (el mapa cambiaría)" — v1 salió 9.9 min; añadidas 2 escenas (Marte/MAVEN, órbita geoestacionaria) y re-render → 10.4 min. Metricool id 428947170 (uuid -926137719485087399).
+- Comentarios: sin nuevos, 0 créditos vidIQ.

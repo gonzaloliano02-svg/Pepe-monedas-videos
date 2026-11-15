@@ -61,7 +61,7 @@ ones that are trending (check vidIQ rising keywords once a week).
 - [ ] Los dinosaurios vivieron más tiempo separados entre sí que de nosotros
 
 ## What if (science-based, conservative)
-- [ ] ¿Y si la Tierra dejara de girar un segundo?
+- [x] ¿Y si la Tierra dejara de girar un segundo? (L2 2026-11-15)
 - [x] ¿Y si cayeras por un túnel que atraviesa la Tierra? (2026-11-12-b)
 - [ ] ¿Y si la Luna estuviera tan cerca como la Estación Espacial?
 
