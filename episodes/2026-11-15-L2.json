@@ -1,0 +1,1074 @@
+{
+ "id": "2026-11-15-L2",
+ "format": "story",
+ "title": "¿Qué pasaría si la Tierra dejara de GIRAR? (el mapa cambiaría)",
+ "description": "",
+ "tags": [
+  "que pasaria si",
+  "tierra deja de girar",
+  "rotacion de la tierra",
+  "ciencia",
+  "planeta",
+  "curiosidades",
+  "foucault",
+  "venus"
+ ],
+ "thumbnail": {
+  "text": "¿Y si *no girara*?",
+  "emoji": "🌍",
+  "env": "space",
+  "kicker": "¿Qué pasaría si…?"
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "kicker": "Escala Brutal · ¿Qué pasaría si…?",
+   "text": "¿Y si la Tierra dejara de *girar*?",
+   "env": "space",
+   "emoji": "🌍",
+   "narration": "Ahora mismo, mientras ves este vídeo, estás girando a más de mil kilómetros por hora. Tú, tu casa, el aire que respiras y el océano entero."
+  },
+  {
+   "type": "stat",
+   "env": "space",
+   "seed": "sp1x",
+   "value": 1670,
+   "suffix": " km/h",
+   "emoji": "🌍",
+   "label": "velocidad de giro en el *ecuador*",
+   "narration": "En el ecuador, la superficie de la Tierra se mueve a unos mil seiscientos setenta kilómetros por hora. Más rápido que un avión de pasajeros. Y no lo notas en absoluto."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "st2x",
+   "text": "¿Y si *frenara*?",
+   "props": [
+    {
+     "emoji": "🌍",
+     "x": 50,
+     "y": 50,
+     "size": 200,
+     "anim": "shake"
+    },
+    {
+     "emoji": "🛑",
+     "x": 72,
+     "y": 30,
+     "size": 110,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Pero ¿qué pasaría si, de repente, la Tierra dejara de girar? ¿Y si lo hiciera poco a poco? Las dos respuestas son muy distintas, y una de ellas cambia el mapa del mundo por completo."
+  },
+  {
+   "type": "map",
+   "kicker": "",
+   "text": "Quédate hasta el *final*",
+   "from": {
+    "lon": 0,
+    "lat": 30,
+    "zoom": 1
+   },
+   "to": {
+    "lon": 0,
+    "lat": 20,
+    "zoom": 1.2
+   },
+   "highlight": [],
+   "markers": [],
+   "narration": "Quédate hasta el final, porque la Tierra de verdad está frenando ahora mismo. Hace cuatrocientos millones de años, los días eran bastante más cortos. Y tenemos la prueba escrita en unos corales."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 1",
+   "text": "¿A qué velocidad *giramos*?",
+   "env": "city",
+   "emoji": "🌀",
+   "narration": "Capítulo uno. ¿A qué velocidad giramos?"
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni3x",
+   "text": "Una vuelta al *día*",
+   "props": [
+    {
+     "emoji": "🌍",
+     "x": 50,
+     "y": 50,
+     "size": 190,
+     "anim": "spin"
+    },
+    {
+     "emoji": "🕐",
+     "x": 75,
+     "y": 30,
+     "size": 110
+    }
+   ],
+   "narration": "La Tierra da una vuelta completa sobre sí misma cada día. Por eso sale y se pone el Sol. Pero la velocidad a la que te mueves depende de dónde estés."
+  },
+  {
+   "type": "compare",
+   "env": "city",
+   "seed": "ci4x",
+   "text": "Según dónde *vivas*",
+   "items": [
+    {
+     "emoji": "🧊",
+     "label": "Polo Norte",
+     "value": 0,
+     "display": "0 km/h"
+    },
+    {
+     "emoji": "🇪🇸",
+     "label": "Madrid",
+     "value": 1270,
+     "display": "≈1.270 km/h"
+    },
+    {
+     "emoji": "🌴",
+     "label": "Ecuador",
+     "value": 1670,
+     "display": "≈1.670 km/h"
+    }
+   ],
+   "narration": "En el ecuador, la Tierra tiene que recorrer unos cuarenta mil kilómetros cada día, así que va rapidísimo. En Madrid, unos mil doscientos setenta kilómetros por hora. Y en los polos, prácticamente nada: allí solo das vueltas sobre ti mismo."
+  },
+  {
+   "type": "stat",
+   "env": "sea",
+   "seed": "se91r",
+   "value": 40075,
+   "suffix": " km",
+   "emoji": "📏",
+   "label": "recorre cada día un punto del *ecuador*",
+   "narration": "Piénsalo así: un punto del ecuador recorre cada día unos cuarenta mil kilómetros, la vuelta completa al planeta. Y lo hace todos los días desde hace miles de millones de años, sin descansar ni uno."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de5x",
+   "text": "¿Por qué no lo *notas*?",
+   "props": [
+    {
+     "emoji": "🚗",
+     "x": 35,
+     "y": 66,
+     "size": 140,
+     "anim": "walk",
+     "to": [
+      60,
+      66
+     ]
+    },
+    {
+     "emoji": "🧍",
+     "x": 72,
+     "y": 70,
+     "size": 120
+    }
+   ],
+   "narration": "No lo notas por lo mismo que no notas la velocidad en un avión tranquilo: todo se mueve contigo, a la misma velocidad y sin frenazos. Lo que sí notarías es un cambio brusco."
+  },
+  {
+   "type": "map",
+   "kicker": "Francia",
+   "text": "París, *1851*",
+   "from": {
+    "lon": 2,
+    "lat": 46,
+    "zoom": 4
+   },
+   "to": {
+    "lon": 2.35,
+    "lat": 48.85,
+    "zoom": 7
+   },
+   "highlight": [
+    "France"
+   ],
+   "markers": [
+    {
+     "lon": 2.35,
+     "lat": 48.85,
+     "label": "Panteón de París",
+     "emoji": "🏛️"
+    }
+   ],
+   "narration": "En mil ochocientos cincuenta y uno, el físico francés Léon Foucault lo demostró de forma espectacular. Colgó un péndulo enorme de la cúpula del Panteón de París."
+  },
+  {
+   "type": "landscape",
+   "env": "city",
+   "seed": "ci6x",
+   "text": "El péndulo de *Foucault*",
+   "props": [
+    {
+     "emoji": "🏛️",
+     "x": 50,
+     "y": 58,
+     "size": 210
+    },
+    {
+     "emoji": "⚖️",
+     "x": 50,
+     "y": 35,
+     "size": 110,
+     "anim": "float"
+    }
+   ],
+   "narration": "El péndulo oscilaba siempre en la misma dirección, pero el suelo giraba debajo de él. Con las horas, la línea de su recorrido iba cambiando poco a poco. Era la Tierra, moviéndose."
+  },
+  {
+   "type": "quote",
+   "env": "night",
+   "seed": "ni7x",
+   "text": "Están invitados a ver girar la Tierra",
+   "author": "Invitación de Foucault, 1851",
+   "emoji": "📜",
+   "narration": "Foucault invitó a los científicos de París a una demostración con una frase que se hizo famosa: les invitaba a ver girar la Tierra."
+  },
+  {
+   "type": "stat",
+   "env": "forest",
+   "seed": "fo8x",
+   "value": 465,
+   "suffix": " m/s",
+   "emoji": "💨",
+   "label": "en el ecuador, casi *medio km* por segundo",
+   "narration": "Dicho de otra forma: en el ecuador te mueves a unos cuatrocientos sesenta y cinco metros por segundo. Más rápido que el sonido. Ahora imagina que eso se detiene en seco."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 2",
+   "text": "El *frenazo*",
+   "env": "sea",
+   "emoji": "🛑",
+   "narration": "Capítulo dos. El frenazo."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "st9x",
+   "text": "Todo sale *volando*",
+   "props": [
+    {
+     "emoji": "🏠",
+     "x": 35,
+     "y": 62,
+     "size": 150,
+     "anim": "walk",
+     "to": [
+      70,
+      55
+     ]
+    },
+    {
+     "emoji": "🚗",
+     "x": 55,
+     "y": 70,
+     "size": 110,
+     "anim": "walk",
+     "to": [
+      85,
+      60
+     ]
+    }
+   ],
+   "narration": "Primer escenario: la Tierra se para en un instante. El planeta se detiene, pero todo lo que no está anclado a la roca seguiría moviéndose hacia el este, a la velocidad que llevaba."
+  },
+  {
+   "type": "compare",
+   "env": "city",
+   "seed": "ci10x",
+   "text": "Como un *choque*",
+   "items": [
+    {
+     "emoji": "🚗",
+     "label": "Choque de coche",
+     "value": 100,
+     "display": "100 km/h"
+    },
+    {
+     "emoji": "✈️",
+     "label": "Avión",
+     "value": 900,
+     "display": "900 km/h"
+    },
+    {
+     "emoji": "🌍",
+     "label": "Frenazo en Madrid",
+     "value": 1270,
+     "display": "≈1.270 km/h"
+    }
+   ],
+   "narration": "Sería como un accidente de coche, pero a más de mil kilómetros por hora. Personas, coches, árboles sueltos y edificios mal anclados saldrían despedidos hacia el este."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic11x",
+   "text": "Vientos *imposibles*",
+   "props": [
+    {
+     "emoji": "🌪️",
+     "x": 40,
+     "y": 50,
+     "size": 180,
+     "anim": "spin"
+    },
+    {
+     "emoji": "💨",
+     "x": 68,
+     "y": 45,
+     "size": 140,
+     "anim": "walk",
+     "to": [
+      90,
+      40
+     ]
+    }
+   ],
+   "narration": "La atmósfera también seguiría girando. El aire barrería la superficie a cientos de kilómetros por hora: vientos mucho más fuertes que el peor huracán jamás registrado."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se12x",
+   "text": "Océanos *desbocados*",
+   "props": [
+    {
+     "emoji": "🌊",
+     "x": 40,
+     "y": 62,
+     "size": 190,
+     "anim": "rise"
+    },
+    {
+     "emoji": "🌊",
+     "x": 68,
+     "y": 66,
+     "size": 150,
+     "anim": "rise"
+    }
+   ],
+   "narration": "Y el agua de los océanos haría lo mismo. Se lanzaría contra las costas del este de los continentes en olas gigantescas, que entrarían muchos kilómetros tierra adentro."
+  },
+  {
+   "type": "stat",
+   "env": "volcano",
+   "seed": "vo13x",
+   "value": 0,
+   "suffix": " km/h",
+   "emoji": "🧊",
+   "label": "en los polos: el lugar más *seguro*",
+   "narration": "¿Dónde estarías más a salvo? En los polos. Allí la velocidad de giro es casi cero, así que el frenazo apenas se notaría. Sería el único sitio tranquilo de un planeta enloquecido."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de14x",
+   "text": "Por suerte, *imposible*",
+   "props": [
+    {
+     "emoji": "🌍",
+     "x": 50,
+     "y": 50,
+     "size": 190
+    },
+    {
+     "emoji": "❌",
+     "x": 70,
+     "y": 30,
+     "size": 110,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Por suerte, este escenario es imposible. No existe ninguna fuerza capaz de frenar un planeta entero en un segundo. Así que vamos con la versión más interesante: ¿y si la Tierra frenara poco a poco?"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 3",
+   "text": "Un *nuevo* mapa",
+   "env": "storm",
+   "emoji": "🗺️",
+   "narration": "Capítulo tres. Un nuevo mapa."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se15x",
+   "text": "La Tierra no es *redonda*",
+   "props": [
+    {
+     "emoji": "🌍",
+     "x": 50,
+     "y": 50,
+     "size": 210
+    },
+    {
+     "emoji": "↔️",
+     "x": 50,
+     "y": 50,
+     "size": 120,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Aquí viene algo que poca gente sabe: la Tierra no es una esfera perfecta. Al girar, se ensancha un poco por el ecuador, como una pelota que se aplasta al dar vueltas."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "ni16x",
+   "value": 21,
+   "suffix": " km",
+   "emoji": "📏",
+   "label": "más ancha en el *ecuador* que de polo a polo",
+   "narration": "El radio de la Tierra en el ecuador es unos veintiún kilómetros mayor que en los polos. Y los océanos siguen esa misma forma: hay un abultamiento de agua alrededor del ecuador."
+  },
+  {
+   "type": "stat",
+   "env": "forest",
+   "seed": "fo92r",
+   "value": 71,
+   "suffix": " %",
+   "emoji": "🌊",
+   "label": "de la superficie es hoy *océano*",
+   "narration": "Hoy, alrededor del setenta y uno por ciento de la superficie del planeta está cubierta por océanos. Y toda esa agua está colocada así, en parte, por culpa del giro."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic17x",
+   "text": "El agua *se mueve*",
+   "props": [
+    {
+     "emoji": "🌊",
+     "x": 40,
+     "y": 40,
+     "size": 150,
+     "anim": "walk",
+     "to": [
+      40,
+      15
+     ]
+    },
+    {
+     "emoji": "🧊",
+     "x": 65,
+     "y": 25,
+     "size": 120
+    }
+   ],
+   "narration": "Si la Tierra dejara de girar poco a poco, ese abultamiento desaparecería. El agua dejaría de estar empujada hacia el ecuador y emigraría hacia los polos, donde está más cerca del centro del planeta."
+  },
+  {
+   "type": "quote",
+   "env": "city",
+   "seed": "ci18x",
+   "text": "Aparecería un gran continente alrededor del ecuador",
+   "author": "Modelo del geógrafo Witold Fraczek (Esri), 2010",
+   "emoji": "🗺️",
+   "narration": "En dos mil diez, el geógrafo Witold Fraczek, de la empresa de mapas Esri, calculó cómo quedaría el planeta. El resultado parece de ciencia ficción."
+  },
+  {
+   "type": "map",
+   "kicker": "",
+   "text": "Dos océanos *polares*",
+   "from": {
+    "lon": 0,
+    "lat": 30,
+    "zoom": 1
+   },
+   "to": {
+    "lon": 0,
+    "lat": 60,
+    "zoom": 1.5
+   },
+   "highlight": [
+    "Canada",
+    "Russia",
+    "Norway",
+    "Sweden",
+    "Finland"
+   ],
+   "markers": [],
+   "narration": "Según ese modelo, se formarían dos grandes océanos, uno en cada polo. En el norte, el agua cubriría gran parte de Canadá, del norte de Europa y de Rusia."
+  },
+  {
+   "type": "map",
+   "kicker": "",
+   "text": "Un *megacontinente*",
+   "from": {
+    "lon": 0,
+    "lat": 60,
+    "zoom": 1.5
+   },
+   "to": {
+    "lon": -20,
+    "lat": 0,
+    "zoom": 1.4
+   },
+   "highlight": [
+    "Brazil",
+    "Indonesia"
+   ],
+   "markers": [
+    {
+     "lon": -78.5,
+     "lat": -0.2,
+     "label": "Ecuador",
+     "emoji": "🏜️"
+    }
+   ],
+   "narration": "Y alrededor del ecuador emergería un único continente gigantesco, que daría la vuelta al mundo. Grandes extensiones que hoy son fondo marino quedarían al aire."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de19x",
+   "text": "Aire de *montaña*",
+   "props": [
+    {
+     "emoji": "🏔️",
+     "x": 40,
+     "y": 55,
+     "size": 200
+    },
+    {
+     "emoji": "😮‍💨",
+     "x": 72,
+     "y": 60,
+     "size": 110,
+     "anim": "float"
+    }
+   ],
+   "narration": "Y la atmósfera también se recolocaría. En el ecuador el aire sería más fino, como en lo alto de una montaña. Respirar allí costaría bastante más que ahora."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo20x",
+   "text": "Costas *irreconocibles*",
+   "props": [
+    {
+     "emoji": "🏖️",
+     "x": 40,
+     "y": 64,
+     "size": 150
+    },
+    {
+     "emoji": "🌊",
+     "x": 70,
+     "y": 60,
+     "size": 130,
+     "anim": "walk",
+     "to": [
+      85,
+      40
+     ]
+    }
+   ],
+   "narration": "Las costas que conocemos desaparecerían. Puertos, playas y ciudades enteras quedarían lejos del mar o bajo el agua, según hacia dónde se moviera el océano en cada región."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 4",
+   "text": "Un día que dura un *año*",
+   "env": "space",
+   "emoji": "☀️",
+   "narration": "Capítulo cuatro. Un día que dura un año."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de21x",
+   "text": "Seis meses de *sol*",
+   "props": [
+    {
+     "emoji": "☀️",
+     "x": 50,
+     "y": 25,
+     "size": 170
+    },
+    {
+     "emoji": "🥵",
+     "x": 40,
+     "y": 66,
+     "size": 120,
+     "anim": "shake"
+    }
+   ],
+   "narration": "Aunque la Tierra dejara de girar sobre sí misma, seguiría dando vueltas alrededor del Sol. Así que un día completo duraría un año: unos seis meses de luz y seis meses de noche."
+  },
+  {
+   "type": "compare",
+   "env": "night",
+   "seed": "ni22x",
+   "text": "Duración de un *día*",
+   "items": [
+    {
+     "emoji": "🌍",
+     "label": "Tierra hoy",
+     "value": 24,
+     "display": "24 h"
+    },
+    {
+     "emoji": "🪐",
+     "label": "Venus (1 vuelta)",
+     "value": 5832,
+     "display": "≈243 días"
+    },
+    {
+     "emoji": "🌍",
+     "label": "Tierra sin girar",
+     "value": 8766,
+     "display": "≈365 días"
+    }
+   ],
+   "narration": "Tendríamos un día parecido al de Venus, el planeta que más despacio gira de todo el sistema solar. Allí, una sola vuelta sobre sí mismo tarda más que un año venusiano entero."
+  },
+  {
+   "type": "landscape",
+   "env": "volcano",
+   "seed": "vo23x",
+   "text": "Un lado *ardiendo*",
+   "props": [
+    {
+     "emoji": "🔥",
+     "x": 40,
+     "y": 60,
+     "size": 150,
+     "anim": "rise"
+    },
+    {
+     "emoji": "🌵",
+     "x": 68,
+     "y": 66,
+     "size": 130
+    }
+   ],
+   "narration": "Durante esos seis meses de día, el lado iluminado se calentaría sin descanso. Sin noches para enfriarse, el calor se acumularía semana tras semana."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic24x",
+   "text": "Un lado *congelado*",
+   "props": [
+    {
+     "emoji": "🥶",
+     "x": 40,
+     "y": 60,
+     "size": 140,
+     "anim": "shake"
+    },
+    {
+     "emoji": "❄️",
+     "x": 68,
+     "y": 40,
+     "size": 120,
+     "anim": "float"
+    }
+   ],
+   "narration": "Mientras tanto, el lado oscuro pasaría seis meses sin sol. Las temperaturas caerían en picado, con un frío parecido al de la noche polar, pero en lugares que hoy son templados."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "ni26x",
+   "value": 6,
+   "suffix": " meses",
+   "emoji": "🌙",
+   "label": "de noche *seguida*",
+   "narration": "Y tu cuerpo lo notaría el primero. Funciona con un reloj interno de unas veinticuatro horas. Imagina vivir seis meses de noche seguida, y luego seis meses de sol sin descanso."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo25x",
+   "text": "La vida, en *apuros*",
+   "props": [
+    {
+     "emoji": "🌻",
+     "x": 35,
+     "y": 64,
+     "size": 140
+    },
+    {
+     "emoji": "🐦",
+     "x": 65,
+     "y": 40,
+     "size": 110,
+     "anim": "float"
+    }
+   ],
+   "narration": "Las plantas, que dependen del ciclo de día y noche, se volverían locas. Muchos animales que se guían por la luz para dormir, cazar o migrar perderían su reloj natural."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se27x",
+   "text": "Ciudades en la *frontera*",
+   "props": [
+    {
+     "emoji": "🏙️",
+     "x": 45,
+     "y": 62,
+     "size": 180
+    },
+    {
+     "emoji": "🌗",
+     "x": 72,
+     "y": 30,
+     "size": 120
+    }
+   ],
+   "narration": "Quizá la gente acabaría viviendo en la franja entre el día y la noche, donde la temperatura sería más soportable, y migrando con ella a lo largo del año."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 5",
+   "text": "Lo que *no* se ve",
+   "env": "city",
+   "emoji": "🧲",
+   "narration": "Capítulo cinco. Lo que no se ve."
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "sp28x",
+   "text": "El escudo *magnético*",
+   "props": [
+    {
+     "emoji": "🧲",
+     "x": 40,
+     "y": 50,
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "emoji": "🌍",
+     "x": 65,
+     "y": 52,
+     "size": 150
+    }
+   ],
+   "narration": "La Tierra tiene un campo magnético que nos protege de buena parte de las partículas que lanza el Sol. Se genera por el movimiento del hierro líquido del núcleo."
+  },
+  {
+   "type": "quote",
+   "env": "night",
+   "seed": "ni29x",
+   "text": "Se cree que la rotación ayuda a mantener la dinamo terrestre",
+   "author": "Lo que dicen los modelos geofísicos",
+   "emoji": "🌀",
+   "narration": "Los científicos creen que la rotación del planeta ayuda a organizar ese movimiento. Si la Tierra dejara de girar, el campo magnético podría debilitarse, aunque nadie sabe con exactitud cuánto."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "st30x",
+   "text": "Más *radiación*",
+   "props": [
+    {
+     "emoji": "☀️",
+     "x": 30,
+     "y": 30,
+     "size": 140
+    },
+    {
+     "emoji": "⚡",
+     "x": 60,
+     "y": 50,
+     "size": 120,
+     "anim": "shake"
+    },
+    {
+     "emoji": "🧍",
+     "x": 72,
+     "y": 72,
+     "size": 110
+    }
+   ],
+   "narration": "Con un escudo más débil, llegaría más radiación a las capas altas de la atmósfera, y los satélites y las redes eléctricas lo pasarían peor durante las tormentas solares."
+  },
+  {
+   "type": "stat",
+   "env": "city",
+   "seed": "ci31x",
+   "value": 0.3,
+   "suffix": " %",
+   "emoji": "⚖️",
+   "label": "pesarías algo *más* en el ecuador",
+   "narration": "Hay un efecto curioso: el giro de la Tierra te hace pesar un poquito menos en el ecuador. Si se detuviera, allí pesarías alrededor de un tres por mil más. Una persona de setenta kilos ganaría unos doscientos gramos."
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "sp32x",
+   "text": "Satélites *despistados*",
+   "props": [
+    {
+     "emoji": "🛰️",
+     "x": 40,
+     "y": 40,
+     "size": 140,
+     "anim": "float"
+    },
+    {
+     "emoji": "📡",
+     "x": 68,
+     "y": 66,
+     "size": 130
+    }
+   ],
+   "narration": "Y los satélites geoestacionarios, los que parecen quietos sobre un punto del planeta para darnos televisión o datos del tiempo, dejarían de estar quietos: el suelo ya no giraría con ellos."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 6",
+   "text": "¿Puede pasar de *verdad*?",
+   "env": "desert",
+   "emoji": "⏳",
+   "narration": "Capítulo seis. ¿Puede pasar de verdad?"
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic33x",
+   "text": "La Tierra *frena*",
+   "props": [
+    {
+     "emoji": "🌍",
+     "x": 45,
+     "y": 50,
+     "size": 180
+    },
+    {
+     "emoji": "🐢",
+     "x": 70,
+     "y": 66,
+     "size": 120,
+     "anim": "walk",
+     "to": [
+      80,
+      66
+     ]
+    }
+   ],
+   "narration": "Aquí viene lo sorprendente: la Tierra sí está frenando. Muy, muy despacio. La culpa es de la Luna, que con las mareas actúa como un pequeño freno sobre el planeta."
+  },
+  {
+   "type": "stat",
+   "env": "city",
+   "seed": "se34x",
+   "value": 2,
+   "suffix": " ms",
+   "emoji": "⏱️",
+   "label": "más largo el día cada *siglo*, aproximadamente",
+   "narration": "Cada siglo, el día se alarga de media en torno a uno o dos milisegundos. Parece nada. Pero a lo largo de millones de años, suma muchísimo."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se35x",
+   "text": "Lo dicen los *corales*",
+   "props": [
+    {
+     "emoji": "🪸",
+     "x": 40,
+     "y": 64,
+     "size": 160
+    },
+    {
+     "emoji": "🔍",
+     "x": 68,
+     "y": 45,
+     "size": 120,
+     "anim": "float"
+    }
+   ],
+   "narration": "¿Cómo lo sabemos? Por los corales fósiles. Algunos crecen con marcas diarias, como los anillos de un árbol. Y los de hace unos cuatrocientos millones de años muestran unos cuatrocientos días por año."
+  },
+  {
+   "type": "compare",
+   "env": "forest",
+   "seed": "fo36x",
+   "text": "Duración del *día*",
+   "items": [
+    {
+     "emoji": "🦕",
+     "label": "Hace 400 M de años",
+     "value": 22,
+     "display": "≈22 h"
+    },
+    {
+     "emoji": "🌍",
+     "label": "Hoy",
+     "value": 24,
+     "display": "24 h"
+    }
+   ],
+   "narration": "Si el año tenía unos cuatrocientos días, cada día tenía que ser más corto: unas veintidós horas. La Tierra giraba más rápido que ahora."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni37x",
+   "text": "La Luna se *aleja*",
+   "props": [
+    {
+     "emoji": "🌙",
+     "x": 50,
+     "y": 30,
+     "size": 150,
+     "anim": "walk",
+     "to": [
+      70,
+      25
+     ]
+    },
+    {
+     "emoji": "🌍",
+     "x": 40,
+     "y": 68,
+     "size": 130
+    }
+   ],
+   "narration": "Y a cambio, la Luna se aleja de nosotros unos tres coma ocho centímetros cada año. Lo sabemos midiendo con láser contra espejos que dejaron allí los astronautas del Apolo."
+  },
+  {
+   "type": "timeline",
+   "env": "space",
+   "seed": "sp93r",
+   "text": "Midiendo el *giro*",
+   "points": [
+    {
+     "year": "1851",
+     "label": "Péndulo de Foucault",
+     "emoji": "⚖️"
+    },
+    {
+     "year": "1969",
+     "label": "Espejos en la Luna",
+     "emoji": "🌙"
+    },
+    {
+     "year": "1972",
+     "label": "Primer segundo intercalar",
+     "emoji": "⏱️"
+    },
+    {
+     "year": "2022",
+     "label": "Uno de los días más cortos",
+     "emoji": "⚡"
+    }
+   ],
+   "narration": "Hoy medimos el giro de la Tierra con una precisión increíble. Tanto, que desde mil novecientos setenta y dos los relojes oficiales del mundo han tenido que añadir de vez en cuando un segundo extra para no desincronizarse del planeta."
+  },
+  {
+   "type": "landscape",
+   "env": "city",
+   "seed": "ci94r",
+   "text": "El segundo *extra*",
+   "props": [
+    {
+     "emoji": "⏱️",
+     "x": 40,
+     "y": 55,
+     "size": 160,
+     "anim": "spin"
+    },
+    {
+     "emoji": "💻",
+     "x": 70,
+     "y": 66,
+     "size": 120
+    }
+   ],
+   "narration": "Ese segundo extra, el segundo intercalar, ha dado dolores de cabeza a muchos sistemas informáticos. Por eso se ha acordado dejar de usarlo hacia dos mil treinta y cinco y buscar otra solución."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de38x",
+   "text": "¿Se *parará*?",
+   "props": [
+    {
+     "emoji": "☀️",
+     "x": 50,
+     "y": 40,
+     "size": 200,
+     "anim": "float"
+    },
+    {
+     "emoji": "⏳",
+     "x": 70,
+     "y": 66,
+     "size": 120
+    }
+   ],
+   "narration": "¿Llegará a pararse del todo? No. A este ritmo harían falta muchísimo más tiempo del que le queda al Sol. Dentro de unos cinco mil millones de años, el Sol se hinchará y se convertirá en una gigante roja mucho antes."
+  },
+  {
+   "type": "stat",
+   "env": "city",
+   "seed": "ci39x",
+   "value": 1.59,
+   "suffix": " ms",
+   "emoji": "⚡",
+   "label": "más corto: uno de los días más *cortos* medidos",
+   "narration": "Y por si fuera poco, en los últimos años algunos días han sido un pelín más cortos de lo normal. En dos mil veintidós se midió uno de los días más cortos desde que hay relojes atómicos: un milisegundo y medio por debajo de las veinticuatro horas."
+  },
+  {
+   "type": "title",
+   "kicker": "Escala Brutal",
+   "text": "Un planeta que *nunca* se para",
+   "env": "space",
+   "emoji": "🌍",
+   "narration": "Así que, tranquilo: la Tierra no va a dejar de girar. Pero gracias a ese giro tenemos días y noches, vientos, un mapa con océanos donde están, y probablemente un escudo magnético que nos protege."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni40x",
+   "text": "Gracias por *girar*",
+   "props": [
+    {
+     "emoji": "🌍",
+     "x": 50,
+     "y": 50,
+     "size": 190,
+     "anim": "spin"
+    },
+    {
+     "emoji": "💙",
+     "x": 72,
+     "y": 30,
+     "size": 110,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Cada vez que veas un atardecer, recuerda que no es el Sol el que se esconde. Eres tú, viajando hacia la noche a más de mil kilómetros por hora."
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "sp41x",
+   "text": "¿Qué *imaginamos*?",
+   "props": [
+    {
+     "emoji": "💬",
+     "x": 50,
+     "y": 48,
+     "size": 200,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Si te ha gustado, suscríbete a Escala Brutal. Y cuéntame en los comentarios: ¿en qué parte del nuevo mapa te gustaría vivir? ¿Y qué otro ¿qué pasaría si...? quieres que imaginemos? Te leo."
+  }
+ ]
+}

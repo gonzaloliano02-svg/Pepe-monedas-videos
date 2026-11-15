@@ -60,3 +60,9 @@
 - Voz: el usuario pide narración tan natural como un vídeo de referencia (YouTube bloqueado en la red, no se pudo escuchar). Prueba A/B en build/voztest: B (exag 0.7, cfg 0.3) alucinaba → descartada; C (frase a frase, exag 0.6, cfg 0.4, temp 0.75, pausas por puntuación, QA Whisper) enviada al usuario. Pendiente de su elección.
 - L2 re-renderizado (10.5 min, 90 MB), revisado (frames + miniatura). Programado YouTube 20:00 (Metricool id 428148798, uuid -8647511092840018392).
 - Voz C aplicada en scripts/cbx_worker.py (clave caché cbxC1). Desde el 2026-11-15 todos los vídeos con voz C.
+
+## 2026-11-15
+- Data (Windsor): Shorts de ayer ~1.000 visitas cada uno en <24 h (venas 1.034, Atacama 1.006, Sol se apaga 905). Ganan: ¿qué pasaría si...?, cuerpo a escala, lugares extremos. Largos aún sin tracción (0–2 visitas en las primeras horas; normal en vídeos largos nuevos).
+- Comments: counts unchanged vs comments.md → 0 vidIQ credits.
+- Voz C (aprobada ayer) en todos los vídeos de hoy.
+- Choice: a = Tu cuerpo a escala con giro original (ADN en fila llega a Plutón, contando solo células con núcleo); b = Récords del planeta / espacio (monte Olimpo, Marte); c = Tiempo a escala (millón / mil millones / billón de segundos). L1 = documental Evento Carrington 1859 (tormenta solar; enlaza con las auroras de España de 2024). L2 = ¿qué pasaría si la Tierra dejara de GIRAR? versión larga (el Short del mismo tema tuvo 1.048 visitas).
