@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-15-c",
+  "format": "doc",
+  "title": "Un millón de segundos son 11 días. ¿Y MIL MILLONES? ⏳",
+  "description": "Un millón de segundos son unos 11,6 días. Mil millones de segundos son casi 32 años (31,7). Y un billón de segundos (un millón de millones) son unos 31.700 años: contando hacia atrás desde hoy, la época de los mamuts lanudos. Los números grandes suenan parecido, pero no se parecen en nada.\n\nCálculo: 1 año ≈ 31,56 millones de segundos. Imágenes: Pixabay. Video creado con ayuda de IA.",
+  "tags": [
+    "millon",
+    "mil millones",
+    "billon",
+    "segundos",
+    "tiempo",
+    "curiosidades"
+  ],
+  "credits": [
+    "Pixabay: klaatubaradanikto, josemdelaa, iddea_photo, TonyDias7, baranova_n, adege"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/06/10/357743_small.mp4",
+      "startFrom": 0,
+      "stamp": "Millón vs *mil millones*",
+      "narration": "Un millón y mil millones suenan parecido. Pero cuéntalos en segundos y verás la locura."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2016/05/05/3019-165457954_large.mp4",
+      "startFrom": 0,
+      "stamp": "1 millón de s = *11 días*",
+      "narration": "Un millón de segundos son unos once días y medio. Menos de dos semanas."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/01/22/253998_small.mp4",
+      "startFrom": 0,
+      "stamp": "Mil millones = *32 años*",
+      "narration": "Mil millones de segundos son casi treinta y dos años. Media vida."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/10/28/312393_small.mp4",
+      "startFrom": 0,
+      "stamp": "Aún *no* los has vivido",
+      "narration": "O sea: si hoy cumples treinta y uno, todavía no has vivido mil millones de segundos."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/10/01/380156_large.mp4",
+      "startFrom": 0,
+      "stamp": "Un billón = *31.700 años*",
+      "narration": "¿Y un billón? Un billón de segundos son unos treinta y un mil setecientos años. Contando hacia atrás, llegarías a la época de los mamuts."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2019/04/03/22555-328624767_medium.mp4",
+      "startFrom": 0,
+      "stamp": "Otro *universo*",
+      "narration": "Así que cuando oigas mil millones o un billón, no es un poco más. Es otro universo. ¿Cuál te ha volado la cabeza?"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-15-a",
+  "format": "doc",
+  "title": "Tu ADN estirado llegaría hasta PLUTÓN 🧬",
+  "description": "En casi cada célula con núcleo hay unos 2 metros de ADN, enrollados en un núcleo de unas pocas micras. Los glóbulos rojos (la gran mayoría de tus células) no tienen núcleo, pero aun así quedan más de 3 billones de células con ADN. En fila sumarían unos 6.000 millones de km: más de 20 viajes de ida y vuelta al Sol (150 millones de km) y del orden de la distancia a Plutón.\n\nFuentes: Sender, Fuchs y Milo (2016, PLoS Biology) sobre el número de células del cuerpo; NASA (distancias). Cifras aproximadas. Imágenes: Pixabay. Video creado con ayuda de IA.",
+  "tags": [
+    "adn",
+    "cuerpo humano",
+    "pluton",
+    "celulas",
+    "curiosidades",
+    "escala"
+  ],
+  "credits": [
+    "Pixabay: doktorkleinmusic, die4love87, Kanenori, Nerd_Nonsense"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/06/18/286443_small.mp4",
+      "startFrom": 0,
+      "stamp": "Llega a *Plutón*",
+      "narration": "Llevas dentro un hilo tan largo que llegaría hasta Plutón. Y no es una forma de hablar."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/06/26/288012_small.mp4",
+      "startFrom": 0,
+      "stamp": "*2 metros* por célula",
+      "narration": "En casi cada una de tus células hay unos dos metros de ADN, enrollados en un núcleo diez veces más fino que un pelo."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/04/23/348334_small.mp4",
+      "startFrom": 0,
+      "stamp": "*3 billones* de células",
+      "narration": "Los glóbulos rojos no tienen núcleo, así que no cuentan. Aun así, quedan más de tres billones de células con su propio hilo."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/09/17/377093_small.mp4",
+      "startFrom": 0,
+      "stamp": "*6.000 millones* de km",
+      "narration": "Si estiraras todo ese ADN y lo pusieras en fila, mediría unos seis mil millones de kilómetros."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/03/25/342229_small.mp4",
+      "startFrom": 0,
+      "stamp": "*20 viajes* al Sol y vuelta",
+      "narration": "Eso es más de veinte viajes de ida y vuelta al Sol."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/03/01/202591-918431544_large.mp4",
+      "startFrom": 0,
+      "stamp": "Hasta *Plutón*",
+      "narration": "O la distancia hasta Plutón. Todo eso, doblado dentro de ti. ¿Qué parte de tu cuerpo quieres ver a escala?"
+    }
+  ]
+}

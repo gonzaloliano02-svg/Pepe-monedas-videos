@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-15-b",
+  "format": "doc",
+  "title": "En Marte hay un volcán casi 3 veces más ALTO que el Everest 🌋",
+  "description": "El monte Olimpo, en Marte, se eleva unos 22 km sobre el nivel de referencia del planeta: casi tres veces el Everest (8.849 m) y el doble de la altura a la que vuela un avión de pasajeros. Mide unos 600 km de ancho, más que Portugal de norte a sur, y sus laderas son tan suaves que desde la cima la curvatura de Marte esconde los bordes.\n\nFuentes: NASA / Mars Global Surveyor (MOLA), USGS. Cifras aproximadas. Imágenes: Pixabay. Video creado con ayuda de IA.",
+  "tags": [
+    "marte",
+    "monte olimpo",
+    "everest",
+    "volcan",
+    "espacio",
+    "curiosidades"
+  ],
+  "credits": [
+    "Pixabay: UniverseUnique, Roadsandwander, doktorkleinmusic"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2023/11/28/191254-890894254_large.mp4",
+      "startFrom": 0,
+      "stamp": "El volcán *más alto*",
+      "narration": "En Marte hay un volcán tan grande que, desde su cima, no podrías ver dónde acaba."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/05/20/280218_small.mp4",
+      "startFrom": 0,
+      "stamp": "Everest: *8,8 km*",
+      "narration": "Para compararlo: el Everest mide unos ocho mil ochocientos cincuenta metros sobre el nivel del mar."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/09/23/378416_small.mp4",
+      "startFrom": 0,
+      "stamp": "Monte Olimpo: *22 km*",
+      "narration": "El monte Olimpo, en Marte, se eleva unos veintidós kilómetros. Casi tres Everest, uno encima de otro."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/07/28/294029_small.mp4",
+      "startFrom": 0,
+      "stamp": "Por encima de los *aviones*",
+      "narration": "Un avión de pasajeros vuela a unos diez u once kilómetros. Su cima estaría al doble de esa altura."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/03/19/341168_small.mp4",
+      "startFrom": 0,
+      "stamp": "*600 km* de ancho",
+      "narration": "Y a lo ancho es todavía más bestia: unos seiscientos kilómetros. Más que Portugal de norte a sur."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2023/11/28/191254-890894254_large.mp4",
+      "startFrom": 8,
+      "stamp": "No verías el *final*",
+      "narration": "Sus laderas son tan suaves que, desde arriba, la curvatura de Marte escondería los bordes. ¿Tú lo subirías?"
+    }
+  ]
+}

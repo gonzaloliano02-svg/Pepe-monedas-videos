@@ -1,0 +1,1201 @@
+{
+ "id": "2026-11-15-L1",
+ "format": "story",
+ "title": "La tormenta solar que INCENDIÓ los telégrafos (1859)",
+ "description": "",
+ "tags": [
+  "tormenta solar",
+  "evento carrington",
+  "1859",
+  "auroras",
+  "sol",
+  "clima espacial",
+  "historia",
+  "documental",
+  "curiosidades"
+ ],
+ "thumbnail": {
+  "text": "*Tormenta* solar",
+  "emoji": "☀️",
+  "env": "space",
+  "kicker": "1859"
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "kicker": "Escala Brutal · Historias",
+   "text": "La tormenta que *incendió* los telégrafos",
+   "env": "space",
+   "emoji": "☀️",
+   "narration": "En la madrugada del dos de septiembre de mil ochocientos cincuenta y nueve, unos mineros de las Montañas Rocosas se despertaron, vieron el cielo iluminado y empezaron a preparar el desayuno. Eran la una de la madrugada."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni1x",
+   "text": "Un cielo *rojo*",
+   "props": [
+    {
+     "emoji": "⛏️",
+     "x": 30,
+     "y": 70,
+     "size": 130
+    },
+    {
+     "emoji": "🍳",
+     "x": 55,
+     "y": 72,
+     "size": 120,
+     "anim": "pop"
+    },
+    {
+     "emoji": "🌌",
+     "x": 70,
+     "y": 25,
+     "size": 170,
+     "anim": "float"
+    }
+   ],
+   "narration": "No era el amanecer. Era una aurora tan brillante que convirtió la noche en día. Esa misma noche, en medio mundo, los telégrafos soltaban chispas y algunos papeles llegaron a arder."
+  },
+  {
+   "type": "stat",
+   "env": "space",
+   "seed": "sp2x",
+   "value": 17.6,
+   "suffix": " h",
+   "emoji": "⚡",
+   "label": "tardó la tormenta en llegar desde el *Sol*",
+   "narration": "Todo empezó en el Sol, a ciento cincuenta millones de kilómetros. Y llegó hasta aquí en poco más de diecisiete horas, cuando lo normal son dos o tres días."
+  },
+  {
+   "type": "map",
+   "kicker": "",
+   "text": "Quédate hasta el *final*",
+   "from": {
+    "lon": 0,
+    "lat": 30,
+    "zoom": 1
+   },
+   "to": {
+    "lon": -30,
+    "lat": 40,
+    "zoom": 1.4
+   },
+   "highlight": [
+    "United Kingdom",
+    "United States of America",
+    "Spain"
+   ],
+   "markers": [],
+   "narration": "Es la mayor tormenta solar registrada por la ciencia moderna. Quédate hasta el final, porque en dos mil doce estuvimos a punto de vivir otra igual. Y esta vez no tendríamos solo telégrafos."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 1",
+   "text": "Un astrónomo y unas *manchas*",
+   "env": "city",
+   "emoji": "🔭",
+   "narration": "Capítulo uno. Un astrónomo y unas manchas."
+  },
+  {
+   "type": "map",
+   "kicker": "Inglaterra",
+   "text": "Redhill, *1859*",
+   "from": {
+    "lon": -2,
+    "lat": 53,
+    "zoom": 4
+   },
+   "to": {
+    "lon": -0.17,
+    "lat": 51.24,
+    "zoom": 7
+   },
+   "highlight": [
+    "United Kingdom"
+   ],
+   "markers": [
+    {
+     "lon": -0.17,
+     "lat": 51.24,
+     "label": "Redhill",
+     "emoji": "🔭"
+    }
+   ],
+   "narration": "Richard Carrington tenía treinta y tres años y un observatorio privado en Redhill, al sur de Londres. Era un astrónomo aficionado, pero de los serios: llevaba años dibujando las manchas del Sol, una a una."
+  },
+  {
+   "type": "landscape",
+   "env": "city",
+   "seed": "ci3x",
+   "text": "Nunca mires al *Sol*",
+   "props": [
+    {
+     "emoji": "🔭",
+     "x": 35,
+     "y": 58,
+     "size": 160
+    },
+    {
+     "emoji": "📄",
+     "x": 68,
+     "y": 64,
+     "size": 140,
+     "anim": "float"
+    }
+   ],
+   "narration": "Para hacerlo sin quedarse ciego, no miraba al Sol directamente. Proyectaba su imagen con el telescopio sobre una pantalla blanca, y allí calcaba cada mancha con un lápiz."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo71r",
+   "text": "Un observatorio *propio*",
+   "props": [
+    {
+     "emoji": "🍺",
+     "x": 32,
+     "y": 64,
+     "size": 120,
+     "anim": "pop"
+    },
+    {
+     "emoji": "🏠",
+     "x": 62,
+     "y": 60,
+     "size": 170
+    }
+   ],
+   "narration": "Carrington podía permitírselo gracias al dinero de la cervecería de su familia. Así que, en lugar de trabajar para una universidad, montó su propio observatorio y se dedicó a vigilar el Sol día tras día."
+  },
+  {
+   "type": "stat",
+   "env": "desert",
+   "seed": "de4x",
+   "value": 11.18,
+   "suffix": "",
+   "emoji": "🕚",
+   "label": "de la mañana del *1 de septiembre*",
+   "narration": "El jueves uno de septiembre, sobre las once y cuarto de la mañana, estaba dibujando un grupo enorme de manchas cuando vio algo que nadie había descrito antes."
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "sp5x",
+   "text": "Dos puntos de *luz*",
+   "props": [
+    {
+     "emoji": "☀️",
+     "x": 50,
+     "y": 45,
+     "size": 230
+    },
+    {
+     "emoji": "✨",
+     "x": 42,
+     "y": 42,
+     "size": 90,
+     "anim": "pop"
+    },
+    {
+     "emoji": "✨",
+     "x": 58,
+     "y": 48,
+     "size": 80,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Dentro del grupo aparecieron dos puntos de luz blanca, cegadores, mucho más brillantes que el propio Sol. Y empezaron a moverse sobre las manchas."
+  },
+  {
+   "type": "quote",
+   "env": "night",
+   "seed": "ni6x",
+   "text": "Me apresuré a buscar a alguien que lo presenciara conmigo",
+   "author": "Richard Carrington, 1859",
+   "emoji": "🏃",
+   "narration": "Carrington salió corriendo a buscar a alguien que lo viera con él. Cuando volvió, apenas un minuto después, la luz ya se estaba apagando. En unos cinco minutos, desapareció."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo7x",
+   "text": "Otro *testigo*",
+   "props": [
+    {
+     "emoji": "👨",
+     "x": 35,
+     "y": 78,
+     "size": 140
+    },
+    {
+     "emoji": "🔭",
+     "x": 60,
+     "y": 60,
+     "size": 140
+    }
+   ],
+   "narration": "Por suerte, no era el único. En Londres, otro aficionado, Richard Hodgson, vio exactamente lo mismo a la misma hora. Dos testigos independientes: aquello era real."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic8x",
+   "text": "Un temblor en la *aguja*",
+   "props": [
+    {
+     "emoji": "🧭",
+     "x": 45,
+     "y": 55,
+     "size": 180,
+     "anim": "shake"
+    },
+    {
+     "emoji": "📈",
+     "x": 70,
+     "y": 40,
+     "size": 120,
+     "anim": "rise"
+    }
+   ],
+   "narration": "Y hubo un tercer testigo, sin ojos. En el observatorio de Kew, cerca de Londres, los instrumentos que medían el campo magnético de la Tierra dieron un pequeño salto justo en ese momento."
+  },
+  {
+   "type": "quote",
+   "env": "city",
+   "seed": "ci9x",
+   "text": "Una golondrina no hace verano",
+   "author": "Carrington, sobre su descubrimiento",
+   "emoji": "🐦",
+   "narration": "Carrington fue prudente. Contó lo que vio, pero no se atrevió a decir que una cosa causara la otra. Lo que vendría por la noche se encargaría de demostrarlo."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 2",
+   "text": "La noche que el cielo *ardió*",
+   "env": "night",
+   "emoji": "🌌",
+   "narration": "Capítulo dos. La noche que el cielo ardió."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "ni10x",
+   "text": "Auroras en el *trópico*",
+   "props": [
+    {
+     "emoji": "🌌",
+     "x": 50,
+     "y": 30,
+     "size": 220,
+     "anim": "float"
+    },
+    {
+     "emoji": "🌴",
+     "x": 30,
+     "y": 68,
+     "size": 150
+    },
+    {
+     "emoji": "🌴",
+     "x": 72,
+     "y": 70,
+     "size": 130
+    }
+   ],
+   "narration": "Esa noche, y la siguiente, el cielo se encendió en medio planeta. Hubo auroras rojas, verdes y violetas en lugares donde casi nadie las había visto nunca."
+  },
+  {
+   "type": "map",
+   "kicker": "",
+   "text": "Hasta el *Caribe*",
+   "from": {
+    "lon": -60,
+    "lat": 40,
+    "zoom": 1.6
+   },
+   "to": {
+    "lon": -80,
+    "lat": 25,
+    "zoom": 2.5
+   },
+   "highlight": [
+    "Cuba",
+    "United States of America"
+   ],
+   "markers": [
+    {
+     "lon": -82.37,
+     "lat": 23.13,
+     "label": "La Habana",
+     "emoji": "🌌"
+    },
+    {
+     "lon": -105.0,
+     "lat": 39.7,
+     "label": "Montañas Rocosas",
+     "emoji": "⛏️"
+    }
+   ],
+   "narration": "Se vieron en Cuba, en las Bahamas, en Jamaica, en Hawái y en Centroamérica. Normalmente las auroras se quedan cerca de los polos. Esta vez bajaron casi hasta el trópico."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de11x",
+   "text": "Desayuno a la *una*",
+   "props": [
+    {
+     "emoji": "⛏️",
+     "x": 28,
+     "y": 70,
+     "size": 120
+    },
+    {
+     "emoji": "☕",
+     "x": 50,
+     "y": 72,
+     "size": 110,
+     "anim": "pop"
+    },
+    {
+     "emoji": "🌌",
+     "x": 72,
+     "y": 25,
+     "size": 160
+    }
+   ],
+   "narration": "En las Montañas Rocosas, los mineros del oro se levantaron convencidos de que era de día. Un periódico de Denver contó que algunos se pusieron a hacer el desayuno."
+  },
+  {
+   "type": "map",
+   "kicker": "Estados Unidos",
+   "text": "Leer de *noche*",
+   "from": {
+    "lon": -95,
+    "lat": 40,
+    "zoom": 2.5
+   },
+   "to": {
+    "lon": -73,
+    "lat": 42,
+    "zoom": 4.5
+   },
+   "highlight": [
+    "United States of America"
+   ],
+   "markers": [
+    {
+     "lon": -71.06,
+     "lat": 42.36,
+     "label": "Boston",
+     "emoji": "📰"
+    },
+    {
+     "lon": -74.0,
+     "lat": 40.7,
+     "label": "Nueva York",
+     "emoji": "📰"
+    }
+   ],
+   "narration": "En el noreste de Estados Unidos, la gente salía a la calle de madrugada. Había tanta luz que se podía leer el periódico sin lámpara."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo13x",
+   "text": "Pájaros *confundidos*",
+   "props": [
+    {
+     "emoji": "🐦",
+     "x": 35,
+     "y": 40,
+     "size": 110,
+     "anim": "float"
+    },
+    {
+     "emoji": "🐦",
+     "x": 60,
+     "y": 35,
+     "size": 90,
+     "anim": "float"
+    },
+    {
+     "emoji": "🌲",
+     "x": 50,
+     "y": 70,
+     "size": 170
+    }
+   ],
+   "narration": "Hubo relatos de pájaros que empezaron a cantar en plena noche, y de gente que creyó que había un incendio enorme en el horizonte y salió a ayudar."
+  },
+  {
+   "type": "landscape",
+   "env": "city",
+   "seed": "ci72r",
+   "text": "Miles de *testimonios*",
+   "props": [
+    {
+     "emoji": "📰",
+     "x": 35,
+     "y": 60,
+     "size": 140,
+     "anim": "float"
+    },
+    {
+     "emoji": "✍️",
+     "x": 64,
+     "y": 62,
+     "size": 120,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Los periódicos de la época se llenaron de cartas y testimonios. Hoy, los científicos usan esos relatos, con la hora y el lugar de cada aurora, para calcular lo fuerte que fue aquella tormenta."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "ni14x",
+   "value": 2,
+   "suffix": "",
+   "emoji": "🌌",
+   "label": "noches seguidas de auroras",
+   "narration": "Fueron dos noches seguidas. Y lo más inquietante no estaba en el cielo, sino en los cables que en aquella época empezaban a unir el mundo."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 3",
+   "text": "Los cables se vuelven *locos*",
+   "env": "storm",
+   "emoji": "⚡",
+   "narration": "Capítulo tres. Los cables se vuelven locos."
+  },
+  {
+   "type": "stat",
+   "env": "city",
+   "seed": "ci81r",
+   "value": 15,
+   "suffix": " años",
+   "emoji": "📠",
+   "label": "tenía la línea de telégrafo de *Morse*",
+   "narration": "En mil ochocientos cincuenta y nueve, el telégrafo era el internet de la época: miles de kilómetros de cable que llevaban mensajes en minutos entre ciudades. Apenas quince años antes se había enviado el primer mensaje por la línea de Morse."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "st16x",
+   "text": "*Chispas* en la oficina",
+   "props": [
+    {
+     "emoji": "⚡",
+     "x": 40,
+     "y": 40,
+     "size": 150,
+     "anim": "shake"
+    },
+    {
+     "emoji": "📠",
+     "x": 60,
+     "y": 66,
+     "size": 140,
+     "anim": "shake"
+    }
+   ],
+   "narration": "Esa noche, los operadores vieron saltar chispas de los aparatos. Algunos recibieron descargas al tocar el equipo. En ciertas oficinas, el papel de los telégrafos llegó a chamuscarse."
+  },
+  {
+   "type": "landscape",
+   "env": "volcano",
+   "seed": "vo17x",
+   "text": "Papel en *llamas*",
+   "props": [
+    {
+     "emoji": "📜",
+     "x": 45,
+     "y": 60,
+     "size": 160,
+     "anim": "shake"
+    },
+    {
+     "emoji": "🔥",
+     "x": 60,
+     "y": 55,
+     "size": 110,
+     "anim": "rise"
+    }
+   ],
+   "narration": "La razón es que la tormenta hacía circular corrientes eléctricas por el propio suelo y por los cables largos. Los telégrafos recibían electricidad que nadie estaba enviando."
+  },
+  {
+   "type": "map",
+   "kicker": "Estados Unidos",
+   "text": "Boston – *Portland*",
+   "from": {
+    "lon": -80,
+    "lat": 40,
+    "zoom": 3
+   },
+   "to": {
+    "lon": -70.7,
+    "lat": 43,
+    "zoom": 6
+   },
+   "highlight": [
+    "United States of America"
+   ],
+   "markers": [
+    {
+     "lon": -71.06,
+     "lat": 42.36,
+     "label": "Boston",
+     "emoji": "📠"
+    },
+    {
+     "lon": -70.26,
+     "lat": 43.66,
+     "label": "Portland",
+     "emoji": "📠"
+    }
+   ],
+   "narration": "Y entonces pasó algo increíble. Entre Boston y Portland, en el noreste de Estados Unidos, los operadores decidieron hacer una prueba."
+  },
+  {
+   "type": "quote",
+   "env": "night",
+   "seed": "ni18x",
+   "text": "Desconecta tu batería por completo de la línea durante quince minutos",
+   "author": "Telegrafista de Boston a Portland, 1859",
+   "emoji": "📠",
+   "narration": "Desconectaron las baterías. Y la línea siguió funcionando. Durante unas dos horas se enviaron mensajes usando solo la electricidad que llegaba del cielo."
+  },
+  {
+   "type": "stat",
+   "env": "city",
+   "seed": "ci19x",
+   "value": 2,
+   "suffix": " h",
+   "emoji": "🔋",
+   "label": "de mensajes sin *baterías*",
+   "narration": "Imagínalo: un sistema que funcionaba gracias al Sol, a ciento cincuenta millones de kilómetros. Aquella noche, la naturaleza se coló en la red de comunicaciones del mundo."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic20x",
+   "text": "Un mundo *desconectado*",
+   "props": [
+    {
+     "emoji": "📠",
+     "x": 35,
+     "y": 62,
+     "size": 130
+    },
+    {
+     "emoji": "❌",
+     "x": 60,
+     "y": 50,
+     "size": 120,
+     "anim": "pop"
+    }
+   ],
+   "narration": "En muchas otras líneas pasó lo contrario: los mensajes no llegaban o llegaban convertidos en ruido. Durante horas, partes del sistema dejaron de funcionar."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 4",
+   "text": "¿Qué pasó en el *Sol*?",
+   "env": "volcano",
+   "emoji": "☀️",
+   "narration": "Capítulo cuatro. ¿Qué pasó en el Sol?"
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "sp21x",
+   "text": "Una *fulguración*",
+   "props": [
+    {
+     "emoji": "☀️",
+     "x": 45,
+     "y": 48,
+     "size": 220,
+     "anim": "spin"
+    },
+    {
+     "emoji": "💥",
+     "x": 62,
+     "y": 40,
+     "size": 120,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Lo que vio Carrington fue lo que hoy llamamos una fulguración: una explosión en la superficie del Sol, donde el campo magnético se retuerce y se rompe de golpe."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "sp22x",
+   "text": "Una nube de *plasma*",
+   "props": [
+    {
+     "emoji": "☀️",
+     "x": 22,
+     "y": 50,
+     "size": 170
+    },
+    {
+     "emoji": "☁️",
+     "x": 55,
+     "y": 45,
+     "size": 150,
+     "anim": "walk",
+     "to": [
+      80,
+      45
+     ]
+    },
+    {
+     "emoji": "🌍",
+     "x": 85,
+     "y": 50,
+     "size": 110
+    }
+   ],
+   "narration": "Tras la explosión, el Sol lanzó al espacio una nube gigantesca de gas cargado eléctricamente. Se calcula que estas nubes pueden contener miles de millones de toneladas de materia."
+  },
+  {
+   "type": "stat",
+   "env": "space",
+   "seed": "sp73r",
+   "value": 11,
+   "suffix": " años",
+   "emoji": "🔁",
+   "label": "dura el ciclo de *actividad* del Sol",
+   "narration": "Y no es un caso aislado. El Sol tiene ciclos de unos once años. En el máximo de cada ciclo hay más manchas, y algunas son varias veces más grandes que la Tierra entera."
+  },
+  {
+   "type": "compare",
+   "env": "space",
+   "seed": "sp23x",
+   "text": "Velocidad media",
+   "items": [
+    {
+     "emoji": "✈️",
+     "label": "Avión",
+     "value": 0.25,
+     "display": "0,25 km/s"
+    },
+    {
+     "emoji": "🚀",
+     "label": "Cohete a la Luna",
+     "value": 11,
+     "display": "11 km/s"
+    },
+    {
+     "emoji": "☀️",
+     "label": "Tormenta de 1859",
+     "value": 2300,
+     "display": "más de 2.000 km/s"
+    }
+   ],
+   "narration": "Para llegar en diecisiete horas, aquella nube tuvo que viajar a más de dos mil kilómetros por segundo de media. Un avión comercial, en comparación, va a un cuarto de kilómetro por segundo."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni24x",
+   "text": "Choque con la *Tierra*",
+   "props": [
+    {
+     "emoji": "🌍",
+     "x": 50,
+     "y": 50,
+     "size": 200,
+     "anim": "shake"
+    },
+    {
+     "emoji": "🛡️",
+     "x": 30,
+     "y": 45,
+     "size": 110,
+     "anim": "float"
+    }
+   ],
+   "narration": "Cuando chocó con la Tierra, sacudió nuestro escudo magnético, la magnetosfera. Y esa sacudida generó corrientes eléctricas en el aire, en el suelo y en cualquier cable largo."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic25x",
+   "text": "Por qué *auroras*",
+   "props": [
+    {
+     "emoji": "🌌",
+     "x": 50,
+     "y": 35,
+     "size": 200,
+     "anim": "float"
+    },
+    {
+     "emoji": "🧲",
+     "x": 70,
+     "y": 65,
+     "size": 110
+    }
+   ],
+   "narration": "Las partículas que entraron por el escudo chocaron con el aire de la parte alta de la atmósfera y lo hicieron brillar. Eso es una aurora. Cuanto más fuerte la tormenta, más lejos de los polos se ve."
+  },
+  {
+   "type": "timeline",
+   "env": "space",
+   "seed": "sp26x",
+   "text": "El Sol y sus *ciclos*",
+   "points": [
+    {
+     "year": "1859",
+     "label": "Carrington",
+     "emoji": "☀️"
+    },
+    {
+     "year": "1921",
+     "label": "Tormenta del ferrocarril",
+     "emoji": "🚂"
+    },
+    {
+     "year": "1989",
+     "label": "Apagón de Quebec",
+     "emoji": "💡"
+    },
+    {
+     "year": "2024",
+     "label": "Auroras en España",
+     "emoji": "🌌"
+    }
+   ],
+   "narration": "El Sol tiene ciclos de unos once años, con más manchas y más explosiones en el máximo. Y desde mil ochocientos cincuenta y nueve, nos ha dado varios avisos."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 5",
+   "text": "Los *avisos*",
+   "env": "city",
+   "emoji": "⚠️",
+   "narration": "Capítulo cinco. Los avisos."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ci27x",
+   "text": "El apagón de *Quebec*",
+   "props": [
+    {
+     "emoji": "💡",
+     "x": 40,
+     "y": 50,
+     "size": 150,
+     "anim": "shake"
+    },
+    {
+     "emoji": "🏙️",
+     "x": 65,
+     "y": 62,
+     "size": 160
+    }
+   ],
+   "narration": "El trece de marzo de mil novecientos ochenta y nueve, una tormenta solar mucho más débil que la de Carrington tumbó la red eléctrica de la provincia de Quebec, en Canadá."
+  },
+  {
+   "type": "map",
+   "kicker": "Canadá",
+   "text": "*Quebec*, 1989",
+   "from": {
+    "lon": -90,
+    "lat": 50,
+    "zoom": 2.5
+   },
+   "to": {
+    "lon": -71.2,
+    "lat": 46.8,
+    "zoom": 5
+   },
+   "highlight": [
+    "Canada"
+   ],
+   "markers": [
+    {
+     "lon": -71.2,
+     "lat": 46.8,
+     "label": "Quebec",
+     "emoji": "💡"
+    }
+   ],
+   "narration": "La red se vino abajo en unos noventa segundos. Unos seis millones de personas se quedaron sin luz durante unas nueve horas, en pleno invierno."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "ni28x",
+   "value": 6,
+   "suffix": " M",
+   "emoji": "🏠",
+   "label": "de personas sin luz en *Quebec*",
+   "narration": "Seis millones de personas a oscuras. Y aquella tormenta, comparada con la de mil ochocientos cincuenta y nueve, era casi una brisa."
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "sp29x",
+   "text": "Julio de *2012*",
+   "props": [
+    {
+     "emoji": "☀️",
+     "x": 22,
+     "y": 50,
+     "size": 160
+    },
+    {
+     "emoji": "☁️",
+     "x": 60,
+     "y": 40,
+     "size": 140,
+     "anim": "walk",
+     "to": [
+      80,
+      30
+     ]
+    },
+    {
+     "emoji": "🌍",
+     "x": 70,
+     "y": 70,
+     "size": 90
+    }
+   ],
+   "narration": "En julio de dos mil doce, el Sol lanzó una nube tan potente como la de Carrington. La detectó una nave de la NASA, STEREO-A. Pero la explosión ocurrió en la cara del Sol que no miraba hacia nosotros."
+  },
+  {
+   "type": "quote",
+   "env": "city",
+   "seed": "ni30x",
+   "text": "Si hubiera ocurrido una semana antes, la Tierra habría estado en la línea de fuego",
+   "author": "Daniel Baker, Universidad de Colorado",
+   "emoji": "🎯",
+   "narration": "El físico Daniel Baker lo resumió así. Si la explosión se hubiera producido una semana antes, la Tierra habría estado justo en el camino."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni31x",
+   "text": "Auroras en *España*",
+   "props": [
+    {
+     "emoji": "🌌",
+     "x": 50,
+     "y": 30,
+     "size": 200,
+     "anim": "float"
+    },
+    {
+     "emoji": "🏰",
+     "x": 35,
+     "y": 70,
+     "size": 140
+    },
+    {
+     "emoji": "📱",
+     "x": 70,
+     "y": 70,
+     "size": 110,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Y quizá lo viste tú mismo. En mayo de dos mil veinticuatro, una tormenta solar dejó auroras visibles en España. Fue la más intensa en unos veinte años. Aun así, fue bastante más débil que la de Carrington."
+  },
+  {
+   "type": "map",
+   "kicker": "España",
+   "text": "Mayo de *2024*",
+   "from": {
+    "lon": 0,
+    "lat": 45,
+    "zoom": 3
+   },
+   "to": {
+    "lon": -3.7,
+    "lat": 40.4,
+    "zoom": 4.5
+   },
+   "highlight": [
+    "Spain"
+   ],
+   "markers": [
+    {
+     "lon": -3.7,
+     "lat": 40.4,
+     "label": "España",
+     "emoji": "🌌"
+    }
+   ],
+   "narration": "Miles de personas fotografiaron cielos rosas y violetas con el móvil. Aquella noche, durante unas horas, mucha gente entendió por primera vez que el Sol puede alcanzarnos."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "st74r",
+   "text": "La tormenta del *ferrocarril*",
+   "props": [
+    {
+     "emoji": "🚂",
+     "x": 35,
+     "y": 66,
+     "size": 150,
+     "anim": "walk",
+     "to": [
+      60,
+      66
+     ]
+    },
+    {
+     "emoji": "🔥",
+     "x": 70,
+     "y": 55,
+     "size": 110,
+     "anim": "rise"
+    }
+   ],
+   "narration": "Antes, en mayo de mil novecientos veintiuno, otra gran tormenta solar ya había provocado incendios en instalaciones de telégrafos y teléfonos en Estados Unidos y en Suecia, y problemas en las señales de los trenes."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 6",
+   "text": "¿Y si pasara *hoy*?",
+   "env": "storm",
+   "emoji": "🛰️",
+   "narration": "Capítulo seis. ¿Y si pasara hoy?"
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "sp32x",
+   "text": "Satélites en *peligro*",
+   "props": [
+    {
+     "emoji": "🛰️",
+     "x": 35,
+     "y": 40,
+     "size": 150,
+     "anim": "shake"
+    },
+    {
+     "emoji": "🛰️",
+     "x": 65,
+     "y": 55,
+     "size": 110,
+     "anim": "spin"
+    }
+   ],
+   "narration": "Hoy dependemos de miles de satélites. Una tormenta como la de Carrington podría dañar algunos, desviar sus órbitas y estropear las señales de GPS durante horas o días."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "ni75r",
+   "value": 38,
+   "suffix": "",
+   "emoji": "🛰️",
+   "label": "satélites Starlink perdidos en *2022*",
+   "narration": "Ya ha pasado algo parecido a pequeña escala. En febrero de dos mil veintidós, una tormenta moderada hinchó la atmósfera y hasta treinta y ocho satélites Starlink recién lanzados cayeron y se desintegraron."
+  },
+  {
+   "type": "landscape",
+   "env": "city",
+   "seed": "ci33x",
+   "text": "Transformadores *quemados*",
+   "props": [
+    {
+     "emoji": "⚡",
+     "x": 40,
+     "y": 40,
+     "size": 140,
+     "anim": "shake"
+    },
+    {
+     "emoji": "🏭",
+     "x": 62,
+     "y": 64,
+     "size": 170
+    }
+   ],
+   "narration": "Pero el mayor peligro está en el suelo. Las corrientes inducidas pueden recalentar los grandes transformadores de la red eléctrica, y algunos tardan meses en fabricarse y sustituirse."
+  },
+  {
+   "type": "stat",
+   "env": "city",
+   "seed": "ci34x",
+   "value": 2.6,
+   "suffix": " billones $",
+   "emoji": "💸",
+   "label": "coste máximo estimado en EE. UU. (Lloyd's, 2013)",
+   "narration": "Un informe de la aseguradora Lloyd's, de dos mil trece, calculó que una tormenta así sobre Estados Unidos podría costar entre cero coma seis y dos coma seis billones de dólares."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo35x",
+   "text": "No te haría *daño*",
+   "props": [
+    {
+     "emoji": "🧍",
+     "x": 40,
+     "y": 72,
+     "size": 150
+    },
+    {
+     "emoji": "🌌",
+     "x": 62,
+     "y": 30,
+     "size": 170,
+     "anim": "float"
+    }
+   ],
+   "narration": "La buena noticia: a ti no te haría daño directamente. La atmósfera nos protege. Verías un cielo precioso. El problema sería todo lo que funciona con electricidad."
+  },
+  {
+   "type": "map",
+   "kicker": "Ártico",
+   "text": "Rutas *polares*",
+   "from": {
+    "lon": -60,
+    "lat": 50,
+    "zoom": 1.5
+   },
+   "to": {
+    "lon": -60,
+    "lat": 70,
+    "zoom": 2.2
+   },
+   "highlight": [
+    "Canada"
+   ],
+   "markers": [
+    {
+     "lon": -80,
+     "lat": 75,
+     "label": "Rutas polares",
+     "emoji": "✈️"
+    }
+   ],
+   "narration": "Y algunos sectores ya se preparan. Durante las tormentas fuertes, ciertos vuelos que cruzan cerca de los polos cambian de ruta para evitar problemas de radio y de radiación."
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "sp36x",
+   "text": "Vigilando el *Sol*",
+   "props": [
+    {
+     "emoji": "🛰️",
+     "x": 35,
+     "y": 40,
+     "size": 130,
+     "anim": "float"
+    },
+    {
+     "emoji": "☀️",
+     "x": 70,
+     "y": 45,
+     "size": 160
+    }
+   ],
+   "narration": "Hoy tenemos naves vigilando el Sol todo el tiempo. Nos dan avisos de horas, o de algún día, para apagar equipos, proteger satélites y preparar las redes."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo37x",
+   "text": "Más vieja que *Carrington*",
+   "props": [
+    {
+     "emoji": "🌳",
+     "x": 45,
+     "y": 60,
+     "size": 200
+    },
+    {
+     "emoji": "🔬",
+     "x": 70,
+     "y": 62,
+     "size": 120,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Y un dato que da vértigo: los anillos de los árboles guardan la huella de tormentas solares todavía más fuertes. Hacia el año setecientos setenta y cuatro hubo una que, según esos estudios, fue mucho más intensa."
+  },
+  {
+   "type": "quote",
+   "env": "ice",
+   "seed": "ic38x",
+   "text": "No es si ocurrirá, sino cuándo",
+   "author": "Frase habitual entre los expertos en clima espacial",
+   "emoji": "⏳",
+   "narration": "Por eso los expertos en clima espacial repiten una frase: la pregunta no es si volverá a pasar, sino cuándo. Las estimaciones de probabilidad varían mucho, pero nadie la descarta."
+  },
+  {
+   "type": "title",
+   "kicker": "Escala Brutal",
+   "text": "El día que el Sol nos *tocó*",
+   "env": "space",
+   "emoji": "☀️",
+   "narration": "Así que la próxima vez que mires una puesta de sol, piensa en Richard Carrington, dibujando manchas a lápiz en mil ochocientos cincuenta y nueve, sin saber que estaba viendo la mayor tormenta solar de la historia moderna."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni39x",
+   "text": "Un aviso del *pasado*",
+   "props": [
+    {
+     "emoji": "📠",
+     "x": 35,
+     "y": 64,
+     "size": 130
+    },
+    {
+     "emoji": "🌌",
+     "x": 65,
+     "y": 30,
+     "size": 170,
+     "anim": "float"
+    }
+   ],
+   "narration": "Aquella noche, los mineros desayunaron de madrugada, los telégrafos funcionaron sin baterías y el cielo ardió hasta el Caribe. Con la tecnología de entonces, fue una anécdota. Con la de hoy, sería otra historia."
+  },
+  {
+   "type": "stat",
+   "env": "sea",
+   "seed": "se82r",
+   "value": 150,
+   "suffix": " M km",
+   "emoji": "☀️",
+   "label": "nos separan del *Sol*",
+   "narration": "Y nos deja una lección de humildad. Toda nuestra tecnología, todos nuestros cables y satélites, siguen dependiendo del humor de una estrella a ciento cincuenta millones de kilómetros."
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "sp40x",
+   "text": "¿Y tú qué *harías*?",
+   "props": [
+    {
+     "emoji": "💬",
+     "x": 50,
+     "y": 48,
+     "size": 200,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Si te ha gustado, suscríbete a Escala Brutal. Y cuéntame en los comentarios: ¿viste las auroras de dos mil veinticuatro? ¿Y qué otro desastre natural quieres que contemos? Te leo."
+  }
+ ]
+}
