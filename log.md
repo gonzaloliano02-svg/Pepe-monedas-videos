@@ -67,3 +67,4 @@
 - Voz C (aprobada ayer) en todos los vídeos de hoy.
 - Choice: a = Tu cuerpo a escala con giro original (ADN en fila llega a Plutón, contando solo células con núcleo); b = Récords del planeta / espacio (monte Olimpo, Marte); c = Tiempo a escala (millón / mil millones / billón de segundos). L1 = documental Evento Carrington 1859 (tormenta solar; enlaza con las auroras de España de 2024). L2 = ¿qué pasaría si la Tierra dejara de GIRAR? versión larga (el Short del mismo tema tuvo 1.048 visitas).
 - 08:05 UTC: el contenedor se reinició y la cola había saltado b/c/L1/L2 (leía logs de ayer con OK). Corregido (logs con fecha) y relanzado. a programado 10:00 (id 428679555).
+- b · 12:00 · "En Marte hay un volcán casi 3 veces más ALTO que el Everest 🌋" · YouTube + TikTok · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=1522201642917185357
