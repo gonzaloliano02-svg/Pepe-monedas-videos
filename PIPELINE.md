@@ -231,3 +231,7 @@ The owner asked me to handle comments fully, replying directly.
 - Misma voz 2A (Chatterbox default), pero generada frase a frase (frases cortas se fusionan), exaggeration 0.6, cfg_weight 0.4, temperature 0.75, silencios recortados y pausas 0.45 s (0.55 s tras "?" o "..."). QA Whisper con números normalizados (num2words) y penalización de palabras inventadas; hasta 4 intentos por frase.
 - Clave de caché TTS: "cbxC1|" (los vídeos anteriores usaban "cbxA1|").
 - NO subir exaggeration > 0.6 ni bajar cfg < 0.4: con 0.7/0.3 alucinaba (prueba B descartada).
+
+## 2026-11-15 — colas de build
+- Los logs de build van con fecha: `build/<fecha>-<x>.log`. Una cola que mire `build/<x>.log` sin fecha encuentra el "OK" del día anterior y se salta los vídeos (pasó el 2026-11-15 con b, c, L1, L2).
+- Con la voz C: Short ≈ 15 min de build; largo ≈ 80 min de TTS + ~50 min de render.
