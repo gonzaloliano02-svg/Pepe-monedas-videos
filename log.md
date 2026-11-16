@@ -100,3 +100,4 @@
   - 15-L1 Tormenta solar → 17-11 16:00 https://www.youtube.com/watch?v=oUa40khS3x0
   - 15-L2 Tierra deja de girar → 17-11 20:00 https://www.youtube.com/watch?v=5O0IlW4UYQc
 - TikTok: sin publicar desde el 15-11 12:00; necesita conectar TikTok en vidIQ o mejorar Metricool.
+- 21:50 TikTok conectado a vidIQ (ajustes del dueño: público, comentarios sí, música confirmada). TikTok: Leónidas ya; mañana Marte 10:00, Millón 12:00, La Rinconada 14:00, Pulmones 21:00. Rutina actualizada (Shorts a YT+TikTok vía vidIQ).

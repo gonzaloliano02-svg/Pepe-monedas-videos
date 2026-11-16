@@ -250,3 +250,9 @@ The owner asked me to handle comments fully, replying directly.
 ## 2026-11-15 — colas de build
 - Los logs de build van con fecha: `build/<fecha>-<x>.log`. Una cola que mire `build/<x>.log` sin fecha encuentra el "OK" del día anterior y se salta los vídeos (pasó el 2026-11-15 con b, c, L1, L2).
 - Con la voz C: Short ≈ 15 min de build; largo ≈ 80 min de TTS + ~50 min de render.
+
+**TikTok via vidIQ (owner, 2026-11-16):** TikTok connected in vidIQ, platformAccountId
+`_000QfZ-yRFByg3j6Yt6eKCteQDghOAqKuzY`. Owner's choices: privacyLevel
+PUBLIC_TO_EVERYONE, allowComment true, musicUsageConfirmed true (owner accepted
+TikTok's Music Usage Confirmation), isAiGenerated true. Add a TIKTOK destination
+to every Short's vidIQ draft (same video, same publishAt, text = title + caption).
