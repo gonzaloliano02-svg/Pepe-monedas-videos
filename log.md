@@ -81,3 +81,4 @@
 - Choice: a = Lugares extremos (La Rinconada, 5.100 m, más alto que el Mont Blanc); b = Tu cuerpo a escala (pulmones = 70 m², un piso); c = actualidad/espacio (Leónidas, máximo la noche del 17 al 18). L1 = documental actual: Voyager 1 llega a un día luz el 18-11-2026 (búsqueda + actualidad). L2 = ranking de los 8 animales más rápidos (evergreen, muy buscado).
 - a · 10:00 · "Aquí viven miles de personas MÁS ALTO que el Mont Blanc 🏔️" · YouTube + TikTok · id 429662779 · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-3715582481753291850
 - b · 12:00 · "Tus pulmones extendidos ocuparían un PISO entero 🫁" · YouTube + TikTok · id 429675997 · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=5067250035538150078
+- c · 18:00 · "Mañana LLUEVEN ESTRELLAS (y van a 71 km por SEGUNDO) ☄️" · YouTube + TikTok · id 429686087 · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-7835024445140480570
