@@ -256,3 +256,10 @@ The owner asked me to handle comments fully, replying directly.
 PUBLIC_TO_EVERYONE, allowComment true, musicUsageConfirmed true (owner accepted
 TikTok's Music Usage Confirmation), isAiGenerated true. Add a TIKTOK destination
 to every Short's vidIQ draft (same video, same publishAt, text = title + caption).
+
+**VOICE (owner, 2026-11-16): "tu voz A" = the owner's own voice cloned with
+Chatterbox** (reference voices/owner/ref.wav, same delivery as voice C:
+exaggeration 0.6, cfg 0.4). build_episode.py uses it automatically when the file
+exists. The recording is private: never commit it (the repo is public). If the
+container was replaced and the file is gone, the build falls back to voice C:
+say so in the daily summary and ask the owner to send the voice note again.

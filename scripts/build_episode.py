@@ -6,6 +6,7 @@ Output: videos/<id>.mp4
 """
 import json
 import math
+import os
 import subprocess
 import sys
 import wave
@@ -26,6 +27,12 @@ _kokoro = None
 
 
 CBX_PY = Path("/opt/cbx/venv/bin/python")
+# Owner's cloned voice ("tu voz A", approved 2026-11-16): same delivery as voice C
+# (exaggeration 0.6, cfg 0.4). The recording is private and NOT in git (public repo).
+# If it is missing (container replaced), fall back to voice C and warn: the daily
+# summary must then ask the owner to send the voice note again.
+OWNER_REF = ROOT / "voices" / "owner" / "ref.wav"
+VOICE_TAG = "own1" if OWNER_REF.exists() else "cbxC1"
 _cbx = None
 _lock = None
 
@@ -37,7 +44,12 @@ def _cbx_tts(text: str, out: Path) -> float:
         import fcntl
         _lock = open(ROOT / "build" / "tts.lock", "w")
         fcntl.flock(_lock, fcntl.LOCK_EX)  # one ~6 GB TTS worker at a time
-        _cbx = subprocess.Popen([str(CBX_PY), str(ROOT / "scripts" / "cbx_worker.py")], stdin=subprocess.PIPE,
+        env = dict(os.environ)
+        if VOICE_TAG == "own1":
+            env["CBX_REF"] = str(OWNER_REF)
+        else:
+            print("AVISO: voices/owner/ref.wav no existe; usando la voz C", file=sys.stderr)
+        _cbx = subprocess.Popen([str(CBX_PY), str(ROOT / "scripts" / "cbx_worker.py")], stdin=subprocess.PIPE, env=env,
                                 stdout=subprocess.PIPE, stderr=open(ROOT / "build" / "tts.log", "a"), text=True, bufsize=1)
         json.loads(_cbx.stdout.readline())  # wait for {"ready": true}
     _cbx.stdin.write(json.dumps({"text": text, "out": str(out)}) + "\n")
@@ -59,7 +71,7 @@ def tts(text: str, out: Path) -> float:
     """Voice-over (cached: the same text is not synthesised twice)."""
     import hashlib
     key = out.with_suffix(".key")
-    h = hashlib.sha1(("cbxC1|" + text).encode()).hexdigest()
+    h = hashlib.sha1((VOICE_TAG + "|" + text).encode()).hexdigest()
     if out.exists() and key.exists() and key.read_text() == h:
         with wave.open(str(out), "rb") as wf:
             return wf.getnframes() / wf.getframerate()
