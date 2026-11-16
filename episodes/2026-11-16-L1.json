@@ -1,1041 +1,1041 @@
 {
- "id": "2026-11-16-L1",
- "format": "story",
- "title": "La Voyager 1 está a punto de llegar a UN DÍA LUZ de la Tierra (49 años después)",
- "description": "",
- "tags": [
-  "voyager 1",
-  "nasa",
-  "dia luz",
-  "espacio",
-  "disco de oro",
-  "carl sagan",
-  "punto azul palido",
-  "documental",
-  "curiosidades"
- ],
- "thumbnail": {
-  "text": "Un día *luz*",
-  "emoji": "🛰️",
-  "env": "space",
-  "kicker": "Voyager 1"
- },
- "scenes": [
-  {
-   "type": "title",
-   "kicker": "Escala Brutal · Historias",
-   "text": "Un día *luz*",
-   "env": "space",
-   "emoji": "🛰️",
-   "narration": "Este miércoles, dieciocho de noviembre, pasará algo que nunca había pasado. Una máquina construida por personas estará tan lejos que su señal, viajando a la velocidad de la luz, tardará un día entero en llegar hasta nosotros."
+  "id": "2026-11-16-L1",
+  "format": "story",
+  "title": "La Voyager 1 está a punto de llegar a UN DÍA LUZ de la Tierra (49 años después)",
+  "description": "El 18 de noviembre de 2026 la Voyager 1 llegará, por primera vez, a un día luz de la Tierra: su señal tardará 24 horas en llegarnos. Lanzada en 1977, hoy es el objeto humano más lejano. Repasamos su viaje: el Gran Tour, los volcanes de Ío, el Punto Azul Pálido, el Disco de Oro, la salida del Sol y cómo seguimos hablando con ella.\n\nCapítulos\n0:00 Un día luz\n0:47 Una carrera contra los planetas\n2:19 Volcanes en Ío\n3:55 Un punto azul pálido\n5:08 Un mensaje en una botella\n6:26 Fuera del Sol\n7:57 Hablar con algo a un día luz\n9:11 El viaje que no termina\n\nFuentes\n- NASA/JPL, misión Voyager (voyager.jpl.nasa.gov)\n- Flandro, G. (1966), asistencias gravitatorias y el «Gran Tour»\n- Morabito et al. (1979), Science: descubrimiento del vulcanismo activo en Ío\n- Fotografía «Pale Blue Dot» (14 feb 1990) y Carl Sagan, «Un punto azul pálido» (1994)\n- NASA/JPL, el Disco de Oro de las Voyager\n- Gurnett et al. (2013), Science: la Voyager 1 cruza la heliopausa (25 ago 2012); la Voyager 2 lo hizo en 2018\n- NASA (abril 2024): reparación remota del sistema FDS\n- NASA Deep Space Network, complejo de Madrid (Robledo de Chavela)\n- NASA/JPL: hito de un día luz (noviembre de 2026)\nLas cifras son aproximadas.\n\nMapas: Natural Earth. Ilustraciones: Twemoji (CC-BY 4.0). Video creado con ayuda de IA.",
+  "tags": [
+    "voyager 1",
+    "nasa",
+    "dia luz",
+    "espacio",
+    "disco de oro",
+    "carl sagan",
+    "punto azul palido",
+    "documental",
+    "curiosidades"
+  ],
+  "thumbnail": {
+    "text": "Un día *luz*",
+    "emoji": "🛰️",
+    "env": "space",
+    "kicker": "Voyager 1"
   },
-  {
-   "type": "landscape",
-   "env": "space",
-   "seed": "sp1v",
-   "text": "Un día *entero*",
-   "props": [
+  "scenes": [
     {
-     "emoji": "🛰️",
-     "x": 38,
-     "y": 42,
-     "size": 150,
-     "anim": "float"
+      "type": "title",
+      "kicker": "Escala Brutal · Historias",
+      "text": "Un día *luz*",
+      "env": "space",
+      "emoji": "🛰️",
+      "narration": "Este miércoles, dieciocho de noviembre, pasará algo que nunca había pasado. Una máquina construida por personas estará tan lejos que su señal, viajando a la velocidad de la luz, tardará un día entero en llegar hasta nosotros."
     },
     {
-     "emoji": "🌍",
-     "x": 70,
-     "y": 66,
-     "size": 120
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp1v",
+      "text": "Un día *entero*",
+      "props": [
+        {
+          "emoji": "🛰️",
+          "x": 38,
+          "y": 42,
+          "size": 150,
+          "anim": "float"
+        },
+        {
+          "emoji": "🌍",
+          "x": 70,
+          "y": 66,
+          "size": 120
+        }
+      ],
+      "narration": "Se llama Voyager uno. Salió de la Tierra hace cuarenta y nueve años, con un ordenador con menos memoria que una foto de tu móvil, y todavía hoy sigue enviándonos datos."
+    },
+    {
+      "type": "stat",
+      "env": "night",
+      "seed": "ni2v",
+      "value": 25900,
+      "suffix": " M km",
+      "emoji": "📏",
+      "label": "de km: *un día luz*",
+      "narration": "Un día luz son unos veinticinco mil novecientos millones de kilómetros. Si fueras en coche a cien kilómetros por hora, sin parar ni una vez, tardarías unos treinta mil años en llegar."
+    },
+    {
+      "type": "landscape",
+      "env": "city",
+      "seed": "ci3v",
+      "text": "Quédate hasta el *final*",
+      "props": [
+        {
+          "emoji": "📡",
+          "x": 40,
+          "y": 60,
+          "size": 160
+        },
+        {
+          "emoji": "💬",
+          "x": 68,
+          "y": 36,
+          "size": 120,
+          "anim": "pop"
+        }
+      ],
+      "narration": "En este vídeo vamos a ver cómo llegó tan lejos, qué descubrió por el camino, qué lleva dentro para quien la encuentre, y cómo es posible que todavía podamos hablar con ella. Y al final, a dónde va."
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 1",
+      "text": "Una carrera contra los *planetas*",
+      "env": "night",
+      "emoji": "🪐",
+      "narration": "Capítulo uno. Una carrera contra los planetas."
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp4v",
+      "text": "Una alineación *rara*",
+      "props": [
+        {
+          "emoji": "🪐",
+          "x": 30,
+          "y": 40,
+          "size": 130,
+          "anim": "float"
+        },
+        {
+          "emoji": "🌕",
+          "x": 55,
+          "y": 55,
+          "size": 90
+        },
+        {
+          "emoji": "🔵",
+          "x": 75,
+          "y": 35,
+          "size": 90
+        }
+      ],
+      "narration": "A mediados de los años sesenta, un estudiante que hacía prácticas en la NASA, Gary Flandro, se dio cuenta de algo. A finales de los setenta, Júpiter, Saturno, Urano y Neptuno iban a quedar colocados de una forma que solo se repite cada ciento setenta y cinco años, más o menos."
+    },
+    {
+      "type": "landscape",
+      "env": "desert",
+      "seed": "de5v",
+      "text": "Rebotar de planeta en *planeta*",
+      "props": [
+        {
+          "emoji": "🛰️",
+          "x": 30,
+          "y": 45,
+          "size": 120,
+          "anim": "walk"
+        },
+        {
+          "emoji": "🪐",
+          "x": 70,
+          "y": 50,
+          "size": 150
+        }
+      ],
+      "narration": "Con esa alineación, una nave podía usar la gravedad de cada planeta como una honda para saltar al siguiente. Un viaje que habría durado treinta años se podía hacer en doce."
+    },
+    {
+      "type": "stat",
+      "env": "night",
+      "seed": "ni6v",
+      "value": 175,
+      "suffix": " años",
+      "emoji": "📅",
+      "label": "se repite la *alineación*",
+      "narration": "Si no se aprovechaba, la siguiente oportunidad sería en el siglo veintidós. Así que la NASA construyó dos naves gemelas: las Voyager."
+    },
+    {
+      "type": "landscape",
+      "env": "city",
+      "seed": "ci6w",
+      "text": "Un plan *recortado*",
+      "props": [
+        {
+          "emoji": "💰",
+          "x": 38,
+          "y": 58,
+          "size": 140,
+          "anim": "fall"
+        },
+        {
+          "emoji": "✂️",
+          "x": 64,
+          "y": 40,
+          "size": 110,
+          "anim": "pop"
+        }
+      ],
+      "narration": "El plan original, la Gran Gira, era todavía más ambicioso, con cuatro o cinco naves. Pero en mil novecientos setenta y uno se canceló por su coste. Lo que quedó fue una misión más modesta, pensada solo para Júpiter y Saturno, que acabó llamándose Voyager."
+    },
+    {
+      "type": "map",
+      "kicker": "Estados Unidos",
+      "text": "Cabo Cañaveral, *1977*",
+      "from": {
+        "lon": -95,
+        "lat": 38,
+        "zoom": 2.5
+      },
+      "to": {
+        "lon": -80.6,
+        "lat": 28.5,
+        "zoom": 6
+      },
+      "highlight": [
+        "United States of America"
+      ],
+      "markers": [
+        {
+          "lon": -80.6,
+          "lat": 28.5,
+          "label": "Cabo Cañaveral",
+          "emoji": "🚀"
+        },
+        {
+          "lon": -118.2,
+          "lat": 34.2,
+          "label": "JPL, Pasadena",
+          "emoji": "🛠️"
+        }
+      ],
+      "narration": "Las construyó el Laboratorio de Propulsión a Chorro, en California, y despegaron desde Cabo Cañaveral, en Florida."
+    },
+    {
+      "type": "timeline",
+      "env": "space",
+      "seed": "sp7v",
+      "text": "El *despegue*",
+      "points": [
+        {
+          "year": "20 ago 1977",
+          "label": "Voyager 2",
+          "emoji": "🚀"
+        },
+        {
+          "year": "5 sep 1977",
+          "label": "Voyager 1",
+          "emoji": "🚀"
+        },
+        {
+          "year": "1979",
+          "label": "Júpiter",
+          "emoji": "🟠"
+        },
+        {
+          "year": "1980",
+          "label": "Saturno",
+          "emoji": "🪐"
+        }
+      ],
+      "narration": "Curiosamente, la Voyager dos salió primero, el veinte de agosto de mil novecientos setenta y siete. La uno despegó dos semanas después, el cinco de septiembre. Pero iba por una ruta más rápida, y pronto adelantó a su hermana."
+    },
+    {
+      "type": "landscape",
+      "env": "forest",
+      "seed": "fo8v",
+      "text": "Tecnología de los *setenta*",
+      "props": [
+        {
+          "emoji": "💾",
+          "x": 35,
+          "y": 58,
+          "size": 140,
+          "anim": "pop"
+        },
+        {
+          "emoji": "📱",
+          "x": 65,
+          "y": 60,
+          "size": 110
+        }
+      ],
+      "narration": "Pesaba unos ochocientos kilos. Sus ordenadores tenían, en total, unos setenta kilobytes de memoria. Un solo mensaje de WhatsApp con una foto ocupa más que todo eso."
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 2",
+      "text": "Volcanes en *Ío*",
+      "env": "storm",
+      "emoji": "🌋",
+      "narration": "Capítulo dos. Volcanes en Ío."
+    },
+    {
+      "type": "landscape",
+      "env": "desert",
+      "seed": "de9v",
+      "text": "Júpiter, *1979*",
+      "props": [
+        {
+          "emoji": "🟠",
+          "x": 50,
+          "y": 42,
+          "size": 220,
+          "anim": "float"
+        },
+        {
+          "emoji": "🛰️",
+          "x": 22,
+          "y": 30,
+          "size": 90,
+          "anim": "walk"
+        }
+      ],
+      "narration": "En marzo de mil novecientos setenta y nueve, la Voyager uno pasó junto a Júpiter. Y en lugar de las fotos borrosas que teníamos desde la Tierra, envió imágenes de tormentas gigantes moviéndose en directo."
+    },
+    {
+      "type": "stat",
+      "env": "sea",
+      "seed": "se10v",
+      "value": 2,
+      "suffix": " Tierras",
+      "emoji": "🌀",
+      "label": "caben en la *Gran Mancha Roja* (aprox.)",
+      "narration": "La Gran Mancha Roja, una tormenta que se observa desde hace siglos, resultó ser un torbellino en el que cabrían más o menos dos planetas como la Tierra."
+    },
+    {
+      "type": "quote",
+      "env": "night",
+      "seed": "ni11v",
+      "text": "Una extraña nube junto al borde de Ío",
+      "author": "Lo que vio Linda Morabito, marzo de 1979",
+      "emoji": "🌋",
+      "narration": "Pero la gran sorpresa llegó por casualidad. Una ingeniera de navegación, Linda Morabito, estaba revisando una foto de la luna Ío para calcular la posición de la nave, y vio una especie de nube junto al borde."
+    },
+    {
+      "type": "landscape",
+      "env": "storm",
+      "seed": "st12v",
+      "text": "Un mundo *vivo*",
+      "props": [
+        {
+          "emoji": "🌋",
+          "x": 45,
+          "y": 62,
+          "size": 170,
+          "anim": "shake"
+        },
+        {
+          "emoji": "🔥",
+          "x": 68,
+          "y": 40,
+          "size": 110,
+          "anim": "rise"
+        }
+      ],
+      "narration": "Era un penacho volcánico de cientos de kilómetros de altura. Por primera vez se veían volcanes activos en otro mundo. Hoy sabemos que Ío es el lugar con más actividad volcánica del sistema solar."
+    },
+    {
+      "type": "stat",
+      "env": "sea",
+      "seed": "se12w",
+      "value": 400,
+      "suffix": " volcanes",
+      "emoji": "🌋",
+      "label": "activos en *Ío* (aprox.)",
+      "narration": "Hoy se calcula que Ío tiene unos cuatrocientos volcanes activos. La culpa es de Júpiter, que la estira y la aprieta con su gravedad como si fuera una pelota antiestrés, calentando su interior."
+    },
+    {
+      "type": "landscape",
+      "env": "ice",
+      "seed": "ic13v",
+      "text": "Saturno, *1980*",
+      "props": [
+        {
+          "emoji": "🪐",
+          "x": 50,
+          "y": 45,
+          "size": 220,
+          "anim": "float"
+        },
+        {
+          "emoji": "💍",
+          "x": 25,
+          "y": 30,
+          "size": 90
+        }
+      ],
+      "narration": "Año y medio después llegó a Saturno. Descubrió que sus anillos tenían miles de surcos, como un disco de vinilo, y estudió de cerca sus lunas."
+    },
+    {
+      "type": "landscape",
+      "env": "night",
+      "seed": "ni14v",
+      "text": "La apuesta por *Titán*",
+      "props": [
+        {
+          "emoji": "🌕",
+          "x": 40,
+          "y": 40,
+          "size": 150
+        },
+        {
+          "emoji": "🛰️",
+          "x": 68,
+          "y": 60,
+          "size": 100,
+          "anim": "walk"
+        }
+      ],
+      "narration": "Y aquí la misión tomó una decisión dura. Los científicos querían ver de cerca Titán, la luna gigante de Saturno, con una atmósfera espesa. Para hacerlo, la nave tenía que pasar por debajo, y esa maniobra la lanzaría fuera del plano de los planetas."
+    },
+    {
+      "type": "compare",
+      "env": "space",
+      "seed": "sp15v",
+      "text": "Después de *Saturno*",
+      "items": [
+        {
+          "emoji": "🛰️",
+          "label": "Voyager 1: planetas",
+          "value": 0,
+          "display": "0"
+        },
+        {
+          "emoji": "🛰️",
+          "label": "Voyager 2: planetas",
+          "value": 2,
+          "display": "Urano y Neptuno"
+        }
+      ],
+      "narration": "Es decir: la Voyager uno no visitaría ningún planeta más. Su hermana sí seguiría hacia Urano y Neptuno. Pero la uno, a cambio, salió disparada hacia arriba, hacia el espacio profundo, más rápido que ninguna otra nave."
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 3",
+      "text": "Un punto *azul pálido*",
+      "env": "sea",
+      "emoji": "🔵",
+      "narration": "Capítulo tres. Un punto azul pálido."
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp16v",
+      "text": "Mirar *atrás*",
+      "props": [
+        {
+          "emoji": "🛰️",
+          "x": 60,
+          "y": 40,
+          "size": 140,
+          "anim": "float"
+        },
+        {
+          "emoji": "📷",
+          "x": 35,
+          "y": 60,
+          "size": 110,
+          "anim": "pop"
+        }
+      ],
+      "narration": "En mil novecientos noventa, la Voyager uno ya estaba más allá de los planetas. Sus cámaras iban a apagarse para ahorrar energía. Pero el astrónomo Carl Sagan insistió en una última cosa: girar la nave y fotografiar la Tierra."
+    },
+    {
+      "type": "stat",
+      "env": "night",
+      "seed": "ni17v",
+      "value": 6000,
+      "suffix": "  M km",
+      "emoji": "📸",
+      "label": "de distancia en la foto de *1990*",
+      "narration": "El catorce de febrero de mil novecientos noventa, a unos seis mil millones de kilómetros, tomó una serie de fotos de los planetas. Fue la primera vez que alguien veía el sistema solar desde fuera, como una familia."
+    },
+    {
+      "type": "landscape",
+      "env": "desert",
+      "seed": "de18v",
+      "text": "Menos de un *píxel*",
+      "props": [
+        {
+          "emoji": "🔵",
+          "x": 50,
+          "y": 50,
+          "size": 60,
+          "anim": "pop"
+        },
+        {
+          "emoji": "✨",
+          "x": 35,
+          "y": 35,
+          "size": 90
+        }
+      ],
+      "narration": "En una de ellas aparece la Tierra. Ocupa menos de un píxel. Un puntito azul atrapado en un rayo de luz del Sol, casi invisible."
+    },
+    {
+      "type": "stat",
+      "env": "space",
+      "seed": "sp18w",
+      "value": 0.12,
+      "suffix": " píxeles",
+      "emoji": "🔵",
+      "label": "ocupa la Tierra en la *foto*",
+      "narration": "Para ser exactos, la Tierra ocupa unos doce céntimos de un píxel. Si no supieras dónde mirar, no la encontrarías."
+    },
+    {
+      "type": "quote",
+      "env": "night",
+      "seed": "ni19v",
+      "text": "Mira de nuevo ese punto. Eso es aquí. Eso es nuestro hogar.",
+      "author": "Carl Sagan, Un punto azul pálido (1994)",
+      "emoji": "🌍",
+      "narration": "Carl Sagan escribió sobre esa foto algo que se ha hecho famoso: que en ese punto ha vivido toda persona que has conocido, que has querido, o de la que has oído hablar. Todos, en una mota de polvo."
+    },
+    {
+      "type": "landscape",
+      "env": "city",
+      "seed": "ci20v",
+      "text": "Cámaras *apagadas*",
+      "props": [
+        {
+          "emoji": "📷",
+          "x": 40,
+          "y": 58,
+          "size": 130
+        },
+        {
+          "emoji": "💤",
+          "x": 65,
+          "y": 36,
+          "size": 110,
+          "anim": "float"
+        }
+      ],
+      "narration": "Poco después, las cámaras se apagaron para siempre. Esas fotos son de las últimas que hizo. Desde entonces, la Voyager uno viaja a ciegas, escuchando el espacio con el resto de sus instrumentos."
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 4",
+      "text": "Un mensaje en una *botella*",
+      "env": "forest",
+      "emoji": "💿",
+      "narration": "Capítulo cuatro. Un mensaje en una botella."
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp21v",
+      "text": "El *disco de oro*",
+      "props": [
+        {
+          "emoji": "💿",
+          "x": 45,
+          "y": 50,
+          "size": 190,
+          "anim": "spin"
+        },
+        {
+          "emoji": "✨",
+          "x": 70,
+          "y": 32,
+          "size": 90,
+          "anim": "pop"
+        }
+      ],
+      "narration": "La Voyager uno lleva un pasajero muy especial: un disco de cobre bañado en oro. Es un mensaje por si, algún día, alguien de otro mundo la encuentra."
+    },
+    {
+      "type": "compare",
+      "env": "night",
+      "seed": "ni22v",
+      "text": "Lo que *lleva* el disco",
+      "items": [
+        {
+          "emoji": "🖼️",
+          "label": "Imágenes",
+          "value": 116,
+          "display": "116"
+        },
+        {
+          "emoji": "🗣️",
+          "label": "Idiomas en los saludos",
+          "value": 55,
+          "display": "55"
+        },
+        {
+          "emoji": "🎵",
+          "label": "Minutos de música",
+          "value": 90,
+          "display": "≈90"
+        }
+      ],
+      "narration": "Contiene ciento dieciséis imágenes codificadas, saludos en cincuenta y cinco idiomas, sonidos de la Tierra y unos noventa minutos de música, desde Bach hasta Chuck Berry."
+    },
+    {
+      "type": "landscape",
+      "env": "forest",
+      "seed": "fo23v",
+      "text": "*Hola* en español",
+      "props": [
+        {
+          "emoji": "🗣️",
+          "x": 38,
+          "y": 56,
+          "size": 140,
+          "anim": "pop"
+        },
+        {
+          "emoji": "🇪🇸",
+          "x": 66,
+          "y": 40,
+          "size": 110
+        }
+      ],
+      "narration": "Entre esos saludos hay uno en español. Una voz que dice, sencillamente: hola y saludos a todos. Es posible que sea la frase en español que más lejos ha llegado jamás."
+    },
+    {
+      "type": "stat",
+      "env": "space",
+      "seed": "sp23w",
+      "value": 14,
+      "suffix": " púlsares",
+      "emoji": "🧭",
+      "label": "en el mapa grabado en la *tapa*",
+      "narration": "En la tapa hay grabadas unas instrucciones para reproducirlo y un mapa con la posición del Sol respecto a catorce púlsares, estrellas que giran como faros. Una forma de decir: estamos aquí."
+    },
+    {
+      "type": "landscape",
+      "env": "sea",
+      "seed": "se24v",
+      "text": "Sonidos de la *Tierra*",
+      "props": [
+        {
+          "emoji": "🌊",
+          "x": 35,
+          "y": 64,
+          "size": 130
+        },
+        {
+          "emoji": "🐋",
+          "x": 62,
+          "y": 58,
+          "size": 130,
+          "anim": "float"
+        },
+        {
+          "emoji": "⛈️",
+          "x": 72,
+          "y": 28,
+          "size": 100
+        }
+      ],
+      "narration": "También lleva olas, truenos, viento, el canto de las ballenas, risas, pasos y hasta un beso. Todo pensado para que lo entienda alguien que no sabe nada de nosotros."
+    },
+    {
+      "type": "quote",
+      "env": "city",
+      "seed": "ci25v",
+      "text": "La nave será encontrada solo si hay civilizaciones avanzadas en el espacio",
+      "author": "Carl Sagan, sobre el disco",
+      "emoji": "🛸",
+      "narration": "Lo seleccionó un comité dirigido por Carl Sagan. Él mismo reconocía que las probabilidades de que alguien lo encuentre son pequeñísimas. Pero lanzar esa botella al océano cósmico, decía, dice mucho de nosotros."
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 5",
+      "text": "Fuera del *Sol*",
+      "env": "ice",
+      "emoji": "🌬️",
+      "narration": "Capítulo cinco. Fuera del Sol."
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp26v",
+      "text": "Una *burbuja*",
+      "props": [
+        {
+          "emoji": "☀️",
+          "x": 30,
+          "y": 42,
+          "size": 140
+        },
+        {
+          "emoji": "🫧",
+          "x": 62,
+          "y": 50,
+          "size": 180,
+          "anim": "float"
+        }
+      ],
+      "narration": "El Sol no solo da luz. También sopla. Lanza constantemente un viento de partículas que forma una burbuja enorme alrededor del sistema solar: la heliosfera."
+    },
+    {
+      "type": "stat",
+      "env": "ice",
+      "seed": "ic27v",
+      "value": 121,
+      "suffix": " UA",
+      "emoji": "📍",
+      "label": "del Sol al salir de la *burbuja*",
+      "narration": "El veinticinco de agosto de dos mil doce, la Voyager uno atravesó el borde de esa burbuja, a unas ciento veintiuna veces la distancia entre la Tierra y el Sol. Se convirtió en el primer objeto humano en el espacio interestelar."
+    },
+    {
+      "type": "landscape",
+      "env": "night",
+      "seed": "ni28v",
+      "text": "Una señal *curiosa*",
+      "props": [
+        {
+          "emoji": "📈",
+          "x": 40,
+          "y": 50,
+          "size": 140,
+          "anim": "rise"
+        },
+        {
+          "emoji": "❓",
+          "x": 68,
+          "y": 36,
+          "size": 110,
+          "anim": "pop"
+        }
+      ],
+      "narration": "Ni siquiera fue fácil saberlo. La nave no tiene un cartel que diga bienvenido. Los científicos tardaron meses en confirmarlo, midiendo cómo vibraba el gas a su alrededor."
+    },
+    {
+      "type": "landscape",
+      "env": "sea",
+      "seed": "se28w",
+      "text": "Su *hermana* la sigue",
+      "props": [
+        {
+          "emoji": "🛰️",
+          "x": 36,
+          "y": 46,
+          "size": 120,
+          "anim": "walk"
+        },
+        {
+          "emoji": "🫧",
+          "x": 66,
+          "y": 52,
+          "size": 150,
+          "anim": "float"
+        }
+      ],
+      "narration": "Seis años después, en noviembre de dos mil dieciocho, la Voyager dos también salió de la burbuja, por otro lado. Gracias a las dos sabemos que la heliosfera no es una esfera perfecta, y que el espacio de fuera es algo más denso y más frío de lo que se pensaba."
+    },
+    {
+      "type": "stat",
+      "env": "desert",
+      "seed": "de29v",
+      "value": 61000,
+      "suffix": " km/h",
+      "emoji": "🚀",
+      "label": "velocidad aproximada de la *Voyager 1*",
+      "narration": "Hoy viaja a unos diecisiete kilómetros por segundo. Más de sesenta mil kilómetros por hora. A esa velocidad, irías de Madrid a Nueva York en unos seis minutos."
+    },
+    {
+      "type": "compare",
+      "env": "space",
+      "seed": "sp30v",
+      "text": "¿Quién ha llegado más *lejos*?",
+      "items": [
+        {
+          "emoji": "🛰️",
+          "label": "Voyager 1",
+          "value": 25.9,
+          "display": "≈25.900 M km"
+        },
+        {
+          "emoji": "🛰️",
+          "label": "Voyager 2",
+          "value": 21.5,
+          "display": "≈21.500 M km"
+        },
+        {
+          "emoji": "🛰️",
+          "label": "Pioneer 10",
+          "value": 20.5,
+          "display": "≈20.500 M km"
+        }
+      ],
+      "narration": "Ningún otro objeto fabricado por el ser humano ha llegado tan lejos. Desde mil novecientos noventa y ocho es la nave más lejana. Su gemela, la Voyager dos, va detrás, en otra dirección."
+    },
+    {
+      "type": "landscape",
+      "env": "night",
+      "seed": "ni30w",
+      "text": "La nube de *Oort*",
+      "props": [
+        {
+          "emoji": "☄️",
+          "x": 40,
+          "y": 40,
+          "size": 140,
+          "anim": "float"
+        },
+        {
+          "emoji": "🛰️",
+          "x": 66,
+          "y": 62,
+          "size": 100,
+          "anim": "walk"
+        }
+      ],
+      "narration": "Y aún le queda muchísimo. Dentro de unos trescientos años llegará al borde interior de la nube de Oort, una enorme reserva de cometas que rodea el sistema solar. Y tardará unos treinta mil años en atravesarla."
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 6",
+      "text": "Hablar con algo a *un día luz*",
+      "env": "city",
+      "emoji": "📡",
+      "narration": "Capítulo seis. Hablar con algo a un día luz."
+    },
+    {
+      "type": "map",
+      "kicker": "España",
+      "text": "Robledo de *Chavela*",
+      "from": {
+        "lon": -3.7,
+        "lat": 40.3,
+        "zoom": 4
+      },
+      "to": {
+        "lon": -4.25,
+        "lat": 40.43,
+        "zoom": 7
+      },
+      "highlight": [
+        "Spain"
+      ],
+      "markers": [
+        {
+          "lon": -4.25,
+          "lat": 40.43,
+          "label": "Robledo de Chavela",
+          "emoji": "📡"
+        }
+      ],
+      "narration": "Y aquí entra España. La red de espacio profundo de la NASA tiene tres complejos de antenas en el mundo: en California, en Australia y en Robledo de Chavela, a una hora de Madrid. Y la Voyager uno está en la parte del cielo que se ve desde California y desde Madrid."
+    },
+    {
+      "type": "landscape",
+      "env": "forest",
+      "seed": "fo31v",
+      "text": "Antenas *gigantes*",
+      "props": [
+        {
+          "emoji": "📡",
+          "x": 40,
+          "y": 55,
+          "size": 200
+        },
+        {
+          "emoji": "🌲",
+          "x": 70,
+          "y": 66,
+          "size": 110
+        }
+      ],
+      "narration": "Para oírla hacen falta antenas enormes, de hasta setenta metros de diámetro. Porque la nave emite con una potencia de unos veintidós vatios. Más o menos lo que una bombilla de nevera."
+    },
+    {
+      "type": "stat",
+      "env": "night",
+      "seed": "ni32v",
+      "value": 24,
+      "suffix": " horas",
+      "emoji": "⏳",
+      "label": "tardará su señal a partir del *miércoles*",
+      "narration": "Y desde este miércoles, cada mensaje tardará más de veinticuatro horas en llegar. Si los ingenieros envían una orden, tienen que esperar más de dos días para saber si ha funcionado."
+    },
+    {
+      "type": "landscape",
+      "env": "storm",
+      "seed": "st33v",
+      "text": "El susto de *2023*",
+      "props": [
+        {
+          "emoji": "💻",
+          "x": 40,
+          "y": 58,
+          "size": 140,
+          "anim": "shake"
+        },
+        {
+          "emoji": "❌",
+          "x": 66,
+          "y": 36,
+          "size": 110,
+          "anim": "pop"
+        }
+      ],
+      "narration": "En noviembre de dos mil veintitrés, la Voyager uno empezó a enviar datos sin sentido. Un chip de memoria se había estropeado. Parecía el final."
+    },
+    {
+      "type": "landscape",
+      "env": "city",
+      "seed": "ci34v",
+      "text": "Arreglarla a *distancia*",
+      "props": [
+        {
+          "emoji": "👩‍💻",
+          "x": 36,
+          "y": 62,
+          "size": 140
+        },
+        {
+          "emoji": "🛠️",
+          "x": 64,
+          "y": 48,
+          "size": 120,
+          "anim": "spin"
+        }
+      ],
+      "narration": "Pero un pequeño equipo de ingenieros, con manuales de los años setenta, encontró la avería y movió el código afectado a otras partes de la memoria. En abril de dos mil veinticuatro, la nave volvió a hablar con normalidad."
+    },
+    {
+      "type": "quote",
+      "env": "space",
+      "seed": "sp35v",
+      "text": "Es como arreglar un coche a miles de millones de kilómetros",
+      "author": "Una forma de imaginarlo",
+      "emoji": "🔧",
+      "narration": "Piénsalo: reprogramar un ordenador de hace casi cincuenta años, que está a más de veinte mil millones de kilómetros, sin poder verlo, y con cada prueba tardando dos días."
+    },
+    {
+      "type": "title",
+      "kicker": "Escala Brutal",
+      "text": "El viaje que *no termina*",
+      "env": "space",
+      "emoji": "♾️",
+      "narration": "El viaje que no termina."
+    },
+    {
+      "type": "landscape",
+      "env": "night",
+      "seed": "ni36v",
+      "text": "Se queda sin *energía*",
+      "props": [
+        {
+          "emoji": "🔋",
+          "x": 40,
+          "y": 58,
+          "size": 140
+        },
+        {
+          "emoji": "📉",
+          "x": 66,
+          "y": 40,
+          "size": 120,
+          "anim": "fall"
+        }
+      ],
+      "narration": "La Voyager uno funciona con plutonio, que se desintegra muy despacio y da cada año un poco menos de energía. Por eso la NASA ha ido apagando instrumentos y calefactores, uno a uno, para alargar su vida."
+    },
+    {
+      "type": "stat",
+      "env": "ice",
+      "seed": "ic37v",
+      "value": 2030,
+      "suffix": "",
+      "emoji": "🗓️",
+      "label": "años en torno a los que se *apagará* (estimación)",
+      "narration": "Se calcula que en algún momento de los años dos mil treinta ya no tendrá energía para seguir hablando. Ese día, se callará para siempre. Pero no se parará."
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp38v",
+      "text": "Hacia otra *estrella*",
+      "props": [
+        {
+          "emoji": "⭐",
+          "x": 65,
+          "y": 35,
+          "size": 140,
+          "anim": "float"
+        },
+        {
+          "emoji": "🛰️",
+          "x": 30,
+          "y": 58,
+          "size": 100,
+          "anim": "walk"
+        }
+      ],
+      "narration": "Seguirá viajando, en silencio, durante millones de años. Dentro de unos cuarenta mil años pasará a algo más de un año luz y medio de una estrella de la constelación de la Jirafa. Ni siquiera cerca: el espacio está casi vacío."
+    },
+    {
+      "type": "landscape",
+      "env": "desert",
+      "seed": "de39v",
+      "text": "Un mensaje *eterno*",
+      "props": [
+        {
+          "emoji": "💿",
+          "x": 45,
+          "y": 48,
+          "size": 170,
+          "anim": "spin"
+        },
+        {
+          "emoji": "🌍",
+          "x": 70,
+          "y": 66,
+          "size": 100
+        }
+      ],
+      "narration": "Y llevará consigo el disco de oro, con nuestro hola en español, probablemente mucho después de que la Tierra haya cambiado por completo. Es, quizá, el objeto más duradero que hemos hecho."
+    },
+    {
+      "type": "stat",
+      "env": "night",
+      "seed": "ni40v",
+      "value": 49,
+      "suffix": " años",
+      "emoji": "🛰️",
+      "label": "de viaje y *sigue* hablando",
+      "narration": "Cuarenta y nueve años. Lanzada cuando no existían los teléfonos móviles, y todavía hoy nos envía información desde un lugar al que nunca ha llegado nadie."
+    },
+    {
+      "type": "landscape",
+      "env": "sea",
+      "seed": "se40w",
+      "text": "Un récord que *crece*",
+      "props": [
+        {
+          "emoji": "📏",
+          "x": 40,
+          "y": 56,
+          "size": 140,
+          "anim": "rise"
+        },
+        {
+          "emoji": "🛰️",
+          "x": 66,
+          "y": 38,
+          "size": 110,
+          "anim": "walk"
+        }
+      ],
+      "narration": "Y su récord crece cada día. Cada año se aleja más de quinientos millones de kilómetros. Mientras ves este vídeo, se alejará otros diez mil kilómetros, más o menos lo que hay de Madrid a Tokio."
+    },
+    {
+      "type": "landscape",
+      "env": "space",
+      "seed": "sp41v",
+      "text": "¿Y tú qué *dirías*?",
+      "props": [
+        {
+          "emoji": "💬",
+          "x": 50,
+          "y": 48,
+          "size": 200,
+          "anim": "pop"
+        }
+      ],
+      "narration": "Una nave de los años setenta, más lenta que la luz, que pesa menos que un coche, que ha llegado más lejos que nada de lo que hemos construido. Si te ha gustado, suscríbete a Escala Brutal. Y cuéntame en los comentarios: si pudieras grabar un solo mensaje en el disco de oro, ¿qué dirías? Te leo."
     }
-   ],
-   "narration": "Se llama Voyager uno. Salió de la Tierra hace cuarenta y nueve años, con un ordenador con menos memoria que una foto de tu móvil, y todavía hoy sigue enviándonos datos."
-  },
-  {
-   "type": "stat",
-   "env": "night",
-   "seed": "ni2v",
-   "value": 25900,
-   "suffix": " M km",
-   "emoji": "📏",
-   "label": "de km: *un día luz*",
-   "narration": "Un día luz son unos veinticinco mil novecientos millones de kilómetros. Si fueras en coche a cien kilómetros por hora, sin parar ni una vez, tardarías unos treinta mil años en llegar."
-  },
-  {
-   "type": "landscape",
-   "env": "city",
-   "seed": "ci3v",
-   "text": "Quédate hasta el *final*",
-   "props": [
-    {
-     "emoji": "📡",
-     "x": 40,
-     "y": 60,
-     "size": 160
-    },
-    {
-     "emoji": "💬",
-     "x": 68,
-     "y": 36,
-     "size": 120,
-     "anim": "pop"
-    }
-   ],
-   "narration": "En este vídeo vamos a ver cómo llegó tan lejos, qué descubrió por el camino, qué lleva dentro para quien la encuentre, y cómo es posible que todavía podamos hablar con ella. Y al final, a dónde va."
-  },
-  {
-   "type": "title",
-   "kicker": "Capítulo 1",
-   "text": "Una carrera contra los *planetas*",
-   "env": "night",
-   "emoji": "🪐",
-   "narration": "Capítulo uno. Una carrera contra los planetas."
-  },
-  {
-   "type": "landscape",
-   "env": "space",
-   "seed": "sp4v",
-   "text": "Una alineación *rara*",
-   "props": [
-    {
-     "emoji": "🪐",
-     "x": 30,
-     "y": 40,
-     "size": 130,
-     "anim": "float"
-    },
-    {
-     "emoji": "🌕",
-     "x": 55,
-     "y": 55,
-     "size": 90
-    },
-    {
-     "emoji": "🔵",
-     "x": 75,
-     "y": 35,
-     "size": 90
-    }
-   ],
-   "narration": "A mediados de los años sesenta, un estudiante que hacía prácticas en la NASA, Gary Flandro, se dio cuenta de algo. A finales de los setenta, Júpiter, Saturno, Urano y Neptuno iban a quedar colocados de una forma que solo se repite cada ciento setenta y cinco años, más o menos."
-  },
-  {
-   "type": "landscape",
-   "env": "desert",
-   "seed": "de5v",
-   "text": "Rebotar de planeta en *planeta*",
-   "props": [
-    {
-     "emoji": "🛰️",
-     "x": 30,
-     "y": 45,
-     "size": 120,
-     "anim": "walk"
-    },
-    {
-     "emoji": "🪐",
-     "x": 70,
-     "y": 50,
-     "size": 150
-    }
-   ],
-   "narration": "Con esa alineación, una nave podía usar la gravedad de cada planeta como una honda para saltar al siguiente. Un viaje que habría durado treinta años se podía hacer en doce."
-  },
-  {
-   "type": "stat",
-   "env": "night",
-   "seed": "ni6v",
-   "value": 175,
-   "suffix": " años",
-   "emoji": "📅",
-   "label": "se repite la *alineación*",
-   "narration": "Si no se aprovechaba, la siguiente oportunidad sería en el siglo veintidós. Así que la NASA construyó dos naves gemelas: las Voyager."
-  },
-  {
-   "type": "landscape",
-   "env": "city",
-   "seed": "ci6w",
-   "text": "Un plan *recortado*",
-   "props": [
-    {
-     "emoji": "💰",
-     "x": 38,
-     "y": 58,
-     "size": 140,
-     "anim": "fall"
-    },
-    {
-     "emoji": "✂️",
-     "x": 64,
-     "y": 40,
-     "size": 110,
-     "anim": "pop"
-    }
-   ],
-   "narration": "El plan original, la Gran Gira, era todavía más ambicioso, con cuatro o cinco naves. Pero en mil novecientos setenta y uno se canceló por su coste. Lo que quedó fue una misión más modesta, pensada solo para Júpiter y Saturno, que acabó llamándose Voyager."
-  },
-  {
-   "type": "map",
-   "kicker": "Estados Unidos",
-   "text": "Cabo Cañaveral, *1977*",
-   "from": {
-    "lon": -95,
-    "lat": 38,
-    "zoom": 2.5
-   },
-   "to": {
-    "lon": -80.6,
-    "lat": 28.5,
-    "zoom": 6
-   },
-   "highlight": [
-    "United States of America"
-   ],
-   "markers": [
-    {
-     "lon": -80.6,
-     "lat": 28.5,
-     "label": "Cabo Cañaveral",
-     "emoji": "🚀"
-    },
-    {
-     "lon": -118.2,
-     "lat": 34.2,
-     "label": "JPL, Pasadena",
-     "emoji": "🛠️"
-    }
-   ],
-   "narration": "Las construyó el Laboratorio de Propulsión a Chorro, en California, y despegaron desde Cabo Cañaveral, en Florida."
-  },
-  {
-   "type": "timeline",
-   "env": "space",
-   "seed": "sp7v",
-   "text": "El *despegue*",
-   "points": [
-    {
-     "year": "20 ago 1977",
-     "label": "Voyager 2",
-     "emoji": "🚀"
-    },
-    {
-     "year": "5 sep 1977",
-     "label": "Voyager 1",
-     "emoji": "🚀"
-    },
-    {
-     "year": "1979",
-     "label": "Júpiter",
-     "emoji": "🟠"
-    },
-    {
-     "year": "1980",
-     "label": "Saturno",
-     "emoji": "🪐"
-    }
-   ],
-   "narration": "Curiosamente, la Voyager dos salió primero, el veinte de agosto de mil novecientos setenta y siete. La uno despegó dos semanas después, el cinco de septiembre. Pero iba por una ruta más rápida, y pronto adelantó a su hermana."
-  },
-  {
-   "type": "landscape",
-   "env": "forest",
-   "seed": "fo8v",
-   "text": "Tecnología de los *setenta*",
-   "props": [
-    {
-     "emoji": "💾",
-     "x": 35,
-     "y": 58,
-     "size": 140,
-     "anim": "pop"
-    },
-    {
-     "emoji": "📱",
-     "x": 65,
-     "y": 60,
-     "size": 110
-    }
-   ],
-   "narration": "Pesaba unos ochocientos kilos. Sus ordenadores tenían, en total, unos setenta kilobytes de memoria. Un solo mensaje de WhatsApp con una foto ocupa más que todo eso."
-  },
-  {
-   "type": "title",
-   "kicker": "Capítulo 2",
-   "text": "Volcanes en *Ío*",
-   "env": "storm",
-   "emoji": "🌋",
-   "narration": "Capítulo dos. Volcanes en Ío."
-  },
-  {
-   "type": "landscape",
-   "env": "desert",
-   "seed": "de9v",
-   "text": "Júpiter, *1979*",
-   "props": [
-    {
-     "emoji": "🟠",
-     "x": 50,
-     "y": 42,
-     "size": 220,
-     "anim": "float"
-    },
-    {
-     "emoji": "🛰️",
-     "x": 22,
-     "y": 30,
-     "size": 90,
-     "anim": "walk"
-    }
-   ],
-   "narration": "En marzo de mil novecientos setenta y nueve, la Voyager uno pasó junto a Júpiter. Y en lugar de las fotos borrosas que teníamos desde la Tierra, envió imágenes de tormentas gigantes moviéndose en directo."
-  },
-  {
-   "type": "stat",
-   "env": "sea",
-   "seed": "se10v",
-   "value": 2,
-   "suffix": " Tierras",
-   "emoji": "🌀",
-   "label": "caben en la *Gran Mancha Roja* (aprox.)",
-   "narration": "La Gran Mancha Roja, una tormenta que se observa desde hace siglos, resultó ser un torbellino en el que cabrían más o menos dos planetas como la Tierra."
-  },
-  {
-   "type": "quote",
-   "env": "night",
-   "seed": "ni11v",
-   "text": "Una extraña nube junto al borde de Ío",
-   "author": "Lo que vio Linda Morabito, marzo de 1979",
-   "emoji": "🌋",
-   "narration": "Pero la gran sorpresa llegó por casualidad. Una ingeniera de navegación, Linda Morabito, estaba revisando una foto de la luna Ío para calcular la posición de la nave, y vio una especie de nube junto al borde."
-  },
-  {
-   "type": "landscape",
-   "env": "storm",
-   "seed": "st12v",
-   "text": "Un mundo *vivo*",
-   "props": [
-    {
-     "emoji": "🌋",
-     "x": 45,
-     "y": 62,
-     "size": 170,
-     "anim": "shake"
-    },
-    {
-     "emoji": "🔥",
-     "x": 68,
-     "y": 40,
-     "size": 110,
-     "anim": "rise"
-    }
-   ],
-   "narration": "Era un penacho volcánico de cientos de kilómetros de altura. Por primera vez se veían volcanes activos en otro mundo. Hoy sabemos que Ío es el lugar con más actividad volcánica del sistema solar."
-  },
-  {
-   "type": "stat",
-   "env": "sea",
-   "seed": "se12w",
-   "value": 400,
-   "suffix": " volcanes",
-   "emoji": "🌋",
-   "label": "activos en *Ío* (aprox.)",
-   "narration": "Hoy se calcula que Ío tiene unos cuatrocientos volcanes activos. La culpa es de Júpiter, que la estira y la aprieta con su gravedad como si fuera una pelota antiestrés, calentando su interior."
-  },
-  {
-   "type": "landscape",
-   "env": "ice",
-   "seed": "ic13v",
-   "text": "Saturno, *1980*",
-   "props": [
-    {
-     "emoji": "🪐",
-     "x": 50,
-     "y": 45,
-     "size": 220,
-     "anim": "float"
-    },
-    {
-     "emoji": "💍",
-     "x": 25,
-     "y": 30,
-     "size": 90
-    }
-   ],
-   "narration": "Año y medio después llegó a Saturno. Descubrió que sus anillos tenían miles de surcos, como un disco de vinilo, y estudió de cerca sus lunas."
-  },
-  {
-   "type": "landscape",
-   "env": "night",
-   "seed": "ni14v",
-   "text": "La apuesta por *Titán*",
-   "props": [
-    {
-     "emoji": "🌕",
-     "x": 40,
-     "y": 40,
-     "size": 150
-    },
-    {
-     "emoji": "🛰️",
-     "x": 68,
-     "y": 60,
-     "size": 100,
-     "anim": "walk"
-    }
-   ],
-   "narration": "Y aquí la misión tomó una decisión dura. Los científicos querían ver de cerca Titán, la luna gigante de Saturno, con una atmósfera espesa. Para hacerlo, la nave tenía que pasar por debajo, y esa maniobra la lanzaría fuera del plano de los planetas."
-  },
-  {
-   "type": "compare",
-   "env": "space",
-   "seed": "sp15v",
-   "text": "Después de *Saturno*",
-   "items": [
-    {
-     "emoji": "🛰️",
-     "label": "Voyager 1: planetas",
-     "value": 0,
-     "display": "0"
-    },
-    {
-     "emoji": "🛰️",
-     "label": "Voyager 2: planetas",
-     "value": 2,
-     "display": "Urano y Neptuno"
-    }
-   ],
-   "narration": "Es decir: la Voyager uno no visitaría ningún planeta más. Su hermana sí seguiría hacia Urano y Neptuno. Pero la uno, a cambio, salió disparada hacia arriba, hacia el espacio profundo, más rápido que ninguna otra nave."
-  },
-  {
-   "type": "title",
-   "kicker": "Capítulo 3",
-   "text": "Un punto *azul pálido*",
-   "env": "sea",
-   "emoji": "🔵",
-   "narration": "Capítulo tres. Un punto azul pálido."
-  },
-  {
-   "type": "landscape",
-   "env": "space",
-   "seed": "sp16v",
-   "text": "Mirar *atrás*",
-   "props": [
-    {
-     "emoji": "🛰️",
-     "x": 60,
-     "y": 40,
-     "size": 140,
-     "anim": "float"
-    },
-    {
-     "emoji": "📷",
-     "x": 35,
-     "y": 60,
-     "size": 110,
-     "anim": "pop"
-    }
-   ],
-   "narration": "En mil novecientos noventa, la Voyager uno ya estaba más allá de los planetas. Sus cámaras iban a apagarse para ahorrar energía. Pero el astrónomo Carl Sagan insistió en una última cosa: girar la nave y fotografiar la Tierra."
-  },
-  {
-   "type": "stat",
-   "env": "night",
-   "seed": "ni17v",
-   "value": 6000,
-   "suffix": "  M km",
-   "emoji": "📸",
-   "label": "de distancia en la foto de *1990*",
-   "narration": "El catorce de febrero de mil novecientos noventa, a unos seis mil millones de kilómetros, tomó una serie de fotos de los planetas. Fue la primera vez que alguien veía el sistema solar desde fuera, como una familia."
-  },
-  {
-   "type": "landscape",
-   "env": "desert",
-   "seed": "de18v",
-   "text": "Menos de un *píxel*",
-   "props": [
-    {
-     "emoji": "🔵",
-     "x": 50,
-     "y": 50,
-     "size": 60,
-     "anim": "pop"
-    },
-    {
-     "emoji": "✨",
-     "x": 35,
-     "y": 35,
-     "size": 90
-    }
-   ],
-   "narration": "En una de ellas aparece la Tierra. Ocupa menos de un píxel. Un puntito azul atrapado en un rayo de luz del Sol, casi invisible."
-  },
-  {
-   "type": "stat",
-   "env": "space",
-   "seed": "sp18w",
-   "value": 0.12,
-   "suffix": " píxeles",
-   "emoji": "🔵",
-   "label": "ocupa la Tierra en la *foto*",
-   "narration": "Para ser exactos, la Tierra ocupa unos doce céntimos de un píxel. Si no supieras dónde mirar, no la encontrarías."
-  },
-  {
-   "type": "quote",
-   "env": "night",
-   "seed": "ni19v",
-   "text": "Mira de nuevo ese punto. Eso es aquí. Eso es nuestro hogar.",
-   "author": "Carl Sagan, Un punto azul pálido (1994)",
-   "emoji": "🌍",
-   "narration": "Carl Sagan escribió sobre esa foto algo que se ha hecho famoso: que en ese punto ha vivido toda persona que has conocido, que has querido, o de la que has oído hablar. Todos, en una mota de polvo."
-  },
-  {
-   "type": "landscape",
-   "env": "city",
-   "seed": "ci20v",
-   "text": "Cámaras *apagadas*",
-   "props": [
-    {
-     "emoji": "📷",
-     "x": 40,
-     "y": 58,
-     "size": 130
-    },
-    {
-     "emoji": "💤",
-     "x": 65,
-     "y": 36,
-     "size": 110,
-     "anim": "float"
-    }
-   ],
-   "narration": "Poco después, las cámaras se apagaron para siempre. Esas fotos son de las últimas que hizo. Desde entonces, la Voyager uno viaja a ciegas, escuchando el espacio con el resto de sus instrumentos."
-  },
-  {
-   "type": "title",
-   "kicker": "Capítulo 4",
-   "text": "Un mensaje en una *botella*",
-   "env": "forest",
-   "emoji": "💿",
-   "narration": "Capítulo cuatro. Un mensaje en una botella."
-  },
-  {
-   "type": "landscape",
-   "env": "space",
-   "seed": "sp21v",
-   "text": "El *disco de oro*",
-   "props": [
-    {
-     "emoji": "💿",
-     "x": 45,
-     "y": 50,
-     "size": 190,
-     "anim": "spin"
-    },
-    {
-     "emoji": "✨",
-     "x": 70,
-     "y": 32,
-     "size": 90,
-     "anim": "pop"
-    }
-   ],
-   "narration": "La Voyager uno lleva un pasajero muy especial: un disco de cobre bañado en oro. Es un mensaje por si, algún día, alguien de otro mundo la encuentra."
-  },
-  {
-   "type": "compare",
-   "env": "night",
-   "seed": "ni22v",
-   "text": "Lo que *lleva* el disco",
-   "items": [
-    {
-     "emoji": "🖼️",
-     "label": "Imágenes",
-     "value": 116,
-     "display": "116"
-    },
-    {
-     "emoji": "🗣️",
-     "label": "Idiomas en los saludos",
-     "value": 55,
-     "display": "55"
-    },
-    {
-     "emoji": "🎵",
-     "label": "Minutos de música",
-     "value": 90,
-     "display": "≈90"
-    }
-   ],
-   "narration": "Contiene ciento dieciséis imágenes codificadas, saludos en cincuenta y cinco idiomas, sonidos de la Tierra y unos noventa minutos de música, desde Bach hasta Chuck Berry."
-  },
-  {
-   "type": "landscape",
-   "env": "forest",
-   "seed": "fo23v",
-   "text": "*Hola* en español",
-   "props": [
-    {
-     "emoji": "🗣️",
-     "x": 38,
-     "y": 56,
-     "size": 140,
-     "anim": "pop"
-    },
-    {
-     "emoji": "🇪🇸",
-     "x": 66,
-     "y": 40,
-     "size": 110
-    }
-   ],
-   "narration": "Entre esos saludos hay uno en español. Una voz que dice, sencillamente: hola y saludos a todos. Es posible que sea la frase en español que más lejos ha llegado jamás."
-  },
-  {
-   "type": "stat",
-   "env": "space",
-   "seed": "sp23w",
-   "value": 14,
-   "suffix": " púlsares",
-   "emoji": "🧭",
-   "label": "en el mapa grabado en la *tapa*",
-   "narration": "En la tapa hay grabadas unas instrucciones para reproducirlo y un mapa con la posición del Sol respecto a catorce púlsares, estrellas que giran como faros. Una forma de decir: estamos aquí."
-  },
-  {
-   "type": "landscape",
-   "env": "sea",
-   "seed": "se24v",
-   "text": "Sonidos de la *Tierra*",
-   "props": [
-    {
-     "emoji": "🌊",
-     "x": 35,
-     "y": 64,
-     "size": 130
-    },
-    {
-     "emoji": "🐋",
-     "x": 62,
-     "y": 58,
-     "size": 130,
-     "anim": "float"
-    },
-    {
-     "emoji": "⛈️",
-     "x": 72,
-     "y": 28,
-     "size": 100
-    }
-   ],
-   "narration": "También lleva olas, truenos, viento, el canto de las ballenas, risas, pasos y hasta un beso. Todo pensado para que lo entienda alguien que no sabe nada de nosotros."
-  },
-  {
-   "type": "quote",
-   "env": "city",
-   "seed": "ci25v",
-   "text": "La nave será encontrada solo si hay civilizaciones avanzadas en el espacio",
-   "author": "Carl Sagan, sobre el disco",
-   "emoji": "🛸",
-   "narration": "Lo seleccionó un comité dirigido por Carl Sagan. Él mismo reconocía que las probabilidades de que alguien lo encuentre son pequeñísimas. Pero lanzar esa botella al océano cósmico, decía, dice mucho de nosotros."
-  },
-  {
-   "type": "title",
-   "kicker": "Capítulo 5",
-   "text": "Fuera del *Sol*",
-   "env": "ice",
-   "emoji": "🌬️",
-   "narration": "Capítulo cinco. Fuera del Sol."
-  },
-  {
-   "type": "landscape",
-   "env": "space",
-   "seed": "sp26v",
-   "text": "Una *burbuja*",
-   "props": [
-    {
-     "emoji": "☀️",
-     "x": 30,
-     "y": 42,
-     "size": 140
-    },
-    {
-     "emoji": "🫧",
-     "x": 62,
-     "y": 50,
-     "size": 180,
-     "anim": "float"
-    }
-   ],
-   "narration": "El Sol no solo da luz. También sopla. Lanza constantemente un viento de partículas que forma una burbuja enorme alrededor del sistema solar: la heliosfera."
-  },
-  {
-   "type": "stat",
-   "env": "ice",
-   "seed": "ic27v",
-   "value": 121,
-   "suffix": " UA",
-   "emoji": "📍",
-   "label": "del Sol al salir de la *burbuja*",
-   "narration": "El veinticinco de agosto de dos mil doce, la Voyager uno atravesó el borde de esa burbuja, a unas ciento veintiuna veces la distancia entre la Tierra y el Sol. Se convirtió en el primer objeto humano en el espacio interestelar."
-  },
-  {
-   "type": "landscape",
-   "env": "night",
-   "seed": "ni28v",
-   "text": "Una señal *curiosa*",
-   "props": [
-    {
-     "emoji": "📈",
-     "x": 40,
-     "y": 50,
-     "size": 140,
-     "anim": "rise"
-    },
-    {
-     "emoji": "❓",
-     "x": 68,
-     "y": 36,
-     "size": 110,
-     "anim": "pop"
-    }
-   ],
-   "narration": "Ni siquiera fue fácil saberlo. La nave no tiene un cartel que diga bienvenido. Los científicos tardaron meses en confirmarlo, midiendo cómo vibraba el gas a su alrededor."
-  },
-  {
-   "type": "landscape",
-   "env": "sea",
-   "seed": "se28w",
-   "text": "Su *hermana* la sigue",
-   "props": [
-    {
-     "emoji": "🛰️",
-     "x": 36,
-     "y": 46,
-     "size": 120,
-     "anim": "walk"
-    },
-    {
-     "emoji": "🫧",
-     "x": 66,
-     "y": 52,
-     "size": 150,
-     "anim": "float"
-    }
-   ],
-   "narration": "Seis años después, en noviembre de dos mil dieciocho, la Voyager dos también salió de la burbuja, por otro lado. Gracias a las dos sabemos que la heliosfera no es una esfera perfecta, y que el espacio de fuera es algo más denso y más frío de lo que se pensaba."
-  },
-  {
-   "type": "stat",
-   "env": "desert",
-   "seed": "de29v",
-   "value": 61000,
-   "suffix": " km/h",
-   "emoji": "🚀",
-   "label": "velocidad aproximada de la *Voyager 1*",
-   "narration": "Hoy viaja a unos diecisiete kilómetros por segundo. Más de sesenta mil kilómetros por hora. A esa velocidad, irías de Madrid a Nueva York en unos seis minutos."
-  },
-  {
-   "type": "compare",
-   "env": "space",
-   "seed": "sp30v",
-   "text": "¿Quién ha llegado más *lejos*?",
-   "items": [
-    {
-     "emoji": "🛰️",
-     "label": "Voyager 1",
-     "value": 25.9,
-     "display": "≈25.900 M km"
-    },
-    {
-     "emoji": "🛰️",
-     "label": "Voyager 2",
-     "value": 21.5,
-     "display": "≈21.500 M km"
-    },
-    {
-     "emoji": "🛰️",
-     "label": "Pioneer 10",
-     "value": 20.5,
-     "display": "≈20.500 M km"
-    }
-   ],
-   "narration": "Ningún otro objeto fabricado por el ser humano ha llegado tan lejos. Desde mil novecientos noventa y ocho es la nave más lejana. Su gemela, la Voyager dos, va detrás, en otra dirección."
-  },
-  {
-   "type": "landscape",
-   "env": "night",
-   "seed": "ni30w",
-   "text": "La nube de *Oort*",
-   "props": [
-    {
-     "emoji": "☄️",
-     "x": 40,
-     "y": 40,
-     "size": 140,
-     "anim": "float"
-    },
-    {
-     "emoji": "🛰️",
-     "x": 66,
-     "y": 62,
-     "size": 100,
-     "anim": "walk"
-    }
-   ],
-   "narration": "Y aún le queda muchísimo. Dentro de unos trescientos años llegará al borde interior de la nube de Oort, una enorme reserva de cometas que rodea el sistema solar. Y tardará unos treinta mil años en atravesarla."
-  },
-  {
-   "type": "title",
-   "kicker": "Capítulo 6",
-   "text": "Hablar con algo a *un día luz*",
-   "env": "city",
-   "emoji": "📡",
-   "narration": "Capítulo seis. Hablar con algo a un día luz."
-  },
-  {
-   "type": "map",
-   "kicker": "España",
-   "text": "Robledo de *Chavela*",
-   "from": {
-    "lon": -3.7,
-    "lat": 40.3,
-    "zoom": 4
-   },
-   "to": {
-    "lon": -4.25,
-    "lat": 40.43,
-    "zoom": 7
-   },
-   "highlight": [
-    "Spain"
-   ],
-   "markers": [
-    {
-     "lon": -4.25,
-     "lat": 40.43,
-     "label": "Robledo de Chavela",
-     "emoji": "📡"
-    }
-   ],
-   "narration": "Y aquí entra España. La red de espacio profundo de la NASA tiene tres complejos de antenas en el mundo: en California, en Australia y en Robledo de Chavela, a una hora de Madrid. Y la Voyager uno está en la parte del cielo que se ve desde California y desde Madrid."
-  },
-  {
-   "type": "landscape",
-   "env": "forest",
-   "seed": "fo31v",
-   "text": "Antenas *gigantes*",
-   "props": [
-    {
-     "emoji": "📡",
-     "x": 40,
-     "y": 55,
-     "size": 200
-    },
-    {
-     "emoji": "🌲",
-     "x": 70,
-     "y": 66,
-     "size": 110
-    }
-   ],
-   "narration": "Para oírla hacen falta antenas enormes, de hasta setenta metros de diámetro. Porque la nave emite con una potencia de unos veintidós vatios. Más o menos lo que una bombilla de nevera."
-  },
-  {
-   "type": "stat",
-   "env": "night",
-   "seed": "ni32v",
-   "value": 24,
-   "suffix": " horas",
-   "emoji": "⏳",
-   "label": "tardará su señal a partir del *miércoles*",
-   "narration": "Y desde este miércoles, cada mensaje tardará más de veinticuatro horas en llegar. Si los ingenieros envían una orden, tienen que esperar más de dos días para saber si ha funcionado."
-  },
-  {
-   "type": "landscape",
-   "env": "storm",
-   "seed": "st33v",
-   "text": "El susto de *2023*",
-   "props": [
-    {
-     "emoji": "💻",
-     "x": 40,
-     "y": 58,
-     "size": 140,
-     "anim": "shake"
-    },
-    {
-     "emoji": "❌",
-     "x": 66,
-     "y": 36,
-     "size": 110,
-     "anim": "pop"
-    }
-   ],
-   "narration": "En noviembre de dos mil veintitrés, la Voyager uno empezó a enviar datos sin sentido. Un chip de memoria se había estropeado. Parecía el final."
-  },
-  {
-   "type": "landscape",
-   "env": "city",
-   "seed": "ci34v",
-   "text": "Arreglarla a *distancia*",
-   "props": [
-    {
-     "emoji": "👩‍💻",
-     "x": 36,
-     "y": 62,
-     "size": 140
-    },
-    {
-     "emoji": "🛠️",
-     "x": 64,
-     "y": 48,
-     "size": 120,
-     "anim": "spin"
-    }
-   ],
-   "narration": "Pero un pequeño equipo de ingenieros, con manuales de los años setenta, encontró la avería y movió el código afectado a otras partes de la memoria. En abril de dos mil veinticuatro, la nave volvió a hablar con normalidad."
-  },
-  {
-   "type": "quote",
-   "env": "space",
-   "seed": "sp35v",
-   "text": "Es como arreglar un coche a miles de millones de kilómetros",
-   "author": "Una forma de imaginarlo",
-   "emoji": "🔧",
-   "narration": "Piénsalo: reprogramar un ordenador de hace casi cincuenta años, que está a más de veinte mil millones de kilómetros, sin poder verlo, y con cada prueba tardando dos días."
-  },
-  {
-   "type": "title",
-   "kicker": "Escala Brutal",
-   "text": "El viaje que *no termina*",
-   "env": "space",
-   "emoji": "♾️",
-   "narration": "El viaje que no termina."
-  },
-  {
-   "type": "landscape",
-   "env": "night",
-   "seed": "ni36v",
-   "text": "Se queda sin *energía*",
-   "props": [
-    {
-     "emoji": "🔋",
-     "x": 40,
-     "y": 58,
-     "size": 140
-    },
-    {
-     "emoji": "📉",
-     "x": 66,
-     "y": 40,
-     "size": 120,
-     "anim": "fall"
-    }
-   ],
-   "narration": "La Voyager uno funciona con plutonio, que se desintegra muy despacio y da cada año un poco menos de energía. Por eso la NASA ha ido apagando instrumentos y calefactores, uno a uno, para alargar su vida."
-  },
-  {
-   "type": "stat",
-   "env": "ice",
-   "seed": "ic37v",
-   "value": 2030,
-   "suffix": "",
-   "emoji": "🗓️",
-   "label": "años en torno a los que se *apagará* (estimación)",
-   "narration": "Se calcula que en algún momento de los años dos mil treinta ya no tendrá energía para seguir hablando. Ese día, se callará para siempre. Pero no se parará."
-  },
-  {
-   "type": "landscape",
-   "env": "space",
-   "seed": "sp38v",
-   "text": "Hacia otra *estrella*",
-   "props": [
-    {
-     "emoji": "⭐",
-     "x": 65,
-     "y": 35,
-     "size": 140,
-     "anim": "float"
-    },
-    {
-     "emoji": "🛰️",
-     "x": 30,
-     "y": 58,
-     "size": 100,
-     "anim": "walk"
-    }
-   ],
-   "narration": "Seguirá viajando, en silencio, durante millones de años. Dentro de unos cuarenta mil años pasará a algo más de un año luz y medio de una estrella de la constelación de la Jirafa. Ni siquiera cerca: el espacio está casi vacío."
-  },
-  {
-   "type": "landscape",
-   "env": "desert",
-   "seed": "de39v",
-   "text": "Un mensaje *eterno*",
-   "props": [
-    {
-     "emoji": "💿",
-     "x": 45,
-     "y": 48,
-     "size": 170,
-     "anim": "spin"
-    },
-    {
-     "emoji": "🌍",
-     "x": 70,
-     "y": 66,
-     "size": 100
-    }
-   ],
-   "narration": "Y llevará consigo el disco de oro, con nuestro hola en español, probablemente mucho después de que la Tierra haya cambiado por completo. Es, quizá, el objeto más duradero que hemos hecho."
-  },
-  {
-   "type": "stat",
-   "env": "night",
-   "seed": "ni40v",
-   "value": 49,
-   "suffix": " años",
-   "emoji": "🛰️",
-   "label": "de viaje y *sigue* hablando",
-   "narration": "Cuarenta y nueve años. Lanzada cuando no existían los teléfonos móviles, y todavía hoy nos envía información desde un lugar al que nunca ha llegado nadie."
-  },
-  {
-   "type": "landscape",
-   "env": "sea",
-   "seed": "se40w",
-   "text": "Un récord que *crece*",
-   "props": [
-    {
-     "emoji": "📏",
-     "x": 40,
-     "y": 56,
-     "size": 140,
-     "anim": "rise"
-    },
-    {
-     "emoji": "🛰️",
-     "x": 66,
-     "y": 38,
-     "size": 110,
-     "anim": "walk"
-    }
-   ],
-   "narration": "Y su récord crece cada día. Cada año se aleja más de quinientos millones de kilómetros. Mientras ves este vídeo, se alejará otros diez mil kilómetros, más o menos lo que hay de Madrid a Tokio."
-  },
-  {
-   "type": "landscape",
-   "env": "space",
-   "seed": "sp41v",
-   "text": "¿Y tú qué *dirías*?",
-   "props": [
-    {
-     "emoji": "💬",
-     "x": 50,
-     "y": 48,
-     "size": 200,
-     "anim": "pop"
-    }
-   ],
-   "narration": "Una nave de los años setenta, más lenta que la luz, que pesa menos que un coche, que ha llegado más lejos que nada de lo que hemos construido. Si te ha gustado, suscríbete a Escala Brutal. Y cuéntame en los comentarios: si pudieras grabar un solo mensaje en el disco de oro, ¿qué dirías? Te leo."
-  }
- ]
+  ]
 }
