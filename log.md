@@ -82,3 +82,4 @@
 - a · 10:00 · "Aquí viven miles de personas MÁS ALTO que el Mont Blanc 🏔️" · YouTube + TikTok · id 429662779 · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-3715582481753291850
 - b · 12:00 · "Tus pulmones extendidos ocuparían un PISO entero 🫁" · YouTube + TikTok · id 429675997 · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=5067250035538150078
 - c · 18:00 · "Mañana LLUEVEN ESTRELLAS (y van a 71 km por SEGUNDO) ☄️" · YouTube + TikTok · id 429686087 · https://app.metricool.com/planner/calendar?blogId=8001188&openWithPostUuid=-7835024445140480570
+- L1 16:00 "La Voyager 1 está a punto de llegar a UN DÍA LUZ de la Tierra (49 años después)" — 10.7 min, Metricool id 429825084. Revisado frame-sheet + miniatura.
