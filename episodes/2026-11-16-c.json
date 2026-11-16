@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-16-c",
+  "format": "doc",
+  "title": "Mañana LLUEVEN ESTRELLAS (y van a 71 km por SEGUNDO) ☄️",
+  "description": "Las Leónidas tienen su máximo la noche del 17 al 18 de noviembre de 2026 (hacia las 0:45 hora peninsular, según el IGN). Son granos de polvo del cometa 55P/Tempel-Tuttle, que entran en la atmósfera a unos 71 km/s. En 1833 hubo una tormenta de decenas de miles de meteoros por hora; este año se esperan unos 10–15 por hora con cielo oscuro. La Luna se pone antes de medianoche, así que lo mejor es mirar de madrugada, lejos de las luces.\n\nFuentes: IGN (Observatorio Astronómico Nacional), Sociedad Internacional de Meteoros (IMO), NASA. Cifras aproximadas. Imágenes: Pixabay (ilustrativas). Video creado con ayuda de IA.",
+  "tags": [
+    "leonidas",
+    "lluvia de estrellas",
+    "estrellas fugaces",
+    "meteoros",
+    "astronomia",
+    "espacio"
+  ],
+  "credits": [
+    "Pixabay: Kanenori, doktorkleinmusic, Vimeo-Free-Videos, 49401671, redzy"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/06/03/283431_small.mp4",
+      "startFrom": 0,
+      "stamp": "Mañana *llueven estrellas*",
+      "narration": "Mañana por la noche, si miras al cielo, puedes ver estrellas fugaces. Son las Leónidas, y tienen truco."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/10/27/385491_small.mp4",
+      "startFrom": 0,
+      "stamp": "Restos de un *cometa*",
+      "narration": "No son estrellas. Son restos que dejó el cometa Tempel-Tuttle, que se acerca al Sol cada treinta y tres años."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2015/08/11/339-136013419_medium.mp4",
+      "startFrom": 0,
+      "stamp": "Como un *grano de arena*",
+      "narration": "Y la mayoría de esas piedrecitas no son más grandes que un grano de arena."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/07/18/292107_small.mp4",
+      "startFrom": 0,
+      "stamp": "*71 km* por segundo",
+      "narration": "Pero chocan con la atmósfera a unos setenta y un kilómetros por segundo. Más de doscientos cincuenta mil kilómetros por hora. Por eso arden y brillan."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/03/18/265584_large.mp4",
+      "startFrom": 0,
+      "stamp": "1833: *miles* por hora",
+      "narration": "En mil ochocientos treinta y tres hubo una auténtica tormenta: decenas de miles de meteoros en una sola hora. Este año serán muchos menos, unos quince por hora."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2023/10/20/185863-876579640_small.mp4",
+      "startFrom": 0,
+      "stamp": "Mira tras la *medianoche*",
+      "narration": "El mejor momento: la madrugada del martes al miércoles, después de medianoche y lejos de las luces. ¿Saldrás a verlas?"
+    }
+  ]
+}

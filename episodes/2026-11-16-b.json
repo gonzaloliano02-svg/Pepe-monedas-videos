@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-16-b",
+  "format": "doc",
+  "title": "Tus pulmones extendidos ocuparían un PISO entero 🫁",
+  "description": "Tus pulmones tienen unos 480 millones de alvéolos, pequeños sacos de aire donde el oxígeno pasa a la sangre. Si extendieras toda esa superficie, ocuparía unos 70 m², como un piso pequeño. Un adulto respira unas 20.000 veces al día y mueve alrededor de 10.000 litros de aire.\n\nFuentes: Ochs et al. (2004, American Journal of Respiratory and Critical Care Medicine) sobre el número de alvéolos; manuales de fisiología (superficie alveolar de unos 50–75 m²). Cifras aproximadas para un adulto en reposo. Imágenes: Pixabay. Video creado con ayuda de IA.",
+  "tags": [
+    "pulmones",
+    "alveolos",
+    "cuerpo humano",
+    "respiracion",
+    "ciencia",
+    "curiosidades"
+  ],
+  "credits": [
+    "Pixabay: WhiteHatDesigner, NickiAnimations, MoonpetalMedia, Engin_Akyurt, iddea_photo"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/06/10/357549_small.mp4",
+      "startFrom": 0,
+      "stamp": "*70 m²* dentro de ti",
+      "narration": "Dentro de tu pecho hay una superficie del tamaño de un piso entero. Y la usas ahora mismo."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2021/08/10/84548-585553769_large.mp4",
+      "startFrom": 0,
+      "stamp": "*480 millones* de alvéolos",
+      "narration": "Tus pulmones están hechos de cientos de millones de saquitos de aire, los alvéolos. Unos cuatrocientos ochenta millones, según los recuentos.",
+      "fit": "contain"
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/04/01/343925_large.mp4",
+      "startFrom": 0,
+      "stamp": "Como un *piso* de 70 m²",
+      "narration": "Si los abrieras y los extendieras en el suelo, ocuparían unos setenta metros cuadrados. Como un piso de dos habitaciones."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2023/11/21/190021-887039306_small.mp4",
+      "startFrom": 0,
+      "stamp": "*20.000* respiraciones al día",
+      "narration": "Por esa superficie pasa el oxígeno a tu sangre. Y lo haces unas veinte mil veces al día, sin pensarlo."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/01/22/253998_small.mp4",
+      "startFrom": 0,
+      "stamp": "*10.000 litros* de aire",
+      "narration": "Eso son alrededor de diez mil litros de aire cada día. Como para llenar unas cincuenta bañeras."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2021/08/09/84372-585180967_large.mp4",
+      "startFrom": 0,
+      "stamp": "¿Lo *sabías*?",
+      "narration": "Y todo eso te cabe en el pecho. ¿Qué órgano crees que es el más bestia de tu cuerpo?",
+      "fit": "contain"
+    }
+  ]
+}

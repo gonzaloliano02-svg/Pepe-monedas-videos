@@ -72,3 +72,10 @@
 - L1 16:00 "La tormenta solar que INCENDIÓ los telégrafos (1859)" — 10.5 min, Metricool id 428767864 (uuid -1653727423456195848). Revisado frame-sheet + miniatura.
 - L2 20:00 "¿Qué pasaría si la Tierra dejara de GIRAR? (el mapa cambiaría)" — v1 salió 9.9 min; añadidas 2 escenas (Marte/MAVEN, órbita geoestacionaria) y re-render → 10.4 min. Metricool id 428947170 (uuid -926137719485087399).
 - Comentarios: sin nuevos, 0 créditos vidIQ.
+
+## 2026-11-16 (lunes) — revisión semanal
+- Data (Windsor, last 7 days): every Short since 11-13 sits at ~950–1.100 views (Oymyakon 1.099, Tierra deja de girar 1.052, venas 1.040, Atacama 1.022, corazón 1.001, Sol se apaga 982, ADN 944 in <24 h). Older winners still lead: pueblo sin sol 1.518, Luna desaparece 1.435, ballena azul 1.413, cachalote 1.401. Losers: Gran Muralla (mito) 29, 11.11 dinero 58, megalodón 95, túnel 165, rascacielos ranking 207. Long-form: 1–3 views each (Tambora, Luna, Lituya, ranking lugares) → YouTube is not distributing long-form yet.
+- TikTok (Windsor): 11.117 account views in 7 days; per-video counts not reported yet.
+- Review: winners = lugares extremos, cuerpo a escala, ¿qué pasaría si…?, tiempo/espacio a escala (all steady ~1.000). Losers = mito o realidad, ranking 3D, dinero a escala, animales prehistóricos. Long-form: try current/search-driven topics (a real event this week) and evergreen search titles.
+- Comments: counts unchanged vs comments.md → 0 vidIQ credits.
+- Choice: a = Lugares extremos (La Rinconada, 5.100 m, más alto que el Mont Blanc); b = Tu cuerpo a escala (pulmones = 70 m², un piso); c = actualidad/espacio (Leónidas, máximo la noche del 17 al 18). L1 = documental actual: Voyager 1 llega a un día luz el 18-11-2026 (búsqueda + actualidad). L2 = ranking de los 8 animales más rápidos (evergreen, muy buscado).

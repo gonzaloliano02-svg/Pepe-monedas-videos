@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-16-a",
+  "format": "doc",
+  "title": "Aquí viven miles de personas MÁS ALTO que el Mont Blanc 🏔️",
+  "description": "La Rinconada, en la región de Puno (Perú), está a unos 5.100 metros de altitud y se considera el asentamiento permanente más alto del mundo: más alto que la cima del Mont Blanc (4.806 m). A esa altura la presión del aire es más o menos la mitad que a nivel del mar, hiela casi todas las noches y la vida gira alrededor de la minería de oro, en gran parte informal. Las cifras de población varían mucho según la fuente (de unos 7.000 en el censo a más de 30.000 en otras estimaciones).\n\nFuentes: INEI (censo de Perú), prensa y reportajes sobre La Rinconada. Cifras aproximadas. Imágenes: Pixabay (ilustrativas). Video creado con ayuda de IA.",
+  "tags": [
+    "la rinconada",
+    "pueblo mas alto del mundo",
+    "peru",
+    "andes",
+    "lugares extremos",
+    "curiosidades"
+  ],
+  "credits": [
+    "Pixabay: doktorkleinmusic, NatureOfLife, dbghale, BINGIL, QuinceCreative, voic"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/06/30/361617_small.mp4",
+      "startFrom": 0,
+      "stamp": "*5.100 m* de altura",
+      "narration": "Hay un pueblo donde miles de personas viven más alto que la cima del Mont Blanc."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2023/05/17/163356-827845451_large.mp4",
+      "startFrom": 0,
+      "stamp": "Mont Blanc: *4.806 m*",
+      "narration": "El Mont Blanc, el techo de los Alpes, mide unos cuatro mil ochocientos metros. Allí arriba casi nadie pasa ni una noche."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2023/03/08/153821-806526710_large.mp4",
+      "startFrom": 0,
+      "stamp": "La Rinconada: *5.100 m*",
+      "narration": "La Rinconada, en los Andes de Perú, está a unos cinco mil cien metros. Se considera el asentamiento permanente más alto del mundo."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/03/10/203660-921832585_large.mp4",
+      "startFrom": 0,
+      "stamp": "Solo *la mitad* de oxígeno",
+      "narration": "A esa altura, cada vez que respiras entra más o menos la mitad del oxígeno que junto al mar. Y casi todas las noches hiela."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2017/12/19/13476-248644895_large.mp4",
+      "startFrom": 0,
+      "stamp": "Todo por el *oro*",
+      "narration": "¿Y por qué vive alguien ahí? Por el oro. Casi todo el pueblo trabaja en minas, muchas de ellas informales."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/03/15/204326-923959262_small.mp4",
+      "startFrom": 0,
+      "stamp": "¿Tú *aguantarías*?",
+      "narration": "Las cifras de vecinos van de unos miles a decenas de miles, según quién cuente. ¿Tú aguantarías ahí arriba?"
+    }
+  ]
+}

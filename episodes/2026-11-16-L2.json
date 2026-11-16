@@ -1,0 +1,1036 @@
+{
+ "id": "2026-11-16-L2",
+ "format": "story",
+ "title": "Los 8 animales más RÁPIDOS del planeta (el nº1 supera los 300 km/h)",
+ "description": "",
+ "tags": [
+  "animales mas rapidos",
+  "halcon peregrino",
+  "guepardo",
+  "ranking",
+  "animales",
+  "velocidad",
+  "naturaleza",
+  "curiosidades"
+ ],
+ "thumbnail": {
+  "text": "Más de *300 km/h*",
+  "emoji": "🦅",
+  "env": "forest",
+  "kicker": "Top 8 animales"
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "kicker": "Escala Brutal · Rankings",
+   "text": "Los más *rápidos*",
+   "env": "forest",
+   "emoji": "🐆",
+   "narration": "Tú, corriendo al máximo, vas a unos quince o veinte kilómetros por hora. El ser humano más rápido de la historia llegó a unos cuarenta y cuatro. Y en la naturaleza, eso no es nada."
+  },
+  {
+   "type": "compare",
+   "env": "desert",
+   "seed": "de1r",
+   "text": "Tú contra el *más rápido*",
+   "items": [
+    {
+     "emoji": "🏃",
+     "label": "Tú (aprox.)",
+     "value": 18,
+     "display": "≈18 km/h"
+    },
+    {
+     "emoji": "🥇",
+     "label": "Usain Bolt",
+     "value": 44,
+     "display": "≈44 km/h"
+    },
+    {
+     "emoji": "🦅",
+     "label": "El nº1",
+     "value": 389,
+     "display": "¿?"
+    }
+   ],
+   "narration": "Hoy vamos a ver los ocho animales más rápidos del planeta, de menor a mayor. Y el número uno va tan rápido que, a su lado, un coche de Fórmula uno en recta parecería lento."
+  },
+  {
+   "type": "landscape",
+   "env": "city",
+   "seed": "ci2r",
+   "text": "Quédate hasta el *final*",
+   "props": [
+    {
+     "emoji": "⏱️",
+     "x": 40,
+     "y": 56,
+     "size": 150,
+     "anim": "pop"
+    },
+    {
+     "emoji": "🏆",
+     "x": 66,
+     "y": 40,
+     "size": 120,
+     "anim": "rise"
+    }
+   ],
+   "narration": "Por el camino hay un pez famoso por una velocidad que probablemente nunca tuvo, un pájaro que pasa diez meses sin aterrizar, y un bicho diminuto que, a nuestro tamaño, correría a más de dos mil kilómetros por hora. Empezamos."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni3r",
+   "text": "El punto de *partida*",
+   "props": [
+    {
+     "emoji": "🏃",
+     "x": 40,
+     "y": 66,
+     "size": 150,
+     "anim": "walk"
+    },
+    {
+     "emoji": "⚡",
+     "x": 68,
+     "y": 36,
+     "size": 110,
+     "anim": "shake"
+    }
+   ],
+   "narration": "Primero, nuestra referencia. En dos mil nueve, en Berlín, Usain Bolt corrió los cien metros en nueve coma cincuenta y ocho segundos. En su tramo más rápido iba a unos cuarenta y cuatro kilómetros por hora. Es el récord humano. Ahora mira lo que hay ahí fuera."
+  },
+  {
+   "type": "title",
+   "kicker": "Nº8",
+   "text": "El *galgo*",
+   "env": "forest",
+   "emoji": "🐕",
+   "narration": "Número ocho. El galgo."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo4r",
+   "text": "Hecho para *correr*",
+   "props": [
+    {
+     "emoji": "🐕",
+     "x": 35,
+     "y": 66,
+     "size": 160,
+     "anim": "walk"
+    },
+    {
+     "emoji": "💨",
+     "x": 65,
+     "y": 60,
+     "size": 110,
+     "anim": "float"
+    }
+   ],
+   "narration": "El galgo es el perro más rápido que existe, y de los primeros que domesticamos para cazar. Su cuerpo es casi todo pecho y piernas: un corazón grande, poca grasa y una columna que se dobla como un muelle."
+  },
+  {
+   "type": "stat",
+   "env": "desert",
+   "seed": "de5r",
+   "value": 70,
+   "suffix": " km/h",
+   "emoji": "🐕",
+   "label": "velocidad máxima de un *galgo*",
+   "narration": "Puede llegar a unos setenta kilómetros por hora. En cada zancada hay dos momentos en los que vuela, con las cuatro patas en el aire. Así corren también los guepardos."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se6r",
+   "text": "Una historia *antigua*",
+   "props": [
+    {
+     "emoji": "🏺",
+     "x": 38,
+     "y": 60,
+     "size": 140
+    },
+    {
+     "emoji": "🐕",
+     "x": 64,
+     "y": 62,
+     "size": 120,
+     "anim": "walk"
+    }
+   ],
+   "narration": "Perros muy parecidos ya aparecen pintados en el antiguo Egipto. Llevamos miles de años criándolos para una sola cosa: correr. Y aun así, es solo el octavo de la lista."
+  },
+  {
+   "type": "title",
+   "kicker": "Nº7",
+   "text": "El *avestruz*",
+   "env": "desert",
+   "emoji": "🦤",
+   "narration": "Número siete. El avestruz."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de7r",
+   "text": "El pájaro que no *vuela*",
+   "props": [
+    {
+     "emoji": "🦤",
+     "x": 40,
+     "y": 62,
+     "size": 180,
+     "anim": "walk"
+    },
+    {
+     "emoji": "🌵",
+     "x": 72,
+     "y": 66,
+     "size": 100
+    }
+   ],
+   "narration": "El avestruz no puede volar, pero no le hace falta. Es el ave más grande del mundo, puede medir más de dos metros y medio de alto y pesar más de cien kilos."
+  },
+  {
+   "type": "stat",
+   "env": "forest",
+   "seed": "fo8r",
+   "value": 70,
+   "suffix": " km/h",
+   "emoji": "🦤",
+   "label": "el animal de *dos patas* más rápido",
+   "narration": "Corre a unos setenta kilómetros por hora, como el galgo. Pero con solo dos patas. Es el animal bípedo más rápido del planeta, y ninguna otra ave corre tanto."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "st9r",
+   "text": "Zancadas *gigantes*",
+   "props": [
+    {
+     "emoji": "🦶",
+     "x": 36,
+     "y": 64,
+     "size": 140,
+     "anim": "pop"
+    },
+    {
+     "emoji": "📏",
+     "x": 64,
+     "y": 44,
+     "size": 120
+    }
+   ],
+   "narration": "El secreto está en sus zancadas: en carrera puede avanzar más de tres metros con cada paso. Y aguanta: puede mantener unos cincuenta kilómetros por hora durante bastante rato. Una patada suya, por cierto, puede ser mortal."
+  },
+  {
+   "type": "stat",
+   "env": "sea",
+   "seed": "se9x",
+   "value": 1.4,
+   "suffix": " kg",
+   "emoji": "🥚",
+   "label": "pesa un huevo de *avestruz* (aprox.)",
+   "narration": "Y otro récord: pone los huevos más grandes de cualquier ave viva. Uno solo pesa alrededor de un kilo y medio, como unos veinte o veinticinco huevos de gallina juntos. Para hacer una tortilla, sobra gente."
+  },
+  {
+   "type": "title",
+   "kicker": "Nº6",
+   "text": "El *berrendo*",
+   "env": "ice",
+   "emoji": "🦌",
+   "narration": "Número seis. El berrendo."
+  },
+  {
+   "type": "map",
+   "kicker": "Norteamérica",
+   "text": "Las praderas del *berrendo*",
+   "from": {
+    "lon": -100,
+    "lat": 45,
+    "zoom": 2.2
+   },
+   "to": {
+    "lon": -107,
+    "lat": 42,
+    "zoom": 3.5
+   },
+   "highlight": [
+    "United States of America",
+    "Canada",
+    "Mexico"
+   ],
+   "markers": [
+    {
+     "lon": -107,
+     "lat": 42,
+     "label": "Praderas",
+     "emoji": "🦌"
+    }
+   ],
+   "narration": "Seguramente nunca has oído hablar de él. El berrendo vive en las praderas de Norteamérica. Parece un antílope, aunque no lo es: es el último superviviente de una familia muy antigua."
+  },
+  {
+   "type": "stat",
+   "env": "ice",
+   "seed": "ic10r",
+   "value": 88,
+   "suffix": " km/h",
+   "emoji": "🦌",
+   "label": "velocidad máxima del *berrendo*",
+   "narration": "Puede llegar a unos ochenta y ocho kilómetros por hora. Pero lo increíble no es eso: es que puede mantener una velocidad altísima durante kilómetros, algo que ningún guepardo podría hacer."
+  },
+  {
+   "type": "stat",
+   "env": "sea",
+   "seed": "se10y",
+   "value": 250,
+   "suffix": " km",
+   "emoji": "🧭",
+   "label": "de migración del *berrendo* (más de)",
+   "narration": "Además, algunos berrendos hacen cada año una de las migraciones por tierra más largas de Estados Unidos: más de doscientos cincuenta kilómetros entre sus pastos de verano y de invierno, cruzando montañas y carreteras."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni11r",
+   "text": "¿Huye de un *fantasma*?",
+   "props": [
+    {
+     "emoji": "👻",
+     "x": 40,
+     "y": 40,
+     "size": 140,
+     "anim": "float"
+    },
+    {
+     "emoji": "🦌",
+     "x": 66,
+     "y": 64,
+     "size": 130,
+     "anim": "walk"
+    }
+   ],
+   "narration": "Y aquí viene el misterio. En Norteamérica hoy no hay ningún depredador que pueda alcanzarlo. Una hipótesis dice que es tan rápido porque, hace miles de años, allí vivía un felino parecido al guepardo que hoy está extinguido. El berrendo seguiría huyendo de un fantasma."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de11x",
+   "text": "Cuernos de *quita y pon*",
+   "props": [
+    {
+     "emoji": "🦌",
+     "x": 40,
+     "y": 62,
+     "size": 150
+    },
+    {
+     "emoji": "🔄",
+     "x": 66,
+     "y": 38,
+     "size": 110,
+     "anim": "spin"
+    }
+   ],
+   "narration": "Por cierto, tiene otra rareza única: la funda de sus cuernos se cae y le vuelve a crecer cada año. Ningún otro animal del mundo hace eso."
+  },
+  {
+   "type": "title",
+   "kicker": "Nº5",
+   "text": "El *guepardo*",
+   "env": "desert",
+   "emoji": "🐆",
+   "narration": "Número cinco. El guepardo."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de12r",
+   "text": "El rey de la *tierra*",
+   "props": [
+    {
+     "emoji": "🐆",
+     "x": 40,
+     "y": 64,
+     "size": 180,
+     "anim": "walk"
+    },
+    {
+     "emoji": "🌳",
+     "x": 72,
+     "y": 56,
+     "size": 120
+    }
+   ],
+   "narration": "El guepardo es el animal terrestre más rápido. Es pura máquina de correr: cabeza pequeña, cuerpo ligero, una cola larga que le sirve de timón y uñas que no esconde del todo, como los tacos de una zapatilla."
+  },
+  {
+   "type": "stat",
+   "env": "forest",
+   "seed": "fo13r",
+   "value": 100,
+   "suffix": " km/h",
+   "emoji": "🐆",
+   "label": "aproximadamente, su punta de *velocidad*",
+   "narration": "Se suele hablar de unos cien kilómetros por hora o algo más. En un estudio con guepardos salvajes con collares GPS, la punta medida fue de unos noventa y tres. Y acelera como un deportivo."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "st14r",
+   "text": "Un sprint *corto*",
+   "props": [
+    {
+     "emoji": "🔥",
+     "x": 36,
+     "y": 50,
+     "size": 140,
+     "anim": "rise"
+    },
+    {
+     "emoji": "🐆",
+     "x": 64,
+     "y": 64,
+     "size": 140
+    }
+   ],
+   "narration": "Pero tiene un precio. Solo aguanta ese ritmo unos cientos de metros. Después tiene que parar a recuperarse, y muchas veces otro depredador, como un león o una hiena, aprovecha para robarle la presa."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "ni14x",
+   "value": 7000,
+   "suffix": "",
+   "emoji": "🐆",
+   "label": "guepardos quedan en *libertad* (aprox.)",
+   "narration": "Y por desgracia, cada vez quedan menos. Se calcula que en libertad sobreviven unos siete mil guepardos, la mayoría en el sur y el este de África. Hace un siglo eran muchísimos más."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo14y",
+   "text": "No *ruge*",
+   "props": [
+    {
+     "emoji": "🐆",
+     "x": 40,
+     "y": 62,
+     "size": 150
+    },
+    {
+     "emoji": "🎵",
+     "x": 66,
+     "y": 38,
+     "size": 110,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Y una curiosidad: a pesar de ser un gran felino, el guepardo no puede rugir. Ronronea como un gato doméstico y se comunica con unos chillidos agudos que parecen de pájaro."
+  },
+  {
+   "type": "compare",
+   "env": "sea",
+   "seed": "se15r",
+   "text": "Hasta *aquí*, en tierra",
+   "items": [
+    {
+     "emoji": "🏃",
+     "label": "Bolt",
+     "value": 44,
+     "display": "44"
+    },
+    {
+     "emoji": "🐕",
+     "label": "Galgo",
+     "value": 70,
+     "display": "70"
+    },
+    {
+     "emoji": "🦌",
+     "label": "Berrendo",
+     "value": 88,
+     "display": "88"
+    },
+    {
+     "emoji": "🐆",
+     "label": "Guepardo",
+     "value": 100,
+     "display": "≈100"
+    }
+   ],
+   "narration": "Hasta aquí, los campeones de tierra firme. A partir de ahora, el ranking se va al aire. Pero antes, un desvío por el mar, porque hay un pez con una fama que no merece."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se16r",
+   "text": "El mito del *pez vela*",
+   "props": [
+    {
+     "emoji": "🐟",
+     "x": 40,
+     "y": 56,
+     "size": 170,
+     "anim": "walk"
+    },
+    {
+     "emoji": "❓",
+     "x": 68,
+     "y": 36,
+     "size": 110,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Durante décadas se repitió que el pez vela nadaba a unos ciento diez kilómetros por hora. El dato venía de pruebas antiguas con caña de pescar, midiendo la velocidad a la que soltaba el sedal."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "ni17r",
+   "value": 30,
+   "suffix": " km/h",
+   "emoji": "🐟",
+   "label": "aprox. en ataques *medidos* de pez vela",
+   "narration": "Cuando los científicos midieron de verdad sus ataques, los resultados fueron mucho más modestos: alrededor de treinta kilómetros por hora. Rápido para un pez, sí. Pero ni de lejos un cohete. Con el marlín pasa algo parecido: las cifras famosas no se sostienen. Por eso no entran en la lista."
+  },
+  {
+   "type": "title",
+   "kicker": "Nº4",
+   "text": "El *vencejo*",
+   "env": "sea",
+   "emoji": "🐦",
+   "narration": "Número cuatro. El vencejo."
+  },
+  {
+   "type": "landscape",
+   "env": "city",
+   "seed": "ci18r",
+   "text": "El pájaro de tu *ciudad*",
+   "props": [
+    {
+     "emoji": "🐦",
+     "x": 40,
+     "y": 40,
+     "size": 140,
+     "anim": "float"
+    },
+    {
+     "emoji": "🏙️",
+     "x": 64,
+     "y": 66,
+     "size": 150
+    }
+   ],
+   "narration": "Seguro que los has visto en verano: esos pájaros oscuros que pasan chillando a toda velocidad entre los edificios. Son vencejos. Su nombre científico, Apus, significa sin pies, porque casi nunca se les ve posados. Y son unos atletas increíbles."
+  },
+  {
+   "type": "stat",
+   "env": "desert",
+   "seed": "de19r",
+   "value": 111,
+   "suffix": " km/h",
+   "emoji": "🐦",
+   "label": "medidos en vuelo *horizontal*",
+   "narration": "Unos investigadores suecos midieron con radar vencejos en vuelo horizontal, sin tirarse en picado, y registraron unos ciento once kilómetros por hora. Eso es volar más rápido que un coche en la autopista."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic20r",
+   "text": "Diez meses sin *aterrizar*",
+   "props": [
+    {
+     "emoji": "☁️",
+     "x": 36,
+     "y": 36,
+     "size": 140,
+     "anim": "float"
+    },
+    {
+     "emoji": "🐦",
+     "x": 64,
+     "y": 52,
+     "size": 120,
+     "anim": "walk"
+    }
+   ],
+   "narration": "Pero lo más loco es otra cosa. Algunos vencejos pasan unos diez meses seguidos en el aire, sin posarse ni una vez. Comen volando, beben volando y se cree que incluso duermen volando."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se20x",
+   "text": "Mensajeros del *verano*",
+   "props": [
+    {
+     "emoji": "☀️",
+     "x": 36,
+     "y": 34,
+     "size": 130
+    },
+    {
+     "emoji": "🐦",
+     "x": 64,
+     "y": 56,
+     "size": 120,
+     "anim": "walk"
+    }
+   ],
+   "narration": "En España llegan en primavera y se marchan a finales del verano, rumbo a África. Un vencejo pesa unos cuarenta gramos, menos que una pila grande, y aun así cruza continentes dos veces al año."
+  },
+  {
+   "type": "title",
+   "kicker": "Nº3",
+   "text": "El *murciélago*",
+   "env": "night",
+   "emoji": "🦇",
+   "narration": "Número tres. El murciélago."
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "ni21r",
+   "text": "Millones en una *cueva*",
+   "props": [
+    {
+     "emoji": "🦇",
+     "x": 40,
+     "y": 40,
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "emoji": "🌙",
+     "x": 68,
+     "y": 30,
+     "size": 110
+    }
+   ],
+   "narration": "El murciélago rabudo mexicano vive en colonias enormes, de millones de individuos, en cuevas del sur de Estados Unidos y México. Cada noche salen en columnas que se ven desde los radares meteorológicos."
+  },
+  {
+   "type": "stat",
+   "env": "desert",
+   "seed": "de21x",
+   "value": 10,
+   "suffix": " millones",
+   "emoji": "🦇",
+   "label": "de murciélagos en una sola *cueva* (más de)",
+   "narration": "En una sola cueva de Texas, la cueva Bracken, viven más de diez millones en verano. Es la mayor colonia de murciélagos conocida. Cuando salen al anochecer, tardan horas en salir todos."
+  },
+  {
+   "type": "stat",
+   "env": "storm",
+   "seed": "st22r",
+   "value": 160,
+   "suffix": " km/h",
+   "emoji": "🦇",
+   "label": "velocidad horizontal medida en *2016*",
+   "narration": "En dos mil dieciséis, un estudio les siguió con pequeños transmisores y registró picos de unos ciento sesenta kilómetros por hora en vuelo horizontal. Si se confirma, sería el récord de vuelo horizontal de cualquier animal."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo23r",
+   "text": "Con *cautela*",
+   "props": [
+    {
+     "emoji": "🔬",
+     "x": 38,
+     "y": 56,
+     "size": 140
+    },
+    {
+     "emoji": "❓",
+     "x": 66,
+     "y": 38,
+     "size": 110,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Algunos científicos piden más mediciones, porque el viento pudo ayudar. Pero incluso siendo prudentes, es increíble que un animal de unos doce gramos vuele así."
+  },
+  {
+   "type": "landscape",
+   "env": "city",
+   "seed": "ci26x",
+   "text": "Cazar *con* águilas",
+   "props": [
+    {
+     "emoji": "🦅",
+     "x": 40,
+     "y": 40,
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "emoji": "🐎",
+     "x": 66,
+     "y": 64,
+     "size": 140,
+     "anim": "walk"
+    }
+   ],
+   "narration": "Es tan buena cazadora que en las montañas de Asia central, en lugares como Mongolia, todavía hay familias que cazan zorros con águilas reales entrenadas, una tradición que se transmite de padres a hijos desde hace siglos."
+  },
+  {
+   "type": "title",
+   "kicker": "Nº2",
+   "text": "El *águila real*",
+   "env": "ice",
+   "emoji": "🦅",
+   "narration": "Número dos. El águila real."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "ic24r",
+   "text": "La reina de la *montaña*",
+   "props": [
+    {
+     "emoji": "🦅",
+     "x": 40,
+     "y": 36,
+     "size": 170,
+     "anim": "float"
+    },
+    {
+     "emoji": "🏔️",
+     "x": 66,
+     "y": 64,
+     "size": 170
+    }
+   ],
+   "narration": "El águila real vive en montañas de casi todo el hemisferio norte, también en España. Con las alas abiertas puede medir más de dos metros."
+  },
+  {
+   "type": "stat",
+   "env": "desert",
+   "seed": "de25r",
+   "value": 240,
+   "suffix": " km/h",
+   "emoji": "🦅",
+   "label": "en picado, según las estimaciones",
+   "narration": "Cuando ve una presa, pliega las alas y se lanza en picado. Las estimaciones hablan de más de doscientos cuarenta kilómetros por hora. Su presa casi nunca la ve llegar. Y si falla, vuelve a subir y lo intenta otra vez."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "fo26r",
+   "text": "Ojos de *precisión*",
+   "props": [
+    {
+     "emoji": "👁️",
+     "x": 40,
+     "y": 46,
+     "size": 150,
+     "anim": "pop"
+    },
+    {
+     "emoji": "🐇",
+     "x": 66,
+     "y": 66,
+     "size": 110,
+     "anim": "walk"
+    }
+   ],
+   "narration": "Y para apuntar a esa velocidad, tiene una vista brutal: puede distinguir un conejo a más de un kilómetro y medio de distancia."
+  },
+  {
+   "type": "title",
+   "kicker": "Nº1",
+   "text": "El *halcón peregrino*",
+   "env": "space",
+   "emoji": "🦅",
+   "narration": "Y llegamos al número uno. No vive en la sabana ni en el océano, puede que viva en tu ciudad, y es el animal más rápido del planeta. El halcón peregrino."
+  },
+  {
+   "type": "landscape",
+   "env": "city",
+   "seed": "ci27r",
+   "text": "En todas *partes*",
+   "props": [
+    {
+     "emoji": "🦅",
+     "x": 40,
+     "y": 36,
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "emoji": "🏙️",
+     "x": 66,
+     "y": 66,
+     "size": 160
+    }
+   ],
+   "narration": "El halcón peregrino vive en todos los continentes menos la Antártida. Y muchos se han mudado a las ciudades: anidan en rascacielos y catedrales, y cazan palomas entre los edificios. Se llama peregrino porque los cetreros antiguos capturaban a los jóvenes cuando estaban de paso, en plena migración."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "ni28r",
+   "value": 389,
+   "suffix": " km/h",
+   "emoji": "🦅",
+   "label": "el picado más rápido *medido*",
+   "narration": "En picado supera con facilidad los trescientos kilómetros por hora. El récord más citado, medido a un halcón entrenado que se lanzaba junto a un paracaidista, es de unos trescientos ochenta y nueve."
+  },
+  {
+   "type": "compare",
+   "env": "space",
+   "seed": "sp29r",
+   "text": "A su *lado*",
+   "items": [
+    {
+     "emoji": "🚄",
+     "label": "AVE",
+     "value": 300,
+     "display": "≈300"
+    },
+    {
+     "emoji": "🏎️",
+     "label": "F1 en recta",
+     "value": 350,
+     "display": "≈350"
+    },
+    {
+     "emoji": "🦅",
+     "label": "Halcón en picado",
+     "value": 389,
+     "display": "≈389"
+    }
+   ],
+   "narration": "Para que te hagas una idea: más rápido que un tren de alta velocidad, y más que un Fórmula uno en las rectas más largas."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "st30r",
+   "text": "Cómo *aguanta*",
+   "props": [
+    {
+     "emoji": "👁️",
+     "x": 36,
+     "y": 46,
+     "size": 140
+    },
+    {
+     "emoji": "💨",
+     "x": 64,
+     "y": 56,
+     "size": 130,
+     "anim": "shake"
+    }
+   ],
+   "narration": "Para aguantarlo, tiene un tercer párpado transparente que le protege los ojos del viento, y unos pequeños conos en la nariz que, según se cree, frenan el aire para que pueda respirar a esa velocidad."
+  },
+  {
+   "type": "timeline",
+   "env": "forest",
+   "seed": "fo31r",
+   "text": "Casi *desaparece*",
+   "points": [
+    {
+     "year": "1950s",
+     "label": "Empieza a usarse el DDT",
+     "emoji": "🧪"
+    },
+    {
+     "year": "1970s",
+     "label": "Se prohíbe en muchos países",
+     "emoji": "🚫"
+    },
+    {
+     "year": "Hoy",
+     "label": "Se ha recuperado",
+     "emoji": "📈"
+    }
+   ],
+   "narration": "Y casi lo perdemos. A mediados del siglo veinte, un insecticida, el DDT, hizo que sus huevos tuvieran la cáscara tan fina que se rompían. En muchas zonas desapareció. Al prohibirlo, el halcón volvió."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se31x",
+   "text": "Un aliado en los *aeropuertos*",
+   "props": [
+    {
+     "emoji": "✈️",
+     "x": 38,
+     "y": 40,
+     "size": 140,
+     "anim": "walk"
+    },
+    {
+     "emoji": "🦅",
+     "x": 66,
+     "y": 56,
+     "size": 120,
+     "anim": "float"
+    }
+   ],
+   "narration": "Hoy incluso trabaja para nosotros. En muchos aeropuertos, también en España, se usan halcones y otras rapaces para espantar a las bandadas de pájaros que podrían chocar con los aviones."
+  },
+  {
+   "type": "title",
+   "kicker": "Bonus",
+   "text": "El *más rápido* a su escala",
+   "env": "sea",
+   "emoji": "🔬",
+   "narration": "Y un bonus. El más rápido, si tuviera tu tamaño."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de32r",
+   "text": "Un ácaro *imparable*",
+   "props": [
+    {
+     "emoji": "🔬",
+     "x": 36,
+     "y": 50,
+     "size": 140
+    },
+    {
+     "emoji": "🐜",
+     "x": 64,
+     "y": 64,
+     "size": 90,
+     "anim": "walk"
+    }
+   ],
+   "narration": "En dos mil catorce, unos investigadores filmaron un ácaro de California, más pequeño que una semilla de sésamo, corriendo sobre rocas calientes. Recorría unas trescientas veinte veces su longitud cada segundo."
+  },
+  {
+   "type": "stat",
+   "env": "space",
+   "seed": "sp33r",
+   "value": 2000,
+   "suffix": " km/h",
+   "emoji": "🚀",
+   "label": "a escala *humana* (más de)",
+   "narration": "Si una persona hiciera lo mismo con su propio tamaño, correría a más de dos mil kilómetros por hora. Más rápido que el sonido. Con mucha diferencia, el atleta más bestia del planeta, a su escala."
+  },
+  {
+   "type": "title",
+   "kicker": "Escala Brutal",
+   "text": "La *velocidad* lo es todo",
+   "env": "forest",
+   "emoji": "🏁",
+   "narration": "La velocidad lo es todo."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "se34r",
+   "text": "Cazar o *huir*",
+   "props": [
+    {
+     "emoji": "🐆",
+     "x": 36,
+     "y": 62,
+     "size": 140,
+     "anim": "walk"
+    },
+    {
+     "emoji": "🦌",
+     "x": 66,
+     "y": 62,
+     "size": 130,
+     "anim": "walk"
+    }
+   ],
+   "narration": "En la naturaleza, la velocidad no es un deporte. Es la diferencia entre comer o no comer, entre escapar o no escapar. Cada animal de esta lista ha llegado hasta aquí en una carrera que dura millones de años."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "de34x",
+   "text": "Nuestro *truco*",
+   "props": [
+    {
+     "emoji": "🏃",
+     "x": 38,
+     "y": 62,
+     "size": 140,
+     "anim": "walk"
+    },
+    {
+     "emoji": "💧",
+     "x": 64,
+     "y": 40,
+     "size": 110,
+     "anim": "pop"
+    }
+   ],
+   "narration": "¿Y nosotros? No somos rápidos, pero tenemos un truco: aguantamos. Sudamos para enfriarnos y podemos correr durante horas. Hay pueblos que todavía cazan así, siguiendo a la presa hasta que se agota."
+  },
+  {
+   "type": "compare",
+   "env": "night",
+   "seed": "ni35r",
+   "text": "El *ranking* completo",
+   "items": [
+    {
+     "emoji": "🐕",
+     "label": "Galgo",
+     "value": 70,
+     "display": "70"
+    },
+    {
+     "emoji": "🐆",
+     "label": "Guepardo",
+     "value": 100,
+     "display": "≈100"
+    },
+    {
+     "emoji": "🐦",
+     "label": "Vencejo",
+     "value": 111,
+     "display": "111"
+    },
+    {
+     "emoji": "🦇",
+     "label": "Murciélago",
+     "value": 160,
+     "display": "≈160"
+    },
+    {
+     "emoji": "🦅",
+     "label": "Águila real",
+     "value": 240,
+     "display": "240+"
+    },
+    {
+     "emoji": "🦅",
+     "label": "Halcón",
+     "value": 389,
+     "display": "389"
+    }
+   ],
+   "narration": "Así queda el ranking: del galgo al halcón peregrino. Y nosotros, con nuestros cuarenta y cuatro kilómetros por hora de récord, ni siquiera entraríamos en la lista."
+  },
+  {
+   "type": "landscape",
+   "env": "city",
+   "seed": "ci36r",
+   "text": "¿Cuál te *sorprendió*?",
+   "props": [
+    {
+     "emoji": "💬",
+     "x": 50,
+     "y": 48,
+     "size": 200,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Si te ha gustado, suscríbete a Escala Brutal. Y cuéntame en los comentarios: ¿cuál te ha sorprendido más? ¿Y qué otro ranking quieres ver? Te leo."
+  }
+ ]
+}

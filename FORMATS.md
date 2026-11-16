@@ -37,12 +37,21 @@ only animal sizes. Mix formats every day.
 | Récords del planeta | Extremes of nature | El rayo más largo registrado |
 | Historia a escala | Historical facts with surprising scale | Cleopatra está más cerca del iPhone que de las pirámides |
 
+## Weekly review 2026-11-16
+- Steady winners (~1.000 views each in <24 h): Lugares extremos, Tu cuerpo a
+  escala, ¿Qué pasaría si...?, Tiempo/espacio a escala. Keep them as the base.
+- Retired for now: **Mito o realidad** (29 views), **Ranking 3D skyline**
+  (207), **Dinero a escala** (58). Animales prehistóricos (megalodón 95) paused.
+- Long-form gets 1–3 views: lean on current events (Voyager 1 a un día luz)
+  and evergreen search titles (rankings of animals, places).
+
 ## Tested (waiting for data)
-- **Mito o realidad** (2026-11-11-c, Gran Muralla)
-- **Ranking cuenta atrás** with the 3D skyline (2026-11-12-c, rascacielos)
+- **Actualidad astronómica** (2026-11-16-c, Leónidas)
 
 ## To test (experimental slot)
 - **Antes vs ahora** (how something changed in scale over time)
 - **Lo que pasa en 1 segundo en el mundo**
 - **Adivina cuál es más grande** (two options, pause, reveal)
 - **Precio real de...** (what something really costs to make or run)
+- **Si tuviera tu tamaño** (animal/insect abilities scaled to a human)
+- **Cuánto cabe en...** (people/objects that fit in a famous place)
