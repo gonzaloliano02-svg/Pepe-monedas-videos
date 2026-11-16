@@ -85,3 +85,18 @@
 - L1 16:00 "La Voyager 1 está a punto de llegar a UN DÍA LUZ de la Tierra (49 años después)" — 10.7 min, Metricool id 429825084. Revisado frame-sheet + miniatura.
 - L2 20:00 "Los 8 animales más RÁPIDOS del planeta (el nº1 supera los 300 km/h)" — 10.6 min, Metricool id 430048141. Revisado frame-sheet + miniatura (el 1395 era el contador animándose hacia 7.000; OK).
 - Día completo: 5/5 programados. Comentarios: 0 nuevos, 0 créditos.
+
+### 2026-11-16 14:10 — INCIDENCIA: Metricool al límite
+- El dueño avisa: ni ayer ni hoy se publicó nada. Causa: Metricool (plan gratis) devolvió "You have reached your Metricool account limit" para todo desde el 15-11 12:00 (el 15-11 10:00 sí salió). Yo no verifiqué el estado tras programar: error mío.
+- Solución: YouTube ahora vía vidIQ (gratis, 0 créditos). Ver "PUBLISHING CHANGE" en PIPELINE.md. Rutina diaria actualizada (verificar ayer primero).
+- Subidos a YouTube vía vidIQ:
+  - 16-a La Rinconada: publicado 14:15 https://www.youtube.com/watch?v=YjrZqeKS6E8
+  - 16-b Pulmones 15:00 https://www.youtube.com/watch?v=QRA0GkDQXmo
+  - 16-L1 Voyager 16:00 https://www.youtube.com/watch?v=LWqdyWbpcAs
+  - 16-c Leónidas 18:00 https://www.youtube.com/watch?v=qA4pXldxueo
+  - 16-L2 Animales rápidos 20:00 https://www.youtube.com/watch?v=UHzQ21325ag
+  - 15-b Marte → 17-11 10:00 https://www.youtube.com/watch?v=rRPqhu5RQp4
+  - 15-c Millón de segundos → 17-11 12:00 https://www.youtube.com/watch?v=WGPDmUNprbg
+  - 15-L1 Tormenta solar → 17-11 16:00 https://www.youtube.com/watch?v=oUa40khS3x0
+  - 15-L2 Tierra deja de girar → 17-11 20:00 https://www.youtube.com/watch?v=5O0IlW4UYQc
+- TikTok: sin publicar desde el 15-11 12:00; necesita conectar TikTok en vidIQ o mejorar Metricool.

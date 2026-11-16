@@ -4,6 +4,21 @@ The owner of this repo has authorised fully automated creation and
 publication of 3 Shorts per day to their YouTube channel and their TikTok,
 through Metricool (brand blogId `8001188`, timezone Europe/Madrid).
 
+**PUBLISHING CHANGE (2026-11-16): Metricool's free plan hit its limit on
+2026-11-15 ("You have reached your Metricool account limit"): every post
+from 15-11 12:00 onward failed silently. YouTube now goes through vidIQ
+(free, 0 credits):** `vidiq_video_upload` with `url` = the
+raw.githubusercontent media URL → `vidiq_upload_image` for the long-form
+thumbnail → `vidiq_social_post_draft_create` (YOUTUBE, platformAccountId
+`UCSqBNpq50sQpp0j75z8nxNw`, privacyStatus public, categoryId 27, tags,
+publishAt with +01:00, text = description) → `vidiq_social_post_publish`
+(standing approval covers it) → `vidiq_social_post_status` until completed.
+Shorts are recognised automatically (vertical, <60 s). TikTok is NOT
+possible until the owner connects TikTok in vidIQ or upgrades Metricool.
+Do not schedule in Metricool while it is at its limit (it would only fail).
+**Every run must first check that yesterday's posts actually went live**
+(Windsor YouTube list / vidIQ post status) and report any failure.
+
 **Autonomy (owner, 2026-11-11 and 2026-11-12): "Ahórrate pedirme permisos
 para nada, yo te lo autorizo todo siempre, y si cambio de opinión te lo
 diré."** Never ask for permission: decide and act (topics, formats,
