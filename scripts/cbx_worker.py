@@ -17,6 +17,12 @@ import torch, torchaudio
 from chatterbox.mtl_tts import ChatterboxMultilingualTTS
 
 m = ChatterboxMultilingualTTS.from_pretrained(device="cpu")
+# Optional cloned voice: CBX_REF=path/to/ref.wav (e.g. voices/owner/ref.wav).
+# Without it, the model's default voice (voice A/C) is used.
+EXAG = float(os.environ.get("CBX_EXAG", "0.6"))
+CFG = float(os.environ.get("CBX_CFG", "0.4"))
+if os.environ.get("CBX_REF"):
+    m.prepare_conditionals(os.environ["CBX_REF"], exaggeration=EXAG)
 import numpy as np, scipy.signal as ss, unicodedata
 from faster_whisper import WhisperModel
 asr = WhisperModel("small", device="cpu", compute_type="int8")
@@ -77,7 +83,7 @@ for line in sys.stdin:
         best, best_cov = None, -99
         for attempt in range(4):  # QA: regenerate if words are missing (truncation/garbling)
             torch.manual_seed(1 + i + 1000 * attempt)
-            w = trim(m.generate(c, language_id="es", exaggeration=0.6, cfg_weight=0.4, temperature=0.75))
+            w = trim(m.generate(c, language_id="es", exaggeration=EXAG, cfg_weight=CFG, temperature=0.75))
             cov = coverage(w, c)
             if cov > best_cov:
                 best, best_cov = w, cov
