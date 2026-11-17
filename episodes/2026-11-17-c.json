@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-17-c",
+  "format": "doc",
+  "title": "¿Y si TODA la humanidad viviera tan apretada como en Manhattan? 🏙️",
+  "description": "En Manhattan viven unas 28.800 personas por kilómetro cuadrado (censo de EE. UU. de 2020: 1,69 millones de habitantes en unos 59 km²). Si los más de 8.000 millones de personas del planeta viviéramos con esa misma densidad, cabríamos en unos 285.000 km²: algo más de la mitad de España (unos 506.000 km²). El resto de la tierra firme, casi 150 millones de km², quedaría vacío. Eso sí: esa megaciudad no podría alimentarse sola; los campos, el agua y la energía seguirían necesitando gran parte del planeta.\n\nFuentes: U.S. Census Bureau (censo 2020), Naciones Unidas (población mundial), INE (superficie de España). Escenario hipotético; cifras aproximadas. Imágenes: Pixabay (ilustrativas). Video creado con ayuda de IA.",
+  "tags": [
+    "que pasaria si",
+    "manhattan",
+    "poblacion mundial",
+    "densidad de poblacion",
+    "escala",
+    "curiosidades"
+  ],
+  "credits": [
+    "Pixabay: TheWorldOfPicture, Coverr-Free-Footage, yourdreamclips, alexleonleon, Radds, Solarselle77"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2023/01/17/146892-790222917_small.mp4",
+      "startFrom": 0,
+      "stamp": "¿Y si *todos* viviéramos así?",
+      "narration": "¿Y si toda la humanidad viviera tan apretada como en Manhattan? ¿Cuánto sitio necesitaríamos?"
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2016/06/27/3627-172488393_large.mp4",
+      "startFrom": 0,
+      "stamp": "*28.800* personas por km²",
+      "narration": "En Manhattan viven unas veintiocho mil ochocientas personas en cada kilómetro cuadrado. Es uno de los lugares más densos del planeta."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/07/31/294483_small.mp4",
+      "startFrom": 0,
+      "stamp": "Más de *8.000 millones*",
+      "narration": "Ahora mete ahí a todos: más de ocho mil millones de personas, con esa misma densidad."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/06/28/218551_large.mp4",
+      "startFrom": 0,
+      "stamp": "Algo más de *media España*",
+      "narration": "Cabríamos en unos doscientos ochenta y cinco mil kilómetros cuadrados. Algo más de la mitad de España."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2023/11/06/188204-881908402_small.mp4",
+      "startFrom": 0,
+      "stamp": "El resto, *vacío*",
+      "narration": "Y el resto del planeta, casi ciento cincuenta millones de kilómetros cuadrados de tierra firme, se quedaría vacío."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/07/16/221536_small.mp4",
+      "startFrom": 0,
+      "stamp": "Pero hay que *comer*",
+      "narration": "Eso sí, esa megaciudad no podría alimentarse sola. Los campos, el agua y la energía seguirían ocupando gran parte del mundo."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/02/06/332904_small.mp4",
+      "startFrom": 0,
+      "stamp": "¿Tú *vivirías* ahí?",
+      "narration": "Toda la humanidad, en una sola ciudad. ¿Tú vivirías ahí?"
+    }
+  ]
+}

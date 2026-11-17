@@ -101,3 +101,9 @@
   - 15-L2 Tierra deja de girar → 17-11 20:00 https://www.youtube.com/watch?v=5O0IlW4UYQc
 - TikTok: sin publicar desde el 15-11 12:00; necesita conectar TikTok en vidIQ o mejorar Metricool.
 - 21:50 TikTok conectado a vidIQ (ajustes del dueño: público, comentarios sí, música confirmada). TikTok: Leónidas ya; mañana Marte 10:00, Millón 12:00, La Rinconada 14:00, Pulmones 21:00. Rutina actualizada (Shorts a YT+TikTok vía vidIQ).
+
+## 2026-11-17 (martes)
+- Verificación de ayer: los 9 vídeos de YouTube vía vidIQ en "completed" (5 del 16 + 4 reprogramados para hoy) y Leónidas en TikTok publicado (https://www.tiktok.com/@pepe.monedass/video/7708874607847132449). TikTok de hoy programados: Marte 10:00, Millón 12:00, La Rinconada 14:00, Pulmones 21:00.
+- Datos (Windsor, caché): Leónidas 856 vistas, La Rinconada 590 y 1 comentario; Pulmones solo 12 (a vigilar). Largos 0–1.
+- Comentarios: 1 nuevo en La Rinconada (@judithlopez) → respondido (6 créditos vidIQ: 5 lectura + 1 respuesta).
+- Hoy solo 1 Short nuevo (backlog ocupa 10/12/16/20): c 18:00 = ¿Qué pasaría si...? (ganador) con escala: toda la humanidad con la densidad de Manhattan (~28.800/km², censo 2020) cabría en ~285.000 km², algo más de media España. Primer vídeo con la voz del dueño (tu voz A).
