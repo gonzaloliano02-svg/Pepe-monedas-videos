@@ -107,3 +107,4 @@
 - Datos (Windsor, caché): Leónidas 856 vistas, La Rinconada 590 y 1 comentario; Pulmones solo 12 (a vigilar). Largos 0–1.
 - Comentarios: 1 nuevo en La Rinconada (@judithlopez) → respondido (6 créditos vidIQ: 5 lectura + 1 respuesta).
 - Hoy solo 1 Short nuevo (backlog ocupa 10/12/16/20): c 18:00 = ¿Qué pasaría si...? (ganador) con escala: toda la humanidad con la densidad de Manhattan (~28.800/km², censo 2020) cabría en ~285.000 km², algo más de media España. Primer vídeo con la voz del dueño (tu voz A).
+- c 18:00 "¿Y si TODA la humanidad viviera tan apretada como en Manhattan? 🏙️" (47.9 s, tu voz A). YouTube subido para las 18:00: https://www.youtube.com/watch?v=UWigkr88SCE ; TikTok programado 18:00 (vidIQ post 9cbc9b5e). Frame-sheet y transcripción revisados.
