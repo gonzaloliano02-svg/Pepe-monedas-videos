@@ -263,3 +263,22 @@ exaggeration 0.6, cfg 0.4). build_episode.py uses it automatically when the file
 exists. The recording is private: never commit it (the repo is public). If the
 container was replaced and the file is gone, the build falls back to voice C:
 say so in the daily summary and ask the owner to send the voice note again.
+
+**LONG-FORM STRATEGY CHANGE (owner approved 2026-11-17):** long-form gets 0–3
+views, so:
+- **One long-form video every 2–3 days instead of two a day**: Mondays,
+  Wednesdays and Fridays at 16:00 (YouTube only), with much more care: a
+  strong first 30 s (the promise of the title), tighter pacing, and a bolder
+  thumbnail (big number or question, high contrast, ≤4 words).
+- **Topics by search demand**: titles people would type ("qué pasaría si…",
+  "los X más… del mundo", "cómo funciona…", "por qué…"), evergreen or tied to
+  current events; check that the main keyword appears early in the title.
+- **Shorts feed the long-form**: on long-form days and the day after, one of
+  the 3 Shorts is a TEASER of the latest long video (its most striking fact,
+  ending with "El vídeo completo está en el canal"). On other days all three
+  Shorts follow the normal formats.
+- **Daily summary must list "Vídeo relacionado"**: for each Short, which long
+  video the owner should link with YouTube Studio's "Related video" option
+  (we cannot set it from here). Also remind the owner, until confirmed done,
+  to verify the channel (youtube.com/verify) so custom thumbnails apply, and
+  to add end screens to long videos.
