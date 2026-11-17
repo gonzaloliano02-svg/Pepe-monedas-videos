@@ -282,3 +282,8 @@ views, so:
   (we cannot set it from here). Also remind the owner, until confirmed done,
   to verify the channel (youtube.com/verify) so custom thumbnails apply, and
   to add end screens to long videos.
+
+**VOICE UPDATE (owner, 2026-11-17): "muy animada"** = owner's animated recording
+voices/owner/ref_animado.wav (backup /root/.claude/voice-backup/ref_animado.wav),
+exaggeration 0.8, cfg 0.3. The owner found the earlier delivery robotic: keep
+scripts lively and conversational too (short sentences, questions, emphasis).

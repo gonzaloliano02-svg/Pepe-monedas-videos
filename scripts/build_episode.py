@@ -31,8 +31,10 @@ CBX_PY = Path("/opt/cbx/venv/bin/python")
 # (exaggeration 0.6, cfg 0.4). The recording is private and NOT in git (public repo).
 # If it is missing (container replaced), fall back to voice C and warn: the daily
 # summary must then ask the owner to send the voice note again.
-OWNER_REF = ROOT / "voices" / "owner" / "ref.wav"
-VOICE_TAG = "own1" if OWNER_REF.exists() else "cbxC1"
+# 2026-11-17: owner chose "muy animada" (sample 2): animated reference
+# recording, exaggeration 0.8, cfg 0.3.
+OWNER_REF = ROOT / "voices" / "owner" / "ref_animado.wav"
+VOICE_TAG = "own2" if OWNER_REF.exists() else "cbxC1"
 _cbx = None
 _lock = None
 
@@ -45,8 +47,9 @@ def _cbx_tts(text: str, out: Path) -> float:
         _lock = open(ROOT / "build" / "tts.lock", "w")
         fcntl.flock(_lock, fcntl.LOCK_EX)  # one ~6 GB TTS worker at a time
         env = dict(os.environ)
-        if VOICE_TAG == "own1":
+        if VOICE_TAG == "own2":
             env["CBX_REF"] = str(OWNER_REF)
+            env["CBX_EXAG"], env["CBX_CFG"] = "0.8", "0.3"
         else:
             print("AVISO: voices/owner/ref.wav no existe; usando la voz C", file=sys.stderr)
         _cbx = subprocess.Popen([str(CBX_PY), str(ROOT / "scripts" / "cbx_worker.py")], stdin=subprocess.PIPE, env=env,
