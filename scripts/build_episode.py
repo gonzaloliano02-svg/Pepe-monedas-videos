@@ -291,7 +291,7 @@ def make_long_music(seconds: float, out: Path, seed: int):
     subprocess.run(cmd, check=True)
 
 
-STORY_MIN = {"title": 4.0, "landscape": 3.0, "map": 5.0, "stat": 3.5, "quote": 4.0, "compare": 4.0, "timeline": 6.0, "footage": 3.0}
+STORY_MIN = {"cartoon": 3.0, "title": 4.0, "landscape": 3.0, "map": 5.0, "stat": 3.5, "quote": 4.0, "compare": 4.0, "timeline": 6.0, "footage": 3.0}
 MAX_MB = 95  # GitHub refuses files over 100 MB
 
 

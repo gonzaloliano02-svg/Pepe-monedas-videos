@@ -17,6 +17,7 @@ import { C, FONT_BODY, FONT_DISPLAY, FONT_MONO, loadFonts } from "../theme";
 import { Landscape, type Env } from "./Landscape";
 import { MapScene, type MapMarker, type MapRoute, type MapView } from "./MapScene";
 import { emojiUrl } from "./emoji";
+import { ActorLayer, BlackHole, Cartoon, CartoonBackdrop, type CartoonScene } from "./Cartoon";
 
 export type Prop = {
   emoji: string;
@@ -29,8 +30,8 @@ export type Prop = {
   flip?: boolean;
 };
 
-export type StoryScene = {
-  type: "title" | "landscape" | "map" | "stat" | "quote" | "compare" | "timeline" | "footage";
+export type StoryScene = CartoonScene & {
+  type: "title" | "landscape" | "map" | "stat" | "quote" | "compare" | "timeline" | "footage" | "cartoon";
   narration: string;
   audio?: string;
   durationInFrames?: number;
@@ -71,7 +72,7 @@ export type StoryEpisode = {
   tags: string[];
   scenes: StoryScene[];
   music?: string;
-  thumbnail?: { text: string; emoji: string; env: Env; kicker?: string };
+  thumbnail?: { text: string; emoji: string; env: Env; kicker?: string } & CartoonScene;
 };
 
 const Rich: React.FC<{ text: string; color?: string; hi?: string }> = ({ text, color = "#fff", hi = C.accent }) => {
@@ -192,6 +193,9 @@ const Headline: React.FC<{ text?: string; kicker?: string; position?: "top" | "c
   );
 };
 
+const Bg: React.FC<{ s: StoryScene; env: Env; drift?: number }> = ({ s, env, drift }) =>
+  s.bg ? <CartoonBackdrop bg={s.bg} seed={s.seed} chalk={s.chalk} bh={s.bh} /> : <Landscape env={s.env ?? env} seed={s.seed} drift={drift} />;
+
 const Slow: React.FC<{ children: React.ReactNode; amount?: number }> = ({ children, amount = 0.06 }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
@@ -207,9 +211,10 @@ const TitleScene: React.FC<{ s: StoryScene }> = ({ s }) => {
     <AbsoluteFill>
       <Slow amount={0.08}>
         <AbsoluteFill style={{ filter: "blur(6px) brightness(0.55)" }}>
-          <Landscape env={s.env ?? "mountains"} seed={s.seed} />
+          <Bg s={s} env="mountains" />
         </AbsoluteFill>
       </Slow>
+      <ActorLayer actors={s.actors} />
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: "0 160px" }}>
         {s.kicker ? (
           <div
@@ -279,9 +284,10 @@ const StatScene: React.FC<{ s: StoryScene }> = ({ s }) => {
     <AbsoluteFill>
       <Slow>
         <AbsoluteFill style={{ filter: "brightness(0.45) blur(3px)" }}>
-          <Landscape env={s.env ?? "night"} seed={s.seed} />
+          <Bg s={s} env="night" />
         </AbsoluteFill>
       </Slow>
+      <ActorLayer actors={s.actors} />
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
         {s.emoji ? <img src={emojiUrl(s.emoji)} style={{ width: 200, height: 200, transform: `scale(${pop})`, marginBottom: 20 }} /> : null}
         <div style={{ fontFamily: FONT_DISPLAY, fontSize: 230, color: C.accent, letterSpacing: -8, lineHeight: 1, textShadow: "0 12px 40px rgba(0,0,0,0.6)", fontVariantNumeric: "tabular-nums" }}>
@@ -306,9 +312,10 @@ const QuoteScene: React.FC<{ s: StoryScene }> = ({ s }) => {
     <AbsoluteFill>
       <Slow>
         <AbsoluteFill style={{ filter: "brightness(0.4) blur(4px)" }}>
-          <Landscape env={s.env ?? "storm"} seed={s.seed} />
+          <Bg s={s} env="storm" />
         </AbsoluteFill>
       </Slow>
+      <ActorLayer actors={s.actors} />
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: "0 220px" }}>
         <div style={{ fontFamily: FONT_DISPLAY, fontSize: 260, color: C.accent, lineHeight: 0.6, height: 120 }}>“</div>
         <div style={{ fontFamily: FONT_DISPLAY, fontSize: 76, lineHeight: 1.15, textAlign: "center" }}>
@@ -336,8 +343,9 @@ const CompareScene: React.FC<{ s: StoryScene }> = ({ s }) => {
   return (
     <AbsoluteFill>
       <Slow>
-        <Landscape env={s.env ?? "mountains"} seed={s.seed} />
+        <Bg s={s} env="mountains" />
       </Slow>
+      <ActorLayer actors={s.actors} />
       <Headline text={s.text} kicker={s.kicker} />
       <div style={{ position: "absolute", left: 0, right: 0, bottom: 150, display: "flex", justifyContent: "center", alignItems: "flex-end", gap: 120 }}>
         {items.map((it, i) => {
@@ -345,7 +353,15 @@ const CompareScene: React.FC<{ s: StoryScene }> = ({ s }) => {
           const size = 60 + 560 * Math.sqrt(it.value / maxV);
           return (
             <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>
-              <img src={emojiUrl(it.emoji)} style={{ width: size, height: size, transform: `scale(${sp})`, transformOrigin: "bottom", filter: "drop-shadow(0 18px 24px rgba(0,0,0,0.45))" }} />
+              {it.emoji === "🕳️" || it.emoji === "🕳" ? (
+                <div style={{ width: size, height: size, position: "relative", transform: `scale(${sp})`, transformOrigin: "bottom" }}>
+                  <div style={{ position: "absolute", left: "50%", top: "50%", transform: "translate(-50%, -50%)" }}>
+                    <BlackHole R={Math.max(8, size / 5.5)} t={frame / fps} />
+                  </div>
+                </div>
+              ) : (
+                <img src={emojiUrl(it.emoji)} style={{ width: size, height: size, transform: `scale(${sp})`, transformOrigin: "bottom", filter: "drop-shadow(0 18px 24px rgba(0,0,0,0.45))" }} />
+              )}
               <div style={{ fontFamily: FONT_DISPLAY, fontSize: 52, color: C.accent, opacity: sp, textShadow: "0 4px 14px rgba(0,0,0,0.7)" }}>{it.display}</div>
               <div style={{ fontFamily: FONT_BODY, fontSize: 38, opacity: sp, textShadow: "0 4px 14px rgba(0,0,0,0.7)" }}>{it.label}</div>
             </div>
@@ -366,8 +382,9 @@ const TimelineScene: React.FC<{ s: StoryScene }> = ({ s }) => {
   return (
     <AbsoluteFill>
       <AbsoluteFill style={{ filter: "brightness(0.5)" }}>
-        <Landscape env={s.env ?? "night"} seed={s.seed} drift={0.4} />
+        <Bg s={s} env="night" drift={0.4} />
       </AbsoluteFill>
+      <ActorLayer actors={s.actors} />
       <Headline text={s.text} kicker={s.kicker} />
       <div style={{ position: "absolute", top: 600, left: 960 - pan, height: 8, width: total + 2000, marginLeft: -1000, background: "rgba(255,255,255,0.35)", borderRadius: 4 }} />
       {pts.map((p, i) => {
@@ -442,6 +459,14 @@ const SceneView: React.FC<{ s: StoryScene }> = ({ s }) => {
     case "footage":
       body = <FootageScene s={s} />;
       break;
+    case "cartoon":
+      body = (
+        <>
+          <Cartoon s={s} />
+          <Headline text={s.text} kicker={s.kicker} />
+        </>
+      );
+      break;
     default:
       body = <LandscapeScene s={s} />;
   }
@@ -503,10 +528,10 @@ export const StoryThumb: React.FC<StoryEpisode> = (ep) => {
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       <AbsoluteFill style={{ transform: "scale(1.0)" }}>
-        <Landscape env={th.env} seed="thumb" />
+        {th.bg ? <CartoonBackdrop bg={th.bg} seed="thumb" bh={th.bh} chalk={th.chalk} /> : <Landscape env={th.env} seed="thumb" />}
       </AbsoluteFill>
       <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.35) 55%, transparent 80%)" }} />
-      <img src={emojiUrl(th.emoji)} style={{ position: "absolute", right: 90, top: 150, width: 720, height: 720, filter: "drop-shadow(0 30px 40px rgba(0,0,0,0.6))" }} />
+      {th.bg ? <ActorLayer actors={th.actors} /> : <img src={emojiUrl(th.emoji)} style={{ position: "absolute", right: 90, top: 150, width: 720, height: 720, filter: "drop-shadow(0 30px 40px rgba(0,0,0,0.6))" }} />}
       <div style={{ position: "absolute", left: 90, top: 140, width: 1050, fontFamily: FONT_DISPLAY, fontSize: 150, lineHeight: 0.95, letterSpacing: -5, color: "#fff", textTransform: "uppercase", textShadow: "0 10px 30px rgba(0,0,0,0.8)" }}>
         {th.kicker ? <div style={{ fontFamily: FONT_MONO, fontSize: 52, letterSpacing: 10, color: C.accent, marginBottom: 20 }}>{th.kicker}</div> : null}
         <Rich text={th.text} />

@@ -287,3 +287,29 @@ views, so:
 voices/owner/ref_animado.wav (backup /root/.claude/voice-backup/ref_animado.wav),
 exaggeration 0.8, cfg 0.3. The owner found the earlier delivery robotic: keep
 scripts lively and conversational too (short sentences, questions, emphasis).
+
+## ANIMATION UPGRADE (owner, 2026-11-18): long-form must be VERY animated
+Owner: "quiero más animación... monigotes, escenas guays, incluso épicas... Vídeos muy animados!!"
+Every long-form (format "story") must be staged mostly with `type: "cartoon"` scenes
+(src/story/Cartoon.tsx). No more static landscape+emoji scenes.
+- Characters: `kind: "stick"` articulated stick figures. Poses: idle wave walk run point
+  scared think cheer float fall shrug look stretch push facepalm. Faces: happy wow scared
+  sad cool dizzy calm angry. Options: helmet, name ("TÚ" yellow scarf, "TU AMIGO" cyan),
+  flip, to/move (walk across), pose2/expr2/poseAt (change mid-scene), stretch [a,b]
+  (spaghettification), spin, scaleTo, vanish.
+- Objects: bh (epic black hole, animated disk), star (mode collapse + at → supernova),
+  clock (speed, slow), ripple (merge + at → two black holes merging), emoji, arrow
+  (to + text), bubble (speech), tag (yellow label), beam.
+- Backdrops (`bg`): space, blackhole (+ bh {x,y,size}), warp (tunnel), chalk (+ chalk
+  lines typed on a blackboard), earth, void, land:<env>.
+- Camera: {zoom:[a,b], focus:[x,y], shake, shakeAt}. fx: flash(+flashAt), redshift,
+  speedlines, einstein (light arcs), glitch.
+- Stat/quote/compare/timeline/title scenes accept `bg` + `actors` too: always add a
+  reacting stick figure or a matching backdrop. Compare items with emoji 🕳️ draw the
+  animated black hole.
+- Scenes are long (10–18 s): give each 2–4 beats (delays, pose2, tags/bubbles appearing).
+- Thumbnail: `thumbnail.bg` + `bh` + `actors` (use delay -2 so actors are visible).
+- QA before the full render: render one still per scene with the Node API script
+  (bundle once, renderStill with browserExecutable =
+  /opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell)
+  and check overlaps with headlines.
