@@ -1,0 +1,247 @@
+{
+  "id": "TEMPLATE-short-animado",
+  "title": "(plantilla) Short animado vertical",
+  "description": "",
+  "tags": [],
+  "vertical": true,
+  "scenes": [
+    {
+      "type": "cartoon",
+      "text": "¿Y si *caes* dentro?",
+      "bg": "blackhole",
+      "bh": {
+        "x": 50,
+        "y": 40,
+        "size": 150
+      },
+      "camera": {
+        "zoom": [
+          1,
+          1.15
+        ],
+        "focus": [
+          50,
+          45
+        ]
+      },
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 92,
+          "pose": "wave",
+          "expr": "happy",
+          "helmet": true,
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 380,
+          "pose2": "scared",
+          "expr2": "wow",
+          "poseAt": 3
+        }
+      ],
+      "narration": "¿Sabes qué te pasaría si cayeras en un agujero negro pequeño? Te convertirías en un espagueti. Literal."
+    },
+    {
+      "type": "cartoon",
+      "text": "Tus pies *primero*",
+      "bg": "blackhole",
+      "bh": {
+        "x": 50,
+        "y": 108,
+        "size": 200
+      },
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 62,
+          "pose": "fall",
+          "expr": "wow",
+          "helmet": true,
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 380
+        },
+        {
+          "kind": "arrow",
+          "x": 53,
+          "y": 64,
+          "to": [
+            53,
+            84
+          ],
+          "text": "¡MUCHA fuerza!",
+          "color": "#ff4d6d",
+          "delay": 2.5
+        },
+        {
+          "kind": "arrow",
+          "x": 40,
+          "y": 36,
+          "to": [
+            40,
+            41
+          ],
+          "text": "poca",
+          "color": "#3DDCFF",
+          "size": 14,
+          "delay": 4
+        }
+      ],
+      "narration": "Imagina que caes de pie. La gravedad tira de tus pies muchísimo más fuerte que de tu cabeza, porque están más cerca."
+    },
+    {
+      "type": "cartoon",
+      "text": "*Espaguetización*",
+      "bg": "warp",
+      "camera": {
+        "zoom": [
+          1,
+          1.15
+        ],
+        "focus": [
+          50,
+          45
+        ],
+        "shake": 8
+      },
+      "fx": [
+        "speedlines"
+      ],
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 62,
+          "pose": "stretch",
+          "expr": "dizzy",
+          "helmet": true,
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 340,
+          "stretch": [
+            0.1,
+            0.9
+          ]
+        }
+      ],
+      "narration": "Te estira de arriba abajo y te aprieta por los lados. Los científicos lo llaman así, de verdad: espaguetización."
+    },
+    {
+      "type": "cartoon",
+      "text": "Ni llegas al *borde*",
+      "bg": "blackhole",
+      "bh": {
+        "x": 50,
+        "y": 45,
+        "size": 110
+      },
+      "camera": {
+        "zoom": [
+          1,
+          1.2
+        ],
+        "focus": [
+          50,
+          45
+        ],
+        "shake": 6
+      },
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 30,
+          "y": 80,
+          "pose": "stretch",
+          "expr": "dizzy",
+          "helmet": true,
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 300,
+          "to": [
+            48,
+            47
+          ],
+          "scaleTo": 0.3,
+          "stretch": [
+            0.3,
+            1
+          ],
+          "spin": 10,
+          "vanish": 6
+        }
+      ],
+      "narration": "En un agujero negro de unas diez veces el Sol, te destrozaría antes incluso de llegar al borde."
+    },
+    {
+      "type": "cartoon",
+      "text": "En uno *gigante*... nada",
+      "bg": "blackhole",
+      "bh": {
+        "x": 50,
+        "y": 40,
+        "size": 230
+      },
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 90,
+          "pose": "float",
+          "expr": "cool",
+          "helmet": true,
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 340,
+          "to": [
+            50,
+            82
+          ]
+        },
+        {
+          "kind": "bubble",
+          "x": 45,
+          "y": 50,
+          "text": "¡Ni cosquillas!",
+          "delay": 2.5
+        }
+      ],
+      "narration": "¿Y lo más loco? En uno gigante, de miles de millones de soles, cruzarías el borde sin notar absolutamente nada."
+    },
+    {
+      "type": "cartoon",
+      "text": "El viaje *completo*",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 88,
+          "pose": "point",
+          "expr": "wow",
+          "helmet": true,
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 360
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 40,
+          "text": "Vídeo completo en el canal",
+          "delay": 1.5
+        },
+        {
+          "kind": "bh",
+          "x": 50,
+          "y": 27,
+          "size": 70,
+          "delay": 0.5
+        }
+      ],
+      "narration": "¿Y qué pasa después? El viaje completo, paso a paso, está en el canal. ¿Te atreves?"
+    }
+  ],
+  "format": "story"
+}

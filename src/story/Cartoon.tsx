@@ -98,16 +98,15 @@ const EASE = {
   linear: (v: number) => v,
 };
 const OUT = "#0b0d1a";
-const W = 1920;
-const H = 1080;
 
 /* ---------------- backgrounds ---------------- */
 
 const Stars: React.FC<{ seed: string; n: number; t: number; drift: number; size: number }> = ({ seed, n, t, drift, size }) => {
+  const { width: W, height: H } = useVideoConfig();
   const stars = useMemo(() => {
     const r = rng(seed);
     return Array.from({ length: n }, () => ({ x: r() * W, y: r() * H, s: (0.4 + r()) * size, p: r() * 6.28, f: 0.8 + r() * 2.5, c: r() }));
-  }, [seed, n, size]);
+  }, [seed, n, size, W, H]);
   return (
     <svg width={W} height={H} style={{ position: "absolute", inset: 0 }}>
       {stars.map((s, i) => {
@@ -159,6 +158,7 @@ const SpaceBg: React.FC<{ seed: string; t: number }> = ({ seed, t }) => (
 );
 
 const WarpBg: React.FC<{ seed: string; t: number; cx: number; cy: number }> = ({ seed, t, cx, cy }) => {
+  const { width: W, height: H } = useVideoConfig();
   const lines = useMemo(() => {
     const r = rng(seed + "warp");
     return Array.from({ length: 220 }, () => ({ a: r() * Math.PI * 2, z: r(), c: r() }));
@@ -227,6 +227,11 @@ const ChalkBg: React.FC<{ t: number; lines?: string[] }> = ({ t, lines = [] }) =
 
 const EarthBg: React.FC<{ seed: string; t: number }> = ({ seed, t }) => {
   const id = useId().replace(/:/g, "");
+  const { width: W, height: H } = useVideoConfig();
+  const ER = W < H ? 1100 : 1250;
+  const ECX = W / 2;
+  const top = H * 0.74;
+  const ECY = top + ER;
   return (
     <AbsoluteFill>
       <SpaceBg seed={seed} t={t} />
@@ -238,22 +243,22 @@ const EarthBg: React.FC<{ seed: string; t: number }> = ({ seed, t }) => {
             <stop offset="100%" stopColor="#06204a" />
           </radialGradient>
           <clipPath id={`c${id}`}>
-            <circle cx={960} cy={2050} r={1250} />
+            <circle cx={ECX} cy={ECY} r={ER} />
           </clipPath>
           <filter id={`b${id}`}>
             <feGaussianBlur stdDeviation="18" />
           </filter>
         </defs>
-        <circle cx={960} cy={2050} r={1285} fill="#7cc4ff" opacity={0.45} filter={`url(#b${id})`} />
-        <circle cx={960} cy={2050} r={1250} fill={`url(#e${id})`} />
+        <circle cx={ECX} cy={ECY} r={ER + 35} fill="#7cc4ff" opacity={0.45} filter={`url(#b${id})`} />
+        <circle cx={ECX} cy={ECY} r={ER} fill={`url(#e${id})`} />
         <g clipPath={`url(#c${id})`}>
           {[0, 1, 2, 3, 4, 5].map((i) => {
             const x = ((i * 520 - t * 18) % 3200) - 400;
-            return <ellipse key={i} cx={x} cy={900 + (i % 3) * 40} rx={170 + (i % 2) * 90} ry={60} fill="#3f9a5a" opacity={0.85} />;
+            return <ellipse key={i} cx={x} cy={top + 100 + (i % 3) * 40} rx={170 + (i % 2) * 90} ry={60} fill="#3f9a5a" opacity={0.85} />;
           })}
           {[0, 1, 2, 3, 4, 5, 6].map((i) => {
             const x = ((i * 430 - t * 30) % 3200) - 300;
-            return <ellipse key={i} cx={x} cy={860 + (i % 4) * 35} rx={220} ry={22} fill="#fff" opacity={0.35} />;
+            return <ellipse key={i} cx={x} cy={top + 60 + (i % 4) * 35} rx={220} ry={22} fill="#fff" opacity={0.35} />;
           })}
         </g>
       </svg>
@@ -642,7 +647,7 @@ const Bubble: React.FC<{ text: string; tag?: boolean }> = ({ text, tag }) => (
 
 const ActorView: React.FC<{ a: Actor; i: number }> = ({ a, i }) => {
   const frame = useCurrentFrame();
-  const { fps, durationInFrames } = useVideoConfig();
+  const { fps, durationInFrames, width: W, height: H } = useVideoConfig();
   const t = frame / fps;
   const dur = durationInFrames / fps;
   const delay = a.delay ?? 0;
@@ -790,7 +795,7 @@ export const CartoonBackdrop: React.FC<{ bg?: CartoonBg; seed?: string; chalk?: 
 
 export const CartoonFx: React.FC<{ fx?: CartoonScene["fx"]; flashAt?: number; focus?: [number, number] }> = ({ fx = [], flashAt = 1, focus }) => {
   const frame = useCurrentFrame();
-  const { fps, durationInFrames } = useVideoConfig();
+  const { fps, durationInFrames, width: W, height: H } = useVideoConfig();
   const t = frame / fps;
   const prog = frame / durationInFrames;
   const r = rng("speed" + Math.floor(frame / 2));

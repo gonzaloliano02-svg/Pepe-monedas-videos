@@ -38,6 +38,18 @@ export const RemotionRoot: React.FC = () => {
       })}
     />
     <Composition
+      id="StoryV"
+      component={Story}
+      width={1080}
+      height={1920}
+      fps={24}
+      durationInFrames={240}
+      defaultProps={{ id: "x", title: "", description: "", tags: [], scenes: [] } as StoryEpisode}
+      calculateMetadata={({ props }) => ({
+        durationInFrames: Math.max(24, props.scenes.reduce((a, s) => a + (s.durationInFrames ?? 120), 0)),
+      })}
+    />
+    <Composition
       id="StoryThumb"
       component={StoryThumb}
       width={1920}

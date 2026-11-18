@@ -315,11 +315,14 @@ def build_story(ep: dict, adir: Path) -> None:
     stop_tts()
     make_long_music(total / fps, adir / "music.wav", seed=sum(map(ord, eid)))
     ep["music"] = f"episodes/{eid}/music.wav"
+    vertical = bool(ep.get("vertical"))
+    if vertical:  # animated Short (1080x1920): music a bit louder, as in the other Shorts
+        ep.setdefault("musicVolume", 0.25)
     props = ROOT / "build" / f"{eid}.props.json"
     props.write_text(json.dumps(ep, ensure_ascii=False))
     out = ROOT / "videos" / f"{eid}.mp4"
     subprocess.run(
-        ["npx", "remotion", "render", "src/index.ts", "Story", str(out),
+        ["npx", "remotion", "render", "src/index.ts", "StoryV" if vertical else "Story", str(out),
          f"--props={props}", "--crf=24", "--concurrency=4", "--x264-preset=medium"],
         cwd=ROOT, check=True,
     )
@@ -336,6 +339,9 @@ def build_story(ep: dict, adir: Path) -> None:
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(out), "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
                     "-c:a", "aac", "-b:a", "160k", str(tmp)], check=True)
     tmp.replace(out)
+    if vertical:
+        print(f"OK {out} {total / fps:.1f}s {out.stat().st_size / 1e6:.0f} MB", flush=True)
+        return
     thumb_png = ROOT / "build" / f"{eid}-thumb.png"
     subprocess.run(["npx", "remotion", "still", "src/index.ts", "StoryThumb", str(thumb_png), f"--props={props}"],
                    cwd=ROOT, check=True)

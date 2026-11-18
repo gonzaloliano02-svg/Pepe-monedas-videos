@@ -155,7 +155,7 @@ const Stamp: React.FC<{ text: string }> = ({ text }) => {
 };
 
 // TikTok-style captions: 3 words at a time, active word pops in yellow.
-const Captions: React.FC<{ text: string }> = ({ text }) => {
+export const Captions: React.FC<{ text: string }> = ({ text }) => {
   const frame = useCurrentFrame();
   const { durationInFrames, fps } = useVideoConfig();
   const words = text.split(/\s+/).filter(Boolean);

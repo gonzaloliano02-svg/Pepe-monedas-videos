@@ -17,6 +17,7 @@ import { C, FONT_BODY, FONT_DISPLAY, FONT_MONO, loadFonts } from "../theme";
 import { Landscape, type Env } from "./Landscape";
 import { MapScene, type MapMarker, type MapRoute, type MapView } from "./MapScene";
 import { emojiUrl } from "./emoji";
+import { Captions } from "../Doc";
 import { ActorLayer, BlackHole, Cartoon, CartoonBackdrop, type CartoonScene } from "./Cartoon";
 
 export type Prop = {
@@ -59,6 +60,7 @@ export type StoryScene = CartoonScene & {
   items?: { emoji: string; label: string; value: number; display: string }[];
   // timeline
   points?: { year: string; label: string; emoji?: string }[];
+  noCaptions?: boolean;
   // footage
   src?: string;
   startFrom?: number;
@@ -72,7 +74,15 @@ export type StoryEpisode = {
   tags: string[];
   scenes: StoryScene[];
   music?: string;
+  musicVolume?: number;
+  vertical?: boolean;
   thumbnail?: { text: string; emoji: string; env: Env; kicker?: string } & CartoonScene;
+};
+
+// vertical (1080x1920 Shorts) layout switch
+const useV = () => {
+  const { width, height } = useVideoConfig();
+  return height > width;
 };
 
 const Rich: React.FC<{ text: string; color?: string; hi?: string }> = ({ text, color = "#fff", hi = C.accent }) => {
@@ -150,20 +160,21 @@ const PropView: React.FC<{ p: Prop }> = ({ p }) => {
 const Headline: React.FC<{ text?: string; kicker?: string; position?: "top" | "center" | "bottom" }> = ({ text, kicker, position = "top" }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
+  const V = useV();
   if (!text && !kicker) return null;
   const s = spring({ frame: frame - 6, fps, config: { damping: 16 } });
-  const top = position === "top" ? 70 : position === "center" ? 360 : 820;
+  const top = V ? 170 : position === "top" ? 70 : position === "center" ? 360 : 820;
   return (
     <>
     {position === "top" ? (
-      <div style={{ position: "absolute", left: 0, right: 0, top: 0, height: 380, background: "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0))", opacity: s }} />
+      <div style={{ position: "absolute", left: 0, right: 0, top: 0, height: V ? 560 : 380, background: "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0))", opacity: s }} />
     ) : null}
     <div
       style={{
         position: "absolute",
         top,
-        left: 120,
-        right: 120,
+        left: V ? 50 : 120,
+        right: V ? 50 : 120,
         textAlign: "center",
         opacity: s,
         transform: `translateY(${(1 - s) * 30}px)`,
@@ -178,7 +189,7 @@ const Headline: React.FC<{ text?: string; kicker?: string; position?: "top" | "c
         <div
           style={{
             fontFamily: FONT_DISPLAY,
-            fontSize: 84,
+            fontSize: V ? 82 : 84,
             lineHeight: 1.05,
             letterSpacing: -2,
             wordSpacing: "0.1em",
@@ -206,6 +217,7 @@ const Slow: React.FC<{ children: React.ReactNode; amount?: number }> = ({ childr
 const TitleScene: React.FC<{ s: StoryScene }> = ({ s }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
+  const V = useV();
   const words = (s.text ?? "").split(" ");
   return (
     <AbsoluteFill>
@@ -215,7 +227,7 @@ const TitleScene: React.FC<{ s: StoryScene }> = ({ s }) => {
         </AbsoluteFill>
       </Slow>
       <ActorLayer actors={s.actors} />
-      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: "0 160px" }}>
+      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: V ? "0 60px" : "0 160px" }}>
         {s.kicker ? (
           <div
             style={{
@@ -230,7 +242,7 @@ const TitleScene: React.FC<{ s: StoryScene }> = ({ s }) => {
             {s.kicker.toUpperCase()}
           </div>
         ) : null}
-        <div style={{ fontFamily: FONT_DISPLAY, fontSize: 128, lineHeight: 1.02, letterSpacing: -3, textAlign: "center", textShadow: "0 10px 40px rgba(0,0,0,0.6)" }}>
+        <div style={{ fontFamily: FONT_DISPLAY, fontSize: V ? 120 : 128, lineHeight: 1.02, letterSpacing: -3, textAlign: "center", textShadow: "0 10px 40px rgba(0,0,0,0.6)" }}>
           {words.map((w, i) => {
             const sp = spring({ frame: frame - 8 - i * 4, fps, config: { damping: 14 } });
             const hi = w.startsWith("*") || w.endsWith("*");
@@ -280,6 +292,9 @@ const StatScene: React.FC<{ s: StoryScene }> = ({ s }) => {
   const { fps } = useVideoConfig();
   const k = interpolate(frame, [6, fps * 2], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
   const pop = spring({ frame, fps, config: { damping: 10 } });
+  const V = useV();
+  const numLen = (s.prefix ?? "").length + fmt(s.value ?? 0, s.decimals ?? 0).length + (s.suffix ?? "").length;
+  const numSize = V ? Math.min(220, 1750 / Math.max(1, numLen)) : 230;
   return (
     <AbsoluteFill>
       <Slow>
@@ -290,12 +305,12 @@ const StatScene: React.FC<{ s: StoryScene }> = ({ s }) => {
       <ActorLayer actors={s.actors} />
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
         {s.emoji ? <img src={emojiUrl(s.emoji)} style={{ width: 200, height: 200, transform: `scale(${pop})`, marginBottom: 20 }} /> : null}
-        <div style={{ fontFamily: FONT_DISPLAY, fontSize: 230, color: C.accent, letterSpacing: -8, lineHeight: 1, textShadow: "0 12px 40px rgba(0,0,0,0.6)", fontVariantNumeric: "tabular-nums" }}>
+        <div style={{ fontFamily: FONT_DISPLAY, fontSize: numSize, textAlign: "center", padding: V ? "0 40px" : 0, color: C.accent, letterSpacing: -8, lineHeight: 1, textShadow: "0 12px 40px rgba(0,0,0,0.6)", fontVariantNumeric: "tabular-nums" }}>
           {s.prefix ?? ""}
           {fmt((s.value ?? 0) * k, s.decimals ?? 0)}
           {s.suffix ?? ""}
         </div>
-        <div style={{ fontFamily: FONT_DISPLAY, fontSize: 70, marginTop: 20, textAlign: "center", maxWidth: 1500, opacity: k }}>
+        <div style={{ fontFamily: FONT_DISPLAY, fontSize: V ? 62 : 70, marginTop: 20, textAlign: "center", maxWidth: V ? 960 : 1500, opacity: k }}>
           <Rich text={s.label ?? ""} />
         </div>
       </AbsoluteFill>
@@ -306,6 +321,7 @@ const StatScene: React.FC<{ s: StoryScene }> = ({ s }) => {
 const QuoteScene: React.FC<{ s: StoryScene }> = ({ s }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
+  const V = useV();
   const words = (s.text ?? "").split(" ");
   const shown = Math.ceil(interpolate(frame, [6, durationInFrames * 0.7], [0, words.length], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }));
   return (
@@ -316,7 +332,7 @@ const QuoteScene: React.FC<{ s: StoryScene }> = ({ s }) => {
         </AbsoluteFill>
       </Slow>
       <ActorLayer actors={s.actors} />
-      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: "0 220px" }}>
+      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: V ? "0 70px" : "0 220px" }}>
         <div style={{ fontFamily: FONT_DISPLAY, fontSize: 260, color: C.accent, lineHeight: 0.6, height: 120 }}>“</div>
         <div style={{ fontFamily: FONT_DISPLAY, fontSize: 76, lineHeight: 1.15, textAlign: "center" }}>
           {words.map((w, i) => (
@@ -340,6 +356,7 @@ const CompareScene: React.FC<{ s: StoryScene }> = ({ s }) => {
   const { fps } = useVideoConfig();
   const items = s.items ?? [];
   const maxV = Math.max(...items.map((i) => i.value), 1e-9);
+  const V = useV();
   return (
     <AbsoluteFill>
       <Slow>
@@ -347,10 +364,10 @@ const CompareScene: React.FC<{ s: StoryScene }> = ({ s }) => {
       </Slow>
       <ActorLayer actors={s.actors} />
       <Headline text={s.text} kicker={s.kicker} />
-      <div style={{ position: "absolute", left: 0, right: 0, bottom: 150, display: "flex", justifyContent: "center", alignItems: "flex-end", gap: 120 }}>
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 150, display: "flex", justifyContent: "center", alignItems: "flex-end", gap: V ? 40 : 120 }}>
         {items.map((it, i) => {
           const sp = spring({ frame: frame - 10 - i * 18, fps, config: { damping: 12 } });
-          const size = 60 + 560 * Math.sqrt(it.value / maxV);
+          const size = (60 + 560 * Math.sqrt(it.value / maxV)) * (V ? 0.5 : 1);
           return (
             <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>
               {it.emoji === "🕳️" || it.emoji === "🕳" ? (
@@ -376,7 +393,8 @@ const TimelineScene: React.FC<{ s: StoryScene }> = ({ s }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
   const pts = s.points ?? [];
-  const gap = 520;
+  const V = useV();
+  const gap = V ? 420 : 520;
   const total = (pts.length - 1) * gap;
   const pan = interpolate(frame, [fps * 0.5, durationInFrames - fps * 0.5], [0, Math.max(total - 0, 0)], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.inOut(Easing.cubic) });
   return (
@@ -386,12 +404,13 @@ const TimelineScene: React.FC<{ s: StoryScene }> = ({ s }) => {
       </AbsoluteFill>
       <ActorLayer actors={s.actors} />
       <Headline text={s.text} kicker={s.kicker} />
-      <div style={{ position: "absolute", top: 600, left: 960 - pan, height: 8, width: total + 2000, marginLeft: -1000, background: "rgba(255,255,255,0.35)", borderRadius: 4 }} />
+      <div style={{ position: "absolute", top: V ? 900 : 600, left: (V ? 540 : 960) - pan, height: 8, width: total + 2000, marginLeft: -1000, background: "rgba(255,255,255,0.35)", borderRadius: 4 }} />
       {pts.map((p, i) => {
-        const x = 960 + i * gap - pan;
-        const near = Math.max(0, 1 - Math.abs(x - 960) / 700);
+        const cxm = V ? 540 : 960;
+        const x = cxm + i * gap - pan;
+        const near = Math.max(0, 1 - Math.abs(x - cxm) / 700);
         return (
-          <div key={i} style={{ position: "absolute", left: x, top: 600, transform: `translate(-50%, -50%) scale(${0.8 + near * 0.4})`, display: "flex", flexDirection: "column", alignItems: "center", opacity: 0.35 + near * 0.65 }}>
+          <div key={i} style={{ position: "absolute", left: x, top: V ? 900 : 600, transform: `translate(-50%, -50%) scale(${0.8 + near * 0.4})`, display: "flex", flexDirection: "column", alignItems: "center", opacity: 0.35 + near * 0.65 }}>
             {p.emoji ? <img src={emojiUrl(p.emoji)} style={{ width: 150, height: 150, marginBottom: 20 }} /> : null}
             <div style={{ width: 34, height: 34, borderRadius: "50%", background: C.accent, border: "6px solid #fff" }} />
             <div style={{ fontFamily: FONT_DISPLAY, fontSize: 72, color: C.accent, marginTop: 18 }}>{p.year}</div>
@@ -427,6 +446,7 @@ const FootageScene: React.FC<{ s: StoryScene }> = ({ s }) => {
 const SceneView: React.FC<{ s: StoryScene }> = ({ s }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
+  const V = useV();
   const fade = Math.min(
     interpolate(frame, [0, 8], [0, 1], { extrapolateRight: "clamp" }),
     interpolate(frame, [durationInFrames - 8, durationInFrames], [1, 0], { extrapolateLeft: "clamp" }),
@@ -473,6 +493,7 @@ const SceneView: React.FC<{ s: StoryScene }> = ({ s }) => {
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       <AbsoluteFill style={{ opacity: fade }}>{body}</AbsoluteFill>
+      {V && s.type !== "title" && !s.noCaptions ? <Captions text={s.narration} /> : null}
       {s.audio ? <Audio src={staticFile(s.audio)} /> : null}
     </AbsoluteFill>
   );
@@ -513,7 +534,7 @@ export const Story: React.FC<StoryEpisode> = (ep) => {
         ))}
       </Series>
       <Brand />
-      {ep.music ? <Audio src={staticFile(ep.music)} volume={0.12} /> : null}
+      {ep.music ? <Audio src={staticFile(ep.music)} volume={ep.musicVolume ?? 0.12} /> : null}
     </AbsoluteFill>
   );
 };

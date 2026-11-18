@@ -318,3 +318,17 @@ Every long-form (format "story") must be staged mostly with `type: "cartoon"` sc
 Owner: "Quiero uno al día". Long-form (very animated, cartoon scenes) every day at 16:00,
 YouTube only. The 18:00 Short is every day the teaser of the latest long video.
 Overrides the Mon/Wed/Fri rule of "LONG-FORM STRATEGY CHANGE".
+
+## SHORTS ARE ANIMATED TOO (owner, 2026-11-18)
+Owner: "quiero que a partir de ahora todos los vídeos sean así. Los shorts de TikTok y
+YouTube también, con ese nivel como mínimo. Si hay algún día que te lo quieres currar más,
+adelante." → From 2026-11-19 every Short is an animated cartoon Short, at least at the
+level of the long-form (stick figures acting, epic objects, camera, effects). Pixabay
+footage only as an occasional extra scene (`type: "footage"`), never the main look.
+- Episode: `"format": "story"`, `"vertical": true` → composition StoryV (1080x1920, 24 fps),
+  music at 0.25, word captions (TikTok style) added automatically on every non-title scene,
+  no thumbnail. Template: episodes/templates/short-animado.json.
+- Vertical layout zones (percent of height): headline 9–20 %; objects/black holes 22–55 %;
+  CAPTIONS 60–72 % (keep bubbles/tags out of it); characters with feet at 85–95 %.
+- 5–7 scenes, 35–55 s, one strong visual beat per scene (pose change, collapse, flash...).
+- QA: stills per scene (Node API with id "StoryV") + clean scene WAV transcription.
