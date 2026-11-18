@@ -121,3 +121,4 @@
 - a 10:00 programado (YouTube https://www.youtube.com/watch?v=ZaS2KI9JHE8 ; TikTok programado). Transcripción limpia por escena revisada.
 - 08:09 reinicio del worker mató la cola a mitad del render de b; relanzada (TTS en caché).
 - b 12:00 programado (YouTube https://www.youtube.com/watch?v=PMTmS5UaZ1Y ; TikTok programado).
+- 2026-11-18 L1 (largo, agujero negro) programado YouTube 16:00 vía vidIQ: https://www.youtube.com/watch?v=V07ULXkcSdk (status completed, privado hasta las 16:00; miniatura enviada). Reinicio del worker mató q18 durante c; relanzado.
