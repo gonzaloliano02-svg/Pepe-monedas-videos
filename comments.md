@@ -26,3 +26,4 @@ Updated by the daily run. Never reply twice to the same comment ID.
 | 2026-11-11 | pwYFn0opDv0 | Ugw3xTuA7r-GRSQdm2l4AaABAg | abrazo (comentario personal) |
 | 2026-11-11 | zE0Kq0O1uaA | Ugw5SpQqibtscovZMwR4AaABAg | (ya respondido por el canal el 2026-11-10) |
 | 2026-11-17 | YjrZqeKS6E8 | UgzecVSvcnkYwLDwKwV4AaABAg | valiente + ¿frío o vistas? |
+| 2026-11-18 | UWigkr88SCE | UgxIDmMDMA6ke9LcyUt4AaABAg | @csarioantonio Manhattan: respuesta + pregunta |
