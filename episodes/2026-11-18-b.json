@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-18-b",
+  "format": "doc",
+  "title": "Aquí llueve 11 METROS de agua al año ☔ El lugar más lluvioso del planeta",
+  "description": "Mawsynram, en el estado de Meghalaya (India), registra de media unos 11.870 mm de lluvia al año, según los datos más citados: más de 20 veces lo que cae en Madrid en un año. Guinness lo reconoce como el lugar con más precipitación media anual, aunque el título se disputa con Cherrapunji (a pocos kilómetros) y con Lloró (Colombia). Casi toda esa lluvia cae durante el monzón, de junio a septiembre. Allí la gente usa paraguas de bambú (knups) y cruza los ríos por puentes hechos con raíces vivas de árboles.\n\nFuentes: Guinness World Records, Departamento Meteorológico de la India, AEMET (Madrid, ~420 mm/año). Cifras aproximadas. Imágenes: Pixabay (ilustrativas). Video creado con ayuda de IA.",
+  "tags": [
+    "mawsynram",
+    "lugar mas lluvioso del mundo",
+    "india",
+    "meghalaya",
+    "lugares extremos",
+    "curiosidades"
+  ],
+  "credits": [
+    "Pixabay: Fidato78, TravelGardenB, BrunoBaly, doktorkleinmusic, Razzak_100"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2023/07/22/172759-847869814_small.mp4",
+      "startFrom": 0,
+      "stamp": "*11 metros* de lluvia",
+      "narration": "¿Te imaginas que en un año cayeran once metros de lluvia sobre tu casa? Aquí pasa."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/07/31/294617_large.mp4",
+      "startFrom": 0,
+      "stamp": "Mawsynram, *India*",
+      "narration": "Esto es Mawsynram, en las montañas de Meghalaya, en la India. Se considera el lugar más lluvioso del planeta."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/09/25/378780_small.mp4",
+      "startFrom": 0,
+      "stamp": "Más de *20 veces* Madrid",
+      "narration": "Caen unos once mil ochocientos litros por metro cuadrado al año. Más de veinte veces lo que cae en Madrid."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/11/02/386546_small.mp4",
+      "startFrom": 0,
+      "stamp": "Casi todo en *4 meses*",
+      "narration": "Y casi todo cae de golpe, con el monzón, entre junio y septiembre. Hay días que no para ni un minuto."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/10/31/386302_large.mp4",
+      "startFrom": 0,
+      "stamp": "Puentes de *raíces vivas*",
+      "narration": "¿Y cómo se vive así? Con ingenio. Aquí cruzan los ríos por puentes hechos con raíces vivas de árboles."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/07/29/367164_small.mp4",
+      "startFrom": 0,
+      "stamp": "¿Tú *aguantarías*?",
+      "narration": "Eso sí, el título se lo disputan con un pueblo vecino y con otro de Colombia. ¿Tú aguantarías tanta lluvia?"
+    }
+  ]
+}

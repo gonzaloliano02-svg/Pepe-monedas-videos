@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-18-a",
+  "format": "doc",
+  "title": "Te dijeron que tu intestino ocupa una pista de TENIS. Mentira 🎾",
+  "description": "Durante décadas los libros de texto decían que la superficie interior del aparato digestivo era de unos 260–300 m², como una pista de tenis. Un estudio de 2014 de la Universidad de Gotemburgo (Helander y Fändriks, Scandinavian Journal of Gastroenterology) la volvió a medir con microscopía y llegó a unos 32 m² de media: más o menos media pista de bádminton. Casi todo está en el intestino delgado, cuyas vellosidades y microvellosidades multiplican su superficie entre 60 y 120 veces. Sigue siendo enorme: más que muchos pisos de estudio.\n\nFuente: Helander HF, Fändriks L (2014), Surface area of the digestive tract – revisited. Cifras medias para un adulto sano; varían de persona a persona. Imágenes: Pixabay (ilustrativas). Video creado con ayuda de IA.",
+  "tags": [
+    "intestino",
+    "aparato digestivo",
+    "cuerpo humano",
+    "pista de tenis",
+    "curiosidades",
+    "escala"
+  ],
+  "credits": [
+    "Pixabay: WhiteHatDesigner, xat-ch, NickiAnimations, MasterTux, Life-Of-Vids"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/06/10/357549_small.mp4",
+      "startFrom": 0,
+      "stamp": "¿Te lo *creíste*?",
+      "narration": "¿Te contaron que tu intestino, desplegado, ocuparía una pista de tenis? Pues no. Era un mito."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2020/09/16/50109-459915579_small.mp4",
+      "startFrom": 0,
+      "stamp": "El mito: *300 m²*",
+      "narration": "Durante décadas, los libros decían unos trescientos metros cuadrados. Una pista de tenis entera."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2021/11/06/94791-643084537_large.mp4",
+      "startFrom": 0,
+      "stamp": "Medido otra vez en *2014*",
+      "narration": "Pero en dos mil catorce, unos científicos suecos lo volvieron a medir. Con microscopio. Y el número se desplomó."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2021/07/11/81025-574269773_large.mp4",
+      "startFrom": 0,
+      "stamp": "Unos *32 m²*",
+      "narration": "¿El resultado? Unos treinta y dos metros cuadrados. Más o menos, media pista de bádminton."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2021/07/11/81025-574269773_large.mp4",
+      "startFrom": 8,
+      "stamp": "Millones de *pliegues*",
+      "narration": "¿Y cómo cabe eso dentro de ti? Gracias a millones de pliegues diminutos que multiplican la superficie hasta cien veces."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_large.mp4",
+      "startFrom": 0,
+      "stamp": "Más grande que un *estudio*",
+      "narration": "Así que no es una pista de tenis... pero sigue siendo más grande que muchos pisos. ¿Lo sabías?"
+    }
+  ]
+}

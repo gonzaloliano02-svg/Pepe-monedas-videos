@@ -1,0 +1,941 @@
+{
+ "id": "2026-11-18-L1",
+ "format": "story",
+ "title": "¿Qué pasaría si cayeras en un AGUJERO NEGRO? (paso a paso)",
+ "description": "",
+ "tags": [
+  "agujero negro",
+  "que pasaria si",
+  "agujeros negros",
+  "espacio",
+  "sagitario a",
+  "horizonte de sucesos",
+  "espaguetizacion",
+  "astronomia",
+  "curiosidades",
+  "documental"
+ ],
+ "thumbnail": {
+  "text": "¿Y si *caes*?",
+  "emoji": "🕳️",
+  "env": "space",
+  "kicker": "Agujero negro"
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "kicker": "Escala Brutal · ¿Qué pasaría si?",
+   "text": "Caer en un *agujero negro*",
+   "env": "space",
+   "emoji": "🕳️",
+   "narration": "Imagina que te acercas a un agujero negro. Que lo tienes delante. Y que ya no hay vuelta atrás. ¿Qué sentirías? ¿Qué verías? ¿Y qué verían los que se quedan fuera? Hoy vamos a caer en uno. Paso a paso."
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "bh1",
+   "text": "Sin *vuelta atrás*",
+   "props": [
+    {
+     "emoji": "🧑‍🚀",
+     "x": 35,
+     "y": 45,
+     "size": 140,
+     "anim": "float"
+    },
+    {
+     "emoji": "🕳️",
+     "x": 70,
+     "y": 55,
+     "size": 160
+    }
+   ],
+   "narration": "Pero antes, una advertencia: lo que vas a ver es raro de verdad. El tiempo se estira, el espacio se dobla, y la física que conocemos deja de funcionar. Y todo esto no es ciencia ficción: es lo que dicen las ecuaciones. Así que ponte cómodo, porque este viaje no tiene billete de vuelta."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "bh2",
+   "value": 300000,
+   "suffix": " km/s",
+   "emoji": "💡",
+   "label": "ni la *luz* puede escapar",
+   "narration": "Empecemos por lo básico. ¿Qué es un agujero negro? Es un lugar donde la gravedad es tan bestia que nada puede escapar. Ni siquiera la luz, que va a trescientos mil kilómetros por segundo. Por eso los vemos negros: la luz entra, pero ya no vuelve a salir."
+  },
+  {
+   "type": "landscape",
+   "env": "city",
+   "seed": "bh3",
+   "text": "¿Cómo se *forma*?",
+   "props": [
+    {
+     "emoji": "⭐",
+     "x": 40,
+     "y": 40,
+     "size": 150,
+     "anim": "shake"
+    },
+    {
+     "emoji": "💥",
+     "x": 65,
+     "y": 55,
+     "size": 130,
+     "anim": "pop"
+    }
+   ],
+   "narration": "¿Y de dónde salen? Muchos nacen cuando una estrella enorme, de muchas veces la masa del Sol, se queda sin combustible. Su núcleo se hunde sobre sí mismo... y ya no para. Toda esa materia se aprieta en un espacio cada vez más pequeño, hasta que la gravedad gana la partida para siempre."
+  },
+  {
+   "type": "stat",
+   "env": "ice",
+   "seed": "bh3b",
+   "value": 30,
+   "suffix": " km",
+   "emoji": "📏",
+   "label": "de radio: uno de *10 soles* (aprox.)",
+   "narration": "Un agujero negro de diez veces la masa del Sol mediría unos treinta kilómetros de radio. Como una ciudad pequeña. Pero con más masa que diez soles juntos dentro."
+  },
+  {
+   "type": "compare",
+   "env": "space",
+   "seed": "bh4",
+   "text": "Si la Tierra fuera un *agujero negro*",
+   "items": [
+    {
+     "emoji": "🌍",
+     "label": "La Tierra hoy",
+     "value": 12742,
+     "display": "12.742 km"
+    },
+    {
+     "emoji": "🔮",
+     "label": "La Tierra como agujero negro",
+     "value": 0.018,
+     "display": "≈1,8 cm"
+    }
+   ],
+   "narration": "Para que te hagas una idea: si aplastaras la Tierra entera hasta convertirla en un agujero negro, cabría en algo del tamaño de una canica. Unos dos centímetros. Con toda su masa dentro."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "bh5",
+   "text": "Quédate hasta el *final*",
+   "props": [
+    {
+     "emoji": "⏳",
+     "x": 38,
+     "y": 55,
+     "size": 140,
+     "anim": "spin"
+    },
+    {
+     "emoji": "❓",
+     "x": 65,
+     "y": 38,
+     "size": 110,
+     "anim": "pop"
+    }
+   ],
+   "narration": "En este vídeo vamos a elegir a qué agujero negro saltar, vamos a cruzar el punto de no retorno, vamos a ver qué pasa con el tiempo... y al final, la gran pregunta: ¿qué hay dentro?"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 1",
+   "text": "Elige tu *agujero negro*",
+   "env": "night",
+   "emoji": "🎯",
+   "narration": "Capítulo uno. Elige tu agujero negro."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "bh6",
+   "text": "No todos son *iguales*",
+   "props": [
+    {
+     "emoji": "🕳️",
+     "x": 30,
+     "y": 50,
+     "size": 90
+    },
+    {
+     "emoji": "🕳️",
+     "x": 62,
+     "y": 50,
+     "size": 190,
+     "anim": "float"
+    }
+   ],
+   "narration": "Primera sorpresa: no da igual en cuál caigas. Hay agujeros negros pequeños, de unas cuantas veces la masa del Sol. Y hay monstruos, de millones o miles de millones de soles. Y entre unos y otros hay una diferencia enorme, que va a decidir si llegas entero o no."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "bh7",
+   "value": 1560,
+   "suffix": " años luz",
+   "emoji": "📍",
+   "label": "el más *cercano* conocido (Gaia BH1)",
+   "narration": "El más cercano que conocemos se llama Gaia BH uno, y está a unos mil quinientos sesenta años luz. Tranquilo: está lejísimos. Nadie va a caer en él."
+  },
+  {
+   "type": "stat",
+   "env": "space",
+   "seed": "bh8",
+   "value": 4,
+   "suffix": " millones de soles",
+   "emoji": "🌌",
+   "label": "pesa *Sagitario A** (aprox.)",
+   "narration": "Y en el centro de nuestra galaxia hay uno gigante: Sagitario A asterisco. Pesa unos cuatro millones de veces lo que el Sol. Y aun así, no lo notamos: está a unos veintiséis mil años luz, y gira tranquilo, con estrellas dando vueltas a su alrededor."
+  },
+  {
+   "type": "map",
+   "kicker": "España",
+   "text": "Un telescopio en *Granada*",
+   "from": {
+    "lon": -20,
+    "lat": 30,
+    "zoom": 1.6
+   },
+   "to": {
+    "lon": -3.39,
+    "lat": 37.06,
+    "zoom": 7
+   },
+   "highlight": [
+    "Spain"
+   ],
+   "markers": [
+    {
+     "lon": -3.39,
+     "lat": 37.06,
+     "label": "Pico Veleta (IRAM)",
+     "emoji": "🔭"
+    }
+   ],
+   "narration": "En dos mil diecinueve y en dos mil veintidós vimos por primera vez la sombra de dos agujeros negros, con una red de radiotelescopios repartidos por todo el planeta. Y uno de ellos está en España: en el Pico Veleta, en Sierra Nevada."
+  },
+  {
+   "type": "timeline",
+   "env": "night",
+   "seed": "bh9",
+   "text": "Fotos de lo *invisible*",
+   "points": [
+    {
+     "year": "2019",
+     "label": "M87*",
+     "emoji": "📸"
+    },
+    {
+     "year": "2022",
+     "label": "Sagitario A*",
+     "emoji": "📸"
+    }
+   ],
+   "narration": "La primera foto, de dos mil diecinueve, era de M ochenta y siete asterisco: un agujero negro de unos seis mil quinientos millones de soles. La segunda, de dos mil veintidós, la de nuestro vecino del centro de la galaxia."
+  },
+  {
+   "type": "quote",
+   "env": "night",
+   "seed": "bh9b",
+   "text": "No vemos el agujero: vemos su sombra",
+   "author": "Event Horizon Telescope",
+   "emoji": "🔥",
+   "narration": "Ojo, porque en esas fotos no se ve el agujero negro en sí. Se ve el gas que lo rodea, girando a toda velocidad y calentándose a millones de grados. El agujero es la sombra oscura del medio."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "bh10",
+   "text": "El *pequeño* es peor",
+   "props": [
+    {
+     "emoji": "🕳️",
+     "x": 45,
+     "y": 55,
+     "size": 120,
+     "anim": "shake"
+    },
+    {
+     "emoji": "⚠️",
+     "x": 70,
+     "y": 35,
+     "size": 110,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Y aquí viene lo curioso. Si quieres sobrevivir un poco más, no elijas uno pequeño. Elige uno gigante. Ahora vas a entender por qué. Porque en este viaje, el tamaño importa. Y mucho."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 2",
+   "text": "El *espagueti*",
+   "env": "storm",
+   "emoji": "🍝",
+   "narration": "Capítulo dos. El espagueti."
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "bh11",
+   "text": "La gravedad *tira*",
+   "props": [
+    {
+     "emoji": "🧑‍🚀",
+     "x": 50,
+     "y": 45,
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "emoji": "⬇️",
+     "x": 50,
+     "y": 72,
+     "size": 100,
+     "anim": "fall"
+    }
+   ],
+   "narration": "Imagina que caes de pie hacia un agujero negro pequeño. La gravedad tira de tus pies mucho más fuerte que de tu cabeza, porque tus pies están un poco más cerca. Al principio ni lo notas. Pero cuanto más te acercas, más grande es esa diferencia."
+  },
+  {
+   "type": "quote",
+   "env": "night",
+   "seed": "bh12",
+   "text": "Espaguetización",
+   "author": "Así lo llaman los astrofísicos (de verdad)",
+   "emoji": "🍝",
+   "narration": "Esa diferencia te estira de arriba abajo y te aprieta por los lados. Los astrofísicos lo llaman, literalmente, espaguetización. Sí, como los espaguetis."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "bh13",
+   "text": "Mucho *antes* del borde",
+   "props": [
+    {
+     "emoji": "🍝",
+     "x": 40,
+     "y": 55,
+     "size": 150,
+     "anim": "shake"
+    },
+    {
+     "emoji": "🕳️",
+     "x": 68,
+     "y": 45,
+     "size": 130
+    }
+   ],
+   "narration": "En un agujero negro pequeño, de unas diez veces el Sol, esto te destrozaría mucho antes de llegar al borde. Ni siquiera llegarías a cruzar. Tu cuerpo se convertiría en un hilo larguísimo de materia, girando hacia el agujero."
+  },
+  {
+   "type": "landscape",
+   "env": "ice",
+   "seed": "bh14",
+   "text": "El gigante es más *suave*",
+   "props": [
+    {
+     "emoji": "🧑‍🚀",
+     "x": 38,
+     "y": 48,
+     "size": 130,
+     "anim": "float"
+    },
+    {
+     "emoji": "🕳️",
+     "x": 66,
+     "y": 52,
+     "size": 200
+    }
+   ],
+   "narration": "Pero en uno gigante, como M ochenta y siete, pasa lo contrario. Es tan grande que, en el borde, la diferencia entre tus pies y tu cabeza es minúscula. Cruzarías sin notar nada. Lo que no significa que estés a salvo, claro. Solo que el final llega un poco más tarde."
+  },
+  {
+   "type": "compare",
+   "env": "space",
+   "seed": "bh15",
+   "text": "¿Dónde *aguantas*?",
+   "items": [
+    {
+     "emoji": "🕳️",
+     "label": "Agujero pequeño (10 soles)",
+     "value": 1,
+     "display": "Te estira antes del borde"
+    },
+    {
+     "emoji": "🕳️",
+     "label": "Gigante (M87*)",
+     "value": 10,
+     "display": "Cruzas sin notarlo"
+    }
+   ],
+   "narration": "Es contraintuitivo, ¿verdad? Cuanto más grande es el agujero negro, más suave es la entrada. Así que, para nuestro viaje, elegimos el gigante."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "bh15b",
+   "value": 6500,
+   "suffix": " M soles",
+   "emoji": "🕳️",
+   "label": "pesa *M87** (aprox.)",
+   "narration": "M ochenta y siete asterisco pesa unos seis mil quinientos millones de soles. Su horizonte es más grande que todo nuestro sistema solar hasta Plutón. El destino perfecto para un viaje de ida."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 3",
+   "text": "El punto de *no retorno*",
+   "env": "night",
+   "emoji": "🚫",
+   "narration": "Capítulo tres. El punto de no retorno."
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "bh16",
+   "text": "El *horizonte de sucesos*",
+   "props": [
+    {
+     "emoji": "⭕",
+     "x": 50,
+     "y": 50,
+     "size": 220,
+     "anim": "spin"
+    },
+    {
+     "emoji": "🧑‍🚀",
+     "x": 25,
+     "y": 40,
+     "size": 90,
+     "anim": "walk"
+    }
+   ],
+   "narration": "Todo agujero negro tiene un borde invisible: el horizonte de sucesos. No es una pared. No hay nada sólido. Es solo una frontera. Pero una vez que la cruzas, ya no puedes salir. Nunca. Ni siquiera la luz de una linterna que encendieras dentro podría salir."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "bh17",
+   "value": 11.2,
+   "suffix": " km/s",
+   "emoji": "🚀",
+   "label": "para escapar de la *Tierra*",
+   "narration": "Para salir de la Tierra, un cohete tiene que ir a once kilómetros por segundo. En el horizonte de un agujero negro, necesitarías ir más rápido que la luz. Y eso es imposible."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "bh18",
+   "text": "No *notarías* nada",
+   "props": [
+    {
+     "emoji": "🧑‍🚀",
+     "x": 45,
+     "y": 50,
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "emoji": "😐",
+     "x": 68,
+     "y": 35,
+     "size": 100,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Y lo más inquietante: en un agujero negro gigante, al cruzar el horizonte no sentirías nada especial. No hay alarma. No hay sacudida. Simplemente, ya estás dentro. Miras atrás, y todavía ves el universo. Pero ya no puedes volver a él."
+  },
+  {
+   "type": "stat",
+   "env": "space",
+   "seed": "bh19",
+   "value": 12,
+   "suffix": " M km",
+   "emoji": "⭕",
+   "label": "de radio: el horizonte de *Sagitario A**",
+   "narration": "Para que te hagas una idea del tamaño: el horizonte de Sagitario A asterisco mide unos doce millones de kilómetros de radio. Más o menos dieciocho veces el radio del Sol."
+  },
+  {
+   "type": "landscape",
+   "env": "city",
+   "seed": "bh20",
+   "text": "La luz se *dobla*",
+   "props": [
+    {
+     "emoji": "💫",
+     "x": 40,
+     "y": 40,
+     "size": 140,
+     "anim": "spin"
+    },
+    {
+     "emoji": "🕳️",
+     "x": 62,
+     "y": 58,
+     "size": 160
+    }
+   ],
+   "narration": "Mientras caes, el cielo se vuelve loco. La gravedad dobla la luz de las estrellas, así que ves el universo entero deformado, como a través de una lupa gigante. Incluso podrías ver la luz de estrellas que están justo detrás del agujero, rodeándolo como un anillo."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 4",
+   "text": "El tiempo se *estira*",
+   "env": "sea",
+   "emoji": "⏱️",
+   "narration": "Capítulo cuatro. El tiempo se estira."
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "bh21",
+   "text": "Tu *amigo* se queda fuera",
+   "props": [
+    {
+     "emoji": "🧑‍🚀",
+     "x": 30,
+     "y": 45,
+     "size": 120,
+     "anim": "walk"
+    },
+    {
+     "emoji": "👀",
+     "x": 72,
+     "y": 40,
+     "size": 120
+    }
+   ],
+   "narration": "Ahora imagina que un amigo te ve caer desde lejos, a salvo. Y aquí pasa lo más raro de todo el viaje. Está lejos, flotando en su nave, mirando con un telescopio cómo te acercas al borde."
+  },
+  {
+   "type": "quote",
+   "env": "night",
+   "seed": "bh22",
+   "text": "Cuanto más fuerte es la gravedad, más despacio pasa el tiempo",
+   "author": "Relatividad general de Einstein (1915)",
+   "emoji": "⏱️",
+   "narration": "Según Einstein, la gravedad frena el tiempo. Y cerca de un agujero negro, lo frena muchísimo."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "bh23",
+   "text": "Cada vez más *lento*",
+   "props": [
+    {
+     "emoji": "🐌",
+     "x": 40,
+     "y": 60,
+     "size": 140,
+     "anim": "walk"
+    },
+    {
+     "emoji": "⏳",
+     "x": 66,
+     "y": 38,
+     "size": 110,
+     "anim": "spin"
+    }
+   ],
+   "narration": "Tu amigo te vería ir cada vez más despacio. Más despacio. Y más. Tu imagen se volvería cada vez más roja y más débil. Hasta que, al final, dejaría de verte del todo. Como si te hubieras desvanecido."
+  },
+  {
+   "type": "compare",
+   "env": "space",
+   "seed": "bh24",
+   "text": "Dos *versiones* del mismo viaje",
+   "items": [
+    {
+     "emoji": "🧑‍🚀",
+     "label": "Para ti",
+     "value": 1,
+     "display": "Cruzas el borde"
+    },
+    {
+     "emoji": "👀",
+     "label": "Para tu amigo",
+     "value": 10,
+     "display": "Nunca te ve cruzar"
+    }
+   ],
+   "narration": "Y nunca te vería cruzar el borde. Para él, te quedarías congelado en la entrada, apagándote poco a poco. Para ti, en cambio, todo seguiría normal y cruzarías tranquilamente. Los dos tendríais razón."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "bh25",
+   "text": "Ciencia, no *ficción*",
+   "props": [
+    {
+     "emoji": "🛰️",
+     "x": 40,
+     "y": 45,
+     "size": 120,
+     "anim": "float"
+    },
+    {
+     "emoji": "📡",
+     "x": 66,
+     "y": 62,
+     "size": 130
+    }
+   ],
+   "narration": "¿Suena a película? Pues este efecto existe de verdad, aunque mucho más pequeño. Los satélites GPS tienen que corregirlo cada día, porque arriba, con menos gravedad, sus relojes van un poquito más rápido. Si no lo hicieran, la ubicación de tu móvil se iría desviando sin parar."
+  },
+  {
+   "type": "stat",
+   "env": "ice",
+   "seed": "bh26",
+   "value": 38,
+   "suffix": " µs al día",
+   "emoji": "🛰️",
+   "label": "se adelantan los relojes del *GPS* (aprox.)",
+   "narration": "Unos treinta y ocho microsegundos al día. Parece nada, pero si no se corrigiera, tu GPS se equivocaría en kilómetros cada día."
+  },
+  {
+   "type": "quote",
+   "env": "space",
+   "seed": "bh26b",
+   "text": "Una hora allí son siete años en la Tierra",
+   "author": "Una película famosa lo llevó al extremo",
+   "emoji": "🎬",
+   "narration": "Seguro que lo has visto en alguna película: astronautas que pasan unas horas cerca de un agujero negro y, al volver, en la Tierra han pasado años. Es una exageración de cine, pero la idea es real."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 5",
+   "text": "¿Qué hay *dentro*?",
+   "env": "storm",
+   "emoji": "❓",
+   "narration": "Capítulo cinco. ¿Qué hay dentro?"
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "bh27",
+   "text": "Todos los caminos *llevan al centro*",
+   "props": [
+    {
+     "emoji": "🧑‍🚀",
+     "x": 50,
+     "y": 35,
+     "size": 120,
+     "anim": "fall"
+    },
+    {
+     "emoji": "⚫",
+     "x": 50,
+     "y": 70,
+     "size": 110
+    }
+   ],
+   "narration": "Ya estás dentro. Y aquí pasa algo extraño: el centro ya no es un lugar al que puedes ir o no ir. Es tu futuro. Hagas lo que hagas, todos los caminos llevan hacia él. Igual que aquí fuera no puedes evitar llegar a mañana, ahí dentro no puedes evitar llegar al centro."
+  },
+  {
+   "type": "compare",
+   "env": "night",
+   "seed": "bh28",
+   "text": "¿Cuánto *tiempo* te queda?",
+   "items": [
+    {
+     "emoji": "🕳️",
+     "label": "10 soles",
+     "value": 0.0002,
+     "display": "Una fracción de segundo"
+    },
+    {
+     "emoji": "🕳️",
+     "label": "Sagitario A*",
+     "value": 60,
+     "display": "≈1 minuto"
+    },
+    {
+     "emoji": "🕳️",
+     "label": "M87*",
+     "value": 100000,
+     "display": "Horas"
+    }
+   ],
+   "narration": "¿Cuánto tardarías en llegar? Depende del tamaño. En uno pequeño, una fracción de segundo. En Sagitario A asterisco, alrededor de un minuto. En M ochenta y siete, algo así como un día entero."
+  },
+  {
+   "type": "landscape",
+   "env": "storm",
+   "seed": "bh29",
+   "text": "La *singularidad*",
+   "props": [
+    {
+     "emoji": "⚫",
+     "x": 50,
+     "y": 50,
+     "size": 160,
+     "anim": "spin"
+    },
+    {
+     "emoji": "💥",
+     "x": 70,
+     "y": 32,
+     "size": 100,
+     "anim": "pop"
+    }
+   ],
+   "narration": "En el centro, según las ecuaciones, está la singularidad: un punto donde toda la masa queda aplastada en un espacio infinitamente pequeño. Donde la densidad se vuelve infinita. Es decir: algo que la física, tal y como la conocemos, no sabe describir."
+  },
+  {
+   "type": "quote",
+   "env": "space",
+   "seed": "bh30",
+   "text": "Ahí nuestras teorías dejan de funcionar",
+   "author": "La física, siendo sincera",
+   "emoji": "🤷",
+   "narration": "Pero ojo: que las ecuaciones den infinito significa, sobre todo, que ya no sirven. Nadie sabe de verdad qué hay en el centro. Para saberlo haría falta una teoría que todavía no tenemos."
+  },
+  {
+   "type": "landscape",
+   "env": "desert",
+   "seed": "bh31",
+   "text": "Teorías *locas*",
+   "props": [
+    {
+     "emoji": "🌀",
+     "x": 38,
+     "y": 48,
+     "size": 140,
+     "anim": "spin"
+    },
+    {
+     "emoji": "🚪",
+     "x": 66,
+     "y": 56,
+     "size": 120
+    }
+   ],
+   "narration": "Hay ideas para todos los gustos: que la singularidad no existe, que el centro conecta con otro sitio, que la información queda guardada en el borde... Ninguna está demostrada. Es uno de los grandes misterios de la física."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "bh31b",
+   "value": 0,
+   "suffix": " pruebas",
+   "emoji": "🔬",
+   "label": "de lo que hay *dentro*",
+   "narration": "Y lo más frustrante: es imposible comprobarlo. Nada de lo que pase dentro puede enviarnos información. Ni un mensaje, ni una foto, ni una señal. El interior de un agujero negro es, por definición, un secreto."
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 6",
+   "text": "Así los *descubrimos*",
+   "env": "city",
+   "emoji": "🔭",
+   "narration": "Capítulo seis. Así los descubrimos."
+  },
+  {
+   "type": "timeline",
+   "env": "night",
+   "seed": "bh32",
+   "text": "Una idea *imposible*",
+   "points": [
+    {
+     "year": "1916",
+     "label": "Schwarzschild",
+     "emoji": "📝"
+    },
+    {
+     "year": "1967",
+     "label": "Nombre: agujero negro",
+     "emoji": "🏷️"
+    },
+    {
+     "year": "1974",
+     "label": "Radiación de Hawking",
+     "emoji": "♨️"
+    },
+    {
+     "year": "2015",
+     "label": "Ondas gravitacionales",
+     "emoji": "🌊"
+    }
+   ],
+   "narration": "La historia empieza en mil novecientos dieciséis. Karl Schwarzschild, un astrónomo alemán, resolvió las ecuaciones de Einstein mientras servía en el frente de la Primera Guerra Mundial. Y de su solución salía algo absurdo: una región de la que nada podía salir."
+  },
+  {
+   "type": "landscape",
+   "env": "city",
+   "seed": "bh33",
+   "text": "Nadie se lo *creía*",
+   "props": [
+    {
+     "emoji": "🤔",
+     "x": 40,
+     "y": 52,
+     "size": 140
+    },
+    {
+     "emoji": "📚",
+     "x": 66,
+     "y": 40,
+     "size": 110,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Durante décadas, casi nadie pensó que existieran de verdad. Eran una rareza matemática. El nombre de agujero negro se hizo popular en los años sesenta, gracias al físico John Wheeler. Hasta que empezamos a ver cosas raras en el cielo: estrellas que giraban alrededor de algo que no se veía."
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "bh34",
+   "text": "Hawking y el *brillo*",
+   "props": [
+    {
+     "emoji": "♨️",
+     "x": 40,
+     "y": 45,
+     "size": 140,
+     "anim": "rise"
+    },
+    {
+     "emoji": "🕳️",
+     "x": 66,
+     "y": 58,
+     "size": 150
+    }
+   ],
+   "narration": "En mil novecientos setenta y cuatro, Stephen Hawking calculó que los agujeros negros no son del todo negros. Deberían soltar un brillo muy débil y, poco a poco, evaporarse. Fue una idea revolucionaria: por primera vez, la física cuántica y la gravedad se daban la mano."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "bh35",
+   "value": 13800,
+   "suffix": " M años",
+   "emoji": "🌌",
+   "label": "edad del *universo*: mucho menos de lo que tarda uno en evaporarse",
+   "narration": "Eso sí, muy poco a poco. Un agujero negro como el Sol tardaría muchísimo más que la edad actual del universo, que son unos trece mil ochocientos millones de años."
+  },
+  {
+   "type": "landscape",
+   "env": "sea",
+   "seed": "bh36",
+   "text": "Ondas en el *espacio*",
+   "props": [
+    {
+     "emoji": "🌊",
+     "x": 40,
+     "y": 58,
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "emoji": "🕳️",
+     "x": 62,
+     "y": 40,
+     "size": 100
+    },
+    {
+     "emoji": "🕳️",
+     "x": 76,
+     "y": 46,
+     "size": 90
+    }
+   ],
+   "narration": "Y en dos mil quince llegó la prueba definitiva. Dos detectores en Estados Unidos captaron ondas gravitacionales: vibraciones del propio espacio, producidas por el choque de dos agujeros negros. Fue como escuchar el universo por primera vez, en lugar de solo mirarlo."
+  },
+  {
+   "type": "stat",
+   "env": "space",
+   "seed": "bh37",
+   "value": 1300,
+   "suffix": " M años luz",
+   "emoji": "🌊",
+   "label": "de distancia del *choque* detectado en 2015",
+   "narration": "Ese choque ocurrió a unos mil trescientos millones de años luz. La vibración llevaba viajando todo ese tiempo, y al llegar aquí estiró el detector menos que el ancho de un protón. Y aun así la detectaron. Ganaron el Nobel en dos mil diecisiete."
+  },
+  {
+   "type": "title",
+   "kicker": "Escala Brutal",
+   "text": "¿Saltarías *tú*?",
+   "env": "space",
+   "emoji": "🕳️",
+   "narration": "Entonces... ¿saltarías?"
+  },
+  {
+   "type": "landscape",
+   "env": "night",
+   "seed": "bh38",
+   "text": "El viaje *completo*",
+   "props": [
+    {
+     "emoji": "🧑‍🚀",
+     "x": 30,
+     "y": 40,
+     "size": 110,
+     "anim": "float"
+    },
+    {
+     "emoji": "⭕",
+     "x": 55,
+     "y": 55,
+     "size": 150,
+     "anim": "spin"
+    },
+    {
+     "emoji": "⚫",
+     "x": 78,
+     "y": 62,
+     "size": 90
+    }
+   ],
+   "narration": "Recapitulemos. Eliges un agujero negro gigante. Cruzas el horizonte sin notar nada. Tu amigo te ve congelarte en el borde. El cielo se deforma a tu alrededor. Y caes hacia un centro que nadie entiende. Un viaje que nadie ha hecho. Y que nadie podría contar."
+  },
+  {
+   "type": "landscape",
+   "env": "forest",
+   "seed": "bh39",
+   "text": "Una *buena noticia*",
+   "props": [
+    {
+     "emoji": "🌍",
+     "x": 42,
+     "y": 55,
+     "size": 150
+    },
+    {
+     "emoji": "😮‍💨",
+     "x": 68,
+     "y": 38,
+     "size": 110,
+     "anim": "pop"
+    }
+   ],
+   "narration": "La buena noticia es que no hay ninguno lo bastante cerca como para preocuparnos. Y el Sol nunca se convertirá en uno: no tiene masa suficiente. Cuando el Sol muera, dentro de miles de millones de años, se convertirá en una enana blanca, no en un agujero negro."
+  },
+  {
+   "type": "stat",
+   "env": "night",
+   "seed": "bh40",
+   "value": 3,
+   "suffix": " km",
+   "emoji": "☀️",
+   "label": "mediría el *Sol* si fuera un agujero negro",
+   "narration": "Por cierto, si aplastáramos el Sol hasta convertirlo en agujero negro, mediría unos tres kilómetros de radio. Y la Tierra seguiría girando igual a su alrededor, aunque, eso sí, a oscuras."
+  },
+  {
+   "type": "landscape",
+   "env": "space",
+   "seed": "bh41",
+   "text": "¿Y *tú* qué harías?",
+   "props": [
+    {
+     "emoji": "💬",
+     "x": 50,
+     "y": 48,
+     "size": 200,
+     "anim": "pop"
+    }
+   ],
+   "narration": "Los agujeros negros son los lugares más extremos del universo. Y todavía no sabemos qué esconden. Si te ha gustado este viaje, suscríbete a Escala Brutal. Y cuéntame en los comentarios: si pudieras ver por dentro un agujero negro, a cambio de no volver jamás... ¿saltarías? Te leo."
+  }
+ ]
+}

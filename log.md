@@ -108,3 +108,13 @@
 - Comentarios: 1 nuevo en La Rinconada (@judithlopez) → respondido (6 créditos vidIQ: 5 lectura + 1 respuesta).
 - Hoy solo 1 Short nuevo (backlog ocupa 10/12/16/20): c 18:00 = ¿Qué pasaría si...? (ganador) con escala: toda la humanidad con la densidad de Manhattan (~28.800/km², censo 2020) cabría en ~285.000 km², algo más de media España. Primer vídeo con la voz del dueño (tu voz A).
 - c 18:00 "¿Y si TODA la humanidad viviera tan apretada como en Manhattan? 🏙️" (47.9 s, tu voz A). YouTube subido para las 18:00: https://www.youtube.com/watch?v=UWigkr88SCE ; TikTok programado 18:00 (vidIQ post 9cbc9b5e). Frame-sheet y transcripción revisados.
+
+## 2026-11-18 (miércoles) — día de vídeo largo
+- Verificación de ayer: todo "completed" (YouTube Manhattan + backlog; TikTok Marte, Millón, Rinconada, Manhattan, Pulmones).
+- Datos: Marte 951, Millón 854, Leónidas 872, La Rinconada 821, Manhattan 272 (1 día). Pulmones solo 19 en YouTube (raro: pedir al dueño que mire si es público). Largos 0–1.
+- Comentarios: 1 nuevo en Manhattan → respondido (6 créditos).
+- Choice (voz "muy animada" desde hoy, guiones más vivos):
+  - a 10:00 Tu cuerpo a escala: el intestino NO es una pista de tenis (Helander & Fändriks 2014: ~32 m², media pista de bádminton). Mito + escala.
+  - b 12:00 Lugares extremos: Mawsynram, ~11.870 mm/año (Guinness; disputado con Cherrapunji y Lloró).
+  - L1 16:00 (estrategia nueva, búsqueda): "¿Qué pasaría si cayeras en un AGUJERO NEGRO? (paso a paso)", 55 escenas, ~1.900 palabras.
+  - c 18:00 anzuelo del L1: espaguetización.

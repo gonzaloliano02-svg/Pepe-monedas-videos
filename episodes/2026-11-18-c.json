@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-18-c",
+  "format": "doc",
+  "title": "Si caes en un agujero negro PEQUEÑO, te conviertes en ESPAGUETI 🍝🕳️",
+  "description": "Cerca de un agujero negro, la gravedad tira mucho más fuerte de la parte de tu cuerpo que está más cerca. Esa diferencia te estira y te aprieta: los astrofísicos lo llaman, de verdad, espaguetización. En un agujero negro pequeño, de unas diez veces la masa del Sol, te destrozaría antes de llegar al horizonte de sucesos. Pero en uno gigante, como M87* (unos 6.500 millones de soles), cruzarías el borde sin notar nada. El viaje completo, paso a paso, está en el vídeo largo del canal: «¿Qué pasaría si cayeras en un AGUJERO NEGRO?».\n\nFuentes: NASA, relatividad general (efecto de marea). Escenario simplificado; cifras aproximadas. Imágenes: Pixabay (ilustrativas). Video creado con ayuda de IA.",
+  "tags": [
+    "agujero negro",
+    "espaguetizacion",
+    "espacio",
+    "que pasaria si",
+    "astronomia",
+    "curiosidades"
+  ],
+  "credits": [
+    "Pixabay: baranova_n, zaryabkhanmiczon, kurt_BID, Nerd_Nonsense, VirelliArt, TonyDias7"
+  ],
+  "scenes": [
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2026/07/11/363459_medium.mp4",
+      "startFrom": 0,
+      "stamp": "¿Y si *caes* dentro?",
+      "narration": "¿Sabes qué te pasaría si cayeras en un agujero negro pequeño? Te convertirías en un espagueti. Literal."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2021/06/25/78873-567754575_large.mp4",
+      "startFrom": 0,
+      "stamp": "Tus pies *primero*",
+      "narration": "Imagina que caes de pie. La gravedad tira de tus pies muchísimo más fuerte que de tu cabeza, porque están más cerca."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/08/18/227106_large.mp4",
+      "startFrom": 0,
+      "stamp": "*Espaguetización*",
+      "narration": "Te estira de arriba abajo y te aprieta por los lados. Los científicos lo llaman así, de verdad: espaguetización."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2024/05/15/212024_large.mp4",
+      "startFrom": 0,
+      "stamp": "Ni llegas al *borde*",
+      "narration": "En un agujero negro de unas diez veces el Sol, te destrozaría antes incluso de llegar al borde."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/12/31/325130_small.mp4",
+      "startFrom": 0,
+      "stamp": "En uno *gigante*... nada",
+      "narration": "¿Y lo más loco? En uno gigante, de miles de millones de soles, cruzarías el borde sin notar absolutamente nada."
+    },
+    {
+      "type": "clip",
+      "src": "https://cdn.pixabay.com/video/2025/03/17/265376_large.mp4",
+      "startFrom": 0,
+      "stamp": "El viaje *completo*",
+      "narration": "¿Y qué pasa después? El viaje completo, paso a paso, está en el canal. ¿Te atreves?"
+    }
+  ]
+}
