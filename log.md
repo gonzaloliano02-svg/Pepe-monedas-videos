@@ -118,3 +118,6 @@
   - b 12:00 Lugares extremos: Mawsynram, ~11.870 mm/año (Guinness; disputado con Cherrapunji y Lloró).
   - L1 16:00 (estrategia nueva, búsqueda): "¿Qué pasaría si cayeras en un AGUJERO NEGRO? (paso a paso)", 55 escenas, ~1.900 palabras.
   - c 18:00 anzuelo del L1: espaguetización.
+- a 10:00 programado (YouTube https://www.youtube.com/watch?v=ZaS2KI9JHE8 ; TikTok programado). Transcripción limpia por escena revisada.
+- 08:09 reinicio del worker mató la cola a mitad del render de b; relanzada (TTS en caché).
+- b 12:00 programado (YouTube https://www.youtube.com/watch?v=PMTmS5UaZ1Y ; TikTok programado).
