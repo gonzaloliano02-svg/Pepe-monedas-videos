@@ -332,3 +332,16 @@ footage only as an occasional extra scene (`type: "footage"`), never the main lo
   CAPTIONS 60–72 % (keep bubbles/tags out of it); characters with feet at 85–95 %.
 - 5–7 scenes, 35–55 s, one strong visual beat per scene (pose change, collapse, flash...).
 - QA: stills per scene (Node API with id "StoryV") + clean scene WAV transcription.
+
+## SOUND EFFECTS (owner, 2026-11-18: "añade también efectos de sonido")
+All "story" videos (long-form and animated Shorts) get automatic SFX from src/story/Sfx.tsx,
+derived from what happens on screen (no manual timing needed): whoosh on cuts, hit on
+titles, count+ding on stats, pop/blip when actors/tags/bubbles appear, boing on scared
+reactions, swoosh on arrows and moving emoji, riser+boom on star collapse / black-hole
+merger, boom on flash, rumble on camera shake, hum near big black holes, wind in warp /
+speed lines, tick-tock for clocks, sparkle for ✨ and light-bending.
+Sounds are synthesised by `scripts/make_sfx.py` (public/sfx, committed; regenerate with
+/opt/cbx/venv/bin/python scripts/make_sfx.py). Extra hand-placed effects per scene:
+`"sfx": [{"at": 2.5, "name": "boom", "vol": 0.4}]`; silence a scene with `"noSfx": true`.
+Add new sounds to make_sfx.py when a topic needs them (e.g. water, fire, crowd).
+QA: whisper on the final mix must still give the full narration.

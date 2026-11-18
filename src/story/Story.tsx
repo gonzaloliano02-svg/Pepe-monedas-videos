@@ -18,6 +18,7 @@ import { Landscape, type Env } from "./Landscape";
 import { MapScene, type MapMarker, type MapRoute, type MapView } from "./MapScene";
 import { emojiUrl } from "./emoji";
 import { Captions } from "../Doc";
+import { SceneSfx, type SfxEvent } from "./Sfx";
 import { ActorLayer, BlackHole, Cartoon, CartoonBackdrop, type CartoonScene } from "./Cartoon";
 
 export type Prop = {
@@ -61,6 +62,8 @@ export type StoryScene = CartoonScene & {
   // timeline
   points?: { year: string; label: string; emoji?: string }[];
   noCaptions?: boolean;
+  sfx?: SfxEvent[];
+  noSfx?: boolean;
   // footage
   src?: string;
   startFrom?: number;
@@ -495,6 +498,7 @@ const SceneView: React.FC<{ s: StoryScene }> = ({ s }) => {
       <AbsoluteFill style={{ opacity: fade }}>{body}</AbsoluteFill>
       {V && s.type !== "title" && !s.noCaptions ? <Captions text={s.narration} /> : null}
       {s.audio ? <Audio src={staticFile(s.audio)} /> : null}
+      <SceneSfx s={s} />
     </AbsoluteFill>
   );
 };
