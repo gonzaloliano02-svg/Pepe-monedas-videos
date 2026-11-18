@@ -313,3 +313,8 @@ Every long-form (format "story") must be staged mostly with `type: "cartoon"` sc
   (bundle once, renderStill with browserExecutable =
   /opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell)
   and check overlaps with headlines.
+
+## SCHEDULE CHANGE (owner, 2026-11-18): one long-form EVERY DAY
+Owner: "Quiero uno al día". Long-form (very animated, cartoon scenes) every day at 16:00,
+YouTube only. The 18:00 Short is every day the teaser of the latest long video.
+Overrides the Mon/Wed/Fri rule of "LONG-FORM STRATEGY CHANGE".
