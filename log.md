@@ -132,3 +132,4 @@
 - Elección: a 10:00 = lugar más caliente (lugares extremos, ganador; Lut 70,7 °C suelo / Valle de la Muerte 56,7 °C aire). b 12:00 = parpadeo (cuerpo a escala, ganador; ~1 h/día con ojos cerrados). Largo 16:00 = ¿Qué le pasa a tu cuerpo si NO DUERMES? (búsqueda alta "que pasa si no duermes"; el Short "72 horas sin dormir" tuvo 878 vistas y comentarios). c 18:00 = teaser Randy Gardner 11 días.
 - Todo animado (StoryV para Shorts) con efectos de sonido. Librería: habitación día/noche, cara de sueño, calima, nieve, sudor.
 - Comentarios: 1 nuevo (espagueti) respondido. 6 créditos.
+- a programado 10:00: YT https://www.youtube.com/watch?v=fvqZcr8Wyjc (completed) + TikTok (scheduled 09:00Z). QA ok. Nota: vidIQ ahora permite cambiar/cancelar programados con draft_update replaceScheduled true.
