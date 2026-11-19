@@ -134,3 +134,4 @@
 - Comentarios: 1 nuevo (espagueti) respondido. 6 créditos.
 - a programado 10:00: YT https://www.youtube.com/watch?v=fvqZcr8Wyjc (completed) + TikTok (scheduled 09:00Z). QA ok. Nota: vidIQ ahora permite cambiar/cancelar programados con draft_update replaceScheduled true.
 - b programado 12:00: YT https://www.youtube.com/watch?v=2vE_MpGXIu8 (completed) + TikTok (scheduled 11:00Z). Re-render por choque del dato con subtítulos (arreglado en StoryV).
+- 2026-11-19 L1 "¿Qué le pasa a tu cuerpo si NO DUERMES? (hora a hora)" (11.4 min, 55 scenes, animated + SFX, thumbnail, chapters) → YouTube scheduled 16:00 via vidIQ, status completed: https://www.youtube.com/watch?v=Us0XpyT1oC0
