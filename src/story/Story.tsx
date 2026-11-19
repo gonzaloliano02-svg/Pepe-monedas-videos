@@ -306,7 +306,7 @@ const StatScene: React.FC<{ s: StoryScene }> = ({ s }) => {
         </AbsoluteFill>
       </Slow>
       <ActorLayer actors={s.actors} />
-      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
+      <AbsoluteFill style={{ justifyContent: V ? "flex-start" : "center", paddingTop: V ? 380 : 0, alignItems: "center" }}>
         {s.emoji ? <img src={emojiUrl(s.emoji)} style={{ width: 200, height: 200, transform: `scale(${pop})`, marginBottom: 20 }} /> : null}
         <div style={{ fontFamily: FONT_DISPLAY, fontSize: numSize, textAlign: "center", padding: V ? "0 40px" : 0, color: C.accent, letterSpacing: -8, lineHeight: 1, textShadow: "0 12px 40px rgba(0,0,0,0.6)", fontVariantNumeric: "tabular-nums" }}>
           {s.prefix ?? ""}
