@@ -345,3 +345,6 @@ Sounds are synthesised by `scripts/make_sfx.py` (public/sfx, committed; regenera
 `"sfx": [{"at": 2.5, "name": "boom", "vol": 0.4}]`; silence a scene with `"noSfx": true`.
 Add new sounds to make_sfx.py when a topic needs them (e.g. water, fire, crowd).
 QA: whisper on the final mix must still give the full narration.
+
+## vidIQ: change/cancel scheduled posts
+Scheduled posts can now be changed or cancelled with vidiq_social_post_draft_update + replaceScheduled true (free). Prefer this over vidiq_update_video (5 credits) when the post is still scheduled in vidIQ.
