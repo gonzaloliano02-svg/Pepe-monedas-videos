@@ -133,3 +133,4 @@
 - Todo animado (StoryV para Shorts) con efectos de sonido. Librería: habitación día/noche, cara de sueño, calima, nieve, sudor.
 - Comentarios: 1 nuevo (espagueti) respondido. 6 créditos.
 - a programado 10:00: YT https://www.youtube.com/watch?v=fvqZcr8Wyjc (completed) + TikTok (scheduled 09:00Z). QA ok. Nota: vidIQ ahora permite cambiar/cancelar programados con draft_update replaceScheduled true.
+- b programado 12:00: YT https://www.youtube.com/watch?v=2vE_MpGXIu8 (completed) + TikTok (scheduled 11:00Z). Re-render por choque del dato con subtítulos (arreglado en StoryV).
