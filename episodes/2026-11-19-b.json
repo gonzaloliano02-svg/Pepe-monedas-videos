@@ -1,0 +1,263 @@
+{
+  "id": "2026-11-19-b",
+  "format": "story",
+  "vertical": true,
+  "title": "Pasas 1 HORA al día con los ojos cerrados (y no te enteras) 👀",
+  "description": "Un adulto parpadea unas 15 veces por minuto y cada parpadeo dura unas décimas de segundo. Sumado, son unos 3 segundos por minuto con los ojos cerrados: cerca de una hora al día despierto y más de diez días al año. No lo notas porque el cerebro suprime la visión durante el parpadeo y rellena el hueco (supresión del parpadeo). Delante de una pantalla parpadeamos bastante menos, y por eso se secan los ojos.\n\nFuentes: estudios de frecuencia de parpadeo (Bentivoglio et al., 1997), supresión visual durante el parpadeo (Volkmann et al., 1980), parpadeo ante pantallas (Patel et al., 1991). Cifras aproximadas: varían mucho entre personas. Animación propia; ilustraciones: Twemoji (CC-BY 4.0). Video creado con ayuda de IA.",
+  "tags": [
+    "parpadeo",
+    "ojos",
+    "cuerpo humano",
+    "curiosidades del cuerpo",
+    "cerebro",
+    "curiosidades"
+  ],
+  "scenes": [
+    {
+      "type": "cartoon",
+      "text": "¿Una hora *a oscuras*?",
+      "bg": "land:city",
+      "seed": "blk1",
+      "camera": {
+        "zoom": [
+          1,
+          1.12
+        ],
+        "focus": [
+          50,
+          50
+        ]
+      },
+      "narration": "Cada día pasas casi una hora con los ojos cerrados. Despierto. Y no te enteras.",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 36,
+          "emoji": "👀",
+          "size": 300,
+          "anim": "pulse"
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 52,
+          "text": "≈ 1 hora al día",
+          "delay": 2.8
+        },
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 93,
+          "pose": "idle",
+          "expr": "calm",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 380,
+          "pose2": "scared",
+          "expr2": "wow",
+          "poseAt": 2.8
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "*15* veces por minuto",
+      "bg": "land:city",
+      "seed": "blk2",
+      "narration": "Parpadeas unas quince veces por minuto. Y cada parpadeo dura unas décimas de segundo.",
+      "actors": [
+        {
+          "kind": "clock",
+          "x": 30,
+          "y": 38,
+          "size": 220,
+          "speed": 1
+        },
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 38,
+          "emoji": "👁️",
+          "size": 220,
+          "anim": "pulse",
+          "delay": 1
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 53,
+          "text": "15 parpadeos / minuto",
+          "delay": 1.5
+        },
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 93,
+          "pose": "think",
+          "expr": "calm",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 360
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "bg": "space",
+      "seed": "blk3",
+      "value": 1,
+      "suffix": " hora",
+      "label": "al día con los ojos *cerrados* (aprox.)",
+      "emoji": "😑",
+      "narration": "Súmalo todo: unos tres segundos de cada minuto, a oscuras. En un día despierto, cerca de una hora.",
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 96,
+          "pose": "shrug",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 300
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Más de *10 días* al año",
+      "bg": "space",
+      "seed": "blk4",
+      "camera": {
+        "zoom": [
+          1,
+          1.15
+        ],
+        "focus": [
+          50,
+          40
+        ],
+        "shake": 6,
+        "shakeAt": 2.5
+      },
+      "narration": "¿Y en un año? Más de diez días con los ojos cerrados. ¡Diez días!",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 36,
+          "emoji": "📅",
+          "size": 280,
+          "delay": 0.3
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 52,
+          "text": "+10 días al año",
+          "delay": 2.5
+        },
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 93,
+          "pose": "scared",
+          "expr": "scared",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 370,
+          "poseAt": 0
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "El *truco* de tu cerebro",
+      "bg": "space",
+      "seed": "blk5",
+      "fx": [
+        "einstein"
+      ],
+      "narration": "¿Y por qué no lo notas? Porque tu cerebro apaga la vista durante el parpadeo y rellena el hueco. Es un truco de magia.",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 36,
+          "emoji": "🧠",
+          "size": 260,
+          "anim": "pulse"
+        },
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 26,
+          "emoji": "✨",
+          "size": 110,
+          "delay": 2,
+          "anim": "pulse"
+        },
+        {
+          "kind": "emoji",
+          "x": 72,
+          "y": 46,
+          "emoji": "✨",
+          "size": 90,
+          "delay": 3,
+          "anim": "pulse"
+        },
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 93,
+          "pose": "think",
+          "expr": "calm",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 360,
+          "pose2": "cheer",
+          "expr2": "happy",
+          "poseAt": 4.5
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Ojo con el *móvil*",
+      "bg": "land:city",
+      "seed": "blk6",
+      "narration": "Eso sí: delante del móvil parpadeas mucho menos. Por eso se te secan los ojos. Oye... ¿acabas de parpadear?",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 38,
+          "emoji": "📱",
+          "size": 240,
+          "delay": 0.2
+        },
+        {
+          "kind": "bubble",
+          "x": 40,
+          "y": 50,
+          "text": "¡Parpadea!",
+          "delay": 3.5
+        },
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 93,
+          "pose": "look",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 370,
+          "pose2": "facepalm",
+          "expr2": "happy",
+          "poseAt": 5
+        }
+      ]
+    }
+  ]
+}

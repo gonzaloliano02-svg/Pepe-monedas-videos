@@ -1,0 +1,303 @@
+{
+  "id": "2026-11-19-a",
+  "format": "story",
+  "vertical": true,
+  "title": "El suelo aquí llega a 70 °C 🔥 El lugar más CALIENTE de la Tierra",
+  "description": "En el desierto de Lut (Irán), los satélites de la NASA han medido la temperatura del suelo por encima de 70 °C (70,7 °C en 2005, satélite Aqua/MODIS). A esa temperatura la clara de un huevo empieza a cuajar. Pero eso es el suelo: la temperatura del AIRE más alta jamás registrada es 56,7 °C, en el Valle de la Muerte (EE. UU.), el 10 de julio de 1913, según la Organización Meteorológica Mundial (aunque hay expertos que la discuten). Tu cuerpo está a unos 37 °C: ese aire estaba casi 20 grados más caliente que tú.\n\nFuentes: NASA Earth Observatory (Mildrexler et al., 2011), Organización Meteorológica Mundial. Cifras aproximadas. Animación propia; ilustraciones: Twemoji (CC-BY 4.0). Video creado con ayuda de IA.",
+  "tags": [
+    "lugar mas caliente del mundo",
+    "desierto de lut",
+    "valle de la muerte",
+    "lugares extremos",
+    "calor extremo",
+    "curiosidades"
+  ],
+  "scenes": [
+    {
+      "type": "cartoon",
+      "text": "¿Aguantarías *aquí*?",
+      "bg": "land:desert",
+      "seed": "lut1",
+      "fx": [
+        "heat"
+      ],
+      "camera": {
+        "zoom": [
+          1,
+          1.15
+        ],
+        "focus": [
+          50,
+          60
+        ]
+      },
+      "narration": "¿Aguantarías aquí? Este es el sitio más caliente de la Tierra. Y no, no es el Sáhara.",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 36,
+          "emoji": "☀️",
+          "size": 300,
+          "anim": "pulse"
+        },
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 93,
+          "pose": "wave",
+          "expr": "happy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 380,
+          "pose2": "scared",
+          "expr2": "wow",
+          "poseAt": 2.6,
+          "sweat": true
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Desierto de *Lut* (Irán)",
+      "bg": "land:desert",
+      "seed": "lut2",
+      "fx": [
+        "heat"
+      ],
+      "narration": "Es el desierto de Lut, en Irán. Allí, los satélites de la NASA midieron el suelo a más de setenta grados. ¡Setenta!",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 22,
+          "y": 30,
+          "emoji": "🛰️",
+          "size": 170,
+          "to": [
+            78,
+            26
+          ],
+          "spin": 8
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 46,
+          "text": "Suelo: 70,7 °C",
+          "delay": 2.5
+        },
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 52,
+          "emoji": "🌡️",
+          "size": 170,
+          "anim": "shake",
+          "delay": 2.5
+        },
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 93,
+          "pose": "look",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 360,
+          "sweat": true
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Huevo *frito*... en el suelo",
+      "bg": "land:desert",
+      "seed": "lut3",
+      "fx": [
+        "heat"
+      ],
+      "narration": "A esa temperatura, la clara de un huevo empieza a cuajar. Literalmente podrías cocinar en el suelo.",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 44,
+          "emoji": "🥚",
+          "size": 200,
+          "delay": 0.3
+        },
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 44,
+          "emoji": "🍳",
+          "size": 230,
+          "delay": 3.2
+        },
+        {
+          "kind": "stick",
+          "x": 30,
+          "y": 93,
+          "pose": "point",
+          "expr": "cool",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 340,
+          "sweat": true
+        },
+        {
+          "kind": "emoji",
+          "x": 78,
+          "y": 88,
+          "emoji": "🔥",
+          "size": 150,
+          "anim": "pulse",
+          "delay": 1.5
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "¿Y el *aire*?",
+      "bg": "land:desert",
+      "seed": "dv1",
+      "fx": [
+        "heat"
+      ],
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          50,
+          45
+        ]
+      },
+      "narration": "Pero ojo, eso es el suelo. El aire más caliente jamás medido fue en el Valle de la Muerte, en Estados Unidos: cincuenta y seis coma siete grados. En mil novecientos trece.",
+      "actors": [
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 30,
+          "text": "Valle de la Muerte",
+          "delay": 1
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 40,
+          "text": "56,7 °C en el aire",
+          "delay": 3.5
+        },
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 52,
+          "emoji": "🌡️",
+          "size": 190,
+          "anim": "shake",
+          "delay": 3.5
+        },
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 93,
+          "pose": "scared",
+          "expr": "scared",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 360,
+          "sweat": true
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Más caliente que *tú*",
+      "bg": "land:desert",
+      "seed": "dv2",
+      "fx": [
+        "heat"
+      ],
+      "narration": "Para que te hagas una idea: tu cuerpo funciona a unos treinta y siete grados. Ese aire estaba casi veinte grados más caliente que tú.",
+      "actors": [
+        {
+          "kind": "tag",
+          "x": 30,
+          "y": 34,
+          "text": "Tú: 37 °C",
+          "delay": 0.6
+        },
+        {
+          "kind": "tag",
+          "x": 70,
+          "y": 44,
+          "text": "Aire: 56,7 °C",
+          "delay": 2.8
+        },
+        {
+          "kind": "arrow",
+          "x": 38,
+          "y": 38,
+          "to": [
+            60,
+            44
+          ],
+          "text": "+20 °C",
+          "color": "#ff4d6d",
+          "delay": 4.5
+        },
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 93,
+          "pose": "facepalm",
+          "expr": "sad",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 360,
+          "sweat": true
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "¿Irías de *vacaciones*?",
+      "bg": "land:desert",
+      "seed": "dv3",
+      "fx": [
+        "heat"
+      ],
+      "narration": "¿Tú irías de vacaciones? Cuéntamelo en comentarios. Y sígueme para más lugares extremos.",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 38,
+          "emoji": "🏖️",
+          "size": 240,
+          "delay": 0.3
+        },
+        {
+          "kind": "bubble",
+          "x": 40,
+          "y": 50,
+          "text": "¿Vienes?",
+          "delay": 1.2
+        },
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 93,
+          "pose": "cheer",
+          "expr": "happy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 380,
+          "sweat": true
+        }
+      ]
+    }
+  ]
+}

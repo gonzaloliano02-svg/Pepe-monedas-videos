@@ -16,7 +16,7 @@ import { Landscape, type Env } from "./Landscape";
 export type Pose =
   | "idle" | "wave" | "walk" | "run" | "point" | "scared" | "think" | "cheer"
   | "float" | "fall" | "shrug" | "look" | "stretch" | "push" | "facepalm";
-export type Expr = "happy" | "wow" | "scared" | "sad" | "cool" | "dizzy" | "calm" | "angry";
+export type Expr = "happy" | "wow" | "scared" | "sad" | "cool" | "dizzy" | "calm" | "angry" | "sleepy";
 
 export type Actor = {
   kind: "stick" | "bh" | "star" | "clock" | "emoji" | "ripple" | "arrow" | "bubble" | "tag" | "beam";
@@ -42,6 +42,7 @@ export type Actor = {
   color?: string; // scarf / accent colour
   stretch?: [number, number]; // spaghettification 0..1 (start, end of move)
   name?: string; // small label above the head
+  sweat?: boolean; // drops falling from the head
   // emoji
   emoji?: string;
   anim?: "float" | "pop" | "shake" | "pulse";
@@ -58,14 +59,14 @@ export type Actor = {
   opacity?: number;
 };
 
-export type CartoonBg = "space" | "blackhole" | "warp" | "chalk" | "earth" | "void" | `land:${Env}`;
+export type CartoonBg = "space" | "blackhole" | "warp" | "chalk" | "earth" | "void" | "room" | "room-day" | `land:${Env}`;
 
 export type CartoonScene = {
   bg?: CartoonBg;
   seed?: string;
   actors?: Actor[];
   camera?: { zoom?: [number, number]; focus?: [number, number]; pan?: [number, number]; shake?: number; shakeAt?: number };
-  fx?: ("flash" | "redshift" | "speedlines" | "einstein" | "glitch")[];
+  fx?: ("flash" | "redshift" | "speedlines" | "einstein" | "glitch" | "heat" | "snow")[];
   flashAt?: number;
   chalk?: string[];
   bh?: { x: number; y: number; size: number; tilt?: number }; // background black hole (bg "blackhole")
@@ -266,6 +267,30 @@ const EarthBg: React.FC<{ seed: string; t: number }> = ({ seed, t }) => {
   );
 };
 
+const RoomBg: React.FC<{ t: number; day: boolean; seed: string }> = ({ t, day, seed }) => {
+  const { width: W, height: H } = useVideoConfig();
+  const V = H > W;
+  const ww = V ? W * 0.5 : W * 0.24;
+  const wh = V ? H * 0.2 : H * 0.36;
+  const wx = V ? W * 0.08 : W * 0.08;
+  const wy = V ? H * 0.22 : H * 0.14;
+  return (
+    <AbsoluteFill style={{ background: day ? "linear-gradient(#f3e6c9, #e6d2a8)" : "linear-gradient(#262b4a, #1a1e36)" }}>
+      <div style={{ position: "absolute", left: wx, top: wy, width: ww, height: wh, borderRadius: 10, overflow: "hidden", border: `14px solid ${day ? "#fff" : "#3b4166"}`, boxShadow: "0 10px 30px rgba(0,0,0,0.35)" }}>
+        <AbsoluteFill style={{ background: day ? "linear-gradient(#8fd0ff, #d8f0ff)" : "linear-gradient(#0b1030, #1f2a5c)" }}>
+          {!day ? <Stars seed={seed + "room"} n={30} t={t} drift={2} size={1.6} /> : null}
+          <div style={{ position: "absolute", right: "18%", top: "18%", width: wh * 0.32, height: wh * 0.32, borderRadius: "50%", background: day ? "#ffd84a" : "#f4f1d0", boxShadow: day ? "0 0 40px #ffd84a" : "0 0 30px rgba(244,241,208,0.6)" }} />
+        </AbsoluteFill>
+        <div style={{ position: "absolute", left: "50%", top: 0, bottom: 0, width: 10, marginLeft: -5, background: day ? "#fff" : "#3b4166" }} />
+        <div style={{ position: "absolute", top: "50%", left: 0, right: 0, height: 10, marginTop: -5, background: day ? "#fff" : "#3b4166" }} />
+      </div>
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: "22%", background: day ? "linear-gradient(#b98552, #8c5f36)" : "linear-gradient(#4a3423, #2c1f15)" }} />
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: "22%", height: 16, background: day ? "#fff4dc" : "#3b4166" }} />
+      {!day ? <AbsoluteFill style={{ background: "radial-gradient(ellipse at 70% 40%, rgba(255,214,120,0.12), transparent 60%)" }} /> : null}
+    </AbsoluteFill>
+  );
+};
+
 /* ---------------- black hole ---------------- */
 
 const ellPath = (rx: number, ry: number) => `M ${-rx},0 a ${rx},${ry} 0 1,0 ${2 * rx},0 a ${rx},${ry} 0 1,0 ${-2 * rx},0 Z`;
@@ -405,6 +430,11 @@ const Face: React.FC<{ expr: Expr; t: number; look: number }> = ({ expr, t, look
         <line x1={cx - 5} y1={-9} x2={cx + 5} y2={1} />
         <line x1={cx + 5} y1={-9} x2={cx - 5} y2={1} />
       </g>
+    ) : expr === "sleepy" ? (
+      <g key={cx}>
+        <path d={`M ${cx - 7} -4 A 7 6 0 0 0 ${cx + 7} -4 Z`} fill={OUT} />
+        <line x1={cx - 8} y1={-4} x2={cx + 8} y2={-4} stroke={OUT} strokeWidth={3.5} strokeLinecap="round" />
+      </g>
     ) : blink ? (
       <line key={cx} x1={cx - 5} y1={-4} x2={cx + 5} y2={-4} stroke={OUT} strokeWidth={3.5} strokeLinecap="round" />
     ) : (
@@ -432,6 +462,9 @@ const Face: React.FC<{ expr: Expr; t: number; look: number }> = ({ expr, t, look
       break;
     case "dizzy":
       mouth = <path d="M -9 12 q 4.5 -5 9 0 t 9 0" fill="none" stroke={OUT} strokeWidth={3.5} strokeLinecap="round" />;
+      break;
+    case "sleepy":
+      mouth = <ellipse cx={0} cy={13} rx={4} ry={3 + 2.5 * Math.abs(Math.sin(t * 0.9))} fill={OUT} />;
       break;
     case "angry":
       mouth = <path d="M -8 14 L 8 14" stroke={OUT} strokeWidth={4} strokeLinecap="round" />;
@@ -524,6 +557,14 @@ const Stick: React.FC<{ a: Actor; t: number; stretch: number }> = ({ a, t, stret
           </>
         ) : null}
       </g>
+      {a.sweat
+        ? [0, 1, 2].map((k) => {
+            const ph = (t * 1.3 + k / 3) % 1;
+            const sx2 = head[0] + (k - 1) * 30 + (k === 1 ? 6 : 0);
+            const sy2 = head[1] - 20 + ph * 70;
+            return <path key={k} d={`M ${sx2} ${sy2 - 9} Q ${sx2 + 6} ${sy2} ${sx2} ${sy2 + 5} Q ${sx2 - 6} ${sy2} ${sx2} ${sy2 - 9} Z`} fill="#7ad7ff" stroke={OUT} strokeWidth={2} opacity={1 - ph} />;
+          })
+        : null}
     </g>
   );
 };
@@ -777,6 +818,9 @@ export const CartoonBackdrop: React.FC<{ bg?: CartoonBg; seed?: string; chalk?: 
       return <ChalkBg t={t} lines={chalk} />;
     case "earth":
       return <EarthBg seed={seed} t={t} />;
+    case "room":
+    case "room-day":
+      return <RoomBg t={t} day={bg === "room-day"} seed={seed} />;
     case "void":
       return <AbsoluteFill style={{ background: "radial-gradient(circle at 50% 50%, #120a1e, #000 70%)" }} />;
     case "blackhole":
@@ -825,6 +869,30 @@ export const CartoonFx: React.FC<{ fx?: CartoonScene["fx"]; flashAt?: number; fo
             const cx = ((focus?.[0] ?? 50) / 100) * W;
             const cy = ((focus?.[1] ?? 50) / 100) * H;
             return <line key={i} x1={cx + Math.cos(a) * r1} y1={cy + Math.sin(a) * r1} x2={cx + Math.cos(a) * 1500} y2={cy + Math.sin(a) * 1500} stroke="#fff" strokeWidth={2 + r() * 6} />;
+          })}
+        </svg>
+      ) : null}
+      {fx.includes("heat") ? (
+        <>
+          <AbsoluteFill style={{ background: "linear-gradient(0deg, rgba(255,120,30,0.38), rgba(255,170,60,0.08) 60%, rgba(255,80,0,0.2))", opacity: 0.8 + 0.2 * S(t * 2) }} />
+          <svg width={W} height={H} style={{ position: "absolute", inset: 0, opacity: 0.35 }}>
+            {Array.from({ length: 14 }, (_, i) => {
+              const x0 = ((i * 137) % 100) / 100 * W;
+              const ph = (t * 0.25 + i / 14) % 1;
+              const y0 = H * (1.05 - ph * 0.9);
+              return <path key={i} d={`M ${x0} ${y0} q 20 -40 0 -80 t 0 -80 t 0 -80`} fill="none" stroke="#fff3d0" strokeWidth={5} strokeLinecap="round" opacity={Math.sin(ph * Math.PI)} />;
+            })}
+          </svg>
+        </>
+      ) : null}
+      {fx.includes("snow") ? (
+        <svg width={W} height={H} style={{ position: "absolute", inset: 0 }}>
+          {Array.from({ length: 90 }, (_, i) => {
+            const rr = rng("snow" + i);
+            const x0 = rr() * W;
+            const sp = 60 + rr() * 120;
+            const y0 = ((rr() * H + t * sp) % (H + 40)) - 20;
+            return <circle key={i} cx={x0 + S(t + i) * 20} cy={y0} r={2 + rr() * 5} fill="#fff" opacity={0.8} />;
           })}
         </svg>
       ) : null}

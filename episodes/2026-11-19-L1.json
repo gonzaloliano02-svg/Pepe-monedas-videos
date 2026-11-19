@@ -1,0 +1,1879 @@
+{
+  "id": "2026-11-19-L1",
+  "format": "story",
+  "title": "¿Qué le pasa a tu cuerpo si NO DUERMES? (hora a hora)",
+  "description": "¿Qué le pasa a tu cuerpo si dejas de dormir? Hora a hora y día a día: a las 17–19 horas despierto tus reflejos ya van como con 0,5 g/l de alcohol; a las 24 horas, como con 1 g/l. Luego llegan los microsueños, las alucinaciones... y la historia de Randy Gardner, el chico de 17 años que estuvo 264 horas (unos 11 días) sin dormir en 1963–1964. También vemos si se puede morir por no dormir y para qué sirve el sueño: limpiar el cerebro, guardar recuerdos y reparar el cuerpo.\n\nCapítulos:\nCHAPTERS\n\nFuentes: Williamson y Feyer (2000, Occupational and Environmental Medicine); Dawson y Reid (1997, Nature); Spiegel et al. (2004, Annals of Internal Medicine); Yoo et al. (2007, Current Biology y Nature Neuroscience); Prather et al. (2015, Sleep); Axelsson et al. (2010, BMJ); Waters et al. (2018, Frontiers in Psychiatry); Gulevich, Dement y Johnson (1966) sobre Randy Gardner; Rechtschaffen et al. (Universidad de Chicago, 1983–1989); Xie et al. (2013, Science); Van Dongen et al. (2003, Sleep); recomendaciones de la Academia Americana de Medicina del Sueño. Cifras aproximadas. No intentes estar sin dormir: es peligroso.\n\nAnimación propia; ilustraciones: Twemoji (CC-BY 4.0). Video creado con ayuda de IA.\n\n#sueño #cuerpohumano #quepasariasi",
+  "tags": [
+    "que pasa si no duermes",
+    "no dormir",
+    "privacion de sueño",
+    "randy gardner",
+    "microsueños",
+    "cuerpo humano",
+    "sueño",
+    "cerebro",
+    "curiosidades",
+    "animacion"
+  ],
+  "thumbnail": {
+    "text": "¿Y si *no duermes*?",
+    "kicker": "264 horas",
+    "emoji": "😵",
+    "env": "night",
+    "bg": "room",
+    "actors": [
+      {
+        "kind": "stick",
+        "x": 70,
+        "y": 96,
+        "pose": "scared",
+        "expr": "dizzy",
+        "name": "TÚ",
+        "color": "#FFD60A",
+        "size": 520,
+        "delay": -2
+      },
+      {
+        "kind": "clock",
+        "x": 88,
+        "y": 28,
+        "size": 260,
+        "speed": 0.5,
+        "delay": -2
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "type": "title",
+      "kicker": "Escala Brutal · ¿Qué pasaría si?",
+      "text": "Sin *dormir*",
+      "narration": "Hace unos sesenta años, un chaval de diecisiete años decidió no dormir. Ni un minuto. Durante once días seguidos. ¿Qué le pasó a su cuerpo? ¿Y qué te pasaría a ti?",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "clock",
+          "x": 82,
+          "y": 78,
+          "size": 160,
+          "speed": 2
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "¿Cuánto *aguantarías*?",
+      "narration": "Porque seguro que alguna vez te has quedado despierto toda la noche. Estudiando, de fiesta, o enganchado a una serie. Y al día siguiente eras un zombi. Pues eso es solo el principio. Lo que viene después es mucho más raro.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 62,
+          "emoji": "🛏️",
+          "size": 260
+        },
+        {
+          "kind": "stick",
+          "x": 30,
+          "y": 92,
+          "pose": "idle",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 300,
+          "pose2": "facepalm",
+          "poseAt": 7
+        },
+        {
+          "kind": "emoji",
+          "x": 36,
+          "y": 50,
+          "emoji": "💤",
+          "size": 110,
+          "anim": "float",
+          "delay": 2
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Hora a *hora*",
+      "narration": "Hoy vamos a hacer el experimento, pero sin hacerlo de verdad, porque es peligroso. Vamos a ver qué pasa en tu cuerpo hora a hora, día a día, cuando dejas de dormir.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "clock",
+          "x": 50,
+          "y": 45,
+          "size": 220,
+          "speed": 3
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 70,
+          "text": "Experimento (solo en el vídeo)",
+          "delay": 2.5
+        },
+        {
+          "kind": "stick",
+          "x": 18,
+          "y": 92,
+          "pose": "point",
+          "expr": "cool",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 260
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Un *tercio* de tu vida",
+      "narration": "Antes, un dato: pasamos más o menos un tercio de la vida durmiendo. Si vives ochenta años, son unos veinticinco años en la cama. ¿Un desperdicio? Ni de broma. Dormir no es tiempo perdido: es mantenimiento. Ahora verás por qué.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 50,
+          "emoji": "🛏️",
+          "size": 300
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 76,
+          "text": "≈ 25 años en la cama",
+          "delay": 3
+        },
+        {
+          "kind": "stick",
+          "x": 82,
+          "y": 92,
+          "pose": "shrug",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 250,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "La presión del *sueño*",
+      "narration": "¿Y por qué nos entra sueño? Mientras estás despierto, en tu cerebro se va acumulando una sustancia llamada adenosina. Cuanta más hay, más presión para dormir. Como un globo que se va hinchando a lo largo del día.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 40,
+          "emoji": "🎈",
+          "size": 120,
+          "scaleTo": 2.6
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 66,
+          "text": "Adenosina",
+          "delay": 2
+        },
+        {
+          "kind": "stick",
+          "x": 80,
+          "y": 92,
+          "pose": "idle",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 240,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "El truco del *café*",
+      "narration": "Y aquí entra el café. La cafeína se pega en el mismo sitio que la adenosina y la tapa. No te quita el cansancio: solo esconde la señal. Por eso, cuando se pasa el efecto, el bajón llega de golpe.",
+      "bg": "room-day",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 65,
+          "y": 42,
+          "emoji": "☕",
+          "size": 200,
+          "anim": "float"
+        },
+        {
+          "kind": "stick",
+          "x": 30,
+          "y": 92,
+          "pose": "cheer",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270,
+          "pose2": "facepalm",
+          "expr2": "sleepy",
+          "poseAt": 9
+        },
+        {
+          "kind": "tag",
+          "x": 65,
+          "y": 64,
+          "text": "Tapa la señal",
+          "delay": 4
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 1",
+      "text": "Las primeras *24 horas*",
+      "narration": "Capítulo uno. Las primeras veinticuatro horas.",
+      "bg": "room-day",
+      "actors": [
+        {
+          "kind": "clock",
+          "x": 50,
+          "y": 80,
+          "size": 150,
+          "speed": 1
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Hora *16*: todo normal",
+      "narration": "Te levantas a las ocho de la mañana. Desayunas, trabajas, comes. Hasta medianoche, dieciséis horas despierto, todo es normal. Es un día cualquiera. Quizá un poco de sueño después de comer, pero nada raro.",
+      "bg": "room-day",
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 20,
+          "y": 90,
+          "pose": "walk",
+          "expr": "happy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 260,
+          "to": [
+            45,
+            90
+          ],
+          "move": [
+            0,
+            4
+          ],
+          "pose2": "cheer",
+          "poseAt": 4
+        },
+        {
+          "kind": "clock",
+          "x": 78,
+          "y": 40,
+          "size": 170,
+          "speed": 0.8
+        },
+        {
+          "kind": "tag",
+          "x": 78,
+          "y": 62,
+          "text": "16 h despierto",
+          "delay": 2
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Hora *17*: empieza el lío",
+      "narration": "Pero a partir de ahí, la cosa cambia. Con unas diecisiete horas despierto, tus reflejos ya van más lentos. Y no es una impresión: se ha medido en laboratorio. Tardas más en reaccionar, te distraes y cometes más errores tontos.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "clock",
+          "x": 75,
+          "y": 38,
+          "size": 170,
+          "speed": 0.8
+        },
+        {
+          "kind": "tag",
+          "x": 75,
+          "y": 60,
+          "text": "17 h despierto",
+          "delay": 1
+        },
+        {
+          "kind": "stick",
+          "x": 35,
+          "y": 92,
+          "pose": "idle",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 280
+        },
+        {
+          "kind": "emoji",
+          "x": 42,
+          "y": 52,
+          "emoji": "💤",
+          "size": 110,
+          "anim": "float",
+          "delay": 3
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "value": 0.5,
+      "suffix": " g/l",
+      "label": "como conducir con *alcohol* (≈17–19 h despierto)",
+      "narration": "Un estudio australiano comparó a gente sin dormir con gente que había bebido. Tras unas diecisiete o diecinueve horas despierto, rendían igual de mal que con medio gramo de alcohol por litro de sangre.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 12,
+          "y": 90,
+          "emoji": "🍺",
+          "size": 130
+        },
+        {
+          "kind": "stick",
+          "x": 88,
+          "y": 96,
+          "pose": "shrug",
+          "expr": "sleepy",
+          "size": 220,
+          "flip": true
+        }
+      ],
+      "decimals": 1
+    },
+    {
+      "type": "cartoon",
+      "text": "Hora *24*: el doble",
+      "narration": "¿Y si llegas a las veinticuatro horas sin dormir? Otro estudio, publicado en la revista Nature, lo comparó con un gramo por litro. El doble del límite legal para conducir en España.",
+      "bg": "room",
+      "camera": {
+        "zoom": [
+          1,
+          1.12
+        ],
+        "focus": [
+          50,
+          50
+        ]
+      },
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 45,
+          "emoji": "🚗",
+          "size": 220,
+          "anim": "shake"
+        },
+        {
+          "kind": "tag",
+          "x": 70,
+          "y": 66,
+          "text": "≈ 1 g/l",
+          "delay": 2.5
+        },
+        {
+          "kind": "stick",
+          "x": 28,
+          "y": 92,
+          "pose": "scared",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 280
+        },
+        {
+          "kind": "clock",
+          "x": 45,
+          "y": 32,
+          "size": 140,
+          "speed": 1
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Tu cerebro, en *modo ahorro*",
+      "narration": "Lo que pasa es que tu cerebro empieza a racionar la energía. La parte de delante, la que decide, planifica y frena tus impulsos, es de las primeras en fallar. Por eso, sin dormir, tomas peores decisiones y te arriesgas más.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 45,
+          "emoji": "🧠",
+          "size": 260,
+          "anim": "pulse"
+        },
+        {
+          "kind": "arrow",
+          "x": 30,
+          "y": 30,
+          "to": [
+            42,
+            40
+          ],
+          "text": "zona que decide",
+          "color": "#ff4d6d",
+          "delay": 3
+        },
+        {
+          "kind": "stick",
+          "x": 80,
+          "y": 92,
+          "pose": "think",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 240,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Más *hambre*",
+      "narration": "Y aparece algo curioso: más hambre. Sin dormir, sube la hormona que te da hambre y baja la que te dice que ya estás lleno. Por eso a las cuatro de la mañana te apetece un bollo, no una ensalada.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 65,
+          "y": 45,
+          "emoji": "🍩",
+          "size": 200,
+          "delay": 3
+        },
+        {
+          "kind": "emoji",
+          "x": 82,
+          "y": 52,
+          "emoji": "🍕",
+          "size": 150,
+          "delay": 4
+        },
+        {
+          "kind": "emoji",
+          "x": 48,
+          "y": 58,
+          "emoji": "🥗",
+          "size": 110,
+          "delay": 6,
+          "vanish": 8.5
+        },
+        {
+          "kind": "stick",
+          "x": 25,
+          "y": 92,
+          "pose": "point",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Más *enfado*",
+      "narration": "Y te enfadas por cualquier cosa. En un experimento, tras una noche y media sin dormir, la zona del cerebro que procesa el miedo y la rabia reaccionaba hasta un sesenta por ciento más fuerte.",
+      "bg": "room",
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          40,
+          70
+        ],
+        "shake": 4
+      },
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 40,
+          "y": 92,
+          "pose": "push",
+          "expr": "angry",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 290
+        },
+        {
+          "kind": "bubble",
+          "x": 48,
+          "y": 48,
+          "text": "¡¿QUIÉN ha hecho ruido?!",
+          "delay": 2.5
+        },
+        {
+          "kind": "tag",
+          "x": 78,
+          "y": 30,
+          "text": "+60 % de reacción",
+          "delay": 6
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 2",
+      "text": "Día 2: el cerebro se *apaga*",
+      "narration": "Capítulo dos. Día dos: el cerebro se apaga a ratos.",
+      "bg": "void"
+    },
+    {
+      "type": "cartoon",
+      "text": "Los *microsueños*",
+      "narration": "Al segundo día pasa algo inquietante: los microsueños. Tu cerebro se duerme unos segundos, aunque tú tengas los ojos abiertos. Y ni te enteras. Pueden durar desde un segundo hasta diez o más. Y cuanto más tiempo llevas sin dormir, más frecuentes son.",
+      "bg": "room",
+      "fx": [
+        "glitch"
+      ],
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 92,
+          "pose": "idle",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 300
+        },
+        {
+          "kind": "emoji",
+          "x": 56,
+          "y": 50,
+          "emoji": "💤",
+          "size": 110,
+          "anim": "float",
+          "delay": 2
+        },
+        {
+          "kind": "emoji",
+          "x": 60,
+          "y": 40,
+          "emoji": "💤",
+          "size": 110,
+          "anim": "float",
+          "delay": 2.6
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 30,
+          "text": "1–10 segundos dormido",
+          "delay": 4
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Ojos *abiertos*... cerebro *apagado*",
+      "narration": "Imagina estar hablando con alguien y que, de repente, falten unos segundos de la conversación. Has estado ahí, con los ojos abiertos. Pero tu cerebro se había ido.",
+      "bg": "room",
+      "fx": [
+        "glitch"
+      ],
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 30,
+          "y": 92,
+          "pose": "idle",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 260
+        },
+        {
+          "kind": "stick",
+          "x": 70,
+          "y": 92,
+          "pose": "wave",
+          "expr": "happy",
+          "size": 260,
+          "flip": true
+        },
+        {
+          "kind": "bubble",
+          "x": 66,
+          "y": 46,
+          "text": "...¿me oyes?",
+          "delay": 2.5
+        },
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 50,
+          "emoji": "💤",
+          "size": 110,
+          "delay": 1,
+          "vanish": 5
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Al *volante*",
+      "narration": "Ahora imagina que eso te pasa conduciendo. A cien kilómetros por hora, en cuatro segundos recorres más de cien metros. Sin nadie al volante. Por eso el sueño es tan peligroso en carretera.",
+      "bg": "land:desert",
+      "seed": "road",
+      "camera": {
+        "zoom": [
+          1,
+          1.15
+        ],
+        "focus": [
+          50,
+          55
+        ],
+        "shake": 5
+      },
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 15,
+          "y": 60,
+          "emoji": "🚗",
+          "size": 200,
+          "to": [
+            85,
+            60
+          ],
+          "move": [
+            1,
+            9
+          ],
+          "ease": "linear"
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 30,
+          "text": "4 s = +100 m",
+          "delay": 4
+        },
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 45,
+          "emoji": "💤",
+          "size": 110,
+          "anim": "float",
+          "delay": 2
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "value": 100,
+      "suffix": " metros",
+      "label": "a ciegas en *4 segundos* (a 100 km/h)",
+      "narration": "Cien kilómetros por hora son casi veintiocho metros cada segundo. Un microsueño de cuatro segundos, y has hecho un campo de fútbol entero sin mirar.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 90,
+          "y": 92,
+          "emoji": "⚽",
+          "size": 120
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Sin *defensas*",
+      "narration": "Y mientras tanto, tu sistema inmune se resiente. Varios estudios han visto que la gente que duerme poco se resfría más. Y que, tras vacunarse, genera menos defensas. Dormir poco es como bajar la guardia.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 45,
+          "emoji": "🦠",
+          "size": 140,
+          "anim": "float"
+        },
+        {
+          "kind": "emoji",
+          "x": 80,
+          "y": 35,
+          "emoji": "🦠",
+          "size": 100,
+          "anim": "float",
+          "delay": 2
+        },
+        {
+          "kind": "emoji",
+          "x": 60,
+          "y": 30,
+          "emoji": "🦠",
+          "size": 90,
+          "anim": "float",
+          "delay": 3
+        },
+        {
+          "kind": "stick",
+          "x": 28,
+          "y": 92,
+          "pose": "scared",
+          "expr": "sad",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        },
+        {
+          "kind": "emoji",
+          "x": 36,
+          "y": 50,
+          "emoji": "🤧",
+          "size": 110,
+          "delay": 5
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "El *frío*",
+      "narration": "Además, te cuesta más regular la temperatura. Tienes frío aunque la habitación esté bien. Te tiemblan las manos. Y te cuesta horrores encontrar las palabras.",
+      "bg": "room",
+      "fx": [
+        "snow"
+      ],
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 92,
+          "pose": "scared",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 300
+        },
+        {
+          "kind": "bubble",
+          "x": 56,
+          "y": 48,
+          "text": "¿Cómo se llama... la cosa esa?",
+          "delay": 6
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "El *segundo aire*",
+      "narration": "Lo más raro es que, al amanecer del segundo día, a veces te sientes un poco mejor. Es tu reloj interno: con la luz de la mañana, tu cuerpo vuelve a ponerse en modo día. Pero es un espejismo. El cansancio sigue ahí, acumulándose.",
+      "bg": "room-day",
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 40,
+          "y": 92,
+          "pose": "cheer",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 280
+        },
+        {
+          "kind": "emoji",
+          "x": 75,
+          "y": 40,
+          "emoji": "🌅",
+          "size": 200,
+          "delay": 1
+        },
+        {
+          "kind": "tag",
+          "x": 70,
+          "y": 62,
+          "text": "Espejismo",
+          "delay": 7
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Se te nota en la *cara*",
+      "narration": "Y se te nota. En un estudio sueco, enseñaron fotos de las mismas personas tras dormir bien y tras una noche sin dormir. A los desconocidos les parecían más cansadas, más tristes y menos sanas.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 30,
+          "y": 92,
+          "pose": "idle",
+          "expr": "happy",
+          "size": 250
+        },
+        {
+          "kind": "stick",
+          "x": 70,
+          "y": 92,
+          "pose": "idle",
+          "expr": "sleepy",
+          "size": 250,
+          "flip": true
+        },
+        {
+          "kind": "tag",
+          "x": 30,
+          "y": 40,
+          "text": "Durmió bien",
+          "delay": 1.5
+        },
+        {
+          "kind": "tag",
+          "x": 70,
+          "y": 40,
+          "text": "Noche en vela",
+          "delay": 3
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 3",
+      "text": "Día 3: ves *cosas*",
+      "narration": "Capítulo tres. Día tres: empiezas a ver cosas.",
+      "bg": "warp"
+    },
+    {
+      "type": "cartoon",
+      "text": "Las *alucinaciones*",
+      "narration": "A partir del tercer día, mucha gente empieza a alucinar. Primero son cosas pequeñas: el suelo parece moverse, las sombras parecen personas, oyes tu nombre cuando nadie te llama.",
+      "bg": "room",
+      "fx": [
+        "glitch"
+      ],
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          50,
+          50
+        ]
+      },
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 30,
+          "y": 92,
+          "pose": "look",
+          "expr": "scared",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        },
+        {
+          "kind": "stick",
+          "x": 78,
+          "y": 90,
+          "pose": "idle",
+          "expr": "calm",
+          "size": 230,
+          "opacity": 0.35,
+          "delay": 3,
+          "flip": true
+        },
+        {
+          "kind": "bubble",
+          "x": 36,
+          "y": 42,
+          "text": "¿Hola...?",
+          "delay": 6
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "El suelo se *mueve*",
+      "narration": "Los investigadores que repasaron decenas de estudios lo tienen claro: cuantas más horas sin dormir, más fuertes son las alucinaciones. Y a partir de unas setenta y dos horas, pueden ser muy convincentes.",
+      "bg": "warp",
+      "camera": {
+        "shake": 6
+      },
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 70,
+          "pose": "fall",
+          "expr": "dizzy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 280,
+          "spin": 15
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 88,
+          "text": "72 h sin dormir",
+          "delay": 3
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Confusión *total*",
+      "narration": "Pierdes la noción del tiempo. No sabes bien qué día es. Te cuesta seguir una conversación. Algunos llegan a creerse cosas que no son verdad. Tu cerebro, literalmente, está pidiendo auxilio.",
+      "bg": "void",
+      "fx": [
+        "glitch"
+      ],
+      "actors": [
+        {
+          "kind": "clock",
+          "x": 30,
+          "y": 35,
+          "size": 160,
+          "speed": 6
+        },
+        {
+          "kind": "clock",
+          "x": 70,
+          "y": 45,
+          "size": 130,
+          "speed": -3
+        },
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 92,
+          "pose": "shrug",
+          "expr": "dizzy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 290
+        },
+        {
+          "kind": "bubble",
+          "x": 56,
+          "y": 58,
+          "text": "¿Hoy es martes?",
+          "delay": 5
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Memoria en *pausa*",
+      "narration": "Y tu memoria se bloquea. Un experimento de Berkeley vio que, tras una noche en vela, la capacidad de grabar recuerdos nuevos caía alrededor de un cuarenta por ciento. Es como intentar guardar archivos en un disco lleno.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 40,
+          "emoji": "💾",
+          "size": 200,
+          "anim": "shake"
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 62,
+          "text": "−40 % de recuerdos nuevos",
+          "delay": 3
+        },
+        {
+          "kind": "stick",
+          "x": 80,
+          "y": 92,
+          "pose": "facepalm",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 240,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 4",
+      "text": "El chico que no *durmió*",
+      "narration": "Capítulo cuatro. El chico que no durmió.",
+      "bg": "chalk",
+      "chalk": [
+        "264 horas"
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "San Diego, *1963*",
+      "narration": "Volvamos al chaval del principio. Se llamaba Randy Gardner. En diciembre de mil novecientos sesenta y tres, con diecisiete años, se propuso batir un récord para una feria de ciencias de su instituto.",
+      "bg": "chalk",
+      "chalk": [
+        "Randy Gardner, 17 años",
+        "Feria de ciencias, 1963"
+      ],
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 78,
+          "y": 95,
+          "pose": "cheer",
+          "expr": "happy",
+          "size": 300,
+          "name": "RANDY",
+          "color": "#3DDCFF",
+          "flip": true
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "*Vigilado* día y noche",
+      "narration": "Dos amigos lo vigilaban por turnos para que no se durmiera. Y a mitad del experimento se unió un investigador del sueño de la Universidad de Stanford, William Dement, para seguirlo de cerca.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 92,
+          "pose": "idle",
+          "expr": "sleepy",
+          "size": 270,
+          "name": "RANDY",
+          "color": "#3DDCFF"
+        },
+        {
+          "kind": "stick",
+          "x": 18,
+          "y": 92,
+          "pose": "point",
+          "expr": "cool",
+          "size": 240
+        },
+        {
+          "kind": "stick",
+          "x": 82,
+          "y": 92,
+          "pose": "look",
+          "expr": "wow",
+          "size": 240,
+          "flip": true,
+          "delay": 4
+        },
+        {
+          "kind": "emoji",
+          "x": 82,
+          "y": 40,
+          "emoji": "📋",
+          "size": 110,
+          "delay": 5
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Lo que le *pasó*",
+      "narration": "Según los registros, al segundo día le costaba enfocar la vista. Luego llegaron los cambios de humor, los problemas de memoria y las alucinaciones. Hubo un momento en que llegó a creer que era un famoso jugador de fútbol americano.",
+      "bg": "room",
+      "fx": [
+        "glitch"
+      ],
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 40,
+          "y": 92,
+          "pose": "cheer",
+          "expr": "dizzy",
+          "size": 280,
+          "name": "RANDY",
+          "color": "#3DDCFF"
+        },
+        {
+          "kind": "emoji",
+          "x": 72,
+          "y": 45,
+          "emoji": "🏈",
+          "size": 170,
+          "spin": 120,
+          "delay": 6
+        },
+        {
+          "kind": "bubble",
+          "x": 46,
+          "y": 46,
+          "text": "¡Soy una estrella!",
+          "delay": 7
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "value": 264,
+      "suffix": " horas",
+      "label": "sin dormir: unos *11 días* (1963–1964)",
+      "narration": "Aun así, aguantó. Doscientas sesenta y cuatro horas. Unos once días sin pegar ojo. El ocho de enero de mil novecientos sesenta y cuatro, por fin, se fue a dormir.",
+      "bg": "chalk",
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 90,
+          "y": 97,
+          "pose": "cheer",
+          "expr": "sleepy",
+          "size": 220,
+          "name": "RANDY",
+          "color": "#3DDCFF",
+          "flip": true
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Durmió... unas *14 horas*",
+      "narration": "¿Y cuánto durmió después? Pues no tres días seguidos, como podrías pensar. Unas catorce horas. Se despertó, y en pocos días estaba aparentemente bien. Su cuerpo no necesitaba recuperar todas las horas perdidas, sino lo más importante: el sueño profundo.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 58,
+          "emoji": "🛏️",
+          "size": 300
+        },
+        {
+          "kind": "emoji",
+          "x": 55,
+          "y": 36,
+          "emoji": "💤",
+          "size": 110,
+          "anim": "float",
+          "delay": 1
+        },
+        {
+          "kind": "emoji",
+          "x": 62,
+          "y": 26,
+          "emoji": "💤",
+          "size": 110,
+          "anim": "float",
+          "delay": 1.8
+        },
+        {
+          "kind": "emoji",
+          "x": 69,
+          "y": 16,
+          "emoji": "💤",
+          "size": 110,
+          "anim": "float",
+          "delay": 2.6
+        },
+        {
+          "kind": "clock",
+          "x": 85,
+          "y": 35,
+          "size": 140,
+          "speed": 3
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Récord *prohibido*",
+      "narration": "Hoy ese tipo de récords ya no se aceptan. Guinness dejó de registrarlos hace décadas, por el riesgo para la salud. Así que, por favor, no lo intentes en casa.",
+      "bg": "room-day",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 42,
+          "emoji": "🚫",
+          "size": 220,
+          "delay": 0.5
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 64,
+          "text": "No lo intentes",
+          "delay": 3
+        },
+        {
+          "kind": "stick",
+          "x": 80,
+          "y": 92,
+          "pose": "point",
+          "expr": "cool",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 240,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "¿Alguien lo *superó*?",
+      "narration": "Desde entonces ha habido gente que dice haberlo superado. Un británico aseguró en dos mil siete que había aguantado unas horas más. Pero ya nadie lo homologa. Y lo de Randy fue lo más vigilado de su época.",
+      "bg": "chalk",
+      "chalk": [
+        "¿Récord superado?",
+        "Sin homologar"
+      ],
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 25,
+          "y": 95,
+          "pose": "shrug",
+          "expr": "cool",
+          "size": 260
+        },
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 60,
+          "emoji": "❓",
+          "size": 150,
+          "anim": "pulse"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 5",
+      "text": "¿Se puede *morir*?",
+      "narration": "Capítulo cinco. ¿Se puede morir por no dormir?",
+      "bg": "void"
+    },
+    {
+      "type": "cartoon",
+      "text": "Las ratas de *Chicago*",
+      "narration": "En los años ochenta, un equipo de la Universidad de Chicago hizo un experimento muy duro con ratas: no dejarlas dormir nunca. Querían entender para qué sirve dormir. Comían más que nunca... y aun así adelgazaban.",
+      "bg": "chalk",
+      "chalk": [
+        "Experimento con ratas",
+        "Universidad de Chicago, años 80"
+      ],
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 70,
+          "emoji": "🐀",
+          "size": 170,
+          "anim": "shake"
+        },
+        {
+          "kind": "emoji",
+          "x": 60,
+          "y": 72,
+          "emoji": "🐀",
+          "size": 140,
+          "anim": "shake",
+          "delay": 1
+        },
+        {
+          "kind": "emoji",
+          "x": 80,
+          "y": 74,
+          "emoji": "🧀",
+          "size": 110,
+          "delay": 3
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Dos o tres *semanas*",
+      "narration": "Tras unas dos o tres semanas sin dormir, las ratas morían. Su cuerpo perdía el control de la temperatura y de la energía. Por eso, en humanos, ese experimento jamás se hará.",
+      "bg": "chalk",
+      "chalk": [
+        "≈ 2–3 semanas"
+      ],
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 40,
+          "y": 70,
+          "emoji": "🐀",
+          "size": 160,
+          "anim": "shake"
+        },
+        {
+          "kind": "clock",
+          "x": 75,
+          "y": 60,
+          "size": 150,
+          "speed": 2
+        },
+        {
+          "kind": "emoji",
+          "x": 40,
+          "y": 52,
+          "emoji": "🌡️",
+          "size": 100,
+          "anim": "shake",
+          "delay": 4
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Una enfermedad *rarísima*",
+      "narration": "En personas existe una enfermedad genética muy rara, el insomnio familiar fatal. Afecta a unas pocas decenas de familias en el mundo, y quien la sufre va perdiendo la capacidad de dormir. No tiene cura, y nos recuerda que dormir no es opcional.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 40,
+          "emoji": "🧬",
+          "size": 220,
+          "spin": 20
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 62,
+          "text": "Muy rara",
+          "delay": 3
+        },
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 92,
+          "pose": "idle",
+          "expr": "sad",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 260
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "El peligro *silencioso*",
+      "narration": "Pero hay algo más preocupante que una noche en vela: dormir poco todos los días. En un experimento de Pensilvania, gente que dormía seis horas cada noche, durante dos semanas, acabó rindiendo tan mal como si no hubiera dormido una o dos noches enteras.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "clock",
+          "x": 45,
+          "y": 36,
+          "size": 150,
+          "speed": 1
+        },
+        {
+          "kind": "tag",
+          "x": 68,
+          "y": 30,
+          "text": "6 h/noche × 14 días",
+          "delay": 1.5
+        },
+        {
+          "kind": "tag",
+          "x": 65,
+          "y": 42,
+          "text": "= 1–2 noches en vela",
+          "delay": 6
+        },
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 92,
+          "pose": "idle",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Y no te *das cuenta*",
+      "narration": "Y lo peor: ellos creían que estaban bien. Se acostumbraban a la sensación de cansancio y pensaban que ya se habían adaptado. Pero las pruebas decían lo contrario.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 40,
+          "y": 92,
+          "pose": "cheer",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 280
+        },
+        {
+          "kind": "bubble",
+          "x": 46,
+          "y": 46,
+          "text": "¡Estoy perfecto!",
+          "delay": 1.5
+        },
+        {
+          "kind": "tag",
+          "x": 75,
+          "y": 30,
+          "text": "Pruebas: fatal",
+          "delay": 5
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "La *buena* noticia",
+      "narration": "Pero tranquilo: para ti, una mala noche no es ningún peligro. El cuerpo es listo. Si no duermes lo suficiente, al final el sueño te gana, quieras o no. Los microsueños son su forma de obligarte.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 40,
+          "y": 92,
+          "pose": "idle",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 280,
+          "pose2": "facepalm",
+          "expr2": "happy",
+          "poseAt": 6
+        },
+        {
+          "kind": "emoji",
+          "x": 46,
+          "y": 50,
+          "emoji": "💤",
+          "size": 110,
+          "anim": "float",
+          "delay": 4
+        },
+        {
+          "kind": "tag",
+          "x": 70,
+          "y": 36,
+          "text": "El sueño siempre gana",
+          "delay": 7
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "kicker": "Capítulo 6",
+      "text": "¿Para qué *dormimos*?",
+      "narration": "Capítulo seis. ¿Para qué dormimos?",
+      "bg": "space"
+    },
+    {
+      "type": "cartoon",
+      "text": "El cerebro se *limpia*",
+      "narration": "Uno de los descubrimientos más bonitos es de dos mil trece. En ratones, vieron que al dormir el espacio entre las neuronas se ensancha. Y el líquido del cerebro limpia los residuos del día.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 42,
+          "emoji": "🧠",
+          "size": 260,
+          "anim": "pulse"
+        },
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 30,
+          "emoji": "🫧",
+          "size": 90,
+          "anim": "float",
+          "delay": 3
+        },
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 54,
+          "emoji": "🫧",
+          "size": 80,
+          "anim": "float",
+          "delay": 4
+        },
+        {
+          "kind": "emoji",
+          "x": 64,
+          "y": 28,
+          "emoji": "🫧",
+          "size": 70,
+          "anim": "float",
+          "delay": 5
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "value": 60,
+      "suffix": " %",
+      "label": "más *espacio* entre neuronas al dormir (ratones, 2013)",
+      "narration": "Ese espacio crecía alrededor de un sesenta por ciento. Es como si, por la noche, pasara el camión de la basura por tu cabeza. Y entre los residuos que retira hay algunos relacionados con el alzhéimer.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 88,
+          "y": 92,
+          "emoji": "🚛",
+          "size": 140,
+          "to": [
+            12,
+            92
+          ],
+          "move": [
+            2,
+            10
+          ],
+          "ease": "linear"
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Guardar *recuerdos*",
+      "narration": "Mientras duermes, tu cerebro también ordena lo que has vivido. Repasa lo aprendido y decide qué guarda y qué tira. Por eso estudiar toda la noche antes de un examen suele salir mal. En cambio, dormir después de estudiar ayuda a fijar lo aprendido.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 40,
+          "emoji": "📚",
+          "size": 170
+        },
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 40,
+          "emoji": "💾",
+          "size": 120,
+          "delay": 4,
+          "to": [
+            50,
+            30
+          ]
+        },
+        {
+          "kind": "stick",
+          "x": 30,
+          "y": 92,
+          "pose": "think",
+          "expr": "calm",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270,
+          "pose2": "cheer",
+          "expr2": "happy",
+          "poseAt": 7
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Ciclos de *90 minutos*",
+      "narration": "Y el sueño no es todo igual. Va en ciclos de una hora y media, más o menos. Sueño ligero, sueño profundo y la fase de los sueños, en la que los ojos se mueven a toda velocidad. Cada noche repites ese ciclo cuatro o cinco veces.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 58,
+          "emoji": "🛏️",
+          "size": 280
+        },
+        {
+          "kind": "emoji",
+          "x": 55,
+          "y": 34,
+          "emoji": "💤",
+          "size": 110,
+          "anim": "float",
+          "delay": 1
+        },
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 30,
+          "emoji": "💭",
+          "size": 140,
+          "delay": 4,
+          "anim": "float"
+        },
+        {
+          "kind": "tag",
+          "x": 70,
+          "y": 22,
+          "text": "4–5 ciclos por noche",
+          "delay": 6
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "*Reparar* el cuerpo",
+      "narration": "Y el cuerpo aprovecha la noche para repararse. Se liberan hormonas de crecimiento, se recuperan los músculos y se reajusta el apetito para el día siguiente. Y tu sistema inmune aprovecha para reforzar sus defensas.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 65,
+          "y": 45,
+          "emoji": "💪",
+          "size": 190,
+          "anim": "pulse"
+        },
+        {
+          "kind": "emoji",
+          "x": 80,
+          "y": 30,
+          "emoji": "✨",
+          "size": 90,
+          "anim": "pulse",
+          "delay": 2
+        },
+        {
+          "kind": "stick",
+          "x": 30,
+          "y": 92,
+          "pose": "cheer",
+          "expr": "happy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "kicker": "Escala Brutal",
+      "text": "¿Cuánto *duermes* tú?",
+      "narration": "Entonces... ¿cuánto duermes tú?",
+      "bg": "room"
+    },
+    {
+      "type": "stat",
+      "value": 7,
+      "suffix": " horas",
+      "label": "o más: lo recomendado para un *adulto*",
+      "narration": "Los expertos recomiendan que un adulto duerma al menos siete horas cada noche. Los adolescentes, todavía más. Y la mayoría de nosotros dormimos menos de lo que deberíamos. Los niños necesitan aún más: de nueve a doce horas, según la edad.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 12,
+          "y": 92,
+          "emoji": "🛏️",
+          "size": 140
+        },
+        {
+          "kind": "stick",
+          "x": 88,
+          "y": 96,
+          "pose": "idle",
+          "expr": "sleepy",
+          "size": 210,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "El *resumen*",
+      "narration": "Recapitulemos. A las diecisiete horas, tus reflejos ya van más lentos. A las veinticuatro, es como si hubieras bebido. El segundo día llegan los microsueños. El tercero, las alucinaciones. Y el récord está en once días.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 22,
+          "text": "17 h: reflejos lentos",
+          "delay": 1
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 32,
+          "text": "24 h: como borracho",
+          "delay": 4
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 42,
+          "text": "Día 2: microsueños",
+          "delay": 7
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 52,
+          "text": "Día 3: alucinaciones",
+          "delay": 9.5
+        },
+        {
+          "kind": "stick",
+          "x": 50,
+          "y": 92,
+          "pose": "point",
+          "expr": "sleepy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 260
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Trucos para dormir *mejor*",
+      "narration": "Algunos trucos sencillos que recomiendan los expertos: acuéstate y levántate más o menos a la misma hora, también el fin de semana. Habitación oscura y fresquita. Y nada de café por la tarde. Y si no puedes dormir, mejor levántate un rato que quedarte dando vueltas.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "tag",
+          "x": 62,
+          "y": 24,
+          "text": "Mismo horario",
+          "delay": 1
+        },
+        {
+          "kind": "tag",
+          "x": 62,
+          "y": 34,
+          "text": "Oscuro y fresco",
+          "delay": 4
+        },
+        {
+          "kind": "tag",
+          "x": 62,
+          "y": 44,
+          "text": "Sin café por la tarde",
+          "delay": 7.5
+        },
+        {
+          "kind": "emoji",
+          "x": 80,
+          "y": 62,
+          "emoji": "🌙",
+          "size": 150,
+          "anim": "float"
+        },
+        {
+          "kind": "stick",
+          "x": 25,
+          "y": 92,
+          "pose": "point",
+          "expr": "happy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 250
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Una *buena noticia*",
+      "narration": "Pero la buena noticia es que dormir es gratis. No necesitas nada. Solo apagar la pantalla un rato antes, y darle a tu cerebro las horas que necesita para limpiar y ordenar.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 45,
+          "emoji": "📱",
+          "size": 170,
+          "vanish": 4
+        },
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 45,
+          "emoji": "🌙",
+          "size": 180,
+          "delay": 4.2
+        },
+        {
+          "kind": "stick",
+          "x": 30,
+          "y": 92,
+          "pose": "cheer",
+          "expr": "happy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 280
+        }
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "¿Y *tú*?",
+      "narration": "Si te ha gustado, suscríbete a Escala Brutal. Y cuéntame en los comentarios: ¿cuál es el máximo de horas que has aguantado sin dormir? Te leo. Y ahora... a la cama.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "stick",
+          "x": 35,
+          "y": 92,
+          "pose": "wave",
+          "expr": "happy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 300,
+          "pose2": "idle",
+          "expr2": "sleepy",
+          "poseAt": 8
+        },
+        {
+          "kind": "bubble",
+          "x": 40,
+          "y": 44,
+          "text": "¡Suscríbete!",
+          "delay": 3,
+          "vanish": 7
+        },
+        {
+          "kind": "emoji",
+          "x": 72,
+          "y": 62,
+          "emoji": "🛏️",
+          "size": 220
+        },
+        {
+          "kind": "emoji",
+          "x": 76,
+          "y": 40,
+          "emoji": "💤",
+          "size": 110,
+          "anim": "float",
+          "delay": 9
+        }
+      ]
+    }
+  ]
+}
