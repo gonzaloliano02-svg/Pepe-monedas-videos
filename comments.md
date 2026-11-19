@@ -15,6 +15,8 @@ Updated by the daily run. Never reply twice to the same comment ID.
 | ZujZrHl99kA | Animal que nunca muere de viejo | 2 |
 | eoxlu-VdXAE | 8 de noviembre de 2026 | 2 |
 | YjrZqeKS6E8 | La Rinconada | 2 |
+| UWigkr88SCE | Manhattan | 2 |
+| NN2hr0dd8-Y | Espagueti (agujero negro) | 2 |
 | (all other videos as of 2026-11-12) | | 0 |
 
 ## Replied
@@ -27,3 +29,4 @@ Updated by the daily run. Never reply twice to the same comment ID.
 | 2026-11-11 | zE0Kq0O1uaA | Ugw5SpQqibtscovZMwR4AaABAg | (ya respondido por el canal el 2026-11-10) |
 | 2026-11-17 | YjrZqeKS6E8 | UgzecVSvcnkYwLDwKwV4AaABAg | valiente + ¿frío o vistas? |
 | 2026-11-18 | UWigkr88SCE | UgxIDmMDMA6ke9LcyUt4AaABAg | @csarioantonio Manhattan: respuesta + pregunta |
+| 2026-11-19 | NN2hr0dd8-Y | UgxWGhJGBVuVeZ_s16R4AaABAg | @Hadiel99Milva: caída libre + Sgr A* a 26.000 años luz |

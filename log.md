@@ -125,3 +125,10 @@
 - 2026-11-18 c (teaser agujero negro) programado 18:00: YouTube https://www.youtube.com/watch?v=NN2hr0dd8-Y (completed, privado hasta 18:00) + TikTok (scheduled 17:00Z). QA: fotogramas + transcripción de escenas OK. Día completo.
 - 2026-11-18 14:00 Dueño no quiso el largo original: V07ULXkcSdk pasado a privado (vidIQ update_video, 5 créditos; queda con publishAt 2027 → el dueño debe borrarlo en Studio). Rehecho con animación cartoon (monigotes, agujero negro animado, cámara, efectos), misma narración. Nuevo largo programado YouTube 16:00: https://www.youtube.com/watch?v=BtKt26XWqpo (completed). Descripción del teaser NN2hr0dd8-Y actualizada al enlace nuevo (5 créditos).
 - Nuevas reglas del dueño: vídeo largo CADA DÍA a las 16:00; TODOS los vídeos (largos y Shorts) animados como mínimo a este nivel. Shorts verticales animados (StoryV) desde 2026-11-19. Tarea diaria actualizada.
+
+## 2026-11-19 (jueves) — primer día 100 % animado
+- Verificado ayer: 8/8 publicaciones completed (YT a, b, c, largo animado BtKt26XWqpo; TikTok a, b, c).
+- Datos (Windsor): ganadores siguen siendo lugares extremos / cuerpo a escala / ¿qué pasaría si? (~850–1.500). Intestino 644 y Mawsynram 218 en <1 día. Largos 0–5 vistas (agujero negro animado: 5 en 15 h).
+- Elección: a 10:00 = lugar más caliente (lugares extremos, ganador; Lut 70,7 °C suelo / Valle de la Muerte 56,7 °C aire). b 12:00 = parpadeo (cuerpo a escala, ganador; ~1 h/día con ojos cerrados). Largo 16:00 = ¿Qué le pasa a tu cuerpo si NO DUERMES? (búsqueda alta "que pasa si no duermes"; el Short "72 horas sin dormir" tuvo 878 vistas y comentarios). c 18:00 = teaser Randy Gardner 11 días.
+- Todo animado (StoryV para Shorts) con efectos de sonido. Librería: habitación día/noche, cara de sueño, calima, nieve, sudor.
+- Comentarios: 1 nuevo (espagueti) respondido. 6 créditos.
