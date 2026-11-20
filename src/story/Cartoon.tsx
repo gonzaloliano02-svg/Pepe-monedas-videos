@@ -930,7 +930,7 @@ const OceanBg: React.FC<{ seed: string; t: number; depth?: [number, number]; noG
           style={{
             position: "absolute",
             right: V ? 40 : 48,
-            top: V ? 120 : 90,
+            top: V ? 395 : 90,
             padding: V ? "10px 22px" : "8px 20px",
             borderRadius: 999,
             background: "rgba(0,0,0,0.55)",
