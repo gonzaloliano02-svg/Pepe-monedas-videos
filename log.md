@@ -147,3 +147,6 @@
   - L1 16:00 búsqueda "qué hay en el fondo del mar / fosa de las Marianas": viaje por zonas (54 escenas, 1.752 palabras).
   - c 18:00 teaser L1: "un coche encima de cada uña" (≈1 t/cm² en el Abismo Challenger).
 - Librería: fondo "ocean" con profundidad animada y medidor de metros, nieve marina y bioluminiscencia; fx "lightning" (rayos + truenos) y "bubbles"; actor "sub" (batiscafo con foco).
+- a 10:00 programado: YT https://www.youtube.com/watch?v=C3roTVq8xBs + TikTok (scheduled 09:00Z). YouTube dio "rateLimitExceeded" ~30 min; vidIQ reintentó solo.
+- b 12:00 programado: YT https://www.youtube.com/watch?v=efzaIiQrGuI (completed tras 8 intentos por rateLimitExceeded) + TikTok (scheduled 11:00Z). Re-render por cama sobre subtítulos.
+- Reinicio del worker mató q20 durante la voz del L1; relanzado (voz en caché).
