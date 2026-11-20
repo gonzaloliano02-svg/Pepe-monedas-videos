@@ -150,3 +150,4 @@
 - a 10:00 programado: YT https://www.youtube.com/watch?v=C3roTVq8xBs + TikTok (scheduled 09:00Z). YouTube dio "rateLimitExceeded" ~30 min; vidIQ reintentó solo.
 - b 12:00 programado: YT https://www.youtube.com/watch?v=efzaIiQrGuI (completed tras 8 intentos por rateLimitExceeded) + TikTok (scheduled 11:00Z). Re-render por cama sobre subtítulos.
 - Reinicio del worker mató q20 durante la voz del L1; relanzado (voz en caché).
+- L1 16:00 "¿Qué hay en el FONDO del mar? Viaje hasta la Fosa de las Marianas" (10.7 min, miniatura, capítulos) → YouTube completed https://www.youtube.com/watch?v=wnrjuv_JtT4
