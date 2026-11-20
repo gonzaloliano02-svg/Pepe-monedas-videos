@@ -151,3 +151,4 @@
 - b 12:00 programado: YT https://www.youtube.com/watch?v=efzaIiQrGuI (completed tras 8 intentos por rateLimitExceeded) + TikTok (scheduled 11:00Z). Re-render por cama sobre subtítulos.
 - Reinicio del worker mató q20 durante la voz del L1; relanzado (voz en caché).
 - L1 16:00 "¿Qué hay en el FONDO del mar? Viaje hasta la Fosa de las Marianas" (10.7 min, miniatura, capítulos) → YouTube completed https://www.youtube.com/watch?v=wnrjuv_JtT4
+- c 18:00 teaser "Aquí abajo tendrías un COCHE encima de cada uña" (57 s; ASR OK; medidor de profundidad movido bajo el titular en vertical) → YT https://www.youtube.com/watch?v=T5Tf4EpSq0g (completed, descripción enlaza el L1) + TikTok scheduled 17:00Z. Día completo: 7 publicaciones.
