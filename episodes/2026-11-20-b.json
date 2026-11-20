@@ -151,15 +151,15 @@
    "actors": [
     {
      "kind": "emoji",
-     "x": 62,
-     "y": 62,
+     "x": 68,
+     "y": 50,
      "emoji": "🛏️",
-     "size": 240
+     "size": 220
     },
     {
      "kind": "emoji",
-     "x": 70,
-     "y": 40,
+     "x": 76,
+     "y": 36,
      "emoji": "💤",
      "size": 120,
      "anim": "float",
