@@ -1,0 +1,267 @@
+{
+ "id": "2026-11-20-c",
+ "format": "story",
+ "vertical": true,
+ "title": "Aquí abajo tendrías un COCHE encima de cada uña 😱🌊",
+ "description": "En el Abismo Challenger, en el fondo de la fosa de las Marianas (unos 10.900 metros), la presión del agua es más de 1.000 veces la de la superficie: alrededor de una tonelada por cada centímetro cuadrado, como un coche pequeño encima de cada uña. Cada 10 metros de agua añaden una atmósfera más de presión; en el Titanic, a unos 3.800 m, ya son casi 400. Y si metieras el Everest en la fosa, su cumbre quedaría a más de 2 km bajo la superficie.\n\nEL VÍDEO COMPLETO: L1LINK\n\nFuentes: NOAA Ocean Exploration, Woods Hole Oceanographic Institution. Cifras aproximadas. Animación propia; ilustraciones: Twemoji (CC-BY 4.0). Video creado con ayuda de IA.",
+ "tags": [
+  "fosa de las marianas",
+  "fondo del mar",
+  "presion del oceano",
+  "abismo challenger",
+  "oceano profundo",
+  "curiosidades",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "cartoon",
+   "text": "Un *coche* en tu uña",
+   "bg": "ocean",
+   "depth": [
+    0,
+    400
+   ],
+   "seed": "tc1",
+   "fx": [
+    "bubbles"
+   ],
+   "camera": {
+    "zoom": [
+     1,
+     1.12
+    ],
+    "focus": [
+     50,
+     55
+    ]
+   },
+   "narration": "Hay un sitio en la Tierra donde tendrías un coche encima de cada uña. ¿Exagero? Vamos a bajar a comprobarlo.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 30,
+     "emoji": "🚗",
+     "size": 240,
+     "anim": "float",
+     "delay": 0.6
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "wave",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 380,
+     "helmet": true,
+     "pose2": "scared",
+     "expr2": "wow",
+     "poseAt": 2.8
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "Cada 10 m, *más peso*",
+   "bg": "ocean",
+   "depth": [
+    0,
+    40
+   ],
+   "seed": "tc2",
+   "fx": [
+    "bubbles"
+   ],
+   "narration": "Cada diez metros que bajas en el mar, el agua te aprieta con una atmósfera más. A diez metros, ya soportas el doble que en la playa.",
+   "actors": [
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 32,
+     "text": "10 m = 2× presión",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "idle",
+     "expr": "calm",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360,
+     "helmet": true,
+     "pose2": "facepalm",
+     "expr2": "sad",
+     "poseAt": 3
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "El *Titanic*",
+   "bg": "ocean",
+   "depth": [
+    3000,
+    3800
+   ],
+   "seed": "tc3",
+   "narration": "A unos tres mil ochocientos metros está el Titanic. Allí la presión ya es de casi cuatrocientas atmósferas. Y aún nos queda muchísimo.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 44,
+     "emoji": "🚢",
+     "size": 300,
+     "rot": -12
+    },
+    {
+     "kind": "sub",
+     "x": 28,
+     "y": 30,
+     "size": 220,
+     "light": true,
+     "name": "TÚ"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 52,
+     "text": "≈ 400 atmósferas",
+     "delay": 2.5
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "bg": "ocean",
+   "depth": [
+    10900,
+    10935
+   ],
+   "noGauge": true,
+   "seed": "tc4",
+   "value": 10935,
+   "suffix": " m",
+   "label": "el fondo de la fosa de las *Marianas*",
+   "emoji": "🌊",
+   "narration": "Porque el fondo de la fosa de las Marianas está a casi once kilómetros. Es el punto más profundo del planeta.",
+   "actors": [
+    {
+     "kind": "sub",
+     "x": 50,
+     "y": 90,
+     "size": 220,
+     "light": true
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "*1 tonelada* por cm²",
+   "bg": "ocean",
+   "depth": [
+    10935,
+    10935
+   ],
+   "seed": "tc5",
+   "camera": {
+    "shake": 8,
+    "shakeAt": 2.6
+   },
+   "narration": "Allí abajo, la presión es más de mil veces la de la superficie. Una tonelada por cada centímetro cuadrado. Un coche pequeño... encima de cada uña.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 24,
+     "emoji": "🚗",
+     "size": 200,
+     "to": [
+      50,
+      40
+     ],
+     "move": [
+      0.8,
+      2.6
+     ],
+     "ease": "in"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 48,
+     "emoji": "💅",
+     "size": 150,
+     "delay": 0.3
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "scared",
+     "expr": "scared",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 340,
+     "helmet": true
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Y aun así hay *vida*?",
+   "bg": "ocean",
+   "depth": [
+    10935,
+    10935
+   ],
+   "seed": "tc6",
+   "fx": [
+    "bubbles"
+   ],
+   "narration": "Y aun así, ahí abajo hay vida. ¿Qué hay en el fondo del mar, metro a metro? El vídeo completo está en el canal.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 36,
+     "emoji": "🦐",
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 40,
+     "emoji": "🐙",
+     "size": 170,
+     "anim": "float",
+     "delay": 1
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 52,
+     "text": "Vídeo completo en el canal",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "point",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360,
+     "helmet": true
+    }
+   ]
+  }
+ ]
+}

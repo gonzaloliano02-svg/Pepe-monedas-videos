@@ -1,0 +1,303 @@
+{
+ "id": "2026-11-20-a",
+ "format": "story",
+ "vertical": true,
+ "title": "Aquí caen RAYOS casi todas las noches ⚡ El lugar con más rayos del mundo",
+ "description": "El Relámpago del Catatumbo, en el lago de Maracaibo (Venezuela), es el lugar con más rayos del planeta según un estudio de la NASA de 2016 basado en 16 años de datos de satélite: unos 233 rayos por kilómetro cuadrado al año. Hay tormentas eléctricas casi todas las noches (la NASA calcula unas 297 noches de tormenta al año, con un máximo en septiembre) y en las noches fuertes caen decenas de rayos por minuto. El aire cálido y húmedo del lago choca con el aire frío que baja de los Andes y forma tormentas noche tras noche. Hace siglos los navegantes lo llamaban el Faro de Maracaibo.\n\nFuentes: Albrecht et al. (2016, Bulletin of the American Meteorological Society), NASA Earth Observatory, Guinness World Records. Cifras aproximadas. Animación propia; ilustraciones: Twemoji (CC-BY 4.0). Video creado con ayuda de IA.",
+ "tags": [
+  "relampago del catatumbo",
+  "lago de maracaibo",
+  "lugar con mas rayos del mundo",
+  "rayos",
+  "lugares extremos",
+  "venezuela",
+  "curiosidades"
+ ],
+ "scenes": [
+  {
+   "type": "cartoon",
+   "text": "Tormenta *cada noche*",
+   "bg": "land:storm",
+   "seed": "cat1",
+   "fx": [
+    "lightning"
+   ],
+   "camera": {
+    "zoom": [
+     1,
+     1.12
+    ],
+    "focus": [
+     50,
+     55
+    ],
+    "shake": 4,
+    "shakeAt": 0.6
+   },
+   "narration": "¿Te imaginas un sitio donde hay tormenta casi todas las noches? Pues existe. ¡Y está en Venezuela!",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 34,
+     "emoji": "⛈️",
+     "size": 280,
+     "anim": "float"
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "wave",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 380,
+     "pose2": "scared",
+     "expr2": "wow",
+     "poseAt": 2.4
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "Lago de *Maracaibo*",
+   "bg": "land:storm",
+   "seed": "cat2",
+   "fx": [
+    "lightning"
+   ],
+   "narration": "Es el lago de Maracaibo, justo donde desemboca el río Catatumbo. Por eso lo llaman el Relámpago del Catatumbo.",
+   "actors": [
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 30,
+     "text": "🇻🇪 Venezuela",
+     "delay": 0.5
+    },
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 46,
+     "emoji": "🌊",
+     "size": 170,
+     "anim": "float",
+     "delay": 1.2
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 44,
+     "emoji": "⚡",
+     "size": 190,
+     "anim": "shake",
+     "delay": 2.4
+    },
+    {
+     "kind": "stick",
+     "x": 40,
+     "y": 93,
+     "pose": "point",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 340
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "bg": "land:storm",
+   "seed": "cat3",
+   "fx": [
+    "lightning"
+   ],
+   "value": 233,
+   "suffix": "",
+   "label": "rayos por km² *al año* (NASA)",
+   "emoji": "⚡",
+   "narration": "Un estudio de la NASA, con dieciséis años de datos de satélite, lo confirmó: es el lugar con más rayos del planeta. Unos doscientos treinta y tres por kilómetro cuadrado, cada año.",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 96,
+     "pose": "scared",
+     "expr": "scared",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "Decenas *por minuto*",
+   "bg": "land:storm",
+   "seed": "cat4",
+   "fx": [
+    "lightning",
+    "flash"
+   ],
+   "flashAt": 2.2,
+   "camera": {
+    "zoom": [
+     1.05,
+     1.2
+    ],
+    "focus": [
+     50,
+     40
+    ],
+    "shake": 6,
+    "shakeAt": 2
+   },
+   "narration": "Y en las noches fuertes, caen decenas de rayos por minuto. ¡Por minuto! El cielo parece una discoteca.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 32,
+     "emoji": "🌩️",
+     "size": 190,
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 72,
+     "y": 30,
+     "emoji": "🌩️",
+     "size": 170,
+     "anim": "shake",
+     "delay": 1
+    },
+    {
+     "kind": "bubble",
+     "x": 46,
+     "y": 48,
+     "text": "¡Otro más!",
+     "delay": 2.4
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "scared",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360,
+     "sweat": true
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Por qué *aquí*?",
+   "bg": "land:storm",
+   "seed": "cat5",
+   "fx": [
+    "lightning"
+   ],
+   "narration": "¿Y por qué justo aquí? El aire caliente y húmedo del lago choca con el aire frío que baja de los Andes. Y, noche tras noche, se monta la tormenta.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 22,
+     "y": 46,
+     "emoji": "🔥",
+     "size": 150,
+     "to": [
+      44,
+      40
+     ],
+     "move": [
+      0.5,
+      3.5
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 78,
+     "y": 40,
+     "emoji": "❄️",
+     "size": 150,
+     "to": [
+      56,
+      40
+     ],
+     "move": [
+      0.5,
+      3.5
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 30,
+     "emoji": "⛈️",
+     "size": 220,
+     "delay": 3.6,
+     "anim": "pop"
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "think",
+     "expr": "calm",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 340
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "El *faro* de Maracaibo",
+   "bg": "land:storm",
+   "seed": "cat6",
+   "fx": [
+    "lightning"
+   ],
+   "narration": "Los marineros de hace siglos lo usaban para orientarse: lo llamaban el faro de Maracaibo. ¿Tú irías a verlo? Sígueme para más lugares extremos.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 50,
+     "emoji": "⛵",
+     "size": 180,
+     "to": [
+      60,
+      50
+     ],
+     "move": [
+      0,
+      6
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 72,
+     "y": 32,
+     "emoji": "💡",
+     "size": 150,
+     "anim": "pulse",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "cheer",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 380
+    }
+   ]
+  }
+ ]
+}

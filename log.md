@@ -136,3 +136,14 @@
 - b programado 12:00: YT https://www.youtube.com/watch?v=2vE_MpGXIu8 (completed) + TikTok (scheduled 11:00Z). Re-render por choque del dato con subtítulos (arreglado en StoryV).
 - 2026-11-19 L1 "¿Qué le pasa a tu cuerpo si NO DUERMES? (hora a hora)" (11.4 min, 55 scenes, animated + SFX, thumbnail, chapters) → YouTube scheduled 16:00 via vidIQ, status completed: https://www.youtube.com/watch?v=Us0XpyT1oC0
 - 2026-11-19 c teaser "Estuvo 11 DÍAS sin dormir. Esto le pasó 😵" (44.7 s, StoryV animated + SFX, ASR OK) → YouTube 18:00 completed https://www.youtube.com/watch?v=X01dvuVhNLY (description links L1) + TikTok scheduled 18:00. All 4 uploads of the day done. Credits today: 6 (1 comment reply).
+
+## 2026-11-20 (viernes)
+- Verificado ayer: 7/7 publicaciones completed (YT a, b, L1 Us0XpyT1oC0, c X01dvuVhNLY; TikTok a, b, c).
+- Datos (Windsor): parpadeo 950 y teaser Randy 1.015 en <1 día; Lut 709. Largos siguen bajos (sueño 4, agujero negro 8). Ganadores: lugares extremos, cuerpo a escala, ¿qué pasaría si?
+- Comentarios: los nuevos de ayer ya los respondió el dueño; 1 pendiente (Darién, vídeo Mawsynram) → respondido. 6 créditos (5 lectura + 1).
+- Elección:
+  - a 10:00 Lugares extremos: Relámpago del Catatumbo (NASA 2016, ~233 rayos/km²/año; ~297 noches de tormenta).
+  - b 12:00 Cuerpo a escala: cerebro = 2 % del peso, ~20 % de la energía, ~20 W.
+  - L1 16:00 búsqueda "qué hay en el fondo del mar / fosa de las Marianas": viaje por zonas (54 escenas, 1.752 palabras).
+  - c 18:00 teaser L1: "un coche encima de cada uña" (≈1 t/cm² en el Abismo Challenger).
+- Librería: fondo "ocean" con profundidad animada y medidor de metros, nieve marina y bioluminiscencia; fx "lightning" (rayos + truenos) y "bubbles"; actor "sub" (batiscafo con foco).

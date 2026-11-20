@@ -1,7 +1,7 @@
 import React from "react";
 import { Sequence, staticFile, useVideoConfig } from "remotion";
 import { Audio } from "@remotion/media";
-import type { Actor, CartoonScene } from "./Cartoon";
+import { lightningTimes, type Actor, type CartoonScene } from "./Cartoon";
 
 // Automatic sound effects (owner request 2026-11-18: "añade también efectos de sonido").
 // Every scene gets its SFX from what happens on screen, so nothing has to be timed by hand:
@@ -93,6 +93,9 @@ export const SceneSfx: React.FC<{ s: SceneLike }> = ({ s }) => {
   if (s.camera?.shake) ev.push({ at: s.camera.shakeAt ?? 0, name: "rumble", vol: Math.min(0.32, 0.1 + s.camera.shake / 60) });
   if (s.fx?.includes("flash") && !(s.actors ?? []).some((a) => (a.kind === "star" && a.mode === "collapse") || (a.kind === "ripple" && a.merge)))
     ev.push({ at: s.flashAt ?? 1, name: "boom", vol: 0.45 });
+  if (s.fx?.includes("lightning")) for (const at of lightningTimes(dur)) ev.push({ at: at + 0.05, name: "boom", vol: 0.3, dur: 1.6 });
+  if (s.bg === "ocean") ev.push({ at: 0, name: "hum", vol: (s.depth?.[1] ?? 0) > 800 ? 0.13 : 0.08 });
+  if (s.fx?.includes("bubbles")) ev.push({ at: 0.2, name: "pop", vol: 0.15 }, { at: 0.9, name: "blip", vol: 0.12 });
   if (s.fx?.includes("einstein")) ev.push({ at: 0.5, name: "sparkle", vol: 0.2 });
   for (const a of s.actors ?? []) actorEvents(a, ev);
   for (const e of s.sfx ?? []) ev.push(e);

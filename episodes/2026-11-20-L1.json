@@ -1,0 +1,2231 @@
+{
+ "id": "2026-11-20-L1",
+ "format": "story",
+ "title": "¿Qué hay en el FONDO del mar? Viaje hasta la Fosa de las Marianas",
+ "description": "CHAPTERS",
+ "tags": [
+  "que hay en el fondo del mar",
+  "fosa de las marianas",
+  "fondo del oceano",
+  "abismo challenger",
+  "zonas del oceano",
+  "criaturas abisales",
+  "oceano profundo",
+  "curiosidades",
+  "animacion"
+ ],
+ "thumbnail": {
+  "text": "¿Qué hay *ahí abajo*?",
+  "kicker": "11.000 metros",
+  "emoji": "🌊",
+  "env": "sea",
+  "bg": "ocean",
+  "depth": [
+   350,
+   350
+  ],
+  "actors": [
+   {
+    "kind": "sub",
+    "x": 72,
+    "y": 55,
+    "size": 520,
+    "light": true,
+    "delay": -2
+   },
+   {
+    "kind": "emoji",
+    "x": 88,
+    "y": 22,
+    "emoji": "🦑",
+    "size": 230,
+    "delay": -2
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "type": "cartoon",
+   "text": "Hasta el *fondo*",
+   "narration": "Hay un lugar en la Tierra donde la presión es como tener un coche encima de cada uña. Donde nunca, jamás, ha llegado la luz del sol. Y aun así... ahí abajo hay vida. Animales que brillan, chimeneas que escupen agua hirviendo y un sitio tan hondo que el Everest cabría dentro.",
+   "bg": "ocean",
+   "depth": [
+    0,
+    30
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 30,
+     "emoji": "🚗",
+     "size": 200,
+     "anim": "float",
+     "delay": 0.8
+    },
+    {
+     "kind": "arrow",
+     "x": 50,
+     "y": 40,
+     "to": [
+      50,
+      55
+     ],
+     "text": "",
+     "delay": 2.0,
+     "color": "#4dfff3"
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 88,
+     "pose": "scared",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 280,
+     "helmet": true,
+     "delay": 0.2
+    }
+   ],
+   "fx": [
+    "bubbles"
+   ],
+   "camera": {
+    "zoom": [
+     1,
+     1.12
+    ],
+    "focus": [
+     50,
+     55
+    ]
+   },
+   "seed": "oc0"
+  },
+  {
+   "type": "cartoon",
+   "text": "*11 kilómetros* hacia abajo",
+   "narration": "Hoy vamos a bajar. Desde la superficie del mar hasta el punto más profundo del planeta: casi once kilómetros hacia abajo. ¿Qué te encontrarías por el camino? ¿Y qué hay de verdad en el fondo?",
+   "bg": "ocean",
+   "depth": [
+    0,
+    60
+   ],
+   "actors": [
+    {
+     "kind": "sub",
+     "x": 30,
+     "y": 40,
+     "size": 300,
+     "to": [
+      62,
+      62
+     ],
+     "move": [
+      0.5,
+      8
+     ],
+     "light": true,
+     "name": "TÚ"
+    },
+    {
+     "kind": "tag",
+     "x": 78,
+     "y": 30,
+     "text": "≈ 11 km",
+     "delay": 2.5
+    }
+   ],
+   "seed": "oc1"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Cuánto *aguantarías*?",
+   "narration": "Coge aire. Porque a cada metro todo se vuelve más oscuro, más frío y más pesado. Y te aviso: lo del final es lo más raro de todo el vídeo.",
+   "bg": "ocean",
+   "depth": [
+    0,
+    40
+   ],
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 40,
+     "y": 80,
+     "pose": "float",
+     "expr": "calm",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 280,
+     "helmet": true,
+     "pose2": "scared",
+     "expr2": "wow",
+     "poseAt": 4
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 50,
+     "emoji": "🫧",
+     "size": 110,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 35,
+     "emoji": "🐠",
+     "size": 140,
+     "to": [
+      20,
+      30
+     ]
+    }
+   ],
+   "fx": [
+    "bubbles"
+   ],
+   "seed": "oc2"
+  },
+  {
+   "type": "cartoon",
+   "text": "Un planeta *de agua*",
+   "narration": "Antes de bajar, piensa en esto: el océano cubre más de dos tercios de la Tierra. Nuestro planeta debería llamarse Agua, no Tierra. Y casi todo ese espacio está a oscuras, muy por debajo de donde llega la luz. Es el hogar más grande que existe... y el que menos conocemos.",
+   "bg": "ocean",
+   "depth": [
+    0,
+    10
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 42,
+     "emoji": "🌍",
+     "size": 300,
+     "anim": "float"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 70,
+     "text": "Más de 2/3: océano",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "x": 85,
+     "y": 92,
+     "pose": "point",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 200,
+     "helmet": true
+    }
+   ],
+   "seed": "oc3"
+  },
+  {
+   "type": "title",
+   "text": "La zona de *luz*",
+   "kicker": "0 – 200 m",
+   "narration": "Primera parada: la zona de luz. Los primeros doscientos metros del océano. Es donde está casi todo lo que conoces del mar.",
+   "bg": "ocean",
+   "depth": [
+    0,
+    20
+   ],
+   "seed": "oc4"
+  },
+  {
+   "type": "cartoon",
+   "text": "Aquí vive *casi todo*",
+   "narration": "Aquí llega la luz del sol, y con ella crecen las algas y el plancton. Por eso aquí vive la mayoría de los peces que te comes, las tortugas, los delfines... y los arrecifes de coral.",
+   "bg": "ocean",
+   "depth": [
+    5,
+    60
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 35,
+     "emoji": "🐢",
+     "size": 160,
+     "to": [
+      70,
+      30
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 55,
+     "emoji": "🐬",
+     "size": 180,
+     "to": [
+      30,
+      58
+     ],
+     "move": [
+      1,
+      7
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 80,
+     "emoji": "🪸",
+     "size": 170
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 75,
+     "emoji": "🐟",
+     "size": 120,
+     "anim": "float"
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 70,
+     "pose": "wave",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240,
+     "helmet": true
+    }
+   ],
+   "fx": [
+    "bubbles"
+   ],
+   "seed": "oc5"
+  },
+  {
+   "type": "cartoon",
+   "text": "Cada 10 m, *más peso*",
+   "narration": "Pero hay un detalle que lo cambia todo. Cada diez metros que bajas, el agua te aprieta con una atmósfera más. A diez metros, ya soportas el doble de presión que en la playa.",
+   "bg": "ocean",
+   "depth": [
+    0,
+    10
+   ],
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 40,
+     "y": 80,
+     "pose": "idle",
+     "expr": "calm",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 260,
+     "helmet": true,
+     "pose2": "scared",
+     "expr2": "wow",
+     "poseAt": 3.5
+    },
+    {
+     "kind": "tag",
+     "x": 65,
+     "y": 35,
+     "text": "10 m = 2× presión",
+     "delay": 2.5
+    },
+    {
+     "kind": "arrow",
+     "x": 65,
+     "y": 45,
+     "to": [
+      48,
+      60
+     ],
+     "text": "",
+     "delay": 3.2,
+     "color": "#4dfff3"
+    }
+   ],
+   "seed": "oc6"
+  },
+  {
+   "type": "cartoon",
+   "text": "Por eso te *duelen los oídos*",
+   "narration": "Por eso te duelen los oídos cuando buceas en una piscina honda. Y por eso los buceadores deportivos no suelen bajar de unos cuarenta metros.",
+   "bg": "ocean",
+   "depth": [
+    0,
+    40
+   ],
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 45,
+     "y": 80,
+     "pose": "facepalm",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 260,
+     "helmet": true
+    },
+    {
+     "kind": "bubble",
+     "x": 55,
+     "y": 45,
+     "text": "¡Mis oídos!",
+     "delay": 1.2
+    },
+    {
+     "kind": "tag",
+     "x": 75,
+     "y": 30,
+     "text": "Buceo: ~40 m",
+     "delay": 4
+    }
+   ],
+   "seed": "oc7"
+  },
+  {
+   "type": "cartoon",
+   "text": "Récords *humanos*",
+   "narration": "Hay gente que ha bajado mucho más. Algunos apneístas, sin botella y con una sola bocanada de aire, han superado los doscientos metros. Y un buceador con botellas llegó a más de trescientos treinta.",
+   "bg": "ocean",
+   "depth": [
+    40,
+    330
+   ],
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 35,
+     "y": 80,
+     "pose": "cheer",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 260,
+     "helmet": true
+    },
+    {
+     "kind": "tag",
+     "x": 68,
+     "y": 32,
+     "text": "Apnea: +200 m",
+     "delay": 1.5
+    },
+    {
+     "kind": "tag",
+     "x": 68,
+     "y": 46,
+     "text": "Con botellas: ~332 m",
+     "delay": 4.5
+    }
+   ],
+   "seed": "oc8"
+  },
+  {
+   "type": "cartoon",
+   "text": "El pingüino *gana*",
+   "narration": "Pero hay animales que te dejan en ridículo. Un pingüino emperador puede bajar a más de quinientos metros. Aguantando la respiración. Así, como quien no quiere la cosa.",
+   "bg": "ocean",
+   "depth": [
+    150,
+    500
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 30,
+     "emoji": "🐧",
+     "size": 190,
+     "to": [
+      60,
+      72
+     ],
+     "move": [
+      0.5,
+      6
+     ],
+     "rot": 30
+    },
+    {
+     "kind": "bubble",
+     "x": 45,
+     "y": 35,
+     "text": "¡Adiós!",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "x": 80,
+     "y": 85,
+     "pose": "shrug",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220,
+     "helmet": true
+    }
+   ],
+   "seed": "oc9"
+  },
+  {
+   "type": "title",
+   "text": "La zona de *penumbra*",
+   "kicker": "200 – 1.000 m",
+   "narration": "Seguimos bajando. A partir de doscientos metros entramos en la zona de penumbra. El sol aquí ya casi no llega.",
+   "bg": "ocean",
+   "depth": [
+    200,
+    300
+   ],
+   "seed": "oc10"
+  },
+  {
+   "type": "cartoon",
+   "text": "El azul se *apaga*",
+   "narration": "A doscientos metros, solo llega alrededor del uno por ciento de la luz de la superficie. Primero desaparece el rojo, luego el amarillo... y al final todo es azul oscuro. Ya no crecen plantas.",
+   "bg": "ocean",
+   "depth": [
+    200,
+    600
+   ],
+   "actors": [
+    {
+     "kind": "sub",
+     "x": 50,
+     "y": 48,
+     "size": 320,
+     "light": true,
+     "name": "TÚ"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 22,
+     "text": "Luz: ~1 %",
+     "delay": 2
+    },
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 80,
+     "emoji": "🌿",
+     "size": 120,
+     "vanish": 4
+    }
+   ],
+   "seed": "oc11"
+  },
+  {
+   "type": "cartoon",
+   "text": "Ojos *gigantes*",
+   "narration": "Los animales de aquí tienen trucos rarísimos. Algunos tienen ojos enormes para cazar la poca luz que queda. Otros son casi transparentes, para que nadie los vea.",
+   "bg": "ocean",
+   "depth": [
+    400,
+    700
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "👁️",
+     "size": 200,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 45,
+     "emoji": "🪼",
+     "size": 180,
+     "anim": "float",
+     "opacity": 0.6
+    },
+    {
+     "kind": "sub",
+     "x": 55,
+     "y": 78,
+     "size": 220,
+     "light": true
+    }
+   ],
+   "seed": "oc12"
+  },
+  {
+   "type": "cartoon",
+   "text": "El viaje *diario*",
+   "narration": "Y cada noche pasa algo increíble: millones de animales suben desde aquí hacia la superficie para comer, y al amanecer vuelven a bajar. Es la mayor migración del planeta, y ocurre todos los días.",
+   "bg": "ocean",
+   "depth": [
+    300,
+    500
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 80,
+     "emoji": "🦐",
+     "size": 110,
+     "to": [
+      30,
+      20
+     ],
+     "move": [
+      0.5,
+      5
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 45,
+     "y": 85,
+     "emoji": "🦐",
+     "size": 90,
+     "to": [
+      45,
+      25
+     ],
+     "move": [
+      0.8,
+      5.5
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 82,
+     "emoji": "🐟",
+     "size": 110,
+     "to": [
+      60,
+      22
+     ],
+     "move": [
+      1,
+      6
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 85,
+     "y": 18,
+     "emoji": "🌙",
+     "size": 130
+    },
+    {
+     "kind": "tag",
+     "x": 75,
+     "y": 40,
+     "text": "Cada noche",
+     "delay": 2
+    }
+   ],
+   "seed": "oc13"
+  },
+  {
+   "type": "cartoon",
+   "text": "Los peces *linterna*",
+   "narration": "Entre los que hacen ese viaje están los peces linterna. Son pequeñitos, con puntitos de luz en el cuerpo, y hay tantísimos que podrían ser de los vertebrados más abundantes del planeta. Casi nadie ha oído hablar de ellos.",
+   "bg": "ocean",
+   "depth": [
+    400,
+    600
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "🐟",
+     "size": 130,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 55,
+     "emoji": "🐟",
+     "size": 110,
+     "anim": "float",
+     "delay": 0.5
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 42,
+     "emoji": "🐟",
+     "size": 120,
+     "anim": "float",
+     "delay": 1
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 30,
+     "emoji": "✨",
+     "size": 110,
+     "anim": "pulse",
+     "delay": 2
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 75,
+     "text": "Pez linterna",
+     "delay": 2.5
+    }
+   ],
+   "fx": [
+    "einstein"
+   ],
+   "seed": "oc14"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *calamar gigante*",
+   "narration": "Por esta zona, y más abajo, vive uno de los monstruos más famosos: el calamar gigante. Puede medir más de diez metros. Durante siglos fue una leyenda de marineros.",
+   "bg": "ocean",
+   "depth": [
+    500,
+    900
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🦑",
+     "size": 320,
+     "anim": "float",
+     "delay": 0.6,
+     "scaleTo": 1.2
+    },
+    {
+     "kind": "sub",
+     "x": 18,
+     "y": 70,
+     "size": 200,
+     "light": true
+    },
+    {
+     "kind": "tag",
+     "x": 78,
+     "y": 25,
+     "text": "+10 m",
+     "delay": 2.5
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1,
+     1.15
+    ],
+    "focus": [
+     50,
+     45
+    ]
+   },
+   "seed": "oc15"
+  },
+  {
+   "type": "cartoon",
+   "text": "Visto por *fin*",
+   "narration": "Nadie lo había visto vivo en su hogar hasta este siglo. Las primeras fotos son de dos mil cuatro, en Japón. Y en dos mil doce por fin lo grabaron en vídeo, en las profundidades.",
+   "bg": "ocean",
+   "depth": [
+    600,
+    900
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "📸",
+     "size": 170,
+     "anim": "pop",
+     "delay": 0.5
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 40,
+     "emoji": "🎥",
+     "size": 170,
+     "anim": "pop",
+     "delay": 3.5
+    },
+    {
+     "kind": "tag",
+     "x": 30,
+     "y": 58,
+     "text": "2004: fotos",
+     "delay": 1
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 58,
+     "text": "2012: vídeo",
+     "delay": 4
+    }
+   ],
+   "seed": "oc16"
+  },
+  {
+   "type": "title",
+   "text": "La zona de *medianoche*",
+   "kicker": "1.000 – 4.000 m",
+   "narration": "A partir de mil metros llegamos a la zona de medianoche. Y aquí el nombre no es una exageración.",
+   "bg": "ocean",
+   "depth": [
+    1000,
+    1200
+   ],
+   "seed": "oc17"
+  },
+  {
+   "type": "cartoon",
+   "text": "Oscuridad *total*",
+   "narration": "Aquí no llega ni un rayo de sol. Nunca. Es noche las veinticuatro horas, todos los días, desde hace millones de años. El agua está a unos pocos grados, casi helada.",
+   "bg": "ocean",
+   "depth": [
+    1000,
+    1600
+   ],
+   "actors": [
+    {
+     "kind": "sub",
+     "x": 50,
+     "y": 50,
+     "size": 300,
+     "light": true,
+     "name": "TÚ"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 22,
+     "text": "0 % de sol",
+     "delay": 1.5
+    },
+    {
+     "kind": "tag",
+     "x": 78,
+     "y": 70,
+     "text": "≈ 2–4 °C",
+     "delay": 3.5
+    },
+    {
+     "kind": "emoji",
+     "x": 22,
+     "y": 70,
+     "emoji": "🥶",
+     "size": 140,
+     "delay": 4
+    }
+   ],
+   "seed": "oc18"
+  },
+  {
+   "type": "cartoon",
+   "text": "Las luces de *la noche*",
+   "narration": "Pero no está oscuro del todo. Porque muchos animales fabrican su propia luz. Se llama bioluminiscencia. En un estudio, unas tres de cada cuatro criaturas observadas en aguas profundas podían brillar.",
+   "bg": "ocean",
+   "depth": [
+    1200,
+    1800
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 35,
+     "emoji": "✨",
+     "size": 150,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 40,
+     "emoji": "🪼",
+     "size": 190,
+     "anim": "float"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 72,
+     "text": "≈ 3 de cada 4 brillan",
+     "delay": 3
+    }
+   ],
+   "fx": [
+    "einstein"
+   ],
+   "seed": "oc19"
+  },
+  {
+   "type": "cartoon",
+   "text": "El rape *abisal*",
+   "narration": "El más famoso es el rape abisal. Lleva en la cabeza una especie de caña de pescar con una lucecita en la punta. Los peces curiosos se acercan a mirar... y ñam.",
+   "bg": "ocean",
+   "depth": [
+    1200,
+    1500
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 50,
+     "emoji": "🐡",
+     "size": 260,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 47,
+     "y": 30,
+     "emoji": "💡",
+     "size": 90,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 85,
+     "y": 45,
+     "emoji": "🐟",
+     "size": 110,
+     "to": [
+      55,
+      40
+     ],
+     "move": [
+      1,
+      4
+     ],
+     "vanish": 4.5
+    },
+    {
+     "kind": "bubble",
+     "x": 30,
+     "y": 32,
+     "text": "¡Ñam!",
+     "delay": 4.6
+    }
+   ],
+   "seed": "oc20"
+  },
+  {
+   "type": "cartoon",
+   "text": "Dientes *imposibles*",
+   "narration": "Y no es el único con pinta de pesadilla. El pez víbora tiene unos dientes tan largos que no le caben en la boca. Aquí abajo la comida escasea, así que cualquier cosa que pase cerca hay que atraparla a la primera. No hay segunda oportunidad.",
+   "bg": "ocean",
+   "depth": [
+    1300,
+    1700
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 45,
+     "y": 45,
+     "emoji": "🦷",
+     "size": 200,
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 50,
+     "emoji": "🐟",
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "kind": "bubble",
+     "x": 25,
+     "y": 30,
+     "text": "¡A la primera!",
+     "delay": 2.5
+    },
+    {
+     "kind": "sub",
+     "x": 20,
+     "y": 78,
+     "size": 200,
+     "light": true
+    }
+   ],
+   "seed": "oc21"
+  },
+  {
+   "type": "cartoon",
+   "text": "El cachalote *caza aquí*",
+   "narration": "Hasta aquí bajan también los cachalotes, que pueden superar los mil metros para cazar calamares. Aguantan sin respirar más de una hora.",
+   "bg": "ocean",
+   "depth": [
+    800,
+    1500
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 30,
+     "emoji": "🐋",
+     "size": 280,
+     "to": [
+      60,
+      62
+     ],
+     "move": [
+      0.3,
+      6
+     ],
+     "rot": 25
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 78,
+     "emoji": "🦑",
+     "size": 150,
+     "anim": "shake"
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 22,
+     "text": "+1 h sin respirar",
+     "delay": 2.5
+    }
+   ],
+   "seed": "oc22"
+  },
+  {
+   "type": "cartoon",
+   "text": "Récord de *buceo animal*",
+   "narration": "Pero el récord no es suyo. Lo tiene una ballena picuda de Cuvier: se la midió a casi tres mil metros de profundidad. Tres kilómetros, ida y vuelta, en una sola respiración.",
+   "bg": "ocean",
+   "depth": [
+    2000,
+    2992
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 25,
+     "emoji": "🐳",
+     "size": 230,
+     "to": [
+      55,
+      70
+     ],
+     "move": [
+      0.3,
+      6
+     ],
+     "rot": 30
+    },
+    {
+     "kind": "tag",
+     "x": 75,
+     "y": 30,
+     "text": "2.992 m",
+     "delay": 3.5
+    },
+    {
+     "kind": "stick",
+     "x": 85,
+     "y": 92,
+     "pose": "shrug",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 200,
+     "helmet": true
+    }
+   ],
+   "seed": "oc23"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *Titanic*",
+   "narration": "Un poco más abajo, a unos tres mil ochocientos metros, descansa el Titanic. Allí la presión ya es de casi cuatrocientas atmósferas. Ningún buceador podría llegar jamás. Por eso, cuando se hundió en mil novecientos doce, tardaron más de setenta años en encontrarlo.",
+   "bg": "ocean",
+   "depth": [
+    3200,
+    3800
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 62,
+     "emoji": "🚢",
+     "size": 320,
+     "rot": -12
+    },
+    {
+     "kind": "sub",
+     "x": 25,
+     "y": 30,
+     "size": 220,
+     "light": true,
+     "to": [
+      40,
+      40
+     ]
+    },
+    {
+     "kind": "tag",
+     "x": 75,
+     "y": 25,
+     "text": "≈ 3.800 m",
+     "delay": 2
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1,
+     1.12
+    ],
+    "focus": [
+     50,
+     62
+    ]
+   },
+   "seed": "oc24"
+  },
+  {
+   "type": "stat",
+   "value": 3700,
+   "suffix": " m",
+   "label": "profundidad *media* del océano",
+   "narration": "Y aquí viene un dato que sorprende. El océano mide de media unos tres mil setecientos metros de profundidad. O sea, la mayor parte del mar es justo esto: oscuro, frío y aplastante.",
+   "bg": "ocean",
+   "depth": [
+    3700,
+    3700
+   ],
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 88,
+     "y": 95,
+     "pose": "scared",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 200,
+     "helmet": true
+    }
+   ],
+   "seed": "oc25"
+  },
+  {
+   "type": "title",
+   "text": "El *abismo*",
+   "kicker": "4.000 – 6.000 m",
+   "narration": "Bajamos al abismo. Entre cuatro mil y seis mil metros. Aquí está el fondo de casi todo el océano.",
+   "bg": "ocean",
+   "depth": [
+    4000,
+    4200
+   ],
+   "seed": "oc26"
+  },
+  {
+   "type": "cartoon",
+   "text": "La llanura *abisal*",
+   "narration": "El fondo aquí es una llanura enorme, cubierta de un barro finísimo. Encima cae, sin parar, una especie de nieve: restos de animales y plancton que bajan desde arriba durante semanas.",
+   "bg": "ocean",
+   "depth": [
+    4200,
+    4600
+   ],
+   "actors": [
+    {
+     "kind": "sub",
+     "x": 50,
+     "y": 40,
+     "size": 300,
+     "light": true,
+     "name": "TÚ"
+    },
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 25,
+     "emoji": "❄️",
+     "size": 90,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 30,
+     "emoji": "❄️",
+     "size": 80,
+     "anim": "float",
+     "delay": 1
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 70,
+     "text": "\"Nieve marina\"",
+     "delay": 2.5
+    }
+   ],
+   "seed": "oc27"
+  },
+  {
+   "type": "cartoon",
+   "text": "Un *banquete* que cae",
+   "narration": "Y cuando una ballena muere y se hunde, es una fiesta. Su cuerpo puede alimentar a cientos de especies durante años. Pulpos, gusanos, cangrejos... todos a comer.",
+   "bg": "ocean",
+   "depth": [
+    4300,
+    4600
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 30,
+     "emoji": "🐋",
+     "size": 260,
+     "to": [
+      50,
+      70
+     ],
+     "move": [
+      0.2,
+      4
+     ],
+     "rot": 180,
+     "opacity": 0.7
+    },
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 85,
+     "emoji": "🦀",
+     "size": 110,
+     "to": [
+      42,
+      78
+     ],
+     "delay": 3.5
+    },
+    {
+     "kind": "emoji",
+     "x": 78,
+     "y": 85,
+     "emoji": "🐙",
+     "size": 130,
+     "to": [
+      60,
+      78
+     ],
+     "delay": 4
+    },
+    {
+     "kind": "bubble",
+     "x": 30,
+     "y": 55,
+     "text": "¡A comer!",
+     "delay": 5
+    }
+   ],
+   "seed": "oc28"
+  },
+  {
+   "type": "cartoon",
+   "text": "El pulpo *Dumbo*",
+   "narration": "Y por aquí nada uno de los animales más simpáticos del abismo: el pulpo Dumbo. Se llama así porque mueve dos aletas en la cabeza, como las orejas del elefante de la película. Se ha visto a casi siete mil metros, más que ningún otro pulpo.",
+   "bg": "ocean",
+   "depth": [
+    4500,
+    5000
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🐙",
+     "size": 260,
+     "anim": "float",
+     "delay": 0.4
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 25,
+     "emoji": "🐘",
+     "size": 120,
+     "delay": 2.5,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 25,
+     "y": 25,
+     "text": "Casi 7.000 m",
+     "delay": 4
+    },
+    {
+     "kind": "sub",
+     "x": 20,
+     "y": 78,
+     "size": 200,
+     "light": true
+    }
+   ],
+   "seed": "oc29"
+  },
+  {
+   "type": "cartoon",
+   "text": "Chimeneas *hirviendo*",
+   "narration": "En mil novecientos setenta y siete, el submarino Alvin descubrió en el fondo fuentes de agua caliente que nadie esperaba. Y dos años después, algo todavía más loco: chimeneas negras que escupen agua a más de trescientos cincuenta grados.",
+   "bg": "ocean",
+   "depth": [
+    2400,
+    2600
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 70,
+     "emoji": "🌋",
+     "size": 280,
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "♨️",
+     "size": 150,
+     "anim": "float",
+     "delay": 1
+    },
+    {
+     "kind": "sub",
+     "x": 18,
+     "y": 30,
+     "size": 220,
+     "light": true,
+     "name": "ALVIN",
+     "color": "#ffffff"
+    },
+    {
+     "kind": "tag",
+     "x": 80,
+     "y": 30,
+     "text": "+350 °C",
+     "delay": 3
+    }
+   ],
+   "fx": [
+    "heat"
+   ],
+   "seed": "oc30"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Y no *hierve*?",
+   "narration": "¿Y cómo puede estar el agua a esa temperatura sin hervir? Por la presión. Hay tanto peso encima, que el agua no consigue convertirse en vapor. Es como una olla exprés gigante, con kilómetros de mar haciendo de tapa.",
+   "bg": "ocean",
+   "depth": [
+    2500,
+    2500
+   ],
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 35,
+     "y": 90,
+     "pose": "think",
+     "expr": "calm",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 280
+    },
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 40,
+     "emoji": "💧",
+     "size": 170,
+     "anim": "pulse"
+    },
+    {
+     "kind": "bubble",
+     "x": 25,
+     "y": 45,
+     "text": "¿Sin hervir?",
+     "delay": 0.6
+    }
+   ],
+   "seed": "oc31"
+  },
+  {
+   "type": "cartoon",
+   "text": "Vida *sin sol*",
+   "narration": "Y alrededor de esas chimeneas hay vida. Mucha. Gusanos de tubo de más de un metro, con la punta roja como un pintalabios, almejas gigantes, cangrejos... Viven de la química de la Tierra, no del sol. Algunos científicos creen que la vida pudo empezar en un sitio así.",
+   "bg": "ocean",
+   "depth": [
+    2500,
+    2600
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 70,
+     "emoji": "🪱",
+     "size": 180,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 55,
+     "y": 82,
+     "emoji": "🦀",
+     "size": 140,
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 78,
+     "emoji": "🐚",
+     "size": 130
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 28,
+     "text": "Sin luz solar",
+     "delay": 2.5
+    }
+   ],
+   "fx": [
+    "heat"
+   ],
+   "seed": "oc32"
+  },
+  {
+   "type": "title",
+   "text": "La zona *hadal*",
+   "kicker": "6.000 – 11.000 m",
+   "narration": "Y ahora sí. Bajamos de seis mil metros. Esto ya no es el fondo del mar: son fosas, cortes gigantes en el suelo del océano. La llaman zona hadal, por Hades, el dios del inframundo.",
+   "bg": "ocean",
+   "depth": [
+    6000,
+    6500
+   ],
+   "seed": "oc33"
+  },
+  {
+   "type": "cartoon",
+   "text": "Una *grieta* en el planeta",
+   "narration": "Estas fosas aparecen donde una placa de la corteza terrestre se mete por debajo de otra. Y la más profunda de todas está en el Pacífico: la fosa de las Marianas.",
+   "bg": "ocean",
+   "depth": [
+    6500,
+    7200
+   ],
+   "actors": [
+    {
+     "kind": "arrow",
+     "x": 20,
+     "y": 60,
+     "to": [
+      45,
+      72
+     ],
+     "text": "",
+     "delay": 0.5,
+     "color": "#ff8c42"
+    },
+    {
+     "kind": "arrow",
+     "x": 80,
+     "y": 60,
+     "to": [
+      55,
+      72
+     ],
+     "text": "",
+     "delay": 0.5,
+     "color": "#ff8c42"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 30,
+     "text": "Fosa de las Marianas",
+     "delay": 2.5
+    },
+    {
+     "kind": "sub",
+     "x": 50,
+     "y": 45,
+     "size": 200,
+     "light": true
+    }
+   ],
+   "seed": "oc34"
+  },
+  {
+   "type": "cartoon",
+   "text": "El pez *más profundo*",
+   "narration": "¿Hasta dónde llegan los peces? El récord es un pez caracol, filmado en dos mil veintidós a más de ocho mil trescientos metros. Más abajo, los científicos creen que ningún pez puede sobrevivir.",
+   "bg": "ocean",
+   "depth": [
+    8000,
+    8336
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 45,
+     "y": 55,
+     "emoji": "🐟",
+     "size": 220,
+     "anim": "float",
+     "opacity": 0.85
+    },
+    {
+     "kind": "tag",
+     "x": 72,
+     "y": 30,
+     "text": "8.336 m",
+     "delay": 2
+    },
+    {
+     "kind": "sub",
+     "x": 20,
+     "y": 30,
+     "size": 200,
+     "light": true
+    }
+   ],
+   "seed": "oc35"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Por qué no *más abajo*?",
+   "narration": "¿Y por qué los peces no bajan más? Porque la presión empieza a deformar las proteínas de su cuerpo. Para protegerse fabrican una sustancia especial, pero a partir de unos ocho mil doscientos metros necesitarían tanta que ya no les compensa. Hay un límite, y lo marca la física.",
+   "bg": "ocean",
+   "depth": [
+    8000,
+    8300
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 45,
+     "emoji": "🐟",
+     "size": 180,
+     "anim": "shake"
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 30,
+     "text": "Límite: ~8.200 m",
+     "delay": 2
+    },
+    {
+     "kind": "arrow",
+     "x": 70,
+     "y": 40,
+     "to": [
+      70,
+      70
+     ],
+     "text": "",
+     "delay": 3,
+     "color": "#ff4d6d"
+    },
+    {
+     "kind": "stick",
+     "x": 85,
+     "y": 92,
+     "pose": "think",
+     "expr": "calm",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 200
+    }
+   ],
+   "seed": "oc36"
+  },
+  {
+   "type": "cartoon",
+   "text": "Los *últimos vecinos*",
+   "narration": "Pero más abajo sigue habiendo vida. Pequeños crustáceos parecidos a gambas, pepinos de mar, y unas criaturas de una sola célula del tamaño de una pelota de golf.",
+   "bg": "ocean",
+   "depth": [
+    8400,
+    9500
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 60,
+     "emoji": "🦐",
+     "size": 140,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 78,
+     "emoji": "🥒",
+     "size": 140
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 50,
+     "emoji": "⚪",
+     "size": 100,
+     "anim": "pulse"
+    },
+    {
+     "kind": "sub",
+     "x": 50,
+     "y": 30,
+     "size": 220,
+     "light": true,
+     "name": "TÚ"
+    }
+   ],
+   "seed": "oc37"
+  },
+  {
+   "type": "stat",
+   "value": 10935,
+   "suffix": " m",
+   "label": "el punto *más profundo*: Abismo Challenger",
+   "narration": "Y aquí está. El Abismo Challenger, en el fondo de la fosa de las Marianas. Unos diez mil novecientos metros. El punto más profundo que conocemos en todo el planeta. Hemos llegado al final del viaje. ¿Y qué se siente aquí?",
+   "bg": "ocean",
+   "depth": [
+    10900,
+    10935
+   ],
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 88,
+     "y": 95,
+     "pose": "scared",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 200,
+     "helmet": true
+    }
+   ],
+   "seed": "oc38"
+  },
+  {
+   "type": "cartoon",
+   "text": "El Everest *cabe*",
+   "narration": "Para que te hagas una idea: si metieras el Everest aquí dentro, su cumbre quedaría todavía a más de dos kilómetros por debajo de la superficie del mar.",
+   "bg": "ocean",
+   "depth": [
+    10935,
+    10935
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 62,
+     "emoji": "🏔️",
+     "size": 380,
+     "delay": 0.4,
+     "anim": "pop"
+    },
+    {
+     "kind": "arrow",
+     "x": 50,
+     "y": 40,
+     "to": [
+      50,
+      15
+     ],
+     "text": "+2 km de agua",
+     "delay": 2.5,
+     "color": "#4dfff3"
+    }
+   ],
+   "noGauge": true,
+   "camera": {
+    "zoom": [
+     1.15,
+     1
+    ],
+    "focus": [
+     50,
+     50
+    ]
+   },
+   "seed": "oc39"
+  },
+  {
+   "type": "cartoon",
+   "text": "Un *coche* en tu uña",
+   "narration": "¿Y la presión? Más de mil veces la de la superficie. Es como si te pusieran una tonelada, un coche pequeño, encima de cada centímetro cuadrado del cuerpo. Encima de cada uña.",
+   "bg": "ocean",
+   "depth": [
+    10935,
+    10935
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 25,
+     "emoji": "🚗",
+     "size": 200,
+     "to": [
+      50,
+      52
+     ],
+     "move": [
+      0.8,
+      3
+     ],
+     "ease": "in"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 72,
+     "emoji": "💅",
+     "size": 150,
+     "delay": 0.2
+    },
+    {
+     "kind": "tag",
+     "x": 78,
+     "y": 30,
+     "text": "≈ 1.100 atmósferas",
+     "delay": 4
+    }
+   ],
+   "camera": {
+    "shake": 8,
+    "shakeAt": 3
+   },
+   "seed": "oc40"
+  },
+  {
+   "type": "title",
+   "text": "Los que *bajaron*",
+   "kicker": "Abismo Challenger",
+   "narration": "¿Y alguien ha estado ahí? Sí. Y su historia parece de película.",
+   "bg": "ocean",
+   "depth": [
+    10900,
+    10935
+   ],
+   "seed": "oc41"
+  },
+  {
+   "type": "cartoon",
+   "text": "1960: el *Trieste*",
+   "narration": "En mil novecientos sesenta, dos hombres, Jacques Piccard y Don Walsh, se metieron en una bola de acero colgada de un enorme flotador. Se llamaba Trieste. Tardaron casi cinco horas en bajar. Cinco horas cayendo en la oscuridad, encerrados en un espacio más pequeño que un ascensor, sin saber si el casco aguantaría.",
+   "bg": "ocean",
+   "depth": [
+    0,
+    10900
+   ],
+   "actors": [
+    {
+     "kind": "sub",
+     "x": 50,
+     "y": 30,
+     "size": 320,
+     "to": [
+      50,
+      62
+     ],
+     "move": [
+      0.5,
+      9
+     ],
+     "light": true,
+     "name": "TRIESTE",
+     "color": "#e8e8e8"
+    },
+    {
+     "kind": "tag",
+     "x": 80,
+     "y": 25,
+     "text": "1960",
+     "delay": 1
+    }
+   ],
+   "fx": [
+    "bubbles"
+   ],
+   "seed": "oc42"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Crack*",
+   "narration": "Y a mitad de bajada... ¡crac! Se rajó una de las ventanas exteriores. Todo el submarino tembló. Pero decidieron seguir.",
+   "bg": "ocean",
+   "depth": [
+    9000,
+    9500
+   ],
+   "actors": [
+    {
+     "kind": "sub",
+     "x": 50,
+     "y": 50,
+     "size": 320,
+     "light": true,
+     "name": "TRIESTE",
+     "color": "#e8e8e8"
+    },
+    {
+     "kind": "bubble",
+     "x": 30,
+     "y": 25,
+     "text": "¡¿Qué ha sido eso?!",
+     "delay": 0.8
+    }
+   ],
+   "fx": [
+    "flash"
+   ],
+   "flashAt": 0.6,
+   "camera": {
+    "shake": 12,
+    "shakeAt": 0.6
+   },
+   "seed": "oc43"
+  },
+  {
+   "type": "cartoon",
+   "text": "20 minutos en el *fondo*",
+   "narration": "Llegaron al fondo y estuvieron allí unos veinte minutos. No pudieron sacar fotos: el barro que levantaron lo nubló todo. Y volvieron a subir.",
+   "bg": "ocean",
+   "depth": [
+    10900,
+    10900
+   ],
+   "actors": [
+    {
+     "kind": "sub",
+     "x": 50,
+     "y": 62,
+     "size": 300,
+     "light": true,
+     "name": "TRIESTE",
+     "color": "#e8e8e8"
+    },
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 78,
+     "emoji": "🌫️",
+     "size": 180,
+     "anim": "float",
+     "delay": 1
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 28,
+     "emoji": "📷",
+     "size": 120,
+     "delay": 3,
+     "anim": "shake"
+    },
+    {
+     "kind": "bubble",
+     "x": 58,
+     "y": 30,
+     "text": "No se ve nada",
+     "delay": 3.5
+    }
+   ],
+   "seed": "oc44"
+  },
+  {
+   "type": "cartoon",
+   "text": "2012: *James Cameron*",
+   "narration": "Después, durante más de cincuenta años, nadie volvió. Hasta que en dos mil doce, el director de Titanic, James Cameron, bajó él solo en un submarino diseñado para eso. Lo llamó Deepsea Challenger, y estuvo varias horas en el fondo grabando vídeo y recogiendo muestras.",
+   "bg": "ocean",
+   "depth": [
+    0,
+    10900
+   ],
+   "actors": [
+    {
+     "kind": "sub",
+     "x": 40,
+     "y": 25,
+     "size": 280,
+     "to": [
+      55,
+      65
+     ],
+     "move": [
+      0.5,
+      7
+     ],
+     "light": true,
+     "name": "CAMERON",
+     "color": "#7ad7ff"
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 28,
+     "emoji": "🎬",
+     "size": 130,
+     "anim": "pulse",
+     "delay": 2
+    }
+   ],
+   "fx": [
+    "bubbles"
+   ],
+   "seed": "oc45"
+  },
+  {
+   "type": "cartoon",
+   "text": "2019: y lo *peor*",
+   "narration": "Y en dos mil diecinueve, el explorador Victor Vescovo bajó varias veces. Lo que encontró allí es, para mí, lo más inquietante de este viaje.",
+   "bg": "ocean",
+   "depth": [
+    10500,
+    10900
+   ],
+   "actors": [
+    {
+     "kind": "sub",
+     "x": 50,
+     "y": 45,
+     "size": 300,
+     "light": true,
+     "name": "VESCOVO"
+    },
+    {
+     "kind": "stick",
+     "x": 20,
+     "y": 92,
+     "pose": "think",
+     "expr": "calm",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220
+    },
+    {
+     "kind": "bubble",
+     "x": 58,
+     "y": 25,
+     "text": "¿Qué es eso?",
+     "delay": 3
+    }
+   ],
+   "seed": "oc46"
+  },
+  {
+   "type": "cartoon",
+   "text": "Una bolsa de *plástico*",
+   "narration": "Basura. De hecho, un estudio japonés confirmó una bolsa de plástico fotografiada a casi once kilómetros de profundidad. En el lugar más remoto del planeta... ya había llegado nuestro plástico.",
+   "bg": "ocean",
+   "depth": [
+    10898,
+    10898
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 55,
+     "y": 55,
+     "emoji": "🛍️",
+     "size": 230,
+     "anim": "float",
+     "delay": 0.8,
+     "rot": 15
+    },
+    {
+     "kind": "tag",
+     "x": 78,
+     "y": 26,
+     "text": "10.898 m",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "x": 22,
+     "y": 92,
+     "pose": "facepalm",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "seed": "oc47"
+  },
+  {
+   "type": "title",
+   "text": "Lo que *no sabemos*",
+   "kicker": "El último rincón",
+   "narration": "Y lo más loco de todo es lo poco que sabemos de ahí abajo.",
+   "bg": "ocean",
+   "depth": [
+    1000,
+    500
+   ],
+   "seed": "oc48"
+  },
+  {
+   "type": "cartoon",
+   "text": "Un *mapa* a medias",
+   "narration": "Hoy tenemos mapas detallados de toda la superficie de Marte. Pero del fondo de nuestro propio océano, solo alrededor de una cuarta parte está cartografiada en detalle.",
+   "bg": "ocean",
+   "depth": [
+    300,
+    100
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 45,
+     "emoji": "🗺️",
+     "size": 220,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 72,
+     "y": 40,
+     "emoji": "🔴",
+     "size": 160,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 75,
+     "text": "Fondo marino: ~1/4",
+     "delay": 3
+    }
+   ],
+   "seed": "oc49"
+  },
+  {
+   "type": "cartoon",
+   "text": "Más gente en el *espacio*",
+   "narration": "De hecho, han ido más personas al espacio que al fondo del Abismo Challenger. Cientos de astronautas han dado vueltas a la Tierra. Al punto más profundo del mar, solo han bajado unas pocas decenas.",
+   "bg": "ocean",
+   "depth": [
+    200,
+    100
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 35,
+     "emoji": "🚀",
+     "size": 190,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 45,
+     "y": 50,
+     "emoji": "👨‍🚀",
+     "size": 140,
+     "anim": "float"
+    },
+    {
+     "kind": "sub",
+     "x": 72,
+     "y": 62,
+     "size": 220,
+     "light": true
+    },
+    {
+     "kind": "tag",
+     "x": 72,
+     "y": 30,
+     "text": "Unas pocas decenas",
+     "delay": 3
+    }
+   ],
+   "seed": "oc50"
+  },
+  {
+   "type": "cartoon",
+   "text": "Especies *nuevas*",
+   "narration": "Cada expedición encuentra especies nuevas. Animales que nadie había visto nunca. Es probable que la mayor parte de la vida del océano profundo todavía no tenga ni nombre.",
+   "bg": "ocean",
+   "depth": [
+    200,
+    60
+   ],
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "❓",
+     "size": 160,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 55,
+     "y": 52,
+     "emoji": "🐙",
+     "size": 190,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 38,
+     "emoji": "❓",
+     "size": 140,
+     "anim": "pulse",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220,
+     "helmet": true
+    }
+   ],
+   "fx": [
+    "bubbles"
+   ],
+   "seed": "oc51"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Subimos*",
+   "narration": "Así que la próxima vez que mires el mar, piénsalo: ahí abajo hay montañas, chimeneas hirviendo, luces vivas y monstruos. A once kilómetros. En nuestro propio planeta.",
+   "bg": "ocean",
+   "depth": [
+    60,
+    0
+   ],
+   "actors": [
+    {
+     "kind": "sub",
+     "x": 40,
+     "y": 70,
+     "size": 280,
+     "to": [
+      55,
+      30
+     ],
+     "move": [
+      0.5,
+      8
+     ],
+     "light": true,
+     "name": "TÚ"
+    },
+    {
+     "kind": "emoji",
+     "x": 85,
+     "y": 12,
+     "emoji": "☀️",
+     "size": 150,
+     "delay": 4,
+     "anim": "pulse"
+    }
+   ],
+   "fx": [
+    "bubbles"
+   ],
+   "seed": "oc52"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Hasta dónde *bajarías*?",
+   "narration": "Y ahora dime en comentarios: ¿hasta dónde bajarías tú? ¿Zona de luz, Titanic... o el fondo de las Marianas? Si te ha gustado el viaje, suscríbete: cada día hay un vídeo nuevo.",
+   "bg": "ocean",
+   "depth": [
+    0,
+    0
+   ],
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 40,
+     "y": 92,
+     "pose": "point",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "pose2": "cheer",
+     "poseAt": 5
+    },
+    {
+     "kind": "bubble",
+     "x": 55,
+     "y": 40,
+     "text": "¿Hasta dónde?",
+     "delay": 1
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 70,
+     "emoji": "🌊",
+     "size": 160,
+     "anim": "float"
+    }
+   ],
+   "noGauge": true,
+   "seed": "oc53"
+  }
+ ]
+}

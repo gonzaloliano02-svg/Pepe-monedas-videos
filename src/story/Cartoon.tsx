@@ -19,7 +19,7 @@ export type Pose =
 export type Expr = "happy" | "wow" | "scared" | "sad" | "cool" | "dizzy" | "calm" | "angry" | "sleepy";
 
 export type Actor = {
-  kind: "stick" | "bh" | "star" | "clock" | "emoji" | "ripple" | "arrow" | "bubble" | "tag" | "beam";
+  kind: "stick" | "bh" | "star" | "clock" | "emoji" | "ripple" | "arrow" | "bubble" | "tag" | "beam" | "sub";
   x: number; // % of width
   y: number; // % of height (stick: feet; others: centre)
   to?: [number, number]; // move target (%)
@@ -57,17 +57,21 @@ export type Actor = {
   // ripple
   merge?: boolean; // two black holes spiralling in
   opacity?: number;
+  // sub (bathyscaphe / submarine)
+  light?: boolean; // headlight cone
 };
 
-export type CartoonBg = "space" | "blackhole" | "warp" | "chalk" | "earth" | "void" | "room" | "room-day" | `land:${Env}`;
+export type CartoonBg = "space" | "blackhole" | "warp" | "chalk" | "earth" | "void" | "room" | "room-day" | "ocean" | `land:${Env}`;
 
 export type CartoonScene = {
   bg?: CartoonBg;
   seed?: string;
   actors?: Actor[];
   camera?: { zoom?: [number, number]; focus?: [number, number]; pan?: [number, number]; shake?: number; shakeAt?: number };
-  fx?: ("flash" | "redshift" | "speedlines" | "einstein" | "glitch" | "heat" | "snow")[];
+  fx?: ("flash" | "redshift" | "speedlines" | "einstein" | "glitch" | "heat" | "snow" | "lightning" | "bubbles")[];
   flashAt?: number;
+  depth?: [number, number]; // bg "ocean": metres at scene start / end (descends during the scene)
+  noGauge?: boolean; // hide the depth gauge
   chalk?: string[];
   bh?: { x: number; y: number; size: number; tilt?: number }; // background black hole (bg "blackhole")
 };
@@ -684,6 +688,43 @@ const Bubble: React.FC<{ text: string; tag?: boolean }> = ({ text, tag }) => (
   </div>
 );
 
+/* ---------------- submarine (2026-11-20) ---------------- */
+
+const SubObj: React.FC<{ a: Actor; t: number; size: number }> = ({ a, t, size }) => {
+  const col = a.color ?? "#FFD60A";
+  const h = size * 0.6;
+  const prop = (t * 900) % 360;
+  return (
+    <div style={{ position: "relative", width: size, height: h }}>
+      {a.light ? (
+        <svg width={size * 2.2} height={size * 1.4} style={{ position: "absolute", left: size * 0.86, top: h * 0.45 - size * 0.7, overflow: "visible", opacity: 0.55 + 0.1 * S(t * 3) }}>
+          <defs>
+            <linearGradient id="subcone" x1="0" x2="1" y1="0" y2="0">
+              <stop offset="0" stopColor="#fff7c2" stopOpacity="0.85" />
+              <stop offset="1" stopColor="#fff7c2" stopOpacity="0" />
+            </linearGradient>
+          </defs>
+          <polygon points={`0,${size * 0.66} ${size * 2.2},0 ${size * 2.2},${size * 1.4} 0,${size * 0.74}`} fill="url(#subcone)" />
+        </svg>
+      ) : null}
+      <svg width={size} height={h} viewBox="0 0 200 120" style={{ position: "absolute", inset: 0, overflow: "visible", filter: "drop-shadow(0 14px 16px rgba(0,0,0,0.5))" }}>
+        <rect x="70" y="2" width="48" height="30" rx="8" fill={col} stroke={OUT} strokeWidth="6" />
+        <ellipse cx="100" cy="68" rx="88" ry="44" fill={col} stroke={OUT} strokeWidth="7" />
+        <circle cx="140" cy="64" r="20" fill="#9fe7ff" stroke={OUT} strokeWidth="6" />
+        <circle cx="134" cy="58" r="6" fill="#fff" opacity="0.8" />
+        <circle cx="80" cy="64" r="11" fill="#9fe7ff" stroke={OUT} strokeWidth="5" />
+        <circle cx="185" cy="66" r="8" fill="#fff7c2" stroke={OUT} strokeWidth="4" />
+        <g transform={`translate(8 68) scale(1 ${Math.abs(Math.cos((prop * Math.PI) / 180)) + 0.15})`}>
+          <rect x="-8" y="-24" width="10" height="48" rx="5" fill={OUT} />
+        </g>
+      </svg>
+      {a.name ? (
+        <div style={{ position: "absolute", left: "50%", top: -size * 0.16 - 20, transform: "translateX(-50%)", fontFamily: FONT_DISPLAY, fontSize: Math.max(28, size * 0.12), color: "#fff", whiteSpace: "nowrap", textShadow: "0 3px 10px rgba(0,0,0,0.9)" }}>{a.name}</div>
+      ) : null}
+    </div>
+  );
+};
+
 /* ---------------- actor wrapper ---------------- */
 
 const ActorView: React.FC<{ a: Actor; i: number }> = ({ a, i }) => {
@@ -742,6 +783,10 @@ const ActorView: React.FC<{ a: Actor; i: number }> = ({ a, i }) => {
       break;
     case "ripple":
       inner = <RippleObj a={a} t={lt} size={size} />;
+      break;
+    case "sub":
+      inner = <SubObj a={a} t={lt} size={size} />;
+      if (!a.spin && !a.rot) rot += S(t * 1.3 + i) * 2;
       break;
     case "emoji":
       inner = <img src={emojiUrl(a.emoji ?? "⭐")} style={{ width: size, height: size, display: "block", filter: "drop-shadow(0 14px 18px rgba(0,0,0,0.5))" }} />;
@@ -806,7 +851,136 @@ export const ActorLayer: React.FC<{ actors?: Actor[] }> = ({ actors }) => (
 
 /* ---------------- full scene ---------------- */
 
-export const CartoonBackdrop: React.FC<{ bg?: CartoonBg; seed?: string; chalk?: string[]; bh?: CartoonScene["bh"]; focus?: [number, number] }> = ({ bg = "space", seed = "s", chalk, bh, focus }) => {
+/* ---------------- ocean (2026-11-20: deep-sea long video) ---------------- */
+
+const OCEAN_STOPS: [number, string, string][] = [
+  // depth m, top colour, bottom colour
+  [0, "#4fc3f7", "#0a6aa6"],
+  [200, "#1478b8", "#0a3f6e"],
+  [1000, "#0a2f55", "#041a33"],
+  [4000, "#031326", "#010812"],
+  [11000, "#010610", "#000105"],
+];
+const hex = (c: string) => [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16));
+const mix = (a: string, b: string, k: number) => {
+  const A = hex(a), B = hex(b);
+  return `rgb(${A.map((v, i) => Math.round(v + (B[i] - v) * k)).join(",")})`;
+};
+const oceanCol = (d: number, which: 1 | 2) => {
+  const u = (x: number) => Math.log10(1 + Math.max(0, x));
+  for (let i = 0; i < OCEAN_STOPS.length - 1; i++) {
+    const [d0] = OCEAN_STOPS[i], [d1] = OCEAN_STOPS[i + 1];
+    if (d <= d1 || i === OCEAN_STOPS.length - 2) {
+      const k = clamp01((u(d) - u(d0)) / (u(d1) - u(d0)));
+      return mix(OCEAN_STOPS[i][which], OCEAN_STOPS[i + 1][which], k);
+    }
+  }
+  return OCEAN_STOPS[0][which];
+};
+export const depthAt = (depth: [number, number] | undefined, frame: number, dur: number) => {
+  if (!depth) return 0;
+  const k = Easing.inOut(Easing.cubic)(clamp01(frame / Math.max(1, dur - 1)));
+  return depth[0] + (depth[1] - depth[0]) * k;
+};
+
+const OceanBg: React.FC<{ seed: string; t: number; depth?: [number, number]; noGauge?: boolean }> = ({ seed, t, depth, noGauge }) => {
+  const frame = useCurrentFrame();
+  const { durationInFrames, width: W, height: H } = useVideoConfig();
+  const d = depthAt(depth, frame, durationInFrames);
+  const desc = depth ? (depth[1] - depth[0]) / Math.max(1, durationInFrames) : 0; // m per frame
+  const rays = clamp01(1 - d / 250);
+  const glow = clamp01((d - 600) / 600);
+  const V = H > W;
+  return (
+    <AbsoluteFill style={{ background: `linear-gradient(180deg, ${oceanCol(d, 1)}, ${oceanCol(d + 150, 2)})` }}>
+      {rays > 0 ? (
+        <svg width={W} height={H} style={{ position: "absolute", inset: 0, opacity: rays * 0.5 }}>
+          {Array.from({ length: 7 }, (_, i) => {
+            const x = (W / 7) * (i + 0.5) + S(t * 0.4 + i) * 40;
+            return <polygon key={i} points={`${x - 30},0 ${x + 30},0 ${x + 160},${H} ${x - 60},${H}`} fill="#e8fbff" opacity={0.18 + 0.12 * S(t * 0.7 + i * 2)} />;
+          })}
+        </svg>
+      ) : null}
+      <svg width={W} height={H} style={{ position: "absolute", inset: 0 }}>
+        {Array.from({ length: 70 }, (_, i) => {
+          const rr = rng(seed + "snow" + i);
+          const x0 = rr() * W + S(t * 0.5 + i) * 15;
+          const sp = 8 + rr() * 18 + Math.min(220, Math.abs(desc) * 24 * 6);
+          const y0 = (((rr() * H - t * sp) % (H + 20)) + H + 20) % (H + 20) - 10;
+          return <circle key={i} cx={x0} cy={y0} r={1.5 + rr() * 3} fill="#dfefff" opacity={0.25 + 0.35 * rr()} />;
+        })}
+        {glow > 0
+          ? Array.from({ length: 18 }, (_, i) => {
+              const rr = rng(seed + "glow" + i);
+              const x0 = rr() * W + S(t * 0.3 + i) * 30;
+              const y0 = rr() * H + Math.cos(t * 0.25 + i) * 25;
+              const on = 0.5 + 0.5 * S(t * (1 + rr() * 2) + i * 3);
+              const c = rr() > 0.5 ? "#4dfff3" : "#7ab8ff";
+              return (
+                <g key={"g" + i} opacity={glow * on}>
+                  <circle cx={x0} cy={y0} r={18} fill={c} opacity={0.18} />
+                  <circle cx={x0} cy={y0} r={5} fill={c} />
+                </g>
+              );
+            })
+          : null}
+      </svg>
+      {depth && !noGauge ? (
+        <div
+          style={{
+            position: "absolute",
+            right: V ? 40 : 48,
+            top: V ? 120 : 90,
+            padding: V ? "10px 22px" : "8px 20px",
+            borderRadius: 999,
+            background: "rgba(0,0,0,0.55)",
+            border: "3px solid #4dfff3",
+            color: "#fff",
+            fontFamily: "Inter, sans-serif",
+            fontWeight: 900,
+            fontSize: V ? 48 : 40,
+            fontVariantNumeric: "tabular-nums",
+          }}
+        >
+          ↓ {Math.round(d).toLocaleString("es-ES")} m
+        </div>
+      ) : null}
+    </AbsoluteFill>
+  );
+};
+
+/** seconds at which the "lightning" fx strikes (shared with Sfx) */
+export const lightningTimes = (dur: number) => {
+  const out: number[] = [];
+  for (let k = 0; ; k++) {
+    const at = 0.6 + k * 1.75 + (k % 2) * 0.35;
+    if (at > dur - 0.4) break;
+    out.push(at);
+  }
+  return out;
+};
+
+const Bolt: React.FC<{ seed: string; W: number; H: number }> = ({ seed, W, H }) => {
+  const rr = rng(seed);
+  let x = W * (0.15 + rr() * 0.7);
+  let y = 0;
+  const pts: string[] = [`${x},${y}`];
+  const end = H * (0.45 + rr() * 0.2);
+  while (y < end) {
+    y += 40 + rr() * 60;
+    x += (rr() - 0.5) * 120;
+    pts.push(`${x},${y}`);
+  }
+  const p = pts.join(" ");
+  return (
+    <>
+      <polyline points={p} fill="none" stroke="#9fd8ff" strokeWidth={26} opacity={0.35} strokeLinejoin="round" />
+      <polyline points={p} fill="none" stroke="#fff" strokeWidth={9} strokeLinejoin="round" />
+    </>
+  );
+};
+
+export const CartoonBackdrop: React.FC<{ bg?: CartoonBg; seed?: string; chalk?: string[]; bh?: CartoonScene["bh"]; focus?: [number, number]; depth?: [number, number]; noGauge?: boolean }> = ({ bg = "space", seed = "s", chalk, bh, focus, depth, noGauge }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -821,6 +995,8 @@ export const CartoonBackdrop: React.FC<{ bg?: CartoonBg; seed?: string; chalk?: 
     case "room":
     case "room-day":
       return <RoomBg t={t} day={bg === "room-day"} seed={seed} />;
+    case "ocean":
+      return <OceanBg seed={seed} t={t} depth={depth} noGauge={noGauge} />;
     case "void":
       return <AbsoluteFill style={{ background: "radial-gradient(circle at 50% 50%, #120a1e, #000 70%)" }} />;
     case "blackhole":
@@ -896,6 +1072,33 @@ export const CartoonFx: React.FC<{ fx?: CartoonScene["fx"]; flashAt?: number; fo
           })}
         </svg>
       ) : null}
+      {fx.includes("bubbles") ? (
+        <svg width={W} height={H} style={{ position: "absolute", inset: 0 }}>
+          {Array.from({ length: 26 }, (_, i) => {
+            const rr = rng("bub" + i);
+            const x0 = rr() * W;
+            const sp = 90 + rr() * 160;
+            const y0 = H + 40 - ((rr() * H + t * sp) % (H + 80));
+            const rad = 6 + rr() * 16;
+            return <circle key={i} cx={x0 + S(t * 3 + i) * 12} cy={y0} r={rad} fill="rgba(255,255,255,0.12)" stroke="#e8fbff" strokeWidth={3} opacity={0.75} />;
+          })}
+        </svg>
+      ) : null}
+      {fx.includes("lightning")
+        ? lightningTimes(durationInFrames / fps).map((at, k) => {
+            const dt = t - at;
+            if (dt < 0 || dt > 0.45) return null;
+            const on = dt < 0.06 || (dt > 0.12 && dt < 0.2) ? 1 : 0.35;
+            return (
+              <React.Fragment key={k}>
+                <AbsoluteFill style={{ background: "#dff1ff", opacity: interpolate(dt, [0, 0.05, 0.45], [0.65, 0.5, 0]) * on }} />
+                <svg width={W} height={H} style={{ position: "absolute", inset: 0, opacity: on }}>
+                  <Bolt seed={"bolt" + k} W={W} H={H} />
+                </svg>
+              </React.Fragment>
+            );
+          })
+        : null}
       {fx.includes("redshift") ? (
         <AbsoluteFill style={{ background: "#ff1e00", mixBlendMode: "multiply", opacity: prog * 0.55 }} />
       ) : null}
@@ -932,7 +1135,7 @@ export const Camera: React.FC<{ cam?: CartoonScene["camera"]; children: React.Re
 export const Cartoon: React.FC<{ s: CartoonScene }> = ({ s }) => (
   <AbsoluteFill style={{ overflow: "hidden" }}>
     <Camera cam={s.camera}>
-      <CartoonBackdrop bg={s.bg} seed={s.seed} chalk={s.chalk} bh={s.bh} focus={s.camera?.focus} />
+      <CartoonBackdrop bg={s.bg} seed={s.seed} chalk={s.chalk} bh={s.bh} focus={s.camera?.focus} depth={s.depth} noGauge={s.noGauge} />
       <ActorLayer actors={s.actors} />
     </Camera>
     <CartoonFx fx={s.fx} flashAt={s.flashAt} focus={s.camera?.focus ?? (s.bh ? [s.bh.x, s.bh.y] : undefined)} />
