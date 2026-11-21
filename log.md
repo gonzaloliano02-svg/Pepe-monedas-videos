@@ -163,3 +163,5 @@
   - L1 16:00 búsqueda "qué le pasa al cuerpo en el espacio" (53 escenas, 1.747 palabras).
   - c 18:00 teaser: "En el espacio creces hasta 5 cm".
 - Librería: fx "wind" (rachas + hojas volando, sonido de viento).
+- a 10:00 programado: YT https://www.youtube.com/watch?v=6YF3mKELC-g + TikTok (scheduled 09:00Z). QA ok.
+- b 12:00 programado: YT https://www.youtube.com/watch?v=0xmZKCKXRqQ + TikTok (scheduled 11:00Z). QA ok.
