@@ -165,3 +165,4 @@
 - Librería: fx "wind" (rachas + hojas volando, sonido de viento).
 - a 10:00 programado: YT https://www.youtube.com/watch?v=6YF3mKELC-g + TikTok (scheduled 09:00Z). QA ok.
 - b 12:00 programado: YT https://www.youtube.com/watch?v=0xmZKCKXRqQ + TikTok (scheduled 11:00Z). QA ok.
+- L1 16:00 "¿Qué le pasa a tu CUERPO en el ESPACIO? (de verdad)" (10.3 min, ~1747 palabras, miniatura, capítulos): YT https://www.youtube.com/watch?v=TzKxP9T6Ouc (completed, programado 16:00)
