@@ -1,0 +1,270 @@
+{
+ "id": "2026-11-21-b",
+ "format": "story",
+ "vertical": true,
+ "title": "Naciste con unos 300 HUESOS… y ahora tienes 206 🦴",
+ "description": "Un recién nacido tiene alrededor de 270–300 huesos (y partes de hueso), muchos todavía de cartílago. Al crecer, varios se fusionan: por ejemplo, los huesos del cráneo (por eso los bebés tienen las 'fontanelas', zonas blandas) o los del final de la columna. Un adulto tiene 206. Más de la mitad están en las manos y los pies: 54 en las manos y 52 en los pies. El más pequeño es el estribo, en el oído, de unos 3 milímetros.\n\nFuentes: Gray's Anatomy; Biblioteca Nacional de Medicina de EE. UU. (MedlinePlus). Cifras aproximadas. Animación propia; ilustraciones: Twemoji (CC-BY 4.0). Video creado con ayuda de IA.",
+ "tags": [
+  "huesos del cuerpo humano",
+  "cuantos huesos tiene un bebe",
+  "206 huesos",
+  "cuerpo humano",
+  "cuerpo a escala",
+  "curiosidades"
+ ],
+ "scenes": [
+  {
+   "type": "cartoon",
+   "text": "¿Dónde están tus *huesos*?",
+   "bg": "room-day",
+   "seed": "h1",
+   "camera": {
+    "zoom": [
+     1,
+     1.12
+    ],
+    "focus": [
+     50,
+     50
+    ]
+   },
+   "narration": "Cuando naciste, tenías casi cien huesos más que ahora. ¿Dónde se fueron? No, no los perdiste.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 34,
+     "emoji": "👶",
+     "size": 260,
+     "anim": "float"
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "idle",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 380,
+     "pose2": "think",
+     "expr2": "wow",
+     "poseAt": 2.4
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "bg": "room-day",
+   "seed": "h2",
+   "value": 300,
+   "suffix": "",
+   "label": "huesos *al nacer* (aprox.)",
+   "emoji": "👶",
+   "narration": "Un bebé nace con unos trescientos huesos. Muchos todavía son blanditos, de cartílago.",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 96,
+     "pose": "shrug",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "Se *fusionan*",
+   "bg": "room-day",
+   "seed": "h3",
+   "narration": "Al crecer, varios se pegan entre sí, como piezas de Lego que se sueldan. Por eso los bebés tienen zonas blandas en la cabeza: el cráneo aún no está cerrado.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 38,
+     "emoji": "🦴",
+     "size": 160,
+     "to": [
+      45,
+      38
+     ],
+     "move": [
+      0.5,
+      3
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 38,
+     "emoji": "🦴",
+     "size": 160,
+     "to": [
+      55,
+      38
+     ],
+     "move": [
+      0.5,
+      3
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 38,
+     "emoji": "✨",
+     "size": 150,
+     "delay": 3,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 52,
+     "emoji": "🧱",
+     "size": 120,
+     "delay": 1.5,
+     "anim": "pop"
+    },
+    {
+     "kind": "stick",
+     "x": 40,
+     "y": 93,
+     "pose": "point",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 340
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "bg": "room",
+   "seed": "h4",
+   "value": 206,
+   "suffix": "",
+   "label": "huesos *de adulto*",
+   "emoji": "🦴",
+   "narration": "Al final, un adulto se queda con doscientos seis huesos. Ni uno más.",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 96,
+     "pose": "cheer",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "Más de la mitad, *aquí*",
+   "bg": "room",
+   "seed": "h5",
+   "narration": "¿Y sabes dónde están más de la mitad? En las manos y los pies. Cincuenta y cuatro en las manos y cincuenta y dos en los pies.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 36,
+     "emoji": "✋",
+     "size": 190,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 36,
+     "emoji": "🦶",
+     "size": 190,
+     "anim": "pulse",
+     "delay": 1
+    },
+    {
+     "kind": "tag",
+     "x": 30,
+     "y": 50,
+     "text": "54",
+     "delay": 2.5
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 50,
+     "text": "52",
+     "delay": 3.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "wave",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 340
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "El más *pequeño*",
+   "bg": "room-day",
+   "seed": "h6",
+   "camera": {
+    "zoom": [
+     1,
+     1.25
+    ],
+    "focus": [
+     50,
+     40
+    ]
+   },
+   "narration": "Y el hueso más pequeño está en tu oído: el estribo. Mide unos tres milímetros, como un grano de arroz. ¿Lo sabías? Sígueme para más cuerpo a escala.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 36,
+     "emoji": "👂",
+     "size": 240
+    },
+    {
+     "kind": "emoji",
+     "x": 74,
+     "y": 40,
+     "emoji": "🍚",
+     "size": 110,
+     "delay": 2.5,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 52,
+     "text": "≈ 3 mm",
+     "delay": 1.8
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "cheer",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360
+    }
+   ]
+  }
+ ]
+}

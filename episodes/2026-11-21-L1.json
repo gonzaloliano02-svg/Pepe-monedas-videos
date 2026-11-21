@@ -1,0 +1,1841 @@
+{
+ "id": "2026-11-21-L1",
+ "format": "story",
+ "title": "¿Qué le pasa a tu CUERPO en el ESPACIO? (de verdad)",
+ "description": "CHAPTERS",
+ "tags": [
+  "que le pasa al cuerpo en el espacio",
+  "cuerpo humano en el espacio",
+  "astronautas",
+  "microgravedad",
+  "estacion espacial",
+  "scott kelly",
+  "espacio",
+  "curiosidades",
+  "animacion"
+ ],
+ "thumbnail": {
+  "text": "Tu cuerpo *en el espacio*",
+  "kicker": "+5 cm de altura",
+  "emoji": "🧑‍🚀",
+  "env": "space",
+  "bg": "earth",
+  "actors": [
+   {
+    "kind": "stick",
+    "x": 72,
+    "y": 92,
+    "pose": "float",
+    "expr": "dizzy",
+    "name": "TÚ",
+    "color": "#FFD60A",
+    "size": 520,
+    "helmet": true,
+    "delay": -2
+   },
+   {
+    "kind": "emoji",
+    "x": 90,
+    "y": 25,
+    "emoji": "🦴",
+    "size": 200,
+    "delay": -2
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "type": "cartoon",
+   "text": "Tu cuerpo *en el espacio*",
+   "narration": "Si mañana te subieras a un cohete y pasaras seis meses en el espacio, volverías a casa más alto, con los huesos más débiles, la cara hinchada... y sin saber caminar. Y eso es solo una parte. Porque lo que le pasa a tu cuerpo allí arriba es mucho más raro de lo que imaginas.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 15,
+     "y": 85,
+     "emoji": "🚀",
+     "size": 220,
+     "to": [
+      78,
+      35
+     ],
+     "move": [
+      0.3,
+      5
+     ],
+     "rot": 40
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 88,
+     "pose": "cheer",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "helmet": true,
+     "delay": 4.5
+    }
+   ],
+   "fx": [
+    "speedlines"
+   ],
+   "camera": {
+    "zoom": [
+     1,
+     1.1
+    ],
+    "focus": [
+     50,
+     50
+    ],
+    "shake": 5
+   },
+   "seed": "sp0"
+  },
+  {
+   "type": "cartoon",
+   "text": "Lo que *nadie* te cuenta",
+   "narration": "Porque el espacio le hace cosas muy raras al cuerpo humano. Unas son graciosas, otras dan bastante miedo. Hoy las vamos a ver todas, desde el despegue hasta la vuelta a casa.",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 35,
+     "y": 80,
+     "pose": "float",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 280,
+     "helmet": true
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 40,
+     "emoji": "🌍",
+     "size": 240,
+     "anim": "float"
+    },
+    {
+     "kind": "bubble",
+     "x": 45,
+     "y": 40,
+     "text": "¿Qué me pasa?",
+     "delay": 2
+    }
+   ],
+   "seed": "sp1"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Aguantarías?",
+   "narration": "Y al final te contaré qué te pasaría si salieras al espacio sin traje. Spoiler: no es lo que sale en las películas.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "🎬",
+     "size": 180,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "❌",
+     "size": 120,
+     "delay": 2.5,
+     "anim": "pop"
+    },
+    {
+     "kind": "stick",
+     "x": 65,
+     "y": 85,
+     "pose": "shrug",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 280,
+     "helmet": true
+    }
+   ],
+   "seed": "sp2"
+  },
+  {
+   "type": "title",
+   "text": "El *despegue*",
+   "kicker": "Minuto 0",
+   "narration": "Empezamos por el principio: el despegue.",
+   "bg": "land:desert",
+   "seed": "sp3"
+  },
+  {
+   "type": "cartoon",
+   "text": "Aplastado *contra el asiento*",
+   "narration": "Durante el lanzamiento, el cohete acelera tanto que sientes tres o cuatro veces tu propio peso. Como si tuvieras a tres personas sentadas encima del pecho. Respirar cuesta.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 55,
+     "emoji": "🚀",
+     "size": 260,
+     "anim": "shake"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 25,
+     "text": "≈ 3-4 veces tu peso",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 80,
+     "y": 92,
+     "pose": "facepalm",
+     "expr": "dizzy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240,
+     "helmet": true
+    }
+   ],
+   "fx": [
+    "speedlines"
+   ],
+   "camera": {
+    "shake": 10
+   },
+   "seed": "sp4"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Ocho minutos y medio*",
+   "narration": "Y en unos ocho minutos y medio, ya estás en órbita. De estar sentado en la Tierra a dar vueltas al planeta a toda velocidad, en menos tiempo del que tardas en ducharte.",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "⏱️",
+     "size": 180,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 40,
+     "emoji": "🚿",
+     "size": 170
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 62,
+     "text": "≈ 8,5 min",
+     "delay": 2
+    }
+   ],
+   "seed": "sp5"
+  },
+  {
+   "type": "cartoon",
+   "text": "Y de repente... *flotas*",
+   "narration": "Y entonces los motores se apagan. Y de repente, todo flota. Tú, tus brazos, el boli que llevabas en el bolsillo. Bienvenido a la microgravedad. Y ojo: si no tienes cuidado, te darás con la cabeza en el techo.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 70,
+     "pose": "float",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "helmet": true,
+     "delay": 0.3
+    },
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "🖊️",
+     "size": 100,
+     "spin": 90,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 72,
+     "y": 35,
+     "emoji": "🍎",
+     "size": 110,
+     "spin": -60,
+     "anim": "float"
+    }
+   ],
+   "seed": "sp6"
+  },
+  {
+   "type": "title",
+   "text": "Flotando",
+   "kicker": "400 km de altura",
+   "narration": "Pero ojo, que aquí viene la primera sorpresa: en la Estación Espacial sí hay gravedad.",
+   "bg": "earth",
+   "seed": "sp7"
+  },
+  {
+   "type": "cartoon",
+   "text": "Caer *sin parar*",
+   "narration": "A cuatrocientos kilómetros, la gravedad es casi igual de fuerte que aquí abajo. Si flotas es porque estás cayendo todo el rato alrededor de la Tierra, a unos veintiocho mil kilómetros por hora. Caes... pero nunca llegas al suelo. Porque vas tan rápido de lado que la Tierra se curva antes de que la alcances.",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 62,
+     "emoji": "🌍",
+     "size": 300
+    },
+    {
+     "kind": "stick",
+     "x": 15,
+     "y": 38,
+     "pose": "float",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 200,
+     "helmet": true,
+     "to": [
+      85,
+      38
+     ],
+     "move": [
+      0,
+      7
+     ]
+    },
+    {
+     "kind": "tag",
+     "x": 22,
+     "y": 62,
+     "text": "≈ 28.000 km/h",
+     "delay": 2.5
+    }
+   ],
+   "seed": "sp8"
+  },
+  {
+   "type": "cartoon",
+   "text": "*16 amaneceres* al día",
+   "narration": "A esa velocidad, das una vuelta completa al planeta cada hora y media. O sea, ves unos dieciséis amaneceres y dieciséis atardeceres cada día.",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "🌅",
+     "size": 180,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 40,
+     "emoji": "🌇",
+     "size": 180,
+     "anim": "pulse",
+     "delay": 1.5
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 62,
+     "text": "≈ 16 al día",
+     "delay": 2.5
+    }
+   ],
+   "seed": "sp9"
+  },
+  {
+   "type": "cartoon",
+   "text": "Tu *nueva casa*",
+   "narration": "Tu casa allí arriba sería la Estación Espacial Internacional. Es más o menos del tamaño de un campo de fútbol, contando sus enormes paneles solares. Y lleva habitada sin parar desde el año dos mil. Siempre hay alguien viviendo ahí arriba, ahora mismo también.",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 38,
+     "emoji": "🛰️",
+     "size": 280,
+     "anim": "float",
+     "spin": 4
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 70,
+     "emoji": "⚽",
+     "size": 130,
+     "delay": 2
+    },
+    {
+     "kind": "tag",
+     "x": 30,
+     "y": 70,
+     "text": "Habitada desde 2000",
+     "delay": 3
+    }
+   ],
+   "seed": "sp10"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *mareo* espacial",
+   "narration": "Y lo primero que nota mucha gente es... que se marea. El oído interno no entiende nada: los ojos dicen una cosa, el equilibrio otra. Más o menos la mitad de los astronautas lo pasa mal los primeros días.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 72,
+     "pose": "float",
+     "expr": "dizzy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "helmet": true,
+     "spin": 40
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 30,
+     "emoji": "🤢",
+     "size": 150,
+     "delay": 2,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 25,
+     "y": 25,
+     "text": "≈ 1 de cada 2",
+     "delay": 3.5
+    }
+   ],
+   "seed": "sp11"
+  },
+  {
+   "type": "cartoon",
+   "text": "Cara de *luna llena*",
+   "narration": "Luego viene algo más raro. En la Tierra, la gravedad tira de la sangre y los líquidos hacia los pies. Allí arriba no. Así que suben hacia la cabeza: la cara se hincha y las piernas adelgazan.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 40,
+     "y": 80,
+     "pose": "idle",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "helmet": true
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 32,
+     "emoji": "🌕",
+     "size": 160,
+     "delay": 2,
+     "anim": "pulse"
+    },
+    {
+     "kind": "arrow",
+     "x": 58,
+     "y": 75,
+     "to": [
+      58,
+      40
+     ],
+     "text": "",
+     "delay": 1.5,
+     "color": "#4dfff3"
+    }
+   ],
+   "seed": "sp12"
+  },
+  {
+   "type": "cartoon",
+   "text": "Piernas de *pájaro*",
+   "narration": "Los astronautas lo llaman cara hinchada y piernas de pájaro. Y como todo ese líquido sube, la nariz se tapa, como si tuvieras un resfriado permanente.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "🐦",
+     "size": 170,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 40,
+     "emoji": "🤧",
+     "size": 170,
+     "anim": "shake",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "shrug",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240,
+     "helmet": true
+    }
+   ],
+   "seed": "sp13"
+  },
+  {
+   "type": "cartoon",
+   "text": "La comida *no sabe a nada*",
+   "narration": "Y con la nariz tapada, la comida sabe sosa. Por eso muchos astronautas acaban echándole picante y salsas a todo. Allí arriba, la salsa picante es un tesoro. Y nada de migas: las tortitas sustituyen al pan, porque las migas flotarían y se meterían en los aparatos.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 40,
+     "emoji": "🍝",
+     "size": 180
+    },
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 38,
+     "emoji": "🌶️",
+     "size": 150,
+     "delay": 2,
+     "anim": "shake"
+    },
+    {
+     "kind": "bubble",
+     "x": 45,
+     "y": 55,
+     "text": "¡Más picante!",
+     "delay": 3
+    },
+    {
+     "kind": "stick",
+     "x": 80,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220,
+     "helmet": true
+    }
+   ],
+   "seed": "sp14"
+  },
+  {
+   "type": "cartoon",
+   "text": "Lágrimas que *no caen*",
+   "narration": "Por cierto, en el espacio no puedes llorar como aquí. Las lágrimas no caen: se quedan pegadas al ojo formando una bolita de agua. Y eructar tampoco es fácil, porque el aire y la comida del estómago no se separan.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 45,
+     "y": 40,
+     "emoji": "💧",
+     "size": 150,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 40,
+     "emoji": "😢",
+     "size": 180,
+     "delay": 0.5
+    },
+    {
+     "kind": "stick",
+     "x": 30,
+     "y": 90,
+     "pose": "facepalm",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240,
+     "helmet": true
+    }
+   ],
+   "seed": "sp15"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *baño* espacial",
+   "narration": "¿Y cómo se va al baño? Con un váter que aspira, como una aspiradora. Y lo mejor: la orina se recicla y se convierte otra vez en agua para beber. Los astronautas lo resumen así: el café de ayer es el café de mañana.",
+   "bg": "room",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 45,
+     "emoji": "🚽",
+     "size": 200,
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 62,
+     "y": 40,
+     "emoji": "💧",
+     "size": 130,
+     "delay": 2,
+     "to": [
+      78,
+      40
+     ],
+     "move": [
+      2,
+      4
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 40,
+     "emoji": "☕",
+     "size": 150,
+     "delay": 4
+    },
+    {
+     "kind": "stick",
+     "x": 20,
+     "y": 92,
+     "pose": "facepalm",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220,
+     "helmet": true
+    }
+   ],
+   "seed": "sp16"
+  },
+  {
+   "type": "cartoon",
+   "text": "Ducha... *sin ducha*",
+   "narration": "Y ducharse tampoco es posible: el agua flotaría por todas partes en gotas. Así que se lavan con toallitas húmedas y un champú especial que no hay que aclarar. Durante meses.",
+   "bg": "room",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "🚿",
+     "size": 170
+    },
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "❌",
+     "size": 110,
+     "delay": 1,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 42,
+     "emoji": "🧴",
+     "size": 150,
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "x": 55,
+     "y": 92,
+     "pose": "shrug",
+     "expr": "calm",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240,
+     "helmet": true
+    }
+   ],
+   "seed": "sp17"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *olor* del espacio",
+   "narration": "Y un detalle curioso: después de los paseos espaciales, muchos astronautas notan un olor raro en los trajes. Lo describen como a filete quemado, a metal caliente o a soldadura. Es el olor del espacio.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 40,
+     "emoji": "🥩",
+     "size": 170,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 55,
+     "y": 48,
+     "emoji": "🔥",
+     "size": 110,
+     "anim": "pulse",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "x": 70,
+     "y": 88,
+     "pose": "think",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240,
+     "helmet": true
+    }
+   ],
+   "seed": "sp18"
+  },
+  {
+   "type": "title",
+   "text": "Te haces *más alto*",
+   "kicker": "Columna",
+   "narration": "Y ahora, una de mis favoritas: en el espacio creces.",
+   "bg": "earth",
+   "seed": "sp19"
+  },
+  {
+   "type": "cartoon",
+   "text": "Hasta *5 cm* más",
+   "narration": "Sin gravedad que la aplaste, tu columna se estira. Los discos que hay entre las vértebras se relajan y se expanden. Hay astronautas que han crecido hasta unos cinco centímetros.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 90,
+     "pose": "idle",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "helmet": true,
+     "scaleTo": 1.15
+    },
+    {
+     "kind": "arrow",
+     "x": 78,
+     "y": 85,
+     "to": [
+      78,
+      35
+     ],
+     "text": "+5 cm",
+     "delay": 1.5,
+     "color": "#4dfff3"
+    }
+   ],
+   "seed": "sp20"
+  },
+  {
+   "type": "cartoon",
+   "text": "Pero *duele*",
+   "narration": "Suena genial, ¿verdad? Pues no tanto. Ese estiramiento provoca dolor de espalda a muchos de ellos. Y cuando vuelven a la Tierra, en unos días, recuperan su altura de siempre.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 45,
+     "y": 90,
+     "pose": "facepalm",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "helmet": true
+    },
+    {
+     "kind": "bubble",
+     "x": 55,
+     "y": 40,
+     "text": "¡Mi espalda!",
+     "delay": 1
+    },
+    {
+     "kind": "arrow",
+     "x": 78,
+     "y": 35,
+     "to": [
+      78,
+      80
+     ],
+     "text": "",
+     "delay": 3.5,
+     "color": "#ff4d6d"
+    }
+   ],
+   "seed": "sp21"
+  },
+  {
+   "type": "stat",
+   "value": 1,
+   "suffix": " %",
+   "label": "de masa ósea *perdida al mes* (aprox.)",
+   "narration": "Sin peso que soportar, el cuerpo piensa que ya no necesita huesos fuertes. Y los va desmontando. En algunas zonas, como la cadera, se pierde alrededor de un uno por ciento de hueso al mes.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 85,
+     "y": 95,
+     "pose": "shrug",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 200,
+     "helmet": true
+    }
+   ],
+   "decimals": 0,
+   "seed": "sp22"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Diez años* en un mes",
+   "narration": "Para que te hagas una idea: es más o menos lo que pierde una persona mayor en la Tierra en un año entero. Pero en solo un mes.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 42,
+     "emoji": "👵",
+     "size": 180,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 42,
+     "emoji": "📅",
+     "size": 170,
+     "delay": 1.5
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 62,
+     "text": "1 mes ≈ 1 año",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "scared",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220,
+     "helmet": true
+    }
+   ],
+   "seed": "sp23"
+  },
+  {
+   "type": "cartoon",
+   "text": "Piedras en el *riñón*",
+   "narration": "Y ese calcio que se escapa de los huesos tiene que ir a algún sitio. Acaba en la sangre y en la orina, y por eso en el espacio aumenta el riesgo de tener piedras en el riñón. Un buen dolor, a cuatrocientos kilómetros del hospital más cercano.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 40,
+     "emoji": "🦴",
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "kind": "arrow",
+     "x": 35,
+     "y": 40,
+     "to": [
+      60,
+      40
+     ],
+     "text": "",
+     "delay": 1,
+     "color": "#ff8c42"
+    },
+    {
+     "kind": "emoji",
+     "x": 72,
+     "y": 40,
+     "emoji": "🪨",
+     "size": 130,
+     "delay": 2,
+     "anim": "pop"
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "scared",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220,
+     "helmet": true
+    }
+   ],
+   "seed": "sp24"
+  },
+  {
+   "type": "cartoon",
+   "text": "Los músculos *se apagan*",
+   "narration": "Con los músculos pasa lo mismo. Las piernas y la espalda, que en la Tierra trabajan todo el día para sostenerte, allí arriba no hacen nada. Y empiezan a encogerse.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 75,
+     "pose": "float",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "helmet": true
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 35,
+     "emoji": "💪",
+     "size": 150,
+     "scaleTo": 0.5,
+     "delay": 0.5
+    }
+   ],
+   "seed": "sp25"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Dos horas* de gimnasio",
+   "narration": "Por eso los astronautas hacen unas dos horas de ejercicio cada día. Corren en una cinta atados con gomas para no salir flotando, y levantan pesas en una máquina especial.",
+   "bg": "room",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 90,
+     "pose": "run",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "helmet": true
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 40,
+     "emoji": "🏃",
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "kind": "tag",
+     "x": 25,
+     "y": 30,
+     "text": "≈ 2 h al día",
+     "delay": 2
+    }
+   ],
+   "seed": "sp26"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *corazón* también",
+   "narration": "Hasta el corazón cambia. Como ya no tiene que bombear la sangre hacia arriba contra la gravedad, se vuelve más redondito y trabaja menos.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 42,
+     "emoji": "❤️",
+     "size": 240,
+     "anim": "pulse"
+    },
+    {
+     "kind": "stick",
+     "x": 80,
+     "y": 92,
+     "pose": "think",
+     "expr": "calm",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220,
+     "helmet": true
+    }
+   ],
+   "seed": "sp27"
+  },
+  {
+   "type": "title",
+   "text": "Ojos y *cerebro*",
+   "kicker": "Lo más misterioso",
+   "narration": "Y luego hay cambios que todavía no entendemos del todo.",
+   "bg": "space",
+   "seed": "sp28"
+  },
+  {
+   "type": "cartoon",
+   "text": "Ver *borroso*",
+   "narration": "Muchos astronautas que pasan meses allí arriba vuelven viendo peor de lejos. Se les aplana un poco el fondo del ojo. Por eso en la estación hay gafas de repuesto con distintas graduaciones.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 40,
+     "emoji": "👁️",
+     "size": 220,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 40,
+     "emoji": "👓",
+     "size": 160,
+     "delay": 2,
+     "anim": "pop"
+    },
+    {
+     "kind": "stick",
+     "x": 20,
+     "y": 92,
+     "pose": "look",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220,
+     "helmet": true
+    }
+   ],
+   "seed": "sp29"
+  },
+  {
+   "type": "cartoon",
+   "text": "El cerebro *flota*",
+   "narration": "Y en escáneres de antes y después de las misiones se ha visto que el cerebro sube un poquito dentro del cráneo. Se mueve unos milímetros hacia arriba.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 50,
+     "emoji": "🧠",
+     "size": 220,
+     "to": [
+      50,
+      38
+     ],
+     "move": [
+      0.5,
+      4
+     ]
+    },
+    {
+     "kind": "arrow",
+     "x": 70,
+     "y": 60,
+     "to": [
+      70,
+      35
+     ],
+     "text": "",
+     "delay": 1,
+     "color": "#4dfff3"
+    },
+    {
+     "kind": "stick",
+     "x": 20,
+     "y": 92,
+     "pose": "think",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220,
+     "helmet": true
+    }
+   ],
+   "seed": "sp30"
+  },
+  {
+   "type": "cartoon",
+   "text": "Luces *con los ojos cerrados*",
+   "narration": "Y otra cosa muy rara: muchos astronautas ven destellos de luz con los ojos cerrados. Son partículas del espacio que atraviesan el ojo. Literalmente, rayos cósmicos cruzándote la cabeza.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 38,
+     "emoji": "✨",
+     "size": 150,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 62,
+     "y": 46,
+     "emoji": "💫",
+     "size": 140,
+     "anim": "pulse",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "idle",
+     "expr": "sleepy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 260,
+     "helmet": true
+    }
+   ],
+   "fx": [
+    "flash"
+   ],
+   "flashAt": 2.5,
+   "seed": "sp31"
+  },
+  {
+   "type": "cartoon",
+   "text": "La *radiación*",
+   "narration": "Y eso nos lleva al peligro invisible: la radiación. En la Tierra, la atmósfera y el campo magnético nos protegen. En la estación, recibes muchísima más radiación que aquí abajo, cada día. Por eso las misiones tienen un límite, y cada astronauta lleva aparatos que miden la radiación que recibe. Y si el Sol lanza una tormenta fuerte, se refugian en las zonas más protegidas de la estación.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 38,
+     "emoji": "☢️",
+     "size": 220,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 70,
+     "emoji": "🌍",
+     "size": 170
+    },
+    {
+     "kind": "stick",
+     "x": 25,
+     "y": 92,
+     "pose": "scared",
+     "expr": "scared",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240,
+     "helmet": true
+    }
+   ],
+   "seed": "sp32"
+  },
+  {
+   "type": "cartoon",
+   "text": "Dormir *atado*",
+   "narration": "¿Y cómo se duerme? En un saco atado a la pared, para no ir flotando por la estación y chocarte con todo. Y con un ventilador cerca, porque si el aire no se mueve, el dióxido de carbono que expulsas se queda alrededor de tu cara.",
+   "bg": "room",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 70,
+     "pose": "float",
+     "expr": "sleepy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 280,
+     "helmet": true
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 35,
+     "emoji": "💤",
+     "size": 130,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 40,
+     "emoji": "🌀",
+     "size": 130,
+     "spin": 200
+    }
+   ],
+   "seed": "sp33"
+  },
+  {
+   "type": "cartoon",
+   "text": "Brazos de *zombi*",
+   "narration": "Y si te ves dormir en el espacio, te das un susto: los brazos no caen, se quedan flotando delante del cuerpo, como un zombi de película. Muchos astronautas los meten dentro del saco para no despertarse con la mano en la cara.",
+   "bg": "room",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 72,
+     "pose": "float",
+     "expr": "sleepy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "helmet": true,
+     "pose2": "stretch",
+     "poseAt": 1.5
+    },
+    {
+     "kind": "bubble",
+     "x": 62,
+     "y": 35,
+     "text": "Grrr...",
+     "delay": 2.5
+    },
+    {
+     "kind": "emoji",
+     "x": 82,
+     "y": 40,
+     "emoji": "🧟",
+     "size": 140,
+     "delay": 3,
+     "anim": "pop"
+    }
+   ],
+   "seed": "sp34"
+  },
+  {
+   "type": "title",
+   "text": "¿Y *sin traje*?",
+   "kicker": "La pregunta que todos hacen",
+   "narration": "Y ahora, la pregunta que todo el mundo se hace. ¿Qué te pasaría si salieras al espacio sin traje?",
+   "bg": "void",
+   "seed": "sp35"
+  },
+  {
+   "type": "cartoon",
+   "text": "*No explotas*",
+   "narration": "Lo primero: no explotas. Tu piel es bastante resistente y aguanta. Tampoco te congelas al instante: en el vacío el calor se pierde despacio.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 88,
+     "pose": "shrug",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 35,
+     "emoji": "💥",
+     "size": 160,
+     "delay": 0.5
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 35,
+     "emoji": "❌",
+     "size": 120,
+     "delay": 1.6,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 40,
+     "emoji": "🧊",
+     "size": 150,
+     "delay": 3
+    },
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 40,
+     "emoji": "❌",
+     "size": 110,
+     "delay": 4,
+     "anim": "pop"
+    }
+   ],
+   "seed": "sp36"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Quince segundos*",
+   "narration": "El verdadero problema es el oxígeno. En unos quince segundos, más o menos, perderías el conocimiento. Y si nadie te rescata en uno o dos minutos... ya no habría vuelta atrás.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 35,
+     "emoji": "⏱️",
+     "size": 200,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 55,
+     "text": "≈ 15 segundos",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 90,
+     "pose": "scared",
+     "expr": "dizzy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 280
+    }
+   ],
+   "seed": "sp37"
+  },
+  {
+   "type": "cartoon",
+   "text": "Saliva que *hierve*",
+   "narration": "En mil novecientos sesenta y seis, a un técnico de la NASA se le despresurizó el traje durante una prueba en una cámara de vacío. Contó que lo último que notó fue cómo la saliva le burbujeaba en la lengua. Se desmayó, lo rescataron en segundos... y sobrevivió.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 45,
+     "y": 40,
+     "emoji": "👅",
+     "size": 170,
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 30,
+     "emoji": "🫧",
+     "size": 110,
+     "anim": "float",
+     "delay": 1
+    },
+    {
+     "kind": "tag",
+     "x": 80,
+     "y": 25,
+     "text": "1966",
+     "delay": 0.5
+    },
+    {
+     "kind": "stick",
+     "x": 25,
+     "y": 90,
+     "pose": "fall",
+     "expr": "dizzy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 260,
+     "delay": 3
+    }
+   ],
+   "seed": "sp38"
+  },
+  {
+   "type": "cartoon",
+   "text": "*No aguantes* el aire",
+   "narration": "Ah, y un consejo: si algún día te pasa, no aguantes la respiración. El aire de los pulmones se expandiría y podría dañarlos. Mejor soltarlo todo.",
+   "bg": "void",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 90,
+     "pose": "point",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300
+    },
+    {
+     "kind": "bubble",
+     "x": 55,
+     "y": 40,
+     "text": "¡Suéltalo!",
+     "delay": 1
+    }
+   ],
+   "seed": "sp39"
+  },
+  {
+   "type": "title",
+   "text": "El experimento de los *gemelos*",
+   "kicker": "Un año en el espacio",
+   "narration": "Pero, ¿y si te quedaras un año entero allí arriba? La NASA lo estudió con un experimento único.",
+   "bg": "earth",
+   "seed": "sp40"
+  },
+  {
+   "type": "cartoon",
+   "text": "Scott y *Mark*",
+   "narration": "El astronauta Scott Kelly pasó trescientos cuarenta días en la estación espacial. Mientras, su hermano gemelo, Mark, también astronauta, se quedó en la Tierra. Dos personas casi idénticas: una arriba y otra abajo.",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 30,
+     "y": 70,
+     "pose": "float",
+     "expr": "happy",
+     "name": "SCOTT",
+     "color": "#FFD60A",
+     "size": 260,
+     "helmet": true
+    },
+    {
+     "kind": "stick",
+     "x": 75,
+     "y": 92,
+     "pose": "wave",
+     "expr": "happy",
+     "name": "MARK",
+     "color": "#7ad7ff",
+     "size": 260
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 22,
+     "text": "340 días",
+     "delay": 2
+    }
+   ],
+   "seed": "sp41"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Qué *cambió*?",
+   "narration": "Al volver, los científicos compararon todo: sangre, genes, corazón, ojos, memoria. Encontraron muchos cambios... pero la mayoría volvieron a la normalidad en pocos meses. El cuerpo humano es más duro de lo que parece. Aunque algunos cambios, como los de los ojos, tardaron más en desaparecer o no se fueron del todo.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "🧬",
+     "size": 170,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 55,
+     "y": 40,
+     "emoji": "🔬",
+     "size": 150,
+     "delay": 1
+    },
+    {
+     "kind": "emoji",
+     "x": 78,
+     "y": 40,
+     "emoji": "📈",
+     "size": 150,
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "seed": "sp42"
+  },
+  {
+   "type": "cartoon",
+   "text": "Los *telómeros*",
+   "narration": "Uno de los cambios más llamativos fueron los telómeros, unas especie de capuchones en los extremos del ADN que se relacionan con el envejecimiento. En el espacio, a Scott se le alargaron. Pero al volver a la Tierra, se acortaron otra vez en poco tiempo.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 45,
+     "y": 40,
+     "emoji": "🧬",
+     "size": 220,
+     "anim": "pulse",
+     "scaleTo": 1.2
+    },
+    {
+     "kind": "tag",
+     "x": 45,
+     "y": 62,
+     "text": "Telómeros",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 80,
+     "y": 92,
+     "pose": "think",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220,
+     "helmet": true
+    }
+   ],
+   "seed": "sp43"
+  },
+  {
+   "type": "stat",
+   "value": 437,
+   "suffix": " días",
+   "label": "el récord de un *solo viaje* (Valeri Poliakov)",
+   "narration": "¿Y el récord? Lo tiene un médico ruso, Valeri Poliakov: cuatrocientos treinta y siete días seguidos en el espacio, en la estación Mir, entre mil novecientos noventa y cuatro y noventa y cinco.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 85,
+     "y": 95,
+     "pose": "cheer",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 200,
+     "helmet": true
+    }
+   ],
+   "seed": "sp44"
+  },
+  {
+   "type": "title",
+   "text": "La *vuelta* a casa",
+   "kicker": "Aterrizaje",
+   "narration": "Y llega el día de volver. Y aquí empieza otra aventura.",
+   "bg": "land:desert",
+   "seed": "sp45"
+  },
+  {
+   "type": "cartoon",
+   "text": "Una *bola de fuego*",
+   "narration": "Pero antes hay que atravesar la atmósfera. La cápsula entra tan rápido que el aire a su alrededor se convierte en plasma, a más de mil quinientos grados. Por la ventanilla ves todo naranja. Y dentro, otra vez varias veces tu peso aplastándote.",
+   "bg": "land:desert",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 25,
+     "emoji": "☄️",
+     "size": 220,
+     "to": [
+      65,
+      60
+     ],
+     "move": [
+      0,
+      6
+     ],
+     "rot": 30
+    },
+    {
+     "kind": "tag",
+     "x": 75,
+     "y": 25,
+     "text": "+1.500 °C",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "x": 25,
+     "y": 92,
+     "pose": "scared",
+     "expr": "scared",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220,
+     "helmet": true
+    }
+   ],
+   "fx": [
+    "heat"
+   ],
+   "camera": {
+    "shake": 9
+   },
+   "seed": "sp46"
+  },
+  {
+   "type": "cartoon",
+   "text": "Todo *pesa*",
+   "narration": "Después de meses flotando, de repente todo pesa una barbaridad. Levantar un brazo cuesta. Muchos astronautas no pueden ni ponerse de pie al salir de la cápsula: los tienen que sacar en brazos.",
+   "bg": "land:desert",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 22,
+     "emoji": "🪂",
+     "size": 200,
+     "to": [
+      50,
+      40
+     ],
+     "move": [
+      0,
+      3
+     ]
+    },
+    {
+     "kind": "stick",
+     "x": 35,
+     "y": 92,
+     "pose": "fall",
+     "expr": "dizzy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 280,
+     "delay": 2.5
+    },
+    {
+     "kind": "bubble",
+     "x": 50,
+     "y": 50,
+     "text": "¡Cuánto peso!",
+     "delay": 3.5
+    }
+   ],
+   "seed": "sp47"
+  },
+  {
+   "type": "cartoon",
+   "text": "Aprender a *caminar*",
+   "narration": "Y durante días les cuesta caminar en línea recta. El cerebro todavía no se acuerda de cómo funciona la gravedad. Algunos sueltan un vaso en el aire esperando que flote... y se les cae al suelo.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 40,
+     "y": 92,
+     "pose": "walk",
+     "expr": "dizzy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 280,
+     "to": [
+      60,
+      92
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 30,
+     "emoji": "🥛",
+     "size": 130,
+     "to": [
+      70,
+      75
+     ],
+     "move": [
+      2.5,
+      3.5
+     ],
+     "ease": "in"
+    },
+    {
+     "kind": "bubble",
+     "x": 75,
+     "y": 30,
+     "text": "¡Ups!",
+     "delay": 3.6
+    }
+   ],
+   "seed": "sp48"
+  },
+  {
+   "type": "cartoon",
+   "text": "Meses para *recuperarse*",
+   "narration": "Los músculos vuelven en unas semanas. Pero los huesos son otra historia: pueden tardar años en recuperarse, y algunos estudios dicen que parte de lo perdido no vuelve nunca del todo.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 40,
+     "emoji": "🦴",
+     "size": 190,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 40,
+     "emoji": "⏳",
+     "size": 170,
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "shrug",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240,
+     "helmet": true
+    }
+   ],
+   "seed": "sp49"
+  },
+  {
+   "type": "title",
+   "text": "¿Y *Marte*?",
+   "kicker": "El siguiente reto",
+   "narration": "Y ahora piensa en esto: un viaje a Marte duraría varios meses solo de ida. Sin poder volver si algo sale mal.",
+   "bg": "space",
+   "seed": "sp50"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *reto* más grande",
+   "narration": "Huesos, músculos, ojos, radiación... Todo lo que hemos visto en este vídeo es lo que los científicos tienen que resolver antes de mandar personas a otro planeta. Es uno de los mayores retos de la historia.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 35,
+     "emoji": "🔴",
+     "size": 230,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 70,
+     "emoji": "🚀",
+     "size": 180,
+     "to": [
+      60,
+      40
+     ],
+     "move": [
+      0.5,
+      7
+     ],
+     "rot": 45
+    },
+    {
+     "kind": "stick",
+     "x": 30,
+     "y": 92,
+     "pose": "point",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240,
+     "helmet": true
+    }
+   ],
+   "seed": "sp51"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Te *apuntarías*?",
+   "narration": "Y ahora dime en comentarios: sabiendo todo esto, ¿te irías seis meses al espacio? ¿Y a Marte? Si te ha gustado, suscríbete: cada día hay un vídeo nuevo en el canal.",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 45,
+     "y": 88,
+     "pose": "cheer",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "helmet": true
+    },
+    {
+     "kind": "bubble",
+     "x": 55,
+     "y": 40,
+     "text": "¿Te vienes?",
+     "delay": 1
+    },
+    {
+     "kind": "emoji",
+     "x": 85,
+     "y": 25,
+     "emoji": "🌍",
+     "size": 150,
+     "anim": "float"
+    }
+   ],
+   "seed": "sp52"
+  }
+ ]
+}

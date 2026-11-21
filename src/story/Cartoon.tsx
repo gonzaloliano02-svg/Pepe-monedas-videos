@@ -68,7 +68,7 @@ export type CartoonScene = {
   seed?: string;
   actors?: Actor[];
   camera?: { zoom?: [number, number]; focus?: [number, number]; pan?: [number, number]; shake?: number; shakeAt?: number };
-  fx?: ("flash" | "redshift" | "speedlines" | "einstein" | "glitch" | "heat" | "snow" | "lightning" | "bubbles")[];
+  fx?: ("flash" | "redshift" | "speedlines" | "einstein" | "glitch" | "heat" | "snow" | "lightning" | "bubbles" | "wind")[];
   flashAt?: number;
   depth?: [number, number]; // bg "ocean": metres at scene start / end (descends during the scene)
   noGauge?: boolean; // hide the depth gauge
@@ -1081,6 +1081,24 @@ export const CartoonFx: React.FC<{ fx?: CartoonScene["fx"]; flashAt?: number; fo
             const y0 = H + 40 - ((rr() * H + t * sp) % (H + 80));
             const rad = 6 + rr() * 16;
             return <circle key={i} cx={x0 + S(t * 3 + i) * 12} cy={y0} r={rad} fill="rgba(255,255,255,0.12)" stroke="#e8fbff" strokeWidth={3} opacity={0.75} />;
+          })}
+        </svg>
+      ) : null}
+      {fx.includes("wind") ? (
+        <svg width={W} height={H} style={{ position: "absolute", inset: 0 }}>
+          {Array.from({ length: 34 }, (_, i) => {
+            const rr = rng("wind" + i);
+            const y0 = rr() * H;
+            const sp = W * (1.2 + rr() * 1.4);
+            const len = 120 + rr() * 260;
+            const x0 = ((rr() * (W + len) + t * sp) % (W + len)) - len;
+            return <path key={i} d={`M ${x0} ${y0} q ${len / 2} ${-18 + S(t * 4 + i) * 14} ${len} 0`} stroke="#ffffff" strokeWidth={3 + rr() * 5} strokeLinecap="round" fill="none" opacity={0.35 + rr() * 0.35} />;
+          })}
+          {Array.from({ length: 7 }, (_, i) => {
+            const rr = rng("leaf" + i);
+            const y0 = H * (0.15 + rr() * 0.6) + S(t * 3 + i) * 40;
+            const x0 = ((rr() * W + t * W * 0.9) % (W + 100)) - 50;
+            return <ellipse key={"l" + i} cx={x0} cy={y0} rx={16} ry={7} fill={i % 2 ? "#8bc34a" : "#d4a017"} transform={`rotate(${t * 400 + i * 50} ${x0} ${y0})`} />;
           })}
         </svg>
       ) : null}

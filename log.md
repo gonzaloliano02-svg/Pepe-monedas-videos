@@ -152,3 +152,14 @@
 - Reinicio del worker mató q20 durante la voz del L1; relanzado (voz en caché).
 - L1 16:00 "¿Qué hay en el FONDO del mar? Viaje hasta la Fosa de las Marianas" (10.7 min, miniatura, capítulos) → YouTube completed https://www.youtube.com/watch?v=wnrjuv_JtT4
 - c 18:00 teaser "Aquí abajo tendrías un COCHE encima de cada uña" (57 s; ASR OK; medidor de profundidad movido bajo el titular en vertical) → YT https://www.youtube.com/watch?v=T5Tf4EpSq0g (completed, descripción enlaza el L1) + TikTok scheduled 17:00Z. Día completo: 7 publicaciones.
+
+## 2026-11-21 (sábado)
+- Verificado ayer: 7/7 completed (YT a C3roTVq8xBs, b efzaIiQrGuI, L1 wnrjuv_JtT4, c T5Tf4EpSq0g; TikTok a, b, c).
+- Datos: teaser "coche en la uña" 930, cerebro 792, rayos 382 (<1 día), Lut 923. Largos siguen bajos (fondo del mar 3).
+- Comentarios: ninguno nuevo (Windsor). 0 créditos.
+- Elección:
+  - a 10:00 Lugares extremos/clima: ráfaga récord 408 km/h (isla de Barrow, 1996, OMM).
+  - b 12:00 Cuerpo a escala: ~300 huesos al nacer → 206; 54 en manos, 52 en pies; estribo ~3 mm.
+  - L1 16:00 búsqueda "qué le pasa al cuerpo en el espacio" (53 escenas, 1.747 palabras).
+  - c 18:00 teaser: "En el espacio creces hasta 5 cm".
+- Librería: fx "wind" (rachas + hojas volando, sonido de viento).

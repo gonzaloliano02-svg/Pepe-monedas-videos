@@ -1,0 +1,286 @@
+{
+ "id": "2026-11-21-a",
+ "format": "story",
+ "vertical": true,
+ "title": "408 km/h: la ráfaga de viento MÁS FUERTE jamás medida 🌪️",
+ "description": "La ráfaga de viento más fuerte medida por un anemómetro (sin contar tornados) es de 408 km/h, en la isla de Barrow (Australia), el 10 de abril de 1996, durante el ciclón tropical Olivia. La Organización Meteorológica Mundial la reconoció como récord en 2010; hasta entonces el récord era de 372 km/h, en el monte Washington (EE. UU.), en 1934. Es más rápido que un tren de alta velocidad. En los tornados, los radares han estimado vientos todavía más rápidos, pero no se midieron con anemómetro.\n\nFuentes: Organización Meteorológica Mundial (archivo de extremos), Courtney et al. (2012). Cifras aproximadas. Animación propia; ilustraciones: Twemoji (CC-BY 4.0). Video creado con ayuda de IA.",
+ "tags": [
+  "viento mas fuerte del mundo",
+  "record de viento",
+  "ciclon olivia",
+  "huracan",
+  "lugares extremos",
+  "clima extremo",
+  "curiosidades"
+ ],
+ "scenes": [
+  {
+   "type": "cartoon",
+   "text": "¿Aguantarías *de pie*?",
+   "bg": "land:storm",
+   "seed": "w1",
+   "fx": [
+    "wind"
+   ],
+   "camera": {
+    "zoom": [
+     1,
+     1.1
+    ],
+    "focus": [
+     50,
+     60
+    ],
+    "shake": 3
+   },
+   "narration": "¿Te imaginas un viento tan fuerte que te levantaría del suelo como a una hoja? Existió. Y lo midieron.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 32,
+     "emoji": "🌀",
+     "size": 260,
+     "spin": 180
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "idle",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 380,
+     "pose2": "scared",
+     "expr2": "wow",
+     "poseAt": 2.2,
+     "to": [
+      58,
+      93
+     ],
+     "move": [
+      2.2,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "bg": "land:storm",
+   "seed": "w2",
+   "fx": [
+    "wind"
+   ],
+   "value": 408,
+   "suffix": " km/h",
+   "label": "la ráfaga *más fuerte* jamás medida",
+   "emoji": "🌪️",
+   "narration": "Cuatrocientos ocho kilómetros por hora. Es la ráfaga de viento más fuerte jamás medida por un aparato.",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 96,
+     "pose": "push",
+     "expr": "scared",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "sweat": true
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "Isla de *Barrow*, 1996",
+   "bg": "land:sea",
+   "seed": "w3",
+   "fx": [
+    "wind"
+   ],
+   "camera": {
+    "shake": 6,
+    "shakeAt": 1.5
+   },
+   "narration": "Fue en mil novecientos noventa y seis, en la isla de Barrow, en Australia. Pasaba por allí el ciclón Olivia. ¡Y el aparato lo aguantó!",
+   "actors": [
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 30,
+     "text": "🇦🇺 Australia",
+     "delay": 0.4
+    },
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 44,
+     "emoji": "🌀",
+     "size": 200,
+     "spin": 240,
+     "delay": 1
+    },
+    {
+     "kind": "emoji",
+     "x": 72,
+     "y": 46,
+     "emoji": "📟",
+     "size": 150,
+     "anim": "shake",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "scared",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 340
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "Más rápido que un *AVE*",
+   "bg": "land:city",
+   "seed": "w4",
+   "fx": [
+    "wind",
+    "speedlines"
+   ],
+   "narration": "Para que te hagas una idea: es más rápido que un tren de alta velocidad. Las tejas, los coches pequeños... todo sale volando.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 15,
+     "y": 36,
+     "emoji": "🚄",
+     "size": 200,
+     "to": [
+      60,
+      36
+     ],
+     "move": [
+      0.3,
+      4
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 85,
+     "y": 36,
+     "emoji": "💨",
+     "size": 170,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 50,
+     "emoji": "🚗",
+     "size": 140,
+     "to": [
+      80,
+      40
+     ],
+     "move": [
+      3,
+      5.5
+     ],
+     "spin": 200,
+     "delay": 3
+    },
+    {
+     "kind": "bubble",
+     "x": 30,
+     "y": 58,
+     "text": "¡Mi coche!",
+     "delay": 4
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "El récord *anterior*",
+   "bg": "land:mountains",
+   "seed": "w5",
+   "fx": [
+    "wind",
+    "snow"
+   ],
+   "narration": "Hasta entonces, el récord era de trescientos setenta y dos kilómetros por hora, en una montaña de Estados Unidos. Duró más de sesenta años.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 38,
+     "emoji": "🏔️",
+     "size": 260
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 54,
+     "text": "1934: 372 km/h",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 40,
+     "y": 93,
+     "pose": "push",
+     "expr": "angry",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 340
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Y los *tornados*?",
+   "bg": "land:storm",
+   "seed": "w6",
+   "fx": [
+    "wind",
+    "lightning"
+   ],
+   "camera": {
+    "shake": 4
+   },
+   "narration": "¿Y los tornados? Los radares han estimado vientos aún más rápidos, pero ningún aparato sobrevivió para medirlos. ¿Tú aguantarías de pie? Te leo en comentarios.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 34,
+     "emoji": "🌪️",
+     "size": 280,
+     "anim": "shake"
+    },
+    {
+     "kind": "bubble",
+     "x": 30,
+     "y": 48,
+     "text": "¡Yo no!",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "scared",
+     "expr": "scared",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 380,
+     "sweat": true
+    }
+   ]
+  }
+ ]
+}
