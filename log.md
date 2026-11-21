@@ -166,3 +166,4 @@
 - a 10:00 programado: YT https://www.youtube.com/watch?v=6YF3mKELC-g + TikTok (scheduled 09:00Z). QA ok.
 - b 12:00 programado: YT https://www.youtube.com/watch?v=0xmZKCKXRqQ + TikTok (scheduled 11:00Z). QA ok.
 - L1 16:00 "¿Qué le pasa a tu CUERPO en el ESPACIO? (de verdad)" (10.3 min, ~1747 palabras, miniatura, capítulos): YT https://www.youtube.com/watch?v=TzKxP9T6Ouc (completed, programado 16:00)
+- c 18:00 "En el espacio CRECES hasta 5 cm 🚀 (y luego pasa esto)": TikTok scheduled 17:00Z. YouTube REFUSED: vidIQ free = 3 YouTube uploads/day (a, b, L1 used it). YouTube destination kept in draft 440b3e80 (publicationId 3beaabb0) → publish 2026-11-22 10:00 Madrid after the 09:00 reset. Fix: arrow "+5 cm" moved out of the captions zone. New daily plan in PIPELINE.md "YOUTUBE QUOTA"; trigger prompt updated.

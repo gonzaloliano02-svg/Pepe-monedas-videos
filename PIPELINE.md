@@ -348,3 +348,7 @@ QA: whisper on the final mix must still give the full narration.
 
 ## vidIQ: change/cancel scheduled posts
 Scheduled posts can now be changed or cancelled with vidiq_social_post_draft_update + replaceScheduled true (free). Prefer this over vidiq_update_video (5 credits) when the post is still scheduled in vidIQ.
+
+## YOUTUBE QUOTA (2026-11-21)
+vidIQ free plan: max 3 YouTube uploads per Pacific day (reset 08:00Z winter / 07:00Z summer = 09:00 Madrid). Uploads before the reset count for the previous day.
+Daily YouTube plan (all uploads after the reset): 10:00 = yesterday's 18:00 teaser (draft kept from the day before, only its YouTube publicationId left unpublished), 12:00 = Short b, 16:00 = L1. TikTok keeps a 10:00, b 12:00, c 18:00. Short a is TikTok-only. A paid vidIQ plan removes the limit.
