@@ -178,3 +178,4 @@
   - L1 16:00 búsqueda "qué pasaría si Yellowstone entrara en erupción" (55 escenas, 1.758 palabras; fuentes USGS/YVO, Mastin 2014, Tambora/1816).
   - c 18:00 teaser (TikTok hoy, YT mañana 10:00): 1.000 km³ de Yellowstone cubrirían España con ~2 m.
 - Librería: fx "erupt" (columna eruptiva + bombas de lava + estruendo) y "ash" (lluvia de ceniza y cielo oscurecido). Los fx ahora también se ven en escenas title/stat y en la miniatura.
+- a 10:00 "El lago que convierte a los animales en PIEDRA 🦩 (Lago Natron)": TikTok scheduled 09:00Z (solo TikTok por la cuota de YouTube). QA ok. Reinicio del worker mató q22 durante el render; relanzado.
