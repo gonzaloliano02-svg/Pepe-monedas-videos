@@ -1,0 +1,294 @@
+{
+ "id": "2026-11-22-a",
+ "format": "story",
+ "vertical": true,
+ "title": "El lago que convierte a los animales en PIEDRA 🦩 (Lago Natron)",
+ "description": "El lago Natron, en Tanzania, es uno de los lugares más hostiles de África: su agua es muy alcalina (pH de hasta ~10,5, parecido al amoniaco) y en las zonas más calientes puede rondar los 60 °C. Está lleno de carbonato de sodio, la misma familia de sales (el natrón) que usaban los antiguos egipcios para momificar. Las aves que mueren allí quedan cubiertas de una costra mineral y parecen estatuas: así las fotografió Nick Brandt. Aun así, es el principal lugar de cría del flamenco enano: los depredadores no se atreven a entrar.\n\nFuentes: Ramsar (Lago Natron), National Geographic, Nick Brandt 'Across the Ravaged Land'. Cifras aproximadas. Animación propia; ilustraciones: Twemoji (CC-BY 4.0). Video creado con ayuda de IA.",
+ "tags": [
+  "lago natron",
+  "lago que convierte en piedra",
+  "lugares extremos",
+  "flamencos",
+  "tanzania",
+  "curiosidades",
+  "animacion"
+ ],
+ "scenes": [
+  {
+   "type": "cartoon",
+   "text": "El lago que *petrifica*",
+   "bg": "land:desert",
+   "seed": "n1",
+   "fx": [
+    "heat"
+   ],
+   "camera": {
+    "zoom": [
+     1,
+     1.12
+    ],
+    "focus": [
+     50,
+     45
+    ]
+   },
+   "narration": "En África hay un lago con fama de convertir a los animales en estatuas de piedra. ¿Es verdad? Más o menos.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 38,
+     "emoji": "🦩",
+     "size": 200,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 38,
+     "emoji": "🗿",
+     "size": 200,
+     "anim": "pop",
+     "delay": 2.2
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "idle",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 380,
+     "pose2": "scared",
+     "expr2": "wow",
+     "poseAt": 2.4
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "bg": "land:desert",
+   "seed": "n2",
+   "fx": [
+    "heat"
+   ],
+   "value": 60,
+   "suffix": " °C",
+   "label": "puede alcanzar el agua *en las zonas más calientes*",
+   "emoji": "🌡️",
+   "narration": "Es el lago Natron, en Tanzania. En sus zonas más calientes, el agua puede rondar los sesenta grados.",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 96,
+     "pose": "scared",
+     "expr": "scared",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "sweat": true
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "Agua *corrosiva*",
+   "bg": "land:desert",
+   "seed": "n3",
+   "fx": [
+    "heat"
+   ],
+   "camera": {
+    "shake": 3,
+    "shakeAt": 2
+   },
+   "narration": "Y además es muy alcalina: un pH de hasta diez y medio, parecido al amoniaco. Te quemaría la piel y los ojos.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 38,
+     "emoji": "🧪",
+     "size": 200,
+     "anim": "shake"
+    },
+    {
+     "kind": "tag",
+     "x": 68,
+     "y": 40,
+     "text": "pH ≈ 10,5",
+     "delay": 1.2
+    },
+    {
+     "kind": "bubble",
+     "x": 30,
+     "y": 52,
+     "text": "¡Quema!",
+     "delay": 2.8
+    },
+    {
+     "kind": "stick",
+     "x": 55,
+     "y": 93,
+     "pose": "facepalm",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "Las *estatuas*",
+   "bg": "land:desert",
+   "seed": "n4",
+   "narration": "Un fotógrafo, Nick Brandt, encontró en la orilla aves muertas cubiertas por una costra de sal. Parecían de piedra.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 38,
+     "emoji": "📸",
+     "size": 170,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 68,
+     "y": 38,
+     "emoji": "🐦",
+     "size": 190,
+     "delay": 1.5,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 30,
+     "emoji": "✨",
+     "size": 110,
+     "delay": 2.5,
+     "anim": "pulse"
+    },
+    {
+     "kind": "stick",
+     "x": 40,
+     "y": 93,
+     "pose": "point",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "El truco: *la sal*",
+   "bg": "land:desert",
+   "seed": "n5",
+   "narration": "No es magia. El lago está lleno de natrón, la misma sal que usaban los egipcios para momificar. Seca los cuerpos y los conserva.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 38,
+     "emoji": "🏺",
+     "size": 190,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 38,
+     "emoji": "🧂",
+     "size": 170,
+     "anim": "shake",
+     "delay": 1
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 52,
+     "text": "natrón",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "think",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "Y aun así... *flamencos*",
+   "bg": "land:sea",
+   "seed": "n6",
+   "camera": {
+    "zoom": [
+     1,
+     1.1
+    ],
+    "focus": [
+     50,
+     40
+    ]
+   },
+   "narration": "Y lo más loco: millones de flamencos crían justo ahí, porque los depredadores no se atreven a entrar. ¿Tú te bañarías? Te leo en comentarios.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 40,
+     "emoji": "🦩",
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 34,
+     "emoji": "🦩",
+     "size": 170,
+     "anim": "float",
+     "delay": 0.6
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 40,
+     "emoji": "🦩",
+     "size": 150,
+     "anim": "float",
+     "delay": 1.2
+    },
+    {
+     "kind": "bubble",
+     "x": 30,
+     "y": 52,
+     "text": "¡Ni loco!",
+     "delay": 3
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "cheer",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360
+    }
+   ]
+  }
+ ]
+}

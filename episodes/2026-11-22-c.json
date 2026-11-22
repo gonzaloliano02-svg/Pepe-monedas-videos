@@ -1,0 +1,222 @@
+{
+ "id": "2026-11-22-c",
+ "format": "story",
+ "vertical": true,
+ "title": "Con la ceniza de este volcán cubrirías ESPAÑA entera 🌋",
+ "description": "Hace unos 640.000 años, el supervolcán de Yellowstone (EE. UU.) tuvo su última gran erupción y expulsó del orden de 1.000 km³ de roca y ceniza (la Toba de Lava Creek). Esa cantidad bastaría para cubrir toda España (unos 506.000 km²) con una capa de unos 2 metros. Los modelos del USGS calculan que una supererupción así hoy dejaría más de un metro de ceniza cerca del volcán y centímetros a miles de kilómetros. Tranquilidad: según el Observatorio Vulcanológico de Yellowstone, no hay señales de que vaya a ocurrir pronto.\n\nEL VÍDEO COMPLETO: L1LINK\n\nFuentes: USGS / Observatorio Vulcanológico de Yellowstone, Mastin et al. (2014). Cifras aproximadas. Animación propia; ilustraciones: Twemoji (CC-BY 4.0). Video creado con ayuda de IA.",
+ "tags": [
+  "yellowstone",
+  "supervolcan",
+  "volcan",
+  "erupcion",
+  "que pasaria si",
+  "curiosidades",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "cartoon",
+   "text": "Un *supervolcán* dormido",
+   "bg": "land:forest",
+   "seed": "y1",
+   "camera": {
+    "zoom": [
+     1,
+     1.12
+    ],
+    "focus": [
+     50,
+     50
+    ],
+    "shake": 2
+   },
+   "narration": "Debajo de este parque de Estados Unidos duerme un supervolcán. Y su última gran erupción fue una barbaridad.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 22,
+     "y": 40,
+     "emoji": "🌲",
+     "size": 170
+    },
+    {
+     "kind": "emoji",
+     "x": 72,
+     "y": 42,
+     "emoji": "🦬",
+     "size": 180,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 48,
+     "y": 34,
+     "emoji": "♨️",
+     "size": 150,
+     "anim": "pulse",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "idle",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 380,
+     "pose2": "scared",
+     "expr2": "wow",
+     "poseAt": 2.6
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "bg": "land:volcano",
+   "seed": "y2",
+   "fx": [
+    "erupt"
+   ],
+   "value": 1000,
+   "suffix": " km³",
+   "label": "de roca y ceniza *hace ~640.000 años*",
+   "emoji": "🌋",
+   "narration": "Hace unos seiscientos cuarenta mil años, Yellowstone escupió unos mil kilómetros cúbicos de roca y ceniza.",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 96,
+     "pose": "scared",
+     "expr": "scared",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "sweat": true
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "Toda *España*, enterrada",
+   "bg": "chalk",
+   "seed": "y3",
+   "narration": "Con todo eso podrías cubrir España entera con una capa de unos dos metros. ¡Más alta que tú!",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 38,
+     "emoji": "🇪🇸",
+     "size": 200,
+     "anim": "pop"
+    },
+    {
+     "kind": "arrow",
+     "x": 78,
+     "y": 52,
+     "to": [
+      78,
+      24
+     ],
+     "text": "≈ 2 m",
+     "delay": 1.6,
+     "color": "#FFD60A"
+    },
+    {
+     "kind": "stick",
+     "x": 45,
+     "y": 93,
+     "pose": "shrug",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Y si pasara *hoy*?",
+   "bg": "land:city",
+   "seed": "y4",
+   "fx": [
+    "ash"
+   ],
+   "camera": {
+    "shake": 3
+   },
+   "narration": "¿Y si pasara hoy? Cerca del volcán caería más de un metro de ceniza. Y a miles de kilómetros, varios centímetros.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 34,
+     "emoji": "🌋",
+     "size": 200,
+     "anim": "shake"
+    },
+    {
+     "kind": "bubble",
+     "x": 30,
+     "y": 46,
+     "text": "¡No veo nada!",
+     "delay": 2.2
+    },
+    {
+     "kind": "stick",
+     "x": 55,
+     "y": 93,
+     "pose": "facepalm",
+     "expr": "dizzy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Está *a punto*?",
+   "bg": "land:forest",
+   "seed": "y5",
+   "narration": "Tranquilo: los científicos que lo vigilan dicen que no hay señales de que vaya a estallar pronto. Pero lo que sí podría pasar te va a sorprender. El vídeo completo está en el canal.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 36,
+     "emoji": "📡",
+     "size": 170,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 36,
+     "emoji": "🌋",
+     "size": 170,
+     "anim": "float"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 50,
+     "text": "Vídeo completo en el canal",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "point",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360
+    }
+   ]
+  }
+ ]
+}

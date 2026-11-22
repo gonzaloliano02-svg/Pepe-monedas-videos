@@ -68,7 +68,7 @@ export type CartoonScene = {
   seed?: string;
   actors?: Actor[];
   camera?: { zoom?: [number, number]; focus?: [number, number]; pan?: [number, number]; shake?: number; shakeAt?: number };
-  fx?: ("flash" | "redshift" | "speedlines" | "einstein" | "glitch" | "heat" | "snow" | "lightning" | "bubbles" | "wind")[];
+  fx?: ("flash" | "redshift" | "speedlines" | "einstein" | "glitch" | "heat" | "snow" | "lightning" | "bubbles" | "wind" | "ash" | "erupt")[];
   flashAt?: number;
   depth?: [number, number]; // bg "ocean": metres at scene start / end (descends during the scene)
   noGauge?: boolean; // hide the depth gauge
@@ -1101,6 +1101,54 @@ export const CartoonFx: React.FC<{ fx?: CartoonScene["fx"]; flashAt?: number; fo
             return <ellipse key={"l" + i} cx={x0} cy={y0} rx={16} ry={7} fill={i % 2 ? "#8bc34a" : "#d4a017"} transform={`rotate(${t * 400 + i * 50} ${x0} ${y0})`} />;
           })}
         </svg>
+      ) : null}
+      {fx.includes("erupt") ? (
+        <svg width={W} height={H} style={{ position: "absolute", inset: 0 }}>
+          {(() => {
+            const cx = ((focus?.[0] ?? 48) / 100) * W;
+            const cy = ((focus?.[1] ?? 31) / 100) * H;
+            const u = Math.min(W, H);
+            return (
+              <>
+                <ellipse cx={cx} cy={cy} rx={u * 0.16} ry={u * 0.05} fill="#ff6a1a" opacity={0.55 + 0.3 * S(t * 9)} />
+                {Array.from({ length: 16 }, (_, i) => {
+                  const k = ((t * 0.35 + i / 16) % 1);
+                  const rr = rng("plume" + i);
+                  return <circle key={"p" + i} cx={cx + (rr() - 0.5) * u * 0.25 * (0.3 + k) + S(t + i) * 20} cy={cy - k * H * 0.75} r={u * (0.05 + k * 0.16)} fill={k < 0.15 ? "#c0502a" : "#4a3f44"} opacity={0.85 * (1 - k * 0.8)} />;
+                })}
+                {Array.from({ length: 12 }, (_, i) => {
+                  const rr = rng("bomb" + i);
+                  const per = 1.4 + rr() * 0.9;
+                  const ph = ((t + rr() * per) % per) / per;
+                  const vx = (rr() - 0.5) * u * 1.1;
+                  const vy = u * (0.9 + rr() * 0.6);
+                  const x = cx + vx * ph;
+                  const y = cy - vy * ph + u * 1.3 * ph * ph;
+                  return (
+                    <g key={"b" + i} opacity={ph < 0.95 ? 1 : 0}>
+                      <circle cx={x} cy={y} r={u * 0.018} fill="#ffb02e" />
+                      <circle cx={x} cy={y} r={u * 0.032} fill="#ff5a1a" opacity={0.35} />
+                    </g>
+                  );
+                })}
+              </>
+            );
+          })()}
+        </svg>
+      ) : null}
+      {fx.includes("ash") ? (
+        <>
+          <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(40,32,36,0.55), rgba(90,80,80,0.25))", opacity: Math.min(1, t / 3) }} />
+          <svg width={W} height={H} style={{ position: "absolute", inset: 0 }}>
+            {Array.from({ length: 110 }, (_, i) => {
+              const rr = rng("ash" + i);
+              const x0 = rr() * W;
+              const sp = 40 + rr() * 90;
+              const y0 = ((rr() * H + t * sp) % (H + 40)) - 20;
+              return <rect key={i} x={x0 + S(t * 0.7 + i) * 30} y={y0} width={3 + rr() * 6} height={3 + rr() * 4} fill={i % 3 ? "#9a9196" : "#cfc8c8"} opacity={0.75} transform={`rotate(${t * 90 + i * 37} ${x0} ${y0})`} />;
+            })}
+          </svg>
+        </>
       ) : null}
       {fx.includes("lightning")
         ? lightningTimes(durationInFrames / fps).map((at, k) => {

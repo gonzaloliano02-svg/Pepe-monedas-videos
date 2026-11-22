@@ -1,0 +1,2064 @@
+{
+ "id": "2026-11-22-L1",
+ "format": "story",
+ "title": "¿Qué pasaría si YELLOWSTONE entrara en erupción? (paso a paso)",
+ "description": "CHAPTERS",
+ "tags": [
+  "que pasaria si yellowstone entrara en erupcion",
+  "yellowstone",
+  "supervolcan",
+  "erupcion yellowstone",
+  "volcanes",
+  "invierno volcanico",
+  "que pasaria si",
+  "curiosidades",
+  "animacion"
+ ],
+ "thumbnail": {
+  "text": "¿Y si *YELLOWSTONE* explota?",
+  "kicker": "Supervolcán",
+  "emoji": "🌋",
+  "env": "volcano",
+  "bg": "land:volcano",
+  "fx": [
+   "erupt"
+  ],
+  "actors": [
+   {
+    "kind": "stick",
+    "x": 72,
+    "y": 92,
+    "pose": "scared",
+    "expr": "scared",
+    "name": "TÚ",
+    "color": "#FFD60A",
+    "size": 500,
+    "delay": -2
+   },
+   {
+    "kind": "emoji",
+    "x": 90,
+    "y": 25,
+    "emoji": "🌋",
+    "size": 200,
+    "delay": -2
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "type": "cartoon",
+   "text": "Un *supervolcán* bajo tus pies",
+   "narration": "Imagina que estás de vacaciones en un parque precioso de Estados Unidos. Bisontes, géiseres, lagos de colores... Y de repente, el suelo empieza a temblar. Porque debajo de ese parque no hay una montaña normal. Hay un supervolcán. Uno de los más grandes del planeta.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 45,
+     "emoji": "🦬",
+     "size": 200,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 72,
+     "y": 42,
+     "emoji": "⛲",
+     "size": 180,
+     "anim": "pulse",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "idle",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300,
+     "pose2": "scared",
+     "expr2": "wow",
+     "poseAt": 6
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1,
+     1.1
+    ],
+    "focus": [
+     50,
+     55
+    ],
+    "shake": 4,
+    "shakeAt": 6
+   },
+   "seed": "ys0"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Qué pasaría *de verdad*?",
+   "narration": "Hoy vamos a ver, paso a paso, qué pasaría si Yellowstone entrara en erupción. Lo que dicen los científicos, no las películas. Qué zona quedaría enterrada, qué le pasaría al clima, a la comida… y a ti, aunque vivas a miles de kilómetros.",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "🌋",
+     "size": 240,
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 30,
+     "emoji": "🎬",
+     "size": 130,
+     "anim": "pop",
+     "delay": 2
+    },
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 30,
+     "emoji": "❌",
+     "size": 100,
+     "anim": "pop",
+     "delay": 3
+    },
+    {
+     "kind": "stick",
+     "x": 78,
+     "y": 92,
+     "pose": "think",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 260
+    }
+   ],
+   "fx": [
+    "erupt"
+   ],
+   "seed": "ys1"
+  },
+  {
+   "type": "cartoon",
+   "text": "Y una *buena noticia*",
+   "narration": "Y al final te contaré qué probabilidad hay de que pase de verdad, y por qué la mayoría de lo que has leído en internet está bastante exagerado. Quédate hasta el final.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "📰",
+     "size": 180,
+     "anim": "shake"
+    },
+    {
+     "kind": "bubble",
+     "x": 62,
+     "y": 36,
+     "text": "¡Exagerado!",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "point",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 280
+    }
+   ],
+   "seed": "ys2"
+  },
+  {
+   "type": "title",
+   "text": "¿Qué es *Yellowstone*?",
+   "kicker": "Parque nacional",
+   "narration": "Primero, ¿qué es exactamente Yellowstone?",
+   "bg": "land:forest",
+   "seed": "ys3"
+  },
+  {
+   "type": "cartoon",
+   "text": "El parque *más antiguo*",
+   "narration": "Yellowstone es un parque nacional, sobre todo en el estado de Wyoming. Fue el primer parque nacional del mundo, en mil ochocientos setenta y dos. Y cada año lo visitan millones de personas.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "tag",
+     "x": 30,
+     "y": 30,
+     "text": "1872",
+     "delay": 0.8
+    },
+    {
+     "kind": "emoji",
+     "x": 62,
+     "y": 40,
+     "emoji": "🏞️",
+     "size": 230
+    },
+    {
+     "kind": "stick",
+     "x": 25,
+     "y": 92,
+     "pose": "wave",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 260
+    }
+   ],
+   "seed": "ys4"
+  },
+  {
+   "type": "cartoon",
+   "text": "Un parque que *hierve*",
+   "narration": "Pero no es un parque cualquiera. Tiene más de diez mil fuentes termales, piscinas de barro hirviendo, chimeneas de vapor... y alrededor de la mitad de todos los géiseres del planeta.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 40,
+     "emoji": "♨️",
+     "size": 170,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 34,
+     "emoji": "⛲",
+     "size": 190,
+     "anim": "pulse",
+     "delay": 0.8
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 40,
+     "emoji": "💨",
+     "size": 160,
+     "anim": "float",
+     "delay": 1.6
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 56,
+     "text": "+10.000",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "x": 80,
+     "y": 92,
+     "pose": "scared",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "fx": [
+    "heat"
+   ],
+   "seed": "ys5"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Old Faithful*",
+   "narration": "El más famoso es Old Faithful, el Viejo Fiel. Lanza agua hirviendo a decenas de metros de altura, más o menos cada hora y media. Tan puntual que la gente espera sentada para verlo.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "⛲",
+     "size": 260,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 22,
+     "text": "≈ cada 90 min",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 20,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 250
+    },
+    {
+     "kind": "stick",
+     "x": 82,
+     "y": 92,
+     "pose": "point",
+     "expr": "wow",
+     "name": "",
+     "color": "#FFD60A",
+     "size": 230
+    }
+   ],
+   "seed": "ys6"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Y por qué *hierve*?",
+   "narration": "¿Y de dónde sale todo ese calor? De abajo. Muy abajo. Yellowstone está encima de uno de los puntos más calientes de la corteza terrestre. Y eso es lo que lo convierte en un supervolcán.",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "arrow",
+     "x": 50,
+     "y": 30,
+     "to": [
+      50,
+      62
+     ],
+     "text": "calor",
+     "delay": 1,
+     "color": "#ff7a2e"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 72,
+     "emoji": "🔥",
+     "size": 160,
+     "anim": "pulse",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "x": 20,
+     "y": 92,
+     "pose": "think",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 250
+    }
+   ],
+   "seed": "ys7"
+  },
+  {
+   "type": "title",
+   "text": "El *monstruo* de abajo",
+   "kicker": "Bajo tierra",
+   "narration": "Vamos a bajar a ver qué hay debajo.",
+   "bg": "land:volcano",
+   "seed": "ys8"
+  },
+  {
+   "type": "cartoon",
+   "text": "Un *punto caliente*",
+   "narration": "Debajo de Yellowstone sube una corriente de roca muy caliente desde el interior de la Tierra. Los geólogos lo llaman punto caliente. Es como un soplete gigante que lleva millones de años calentando la corteza desde abajo.",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 75,
+     "emoji": "🔥",
+     "size": 200,
+     "anim": "pulse"
+    },
+    {
+     "kind": "arrow",
+     "x": 50,
+     "y": 72,
+     "to": [
+      50,
+      35
+     ],
+     "text": "",
+     "delay": 1,
+     "color": "#ff7a2e"
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 30,
+     "emoji": "🌍",
+     "size": 140,
+     "anim": "float"
+    },
+    {
+     "kind": "stick",
+     "x": 20,
+     "y": 92,
+     "pose": "scared",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "fx": [
+    "heat"
+   ],
+   "seed": "ys9"
+  },
+  {
+   "type": "cartoon",
+   "text": "Una *esponja* de magma",
+   "narration": "Ese calor funde parte de la roca y forma enormes depósitos de magma bajo el parque. Pero ojo: no es un lago de lava. Es más bien como una esponja de roca, y según el Servicio Geológico de Estados Unidos, solo una parte está fundida. El resto es roca caliente, pero sólida.",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "🧽",
+     "size": 230,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 22,
+     "text": "solo una parte, fundida",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "x": 80,
+     "y": 92,
+     "pose": "point",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 250
+    }
+   ],
+   "seed": "ys10"
+  },
+  {
+   "type": "cartoon",
+   "text": "Un cráter *gigante*",
+   "narration": "Y aquí viene lo impresionante. El volcán de Yellowstone no tiene forma de montaña. Es un agujero hundido, una caldera de unos setenta kilómetros de largo. Tan grande que, desde el suelo, ni te das cuenta de que estás dentro.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 24,
+     "text": "≈ 70 km",
+     "delay": 1.2
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🕳️",
+     "size": 280
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 90,
+     "pose": "shrug",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1.2,
+     1
+    ],
+    "focus": [
+     50,
+     50
+    ]
+   },
+   "seed": "ys11"
+  },
+  {
+   "type": "cartoon",
+   "text": "El suelo *respira*",
+   "narration": "Y el suelo se mueve. Algunos años sube unos centímetros, otros años baja. Es el magma y el agua caliente moviéndose por debajo. Además, en la zona se registran cada año entre mil y tres mil terremotos, casi todos tan pequeños que nadie los siente.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "arrow",
+     "x": 30,
+     "y": 70,
+     "to": [
+      30,
+      45
+     ],
+     "text": "",
+     "delay": 0.8,
+     "color": "#4dfff3"
+    },
+    {
+     "kind": "arrow",
+     "x": 70,
+     "y": 45,
+     "to": [
+      70,
+      70
+     ],
+     "text": "",
+     "delay": 2,
+     "color": "#ff4d6d"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 24,
+     "text": "1.000–3.000 al año",
+     "delay": 2.8
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "scared",
+     "expr": "dizzy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 260
+    }
+   ],
+   "camera": {
+    "shake": 5
+   },
+   "seed": "ys12"
+  },
+  {
+   "type": "title",
+   "text": "Las *tres grandes*",
+   "kicker": "2,1 millones de años",
+   "narration": "Pero, ¿ha explotado alguna vez? Sí. Y no una, sino tres veces.",
+   "bg": "land:volcano",
+   "fx": [
+    "erupt"
+   ],
+   "seed": "ys13"
+  },
+  {
+   "type": "cartoon",
+   "text": "La *primera*",
+   "narration": "La primera gran erupción fue hace unos dos coma un millones de años. Fue una de las mayores erupciones conocidas en la historia de la Tierra. Expulsó unos dos mil quinientos kilómetros cúbicos de roca y ceniza.",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "tag",
+     "x": 22,
+     "y": 30,
+     "text": "hace 2,1 millones de años",
+     "delay": 0.6
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🌋",
+     "size": 250,
+     "anim": "shake"
+    },
+    {
+     "kind": "tag",
+     "x": 22,
+     "y": 62,
+     "text": "≈ 2.500 km³",
+     "delay": 2.5
+    }
+   ],
+   "fx": [
+    "erupt"
+   ],
+   "camera": {
+    "shake": 8
+   },
+   "seed": "ys14"
+  },
+  {
+   "type": "cartoon",
+   "text": "La *segunda*",
+   "narration": "La segunda fue hace un millón trescientos mil años. Más pequeña, pero aun así cientos de veces mayor que cualquier erupción que hayamos visto en vida.",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "tag",
+     "x": 22,
+     "y": 30,
+     "text": "hace 1,3 millones de años",
+     "delay": 0.6
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🌋",
+     "size": 200,
+     "anim": "shake"
+    },
+    {
+     "kind": "stick",
+     "x": 80,
+     "y": 92,
+     "pose": "scared",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 230
+    }
+   ],
+   "fx": [
+    "erupt"
+   ],
+   "seed": "ys15"
+  },
+  {
+   "type": "cartoon",
+   "text": "La *tercera*",
+   "narration": "Y la tercera, la más reciente, fue hace unos seiscientos cuarenta mil años. Expulsó del orden de mil kilómetros cúbicos de material. Con eso podrías cubrir España entera con una capa de unos dos metros.",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "tag",
+     "x": 22,
+     "y": 30,
+     "text": "hace ≈ 640.000 años",
+     "delay": 0.6
+    },
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 45,
+     "emoji": "🇪🇸",
+     "size": 190,
+     "anim": "pop",
+     "delay": 2.5
+    },
+    {
+     "kind": "arrow",
+     "x": 75,
+     "y": 62,
+     "to": [
+      75,
+      35
+     ],
+     "text": "≈ 2 m",
+     "delay": 3.5,
+     "color": "#FFD60A"
+    }
+   ],
+   "fx": [
+    "erupt",
+    "ash"
+   ],
+   "seed": "ys16"
+  },
+  {
+   "type": "cartoon",
+   "text": "Huellas en el *mapa*",
+   "narration": "Y hay más. Como la placa de Norteamérica se mueve muy despacio sobre ese punto caliente, durante millones de años ha dejado un rastro de antiguos volcanes que cruza el estado de Idaho. Como las marcas de un soplete sobre una mesa que alguien va arrastrando.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 42,
+     "emoji": "🗺️",
+     "size": 240
+    },
+    {
+     "kind": "arrow",
+     "x": 80,
+     "y": 50,
+     "to": [
+      25,
+      50
+     ],
+     "text": "",
+     "delay": 1,
+     "color": "#ff7a2e"
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 62,
+     "emoji": "🔥",
+     "size": 120,
+     "anim": "pulse",
+     "delay": 0.5
+    },
+    {
+     "kind": "stick",
+     "x": 20,
+     "y": 92,
+     "pose": "point",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 230
+    }
+   ],
+   "seed": "ys17"
+  },
+  {
+   "type": "cartoon",
+   "text": "Para *compararlo*",
+   "narration": "Para que te hagas una idea: la erupción del monte Santa Helena, en mil novecientos ochenta, una de las más famosas del siglo veinte, expulsó alrededor de un kilómetro cúbico. Yellowstone, en la última, unas mil veces más.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 48,
+     "emoji": "⛰️",
+     "size": 120
+    },
+    {
+     "kind": "tag",
+     "x": 25,
+     "y": 32,
+     "text": "≈ 1 km³",
+     "delay": 1
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 45,
+     "emoji": "🌋",
+     "size": 260,
+     "anim": "shake",
+     "delay": 1.8
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 22,
+     "text": "≈ 1.000 km³",
+     "delay": 2.6
+    }
+   ],
+   "seed": "ys18"
+  },
+  {
+   "type": "title",
+   "text": "*Hora cero*",
+   "kicker": "La erupción",
+   "narration": "Ahora imagina que mañana pasara otra vez. Paso a paso.",
+   "bg": "land:volcano",
+   "seed": "ys19"
+  },
+  {
+   "type": "cartoon",
+   "text": "Las *señales*",
+   "narration": "Primero, habría avisos. Antes de una erupción así, los científicos esperan ver enjambres de terremotos mucho más fuertes, el suelo subiendo rápido y cambios en los gases. Probablemente con semanas o meses de aviso.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 38,
+     "emoji": "📡",
+     "size": 170,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 55,
+     "y": 38,
+     "emoji": "📈",
+     "size": 170,
+     "anim": "pop",
+     "delay": 1
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 38,
+     "emoji": "⚠️",
+     "size": 150,
+     "anim": "pulse",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "think",
+     "expr": "scared",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 250
+    }
+   ],
+   "camera": {
+    "shake": 4
+   },
+   "seed": "ys20"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *estallido*",
+   "narration": "Y entonces, el suelo se abre. No por un único cráter, sino por grietas a lo largo de la caldera. Una columna de ceniza sube decenas de kilómetros, hasta más allá de donde vuelan los aviones.",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 20,
+     "emoji": "✈️",
+     "size": 120,
+     "to": [
+      85,
+      20
+     ],
+     "move": [
+      0,
+      6
+     ]
+    },
+    {
+     "kind": "tag",
+     "x": 22,
+     "y": 30,
+     "text": "decenas de km",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "x": 80,
+     "y": 92,
+     "pose": "scared",
+     "expr": "scared",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 230,
+     "sweat": true
+    }
+   ],
+   "fx": [
+    "erupt",
+    "flash"
+   ],
+   "flashAt": 0.6,
+   "camera": {
+    "shake": 12
+   },
+   "seed": "ys21"
+  },
+  {
+   "type": "cartoon",
+   "text": "Las *nubes ardientes*",
+   "narration": "Lo más peligroso serían los flujos piroclásticos: avalanchas de gas y ceniza ardiendo que bajan a toda velocidad. Arrasarían todo en decenas de kilómetros alrededor. Por suerte, la zona más cercana está poco poblada.",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 55,
+     "emoji": "🔥",
+     "size": 180,
+     "to": [
+      80,
+      55
+     ],
+     "move": [
+      0.5,
+      5
+     ],
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 50,
+     "emoji": "🌲",
+     "size": 140
+    },
+    {
+     "kind": "stick",
+     "x": 85,
+     "y": 92,
+     "pose": "scared",
+     "expr": "scared",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220
+    }
+   ],
+   "fx": [
+    "heat",
+    "erupt"
+   ],
+   "seed": "ys22"
+  },
+  {
+   "type": "title",
+   "text": "La *ceniza*",
+   "kicker": "Miles de kilómetros",
+   "narration": "Pero el verdadero problema llegaría después: la ceniza.",
+   "bg": "land:city",
+   "fx": [
+    "ash"
+   ],
+   "seed": "ys23"
+  },
+  {
+   "type": "cartoon",
+   "text": "No es *ceniza de chimenea*",
+   "narration": "Y ojo, porque la ceniza volcánica no es como la de una barbacoa. Son trocitos diminutos de roca y cristal. No se disuelve con el agua, raya, y si la respiras, daña los pulmones.",
+   "bg": "land:city",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "🔬",
+     "size": 180,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 40,
+     "emoji": "🪨",
+     "size": 150,
+     "anim": "shake",
+     "delay": 1
+    },
+    {
+     "kind": "bubble",
+     "x": 70,
+     "y": 28,
+     "text": "¡Pica!",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "facepalm",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 260
+    }
+   ],
+   "fx": [
+    "ash"
+   ],
+   "seed": "ys24"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Mascarilla* obligatoria",
+   "narration": "Lejos del volcán, la gente tendría que llevar mascarilla al salir a la calle, cerrar bien las ventanas y quitar la ceniza de los tejados antes de que lloviera. Y los coches irían despacio, porque la ceniza en la carretera resbala casi como la nieve.",
+   "bg": "land:city",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 40,
+     "emoji": "😷",
+     "size": 200,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 68,
+     "y": 42,
+     "emoji": "🧹",
+     "size": 170,
+     "anim": "shake",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "walk",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 250,
+     "to": [
+      60,
+      92
+     ]
+    }
+   ],
+   "fx": [
+    "ash"
+   ],
+   "seed": "ys25"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Más de un metro*",
+   "narration": "Un estudio del Servicio Geológico de Estados Unidos simuló una supererupción así. Cerca del volcán, en estados como Montana o Wyoming, caería más de un metro de ceniza.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "arrow",
+     "x": 80,
+     "y": 70,
+     "to": [
+      80,
+      40
+     ],
+     "text": "> 1 m",
+     "delay": 1,
+     "color": "#FFD60A"
+    },
+    {
+     "kind": "emoji",
+     "x": 45,
+     "y": 50,
+     "emoji": "🏠",
+     "size": 200
+    },
+    {
+     "kind": "stick",
+     "x": 25,
+     "y": 92,
+     "pose": "scared",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "fx": [
+    "ash"
+   ],
+   "seed": "ys26"
+  },
+  {
+   "type": "cartoon",
+   "text": "Hasta *la costa*",
+   "narration": "Y la nube viajaría mucho más lejos. En ciudades del centro del país caerían varios centímetros. Y hasta en las costas, a miles de kilómetros, llegarían unos milímetros.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "🗺️",
+     "size": 260
+    },
+    {
+     "kind": "tag",
+     "x": 38,
+     "y": 30,
+     "text": "cm",
+     "delay": 1.5
+    },
+    {
+     "kind": "tag",
+     "x": 80,
+     "y": 40,
+     "text": "mm",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "x": 20,
+     "y": 92,
+     "pose": "point",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "seed": "ys27"
+  },
+  {
+   "type": "cartoon",
+   "text": "Unos *centímetros* son mucho",
+   "narration": "Y unos centímetros parecen poco, pero no lo son. Cuando se moja, la ceniza pesa como el cemento. Puede hundir tejados, cortar carreteras y estropear motores.",
+   "bg": "land:city",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 42,
+     "emoji": "🏚️",
+     "size": 200,
+     "anim": "shake",
+     "delay": 1.5
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 45,
+     "emoji": "🚗",
+     "size": 170
+    },
+    {
+     "kind": "bubble",
+     "x": 35,
+     "y": 26,
+     "text": "¡Mi techo!",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "x": 80,
+     "y": 92,
+     "pose": "facepalm",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220
+    }
+   ],
+   "fx": [
+    "ash"
+   ],
+   "camera": {
+    "shake": 4,
+    "shakeAt": 1.5
+   },
+   "seed": "ys28"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Sin aviones*",
+   "narration": "Además, el tráfico aéreo se pararía en gran parte del continente. La ceniza puede fundirse dentro de los motores de los aviones y apagarlos en pleno vuelo.",
+   "bg": "land:storm",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 38,
+     "emoji": "✈️",
+     "size": 230,
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 30,
+     "emoji": "❌",
+     "size": 110,
+     "anim": "pop",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "x": 25,
+     "y": 92,
+     "pose": "shrug",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "fx": [
+    "ash"
+   ],
+   "seed": "ys29"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *granero* del mundo",
+   "narration": "Y aquí viene lo grave. Gran parte de esa zona son campos de cultivo que dan maíz, trigo y soja a medio planeta. Una capa de ceniza encima arruinaría la cosecha de ese año.",
+   "bg": "land:desert",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 40,
+     "emoji": "🌽",
+     "size": 170,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 36,
+     "emoji": "🌾",
+     "size": 170,
+     "anim": "pop",
+     "delay": 0.6
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 40,
+     "emoji": "🫘",
+     "size": 150,
+     "anim": "pop",
+     "delay": 1.2
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "scared",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 250
+    }
+   ],
+   "fx": [
+    "ash"
+   ],
+   "seed": "ys30"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Agua* y *luz*",
+   "narration": "Las depuradoras de agua se atascarían y las líneas eléctricas podrían fallar, sobre todo con la ceniza mojada. Millones de personas necesitarían ayuda durante meses.",
+   "bg": "land:city",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "🚰",
+     "size": 170,
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 40,
+     "emoji": "⚡",
+     "size": 170,
+     "anim": "pulse",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "facepalm",
+     "expr": "dizzy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 250
+    }
+   ],
+   "fx": [
+    "ash"
+   ],
+   "seed": "ys31"
+  },
+  {
+   "type": "title",
+   "text": "El *invierno* volcánico",
+   "kicker": "Todo el planeta",
+   "narration": "¿Y el resto del mundo? Aquí la cosa se pone interesante.",
+   "bg": "land:ice",
+   "fx": [
+    "snow"
+   ],
+   "seed": "ys32"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *azufre*",
+   "narration": "El problema no sería tanto la ceniza, sino el gas. El volcán lanzaría a la atmósfera enormes cantidades de dióxido de azufre. Allí arriba se convierte en gotitas que reflejan la luz del sol, como una sombrilla gigante.",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 25,
+     "emoji": "☀️",
+     "size": 180,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 42,
+     "emoji": "☂️",
+     "size": 220,
+     "anim": "pop",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 25,
+     "y": 92,
+     "pose": "think",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "seed": "ys33"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Más frío*",
+   "narration": "Resultado: el planeta se enfriaría. ¿Cuánto? Los científicos no se ponen de acuerdo. Algunos modelos hablan de varios grados durante unos años. Lo suficiente para acortar veranos y estropear cosechas en muchos países.",
+   "bg": "land:ice",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 40,
+     "emoji": "🌡️",
+     "size": 200,
+     "anim": "pulse"
+    },
+    {
+     "kind": "arrow",
+     "x": 60,
+     "y": 30,
+     "to": [
+      60,
+      60
+     ],
+     "text": "",
+     "delay": 1,
+     "color": "#4dfff3"
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 40,
+     "emoji": "🥶",
+     "size": 150,
+     "anim": "pop",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "scared",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "fx": [
+    "snow"
+   ],
+   "seed": "ys34"
+  },
+  {
+   "type": "cartoon",
+   "text": "Un *cielo* distinto",
+   "narration": "Eso sí, habría algo bonito: durante meses, atardeceres rojos y naranjas intensísimos en medio mundo, por las partículas que flotan en el aire. Pasó también después del Tambora, y algunos investigadores creen que se ve en cuadros de aquella época.",
+   "bg": "land:sea",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "🌅",
+     "size": 230,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 78,
+     "y": 36,
+     "emoji": "🖼️",
+     "size": 150,
+     "anim": "pop",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "x": 25,
+     "y": 92,
+     "pose": "wave",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "seed": "ys35"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Ya ha pasado*",
+   "narration": "Y sabemos que pasa, porque ya ha pasado con volcanes mucho más pequeños. En mil ochocientos quince entró en erupción el Tambora, en Indonesia. Y el año siguiente, mil ochocientos dieciséis, fue el año sin verano.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "tag",
+     "x": 30,
+     "y": 24,
+     "text": "1815: Tambora",
+     "delay": 0.6
+    },
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 44,
+     "emoji": "🌋",
+     "size": 170,
+     "anim": "shake"
+    },
+    {
+     "kind": "tag",
+     "x": 72,
+     "y": 24,
+     "text": "1816",
+     "delay": 2
+    },
+    {
+     "kind": "emoji",
+     "x": 72,
+     "y": 44,
+     "emoji": "❄️",
+     "size": 160,
+     "anim": "pop",
+     "delay": 2.5
+    }
+   ],
+   "seed": "ys36"
+  },
+  {
+   "type": "cartoon",
+   "text": "El año *sin verano*",
+   "narration": "En Europa y en Estados Unidos nevó en pleno junio. Se perdieron cosechas, subió el precio de la comida y hubo hambre. Y el Tambora fue mucho menor que una supererupción de Yellowstone.",
+   "bg": "land:ice",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 30,
+     "emoji": "🌨️",
+     "size": 200,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 52,
+     "emoji": "🍞",
+     "size": 130,
+     "anim": "shake",
+     "delay": 1.5
+    },
+    {
+     "kind": "tag",
+     "x": 72,
+     "y": 46,
+     "text": "¡Junio!",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "scared",
+     "expr": "sad",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "fx": [
+    "snow"
+   ],
+   "seed": "ys37"
+  },
+  {
+   "type": "cartoon",
+   "text": "El caso *Toba*",
+   "narration": "El ejemplo más extremo es Toba, en Indonesia, hace unos setenta y cuatro mil años. Una supererupción todavía mayor que la última de Yellowstone. Durante años se pensó que casi acabó con los humanos. Hoy, muchos estudios dicen que nuestros antepasados lo superaron bastante bien.",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "tag",
+     "x": 22,
+     "y": 30,
+     "text": "≈ 74.000 años",
+     "delay": 0.6
+    },
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 45,
+     "emoji": "🌋",
+     "size": 200,
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 72,
+     "y": 45,
+     "emoji": "🧔",
+     "size": 170,
+     "anim": "pop",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "think",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "fx": [
+    "erupt",
+    "ash"
+   ],
+   "seed": "ys38"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿El *fin del mundo*?",
+   "narration": "Entonces, ¿sería el fin de la humanidad? No. Los científicos creen que sería un desastre enorme, sobre todo para Estados Unidos, y unos años muy duros para el mundo. Pero no el fin. La humanidad ha sobrevivido a erupciones gigantes antes.",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "🌍",
+     "size": 240,
+     "anim": "float"
+    },
+    {
+     "kind": "bubble",
+     "x": 72,
+     "y": 26,
+     "text": "¡Aguantamos!",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "x": 25,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 250
+    }
+   ],
+   "seed": "ys39"
+  },
+  {
+   "type": "title",
+   "text": "¿Está *a punto*?",
+   "kicker": "La gran pregunta",
+   "narration": "Y ahora, la pregunta del millón: ¿está a punto de explotar?",
+   "bg": "land:forest",
+   "seed": "ys40"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿*Atrasado*?",
+   "narration": "Seguro que has leído que Yellowstone está atrasado, que le toca. Pero no es verdad. Las erupciones no siguen un calendario. Y aunque lo siguieran, el Servicio Geológico de Estados Unidos dice que no estaría atrasado.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "📅",
+     "size": 190,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "❌",
+     "size": 130,
+     "anim": "pop",
+     "delay": 2
+    },
+    {
+     "kind": "bubble",
+     "x": 70,
+     "y": 30,
+     "text": "¡Le toca!",
+     "delay": 0.8
+    },
+    {
+     "kind": "stick",
+     "x": 65,
+     "y": 92,
+     "pose": "facepalm",
+     "expr": "angry",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "seed": "ys41"
+  },
+  {
+   "type": "cartoon",
+   "text": "Lo *vigilan* sin parar",
+   "narration": "Además, Yellowstone es uno de los volcanes más vigilados del mundo. Tiene sismógrafos, GPS que miden el suelo milímetro a milímetro y satélites. Hoy por hoy no hay señales de que se prepare una gran erupción.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 38,
+     "emoji": "📡",
+     "size": 170,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 55,
+     "y": 28,
+     "emoji": "🛰️",
+     "size": 160,
+     "to": [
+      80,
+      25
+     ],
+     "move": [
+      0,
+      8
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 46,
+     "emoji": "📊",
+     "size": 150,
+     "anim": "pop",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 35,
+     "y": 92,
+     "pose": "point",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "seed": "ys42"
+  },
+  {
+   "type": "cartoon",
+   "text": "No hay *suficiente* magma",
+   "narration": "Y recuerda lo de la esponja. Para una supererupción hace falta muchísimo magma líquido y junto. Hoy, la mayor parte de lo que hay debajo está sólido o casi, y los estudios dicen que no hay bastante líquido para algo así.",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 42,
+     "emoji": "🧽",
+     "size": 200,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 42,
+     "emoji": "💧",
+     "size": 140,
+     "anim": "pop",
+     "delay": 1.5
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 26,
+     "text": "no hay bastante",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "x": 20,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 230
+    }
+   ],
+   "seed": "ys43"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Muy improbable*",
+   "narration": "Según los expertos, la probabilidad de una supererupción en un siglo cualquiera es extremadamente baja. Es mucho más probable que te pasen mil cosas antes que ver esto. De hecho, en toda la historia de la humanidad nadie ha visto nunca una supererupción con sus propios ojos. Las conocemos por las capas de ceniza que dejaron en las rocas.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "🎲",
+     "size": 220,
+     "spin": 360
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 22,
+     "text": "muy, muy baja",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 260
+    }
+   ],
+   "seed": "ys44"
+  },
+  {
+   "type": "title",
+   "text": "Lo que *sí* puede pasar",
+   "kicker": "Más probable",
+   "narration": "Pero ojo, porque hay cosas que sí son mucho más probables.",
+   "bg": "land:forest",
+   "seed": "ys45"
+  },
+  {
+   "type": "cartoon",
+   "text": "Explosiones de *vapor*",
+   "narration": "La más frecuente: las explosiones hidrotermales. El agua caliente del subsuelo se convierte en vapor de golpe y revienta el suelo, lanzando barro y rocas. En julio de dos mil veinticuatro pasó una en Biscuit Basin, delante de turistas.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "💥",
+     "size": 220,
+     "anim": "shake",
+     "delay": 0.5
+    },
+    {
+     "kind": "emoji",
+     "x": 22,
+     "y": 46,
+     "emoji": "📱",
+     "size": 130,
+     "anim": "pulse"
+    },
+    {
+     "kind": "bubble",
+     "x": 75,
+     "y": 30,
+     "text": "¡Corre!",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "x": 30,
+     "y": 92,
+     "pose": "scared",
+     "expr": "scared",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "fx": [
+    "flash"
+   ],
+   "flashAt": 0.6,
+   "camera": {
+    "shake": 8,
+    "shakeAt": 0.6
+   },
+   "seed": "ys46"
+  },
+  {
+   "type": "cartoon",
+   "text": "Ríos de *lava*",
+   "narration": "También podría haber una erupción de lava, sin explosión gigante. La última fue hace unos setenta mil años. La lava avanzaría despacio y solo afectaría al parque.",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "🌋",
+     "size": 200,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 22,
+     "text": "≈ 70.000 años",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 80,
+     "y": 92,
+     "pose": "walk",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 230,
+     "to": [
+      90,
+      92
+     ]
+    }
+   ],
+   "fx": [
+    "heat"
+   ],
+   "seed": "ys47"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Terremotos*",
+   "narration": "Y terremotos fuertes. En mil novecientos cincuenta y nueve, uno de magnitud siete coma tres al lado del parque provocó un deslizamiento que mató a veintiocho personas. Eso es un riesgo más real que la supererupción.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 22,
+     "text": "1959: M 7,3",
+     "delay": 0.6
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "⛰️",
+     "size": 220,
+     "anim": "shake"
+    },
+    {
+     "kind": "stick",
+     "x": 80,
+     "y": 92,
+     "pose": "scared",
+     "expr": "dizzy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 230
+    }
+   ],
+   "camera": {
+    "shake": 10
+   },
+   "seed": "ys48"
+  },
+  {
+   "type": "title",
+   "text": "¿Se puede *parar*?",
+   "kicker": "Ciencia loca",
+   "narration": "¿Y se podría hacer algo para evitarlo?",
+   "bg": "land:volcano",
+   "seed": "ys49"
+  },
+  {
+   "type": "cartoon",
+   "text": "El plan de la *NASA*",
+   "narration": "Un equipo de la NASA lo estudió como experimento mental: perforar alrededor del volcán y meter agua para robarle calor poco a poco, y de paso producir electricidad. Pero tardaría miles de años, sería carísimo y podría ser peligroso.",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 30,
+     "emoji": "🚀",
+     "size": 140,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🛢️",
+     "size": 170,
+     "anim": "pop",
+     "delay": 1
+    },
+    {
+     "kind": "emoji",
+     "x": 72,
+     "y": 45,
+     "emoji": "💧",
+     "size": 150,
+     "anim": "float",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "x": 30,
+     "y": 92,
+     "pose": "think",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 230
+    }
+   ],
+   "seed": "ys50"
+  },
+  {
+   "type": "cartoon",
+   "text": "Por ahora, *nada*",
+   "narration": "Así que, por ahora, lo único que podemos hacer es lo que ya se hace: vigilarlo muy de cerca y tener planes de emergencia preparados.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "👀",
+     "size": 220,
+     "anim": "pulse"
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "shrug",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 260
+    }
+   ],
+   "seed": "ys51"
+  },
+  {
+   "type": "title",
+   "text": "*Resumen*",
+   "kicker": "En 30 segundos",
+   "narration": "Resumen rápido.",
+   "bg": "chalk",
+   "seed": "ys52"
+  },
+  {
+   "type": "cartoon",
+   "text": "Lo *que pasaría*",
+   "narration": "Si Yellowstone tuviera una supererupción, habría avisos. Enterraría bajo la ceniza una buena parte de Estados Unidos, pararía los aviones, arruinaría cosechas y enfriaría el planeta durante unos años. Un desastre enorme. Pero no el fin del mundo. Y lo que sí es más probable, como las explosiones de vapor o los terremotos, es mucho más pequeño y está bastante controlado por los científicos que lo vigilan cada día.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 40,
+     "emoji": "🌋",
+     "size": 160,
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 45,
+     "y": 36,
+     "emoji": "✈️",
+     "size": 140,
+     "anim": "pop",
+     "delay": 1
+    },
+    {
+     "kind": "emoji",
+     "x": 68,
+     "y": 40,
+     "emoji": "🌾",
+     "size": 140,
+     "anim": "pop",
+     "delay": 2
+    },
+    {
+     "kind": "emoji",
+     "x": 88,
+     "y": 36,
+     "emoji": "🥶",
+     "size": 130,
+     "anim": "pop",
+     "delay": 3
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "point",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 240
+    }
+   ],
+   "seed": "ys53"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Te *irías* a verlo?",
+   "narration": "Y lo más probable es que ni tú ni yo lo veamos nunca. Así que, dime en comentarios: ¿irías de vacaciones a Yellowstone sabiendo todo esto? Si te ha gustado, suscríbete: cada día hay un vídeo nuevo en el canal.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 40,
+     "emoji": "🦬",
+     "size": 190,
+     "anim": "float"
+    },
+    {
+     "kind": "bubble",
+     "x": 35,
+     "y": 30,
+     "text": "¿Te vienes?",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "x": 35,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 280
+    }
+   ],
+   "seed": "ys54"
+  }
+ ]
+}

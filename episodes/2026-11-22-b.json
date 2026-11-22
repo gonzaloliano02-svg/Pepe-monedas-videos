@@ -1,0 +1,277 @@
+{
+ "id": "2026-11-22-b",
+ "format": "story",
+ "vertical": true,
+ "title": "Tu órgano MÁS GRANDE pesa 4 kilos… y lo llevas puesto 😳",
+ "description": "La piel es el órgano más grande del cuerpo: en un adulto pesa alrededor de 4 kg (más que el cerebro y el hígado juntos) y, extendida, ocupa unos 1,5–2 m². Cada minuto se desprenden decenas de miles de células muertas, y la capa más externa (la epidermis) se renueva aproximadamente cada mes. Es más fina en los párpados (alrededor de medio milímetro) y más gruesa en las plantas de los pies.\n\nFuentes: Academia Americana de Dermatología, MedlinePlus (Biblioteca Nacional de Medicina de EE. UU.). Cifras aproximadas. Animación propia; ilustraciones: Twemoji (CC-BY 4.0). Video creado con ayuda de IA.",
+ "tags": [
+  "organo mas grande del cuerpo",
+  "piel",
+  "cuerpo humano",
+  "cuerpo a escala",
+  "curiosidades",
+  "animacion"
+ ],
+ "scenes": [
+  {
+   "type": "cartoon",
+   "text": "¿Tu órgano *más grande*?",
+   "bg": "room-day",
+   "seed": "p1",
+   "camera": {
+    "zoom": [
+     1,
+     1.12
+    ],
+    "focus": [
+     50,
+     50
+    ]
+   },
+   "narration": "¿Cuál es el órgano más grande de tu cuerpo? No, no es el hígado. Lo llevas puesto ahora mismo.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 36,
+     "emoji": "❓",
+     "size": 180,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 38,
+     "emoji": "🫀",
+     "size": 160,
+     "anim": "pop",
+     "delay": 1.2
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 38,
+     "emoji": "❌",
+     "size": 120,
+     "anim": "pop",
+     "delay": 2.6
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "think",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 380,
+     "pose2": "point",
+     "expr2": "wow",
+     "poseAt": 3.2
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "bg": "room-day",
+   "seed": "p2",
+   "value": 4,
+   "suffix": " kg",
+   "label": "pesa tu *piel* (aprox.)",
+   "emoji": "🧍",
+   "narration": "Es la piel. Pesa unos cuatro kilos. ¡Más que tu cerebro y tu hígado juntos!",
+   "actors": [
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 96,
+     "pose": "cheer",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 300
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "Extendida, *≈ 2 m²*",
+   "bg": "room-day",
+   "seed": "p3",
+   "narration": "Y si la extendieras en el suelo, ocuparía casi dos metros cuadrados. Como una manta grande.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "🛏️",
+     "size": 240,
+     "anim": "pop",
+     "delay": 0.6
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 26,
+     "text": "≈ 1,5–2 m²",
+     "delay": 1.6
+    },
+    {
+     "kind": "stick",
+     "x": 40,
+     "y": 93,
+     "pose": "shrug",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "Se te *cae*",
+   "bg": "room",
+   "seed": "p4",
+   "camera": {
+    "shake": 2
+   },
+   "narration": "Y cada minuto se te caen decenas de miles de células muertas. Ahora mismo, mientras ves este vídeo.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 30,
+     "emoji": "✨",
+     "size": 120,
+     "to": [
+      30,
+      52
+     ],
+     "move": [
+      0.5,
+      4
+     ],
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 28,
+     "emoji": "✨",
+     "size": 110,
+     "to": [
+      70,
+      52
+     ],
+     "move": [
+      1,
+      4.5
+     ],
+     "anim": "pulse"
+    },
+    {
+     "kind": "bubble",
+     "x": 30,
+     "y": 42,
+     "text": "¿¡Qué!?",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "x": 55,
+     "y": 93,
+     "pose": "scared",
+     "expr": "scared",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "Piel *nueva* cada mes",
+   "bg": "room-day",
+   "seed": "p5",
+   "narration": "Por eso la capa de fuera se renueva más o menos cada mes. La piel que ves hoy no es la de hace dos meses.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 38,
+     "emoji": "🔄",
+     "size": 220,
+     "spin": 360
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 26,
+     "text": "≈ 1 mes",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "cheer",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360
+    }
+   ]
+  },
+  {
+   "type": "cartoon",
+   "text": "La más *fina* y la más *gruesa*",
+   "bg": "room-day",
+   "seed": "p6",
+   "narration": "La más fina está en los párpados: medio milímetro. Y la más gruesa, en las plantas de los pies. ¿Lo sabías? Sígueme para más cuerpo a escala.",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 36,
+     "emoji": "👁️",
+     "size": 180,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 36,
+     "emoji": "🦶",
+     "size": 180,
+     "anim": "pulse",
+     "delay": 1.5
+    },
+    {
+     "kind": "tag",
+     "x": 30,
+     "y": 26,
+     "text": "≈ 0,5 mm",
+     "delay": 1
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 26,
+     "text": "la más gruesa",
+     "delay": 2.2
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 93,
+     "pose": "wave",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 360
+    }
+   ]
+  }
+ ]
+}

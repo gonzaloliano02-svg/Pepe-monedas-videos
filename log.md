@@ -167,3 +167,14 @@
 - b 12:00 programado: YT https://www.youtube.com/watch?v=0xmZKCKXRqQ + TikTok (scheduled 11:00Z). QA ok.
 - L1 16:00 "¿Qué le pasa a tu CUERPO en el ESPACIO? (de verdad)" (10.3 min, ~1747 palabras, miniatura, capítulos): YT https://www.youtube.com/watch?v=TzKxP9T6Ouc (completed, programado 16:00)
 - c 18:00 "En el espacio CRECES hasta 5 cm 🚀 (y luego pasa esto)": TikTok scheduled 17:00Z. YouTube REFUSED: vidIQ free = 3 YouTube uploads/day (a, b, L1 used it). YouTube destination kept in draft 440b3e80 (publicationId 3beaabb0) → publish 2026-11-22 10:00 Madrid after the 09:00 reset. Fix: arrow "+5 cm" moved out of the captions zone. New daily plan in PIPELINE.md "YOUTUBE QUOTA"; trigger prompt updated.
+
+## 2026-11-22 (domingo) — primer día con el plan de cuota de YouTube
+- Verificado ayer: 6/6 completed (YT a 6YF3mKELC-g, b 0xmZKCKXRqQ, L1 TzKxP9T6Ouc; TikTok a, b, c). Las subidas de ayer a YT fueron a las 08:26Z y 08:31Z, después del reinicio de cuota (08:00Z).
+- YT 10:00 = teaser del espacio de ayer: https://www.youtube.com/watch?v=5d2jRUVgMfc (completed, subido tras las 09:00 Madrid). Subida de YouTube 1/3.
+- Datos (Windsor): huesos 1.317 en 1 día (mejor Short reciente), coche teaser 908, cerebro 846, rayos 612, viento 386. Largos siguen bajos (espacio 1, agujero negro 20).
+- Elección:
+  - a 10:00 (solo TikTok) Lugares extremos: Lago Natron (Tanzania), agua alcalina pH ~10,5, hasta ~60 °C, aves "petrificadas" (Nick Brandt), flamencos enanos.
+  - b 12:00 (YT + TikTok) Cuerpo a escala (ganador): la piel, ~4 kg, ~1,5–2 m², se renueva ~cada mes.
+  - L1 16:00 búsqueda "qué pasaría si Yellowstone entrara en erupción" (55 escenas, 1.758 palabras; fuentes USGS/YVO, Mastin 2014, Tambora/1816).
+  - c 18:00 teaser (TikTok hoy, YT mañana 10:00): 1.000 km³ de Yellowstone cubrirían España con ~2 m.
+- Librería: fx "erupt" (columna eruptiva + bombas de lava + estruendo) y "ash" (lluvia de ceniza y cielo oscurecido). Los fx ahora también se ven en escenas title/stat y en la miniatura.

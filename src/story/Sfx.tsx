@@ -90,6 +90,8 @@ export const SceneSfx: React.FC<{ s: SceneLike }> = ({ s }) => {
   // ambience
   if (s.bg === "blackhole" || (s.actors ?? []).some((a) => a.kind === "bh" && (a.size ?? 0) >= 120)) ev.push({ at: 0, name: "hum", vol: 0.16 });
   if (s.bg === "warp" || s.fx?.includes("speedlines") || s.fx?.includes("wind")) ev.push({ at: 0, name: "wind", vol: 0.18 });
+  if (s.fx?.includes("erupt")) { ev.push({ at: 0, name: "boom", vol: 0.32, dur: 1.8 }); ev.push({ at: 0.2, name: "hum", vol: 0.16 }); }
+  if (s.fx?.includes("ash") && !s.fx?.includes("wind")) ev.push({ at: 0, name: "wind", vol: 0.1 });
   if (s.camera?.shake) ev.push({ at: s.camera.shakeAt ?? 0, name: "rumble", vol: Math.min(0.32, 0.1 + s.camera.shake / 60) });
   if (s.fx?.includes("flash") && !(s.actors ?? []).some((a) => (a.kind === "star" && a.mode === "collapse") || (a.kind === "ripple" && a.merge)))
     ev.push({ at: s.flashAt ?? 1, name: "boom", vol: 0.45 });

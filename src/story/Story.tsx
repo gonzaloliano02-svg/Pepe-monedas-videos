@@ -19,7 +19,7 @@ import { MapScene, type MapMarker, type MapRoute, type MapView } from "./MapScen
 import { emojiUrl } from "./emoji";
 import { Captions } from "../Doc";
 import { SceneSfx, type SfxEvent } from "./Sfx";
-import { ActorLayer, BlackHole, Cartoon, CartoonBackdrop, type CartoonScene } from "./Cartoon";
+import { ActorLayer, BlackHole, Cartoon, CartoonBackdrop, CartoonFx, type CartoonScene } from "./Cartoon";
 
 export type Prop = {
   emoji: string;
@@ -208,7 +208,10 @@ const Headline: React.FC<{ text?: string; kicker?: string; position?: "top" | "c
 };
 
 const Bg: React.FC<{ s: StoryScene; env: Env; drift?: number }> = ({ s, env, drift }) =>
-  s.bg ? <CartoonBackdrop bg={s.bg} seed={s.seed} chalk={s.chalk} bh={s.bh} depth={s.depth} noGauge={s.noGauge} /> : <Landscape env={s.env ?? env} seed={s.seed} drift={drift} />;
+  <>
+    {s.bg ? <CartoonBackdrop bg={s.bg} seed={s.seed} chalk={s.chalk} bh={s.bh} depth={s.depth} noGauge={s.noGauge} /> : <Landscape env={s.env ?? env} seed={s.seed} drift={drift} />}
+    {s.fx?.length ? <CartoonFx fx={s.fx} flashAt={s.flashAt} focus={s.camera?.focus} /> : null}
+  </>;
 
 const Slow: React.FC<{ children: React.ReactNode; amount?: number }> = ({ children, amount = 0.06 }) => {
   const frame = useCurrentFrame();
@@ -554,6 +557,7 @@ export const StoryThumb: React.FC<StoryEpisode> = (ep) => {
     <AbsoluteFill style={{ background: "#000" }}>
       <AbsoluteFill style={{ transform: "scale(1.0)" }}>
         {th.bg ? <CartoonBackdrop bg={th.bg} seed="thumb" bh={th.bh} chalk={th.chalk} depth={th.depth} noGauge /> : <Landscape env={th.env} seed="thumb" />}
+        {th.bg && th.fx?.length ? <CartoonFx fx={th.fx} focus={th.camera?.focus} /> : null}
       </AbsoluteFill>
       <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.35) 55%, transparent 80%)" }} />
       {th.bg ? <ActorLayer actors={th.actors} /> : <img src={emojiUrl(th.emoji)} style={{ position: "absolute", right: 90, top: 150, width: 720, height: 720, filter: "drop-shadow(0 30px 40px rgba(0,0,0,0.6))" }} />}
