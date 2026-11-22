@@ -1,0 +1,122 @@
+{
+ "id": "pilot-v3-churros",
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "title": "Vendo CHURROS en el Antiguo EGIPTO 🥖🐫",
+ "description": "Piloto V3.",
+ "tags": [
+  "churros",
+  "antiguo egipto",
+  "humor",
+  "que pasaria si"
+ ],
+ "scenes": [
+  {
+   "type": "ai",
+   "hook": "Vendo CHURROS en el Antiguo *EGIPTO*",
+   "hookDur": 1.6,
+   "narration": "Me he teletransportado al Antiguo Egipto con una churrería.",
+   "shots": [
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts standing proudly next to a small churros food cart, ancient Egypt, desert, pyramids of Giza in the background",
+     "move": "punch",
+     "label": "DÍA 1",
+     "seed": 11
+    },
+    {
+     "prompt": "close up of a chubby bald cartoon man with round black glasses, blue tank top and dark shorts frying churros in a pan, ancient egyptians staring curiously, ancient Egypt, desert, pyramids of Giza in the background",
+     "move": "in",
+     "seed": 12
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Primer problema: aquí no existe el azúcar. Ni el chocolate, que viene de América. Así que… churros con miel.",
+   "shots": [
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts looking shocked at an empty sugar bag, ancient egyptian market",
+     "move": "punch",
+     "seed": 21
+    },
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts pouring honey from a clay jar onto churros, ancient egyptian market",
+     "move": "in",
+     "seed": 22
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Semana uno: nadie compra. Aquí se paga con pan y cerveza… y yo solo acepto Bizum.",
+   "shots": [
+    {
+     "prompt": "an empty churros stand in the desert, a single tumbleweed, sad a chubby bald cartoon man with round black glasses, blue tank top and dark shorts waiting, ancient Egypt, desert, pyramids of Giza in the background",
+     "move": "out",
+     "label": "SEMANA 1",
+     "seed": 31
+    },
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts showing a smartphone to a confused ancient egyptian man holding bread",
+     "move": "right",
+     "seed": 32
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Hasta que un obrero de las pirámides prueba uno… y vuelve con trescientos compañeros.",
+   "shots": [
+    {
+     "prompt": "an ancient egyptian pyramid worker biting a churro with an amazed face, eyes wide, sparkles",
+     "move": "punch",
+     "label": "SEMANA 2",
+     "seed": 41
+    },
+    {
+     "prompt": "a gigantic crowd of ancient egyptian workers queuing at a tiny churros cart, ancient Egypt, desert, pyramids of Giza in the background",
+     "move": "up",
+     "shake": 6,
+     "seed": 42
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Ahora los obreros hacen huelga: sin churros, no hay pirámide. Y ojo, la primera huelga de la historia fue en Egipto, de verdad.",
+   "shots": [
+    {
+     "prompt": "ancient egyptian workers protesting with signs and raising churros in the air, unfinished pyramid, ancient Egypt, desert, pyramids of Giza in the background",
+     "move": "in",
+     "label": "SEMANA 3",
+     "shake": 4,
+     "seed": 51
+    },
+    {
+     "prompt": "an angry pharaoh on a golden throne pointing forward, egyptian palace, dramatic light",
+     "move": "punch",
+     "seed": 52
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Resultado: soy el churrero oficial del faraón. ¿Tú qué venderías en el Antiguo Egipto?",
+   "shots": [
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts wearing a golden pharaoh crown, holding a plate of churros, sitting on a throne, egyptian palace",
+     "move": "punch",
+     "label": "FINAL",
+     "seed": 61
+    },
+    {
+     "prompt": "a giant pyramid made of golden churros in the desert at sunset, epic",
+     "move": "out",
+     "seed": 62
+    }
+   ]
+  }
+ ]
+}

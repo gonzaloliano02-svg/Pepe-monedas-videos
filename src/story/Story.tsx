@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import {
   AbsoluteFill,
   Easing,
+  Img,
   OffthreadVideo,
   Series,
   continueRender,
@@ -33,7 +34,7 @@ export type Prop = {
 };
 
 export type StoryScene = CartoonScene & {
-  type: "title" | "landscape" | "map" | "stat" | "quote" | "compare" | "timeline" | "footage" | "cartoon";
+  type: "title" | "landscape" | "map" | "stat" | "quote" | "compare" | "timeline" | "footage" | "cartoon" | "ai";
   narration: string;
   audio?: string;
   durationInFrames?: number;
@@ -65,6 +66,9 @@ export type StoryScene = CartoonScene & {
   // VIRAL V2: giant on-screen hook, fully visible from frame 0 (first scene of a Short)
   hook?: string;
   hookDur?: number; // seconds, default 1.8
+  // VIRAL V3 "ai" scenes: AI-generated 3D images, a cut every ~2 s
+  shots?: AiShot[];
+  words?: { w: string; t: number }[]; // real word timings (s) for captions
   sfx?: SfxEvent[];
   noSfx?: boolean;
   // footage
@@ -431,6 +435,102 @@ const TimelineScene: React.FC<{ s: StoryScene }> = ({ s }) => {
   );
 };
 
+export type AiShot = {
+  prompt?: string; // generated at build time (SDXL-Turbo, local)
+  img?: string; // set by the build
+  move?: "in" | "out" | "left" | "right" | "up" | "punch";
+  label?: string; // big counter/label on top, e.g. "SEMANA 1", "24:00:00"
+  shake?: number; // px of camera shake
+  weight?: number; // relative duration (default 1)
+  seed?: number;
+};
+
+export const shotStarts = (shots: AiShot[], total: number) => {
+  const w = shots.map((x) => x.weight ?? 1);
+  const sum = w.reduce((a, b) => a + b, 0);
+  let acc = 0;
+  return w.map((x) => {
+    const st = Math.round((acc / sum) * total);
+    acc += x;
+    return st;
+  });
+};
+
+const AiShotView: React.FC<{ sh: AiShot; len: number }> = ({ sh, len }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const p = Math.min(1, frame / Math.max(1, len));
+  const mv = sh.move ?? "in";
+  let sc = 1.06 + 0.12 * p;
+  let tx = 0;
+  let ty = 0;
+  if (mv === "out") sc = 1.2 - 0.12 * p;
+  if (mv === "left") { sc = 1.16; tx = 50 - 100 * p; }
+  if (mv === "right") { sc = 1.16; tx = -50 + 100 * p; }
+  if (mv === "up") { sc = 1.16; ty = 70 - 140 * p; }
+  if (mv === "punch") sc = interpolate(frame, [0, 4, len], [1.45, 1.1, 1.2], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  // every cut lands with a small punch-in
+  const land = interpolate(frame, [0, 5], [0.06, 0], { extrapolateRight: "clamp" });
+  const sh0 = sh.shake ?? 0;
+  const jx = sh0 ? Math.sin(frame * 1.9) * sh0 + Math.sin(frame * 4.3) * sh0 * 0.4 : 0;
+  const jy = sh0 ? Math.cos(frame * 2.3) * sh0 * 0.7 : 0;
+  const lab = spring({ frame, fps, config: { damping: 11, stiffness: 200 } });
+  return (
+    <AbsoluteFill style={{ background: "#000", overflow: "hidden" }}>
+      {sh.img ? (
+        <Img
+          src={staticFile(sh.img)}
+          style={{ width: "100%", height: "100%", objectFit: "cover", transform: `translate(${tx + jx}px, ${ty + jy}px) scale(${sc + land})`, filter: "contrast(1.06) saturate(1.12)" }}
+        />
+      ) : null}
+      <AbsoluteFill style={{ background: "linear-gradient(rgba(0,0,0,0.35), transparent 22%, transparent 55%, rgba(0,0,0,0.55) 85%)" }} />
+      {sh.label ? (
+        <div
+          style={{
+            position: "absolute",
+            top: 210,
+            left: 40,
+            right: 40,
+            textAlign: "center",
+            fontFamily: FONT_DISPLAY,
+            fontSize: 112,
+            letterSpacing: -2,
+            textTransform: "uppercase",
+            color: "#fff",
+            WebkitTextStroke: "5px #000",
+            paintOrder: "stroke fill",
+            textShadow: "0 10px 30px rgba(0,0,0,0.85)",
+            transform: `scale(${0.6 + 0.4 * lab})`,
+            opacity: lab,
+          }}
+        >
+          <Rich text={sh.label} />
+        </div>
+      ) : null}
+    </AbsoluteFill>
+  );
+};
+
+const AiScene: React.FC<{ s: StoryScene }> = ({ s }) => {
+  const { durationInFrames } = useVideoConfig();
+  const shots = s.shots ?? [];
+  const st = shotStarts(shots, durationInFrames);
+  return (
+    <AbsoluteFill style={{ background: "#000" }}>
+      <Series>
+        {shots.map((sh, i) => {
+          const len = (i + 1 < shots.length ? st[i + 1] : durationInFrames) - st[i];
+          return (
+            <Series.Sequence key={i} durationInFrames={Math.max(1, len)}>
+              <AiShotView sh={sh} len={len} />
+            </Series.Sequence>
+          );
+        })}
+      </Series>
+    </AbsoluteFill>
+  );
+};
+
 const FootageScene: React.FC<{ s: StoryScene }> = ({ s }) => {
   const { fps } = useVideoConfig();
   const start = Math.round((s.startFrom ?? 0) * fps);
@@ -527,6 +627,9 @@ const SceneView: React.FC<{ s: StoryScene }> = ({ s }) => {
     case "footage":
       body = <FootageScene s={s} />;
       break;
+    case "ai":
+      body = <AiScene s={s} />;
+      break;
     case "cartoon":
       body = (
         <>
@@ -541,7 +644,7 @@ const SceneView: React.FC<{ s: StoryScene }> = ({ s }) => {
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       <AbsoluteFill style={{ opacity: fade }}>{body}</AbsoluteFill>
-      {V && s.type !== "title" && !s.noCaptions ? <Captions text={s.narration} /> : null}
+      {V && s.type !== "title" && !s.noCaptions ? <Captions text={s.narration} words={s.words} big={s.type === "ai"} /> : null}
       {s.hook ? <HookOverlay text={s.hook} dur={s.hookDur ?? 1.8} /> : null}
       {s.audio ? <Audio src={staticFile(s.audio)} /> : null}
       <SceneSfx s={s} />

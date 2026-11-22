@@ -19,6 +19,7 @@ type SceneLike = CartoonScene & {
   sfx?: SfxEvent[];
   noSfx?: boolean;
   hook?: string;
+  shots?: { move?: string; shake?: number; weight?: number; label?: string }[];
 };
 
 const Shot: React.FC<SfxEvent> = ({ at, name, vol = 0.35, dur }) => {
@@ -102,6 +103,20 @@ export const SceneSfx: React.FC<{ s: SceneLike }> = ({ s }) => {
   if (s.fx?.includes("bubbles")) ev.push({ at: 0.2, name: "pop", vol: 0.15 }, { at: 0.9, name: "blip", vol: 0.12 });
   if (s.fx?.includes("einstein")) ev.push({ at: 0.5, name: "sparkle", vol: 0.2 });
   for (const a of s.actors ?? []) actorEvents(a, ev);
+  if (s.shots?.length) {
+    // VIRAL V3: a sound on every cut
+    const w = s.shots.map((x) => x.weight ?? 1);
+    const sum = w.reduce((a, b) => a + b, 0);
+    let acc = 0;
+    s.shots.forEach((sh, i) => {
+      const at = (acc / sum) * dur;
+      acc += w[i];
+      if (i > 0) ev.push({ at, name: i % 2 ? "swoosh" : "whoosh", vol: 0.2 });
+      if (sh.move === "punch") ev.push({ at, name: "hit", vol: 0.38 });
+      if (sh.label) ev.push({ at: at + 0.05, name: "pop", vol: 0.3 });
+      if (sh.shake) ev.push({ at, name: "rumble", vol: Math.min(0.32, 0.1 + sh.shake / 60) });
+    });
+  }
   for (const e of s.sfx ?? []) ev.push(e);
   return (
     <>

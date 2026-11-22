@@ -155,33 +155,35 @@ const Stamp: React.FC<{ text: string }> = ({ text }) => {
 };
 
 // TikTok-style captions: 3 words at a time, active word pops in yellow.
-export const Captions: React.FC<{ text: string }> = ({ text }) => {
+export const Captions: React.FC<{ text: string; words?: { w: string; t: number }[]; big?: boolean }> = ({ text, words: timed, big }) => {
   const frame = useCurrentFrame();
   const { durationInFrames, fps } = useVideoConfig();
-  const words = text.split(/\s+/).filter(Boolean);
+  const words = timed?.length ? timed.map((x) => x.w) : text.split(/\s+/).filter(Boolean);
   const weights = words.map((w) => w.length + 2);
   const total = weights.reduce((a, b) => a + b, 0);
   const speechEnd = durationInFrames - Math.round(0.35 * fps);
   let acc = 0;
-  const starts = weights.map((w) => {
-    const s = (acc / total) * speechEnd;
-    acc += w;
-    return s;
-  });
+  const starts = timed?.length
+    ? timed.map((x) => x.t * fps)
+    : weights.map((w) => {
+        const s = (acc / total) * speechEnd;
+        acc += w;
+        return s;
+      });
   let cur = 0;
   for (let i = 0; i < words.length; i++) if (frame >= starts[i]) cur = i;
-  const chunk = 3;
+  const chunk = big ? 2 : 3;
   const c0 = Math.floor(cur / chunk) * chunk;
   return (
     <div
       style={{
         position: "absolute",
-        top: 1180,
+        top: big ? 1150 : 1180,
         left: 50,
         right: 50,
         textAlign: "center",
         fontFamily: FONT_DISPLAY,
-        fontSize: 78,
+        fontSize: big ? 104 : 78,
         lineHeight: 1.1,
         wordSpacing: "0.2em",
         textTransform: "uppercase",

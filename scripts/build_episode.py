@@ -291,8 +291,47 @@ def make_long_music(seconds: float, out: Path, seed: int):
     subprocess.run(cmd, check=True)
 
 
-STORY_MIN = {"cartoon": 3.0, "title": 4.0, "landscape": 3.0, "map": 5.0, "stat": 3.5, "quote": 4.0, "compare": 4.0, "timeline": 6.0, "footage": 3.0}
+STORY_MIN = {"ai": 2.0, "cartoon": 3.0, "title": 4.0, "landscape": 3.0, "map": 5.0, "stat": 3.5, "quote": 4.0, "compare": 4.0, "timeline": 6.0, "footage": 3.0}
 MAX_MB = 95  # GitHub refuses files over 100 MB
+
+
+def gen_ai_images(ep: dict, adir: Path) -> None:
+    """VIRAL V3: generate (cached by prompt+seed) the AI images of "ai" scenes."""
+    import hashlib
+    eid = ep["id"]
+    jobs = []
+    for sc in ep["scenes"]:
+        for k, sh in enumerate(sc.get("shots") or []):
+            if not sh.get("prompt"):
+                continue
+            seed = int(sh.get("seed", 7 + k))
+            h = hashlib.sha1(f"{sh['prompt']}|{seed}".encode()).hexdigest()[:12]
+            out = adir / f"ai_{h}.jpg"
+            sh["img"] = f"episodes/{eid}/ai_{h}.jpg"
+            if not out.exists():
+                jobs.append({"prompt": sh["prompt"], "out": str(out), "seed": seed})
+    if not jobs:
+        return
+    jf = adir / "ai_jobs.json"
+    jf.write_text(json.dumps(jobs))
+    env = dict(os.environ, HF_HUB_DISABLE_XET="1")
+    print(f"generating {len(jobs)} AI images", flush=True)
+    subprocess.run(["/opt/sd/bin/python", str(ROOT / "scripts/gen_images.py"), str(jf)], check=True, env=env)
+
+
+def add_word_times(ep: dict) -> None:
+    """Captions follow the real voice: word start times from faster-whisper."""
+    jobs = [{"wav": str(ROOT / "public" / sc["audio"]), "text": sc["narration"]} for sc in ep["scenes"]]
+    jf = ROOT / "build" / f"{ep['id']}.words.json"
+    jf.write_text(json.dumps(jobs))
+    try:
+        r = subprocess.run(["/opt/cbx/venv/bin/python", str(ROOT / "scripts/word_times.py"), str(jf)],
+                           check=True, capture_output=True, text=True)
+        for sc, words in zip(ep["scenes"], json.loads(r.stdout.strip().splitlines()[-1])):
+            if words:
+                sc["words"] = words
+    except Exception as e:  # captions fall back to the estimated timing
+        print(f"word timing failed: {e}", flush=True)
 
 
 def build_story(ep: dict, adir: Path) -> None:
@@ -300,6 +339,7 @@ def build_story(ep: dict, adir: Path) -> None:
     eid = ep["id"]
     fps = 24
     total = 0
+    gen_ai_images(ep, adir)
     for i, sc in enumerate(ep["scenes"]):
         if sc.get("src", "").startswith("http"):
             clip = adir / f"clip{i}.mp4"
@@ -322,6 +362,8 @@ def build_story(ep: dict, adir: Path) -> None:
         total += sc["durationInFrames"]
     print(f"narration {total / fps / 60:.1f} min, {len(ep['scenes'])} scenes", flush=True)
     stop_tts()
+    if ep.get("vertical"):
+        add_word_times(ep)
     make_long_music(total / fps, adir / "music.wav", seed=sum(map(ord, eid)))
     ep["music"] = f"episodes/{eid}/music.wav"
     vertical = bool(ep.get("vertical"))
