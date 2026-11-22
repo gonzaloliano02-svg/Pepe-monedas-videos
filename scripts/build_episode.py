@@ -319,6 +319,40 @@ def gen_ai_images(ep: dict, adir: Path) -> None:
     subprocess.run(["/opt/sd/bin/python", str(ROOT / "scripts/gen_images.py"), str(jf)], check=True, env=env)
 
 
+def make_parallax_clips(ep: dict, adir: Path) -> None:
+    """VIRAL V3: each AI still becomes a moving 2.5D clip (depth parallax) of its exact length."""
+    import hashlib
+    jobs = []
+    for sc in ep["scenes"]:
+        shots = sc.get("shots") or []
+        if not shots or sc.get("noParallax"):
+            continue
+        total = sc["durationInFrames"]
+        w = [x.get("weight", 1) for x in shots]
+        tot_w = sum(w)
+        acc, starts = 0, []
+        for x in w:
+            starts.append(round(acc / tot_w * total))
+            acc += x
+        for k, sh in enumerate(shots):
+            if not sh.get("img"):
+                continue
+            n = (starts[k + 1] if k + 1 < len(shots) else total) - starts[k]
+            mv = sh.get("move", "in")
+            h = hashlib.sha1(f"{sh['img']}|{n}|{mv}".encode()).hexdigest()[:12]
+            out = adir / f"px_{h}.mp4"
+            sh["clip"] = f"episodes/{ep['id']}/px_{h}.mp4"
+            if not out.exists():
+                jobs.append({"img": str(ROOT / "public" / sh["img"]), "out": str(out), "frames": n, "move": mv})
+    if not jobs:
+        return
+    jf = adir / "px_jobs.json"
+    jf.write_text(json.dumps(jobs))
+    env = dict(os.environ, HF_HUB_DISABLE_XET="1")
+    print(f"parallax: {len(jobs)} clips", flush=True)
+    subprocess.run(["/opt/sd/bin/python", str(ROOT / "scripts/parallax.py"), str(jf)], check=True, env=env)
+
+
 def add_word_times(ep: dict) -> None:
     """Captions follow the real voice: word start times from faster-whisper."""
     jobs = [{"wav": str(ROOT / "public" / sc["audio"]), "text": sc["narration"]} for sc in ep["scenes"]]
@@ -364,6 +398,7 @@ def build_story(ep: dict, adir: Path) -> None:
     stop_tts()
     if ep.get("vertical"):
         add_word_times(ep)
+    make_parallax_clips(ep, adir)
     make_long_music(total / fps, adir / "music.wav", seed=sum(map(ord, eid)))
     ep["music"] = f"episodes/{eid}/music.wav"
     vertical = bool(ep.get("vertical"))

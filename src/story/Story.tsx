@@ -438,6 +438,7 @@ const TimelineScene: React.FC<{ s: StoryScene }> = ({ s }) => {
 export type AiShot = {
   prompt?: string; // generated at build time (SDXL-Turbo, local)
   img?: string; // set by the build
+  clip?: string; // 2.5D depth-parallax clip of the image, set by the build
   move?: "in" | "out" | "left" | "right" | "up" | "punch";
   label?: string; // big counter/label on top, e.g. "SEMANA 1", "24:00:00"
   shake?: number; // px of camera shake
@@ -477,7 +478,13 @@ const AiShotView: React.FC<{ sh: AiShot; len: number }> = ({ sh, len }) => {
   const lab = spring({ frame, fps, config: { damping: 11, stiffness: 200 } });
   return (
     <AbsoluteFill style={{ background: "#000", overflow: "hidden" }}>
-      {sh.img ? (
+      {sh.clip ? (
+        <OffthreadVideo
+          src={staticFile(sh.clip)}
+          muted
+          style={{ width: "100%", height: "100%", objectFit: "cover", transform: `translate(${jx}px, ${jy}px) scale(${1 + land + (mv === "punch" ? interpolate(frame, [0, 4], [0.3, 0], { extrapolateRight: "clamp" }) : 0)})`, filter: "contrast(1.06) saturate(1.12)" }}
+        />
+      ) : sh.img ? (
         <Img
           src={staticFile(sh.img)}
           style={{ width: "100%", height: "100%", objectFit: "cover", transform: `translate(${tx + jx}px, ${ty + jy}px) scale(${sc + land})`, filter: "contrast(1.06) saturate(1.12)" }}
