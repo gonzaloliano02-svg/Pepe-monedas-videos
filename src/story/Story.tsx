@@ -62,6 +62,9 @@ export type StoryScene = CartoonScene & {
   // timeline
   points?: { year: string; label: string; emoji?: string }[];
   noCaptions?: boolean;
+  // VIRAL V2: giant on-screen hook, fully visible from frame 0 (first scene of a Short)
+  hook?: string;
+  hookDur?: number; // seconds, default 1.8
   sfx?: SfxEvent[];
   noSfx?: boolean;
   // footage
@@ -449,11 +452,50 @@ const FootageScene: React.FC<{ s: StoryScene }> = ({ s }) => {
   );
 };
 
+// VIRAL V2 (2026-11-22): data showed ~50 % of Shorts viewers swipe in the first
+// seconds and frame 0 was black. The hook is a huge slammed-in claim that is
+// fully readable on the very first frame, shakes, then gets out of the way.
+const HookOverlay: React.FC<{ text: string; dur: number }> = ({ text, dur }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const end = Math.round(dur * fps);
+  if (frame > end + 8) return null;
+  const slam = interpolate(frame, [0, 5], [1.18, 1], { extrapolateRight: "clamp" });
+  const out = interpolate(frame, [end, end + 8], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const shake = frame < 10 ? Math.sin(frame * 2.3) * (10 - frame) * 1.6 : 0;
+  return (
+    <AbsoluteFill style={{ opacity: out }}>
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 42%, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.72) 75%)" }} />
+      <div
+        style={{
+          position: "absolute",
+          left: 54,
+          right: 54,
+          top: 560,
+          textAlign: "center",
+          fontFamily: FONT_DISPLAY,
+          fontSize: 118,
+          lineHeight: 0.98,
+          letterSpacing: -3,
+          textTransform: "uppercase",
+          color: "#fff",
+          WebkitTextStroke: "4px #000",
+          textShadow: "0 10px 0 #000, 0 18px 40px rgba(0,0,0,0.8)",
+          transform: `translateX(${shake}px) scale(${slam * (1 - (1 - out) * 0.25)})`,
+        }}
+      >
+        <Rich text={text} />
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const SceneView: React.FC<{ s: StoryScene }> = ({ s }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const V = useV();
-  const fade = Math.min(
+  // Shorts: hard cuts (no dip to black, never a black first frame). Long-form keeps the soft fade.
+  const fade = V ? 1 : Math.min(
     interpolate(frame, [0, 8], [0, 1], { extrapolateRight: "clamp" }),
     interpolate(frame, [durationInFrames - 8, durationInFrames], [1, 0], { extrapolateLeft: "clamp" }),
   );
@@ -500,6 +542,7 @@ const SceneView: React.FC<{ s: StoryScene }> = ({ s }) => {
     <AbsoluteFill style={{ background: "#000" }}>
       <AbsoluteFill style={{ opacity: fade }}>{body}</AbsoluteFill>
       {V && s.type !== "title" && !s.noCaptions ? <Captions text={s.narration} /> : null}
+      {s.hook ? <HookOverlay text={s.hook} dur={s.hookDur ?? 1.8} /> : null}
       {s.audio ? <Audio src={staticFile(s.audio)} /> : null}
       <SceneSfx s={s} />
     </AbsoluteFill>

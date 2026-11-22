@@ -18,6 +18,7 @@ type SceneLike = CartoonScene & {
   durationInFrames?: number;
   sfx?: SfxEvent[];
   noSfx?: boolean;
+  hook?: string;
 };
 
 const Shot: React.FC<SfxEvent> = ({ at, name, vol = 0.35, dur }) => {
@@ -82,6 +83,7 @@ export const SceneSfx: React.FC<{ s: SceneLike }> = ({ s }) => {
   const ev: SfxEvent[] = [];
   if (s.type === "title") ev.push({ at: 0.1, name: "hit", vol: 0.42 });
   else ev.push({ at: 0, name: "whoosh", vol: 0.2 });
+  if (s.hook) ev.push({ at: 0, name: "hit", vol: 0.5 }, { at: 0.02, name: "boom", vol: 0.22, dur: 1.2 });
   if (s.type === "stat") {
     ev.push({ at: 0.25, name: "count", vol: 0.22 });
     ev.push({ at: 2.0, name: "ding", vol: 0.28 });

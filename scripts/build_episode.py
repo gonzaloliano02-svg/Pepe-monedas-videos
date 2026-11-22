@@ -308,8 +308,17 @@ def build_story(ep: dict, adir: Path) -> None:
             sc["src"] = f"episodes/{eid}/clip{i}.mp4"
         wav = adir / f"s{i}.wav"
         secs = tts(sc["narration"], wav)
-        sc["durationInFrames"] = int(math.ceil(max(secs + 0.6, STORY_MIN[sc["type"]]) * fps))
         sc["audio"] = f"episodes/{eid}/s{i}.wav"
+        # VIRAL V2 (2026-11-22): Shorts talk faster and cut tighter (less dead air).
+        tempo = float(ep.get("tempo", 1.0))
+        if tempo != 1.0:
+            fast = adir / f"t{i}.wav"
+            if not fast.exists() or fast.stat().st_mtime < wav.stat().st_mtime:
+                subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(wav), "-af", f"atempo={tempo}", str(fast)], check=True)
+            secs = secs / tempo
+            sc["audio"] = f"episodes/{eid}/t{i}.wav"
+        pad = float(ep.get("scenePad", 0.6))
+        sc["durationInFrames"] = int(math.ceil(max(secs + pad, STORY_MIN[sc["type"]]) * fps))
         total += sc["durationInFrames"]
     print(f"narration {total / fps / 60:.1f} min, {len(ep['scenes'])} scenes", flush=True)
     stop_tts()

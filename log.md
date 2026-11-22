@@ -184,3 +184,10 @@
 - c 18:00 "Con la ceniza de este volcán cubrirías ESPAÑA entera 🌋" (44 s, teaser de L1): TikTok scheduled 17:00Z. Destino YouTube guardado para 2026-11-23 10:00: postId 9087bcae-848f-41d7-a76e-852aa8597329, publicationId 15ddb116-978e-419d-980c-25a88a580bc8 (prompt del trigger actualizado).
 - Problemas: reinicio del worker durante a (cola relanzada, TTS en caché); artefacto "¡Oto!" en b escena 3 recortado.
 - Dueño confirma: canal VERIFICADO (2026-11-22). Recordatorio de youtube.com/verify eliminado.
+
+### Revisión de viralidad (2026-11-22, petición del dueño)
+- YouTube 30 días: ~29.000 vistas desde el feed de Shorts, 1.222 desde búsqueda. Todos los Shorts se frenan en ~1.000.
+- engaged_views/views ≈ 0,50 (la mitad desliza en los primeros segundos); shares ≈ 0 (mejor: ADN, 9).
+- TikTok: tiempo medio visto 4–9 s en vídeos de 35–55 s; visto completo 1–4 %.
+- Vídeos largos: 1–13 vistas cada uno.
+- Causa principal: fotograma 0 en negro + 3 s de contexto lento. Arreglo: VIRAL V2 (gancho en pantalla desde el fotograma 0, cortes secos, narración +10 %, 22–35 s, final en bucle/pregunta). Ver PIPELINE.md.

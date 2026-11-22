@@ -352,3 +352,38 @@ Scheduled posts can now be changed or cancelled with vidiq_social_post_draft_upd
 ## YOUTUBE QUOTA (2026-11-21)
 vidIQ free plan: max 3 YouTube uploads per Pacific day (reset 08:00Z winter / 07:00Z summer = 09:00 Madrid). Uploads before the reset count for the previous day.
 Daily YouTube plan (all uploads after the reset): 10:00 = yesterday's 18:00 teaser (draft kept from the day before, only its YouTube publicationId left unpublished), 12:00 = Short b, 16:00 = L1. TikTok keeps a 10:00, b 12:00, c 18:00. Short a is TikTok-only. A paid vidIQ plan removes the limit.
+
+## VIRAL V2 (2026-11-22) — mandatory for every Short
+
+Data (Windsor, last 30 days): ~29,000 of our YouTube views come from the Shorts
+feed, but every Short stalls at ~1,000 views. Only ~50 % of views are "engaged"
+(half the people swipe in the first seconds), shares are ~0, and on TikTok the
+average watch is 4–9 s on 35–55 s videos (1–4 % watch to the end). Frame 0 was
+black (scene fade-in) and the first 3 s were calm context ("En África hay un lago
+con fama de…"). YouTube stops pushing a Short when the swipe rate is high, so the
+first second decides everything.
+
+Rules:
+1. **Frame 0 = the payoff.** Scene 0 has `"hook"`: the most shocking claim in 4–7
+   words, with one *highlighted* word (e.g. "Este lago convierte animales en
+   *PIEDRA*"). It is fully visible on frame 0 (HookOverlay, with hit + boom SFX).
+   Vertical scenes now use hard cuts (no black dips).
+2. **The first sentence SAYS the hook**, in ≤ 2 s, talking to "tú". Banned openers:
+   context/setup ("En África hay…", "Debajo de este parque…", "¿Sabías que…?").
+   Scene 0 must also show the payoff image BIG (not a tiny emoji).
+3. **Short and fast:** 22–35 s total, 5–6 scenes, each ≤ 4 s of new visual
+   information. Episode keys `"tempo": 1.1` (narration sped up 10 %) and
+   `"scenePad": 0.25` (less dead air).
+4. **Escalate:** every scene must top the previous one (bigger number, closer to
+   "tú", a twist). Put a twist/reveal at ~60 % of the video.
+5. **Ending that loops or asks:** either the last sentence runs straight into the
+   first one (replays count as views), or it ends with a yes/no or A/B question
+   that is easy to answer in a comment ("¿Te bañarías? Sí o no"). No long outro;
+   teasers keep "Vídeo completo en el canal" short (≤ 1.5 s).
+6. **Shareable angle:** prefer topics people send to a friend: about "tú"/your body,
+   Spain/Latin America comparisons, myths everyone believes, "would you…?".
+7. **Titles and captions start with the hook words.**
+8. **Measure:** in the daily data step, rank Shorts by engaged_views / views
+   (Windsor youtube, our "stayed to watch" proxy; target ≥ 0.60) and by TikTok
+   video_average_time_watched (target ≥ 8 s) and full-watch rate. Log which hook
+   styles win and do more of them.
