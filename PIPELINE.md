@@ -279,9 +279,9 @@ views, so:
   Shorts follow the normal formats.
 - **Daily summary must list "Vídeo relacionado"**: for each Short, which long
   video the owner should link with YouTube Studio's "Related video" option
-  (we cannot set it from here). Also remind the owner, until confirmed done,
-  to verify the channel (youtube.com/verify) so custom thumbnails apply, and
-  to add end screens to long videos.
+  (we cannot set it from here). Also remind the owner to add end screens to
+  long videos. The channel IS VERIFIED (owner confirmed 2026-11-22): do not
+  remind about youtube.com/verify any more; custom thumbnails apply.
 
 **VOICE UPDATE (owner, 2026-11-17): "muy animada"** = owner's animated recording
 voices/owner/ref_animado.wav (backup /root/.claude/voice-backup/ref_animado.wav),
