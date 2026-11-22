@@ -181,3 +181,5 @@
 - a 10:00 "El lago que convierte a los animales en PIEDRA 🦩 (Lago Natron)": TikTok scheduled 09:00Z (solo TikTok por la cuota de YouTube). QA ok. Reinicio del worker mató q22 durante el render; relanzado.
 - b 12:00 "Tu órgano MÁS GRANDE pesa 4 kilos… y lo llevas puesto 😳": YT https://www.youtube.com/watch?v=RM3ZvWNqENk (completed; subida YT 2/3) + TikTok scheduled 11:00Z. Fix: ruido "¡Oto!" recortado del audio de la escena 3 (ffmpeg) y re-render.
 - L1 16:00 "¿Qué pasaría si YELLOWSTONE entrara en erupción? (paso a paso)" (11:07, 55 escenas): YouTube https://www.youtube.com/watch?v=QsesiSScvio completed (subida 3/3), miniatura + 11 capítulos. postId eb0b8f61.
+- c 18:00 "Con la ceniza de este volcán cubrirías ESPAÑA entera 🌋" (44 s, teaser de L1): TikTok scheduled 17:00Z. Destino YouTube guardado para 2026-11-23 10:00: postId 9087bcae-848f-41d7-a76e-852aa8597329, publicationId 15ddb116-978e-419d-980c-25a88a580bc8 (prompt del trigger actualizado).
+- Problemas: reinicio del worker durante a (cola relanzada, TTS en caché); artefacto "¡Oto!" en b escena 3 recortado.
