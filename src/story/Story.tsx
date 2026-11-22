@@ -560,7 +560,7 @@ const HookOverlay: React.FC<{ text: string; dur: number }> = ({ text, dur }) => 
   const { fps } = useVideoConfig();
   const end = Math.round(dur * fps);
   if (frame > end + 8) return null;
-  const slam = interpolate(frame, [0, 5], [1.18, 1], { extrapolateRight: "clamp" });
+  const slam = interpolate(frame, [0, 5], [1.08, 1], { extrapolateRight: "clamp" });
   const out = interpolate(frame, [end, end + 8], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const shake = frame < 10 ? Math.sin(frame * 2.3) * (10 - frame) * 1.6 : 0;
   return (
@@ -574,7 +574,7 @@ const HookOverlay: React.FC<{ text: string; dur: number }> = ({ text, dur }) => 
           top: 560,
           textAlign: "center",
           fontFamily: FONT_DISPLAY,
-          fontSize: 118,
+          fontSize: 100,
           lineHeight: 0.98,
           letterSpacing: -3,
           textTransform: "uppercase",
@@ -644,7 +644,7 @@ const SceneView: React.FC<{ s: StoryScene }> = ({ s }) => {
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       <AbsoluteFill style={{ opacity: fade }}>{body}</AbsoluteFill>
-      {V && s.type !== "title" && !s.noCaptions ? <Captions text={s.narration} words={s.words} big={s.type === "ai"} /> : null}
+      {V && s.type !== "title" && !s.noCaptions ? <Captions text={s.narration} words={s.words} big={s.type === "ai"} from={s.hook ? Math.round((s.hookDur ?? 1.8) * 24) : 0} /> : null}
       {s.hook ? <HookOverlay text={s.hook} dur={s.hookDur ?? 1.8} /> : null}
       {s.audio ? <Audio src={staticFile(s.audio)} /> : null}
       <SceneSfx s={s} />

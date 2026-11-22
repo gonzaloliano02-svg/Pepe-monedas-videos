@@ -155,7 +155,7 @@ const Stamp: React.FC<{ text: string }> = ({ text }) => {
 };
 
 // TikTok-style captions: 3 words at a time, active word pops in yellow.
-export const Captions: React.FC<{ text: string; words?: { w: string; t: number }[]; big?: boolean }> = ({ text, words: timed, big }) => {
+export const Captions: React.FC<{ text: string; words?: { w: string; t: number }[]; big?: boolean; from?: number }> = ({ text, words: timed, big, from = 0 }) => {
   const frame = useCurrentFrame();
   const { durationInFrames, fps } = useVideoConfig();
   const words = timed?.length ? timed.map((x) => x.w) : text.split(/\s+/).filter(Boolean);
@@ -174,6 +174,11 @@ export const Captions: React.FC<{ text: string; words?: { w: string; t: number }
   for (let i = 0; i < words.length; i++) if (frame >= starts[i]) cur = i;
   const chunk = big ? 2 : 3;
   const c0 = Math.floor(cur / chunk) * chunk;
+  if (frame < from) return null;
+  // long words must fit the 980 px line (e.g. TELETRANSPORTADO)
+  const longest = Math.max(...words.slice(c0, c0 + chunk).map((w) => w.length), 1);
+  const base = big ? 104 : 78;
+  const fs = Math.min(base, Math.floor(1560 / longest));
   return (
     <div
       style={{
@@ -183,7 +188,7 @@ export const Captions: React.FC<{ text: string; words?: { w: string; t: number }
         right: 50,
         textAlign: "center",
         fontFamily: FONT_DISPLAY,
-        fontSize: big ? 104 : 78,
+        fontSize: fs,
         lineHeight: 1.1,
         wordSpacing: "0.2em",
         textTransform: "uppercase",
