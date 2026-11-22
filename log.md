@@ -196,3 +196,4 @@
 - Investigación (15 créditos vidIQ): outliers ES Shorts + TikTok. Patrón de los vídeos de 1–8 M en canales pequeños: imágenes 3D/Pixar con IA, mascota recurrente, contador de etapas (SEMANA 1…), escenarios absurdos/chorra o de supervivencia, 18–40 s, narrador rápido.
 - Nuevo motor: escenas "ai" con imágenes SDXL-Turbo generadas en local (gratis, ~16 s/imagen), corte cada ~2 s con sonido, subtítulos con tiempos reales (whisper), gancho en el fotograma 0. Mascota "Pepe".
 - Piloto "Vendo CHURROS en el Antiguo EGIPTO" (31 s): TikTok scheduled 20:00Z (postId f5f9f8fa). Comparar mañana con los Shorts antiguos.
+- Piloto rehecho con movimiento 3D de profundidad (parallax); TikTok re-programado 20:00Z (postId f5f9f8fa, nueva publicación 40b88650).

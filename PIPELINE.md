@@ -421,3 +421,11 @@ How we make it (free, local):
   /opt/cbx/venv/lib/python3.13/site-packages (reuses its torch), then
   `/opt/sd/bin/pip install -U diffusers transformers accelerate`; downloads need
   `HF_HUB_DISABLE_XET=1` (the xet CDN is blocked). Model cache ~7 GB: keep disk free.
+
+### V3 motion (2026-11-22)
+- Every AI still becomes a 2.5D clip (scripts/parallax.py: Depth-Anything-V2-Small depth +
+  OpenCV warp, ~5 s per clip, automatic in the build; `"noParallax": true` on a scene disables it).
+- Real AI video was tested: AnimateDiff-Lightning on this CPU works (~100 s per 2 s clip) but
+  the quality is far below the SDXL stills (low res, the mascot changes): not used. vidIQ video
+  generation costs ~160 credits per 8 s clip: not viable on the free plan. Real animated
+  clips (Kling/Wan/Veo-type) need a paid plan or API key: only if the owner decides to pay.
