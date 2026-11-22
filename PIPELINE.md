@@ -387,3 +387,37 @@ Rules:
    (Windsor youtube, our "stayed to watch" proxy; target ≥ 0.60) and by TikTok
    video_average_time_watched (target ≥ 8 s) and full-watch rate. Log which hook
    styles win and do more of them.
+
+## VIRAL V3 (2026-11-22) — new style for ALL Shorts (owner: "quiero muchísima más viralidad")
+
+Research (vidIQ outliers ES Shorts + TikTok outliers, 2026-11-22): the Spanish faceless
+Shorts that reach 1–8 M views from tiny channels (4–30 K subs) share:
+- **Look:** 3D / Pixar-style AI images or 3D characters (a recurring mascot), NOT flat
+  2D stick figures. Full-screen image, a new image every ~2 s, zooms, shakes.
+- **Formats:** (1) absurd "¿Qué pasaría si…?" with a visible transformation (Tierra de
+  diamantes, beber el océano); (2) time-progression stories with a big counter on top
+  ("SEMANA 1… SEMANA 2…", "DÍA 1", "24:00:00", "primeras 72 horas"); (3) chorra / silly
+  premises ("vendo tacos a los vikingos"); (4) survival scenarios (apagón mundial, sin
+  abejas 24 h); (5) "mándaselo a tu amigo que…" share bait; (6) "dato aterrador"/mystery.
+- **Length:** 18–40 s for the silly ones; survival/what-if up to 60–100 s if each beat escalates.
+- **Voice:** fast, energetic, comedic narrator; word-by-word big captions (2 words).
+- **Loop:** last line flows back into the first.
+
+How we make it (free, local):
+- Scene `"type": "ai"` with `"shots": [{"prompt", "move", "label", "shake", "seed"}]`
+  (2 shots per scene → a cut every ~2 s). The build generates each image with
+  SDXL-Turbo on CPU (scripts/gen_images.py, venv /opt/sd, ~16 s per image, cached by
+  prompt+seed), adds a whoosh on every cut, hit on "punch", pop on labels.
+- Captions use the REAL word timings (scripts/word_times.py, faster-whisper).
+- Episode keys: `"tempo": 1.15`, `"scenePad": 0.15`, scene 0 has `"hook"`.
+- **Mascot "Pepe"** (prompt: "a chubby bald cartoon man with round black glasses, blue
+  tank top and dark shorts"): the recurring protagonist of the silly/what-if Shorts
+  (the TikTok is @pepe.monedass). Same description every time for consistency.
+- Prompts in English, describe one clear action; never ask for text in the image.
+- Mix: a = chorra/absurd story with Pepe and stage counter; b = "¿qué pasaría si…?" /
+  survival with real science; c = teaser of the long video in the same AI-3D style.
+- Facts stay real: slip 1–2 true facts into the silly stories (credibility + shares).
+- Setup if the container is new: `python3 -m venv /opt/sd`, add a .pth pointing to
+  /opt/cbx/venv/lib/python3.13/site-packages (reuses its torch), then
+  `/opt/sd/bin/pip install -U diffusers transformers accelerate`; downloads need
+  `HF_HUB_DISABLE_XET=1` (the xet CDN is blocked). Model cache ~7 GB: keep disk free.
