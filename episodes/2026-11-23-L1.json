@@ -1,0 +1,865 @@
+{
+ "id": "2026-11-23-L1",
+ "format": "story",
+ "title": "¿Qué pasaría si te encogieras al tamaño de una HORMIGA? (con ciencia real)",
+ "description": "CHAPTERS",
+ "tags": [
+  "que pasaria si fueras del tamaño de una hormiga",
+  "tamaño de una hormiga",
+  "ley del cuadrado cubo",
+  "encogerse",
+  "que pasaria si",
+  "ciencia",
+  "curiosidades",
+  "escala",
+  "animacion"
+ ],
+ "thumbnail": {
+  "text": "¿Y si fueras una *HORMIGA*?",
+  "kicker": "Ciencia real",
+  "emoji": "🐜",
+  "env": "mountains",
+  "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant looking up scared at a gigantic ant towering over him, macro shot, giant grass and leaves around, shallow depth of field, dramatic",
+  "seed": 5
+ },
+ "scenes": [
+  {
+   "type": "ai",
+   "narration": "Imagina que te despiertas una mañana y todo es gigante. La cama es un campo de fútbol. El suelo, un desierto de polvo. Y una hormiga, del tamaño de un perro, te está mirando. Esta noche te has encogido al tamaño de una hormiga.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant waking up on a gigantic bed that looks like a football field, morning light",
+     "move": "punch",
+     "seed": 1000
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant face to face with a giant ant as big as a dog, on a kitchen floor, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1001
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Hoy vamos a ver, paso a paso y con ciencia de verdad, qué te pasaría. Por qué podrías caer desde un edificio sin hacerte nada, por qué una gota de agua podría matarte, y por qué tendrías hambre todo el rato.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant falling from a skyscraper roof smiling, city below",
+     "move": "in",
+     "seed": 1010
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant trapped inside a big water drop on a leaf, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1011
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Y al final, la pregunta que casi nadie se hace en las películas: con un cerebro tan pequeño, ¿seguirías siendo tú? Quédate hasta el final, porque la respuesta es bastante inquietante.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant scratching his head thinking, question marks, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "in",
+     "seed": 1020
+    },
+    {
+     "prompt": "a glowing tiny brain next to a giant human brain, dark background, dramatic",
+     "move": "punch",
+     "seed": 1021
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "text": "*Encogiendo*",
+   "kicker": "Capítulo 1",
+   "narration": "Primero, ¿cómo de pequeño serías?",
+   "bg": "land:forest"
+  },
+  {
+   "type": "ai",
+   "narration": "Una hormiga normal mide unos cinco milímetros. Tú mides alrededor de uno setenta y cinco. Para quedarte de su tamaño, tendrías que encogerte unas trescientas cincuenta veces.",
+   "shots": [
+    {
+     "prompt": "a measuring ruler next to an ant and a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "in",
+     "seed": 1040
+    },
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts at normal size looking down at his tiny shrunken self on the floor, funny",
+     "move": "out",
+     "seed": 1041
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Y aquí viene lo primero que sorprende. Si mides trescientas cincuenta veces menos, no pesas trescientas cincuenta veces menos. Pesas muchísimo menos, porque el peso depende del volumen, y el volumen se encoge en las tres dimensiones a la vez.",
+   "shots": [
+    {
+     "prompt": "a big wooden cube next to a tiny wooden cube on a scale, physics classroom, cartoon",
+     "move": "in",
+     "seed": 1050
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant standing on a kitchen scale showing zero, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1051
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Haz la cuenta: trescientas cincuenta por trescientas cincuenta por trescientas cincuenta. Unos cuarenta y tres millones. Si pesabas setenta kilos, ahora pesarías un par de miligramos. Más o menos lo mismo que una hormiga.",
+   "shots": [
+    {
+     "prompt": "a chalkboard full of math formulas in a classroom, cartoon style, no readable text",
+     "move": "in",
+     "seed": 1060
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant and an ant on the two plates of a tiny balance scale, perfectly balanced, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "seed": 1061
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Tu casa se convertiría en un país entero. Un paso tuyo de setenta centímetros equivaldría, para tu nuevo cuerpo, a cruzar una distancia de unos doscientos cincuenta metros. Ir del dormitorio a la cocina sería una expedición.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant with a backpack starting an expedition across a gigantic living room carpet",
+     "move": "in",
+     "seed": 1070
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant climbing over a giant shoe like a mountain, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1071
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Y cosas que ahora ni ves pasarían a ser enormes. Un grano de polen, que para ti es polvo, sería como una canica. Una pelusa del sofá, una nube. Una miga de galleta, una roca del tamaño de una maleta.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant holding a pollen grain as big as a marble, yellow pollen everywhere, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "in",
+     "seed": 1080
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant next to a giant cookie crumb as big as a suitcase, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "seed": 1081
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Y el suelo de tu casa, que parece liso, sería un paisaje lleno de grietas, pelos y polvo. Cada baldosa, una plaza. Cada junta entre baldosas, una zanja en la que podrías caerte.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant walking across a giant tiled floor with deep grooves between tiles, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "in",
+     "seed": 1090
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant jumping over a gap between two floor tiles, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1091
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "text": "Más *fuerte* que nunca",
+   "kicker": "Capítulo 2",
+   "narration": "Pero no todo son malas noticias. Al contrario.",
+   "bg": "land:forest"
+  },
+  {
+   "type": "ai",
+   "narration": "La fuerza de un músculo depende de su grosor, de su sección. Y la sección se encoge en dos dimensiones, no en tres. Así que tus músculos pierden mucha menos fuerza de la que pierde tu peso.",
+   "shots": [
+    {
+     "prompt": "a cartoon cross section of a muscle glowing, anatomy illustration, colorful",
+     "move": "in",
+     "seed": 1110
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant flexing his arms proudly, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "seed": 1111
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Resultado: comparado con tu peso, serías unas trescientas cincuenta veces más fuerte. Por eso las hormigas pueden cargar muchas veces su propio peso. No es que sean superhéroes. Es que son pequeñas.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant lifting a huge sugar cube over his head easily, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "seed": 1120
+    },
+    {
+     "prompt": "an ant carrying a big leaf many times its size, macro photography",
+     "move": "out",
+     "seed": 1121
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Podrías levantar una miga de pan como quien levanta una mochila, arrastrar un grano de arroz o mover una pieza de lego. Para tu tamaño, serías un culturista.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant dragging a giant grain of rice across a kitchen table, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "in",
+     "seed": 1130
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant pushing a giant toy brick, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1131
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "¿Y saltar? Aquí viene otra sorpresa. Haldane también se dio cuenta de que animales de tamaños muy distintos saltan, en metros, alturas parecidas. Si ahora saltas medio metro, encogido saltarías más o menos lo mismo. Pero para ti eso sería saltar cien veces tu altura.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant jumping very high over a giant cup, motion lines, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "seed": 1140
+    },
+    {
+     "prompt": "a grasshopper jumping high in the air over grass, macro photography",
+     "move": "out",
+     "seed": 1141
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Esto tiene un nombre. Se llama la ley del cuadrado y el cubo, y es la razón por la que no existen insectos del tamaño de un coche, ni gigantes de diez metros: se les romperían los huesos con su propio peso.",
+   "shots": [
+    {
+     "prompt": "a giant ant the size of a car collapsing under its own weight, cartoon, dramatic",
+     "move": "punch",
+     "seed": 1150
+    },
+    {
+     "prompt": "a ten meter tall cartoon giant whose legs are cracking, funny",
+     "move": "out",
+     "seed": 1151
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "text": "Caer *no duele*",
+   "kicker": "Capítulo 3",
+   "narration": "Y ahora, el superpoder más sorprendente.",
+   "bg": "land:forest"
+  },
+  {
+   "type": "ai",
+   "narration": "Imagina que te caes desde la mesa. Para ti, es como caer desde un rascacielos. Pero no te pasaría absolutamente nada.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant falling off the edge of a giant kitchen table, scared face",
+     "move": "in",
+     "seed": 1170
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant landing softly on the floor and giving a thumbs up, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "seed": 1171
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "¿Por qué? Cuando caes, el aire te frena. Ese frenado depende de tu superficie, y tu peso depende de tu volumen. Cuanto más pequeño eres, más te frena el aire en comparación, y menos velocidad alcanzas.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant floating down slowly like a feather, wind lines around, blue sky",
+     "move": "in",
+     "seed": 1180
+    },
+    {
+     "prompt": "a feather and a bowling ball falling side by side, cartoon physics",
+     "move": "out",
+     "seed": 1181
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "El biólogo J. B. S. Haldane lo explicó en 1926 con un ejemplo famoso: si tiras un ratón por un pozo de mina de mil metros, cuando llega abajo se lleva un buen susto y se va andando. Una rata se mataría. Un humano se rompería.",
+   "shots": [
+    {
+     "prompt": "a cute mouse walking away from the bottom of a deep mine shaft, cartoon, dim light",
+     "move": "out",
+     "seed": 1190
+    },
+    {
+     "prompt": "an old scientist with a mustache writing in a notebook, 1920s study room, cartoon",
+     "move": "in",
+     "seed": 1191
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Y cuanto más grande es el animal, peor le sienta la caída. Haldane terminaba la frase así: un caballo, directamente, se hace pedazos. Ser pequeño es como llevar un paracaídas incorporado.",
+   "shots": [
+    {
+     "prompt": "a cartoon horse looking scared at the edge of a cliff, funny",
+     "move": "in",
+     "seed": 1200
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant with a tiny parachute made of a leaf, floating, blue sky",
+     "move": "punch",
+     "seed": 1201
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Tú, del tamaño de una hormiga, podrías saltar desde lo alto de la Torre Eiffel y aterrizar sin un rasguño. Las hormigas caen de los árboles todo el rato y siguen caminando como si nada.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant jumping happily from the top of the Eiffel Tower, Paris below",
+     "move": "punch",
+     "seed": 1210
+    },
+    {
+     "prompt": "ants falling from a tree branch and landing safely on the ground, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1211
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "text": "El agua *mata*",
+   "kicker": "Capítulo 4",
+   "narration": "Pero ojo, porque lo que antes era inofensivo ahora puede matarte. Empezando por el agua.",
+   "bg": "land:forest"
+  },
+  {
+   "type": "ai",
+   "narration": "El agua tiene una especie de piel en la superficie: la tensión superficial. Para ti ahora no es nada. Pero para algo del tamaño de una hormiga, es una fuerza enorme.",
+   "shots": [
+    {
+     "prompt": "a macro shot of water drops on a green leaf, sunlight, glossy",
+     "move": "in",
+     "seed": 1230
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant poking a giant water drop that wobbles like jelly, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1231
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Si tocas una gota, se te pega como si fuera pegamento. Haldane lo decía así: si un humano sale de la bañera, lleva encima un poco de agua. Pero un insecto que se moja corre peligro de ahogarse, atrapado en la película de agua.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant stuck inside a big water drop, struggling, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "seed": 1240
+    },
+    {
+     "prompt": "a small insect trapped in a water drop on a leaf, macro photography",
+     "move": "out",
+     "seed": 1241
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Beber sería una pesadilla. No podrías usar un vaso: el agua se quedaría pegada a las paredes. Tendrías que acercarte a una gota con cuidado y sorber, como hacen los insectos.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant carefully sipping from the edge of a big water drop, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "in",
+     "seed": 1250
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant looking confused at a giant glass of water like a skyscraper",
+     "move": "out",
+     "seed": 1251
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "¿Y la lluvia? Una gota grande puede pesar decenas de veces más que tú. Sería como si te cayera encima un coche. Curiosamente, un estudio de 2012 vio que los mosquitos sobreviven a los golpes de lluvia porque son tan ligeros que la gota los arrastra en vez de aplastarlos.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant running away from falling giant raindrops, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "seed": 1260
+    },
+    {
+     "prompt": "a mosquito being hit by a raindrop in mid air, high speed macro photography",
+     "move": "out",
+     "seed": 1261
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "text": "Siempre *hambriento*",
+   "kicker": "Capítulo 5",
+   "narration": "Y luego está la comida. Y aquí la cosa se pone fea.",
+   "bg": "land:forest"
+  },
+  {
+   "type": "ai",
+   "narration": "Tu cuerpo produce calor por dentro, en todo su volumen. Pero lo pierde por la piel, por la superficie. Y cuanto más pequeño eres, más superficie tienes en comparación con tu volumen.",
+   "shots": [
+    {
+     "prompt": "an infrared heat camera view of a big warm body and a tiny warm body, cartoon",
+     "move": "in",
+     "seed": 1280
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant shivering with cold, hugging himself, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "seed": 1281
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Resultado: perderías calor a toda velocidad. Por eso los mamíferos más pequeños del mundo, como algunas musarañas, tienen que comer casi sin parar. Si dejan de comer unas horas, mueren.",
+   "shots": [
+    {
+     "prompt": "a tiny shrew eating a worm frantically, forest floor, macro photography",
+     "move": "in",
+     "seed": 1290
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant eating a giant crumb of bread desperately, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1291
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Tú tendrías que comer más o menos tu propio peso cada día. Vivirías persiguiendo migas. Y por la noche, cuando baja la temperatura, estarías en serio peligro de quedarte helado.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant sleeping next to a warm candle at night, cozy but tiny",
+     "move": "in",
+     "seed": 1300
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant chasing a rolling crumb on a giant table, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1301
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Los colibríes tienen el mismo problema. Gastan tanta energía que, por la noche, entran en una especie de hibernación exprés llamada letargo: bajan la temperatura del cuerpo y el ritmo del corazón para no quedarse sin reservas mientras duermen.",
+   "shots": [
+    {
+     "prompt": "a hummingbird sleeping on a thin branch at night, moonlight, macro photography",
+     "move": "in",
+     "seed": 1310
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant sleeping curled up inside a flower at night, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1311
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "text": "Ciego y *sin voz*",
+   "kicker": "Capítulo 6",
+   "narration": "Y aún hay más problemas. Los que casi nadie conoce.",
+   "bg": "land:forest"
+  },
+  {
+   "type": "ai",
+   "narration": "Tus ojos serían diminutos. Y la luz, al pasar por un agujero muy pequeño, se desparrama. Es un fenómeno llamado difracción. Con una pupila tan pequeña, lo verías casi todo muy borroso.",
+   "shots": [
+    {
+     "prompt": "a very blurry dreamy view of a giant kitchen, out of focus, cartoon",
+     "move": "in",
+     "seed": 1330
+    },
+    {
+     "prompt": "close up of a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant squinting his eyes with blurry vision, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "seed": 1331
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Por eso los insectos tienen ojos compuestos, con miles de pequeñas lentes. Para su tamaño, es una solución mejor que la nuestra.",
+   "shots": [
+    {
+     "prompt": "a macro photo of the compound eye of a fly, colorful, detailed",
+     "move": "in",
+     "seed": 1340
+    },
+    {
+     "prompt": "a cartoon ant with big shiny compound eyes looking at the camera, cute",
+     "move": "out",
+     "seed": 1341
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Y tu voz. Tus cuerdas vocales serían tan pequeñas que vibrarían rapidísimo. Tu voz sería tan aguda que probablemente nadie podría oírte. Podrías gritar pidiendo ayuda, y para los gigantes de alrededor sería silencio.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant shouting with hands around his mouth at a giant human foot, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "seed": 1350
+    },
+    {
+     "prompt": "a giant cartoon human eating breakfast calmly, unaware of anything, kitchen",
+     "move": "out",
+     "seed": 1351
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "text": "¿Seguirías *siendo tú*?",
+   "kicker": "Capítulo 7",
+   "narration": "Y ahora, la gran pregunta.",
+   "bg": "land:forest"
+  },
+  {
+   "type": "ai",
+   "narration": "Tu cerebro tiene unos ochenta y seis mil millones de neuronas. El de una hormiga, unas doscientas cincuenta mil. Si tu cerebro se encoge trescientas cincuenta veces, no caben todas esas neuronas.",
+   "shots": [
+    {
+     "prompt": "a glowing human brain made of millions of lights, dark background, cinematic",
+     "move": "in",
+     "seed": 1370
+    },
+    {
+     "prompt": "a tiny glowing ant brain next to a big glowing human brain, dark background",
+     "move": "punch",
+     "seed": 1371
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "O las neuronas se encogen también, y entonces ya no funcionarían, porque muchas piezas de las células no se pueden hacer más pequeñas. O pierdes la mayoría de ellas, y entonces ya no recordarías ni tu nombre.",
+   "shots": [
+    {
+     "prompt": "a cartoon microscope view of tiny neurons connecting with sparks",
+     "move": "in",
+     "seed": 1380
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant with an empty confused face, question marks above his head, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1381
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Aunque, ojo, con pocas neuronas también se hacen maravillas. En experimentos con dos caminos de distinta longitud hasta la comida, las colonias de hormigas acaban eligiendo el más corto gracias a sus rastros de olor. Tanto, que los informáticos copian su truco para calcular rutas: se llaman algoritmos de colonia de hormigas.",
+   "shots": [
+    {
+     "prompt": "two paths of ants leading to a sugar cube, one short and one long, top view, macro",
+     "move": "in",
+     "seed": 1390
+    },
+    {
+     "prompt": "a glowing digital map with routes calculated like ant trails, futuristic, cartoon",
+     "move": "out",
+     "seed": 1391
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Así que, siendo realistas, al encogerte dejarías de ser tú. Por eso, en las películas de gente diminuta, la física tiene que hacer trampas.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant looking at a giant mirror at his normal sized reflection, dramatic",
+     "move": "in",
+     "seed": 1400
+    },
+    {
+     "prompt": "a cartoon film clapperboard and popcorn, cinema, playful",
+     "move": "out",
+     "seed": 1401
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "text": "¿Y si te encoges *más*?",
+   "kicker": "Extra",
+   "narration": "Y una curiosidad extra: ¿qué pasaría si siguieras encogiéndote?",
+   "bg": "land:forest"
+  },
+  {
+   "type": "ai",
+   "narration": "Si llegaras al tamaño de una bacteria, unas mil veces más pequeño todavía, el agua se comportaría como miel espesa. A esa escala la inercia casi no importa: si dejas de nadar, te paras en seco al instante.",
+   "shots": [
+    {
+     "prompt": "a microscopic world with colorful bacteria swimming in thick liquid, cartoon microscope view",
+     "move": "in",
+     "seed": 1420
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant swimming slowly through thick honey-like water among bacteria, microscopic world",
+     "move": "punch",
+     "seed": 1421
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "El físico Edward Purcell lo explicó en 1976 en una charla famosa sobre la vida a muy pequeña escala: para una bacteria, nadar en agua es como para nosotros nadar en una piscina de melaza. Por eso las bacterias usan hélices en espiral para moverse.",
+   "shots": [
+    {
+     "prompt": "a cartoon bacterium with a spinning spiral tail swimming, colorful microscopic world",
+     "move": "in",
+     "seed": 1430
+    },
+    {
+     "prompt": "an old physicist giving a lecture with a blackboard, 1970s, cartoon",
+     "move": "out",
+     "seed": 1431
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "text": "Los *peligros*",
+   "kicker": "Capítulo 8",
+   "narration": "Pero imaginemos que sí sigues siendo tú. ¿Sobrevivirías un día?",
+   "bg": "land:forest"
+  },
+  {
+   "type": "ai",
+   "narration": "Las arañas, que para ti serían como dinosaurios. Los pájaros. Hasta las propias hormigas, que no son tan amistosas con los desconocidos: atacan a cualquier cosa que no huela como su colonia.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant running away from a huge spider, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "seed": 1450
+    },
+    {
+     "prompt": "a group of ants surrounding a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant aggressively, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1451
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Y es que las hormigas se comunican sobre todo con olores, con sustancias químicas llamadas feromonas. Así marcan caminos, avisan de peligros y reconocen a las de su colonia. Tú no olerías como ellas, así que serías un intruso.",
+   "shots": [
+    {
+     "prompt": "a line of ants following an invisible glowing trail on the ground, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "in",
+     "seed": 1460
+    },
+    {
+     "prompt": "an ant sniffing a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant suspiciously with its antennae, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "seed": 1461
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Lo bueno es que una colonia de hormigas es una ciudad increíble: tiene obreras, soldados, reina, almacenes de comida y hasta guarderías para las crías. Si consiguieras que te aceptaran, vivirías en una metrópolis subterránea.",
+   "shots": [
+    {
+     "prompt": "a cutaway view of an underground ant colony with tunnels and chambers, cartoon, detailed",
+     "move": "in",
+     "seed": 1470
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant exploring an underground ant tunnel with a torch, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1471
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Una aspiradora sería un tornado. Un estornudo, un huracán. Y alguien pisando el suelo, un terremoto.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant being sucked toward a gigantic vacuum cleaner like a tornado, dramatic",
+     "move": "punch",
+     "seed": 1480
+    },
+    {
+     "prompt": "a giant shoe stepping down next to a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1481
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Hasta tu mascota sería un monstruo. Un gato curioso, un dinosaurio con bigotes. Y un perro olfateándote, un dragón con aliento de huracán.",
+   "shots": [
+    {
+     "prompt": "a giant cat looking down curiously at a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant, dramatic low angle",
+     "move": "punch",
+     "seed": 1490
+    },
+    {
+     "prompt": "a giant dog nose sniffing a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1491
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Y salir a la calle sería una locura. Un coche pasando a tu lado levantaría un vendaval capaz de mandarte volando varios metros. Un charco, un lago. Y una alcantarilla, un abismo sin fondo.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant blown away by the wind of a passing car on a street, debris flying",
+     "move": "punch",
+     "seed": 1500
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant standing at the edge of a giant puddle like a lake, city street, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1501
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Eso sí, el mundo tendría una belleza que ahora no ves: las gotas de rocío brillando como bolas de cristal, los pétalos como alfombras de colores y los insectos como criaturas de otro planeta.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant admiring dew drops shining like crystal balls on grass at sunrise, magical, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "in",
+     "seed": 1510
+    },
+    {
+     "prompt": "a colorful beetle with shiny metallic shell, macro photography, beautiful",
+     "move": "out",
+     "seed": 1511
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Aunque también tendrías ventajas: podrías esconderte en cualquier rincón, viajar subido a un perro y vivir dentro de una caja de cerillas como si fuera un piso.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant riding on the back of a dog's head like a horse, happy",
+     "move": "in",
+     "seed": 1520
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant relaxing inside a matchbox furnished like a cozy apartment, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1521
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "text": "*Resumen*",
+   "kicker": "Final",
+   "narration": "Resumen rápido.",
+   "bg": "land:forest"
+  },
+  {
+   "type": "ai",
+   "narration": "Si te encogieras al tamaño de una hormiga, pesarías un par de miligramos, serías proporcionalmente muchísimo más fuerte y podrías caer desde un rascacielos sin hacerte nada.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant lifting a sugar cube triumphantly, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "in",
+     "seed": 1540
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant parachuting with a leaf from a building, happy",
+     "move": "out",
+     "seed": 1541
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Pero una gota de agua podría atraparte, tendrías que comer sin parar para no congelarte, verías borroso, nadie te oiría… y probablemente tu cerebro no daría para seguir siendo tú.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant stuck in a water drop, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "in",
+     "seed": 1550
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant shivering and eating a crumb at night, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 1551
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Lo más curioso es que nada de esto es ciencia ficción: es exactamente lo que viven cada día las hormigas, los mosquitos y las musarañas. Ellos ya viven en ese mundo. Nosotros solo somos los gigantes que no se enteran de nada.",
+   "shots": [
+    {
+     "prompt": "a giant human walking in a park, seen from the ground level of an ant, low angle macro",
+     "move": "in",
+     "seed": 1560
+    },
+    {
+     "prompt": "ants marching on a green leaf at sunset, macro photography, beautiful",
+     "move": "out",
+     "seed": 1561
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Así que dime en comentarios: si pudieras encogerte un solo día, ¿lo harías? Y si te ha gustado, suscríbete: aquí cada día hay un vídeo nuevo midiendo el mundo a escala brutal.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant waving goodbye standing on a giant coin, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "in",
+     "seed": 1570
+    },
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts at normal size waking up in bed relieved, morning light",
+     "move": "punch",
+     "seed": 1571
+    }
+   ]
+  }
+ ]
+}

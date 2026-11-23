@@ -45,6 +45,24 @@ only animal sizes. Mix formats every day.
 - Long-form gets 1–3 views: lean on current events (Voyager 1 a un día luz)
   and evergreen search titles (rankings of animals, places).
 
+## Weekly review 2026-11-23 — switch to VIRAL V3
+- Week (Windsor): every Short still stalls at ~800–1.050 views (cachalote, huesos,
+  sin dormir, coche-uña, parpadeo, Marte, espagueti); ~50 % engaged (half swipe
+  away in the first seconds), shares ~0. TikTok: 4–10 s average watch, 1.5–4 %
+  full watch. Long-form: 0–20 views each.
+- The topic is not the bottleneck: the look and the first second are. All Shorts
+  move to **VIRAL V3** (PIPELINE.md): AI 3D images with depth motion, mascot Pepe,
+  stage counters, giant hook on frame 0, 25–35 s, fast narrator.
+- First V3 data point: "Vendo CHURROS en el Antiguo EGIPTO" on TikTok: 9.8 s average
+  watch of 31 s and **8.95 % full watch** (old Shorts: 1.5–4 %).
+- New V3 series (rotate, keep what wins):
+  - **Pepe abre un negocio en otra época** (churros/Egipto, pizzería/Roma…), with
+    1–2 real historical facts.
+  - **Hora a hora / día a día** survival with real physiology (sin agua…).
+  - **¿Qué pasaría si…?** absurd with real science (encogerte, beber el océano…).
+  - **Teaser 3D** of the long video.
+- Long-form now also built mostly from AI 3D scenes (first: hormiga, 2026-11-23).
+
 ## Tested (waiting for data)
 - **Actualidad astronómica** (2026-11-16-c, Leónidas)
 

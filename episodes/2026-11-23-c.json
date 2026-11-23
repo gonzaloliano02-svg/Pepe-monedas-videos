@@ -1,0 +1,105 @@
+{
+ "id": "2026-11-23-c",
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "title": "Si fueras una HORMIGA podrías caer desde la TORRE EIFFEL 🐜",
+ "description": "Encogido al tamaño de una hormiga (unas 350 veces más pequeño) pesarías un par de miligramos: el aire te frenaría tanto que podrías caer desde cualquier altura sin hacerte daño, como ya explicó el biólogo J. B. S. Haldane en 1926. Pero la tensión superficial convertiría una gota de agua en una trampa, y perderías calor tan rápido que tendrías que comer sin parar.\n\nEL VÍDEO COMPLETO: L1LINK\n\nFuentes: J. B. S. Haldane, \"On Being the Right Size\" (1926); ley del cuadrado y el cubo. Cifras aproximadas. Video creado con ayuda de IA.",
+ "tags": [
+  "tamaño de una hormiga",
+  "que pasaria si",
+  "ciencia",
+  "curiosidades",
+  "escala",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "ai",
+   "hook": "Encogido como una HORMIGA… caes desde la *TORRE EIFFEL*",
+   "hookDur": 1.7,
+   "narration": "Si te encogieras al tamaño de una hormiga, podrías tirarte desde la Torre Eiffel… y no te pasaría nada.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant jumping happily from the top of the Eiffel Tower, Paris below",
+     "move": "punch",
+     "seed": 301
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant landing softly on the ground giving a thumbs up, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "in",
+     "seed": 302
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Pesarías un par de miligramos, como una hormiga. Y el aire te frenaría como un paracaídas.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant and an ant on a tiny balance scale perfectly balanced, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "label": "2 MG",
+     "seed": 311
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant floating down slowly with a leaf as a parachute, blue sky",
+     "move": "up",
+     "seed": 312
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Serías tan fuerte que levantarías un terrón de azúcar sobre la cabeza.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant lifting a huge sugar cube over his head, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "label": "x350 FUERZA",
+     "seed": 321
+    },
+    {
+     "prompt": "an ant carrying a big leaf many times its size, macro photography",
+     "move": "in",
+     "seed": 322
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Pero una simple gota de agua te atraparía como pegamento… y tendrías que comer tu propio peso cada día para no congelarte.",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant stuck inside a big water drop, struggling, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "punch",
+     "label": "PERO…",
+     "shake": 4,
+     "seed": 331
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant shivering and eating a giant bread crumb at night, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "in",
+     "seed": 332
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Y lo peor te lo cuento en el vídeo completo del canal. ¿Te encogerías un día?",
+   "shots": [
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant looking up scared at a gigantic ant towering over him, macro shot, giant grass and leaves around, shallow depth of field, dramatic",
+     "move": "punch",
+     "seed": 341
+    },
+    {
+     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant waving goodbye standing on a giant coin, macro shot, giant grass and leaves around, shallow depth of field",
+     "move": "out",
+     "seed": 342
+    }
+   ]
+  }
+ ]
+}

@@ -300,16 +300,24 @@ def gen_ai_images(ep: dict, adir: Path) -> None:
     import hashlib
     eid = ep["id"]
     jobs = []
+    size = {} if ep.get("vertical") else {"w": 1024, "h": 576, "W": 1920, "H": 1080}
+    th = ep.get("thumbnail") or {}
+    if th.get("prompt"):
+        h = hashlib.sha1(f"thumb|{th['prompt']}|{th.get('seed', 3)}".encode()).hexdigest()[:12]
+        out = adir / f"th_{h}.jpg"
+        th["img"] = f"episodes/{eid}/th_{h}.jpg"
+        if not out.exists():
+            jobs.append({"prompt": th["prompt"], "out": str(out), "seed": th.get("seed", 3), "w": 1024, "h": 576, "W": 1920, "H": 1080})
     for sc in ep["scenes"]:
         for k, sh in enumerate(sc.get("shots") or []):
             if not sh.get("prompt"):
                 continue
             seed = int(sh.get("seed", 7 + k))
-            h = hashlib.sha1(f"{sh['prompt']}|{seed}".encode()).hexdigest()[:12]
+            h = hashlib.sha1(f"{sh['prompt']}|{seed}{'' if ep.get('vertical') else '|L'}".encode()).hexdigest()[:12]
             out = adir / f"ai_{h}.jpg"
             sh["img"] = f"episodes/{eid}/ai_{h}.jpg"
             if not out.exists():
-                jobs.append({"prompt": sh["prompt"], "out": str(out), "seed": seed})
+                jobs.append({"prompt": sh["prompt"], "out": str(out), "seed": seed, **size})
     if not jobs:
         return
     jf = adir / "ai_jobs.json"

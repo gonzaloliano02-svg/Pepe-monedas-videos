@@ -86,7 +86,7 @@ export type StoryEpisode = {
   music?: string;
   musicVolume?: number;
   vertical?: boolean;
-  thumbnail?: { text: string; emoji: string; env: Env; kicker?: string } & CartoonScene;
+  thumbnail?: { text: string; emoji: string; env: Env; kicker?: string; img?: string; prompt?: string } & CartoonScene;
 };
 
 // vertical (1080x1920 Shorts) layout switch
@@ -709,11 +709,11 @@ export const StoryThumb: React.FC<StoryEpisode> = (ep) => {
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       <AbsoluteFill style={{ transform: "scale(1.0)" }}>
-        {th.bg ? <CartoonBackdrop bg={th.bg} seed="thumb" bh={th.bh} chalk={th.chalk} depth={th.depth} noGauge /> : <Landscape env={th.env} seed="thumb" />}
+        {th.img ? <Img src={staticFile(th.img)} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover" }} /> : th.bg ? <CartoonBackdrop bg={th.bg} seed="thumb" bh={th.bh} chalk={th.chalk} depth={th.depth} noGauge /> : <Landscape env={th.env} seed="thumb" />}
         {th.bg && th.fx?.length ? <CartoonFx fx={th.fx} focus={th.camera?.focus} /> : null}
       </AbsoluteFill>
       <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.35) 55%, transparent 80%)" }} />
-      {th.bg ? <ActorLayer actors={th.actors} /> : <img src={emojiUrl(th.emoji)} style={{ position: "absolute", right: 90, top: 150, width: 720, height: 720, filter: "drop-shadow(0 30px 40px rgba(0,0,0,0.6))" }} />}
+      {th.img ? null : th.bg ? <ActorLayer actors={th.actors} /> : <img src={emojiUrl(th.emoji)} style={{ position: "absolute", right: 90, top: 150, width: 720, height: 720, filter: "drop-shadow(0 30px 40px rgba(0,0,0,0.6))" }} />}
       <div style={{ position: "absolute", left: 90, top: 140, width: 1050, fontFamily: FONT_DISPLAY, fontSize: 150, lineHeight: 0.95, letterSpacing: -5, color: "#fff", textTransform: "uppercase", textShadow: "0 10px 30px rgba(0,0,0,0.8)" }}>
         {th.kicker ? <div style={{ fontFamily: FONT_MONO, fontSize: 52, letterSpacing: 10, color: C.accent, marginBottom: 20 }}>{th.kicker}</div> : null}
         <Rich text={th.text} />

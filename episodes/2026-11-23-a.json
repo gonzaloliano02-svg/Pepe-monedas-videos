@@ -1,0 +1,124 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-23-a",
+ "title": "Abro una PIZZERÍA en la Antigua ROMA 🍕🏛️",
+ "description": "Pepe vuelve a viajar en el tiempo con un negocio: esta vez, una pizzería en la Antigua Roma.\n\nDatos reales: el tomate es americano y no llegó a Europa hasta el siglo XVI; los romanos usaban garum, una salsa de pescado fermentado; en ciudades como Pompeya había decenas de termopolios, puestos de comida callejera; y los gladiadores comían sobre todo cebada y legumbres (los llamaban 'hordearii', comedores de cebada).\n\nHumor con datos históricos. Video creado con ayuda de IA.",
+ "tags": [
+  "antigua roma",
+  "pizza",
+  "humor",
+  "historia",
+  "viaje en el tiempo",
+  "que pasaria si"
+ ],
+ "scenes": [
+  {
+   "type": "ai",
+   "hook": "Abro una PIZZERÍA en la Antigua *ROMA*",
+   "hookDur": 1.6,
+   "narration": "Nuevo viaje en el tiempo: hoy abro una pizzería en la Antigua Roma.",
+   "shots": [
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts proudly standing next to a pizza oven stall, ancient Rome street, Colosseum in the background",
+     "move": "punch",
+     "label": "DÍA 1",
+     "seed": 111
+    },
+    {
+     "prompt": "close up of a chubby bald cartoon man with round black glasses, blue tank top and dark shorts tossing pizza dough in the air, curious romans in togas watching, ancient Rome street, Colosseum in the background",
+     "move": "in",
+     "seed": 112
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Primer problema: no hay tomate. Viene de América, y aquí no llegará hasta dentro de mil quinientos años.",
+   "shots": [
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts looking shocked at an empty vegetable basket, ancient roman market stalls",
+     "move": "punch",
+     "seed": 121
+    },
+    {
+     "prompt": "a roman merchant shrugging behind a market stall full of grapes, olives and bread, no tomatoes",
+     "move": "right",
+     "seed": 122
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Así que pizza con la salsa favorita de los romanos: garum. Pescado fermentado. Huele a puerto.",
+   "shots": [
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts holding his nose with disgust while pouring brown fish sauce from an amphora onto a pizza",
+     "move": "punch",
+     "label": "DÍA 3",
+     "seed": 131
+    },
+    {
+     "prompt": "roman citizens in togas sniffing the air with disgusted funny faces, ancient roman street",
+     "move": "in",
+     "shake": 3,
+     "seed": 132
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Pero sorpresa: a los romanos les encantaba comer en la calle. Tenían bares de comida rápida, los termopolios.",
+   "shots": [
+    {
+     "prompt": "an ancient roman street food counter with clay pots built into a stone bar, people eating, Pompeii street",
+     "move": "left",
+     "label": "SEMANA 1",
+     "seed": 141
+    },
+    {
+     "prompt": "a long queue of romans in togas waiting at a chubby bald cartoon man with round black glasses, blue tank top and dark shorts pizza stall, ancient Rome street, Colosseum in the background",
+     "move": "up",
+     "seed": 142
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Hasta que la prueba un gladiador. Ellos comían casi siempre cebada y legumbres, de verdad. Y pide cuarenta pizzas para el Coliseo.",
+   "shots": [
+    {
+     "prompt": "a muscular roman gladiator with helmet biting a slice of pizza with an amazed face, sparkles, arena",
+     "move": "punch",
+     "label": "SEMANA 2",
+     "seed": 151
+    },
+    {
+     "prompt": "a huge stack of pizzas in the middle of the roman Colosseum arena, crowd cheering, epic",
+     "move": "out",
+     "shake": 5,
+     "seed": 152
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Ahora el César me paga en sestercios… y sigo sin tomate. ¿A qué época me llevo el próximo negocio?",
+   "shots": [
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts wearing a golden laurel wreath and a white toga, eating pizza on a marble throne, roman palace",
+     "move": "punch",
+     "label": "FINAL",
+     "seed": 161
+    },
+    {
+     "prompt": "the roman Colosseum at sunset with a giant pizza on top of it, epic cinematic",
+     "move": "out",
+     "seed": 162
+    }
+   ]
+  }
+ ]
+}

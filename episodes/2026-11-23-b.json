@@ -1,0 +1,125 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-23-b",
+ "title": "Dejo de beber AGUA… hora a hora 💧😵",
+ "description": "¿Qué le pasa a tu cuerpo si dejas de beber agua? Con perder solo un 1–2 % del agua corporal ya aparece la sed y empeora la concentración; después llegan el dolor de cabeza, el cansancio y la orina oscura (los riñones ahorran agua); luego mareos, pulso acelerado y sangre más espesa. Sin agua, la mayoría de las personas no sobrevive más que unos pocos días, menos con calor o ejercicio. El récord citado por Guinness: Andreas Mihavecz, olvidado en una celda en Austria en 1979, unos 18 días.\n\nNo lo intentes: bebe agua. Cifras aproximadas, varían según la persona y el clima. Video creado con ayuda de IA.",
+ "tags": [
+  "que pasa si no bebes agua",
+  "deshidratacion",
+  "cuerpo humano",
+  "agua",
+  "curiosidades",
+  "hora a hora"
+ ],
+ "scenes": [
+  {
+   "type": "ai",
+   "hook": "Dejo de beber AGUA… *hora a hora*",
+   "hookDur": 1.6,
+   "narration": "Reto: dejo de beber agua. A ver cuánto aguanta mi cuerpo.",
+   "shots": [
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts confidently pushing away a glass of water with his hand, sunny kitchen",
+     "move": "punch",
+     "label": "HORA 1",
+     "seed": 211
+    },
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts walking in a hot sunny city street, sun shining strongly",
+     "move": "in",
+     "seed": 212
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "A las pocas horas, la sed. Con perder solo un dos por ciento del agua del cuerpo, ya te concentras peor.",
+   "shots": [
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts sweating at an office desk, looking confused at a computer screen",
+     "move": "punch",
+     "label": "HORA 8",
+     "seed": 221
+    },
+    {
+     "prompt": "close up of a chubby bald cartoon man with round black glasses, blue tank top and dark shorts with dry cracked lips staring at a water bottle",
+     "move": "in",
+     "seed": 222
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Día uno: dolor de cabeza, cansancio, y los riñones empiezan a ahorrar cada gota. La orina se vuelve oscura.",
+   "shots": [
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts holding his head in pain with a headache, dramatic light",
+     "move": "punch",
+     "label": "DÍA 1",
+     "seed": 231
+    },
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts lying exhausted on a sofa, very tired face",
+     "move": "out",
+     "seed": 232
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Día dos: mareos, el corazón va más rápido y la sangre se vuelve más espesa.",
+   "shots": [
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts dizzy with spiral eyes, stars spinning around his head",
+     "move": "punch",
+     "label": "DÍA 2",
+     "shake": 6,
+     "seed": 241
+    },
+    {
+     "prompt": "a glowing cartoon human heart beating fast, red light, dramatic",
+     "move": "in",
+     "shake": 3,
+     "seed": 242
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "Día tres: confusión. Sin agua, la mayoría de la gente no pasa de unos pocos días, y menos con calor.",
+   "shots": [
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts crawling in the hot desert sand seeing a mirage of a water fountain",
+     "move": "punch",
+     "label": "DÍA 3",
+     "seed": 251
+    },
+    {
+     "prompt": "vultures sitting on a dry dead tree in a hot desert, waiting, funny",
+     "move": "out",
+     "seed": 252
+    }
+   ]
+  },
+  {
+   "type": "ai",
+   "narration": "El récord: un chico olvidado en una celda en Austria, en 1979. Aguantó unos dieciocho días, lamiendo la humedad de las paredes. ¿Y tú, cuánto aguantarías?",
+   "shots": [
+    {
+     "prompt": "an old empty prison cell with water drops condensing on the stone wall, dim light",
+     "move": "in",
+     "label": "RÉCORD",
+     "seed": 261
+    },
+    {
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts drinking a gigantic glass of water with huge relief, water splashing",
+     "move": "punch",
+     "seed": 262
+    }
+   ]
+  }
+ ]
+}
