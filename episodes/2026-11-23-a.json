@@ -22,7 +22,7 @@
    "narration": "Nuevo viaje en el tiempo: hoy abro una pizzería en la Antigua Roma.",
    "shots": [
     {
-     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts proudly standing next to a pizza oven stall, ancient Rome street, Colosseum in the background",
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts proudly standing next to a pizza oven stall selling white pizza bianca with melted cheese and green herbs, no red sauce, ancient Rome street, Colosseum in the background",
      "move": "punch",
      "label": "DÍA 1",
      "seed": 111
@@ -79,7 +79,7 @@
      "seed": 141
     },
     {
-     "prompt": "a long queue of romans in togas waiting at a chubby bald cartoon man with round black glasses, blue tank top and dark shorts pizza stall, ancient Rome street, Colosseum in the background",
+     "prompt": "a long queue of romans in togas waiting at a chubby bald cartoon man with round black glasses, blue tank top and dark shorts pizza stall, white pizza bianca with melted cheese and green herbs, no red sauce, ancient Rome street, Colosseum in the background",
      "move": "up",
      "seed": 142
     }
@@ -90,13 +90,13 @@
    "narration": "Hasta que la prueba un gladiador. Ellos comían casi siempre cebada y legumbres, de verdad. Y pide cuarenta pizzas para el Coliseo.",
    "shots": [
     {
-     "prompt": "a muscular roman gladiator with helmet biting a slice of pizza with an amazed face, sparkles, arena",
+     "prompt": "a muscular roman gladiator with helmet biting a slice of white pizza bianca with melted cheese and green herbs, no red sauce with an amazed face, sparkles, arena",
      "move": "punch",
      "label": "SEMANA 2",
      "seed": 151
     },
     {
-     "prompt": "a huge stack of pizzas in the middle of the roman Colosseum arena, crowd cheering, epic",
+     "prompt": "a huge stack of white pizzas in the middle of the roman Colosseum arena, crowd cheering, epic",
      "move": "out",
      "shake": 5,
      "seed": 152
@@ -108,13 +108,13 @@
    "narration": "Ahora el César me paga en sestercios… y sigo sin tomate. ¿A qué época me llevo el próximo negocio?",
    "shots": [
     {
-     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts wearing a golden laurel wreath and a white toga, eating pizza on a marble throne, roman palace",
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts wearing a golden laurel wreath and a white toga, eating a white pizza bianca with melted cheese and green herbs, no red sauce on a marble throne, roman palace",
      "move": "punch",
      "label": "FINAL",
      "seed": 161
     },
     {
-     "prompt": "the roman Colosseum at sunset with a giant pizza on top of it, epic cinematic",
+     "prompt": "the roman Colosseum at sunset with a giant white pizza bianca with melted cheese and green herbs, no red sauce on top of it, epic cinematic",
      "move": "out",
      "seed": 162
     }
