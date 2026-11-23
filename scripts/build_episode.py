@@ -300,20 +300,20 @@ def gen_ai_images(ep: dict, adir: Path) -> None:
     import hashlib
     eid = ep["id"]
     jobs = []
-    size = {} if ep.get("vertical") else {"w": 1024, "h": 576, "W": 1920, "H": 1080}
+    size = {} if ep.get("vertical") else {"w": 896, "h": 512, "W": 1920, "H": 1080}
     th = ep.get("thumbnail") or {}
     if th.get("prompt"):
-        h = hashlib.sha1(f"thumb|{th['prompt']}|{th.get('seed', 3)}".encode()).hexdigest()[:12]
+        h = hashlib.sha1(f"thumb|{th['prompt']}|{th.get('seed', 3)}|v2".encode()).hexdigest()[:12]
         out = adir / f"th_{h}.jpg"
         th["img"] = f"episodes/{eid}/th_{h}.jpg"
         if not out.exists():
-            jobs.append({"prompt": th["prompt"], "out": str(out), "seed": th.get("seed", 3), "w": 1024, "h": 576, "W": 1920, "H": 1080})
+            jobs.append({"prompt": th["prompt"], "out": str(out), "seed": th.get("seed", 3), "w": 896, "h": 512, "W": 1920, "H": 1080})
     for sc in ep["scenes"]:
         for k, sh in enumerate(sc.get("shots") or []):
             if not sh.get("prompt"):
                 continue
             seed = int(sh.get("seed", 7 + k))
-            h = hashlib.sha1(f"{sh['prompt']}|{seed}{'' if ep.get('vertical') else '|L'}".encode()).hexdigest()[:12]
+            h = hashlib.sha1(f"{sh['prompt']}|{seed}{'' if ep.get('vertical') else '|L'}|v2".encode()).hexdigest()[:12]
             out = adir / f"ai_{h}.jpg"
             sh["img"] = f"episodes/{eid}/ai_{h}.jpg"
             if not out.exists():
@@ -492,5 +492,52 @@ def main(path: str):
     print(f"OK {out} {total / FPS:.1f}s")
 
 
+def images_only(path: str):
+    """Review step (2026-11-23): generate only the AI images and a numbered contact sheet
+    build/<id>-ai_sheet.jpg. Label "s.k" = scene s, shot k. Fix a bad image (extra arms, two
+    heads, human-animal hybrid) by changing that shot's "seed" (or its prompt) and re-running."""
+    ep = json.loads(Path(path).read_text())
+    adir = ROOT / "public" / "episodes" / ep["id"]
+    adir.mkdir(parents=True, exist_ok=True)
+    gen_ai_images(ep, adir)
+    items = [(f"{i}.{k}", ROOT / "public" / sh["img"]) for i, sc in enumerate(ep["scenes"])
+             for k, sh in enumerate(sc.get("shots") or []) if sh.get("img")]
+    th = ep.get("thumbnail") or {}
+    if th.get("img"):
+        items.append(("thumb", ROOT / "public" / th["img"]))
+    sheet = ROOT / "build" / f"{ep['id']}-ai_sheet.jpg"
+    subprocess.run(["/opt/sd/bin/python", "-c", SHEET_PY, str(sheet), json.dumps([[a, str(b)] for a, b in items])], check=True)
+    print(f"SHEET {sheet} ({len(items)} images)", flush=True)
+
+
+SHEET_PY = r"""
+import sys, json
+from PIL import Image, ImageDraw, ImageFont
+out, items = sys.argv[1], json.loads(sys.argv[2])
+cw, cols = 300, 8
+ims = []
+for lab, f in items:
+    im = Image.open(f); im.thumbnail((cw, cw * 2)); ims.append((lab, im))
+ch = max(i.height for _, i in ims)
+cw = max(i.width for _, i in ims)
+rows = (len(ims) + cols - 1) // cols
+sh = Image.new("RGB", (cols * cw, rows * ch), "black")
+d = ImageDraw.Draw(sh)
+try:
+    font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 28)
+except OSError:
+    font = ImageFont.load_default()
+for n, (lab, im) in enumerate(ims):
+    x, y = n % cols * cw, n // cols * ch
+    sh.paste(im, (x, y))
+    d.rectangle([x, y, x + 90, y + 36], fill="black")
+    d.text((x + 6, y + 3), lab, fill="yellow", font=font)
+sh.save(out, quality=85)
+"""
+
+
 if __name__ == "__main__":
-    main(sys.argv[1])
+    if "--images" in sys.argv:
+        images_only(sys.argv[1])
+    else:
+        main(sys.argv[1])

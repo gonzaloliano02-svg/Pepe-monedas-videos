@@ -406,7 +406,7 @@ Shorts that reach 1–8 M views from tiny channels (4–30 K subs) share:
 How we make it (free, local):
 - Scene `"type": "ai"` with `"shots": [{"prompt", "move", "label", "shake", "seed"}]`
   (2 shots per scene → a cut every ~2 s). The build generates each image with
-  SDXL-Turbo on CPU (scripts/gen_images.py, venv /opt/sd, ~16 s per image, cached by
+  SDXL-Turbo on CPU (scripts/gen_images.py, venv /opt/sd, ~14 s per image, cached by
   prompt+seed), adds a whoosh on every cut, hit on "punch", pop on labels.
 - Captions use the REAL word timings (scripts/word_times.py, faster-whisper).
 - Episode keys: `"tempo": 1.15`, `"scenePad": 0.15`, scene 0 has `"hook"`.
@@ -421,6 +421,22 @@ How we make it (free, local):
   /opt/cbx/venv/lib/python3.13/site-packages (reuses its torch), then
   `/opt/sd/bin/pip install -U diffusers transformers accelerate`; downloads need
   `HF_HUB_DISABLE_XET=1` (the xet CDN is blocked). Model cache ~7 GB: keep disk free.
+
+### V3 image quality (2026-11-23, owner: figures "súper poco realistas… tres brazos")
+Cause: SDXL-Turbo was trained at 512 px; at 576x1024/1024x576 with 2 steps it duplicated
+limbs, heads and whole characters, and fused Pepe with animals. Fixed in the build:
+- Generate at 512x896 (vertical) / 896x512 (landscape), 4 steps, short style string
+  (CLIP reads only 77 tokens). Then upscale. Same ~14 s per image.
+- **Prompt rules:** start with the Pepe description, then "full body," and ONE action.
+  Keep it under ~40 words. NEVER describe Pepe's size with an animal ("the size of an ant",
+  "ant-sized") — the model turns him into a man-ant hybrid; show scale with giant objects
+  around him (giant grass, a sugar cube as big as him). At most 2 subjects per image; an
+  animal is described on its own ("a huge black ant on the left").
+- **Mandatory review before every build:** `python3 scripts/build_episode.py ep.json --images`
+  generates only the images and the numbered sheet `build/<id>-ai_sheet.jpg` (label s.k =
+  scene s, shot k). Look at it; for every image with extra/missing limbs, two heads, merged
+  characters, hybrids or nonsense, change that shot's "seed" (or simplify its prompt) and
+  re-run until clean. Only then run the full build (images are cached).
 
 ### V3 motion (2026-11-22)
 - Every AI still becomes a 2.5D clip (scripts/parallax.py: Depth-Anything-V2-Small depth +
