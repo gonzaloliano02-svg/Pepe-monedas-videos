@@ -22,12 +22,12 @@
    "narration": "Si te encogieras al tamaño de una hormiga, podrías tirarte desde la Torre Eiffel… y no te pasaría nada.",
    "shots": [
     {
-     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant jumping happily from the top of the Eiffel Tower, Paris below",
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, full body, jumping happily off the top of the Eiffel Tower, Paris far below",
      "move": "punch",
      "seed": 301
     },
     {
-     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant landing softly on the ground giving a thumbs up, macro shot, giant grass and leaves around, shallow depth of field",
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, full body, landing softly among giant blades of grass, giving a thumbs up",
      "move": "in",
      "seed": 302
     }
@@ -38,13 +38,13 @@
    "narration": "Pesarías un par de miligramos, como una hormiga. Y el aire te frenaría como un paracaídas.",
    "shots": [
     {
-     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant and an ant on a tiny balance scale perfectly balanced, macro shot, giant grass and leaves around, shallow depth of field",
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, full body, standing on a big silver kitchen scale, smiling, giant grass",
      "move": "punch",
      "label": "2 MG",
-     "seed": 311
+     "seed": 1311
     },
     {
-     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant floating down slowly with a leaf as a parachute, blue sky",
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, full body, floating down slowly holding a green leaf like a parachute, blue sky",
      "move": "up",
      "seed": 312
     }
@@ -55,13 +55,13 @@
    "narration": "Serías tan fuerte que levantarías un terrón de azúcar sobre la cabeza.",
    "shots": [
     {
-     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant lifting a huge sugar cube over his head, macro shot, giant grass and leaves around, shallow depth of field",
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, full body, holding a white sugar cube above his head with both arms, strong pose, grass",
      "move": "punch",
      "label": "x350 FUERZA",
-     "seed": 321
+     "seed": 1321
     },
     {
-     "prompt": "an ant carrying a big leaf many times its size, macro photography",
+     "prompt": "an ant carrying a big green leaf many times its size, macro photography",
      "move": "in",
      "seed": 322
     }
@@ -72,14 +72,14 @@
    "narration": "Pero una simple gota de agua te atraparía como pegamento… y tendrías que comer tu propio peso cada día para no congelarte.",
    "shots": [
     {
-     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant stuck inside a big water drop, struggling, macro shot, giant grass and leaves around, shallow depth of field",
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, trapped inside a giant shiny water drop on a leaf, struggling",
      "move": "punch",
      "label": "PERO…",
      "shake": 4,
      "seed": 331
     },
     {
-     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant shivering and eating a giant bread crumb at night, macro shot, giant grass and leaves around, shallow depth of field",
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, full body, shivering at night, eating a giant bread crumb, giant grass",
      "move": "in",
      "seed": 332
     }
@@ -90,12 +90,12 @@
    "narration": "Y lo peor te lo cuento en el vídeo completo del canal. ¿Te encogerías un día?",
    "shots": [
     {
-     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant looking up scared at a gigantic ant towering over him, macro shot, giant grass and leaves around, shallow depth of field, dramatic",
+     "prompt": "a huge black ant towering in the foreground, giant grass, low angle, dramatic",
      "move": "punch",
      "seed": 341
     },
     {
-     "prompt": "a tiny a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, the size of an ant waving goodbye standing on a giant coin, macro shot, giant grass and leaves around, shallow depth of field",
+     "prompt": "a chubby bald cartoon man with round black glasses, blue tank top and dark shorts, full body, waving goodbye, standing on a giant shiny coin, giant grass",
      "move": "out",
      "seed": 342
     }
