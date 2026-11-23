@@ -206,3 +206,5 @@
 - Elección: a = serie "Pepe abre un negocio" ep. 2 (pizzería en Roma); b = supervivencia "sin agua hora a hora"; L1 = "¿y si te encogieras al tamaño de una hormiga?" (todo escenas 3D IA, 58 escenas, 96 imágenes); c = teaser hormiga.
 - a 10:00 "Abro una PIZZERÍA en la Antigua ROMA 🍕🏛️" (34 s): TikTok scheduled 09:00Z (postId ceee86a7). Fix: pizzas sin tomate en las imágenes (prompts "bianca") y re-render.
 - b 12:00 "Dejo de beber AGUA… hora a hora 💧😵" (36 s): TikTok scheduled 11:00Z; YouTube pendiente de publicar tras las 08:00Z (postId bd8cae7b, publicationId YT cd11a8e6).
+- YT 10:00 teaser Yellowstone de ayer: https://www.youtube.com/watch?v=HH6GyKdMuBE (completed; subida 1/3, tras el reinicio de las 08:00Z; el publishAt se había perdido en el borrador y se volvió a poner).
+- b YT 12:00: https://www.youtube.com/watch?v=myFv0PELJW0 (completed; subida 2/3).
