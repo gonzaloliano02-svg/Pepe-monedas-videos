@@ -2,6 +2,7 @@ import { Composition } from "remotion";
 import { Scale3D } from "./three/Scale3D";
 import { Avatar } from "./three/Avatar";
 import { Mascot } from "./three/Mascot";
+import { LowPolyPilot } from "./lowpoly/LowPoly";
 import { LogoA, LogoB } from "./Logo";
 import { Short } from "./Short";
 import { Doc, type DocEpisode } from "./Doc";
@@ -16,6 +17,7 @@ export const RemotionRoot: React.FC = () => {
     <Composition id="LogoB" component={LogoB} width={1080} height={1080} fps={30} durationInFrames={1} />
     <Composition id="Mascot" component={Mascot} width={1080} height={1080} fps={30} durationInFrames={1} />
     <Composition id="Avatar" component={Avatar} width={1080} height={1080} fps={30} durationInFrames={1} />
+    <Composition id="LowPolyPilot" component={LowPolyPilot} width={1080} height={1920} fps={30} durationInFrames={480} />
     <Composition
       id="Test3D"
       component={Scale3D}
