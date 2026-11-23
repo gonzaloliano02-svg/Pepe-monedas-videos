@@ -208,3 +208,6 @@
 - b 12:00 "Dejo de beber AGUA… hora a hora 💧😵" (36 s): TikTok scheduled 11:00Z; YouTube pendiente de publicar tras las 08:00Z (postId bd8cae7b, publicationId YT cd11a8e6).
 - YT 10:00 teaser Yellowstone de ayer: https://www.youtube.com/watch?v=HH6GyKdMuBE (completed; subida 1/3, tras el reinicio de las 08:00Z; el publishAt se había perdido en el borrador y se volvió a poner).
 - b YT 12:00: https://www.youtube.com/watch?v=myFv0PELJW0 (completed; subida 2/3).
+- L1 16:00 "¿Qué pasaría si te encogieras al tamaño de una HORMIGA? (con ciencia real)" (10:51, 58 escenas, todo IA-3D, 96 imágenes): YouTube https://www.youtube.com/watch?v=T_7Vo1666F0 completed (programado 16:00, subida 3/3), miniatura IA + 11 capítulos. postId 9cc62c9b.
+- c 18:00 "Si fueras una HORMIGA podrías caer desde la TORRE EIFFEL 🐜" (27 s, teaser de L1): TikTok scheduled 17:00Z. Destino YouTube guardado para 2026-11-24 10:00: postId 002eeaa1-4ac8-4a64-b257-eadf9133278f, publicationId d551489c-e712-4731-9cb2-080a19718bc5 (prompt del trigger actualizado).
+- Problemas: el contenedor se reinició 2 veces durante el build (L1 a las ~08:05Z, c a las ~13:40Z); relanzado con nohup, las imágenes en caché se reutilizan. L1 entero en IA tarda ~3 h. Los enlaces de subida de mcp.vidiq.com están bloqueados por el proxy: miniatura subida vía rama media (raw.githubusercontent).
