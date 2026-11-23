@@ -197,3 +197,12 @@
 - Nuevo motor: escenas "ai" con imágenes SDXL-Turbo generadas en local (gratis, ~16 s/imagen), corte cada ~2 s con sonido, subtítulos con tiempos reales (whisper), gancho en el fotograma 0. Mascota "Pepe".
 - Piloto "Vendo CHURROS en el Antiguo EGIPTO" (31 s): TikTok scheduled 20:00Z (postId f5f9f8fa). Comparar mañana con los Shorts antiguos.
 - Piloto rehecho con movimiento 3D de profundidad (parallax); TikTok re-programado 20:00Z (postId f5f9f8fa, nueva publicación 40b88650).
+
+## 2026-11-23 (lunes) — primer día completo en VIRAL V3
+- Verificado ayer: 7/7 completed (YT teaser 5d2jRUVgMfc, b RM3ZvWNqENk, L1 QsesiSScvio; TikTok a, b, c y piloto churros).
+- Comentarios: leídos con vidIQ (5 créditos): ninguno nuevo, todos respondidos. Windsor no puede leer comentarios (conexión YouTube de solo lectura): pedir al dueño reconectar con todos los permisos para hacerlo gratis.
+- Datos: Shorts antiguos siguen en ~800–1.050 vistas, ~50 % engaged. Primer V3 (churros, TikTok): 9,75 s de media de 31 s y 8,95 % visto completo (antes 1,5–4 %).
+- Investigación de outliers del lunes: no repetida (hecha ayer, 15 créditos; quedan ~26).
+- Elección: a = serie "Pepe abre un negocio" ep. 2 (pizzería en Roma); b = supervivencia "sin agua hora a hora"; L1 = "¿y si te encogieras al tamaño de una hormiga?" (todo escenas 3D IA, 58 escenas, 96 imágenes); c = teaser hormiga.
+- a 10:00 "Abro una PIZZERÍA en la Antigua ROMA 🍕🏛️" (34 s): TikTok scheduled 09:00Z (postId ceee86a7). Fix: pizzas sin tomate en las imágenes (prompts "bianca") y re-render.
+- b 12:00 "Dejo de beber AGUA… hora a hora 💧😵" (36 s): TikTok scheduled 11:00Z; YouTube pendiente de publicar tras las 08:00Z (postId bd8cae7b, publicationId YT cd11a8e6).
