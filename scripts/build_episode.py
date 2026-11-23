@@ -291,7 +291,7 @@ def make_long_music(seconds: float, out: Path, seed: int):
     subprocess.run(cmd, check=True)
 
 
-STORY_MIN = {"ai": 2.0, "cartoon": 3.0, "title": 4.0, "landscape": 3.0, "map": 5.0, "stat": 3.5, "quote": 4.0, "compare": 4.0, "timeline": 6.0, "footage": 3.0}
+STORY_MIN = {"lp": 2.0, "ai": 2.0, "cartoon": 3.0, "title": 4.0, "landscape": 3.0, "map": 5.0, "stat": 3.5, "quote": 4.0, "compare": 4.0, "timeline": 6.0, "footage": 3.0}
 MAX_MB = 95  # GitHub refuses files over 100 MB
 
 
@@ -417,7 +417,8 @@ def build_story(ep: dict, adir: Path) -> None:
     out = ROOT / "videos" / f"{eid}.mp4"
     subprocess.run(
         ["npx", "remotion", "render", "src/index.ts", "StoryV" if vertical else "Story", str(out),
-         f"--props={props}", "--crf=24", "--concurrency=4", "--x264-preset=medium"],
+         f"--props={props}", "--crf=24", "--concurrency=4", "--x264-preset=medium"]
+        + (["--gl=swangle"] if any(sc["type"] == "lp" for sc in ep["scenes"]) else []),
         cwd=ROOT, check=True,
     )
     mb = out.stat().st_size / 1e6

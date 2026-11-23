@@ -20,6 +20,7 @@ import { MapScene, type MapMarker, type MapRoute, type MapView } from "./MapScen
 import { emojiUrl } from "./emoji";
 import { Captions } from "../Doc";
 import { SceneSfx, type SfxEvent } from "./Sfx";
+import { LpSceneView, type LpSpec } from "../lowpoly/LpScene";
 import { ActorLayer, BlackHole, Cartoon, CartoonBackdrop, CartoonFx, type CartoonScene } from "./Cartoon";
 
 export type Prop = {
@@ -34,7 +35,7 @@ export type Prop = {
 };
 
 export type StoryScene = CartoonScene & {
-  type: "title" | "landscape" | "map" | "stat" | "quote" | "compare" | "timeline" | "footage" | "cartoon" | "ai";
+  type: "title" | "landscape" | "map" | "stat" | "quote" | "compare" | "timeline" | "footage" | "cartoon" | "ai" | "lp";
   narration: string;
   audio?: string;
   durationInFrames?: number;
@@ -68,6 +69,7 @@ export type StoryScene = CartoonScene & {
   hookDur?: number; // seconds, default 1.8
   // VIRAL V3 "ai" scenes: AI-generated 3D images, a cut every ~2 s
   shots?: AiShot[];
+  lp?: LpSpec; // low-poly 3D scene (type "lp")
   words?: { w: string; t: number }[]; // real word timings (s) for captions
   sfx?: SfxEvent[];
   noSfx?: boolean;
@@ -637,6 +639,9 @@ const SceneView: React.FC<{ s: StoryScene }> = ({ s }) => {
     case "ai":
       body = <AiScene s={s} />;
       break;
+    case "lp":
+      body = <LpSceneView spec={s.lp ?? {}} words={s.words} />;
+      break;
     case "cartoon":
       body = (
         <>
@@ -651,7 +656,7 @@ const SceneView: React.FC<{ s: StoryScene }> = ({ s }) => {
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       <AbsoluteFill style={{ opacity: fade }}>{body}</AbsoluteFill>
-      {V && s.type !== "title" && !s.noCaptions ? <Captions text={s.narration} words={s.words} big={s.type === "ai"} from={s.hook ? Math.round((s.hookDur ?? 1.8) * 24) : 0} /> : null}
+      {V && s.type !== "title" && !s.noCaptions ? <Captions text={s.narration} words={s.words} big={s.type === "ai" || s.type === "lp"} from={s.hook ? Math.round((s.hookDur ?? 1.8) * 24) : 0} /> : null}
       {s.hook ? <HookOverlay text={s.hook} dur={s.hookDur ?? 1.8} /> : null}
       {s.audio ? <Audio src={staticFile(s.audio)} /> : null}
       <SceneSfx s={s} />

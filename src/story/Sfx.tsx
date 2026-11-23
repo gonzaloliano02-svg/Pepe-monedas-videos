@@ -20,6 +20,12 @@ type SceneLike = CartoonScene & {
   noSfx?: boolean;
   hook?: string;
   shots?: { move?: string; shake?: number; weight?: number; label?: string }[];
+  lp?: {
+    cam?: { shake?: [number, number, number] };
+    objects?: { kind: string; to?: unknown; move?: [number, number]; appear?: number }[];
+    overlays?: { kind: string; at?: number; end?: number; pickAt?: number }[];
+    cast?: { scared?: number; jump?: number; to?: unknown; move?: [number, number] }[];
+  };
 };
 
 const Shot: React.FC<SfxEvent> = ({ at, name, vol = 0.35, dur }) => {
@@ -116,6 +122,27 @@ export const SceneSfx: React.FC<{ s: SceneLike }> = ({ s }) => {
       if (sh.label) ev.push({ at: at + 0.05, name: "pop", vol: 0.3 });
       if (sh.shake) ev.push({ at, name: "rumble", vol: Math.min(0.32, 0.1 + sh.shake / 60) });
     });
+  }
+  if (s.lp) {
+    // low-poly 3D: sounds follow what moves on screen
+    const lp = s.lp;
+    if (lp.cam?.shake) ev.push({ at: lp.cam.shake[0], name: "rumble", vol: 0.3 });
+    for (const o of lp.objects ?? []) {
+      if (o.appear !== undefined) ev.push({ at: o.appear, name: "pop", vol: 0.28 });
+      if (o.to) ev.push({ at: o.move?.[0] ?? 0, name: o.kind === "train" || o.kind === "meteor" ? "rumble" : "swoosh", vol: o.kind === "train" ? 0.32 : 0.22 });
+      if (o.kind === "meteor" && o.move) ev.push({ at: o.move[1], name: "boom", vol: 0.45 });
+    }
+    for (const o of lp.overlays ?? []) {
+      const at = o.at ?? 0;
+      if (o.kind === "stamp") ev.push({ at, name: "hit", vol: 0.42 });
+      else if (o.kind === "gauge") { ev.push({ at, name: "riser", vol: 0.2 }); ev.push({ at: o.end ?? at + 2, name: "ding", vol: 0.28 }); }
+      else if (o.kind === "choice") { ev.push({ at, name: "pop", vol: 0.3 }); if (o.pickAt !== undefined) ev.push({ at: o.pickAt, name: "ding", vol: 0.3 }); }
+      else ev.push({ at, name: "pop", vol: 0.3 });
+    }
+    for (const c of lp.cast ?? []) {
+      if (c.scared !== undefined) ev.push({ at: c.scared, name: "boing", vol: 0.3 });
+      if (c.jump !== undefined) ev.push({ at: c.jump, name: "boing", vol: 0.25 });
+    }
   }
   for (const e of s.sfx ?? []) ev.push(e);
   return (

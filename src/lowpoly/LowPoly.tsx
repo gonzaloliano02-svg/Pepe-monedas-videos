@@ -7,7 +7,7 @@ import { useThree } from "@react-three/fiber";
 // simple geometric characters that blink, look, talk and walk; moving objects; moving camera.
 // Everything is procedural, so it is free and always anatomically correct.
 
-const flat = { flatShading: true, roughness: 0.85 } as const;
+export const flat = { flatShading: true, roughness: 0.85 } as const;
 
 export type PersonProps = {
   skin?: string;
@@ -110,7 +110,7 @@ export const Person: React.FC<PersonProps> = ({
   );
 };
 
-const Cam: React.FC<{ pos: [number, number, number]; target: [number, number, number]; fov?: number }> = ({ pos, target, fov = 45 }) => {
+export const Cam: React.FC<{ pos: [number, number, number]; target: [number, number, number]; fov?: number }> = ({ pos, target, fov = 45 }) => {
   const { camera } = useThree();
   camera.position.set(...pos);
   (camera as any).fov = fov;
@@ -119,12 +119,12 @@ const Cam: React.FC<{ pos: [number, number, number]; target: [number, number, nu
   return null;
 };
 
-const blinkAt = (f: number, every = 70, off = 0) => {
+export const blinkAt = (f: number, every = 70, off = 0) => {
   const t = (f + off) % every;
   return t < 3 ? [0.6, 1, 0.6][t] : 0;
 };
 
-const Lights: React.FC = () => (
+export const Lights: React.FC = () => (
   <>
     <ambientLight intensity={0.55} />
     <hemisphereLight args={["#dff1ff", "#c8b48a", 0.8]} />
@@ -132,14 +132,14 @@ const Lights: React.FC = () => (
   </>
 );
 
-const Ground: React.FC<{ color?: string }> = ({ color = "#d9c99a" }) => (
+export const Ground: React.FC<{ color?: string }> = ({ color = "#d9c99a" }) => (
   <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, -40]}>
     <planeGeometry args={[400, 400]} />
     <meshStandardMaterial color={color} {...flat} />
   </mesh>
 );
 
-const Trees: React.FC = () => (
+export const Trees: React.FC = () => (
   <>
     {Array.from({ length: 18 }).map((_, i) => {
       const r = (k: number) => Math.abs(Math.sin(i * 73.1 + k * 19.7));
@@ -161,7 +161,7 @@ const Trees: React.FC = () => (
   </>
 );
 
-const Track: React.FC = () => (
+export const Track: React.FC = () => (
   <>
     {Array.from({ length: 70 }).map((_, i) => (
       <mesh key={i} position={[0, 0.06, 4 - i * 1.6]}>
@@ -189,7 +189,7 @@ const Track: React.FC = () => (
   </>
 );
 
-const Train: React.FC<{ z: number }> = ({ z }) => (
+export const Train: React.FC<{ z: number }> = ({ z }) => (
   <group position={[0, 0.3, z]}>
     {Array.from({ length: 4 }).map((_, i) => (
       <group key={i} position={[0, 0, -i * 9.4]}>
@@ -211,7 +211,7 @@ const Train: React.FC<{ z: number }> = ({ z }) => (
 import { FONT_DISPLAY, loadFonts } from "../theme";
 const font = FONT_DISPLAY;
 
-const Badge: React.FC<{ text: string; at: number; y?: number; color?: string }> = ({ text, at, y = 1250, color = "#ffd60a" }) => {
+export const Badge: React.FC<{ text: string; at: number; y?: number; color?: string }> = ({ text, at, y = 1250, color = "#ffd60a" }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const s = spring({ frame: f - at, fps, config: { damping: 9 } });
@@ -224,7 +224,7 @@ const Badge: React.FC<{ text: string; at: number; y?: number; color?: string }> 
   );
 };
 
-const Gauge: React.FC<{ from: number; to: number; start: number; end: number; unit: string; y?: number }> = ({ from, to, start, end, unit, y = 1180 }) => {
+export const Gauge: React.FC<{ from: number; to: number; start: number; end: number; unit: string; y?: number }> = ({ from, to, start, end, unit, y = 1180 }) => {
   const f = useCurrentFrame();
   const v = interpolate(f, [start, end], [from, to], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const a = interpolate(v, [0, Math.max(to, 1)], [-120, 120]);
@@ -245,7 +245,7 @@ const Gauge: React.FC<{ from: number; to: number; start: number; end: number; un
   );
 };
 
-const Stamp: React.FC<{ text: string; at: number }> = ({ text, at }) => {
+export const Stamp: React.FC<{ text: string; at: number }> = ({ text, at }) => {
   const f = useCurrentFrame();
   if (f < at) return null;
   const s = interpolate(f - at, [0, 6], [2.4, 1], { extrapolateRight: "clamp" });
