@@ -445,3 +445,43 @@ limbs, heads and whole characters, and fused Pepe with animals. Fixed in the bui
   the quality is far below the SDXL stills (low res, the mascot changes): not used. vidIQ video
   generation costs ~160 credits per 8 s clip: not viable on the free plan. Real animated
   clips (Kling/Wan/Veo-type) need a paid plan or API key: only if the owner decides to pay.
+
+## LOW-POLY 3D (2026-11-23) — DEFAULT style for Shorts (owner: "me gusta… mucho mejor")
+Owner sent 2 references (TikTok couple-humour "Tu Novia Dice…" and the AVE-train curiosity
+video): real low-poly 3D, simple characters that MOVE (blink, look, talk, walk, wave), moving
+objects, moving camera, animated infographics. Owner: "no me importa tanto el realismo… sí que
+se muevan". Built procedurally with @remotion/three: free, fast (~3 min render for 25 s) and
+never anatomically wrong. Copy the FORMAT, never a specific video or its characters.
+
+Scene `"type": "lp"` (src/lowpoly/LpScene.tsx), inside a normal `format: "story"`,
+`vertical: true` episode (voice, real-timed captions, hook, tempo, SFX all work as usual).
+All times are SECONDS from the scene start; positions `[x, z]` on the floor (metres; a person
+is ~2.4 tall; camera default looks at the origin).
+```
+"lp": {
+  "set": "bed|room|office|kitchen|street|tracks|field|desert|beach|space|night",
+  "cam": {"from":[x,y,z], "to":[x,y,z], "look":[x,y,z], "fov":45, "shake":[t0,t1,amp]},
+  "cast": [{"who":"pepe|novia|man|woman|kid|boss|granny", "pos":[x,z], "to":[x,z], "move":[t0,t1],
+            "talk":true | [[t0,t1]], "wave":[t0,t1], "look":[x,y], "brows":-1..1,
+            "scared":t, "jump":t, "lie":"left|right" (set bed only), "rot":rad, "scale":1, "color":"#hex"}],
+  "objects": [{"kind":"train|car|box|coin|ball|rock|meteor|pizza|burger|cake|phone|money|bottle|tv|bag|tree|house|cube",
+               "from":[x,y,z], "to":[x,y,z], "move":[t0,t1], "scale":1, "grow":[s0,t0,t1], "spin":rad/s, "appear":t, "color":"#hex"}],
+  "overlays": [{"kind":"badge","text":"425 TONELADAS","at":1.2,"y":330},
+               {"kind":"gauge","from":0,"to":300,"unit":"km/h","at":0.3,"end":3},
+               {"kind":"stamp","text":"MIENTES","at":2}, {"kind":"counter","text":"DÍA 3","at":0},
+               {"kind":"choice","a":"SÍ","b":"NO","at":1,"pick":"b","pickAt":2.5},
+               {"kind":"label","text":"1,74 m EXACTOS","at":1}]
+}
+```
+- `talk: true` moves the mouth only while the narration is speaking (word timings).
+- Framing tips: a standing person fills the frame from ~5 m with `look` y≈2.0 (character sits
+  lower, leaving room for top badges). Badges default to y=360 px from the top; captions sit
+  mid-screen. Bed scenes: two heads on the pillows, default camera is fine.
+- Mix of sets and a cut every 2–4 s (one scene per sentence). Always check stills of each
+  scene before the full render (npx remotion still … --gl=swangle) and the final frame sheet.
+- Example: episodes/2026-11-24-a.json (pregunta trampa del gusano). Pilot: LowPolyPilot composition.
+- Formats that fit: couple/family humour dialogues (Pepe + novia), "dato importantísimo" with a
+  moving object (train, meteor, car) and a gauge/weight badge, "¿qué pasaría si…?" with
+  scenarios, time counters ("DÍA 1", "NOCHE 3"). Keep 1–2 real facts.
+- The AI-image style ("ai" scenes) is now secondary: use it only where low-poly cannot show the
+  idea (e.g. a realistic place); long-form may use lp scenes too.
