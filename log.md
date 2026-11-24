@@ -223,3 +223,4 @@
 - Comentarios: contadores de Windsor sin cambios respecto a la lectura completa de ayer (5 créditos) → 0 créditos hoy; ledger actualizado.
 - Elección: a = humor de pareja (gusano, ya construido, low-poly); b = mito del ascensor (¿saltar te salva?) con números reales y velocímetro; L1 = "¿Qué pasaría si un ASTEROIDE chocara contra la Tierra? (según su tamaño)" (búsqueda alta; Cheliábinsk, Tunguska, Chicxulub, DART, Apophis 2029; 56 escenas, 1.735 palabras, 6 escenas low-poly); c = teaser Cheliábinsk ("explotó como 30 Hiroshimas").
 - a: TikTok scheduled 09:00Z (postId 2c89fa06).
+- El teaser de la hormiga (estilo IA-3D, hecho antes del cambio) salió hoy en YouTube https://www.youtube.com/watch?v=VuOy2LsOvuc (subida 1/3). Al dueño no le gustó: PROHIBIDO a partir de ahora cualquier escena/imagen IA ("ai") en todos los vídeos. Solo low-poly "lp" y dibujos.

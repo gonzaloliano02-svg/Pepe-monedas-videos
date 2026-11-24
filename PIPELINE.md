@@ -483,5 +483,7 @@ is ~2.4 tall; camera default looks at the origin).
 - Formats that fit: couple/family humour dialogues (Pepe + novia), "dato importantísimo" with a
   moving object (train, meteor, car) and a gauge/weight badge, "¿qué pasaría si…?" with
   scenarios, time counters ("DÍA 1", "NOCHE 3"). Keep 1–2 real facts.
-- The AI-image style ("ai" scenes) is now secondary: use it only where low-poly cannot show the
-  idea (e.g. a realistic place); long-form may use lp scenes too.
+- **BANNED (owner 2026-11-24): "no quiero ver más vídeos de mierda 3D como ese".** No more
+  AI-image scenes ("type": "ai", SDXL images, AI thumbnails) in ANY video: Shorts, teasers or
+  long-form. Only low-poly "lp" scenes and the cartoon style. The VIRAL V3 sections below are
+  kept for history only.
