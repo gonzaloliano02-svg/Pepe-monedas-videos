@@ -248,19 +248,19 @@
   },
   {
    "type": "lp",
-   "narration": "La buena noticia: los ascensores tienen varios cables y un freno de emergencia. Elisha Otis lo enseñó en Nueva York en mil ochocientos cincuenta y cuatro, cortando su propia cuerda delante del público.",
+   "narration": "La buena noticia: los ascensores tienen varios cables y un freno de emergencia.",
    "lp": {
-    "set": "street",
+    "set": "office",
     "cam": {
      "from": [
       0,
-      2.2,
-      8
+      1.6,
+      5.6
      ],
      "to": [
       0,
-      2.0,
-      6.5
+      1.6,
+      4.6
      ],
      "look": [
       0,
@@ -270,41 +270,92 @@
     },
     "cast": [
      {
-      "who": "boss",
+      "who": "pepe",
       "pos": [
        0,
        0
       ],
       "talk": true,
+      "brows": 0.6,
       "wave": [
-       2.5,
-       4.5
+       1.8,
+       3.2
       ]
-     },
-     {
-      "who": "man",
-      "pos": [
-       -2.6,
-       1.5
-      ],
-      "rot": 0.6
-     },
-     {
-      "who": "woman",
-      "pos": [
-       2.6,
-       1.5
-      ],
-      "rot": -0.6,
-      "scared": 5.5
      }
     ],
     "overlays": [
      {
       "kind": "badge",
-      "text": "1854",
-      "at": 1.0,
+      "text": "FRENO DE EMERGENCIA",
+      "at": 1.6,
       "y": 300
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Elisha Otis lo enseñó en Nueva York en mil ochocientos cincuenta y cuatro, cortando su propia cuerda delante del público.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      0,
+      2.0,
+      7.5
+     ],
+     "to": [
+      0,
+      1.9,
+      6.0
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "boss",
+      "pos": [
+       0,
+       -0.5
+      ],
+      "talk": true,
+      "wave": [
+       2.6,
+       4.2
+      ]
+     },
+     {
+      "who": "man",
+      "pos": [
+       -1.5,
+       1.8
+      ],
+      "rot": 3.14
+     },
+     {
+      "who": "woman",
+      "pos": [
+       1.5,
+       1.8
+      ],
+      "rot": 3.14,
+      "jump": 4.4
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "1854",
+      "at": 0.3
+     },
+     {
+      "kind": "stamp",
+      "text": "¡ZAS!",
+      "at": 4.2
      }
     ]
    }
