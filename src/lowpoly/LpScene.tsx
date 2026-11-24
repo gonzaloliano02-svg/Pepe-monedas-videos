@@ -1,4 +1,5 @@
 import React from "react";
+import * as THREE from "three";
 import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { ThreeCanvas } from "@remotion/three";
 import { Badge, Cam, Gauge, Ground, Lights, Person, Stamp, Track, Train, Trees, blinkAt, flat } from "./LowPoly";
@@ -200,13 +201,26 @@ const Obj: React.FC<{ o: LpObject; t: number }> = ({ o, t }) => {
   if (o.grow) s *= interpolate(t, [o.grow[1], o.grow[2]], [o.grow[0], 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   if (o.appear !== undefined) s *= Math.min(1, (t - o.appear) * 6);
   const c = o.color;
+  if (o.kind === "meteor" && o.to && t > (o.move?.[1] ?? 2)) {
+    // impact: an expanding fireball that fades, then nothing
+    const e = t - (o.move?.[1] ?? 2);
+    if (e > 1.2) return null;
+    const r = (o.scale ?? 1) * (1 + e * 6);
+    return (
+      <group position={o.to}>
+        <mesh scale={r}><icosahedronGeometry args={[0.7, 1]} /><meshBasicMaterial color="#ffd27a" transparent opacity={Math.max(0, 0.85 - e * 0.7)} /></mesh>
+        <mesh scale={r * 1.5}><icosahedronGeometry args={[0.7, 1]} /><meshBasicMaterial color="#ff6a00" transparent opacity={Math.max(0, 0.4 - e * 0.33)} /></mesh>
+      </group>
+    );
+  }
   const body = (() => {
     switch (o.kind) {
       case "train": return <Train z={0} />;
       case "car": return (<><Box p={[0, 0.55, 0]} s={[1.8, 0.7, 3.6]} c={c ?? "#e63946"} /><Box p={[0, 1.15, -0.2]} s={[1.6, 0.6, 1.9]} c={c ?? "#e63946"} /><Box p={[0, 1.15, 0.78]} s={[1.5, 0.5, 0.05]} c="#1d3557" />{[[-0.9, 1.1], [0.9, 1.1], [-0.9, -1.1], [0.9, -1.1]].map(([x, z], i) => (<mesh key={i} position={[x, 0.35, z]} rotation={[0, 0, Math.PI / 2]}><cylinderGeometry args={[0.35, 0.35, 0.25, 8]} /><meshStandardMaterial color="#222" {...flat} /></mesh>))}</>);
       case "coin": return <mesh position={[0, 0.5, 0]} rotation={[Math.PI / 2, 0, 0]}><cylinderGeometry args={[0.5, 0.5, 0.1, 16]} /><meshStandardMaterial color={c ?? "#f2c230"} metalness={0.6} roughness={0.3} {...{ flatShading: true }} /></mesh>;
       case "ball": return <mesh position={[0, 0.5, 0]}><icosahedronGeometry args={[0.5, 1]} /><meshStandardMaterial color={c ?? "#ff6b35"} {...flat} /></mesh>;
-      case "rock": case "meteor": return <mesh position={[0, 0.6, 0]}><dodecahedronGeometry args={[0.7, 0]} /><meshStandardMaterial color={c ?? (o.kind === "meteor" ? "#5a4636" : "#8d8d8d")} emissive={o.kind === "meteor" ? "#ff5a00" : "#000"} emissiveIntensity={o.kind === "meteor" ? 0.35 : 0} {...flat} /></mesh>;
+      case "meteor": return <Meteor dir={o.to ? [o.to[0] - o.from[0], o.to[1] - o.from[1], o.to[2] - o.from[2]] : [-1, -1, 0]} />;
+      case "rock": return <mesh position={[0, 0.6, 0]}><dodecahedronGeometry args={[0.7, 0]} /><meshStandardMaterial color={c ?? "#8d8d8d"} {...flat} /></mesh>;
       case "pizza": return (<><mesh position={[0, 0.06, 0]}><cylinderGeometry args={[0.9, 0.9, 0.1, 12]} /><meshStandardMaterial color="#f3d27a" {...flat} /></mesh>{Array.from({ length: 6 }).map((_, i) => <mesh key={i} position={[Math.cos(i) * 0.5, 0.13, Math.sin(i) * 0.5]}><cylinderGeometry args={[0.12, 0.12, 0.04, 8]} /><meshStandardMaterial color={c ?? "#c0392b"} /></mesh>)}</>);
       case "burger": return (<><mesh position={[0, 0.15, 0]}><cylinderGeometry args={[0.6, 0.55, 0.25, 10]} /><meshStandardMaterial color="#d9a05b" {...flat} /></mesh><mesh position={[0, 0.35, 0]}><cylinderGeometry args={[0.62, 0.62, 0.18, 10]} /><meshStandardMaterial color="#5b3a1e" {...flat} /></mesh><mesh position={[0, 0.48, 0]}><cylinderGeometry args={[0.66, 0.66, 0.05, 10]} /><meshStandardMaterial color="#5fbf3f" {...flat} /></mesh><mesh position={[0, 0.65, 0]}><sphereGeometry args={[0.6, 10, 6, 0, Math.PI * 2, 0, Math.PI / 2]} /><meshStandardMaterial color="#e0a85f" {...flat} /></mesh></>);
       case "cake": return (<><mesh position={[0, 0.4, 0]}><cylinderGeometry args={[0.8, 0.8, 0.8, 12]} /><meshStandardMaterial color={c ?? "#f6c1d0"} {...flat} /></mesh><mesh position={[0, 0.95, 0]}><cylinderGeometry args={[0.04, 0.04, 0.3, 6]} /><meshStandardMaterial color="#fff" /></mesh></>);
@@ -221,6 +235,27 @@ const Obj: React.FC<{ o: LpObject; t: number }> = ({ o, t }) => {
     }
   })();
   return <group position={p} scale={s} rotation={[0, (o.spin ?? 0) * t, 0]}>{body}</group>;
+};
+
+// Meteor: rock + glowing fireball + a long trail pointing back along its path, so it reads even far away.
+const Meteor: React.FC<{ dir: V3 }> = ({ dir }) => {
+  const f = useCurrentFrame();
+  const v = new THREE.Vector3(...dir);
+  if (v.lengthSq() < 1e-6) v.set(-1, -1, 0);
+  v.normalize();
+  const q = new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0, 1, 0), v.clone().negate());
+  const flick = 1 + Math.sin(f * 1.7) * 0.08;
+  return (
+    <group>
+      <mesh><dodecahedronGeometry args={[0.7, 0]} /><meshStandardMaterial color="#5a4636" emissive="#ff5a00" emissiveIntensity={0.6} {...flat} /></mesh>
+      <mesh scale={1.6 * flick}><icosahedronGeometry args={[0.7, 1]} /><meshBasicMaterial color="#ffb347" transparent opacity={0.45} /></mesh>
+      <mesh scale={2.4 * flick}><icosahedronGeometry args={[0.7, 1]} /><meshBasicMaterial color="#ff6a00" transparent opacity={0.18} /></mesh>
+      <group quaternion={q}>
+        <mesh position={[0, 4.2, 0]}><coneGeometry args={[1.0, 8, 10, 1, true]} /><meshBasicMaterial color="#ffcf70" transparent opacity={0.55} side={THREE.DoubleSide} /></mesh>
+        <mesh position={[0, 6.5, 0]}><coneGeometry args={[1.5, 13, 10, 1, true]} /><meshBasicMaterial color="#ff7a1a" transparent opacity={0.22} side={THREE.DoubleSide} /></mesh>
+      </group>
+    </group>
+  );
 };
 
 // ---------- cast ----------
