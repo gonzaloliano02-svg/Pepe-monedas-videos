@@ -1,2298 +1,2298 @@
 {
- "id": "2026-11-24-L1",
- "format": "story",
- "title": "¿Qué pasaría si un ASTEROIDE chocara contra la Tierra? (según su tamaño)",
- "tags": [
-  "que pasaria si un asteroide choca contra la tierra",
-  "asteroide",
-  "meteorito",
-  "chelyabinsk",
-  "tunguska",
-  "dinosaurios",
-  "dart nasa",
-  "apophis 2029",
-  "que pasaria si",
-  "curiosidades",
-  "animacion"
- ],
- "description": "CHAPTERS",
- "thumbnail": {
-  "text": "¿Y si nos *CHOCA*?",
-  "kicker": "Asteroides",
-  "emoji": "☄️",
-  "env": "night",
-  "bg": "land:night",
-  "fx": [
-   "flash"
+  "id": "2026-11-24-L1",
+  "format": "story",
+  "title": "¿Qué pasaría si un ASTEROIDE chocara contra la Tierra? (según su tamaño)",
+  "tags": [
+    "que pasaria si un asteroide choca contra la tierra",
+    "asteroide",
+    "meteorito",
+    "chelyabinsk",
+    "tunguska",
+    "dinosaurios",
+    "dart nasa",
+    "apophis 2029",
+    "que pasaria si",
+    "curiosidades",
+    "animacion"
   ],
-  "actors": [
-   {
-    "kind": "stick",
-    "x": 72,
-    "y": 92,
-    "pose": "scared",
-    "expr": "scared",
-    "name": "TÚ",
-    "color": "#FFD60A",
-    "size": 500,
-    "delay": -2
-   },
-   {
-    "kind": "emoji",
-    "x": 88,
-    "y": 22,
+  "description": "¿Qué pasaría si un asteroide chocara contra la Tierra? Depende MUCHÍSIMO del tamaño. Repasamos de menor a mayor, con casos reales: la roca de Cheliábinsk (2013), la explosión de Tunguska (1908), el cráter del Meteoro en Arizona y el asteroide que acabó con los dinosaurios. Y al final: ¿nos podemos defender? (spoiler: la NASA ya desvió uno).\n\n⏱️ Capítulos\n0:00 Intro\n0:36 Lo que cae cada día\n1:40 ¿Por qué hacen tanto daño?\n2:30 20 metros: Cheliábinsk\n3:43 50 metros: Tunguska\n4:31 140 metros: adiós ciudad\n5:12 1 kilómetro: el planeta lo nota\n6:01 10 kilómetros: los dinosaurios\n7:10 ¿Y si cae en el mar?\n7:57 ¿Nos podemos defender?\n9:49 Resumen\n\n📚 Fuentes\n- NASA / CNEOS (Center for Near Earth Object Studies) y ESA Planetary Defence\n- Popova et al. 2013, Science: el superbólido de Cheliábinsk\n- Evento de Tunguska (Siberia, 1908)\n- Cráter Barringer / Meteor Crater (Arizona)\n- Alvarez et al. 1980 y Schulte et al. 2010, Science: el impacto de Chicxulub\n- Misión DART de la NASA (2022) y misión Hera de la ESA\n- Apophis (2029), 2024 YR4, impacto oceánico de Eltanin, escala de Turín\n\nCifras aproximadas. Vídeo creado con ayuda de IA.\n\n#asteroide #meteorito #curiosidades #ciencia #quepasariasi",
+  "thumbnail": {
+    "text": "¿Y si nos *CHOCA*?",
+    "kicker": "Asteroides",
     "emoji": "☄️",
-    "size": 240,
-    "delay": -2
-   }
+    "env": "night",
+    "bg": "land:night",
+    "fx": [
+      "flash"
+    ],
+    "actors": [
+      {
+        "kind": "stick",
+        "x": 72,
+        "y": 92,
+        "pose": "scared",
+        "expr": "scared",
+        "name": "TÚ",
+        "color": "#FFD60A",
+        "size": 500,
+        "delay": -2
+      },
+      {
+        "kind": "emoji",
+        "x": 88,
+        "y": 22,
+        "emoji": "☄️",
+        "size": 240,
+        "delay": -2
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "type": "cartoon",
+      "text": "Una roca del *espacio*",
+      "narration": "Imagina que miras al cielo una noche cualquiera y ves una luz que no se apaga. Que crece. Que se acerca. No es un avión. Es una roca del espacio, y viene directa hacia la Tierra.",
+      "bg": "land:night",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 92,
+          "y": 4,
+          "emoji": "☄️",
+          "size": 120,
+          "to": [
+            55,
+            30
+          ],
+          "move": [
+            0.5,
+            6.5
+          ],
+          "ease": "in"
+        },
+        {
+          "kind": "stick",
+          "x": 25,
+          "y": 92,
+          "pose": "look",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270,
+          "pose2": "scared",
+          "poseAt": 5,
+          "expr2": "scared"
+        }
+      ],
+      "seed": "as1",
+      "camera": {
+        "zoom": [
+          1,
+          1.12
+        ]
+      }
+    },
+    {
+      "type": "cartoon",
+      "text": "¿Qué pasaría *de verdad*?",
+      "narration": "Hoy vamos a ver qué pasaría si un asteroide chocara contra la Tierra, según su tamaño. Desde una piedra como un balón hasta una montaña de diez kilómetros. Con casos reales, no con películas.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 20,
+          "y": 40,
+          "emoji": "⚽",
+          "size": 110,
+          "delay": 0.5,
+          "anim": "pop"
+        },
+        {
+          "kind": "emoji",
+          "x": 40,
+          "y": 40,
+          "emoji": "🚗",
+          "size": 150,
+          "delay": 1.5,
+          "anim": "pop"
+        },
+        {
+          "kind": "emoji",
+          "x": 62,
+          "y": 38,
+          "emoji": "🏟️",
+          "size": 200,
+          "delay": 2.5,
+          "anim": "pop"
+        },
+        {
+          "kind": "emoji",
+          "x": 84,
+          "y": 36,
+          "emoji": "⛰️",
+          "size": 260,
+          "delay": 3.5,
+          "anim": "pop"
+        }
+      ],
+      "seed": "as2"
+    },
+    {
+      "type": "cartoon",
+      "text": "Y una *buena noticia*",
+      "narration": "Y al final te cuento qué está haciendo la humanidad para defenderse. Porque sí: en dos mil veintidós ya golpeamos un asteroide a propósito. Y funcionó. Quédate hasta el final.",
+      "bg": "room-day",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 40,
+          "emoji": "🛰️",
+          "size": 190,
+          "anim": "float"
+        },
+        {
+          "kind": "bubble",
+          "x": 62,
+          "y": 34,
+          "text": "¡Funcionó!",
+          "delay": 1.6
+        },
+        {
+          "kind": "stick",
+          "x": 55,
+          "y": 92,
+          "pose": "cheer",
+          "expr": "happy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 280
+        }
+      ],
+      "seed": "as3"
+    },
+    {
+      "type": "title",
+      "text": "Lo que cae *cada día*",
+      "kicker": "Capítulo 1",
+      "narration": "Primero, una cosa que casi nadie sabe: ya te están cayendo piedras del espacio. Todos los días.",
+      "bg": "space",
+      "seed": "as4"
+    },
+    {
+      "type": "cartoon",
+      "text": "*Toneladas* de polvo",
+      "narration": "Cada día entran en la atmósfera decenas de toneladas de polvo y piedrecitas del espacio. La mayoría son granos más pequeños que la arena.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 42,
+          "emoji": "🌍",
+          "size": 260,
+          "anim": "float"
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 18,
+          "text": "decenas de toneladas/día",
+          "delay": 1.2
+        },
+        {
+          "kind": "emoji",
+          "x": 20,
+          "y": 25,
+          "emoji": "✨",
+          "size": 80,
+          "anim": "pulse"
+        },
+        {
+          "kind": "emoji",
+          "x": 80,
+          "y": 28,
+          "emoji": "✨",
+          "size": 70,
+          "delay": 0.6,
+          "anim": "pulse"
+        }
+      ],
+      "seed": "as5"
+    },
+    {
+      "type": "cartoon",
+      "text": "*Estrellas* fugaces",
+      "narration": "Entran a decenas de kilómetros por segundo. El aire las frena tan de golpe que se calientan y brillan. Eso es una estrella fugaz: un grano de polvo quemándose a unos cien kilómetros de altura.",
+      "bg": "land:night",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 85,
+          "y": 8,
+          "emoji": "✨",
+          "size": 90,
+          "to": [
+            30,
+            40
+          ],
+          "move": [
+            0.3,
+            1.4
+          ],
+          "ease": "in"
+        },
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 5,
+          "emoji": "✨",
+          "size": 70,
+          "to": [
+            15,
+            35
+          ],
+          "move": [
+            1.8,
+            2.8
+          ],
+          "ease": "in"
+        },
+        {
+          "kind": "stick",
+          "x": 70,
+          "y": 92,
+          "pose": "look",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as6"
+    },
+    {
+      "type": "lp",
+      "narration": "Si cae algo del tamaño de un balón, ves una bola de fuego espectacular, quizá oyes un estruendo, y como mucho encuentras un trocito de meteorito en el suelo. No pasa nada más.",
+      "lp": {
+        "set": "field",
+        "cam": {
+          "from": [
+            0,
+            2.2,
+            9
+          ],
+          "to": [
+            0,
+            2.0,
+            7
+          ],
+          "look": [
+            0,
+            3.5,
+            -10
+          ]
+        },
+        "cast": [
+          {
+            "who": "pepe",
+            "pos": [
+              0,
+              0
+            ],
+            "rot": 3.14,
+            "scared": 2.4
+          }
+        ],
+        "objects": [
+          {
+            "kind": "meteor",
+            "from": [
+              30,
+              40,
+              -80
+            ],
+            "to": [
+              -20,
+              25,
+              -60
+            ],
+            "move": [
+              0.2,
+              2.6
+            ],
+            "scale": 2.5
+          }
+        ],
+        "overlays": [
+          {
+            "kind": "badge",
+            "text": "BOLA DE FUEGO",
+            "at": 1.8
+          }
+        ]
+      },
+      "seed": "as7"
+    },
+    {
+      "type": "cartoon",
+      "text": "Del tamaño de un *coche*",
+      "narration": "Una roca del tamaño de un coche entra en la atmósfera, más o menos, una vez al año. Y casi nunca llega al suelo entera: estalla en el aire, muy arriba, y se deshace.",
+      "bg": "land:mountains",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 90,
+          "y": 5,
+          "emoji": "☄️",
+          "size": 130,
+          "to": [
+            50,
+            30
+          ],
+          "move": [
+            0.3,
+            2.0
+          ],
+          "ease": "in"
+        },
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 30,
+          "emoji": "💥",
+          "size": 220,
+          "delay": 2.1,
+          "anim": "pop"
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 14,
+          "text": "≈ 1 vez al año",
+          "delay": 2.6
+        },
+        {
+          "kind": "stick",
+          "x": 20,
+          "y": 92,
+          "pose": "look",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as8",
+      "fx": [
+        "flash"
+      ],
+      "flashAt": 2.1
+    },
+    {
+      "type": "cartoon",
+      "text": "Meteoritos en la *Antártida*",
+      "narration": "Los trocitos que llegan al suelo se llaman meteoritos. Muchos se encuentran en la Antártida y en los desiertos, porque ahí una piedra oscura sobre el hielo o la arena se ve desde lejos. Hay decenas de miles en museos de todo el mundo.",
+      "bg": "land:ice",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 40,
+          "y": 60,
+          "emoji": "🪨",
+          "size": 140,
+          "delay": 0.6,
+          "anim": "pop"
+        },
+        {
+          "kind": "emoji",
+          "x": 65,
+          "y": 58,
+          "emoji": "🔍",
+          "size": 150,
+          "delay": 1.4,
+          "anim": "float"
+        },
+        {
+          "kind": "stick",
+          "x": 20,
+          "y": 92,
+          "pose": "point",
+          "expr": "happy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as9"
+    },
+    {
+      "type": "title",
+      "text": "¿Por qué hacen *tanto daño*?",
+      "kicker": "La clave",
+      "narration": "Antes de subir de tamaño, una pregunta: ¿por qué una piedra hace tanto daño? La respuesta es una sola palabra: velocidad.",
+      "bg": "space",
+      "seed": "as10"
+    },
+    {
+      "type": "cartoon",
+      "text": "*20 km* por segundo",
+      "narration": "Un asteroide típico llega a unos veinte kilómetros por segundo. Eso es ir de Madrid a Barcelona en menos de medio minuto. Ningún objeto fabricado por el ser humano va tan rápido cerca del suelo.",
+      "bg": "land:mountains",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 15,
+          "y": 40,
+          "emoji": "☄️",
+          "size": 150,
+          "to": [
+            88,
+            40
+          ],
+          "move": [
+            0.3,
+            1.2
+          ]
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 20,
+          "text": "≈ 20 km/s",
+          "delay": 1.0
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 64,
+          "text": "Madrid → Barcelona: < 30 s",
+          "delay": 2.0
+        }
+      ],
+      "seed": "as11",
+      "fx": [
+        "speedlines"
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "Energía *bestial*",
+      "narration": "Y la energía crece con el cuadrado de la velocidad. A esa velocidad, cada kilo de roca lleva más energía que varios kilos de dinamita. Por eso una roca de pocos metros puede explotar como una bomba.",
+      "bg": "chalk",
+      "actors": [
+        {
+          "kind": "tag",
+          "x": 30,
+          "y": 30,
+          "text": "E = ½ · m · v²",
+          "delay": 0.4
+        },
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 40,
+          "emoji": "🧨",
+          "size": 180,
+          "delay": 1.6,
+          "anim": "shake"
+        },
+        {
+          "kind": "stick",
+          "x": 85,
+          "y": 92,
+          "pose": "think",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as12"
+    },
+    {
+      "type": "cartoon",
+      "text": "Explota en el *aire*",
+      "narration": "Y por eso muchas no llegan al suelo: el aire las frena con tanta fuerza que la roca se rompe y toda esa energía se libera de golpe, en el cielo. Es lo que pasó en los dos casos reales que vienen ahora.",
+      "bg": "land:mountains",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 90,
+          "y": 5,
+          "emoji": "☄️",
+          "size": 140,
+          "to": [
+            50,
+            30
+          ],
+          "move": [
+            0.3,
+            1.8
+          ],
+          "ease": "in"
+        },
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 30,
+          "emoji": "💥",
+          "size": 230,
+          "delay": 1.8,
+          "anim": "pop"
+        },
+        {
+          "kind": "stick",
+          "x": 20,
+          "y": 92,
+          "pose": "scared",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as13",
+      "fx": [
+        "flash"
+      ],
+      "flashAt": 1.8
+    },
+    {
+      "type": "title",
+      "text": "*20 metros*: Cheliábinsk",
+      "kicker": "Capítulo 2",
+      "narration": "Ahora subimos un poco. Una roca de unos veinte metros, como un edificio de seis pisos. Y esto ya pasó, en dos mil trece.",
+      "bg": "land:ice",
+      "seed": "as14"
+    },
+    {
+      "type": "cartoon",
+      "text": "15 de *febrero* de 2013",
+      "narration": "El quince de febrero de dos mil trece, sobre la ciudad rusa de Cheliábinsk, apareció una bola de fuego más brillante que el Sol. Había miles de cámaras de coche grabando.",
+      "bg": "land:ice",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 92,
+          "y": 4,
+          "emoji": "☄️",
+          "size": 150,
+          "to": [
+            40,
+            34
+          ],
+          "move": [
+            0.3,
+            3.0
+          ],
+          "ease": "in"
+        },
+        {
+          "kind": "emoji",
+          "x": 40,
+          "y": 34,
+          "emoji": "☀️",
+          "size": 180,
+          "delay": 3.0,
+          "anim": "pulse"
+        },
+        {
+          "kind": "tag",
+          "x": 70,
+          "y": 18,
+          "text": "Rusia, 2013",
+          "delay": 1
+        },
+        {
+          "kind": "stick",
+          "x": 80,
+          "y": 92,
+          "pose": "scared",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as15",
+      "fx": [
+        "flash"
+      ],
+      "flashAt": 3.0
+    },
+    {
+      "type": "cartoon",
+      "text": "Unas *12.000 toneladas*",
+      "narration": "La roca medía unos veinte metros, pesaba del orden de doce mil toneladas y entró a unos diecinueve kilómetros por segundo. Unas cincuenta veces más rápido que una bala.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 35,
+          "y": 42,
+          "emoji": "🪨",
+          "size": 230,
+          "anim": "shake"
+        },
+        {
+          "kind": "tag",
+          "x": 70,
+          "y": 28,
+          "text": "≈ 20 m",
+          "delay": 0.6
+        },
+        {
+          "kind": "tag",
+          "x": 70,
+          "y": 44,
+          "text": "≈ 12.000 t",
+          "delay": 1.4
+        },
+        {
+          "kind": "tag",
+          "x": 70,
+          "y": 60,
+          "text": "19 km/s",
+          "delay": 2.2
+        }
+      ],
+      "seed": "as16"
+    },
+    {
+      "type": "lp",
+      "narration": "Explotó a unos treinta kilómetros de altura. La energía fue de unos quinientos kilotones: unas treinta bombas de Hiroshima.",
+      "lp": {
+        "set": "street",
+        "cam": {
+          "from": [
+            0,
+            2,
+            10
+          ],
+          "to": [
+            0,
+            2,
+            8
+          ],
+          "look": [
+            0,
+            6,
+            -20
+          ],
+          "shake": [
+            1.5,
+            4,
+            0.12
+          ]
+        },
+        "objects": [
+          {
+            "kind": "meteor",
+            "from": [
+              25,
+              30,
+              -70
+            ],
+            "to": [
+              0,
+              22,
+              -50
+            ],
+            "move": [
+              0,
+              1.5
+            ],
+            "scale": 3
+          }
+        ],
+        "cast": [
+          {
+            "who": "man",
+            "pos": [
+              -1.5,
+              0
+            ],
+            "scared": 1.5
+          },
+          {
+            "who": "pepe",
+            "pos": [
+              1.5,
+              0
+            ],
+            "scared": 1.6
+          }
+        ],
+        "overlays": [
+          {
+            "kind": "badge",
+            "text": "≈ 30 HIROSHIMAS",
+            "at": 1.6
+          }
+        ]
+      },
+      "seed": "as17"
+    },
+    {
+      "type": "cartoon",
+      "text": "Los *cristales*",
+      "narration": "Lo peor llegó un minuto y medio después: la onda expansiva. Reventó ventanas en miles de edificios. Unas mil quinientas personas necesitaron atención médica, sobre todo por cristales rotos.",
+      "bg": "land:city",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 42,
+          "emoji": "🪟",
+          "size": 190,
+          "delay": 0.8,
+          "anim": "shake"
+        },
+        {
+          "kind": "emoji",
+          "x": 55,
+          "y": 38,
+          "emoji": "💥",
+          "size": 160,
+          "delay": 1.2,
+          "anim": "pop"
+        },
+        {
+          "kind": "tag",
+          "x": 75,
+          "y": 22,
+          "text": "≈ 1.500 heridos",
+          "delay": 2
+        },
+        {
+          "kind": "stick",
+          "x": 80,
+          "y": 92,
+          "pose": "scared",
+          "expr": "scared",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270,
+          "sweat": true
+        }
+      ],
+      "seed": "as18",
+      "camera": {
+        "shake": 14,
+        "shakeAt": 0.8
+      }
+    },
+    {
+      "type": "cartoon",
+      "text": "Nadie lo *vio venir*",
+      "narration": "Lo más inquietante: nadie lo vio venir. Llegó desde la dirección del Sol, donde los telescopios no pueden mirar de noche. Ese mismo día, por pura casualidad, otro asteroide distinto pasó cerca de la Tierra.",
+      "bg": "land:ice",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 26,
+          "emoji": "☀️",
+          "size": 200,
+          "anim": "pulse"
+        },
+        {
+          "kind": "emoji",
+          "x": 80,
+          "y": 26,
+          "emoji": "☄️",
+          "size": 110,
+          "to": [
+            40,
+            50
+          ],
+          "move": [
+            0.5,
+            3.0
+          ]
+        },
+        {
+          "kind": "emoji",
+          "x": 25,
+          "y": 42,
+          "emoji": "🔭",
+          "size": 170,
+          "delay": 1.5,
+          "anim": "shake"
+        },
+        {
+          "kind": "emoji",
+          "x": 25,
+          "y": 30,
+          "emoji": "❓",
+          "size": 100,
+          "delay": 2,
+          "anim": "pop"
+        }
+      ],
+      "seed": "as19"
+    },
+    {
+      "type": "cartoon",
+      "text": "La gente *miraba*",
+      "narration": "Y aquí hay una lección importante: mucha gente se acercó a la ventana a ver la luz. Por eso hubo tantos cortes. Si un día ves un destello enorme en el cielo, aléjate de los cristales.",
+      "bg": "room-day",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 40,
+          "emoji": "🪟",
+          "size": 220
+        },
+        {
+          "kind": "bubble",
+          "x": 62,
+          "y": 30,
+          "text": "¡Lejos de la ventana!",
+          "delay": 1.4
+        },
+        {
+          "kind": "stick",
+          "x": 60,
+          "y": 92,
+          "pose": "point",
+          "expr": "cool",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as20"
+    },
+    {
+      "type": "title",
+      "text": "*50 metros*: Tunguska",
+      "kicker": "Capítulo 3",
+      "narration": "Si la roca mide unos cincuenta o sesenta metros, como un campo de fútbol de ancho, la cosa cambia mucho.",
+      "bg": "land:forest",
+      "seed": "as21"
+    },
+    {
+      "type": "cartoon",
+      "text": "Siberia, *1908*",
+      "narration": "El treinta de junio de mil novecientos ocho, algo explotó sobre el río Tunguska, en Siberia. No dejó cráter, porque estalló en el aire, a unos kilómetros del suelo.",
+      "bg": "land:forest",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 90,
+          "y": 5,
+          "emoji": "☄️",
+          "size": 160,
+          "to": [
+            50,
+            30
+          ],
+          "move": [
+            0.3,
+            2.4
+          ],
+          "ease": "in"
+        },
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 30,
+          "emoji": "💥",
+          "size": 260,
+          "delay": 2.4,
+          "anim": "pop"
+        },
+        {
+          "kind": "tag",
+          "x": 20,
+          "y": 18,
+          "text": "1908",
+          "delay": 0.6
+        }
+      ],
+      "seed": "as22",
+      "fx": [
+        "flash"
+      ],
+      "flashAt": 2.4,
+      "camera": {
+        "shake": 18,
+        "shakeAt": 2.4
+      }
+    },
+    {
+      "type": "cartoon",
+      "text": "*80 millones* de árboles",
+      "narration": "Pero tumbó unos ochenta millones de árboles en más de dos mil kilómetros cuadrados. Es como arrasar una zona del tamaño de toda la ciudad de Madrid y sus alrededores, varias veces.",
+      "bg": "land:forest",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 25,
+          "y": 55,
+          "emoji": "🌲",
+          "size": 140,
+          "rot": 80,
+          "delay": 0.4
+        },
+        {
+          "kind": "emoji",
+          "x": 45,
+          "y": 58,
+          "emoji": "🌲",
+          "size": 140,
+          "rot": 80,
+          "delay": 0.7
+        },
+        {
+          "kind": "emoji",
+          "x": 65,
+          "y": 56,
+          "emoji": "🌲",
+          "size": 140,
+          "rot": 80,
+          "delay": 1.0
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 20,
+          "text": "≈ 2.000 km²",
+          "delay": 1.6
+        },
+        {
+          "kind": "stick",
+          "x": 85,
+          "y": 92,
+          "pose": "facepalm",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as23"
+    },
+    {
+      "type": "cartoon",
+      "text": "Por *suerte*, vacío",
+      "narration": "Por suerte, aquella zona estaba casi vacía. Si hubiera explotado sobre una gran ciudad, habría sido una de las peores catástrofes de la historia.",
+      "bg": "land:city",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 38,
+          "emoji": "🏙️",
+          "size": 260
+        },
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 38,
+          "emoji": "❌",
+          "size": 160,
+          "delay": 1.6,
+          "anim": "pop"
+        },
+        {
+          "kind": "stick",
+          "x": 20,
+          "y": 92,
+          "pose": "shrug",
+          "expr": "sad",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as24"
+    },
+    {
+      "type": "cartoon",
+      "text": "El *Cráter* de Arizona",
+      "narration": "Y cuando la roca es de hierro, sí llega al suelo. Hace unos cincuenta mil años, un meteorito de hierro de unos cincuenta metros hizo el Cráter del Meteorito, en Arizona: más de un kilómetro de ancho.",
+      "bg": "land:desert",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 88,
+          "y": 5,
+          "emoji": "🪨",
+          "size": 120,
+          "to": [
+            50,
+            60
+          ],
+          "move": [
+            0.3,
+            2.0
+          ],
+          "ease": "in"
+        },
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 66,
+          "emoji": "🕳️",
+          "size": 300,
+          "delay": 2.0,
+          "anim": "pop"
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 20,
+          "text": "≈ 1,2 km",
+          "delay": 2.6
+        },
+        {
+          "kind": "stick",
+          "x": 15,
+          "y": 92,
+          "pose": "point",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as25",
+      "fx": [
+        "flash"
+      ],
+      "flashAt": 2.0
+    },
+    {
+      "type": "title",
+      "text": "*140 metros*: adiós ciudad",
+      "kicker": "Capítulo 4",
+      "narration": "Ciento cuarenta metros. Es la cifra que más vigila la NASA. Y ahora vas a ver por qué.",
+      "bg": "land:city",
+      "seed": "as26"
+    },
+    {
+      "type": "cartoon",
+      "text": "El número *mágico*",
+      "narration": "Los asteroides de más de ciento cuarenta metros que se acercan a la órbita de la Tierra se consideran potencialmente peligrosos. La NASA tiene el objetivo de encontrar el noventa por ciento de ellos.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 42,
+          "emoji": "🔭",
+          "size": 220,
+          "anim": "float"
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 18,
+          "text": "> 140 m",
+          "delay": 0.8
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 66,
+          "text": "objetivo: 90 %",
+          "delay": 1.8
+        }
+      ],
+      "seed": "as27"
+    },
+    {
+      "type": "lp",
+      "narration": "Una roca así no se queda en el aire: llega al suelo y abre un cráter de varios kilómetros. Podría borrar una ciudad entera y dañar toda una región.",
+      "lp": {
+        "set": "desert",
+        "cam": {
+          "from": [
+            0,
+            3,
+            14
+          ],
+          "to": [
+            0,
+            3,
+            11
+          ],
+          "look": [
+            0,
+            3,
+            -20
+          ],
+          "shake": [
+            2.2,
+            4.5,
+            0.2
+          ]
+        },
+        "objects": [
+          {
+            "kind": "meteor",
+            "from": [
+              30,
+              50,
+              -60
+            ],
+            "to": [
+              0,
+              0,
+              -30
+            ],
+            "move": [
+              0,
+              2.2
+            ],
+            "scale": 4
+          },
+          {
+            "kind": "house",
+            "from": [
+              -6,
+              0,
+              -25
+            ]
+          },
+          {
+            "kind": "house",
+            "from": [
+              7,
+              0,
+              -28
+            ]
+          }
+        ],
+        "cast": [
+          {
+            "who": "pepe",
+            "pos": [
+              0,
+              0
+            ],
+            "rot": 3.14,
+            "scared": 2.2
+          }
+        ],
+        "overlays": [
+          {
+            "kind": "stamp",
+            "text": "IMPACTO",
+            "at": 2.3
+          }
+        ]
+      },
+      "seed": "as28"
+    },
+    {
+      "type": "cartoon",
+      "text": "¿*Cada cuánto*?",
+      "narration": "La buena noticia: impactos así son muy raros. Hablamos, de media, de uno cada muchos miles de años. Y los grandes que ya conocemos no tienen ninguna posibilidad de chocar en los próximos cien años.",
+      "bg": "room-day",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 40,
+          "emoji": "📅",
+          "size": 200,
+          "anim": "float"
+        },
+        {
+          "kind": "tag",
+          "x": 62,
+          "y": 28,
+          "text": "muy raros",
+          "delay": 1.0
+        },
+        {
+          "kind": "stick",
+          "x": 70,
+          "y": 92,
+          "pose": "cheer",
+          "expr": "happy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as29"
+    },
+    {
+      "type": "title",
+      "text": "*1 kilómetro*: el planeta lo nota",
+      "kicker": "Capítulo 5",
+      "narration": "Un kilómetro. Una roca más alta que cualquier rascacielos del mundo. Aquí ya no hablamos de una ciudad: hablamos del planeta.",
+      "bg": "land:mountains",
+      "seed": "as30"
+    },
+    {
+      "type": "cartoon",
+      "text": "Un cráter de *15 km*",
+      "narration": "Un asteroide de un kilómetro abriría un cráter de unos quince o veinte kilómetros. Lanzaría a la atmósfera tanto polvo que el cielo de todo el planeta se oscurecería.",
+      "bg": "land:mountains",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 92,
+          "y": 3,
+          "emoji": "☄️",
+          "size": 190,
+          "to": [
+            50,
+            62
+          ],
+          "move": [
+            0.3,
+            1.8
+          ],
+          "ease": "in"
+        },
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 64,
+          "emoji": "💥",
+          "size": 320,
+          "delay": 1.8,
+          "anim": "pop"
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 18,
+          "text": "≈ 15–20 km",
+          "delay": 2.4
+        }
+      ],
+      "seed": "as31",
+      "fx": [
+        "flash",
+        "ash"
+      ],
+      "flashAt": 1.8,
+      "camera": {
+        "shake": 22,
+        "shakeAt": 1.8
+      }
+    },
+    {
+      "type": "cartoon",
+      "text": "Un *invierno* artificial",
+      "narration": "Con menos luz, las temperaturas bajarían varios grados y muchas cosechas fallarían durante uno o dos años. El problema ya no sería la explosión: sería el hambre.",
+      "bg": "land:ice",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 40,
+          "emoji": "🌾",
+          "size": 180,
+          "anim": "shake"
+        },
+        {
+          "kind": "emoji",
+          "x": 60,
+          "y": 34,
+          "emoji": "🌥️",
+          "size": 220,
+          "anim": "float"
+        },
+        {
+          "kind": "tag",
+          "x": 60,
+          "y": 60,
+          "text": "– varios °C",
+          "delay": 1.4
+        },
+        {
+          "kind": "stick",
+          "x": 82,
+          "y": 92,
+          "pose": "scared",
+          "expr": "sad",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270,
+          "sweat": true
+        }
+      ],
+      "seed": "as32",
+      "fx": [
+        "snow"
+      ]
+    },
+    {
+      "type": "cartoon",
+      "text": "¿*Cada cuánto*?",
+      "narration": "Esto pasa, según las estimaciones, una vez cada varios cientos de miles de años. Y aquí hay buena noticia: los científicos creen haber encontrado ya la gran mayoría de los asteroides cercanos de este tamaño. Ninguno viene hacia nosotros.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 42,
+          "emoji": "🌍",
+          "size": 230,
+          "anim": "float"
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 18,
+          "text": "1 cada cientos de miles de años",
+          "delay": 1.0
+        },
+        {
+          "kind": "emoji",
+          "x": 80,
+          "y": 30,
+          "emoji": "✅",
+          "size": 120,
+          "delay": 2.4,
+          "anim": "pop"
+        }
+      ],
+      "seed": "as33"
+    },
+    {
+      "type": "title",
+      "text": "*10 kilómetros*: los dinosaurios",
+      "kicker": "Capítulo 6",
+      "narration": "Y ahora el monstruo. Diez kilómetros. Más alto que el Everest. Esto también pasó.",
+      "bg": "land:volcano",
+      "seed": "as34"
+    },
+    {
+      "type": "cartoon",
+      "text": "Hace *66 millones* de años",
+      "narration": "Hace sesenta y seis millones de años, un asteroide de unos diez kilómetros cayó en lo que hoy es la península de Yucatán, en México. Dejó el cráter de Chicxulub: unos ciento ochenta kilómetros de ancho.",
+      "bg": "land:sea",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 25,
+          "y": 52,
+          "emoji": "🦖",
+          "size": 200,
+          "anim": "float"
+        },
+        {
+          "kind": "emoji",
+          "x": 92,
+          "y": 3,
+          "emoji": "☄️",
+          "size": 230,
+          "to": [
+            60,
+            58
+          ],
+          "move": [
+            1.0,
+            3.0
+          ],
+          "ease": "in"
+        },
+        {
+          "kind": "emoji",
+          "x": 60,
+          "y": 58,
+          "emoji": "💥",
+          "size": 360,
+          "delay": 3.0,
+          "anim": "pop"
+        },
+        {
+          "kind": "tag",
+          "x": 60,
+          "y": 18,
+          "text": "≈ 180 km",
+          "delay": 3.6
+        }
+      ],
+      "seed": "as35",
+      "fx": [
+        "flash"
+      ],
+      "flashAt": 3.0,
+      "camera": {
+        "shake": 26,
+        "shakeAt": 3.0
+      }
+    },
+    {
+      "type": "lp",
+      "narration": "En minutos, una lluvia de roca fundida cayó por medio planeta. Hubo incendios enormes, tsunamis gigantes y luego años de oscuridad y frío.",
+      "lp": {
+        "set": "night",
+        "cam": {
+          "from": [
+            0,
+            2.5,
+            9
+          ],
+          "to": [
+            0,
+            2.3,
+            7
+          ],
+          "look": [
+            0,
+            4,
+            -10
+          ],
+          "shake": [
+            0.5,
+            5,
+            0.15
+          ]
+        },
+        "objects": [
+          {
+            "kind": "meteor",
+            "from": [
+              -15,
+              30,
+              -50
+            ],
+            "to": [
+              -4,
+              0,
+              -20
+            ],
+            "move": [
+              0.3,
+              1.8
+            ],
+            "scale": 1.6
+          },
+          {
+            "kind": "meteor",
+            "from": [
+              20,
+              32,
+              -50
+            ],
+            "to": [
+              6,
+              0,
+              -18
+            ],
+            "move": [
+              1.0,
+              2.6
+            ],
+            "scale": 1.6
+          },
+          {
+            "kind": "meteor",
+            "from": [
+              5,
+              35,
+              -50
+            ],
+            "to": [
+              1,
+              0,
+              -15
+            ],
+            "move": [
+              1.8,
+              3.4
+            ],
+            "scale": 1.5
+          }
+        ],
+        "cast": [
+          {
+            "who": "pepe",
+            "pos": [
+              0,
+              0
+            ],
+            "rot": 3.14,
+            "scared": 1.8
+          }
+        ],
+        "overlays": [
+          {
+            "kind": "counter",
+            "text": "AÑO 1: OSCURIDAD",
+            "at": 3.6
+          }
+        ]
+      },
+      "seed": "as36"
+    },
+    {
+      "type": "cartoon",
+      "text": "El *75 %* de las especies",
+      "narration": "Alrededor de tres cuartas partes de las especies de la Tierra desaparecieron. Entre ellas, todos los dinosaurios… menos los que se convirtieron en aves. Las palomas de tu plaza son, literalmente, dinosaurios.",
+      "bg": "land:city",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 44,
+          "emoji": "🦖",
+          "size": 200,
+          "vanish": 1.8
+        },
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 44,
+          "emoji": "🕊️",
+          "size": 180,
+          "delay": 2.2,
+          "anim": "pop"
+        },
+        {
+          "kind": "tag",
+          "x": 70,
+          "y": 22,
+          "text": "≈ 75 % de especies",
+          "delay": 1.0
+        },
+        {
+          "kind": "stick",
+          "x": 80,
+          "y": 92,
+          "pose": "point",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as37"
+    },
+    {
+      "type": "cartoon",
+      "text": "Y aquí *estamos*",
+      "narration": "Y lo curioso es que ese desastre abrió espacio a los mamíferos. Sin aquel asteroide, probablemente tú y yo no estaríamos aquí viendo este vídeo.",
+      "bg": "land:forest",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 45,
+          "emoji": "🐭",
+          "size": 140,
+          "anim": "float"
+        },
+        {
+          "kind": "emoji",
+          "x": 55,
+          "y": 40,
+          "emoji": "🐒",
+          "size": 170,
+          "delay": 1.4,
+          "anim": "pop"
+        },
+        {
+          "kind": "stick",
+          "x": 80,
+          "y": 92,
+          "pose": "wave",
+          "expr": "happy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as38"
+    },
+    {
+      "type": "cartoon",
+      "text": "¿Puede *volver* a pasar?",
+      "narration": "¿Puede volver a pasar? Rocas de ese tamaño chocan, de media, una vez cada decenas de millones de años. Y los asteroides cercanos más grandes, los de varios kilómetros, ya están casi todos localizados. Ninguno está en ruta de choque.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 40,
+          "emoji": "🔭",
+          "size": 220,
+          "anim": "float"
+        },
+        {
+          "kind": "emoji",
+          "x": 78,
+          "y": 30,
+          "emoji": "✅",
+          "size": 130,
+          "delay": 2.4,
+          "anim": "pop"
+        },
+        {
+          "kind": "stick",
+          "x": 20,
+          "y": 92,
+          "pose": "think",
+          "expr": "cool",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as39"
+    },
+    {
+      "type": "title",
+      "text": "¿Y si cae en el *mar*?",
+      "kicker": "Capítulo 7",
+      "narration": "Siete de cada diez veces, una roca caería en el océano, porque el agua cubre casi tres cuartas partes del planeta. ¿Eso es mejor o peor?",
+      "bg": "ocean",
+      "seed": "as40"
+    },
+    {
+      "type": "cartoon",
+      "text": "*Olas* gigantes",
+      "narration": "Una roca pequeña en mitad del océano apenas haría nada en la costa. Pero un asteroide grande podría levantar olas enormes, que llegarían a costas a cientos o miles de kilómetros.",
+      "bg": "land:sea",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 90,
+          "y": 4,
+          "emoji": "☄️",
+          "size": 150,
+          "to": [
+            50,
+            58
+          ],
+          "move": [
+            0.3,
+            1.8
+          ],
+          "ease": "in"
+        },
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 58,
+          "emoji": "🌊",
+          "size": 260,
+          "delay": 1.8,
+          "anim": "pulse"
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 18,
+          "text": "tsunami",
+          "delay": 2.4
+        },
+        {
+          "kind": "stick",
+          "x": 85,
+          "y": 92,
+          "pose": "run",
+          "expr": "scared",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as41"
+    },
+    {
+      "type": "cartoon",
+      "text": "Ya *pasó* en el mar",
+      "narration": "Y ya ha pasado. Hace unos dos millones y medio de años, un asteroide de alrededor de un kilómetro cayó en el océano Antártico, el impacto de Eltanin. No se ha encontrado su cráter en el fondo del mar, pero sí restos del asteroide y del gran revuelo que causó en los sedimentos.",
+      "bg": "ocean",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 90,
+          "y": 4,
+          "emoji": "☄️",
+          "size": 140,
+          "to": [
+            50,
+            40
+          ],
+          "move": [
+            0.3,
+            1.8
+          ],
+          "ease": "in"
+        },
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 45,
+          "emoji": "🌊",
+          "size": 220,
+          "delay": 1.8,
+          "anim": "pulse"
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 16,
+          "text": "≈ 2,5 millones de años",
+          "delay": 2.4
+        }
+      ],
+      "seed": "as42"
+    },
+    {
+      "type": "cartoon",
+      "text": "Depende del *tamaño*",
+      "narration": "Cuánto daño haría depende de su tamaño, de su velocidad y de lo lejos que caiga de la costa. Por eso los científicos simulan cada caso con ordenadores, en vez de dar una única respuesta.",
+      "bg": "room",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 40,
+          "emoji": "💻",
+          "size": 200,
+          "anim": "float"
+        },
+        {
+          "kind": "emoji",
+          "x": 60,
+          "y": 34,
+          "emoji": "🌊",
+          "size": 150,
+          "delay": 1,
+          "anim": "pulse"
+        },
+        {
+          "kind": "stick",
+          "x": 80,
+          "y": 92,
+          "pose": "think",
+          "expr": "cool",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as43"
+    },
+    {
+      "type": "title",
+      "text": "¿Nos podemos *defender*?",
+      "kicker": "Capítulo 8",
+      "narration": "Vale. ¿Y si encontramos uno que viene hacia aquí? ¿Podemos hacer algo? Sí. Y ya lo hemos probado.",
+      "bg": "space",
+      "seed": "as44"
+    },
+    {
+      "type": "cartoon",
+      "text": "Misión *DART*",
+      "narration": "En septiembre de dos mil veintidós, la NASA estrelló una nave, la misión DART, contra Dimorphos, una pequeña luna de un asteroide, de unos ciento sesenta metros.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 20,
+          "y": 40,
+          "emoji": "🛰️",
+          "size": 160,
+          "to": [
+            62,
+            42
+          ],
+          "move": [
+            0.5,
+            3.2
+          ]
+        },
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 42,
+          "emoji": "🪨",
+          "size": 200
+        },
+        {
+          "kind": "emoji",
+          "x": 68,
+          "y": 42,
+          "emoji": "💥",
+          "size": 200,
+          "delay": 3.3,
+          "anim": "pop"
+        },
+        {
+          "kind": "tag",
+          "x": 30,
+          "y": 18,
+          "text": "2022",
+          "delay": 0.6
+        }
+      ],
+      "seed": "as45"
+    },
+    {
+      "type": "lp",
+      "narration": "El choque cambió su órbita: su vuelta alrededor del asteroide grande pasó a durar unos treinta y dos minutos menos. Por primera vez, la humanidad movió un objeto del espacio a propósito.",
+      "lp": {
+        "set": "space",
+        "cam": {
+          "from": [
+            0,
+            2,
+            9
+          ],
+          "to": [
+            0,
+            2,
+            7
+          ],
+          "look": [
+            0,
+            1.5,
+            -2
+          ]
+        },
+        "objects": [
+          {
+            "kind": "rock",
+            "from": [
+              0,
+              0.5,
+              -4
+            ],
+            "scale": 2.5,
+            "spin": 0.3
+          },
+          {
+            "kind": "cube",
+            "from": [
+              -12,
+              1.5,
+              -2
+            ],
+            "to": [
+              -0.5,
+              1.4,
+              -3.5
+            ],
+            "move": [
+              0.3,
+              2.0
+            ],
+            "scale": 0.5,
+            "color": "#cfd8e3"
+          }
+        ],
+        "overlays": [
+          {
+            "kind": "stamp",
+            "text": "¡IMPACTO!",
+            "at": 2.0
+          },
+          {
+            "kind": "badge",
+            "text": "– 32 MINUTOS",
+            "at": 3.0,
+            "y": 330
+          }
+        ]
+      },
+      "seed": "as46"
+    },
+    {
+      "type": "cartoon",
+      "text": "Misión *Hera*",
+      "narration": "Y la historia no acaba ahí. Europa lanzó en dos mil veinticuatro la misión Hera, de la Agencia Espacial Europea, para estudiar de cerca el resultado del choque: el tamaño del agujero, la forma de la pequeña luna y cuánto la movimos de verdad. Así sabremos cuánto empujón hace falta la próxima vez.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 25,
+          "y": 40,
+          "emoji": "🛰️",
+          "size": 160,
+          "to": [
+            55,
+            36
+          ],
+          "move": [
+            0.5,
+            4
+          ]
+        },
+        {
+          "kind": "emoji",
+          "x": 72,
+          "y": 42,
+          "emoji": "🪨",
+          "size": 190
+        },
+        {
+          "kind": "tag",
+          "x": 30,
+          "y": 18,
+          "text": "ESA · Hera",
+          "delay": 0.8
+        },
+        {
+          "kind": "stick",
+          "x": 85,
+          "y": 92,
+          "pose": "think",
+          "expr": "cool",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as47"
+    },
+    {
+      "type": "cartoon",
+      "text": "La clave: *verlos antes*",
+      "narration": "La clave es encontrarlos con años de antelación. Un empujón pequeño, hecho con tiempo, basta para que una roca pase de largo. Por eso hay telescopios buscando asteroides todas las noches.",
+      "bg": "land:night",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 44,
+          "emoji": "🔭",
+          "size": 200,
+          "anim": "float"
+        },
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 30,
+          "emoji": "☄️",
+          "size": 120,
+          "to": [
+            90,
+            10
+          ],
+          "move": [
+            1,
+            4
+          ]
+        },
+        {
+          "kind": "stick",
+          "x": 55,
+          "y": 92,
+          "pose": "point",
+          "expr": "cool",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as48"
+    },
+    {
+      "type": "cartoon",
+      "text": "El susto de *2024 YR4*",
+      "narration": "Y la vigilancia funciona. A principios de dos mil veinticinco, un asteroide de unos cuarenta a noventa metros, llamado dos mil veinticuatro YR4, llegó a tener alrededor de un tres por ciento de probabilidad de chocar en dos mil treinta y dos. Con más observaciones, el riesgo para la Tierra quedó prácticamente descartado.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 60,
+          "y": 40,
+          "emoji": "☄️",
+          "size": 160,
+          "anim": "float"
+        },
+        {
+          "kind": "tag",
+          "x": 30,
+          "y": 22,
+          "text": "≈ 3 %",
+          "delay": 0.8
+        },
+        {
+          "kind": "tag",
+          "x": 30,
+          "y": 60,
+          "text": "→ descartado",
+          "delay": 3.5
+        },
+        {
+          "kind": "emoji",
+          "x": 80,
+          "y": 30,
+          "emoji": "✅",
+          "size": 110,
+          "delay": 4,
+          "anim": "pop"
+        }
+      ],
+      "seed": "as49"
+    },
+    {
+      "type": "cartoon",
+      "text": "La escala de *Turín*",
+      "narration": "Para medir el peligro existe la escala de Turín, del cero al diez. Cero significa ningún riesgo; diez, choque seguro con catástrofe global. Hoy, todos los asteroides conocidos con fecha concreta están en cero o casi.",
+      "bg": "chalk",
+      "actors": [
+        {
+          "kind": "tag",
+          "x": 20,
+          "y": 40,
+          "text": "0",
+          "delay": 0.4
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 40,
+          "text": "5",
+          "delay": 1.0
+        },
+        {
+          "kind": "tag",
+          "x": 80,
+          "y": 40,
+          "text": "10",
+          "delay": 1.6
+        },
+        {
+          "kind": "emoji",
+          "x": 20,
+          "y": 64,
+          "emoji": "✅",
+          "size": 110,
+          "delay": 2.6,
+          "anim": "pop"
+        },
+        {
+          "kind": "stick",
+          "x": 85,
+          "y": 92,
+          "pose": "point",
+          "expr": "cool",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as50"
+    },
+    {
+      "type": "cartoon",
+      "text": "Apophis, *2029*",
+      "narration": "Y una cita para tu calendario: el trece de abril de dos mil veintinueve, el asteroide Apophis, de unos trescientos cuarenta metros, pasará a unos treinta y dos mil kilómetros de la superficie. Más cerca que muchos satélites. Se podrá ver a simple vista desde algunos lugares. Y no, no va a chocar.",
+      "bg": "land:night",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 30,
+          "emoji": "☄️",
+          "size": 160,
+          "to": [
+            20,
+            22
+          ],
+          "move": [
+            0.3,
+            7
+          ]
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 14,
+          "text": "13 abril 2029",
+          "delay": 1.0
+        },
+        {
+          "kind": "emoji",
+          "x": 50,
+          "y": 62,
+          "emoji": "✅",
+          "size": 120,
+          "delay": 4.5,
+          "anim": "pop"
+        },
+        {
+          "kind": "stick",
+          "x": 30,
+          "y": 92,
+          "pose": "look",
+          "expr": "wow",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as51"
+    },
+    {
+      "type": "title",
+      "text": "*Resumen*",
+      "kicker": "Resumen",
+      "narration": "Vamos a resumir lo que te pasaría según el tamaño.",
+      "bg": "space",
+      "seed": "as52"
+    },
+    {
+      "type": "cartoon",
+      "text": "Del *balón* al *coche*",
+      "narration": "Una piedra como un balón: una estrella fugaz espectacular. Como un coche: una explosión muy arriba, cada año, sin peligro.",
+      "bg": "land:night",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 40,
+          "emoji": "⚽",
+          "size": 130,
+          "delay": 0.3,
+          "anim": "pop"
+        },
+        {
+          "kind": "emoji",
+          "x": 65,
+          "y": 40,
+          "emoji": "🚗",
+          "size": 170,
+          "delay": 1.6,
+          "anim": "pop"
+        },
+        {
+          "kind": "stick",
+          "x": 85,
+          "y": 92,
+          "pose": "cheer",
+          "expr": "happy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as53"
+    },
+    {
+      "type": "cartoon",
+      "text": "De *20* a *140* metros",
+      "narration": "Veinte metros: ventanas rotas, como en Cheliábinsk. Cincuenta: un bosque entero arrasado, como en Tunguska. Ciento cuarenta: una ciudad borrada del mapa.",
+      "bg": "land:city",
+      "actors": [
+        {
+          "kind": "tag",
+          "x": 25,
+          "y": 30,
+          "text": "20 m",
+          "delay": 0.4
+        },
+        {
+          "kind": "tag",
+          "x": 50,
+          "y": 30,
+          "text": "50 m",
+          "delay": 1.6
+        },
+        {
+          "kind": "tag",
+          "x": 75,
+          "y": 30,
+          "text": "140 m",
+          "delay": 3.0
+        },
+        {
+          "kind": "emoji",
+          "x": 75,
+          "y": 55,
+          "emoji": "🏙️",
+          "size": 150,
+          "delay": 3.2,
+          "anim": "shake"
+        }
+      ],
+      "seed": "as54"
+    },
+    {
+      "type": "cartoon",
+      "text": "De *1* a *10* kilómetros",
+      "narration": "Un kilómetro: años de frío en todo el planeta. Diez kilómetros: el fin de los dinosaurios. Por suerte, todos los grandes que conocemos están vigilados y ninguno viene hacia nosotros.",
+      "bg": "space",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 30,
+          "y": 40,
+          "emoji": "🥶",
+          "size": 170,
+          "delay": 0.4,
+          "anim": "pop"
+        },
+        {
+          "kind": "emoji",
+          "x": 65,
+          "y": 40,
+          "emoji": "🦖",
+          "size": 200,
+          "delay": 1.8,
+          "anim": "pop"
+        },
+        {
+          "kind": "emoji",
+          "x": 85,
+          "y": 25,
+          "emoji": "✅",
+          "size": 120,
+          "delay": 3.5,
+          "anim": "pop"
+        }
+      ],
+      "seed": "as55"
+    },
+    {
+      "type": "cartoon",
+      "text": "¿Y *tú*?",
+      "narration": "Y ahora dime en los comentarios: si pudieras ver pasar Apophis en dos mil veintinueve, ¿viajarías para verlo? Si te ha gustado, suscríbete: cada día te cuento qué pasaría si… Nos vemos en el siguiente.",
+      "bg": "land:night",
+      "actors": [
+        {
+          "kind": "emoji",
+          "x": 70,
+          "y": 28,
+          "emoji": "☄️",
+          "size": 140,
+          "to": [
+            30,
+            18
+          ],
+          "move": [
+            0.3,
+            6
+          ]
+        },
+        {
+          "kind": "bubble",
+          "x": 55,
+          "y": 40,
+          "text": "¿Irías a verlo?",
+          "delay": 1
+        },
+        {
+          "kind": "stick",
+          "x": 40,
+          "y": 92,
+          "pose": "wave",
+          "expr": "happy",
+          "name": "TÚ",
+          "color": "#FFD60A",
+          "size": 270
+        }
+      ],
+      "seed": "as56"
+    }
   ]
- },
- "scenes": [
-  {
-   "type": "cartoon",
-   "text": "Una roca del *espacio*",
-   "narration": "Imagina que miras al cielo una noche cualquiera y ves una luz que no se apaga. Que crece. Que se acerca. No es un avión. Es una roca del espacio, y viene directa hacia la Tierra.",
-   "bg": "land:night",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 92,
-     "y": 4,
-     "emoji": "☄️",
-     "size": 120,
-     "to": [
-      55,
-      30
-     ],
-     "move": [
-      0.5,
-      6.5
-     ],
-     "ease": "in"
-    },
-    {
-     "kind": "stick",
-     "x": 25,
-     "y": 92,
-     "pose": "look",
-     "expr": "wow",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270,
-     "pose2": "scared",
-     "poseAt": 5,
-     "expr2": "scared"
-    }
-   ],
-   "seed": "as1",
-   "camera": {
-    "zoom": [
-     1,
-     1.12
-    ]
-   }
-  },
-  {
-   "type": "cartoon",
-   "text": "¿Qué pasaría *de verdad*?",
-   "narration": "Hoy vamos a ver qué pasaría si un asteroide chocara contra la Tierra, según su tamaño. Desde una piedra como un balón hasta una montaña de diez kilómetros. Con casos reales, no con películas.",
-   "bg": "space",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 20,
-     "y": 40,
-     "emoji": "⚽",
-     "size": 110,
-     "delay": 0.5,
-     "anim": "pop"
-    },
-    {
-     "kind": "emoji",
-     "x": 40,
-     "y": 40,
-     "emoji": "🚗",
-     "size": 150,
-     "delay": 1.5,
-     "anim": "pop"
-    },
-    {
-     "kind": "emoji",
-     "x": 62,
-     "y": 38,
-     "emoji": "🏟️",
-     "size": 200,
-     "delay": 2.5,
-     "anim": "pop"
-    },
-    {
-     "kind": "emoji",
-     "x": 84,
-     "y": 36,
-     "emoji": "⛰️",
-     "size": 260,
-     "delay": 3.5,
-     "anim": "pop"
-    }
-   ],
-   "seed": "as2"
-  },
-  {
-   "type": "cartoon",
-   "text": "Y una *buena noticia*",
-   "narration": "Y al final te cuento qué está haciendo la humanidad para defenderse. Porque sí: en dos mil veintidós ya golpeamos un asteroide a propósito. Y funcionó. Quédate hasta el final.",
-   "bg": "room-day",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 30,
-     "y": 40,
-     "emoji": "🛰️",
-     "size": 190,
-     "anim": "float"
-    },
-    {
-     "kind": "bubble",
-     "x": 62,
-     "y": 34,
-     "text": "¡Funcionó!",
-     "delay": 1.6
-    },
-    {
-     "kind": "stick",
-     "x": 55,
-     "y": 92,
-     "pose": "cheer",
-     "expr": "happy",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 280
-    }
-   ],
-   "seed": "as3"
-  },
-  {
-   "type": "title",
-   "text": "Lo que cae *cada día*",
-   "kicker": "Capítulo 1",
-   "narration": "Primero, una cosa que casi nadie sabe: ya te están cayendo piedras del espacio. Todos los días.",
-   "bg": "space",
-   "seed": "as4"
-  },
-  {
-   "type": "cartoon",
-   "text": "*Toneladas* de polvo",
-   "narration": "Cada día entran en la atmósfera decenas de toneladas de polvo y piedrecitas del espacio. La mayoría son granos más pequeños que la arena.",
-   "bg": "space",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 50,
-     "y": 42,
-     "emoji": "🌍",
-     "size": 260,
-     "anim": "float"
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 18,
-     "text": "decenas de toneladas/día",
-     "delay": 1.2
-    },
-    {
-     "kind": "emoji",
-     "x": 20,
-     "y": 25,
-     "emoji": "✨",
-     "size": 80,
-     "anim": "pulse"
-    },
-    {
-     "kind": "emoji",
-     "x": 80,
-     "y": 28,
-     "emoji": "✨",
-     "size": 70,
-     "delay": 0.6,
-     "anim": "pulse"
-    }
-   ],
-   "seed": "as5"
-  },
-  {
-   "type": "cartoon",
-   "text": "*Estrellas* fugaces",
-   "narration": "Entran a decenas de kilómetros por segundo. El aire las frena tan de golpe que se calientan y brillan. Eso es una estrella fugaz: un grano de polvo quemándose a unos cien kilómetros de altura.",
-   "bg": "land:night",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 85,
-     "y": 8,
-     "emoji": "✨",
-     "size": 90,
-     "to": [
-      30,
-      40
-     ],
-     "move": [
-      0.3,
-      1.4
-     ],
-     "ease": "in"
-    },
-    {
-     "kind": "emoji",
-     "x": 70,
-     "y": 5,
-     "emoji": "✨",
-     "size": 70,
-     "to": [
-      15,
-      35
-     ],
-     "move": [
-      1.8,
-      2.8
-     ],
-     "ease": "in"
-    },
-    {
-     "kind": "stick",
-     "x": 70,
-     "y": 92,
-     "pose": "look",
-     "expr": "wow",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as6"
-  },
-  {
-   "type": "lp",
-   "narration": "Si cae algo del tamaño de un balón, ves una bola de fuego espectacular, quizá oyes un estruendo, y como mucho encuentras un trocito de meteorito en el suelo. No pasa nada más.",
-   "lp": {
-    "set": "field",
-    "cam": {
-     "from": [
-      0,
-      2.2,
-      9
-     ],
-     "to": [
-      0,
-      2.0,
-      7
-     ],
-     "look": [
-      0,
-      3.5,
-      -10
-     ]
-    },
-    "cast": [
-     {
-      "who": "pepe",
-      "pos": [
-       0,
-       0
-      ],
-      "rot": 3.14,
-      "scared": 2.4
-     }
-    ],
-    "objects": [
-     {
-      "kind": "meteor",
-      "from": [
-       30,
-       40,
-       -80
-      ],
-      "to": [
-       -20,
-       25,
-       -60
-      ],
-      "move": [
-       0.2,
-       2.6
-      ],
-      "scale": 2.5
-     }
-    ],
-    "overlays": [
-     {
-      "kind": "badge",
-      "text": "BOLA DE FUEGO",
-      "at": 1.8
-     }
-    ]
-   },
-   "seed": "as7"
-  },
-  {
-   "type": "cartoon",
-   "text": "Del tamaño de un *coche*",
-   "narration": "Una roca del tamaño de un coche entra en la atmósfera, más o menos, una vez al año. Y casi nunca llega al suelo entera: estalla en el aire, muy arriba, y se deshace.",
-   "bg": "land:mountains",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 90,
-     "y": 5,
-     "emoji": "☄️",
-     "size": 130,
-     "to": [
-      50,
-      30
-     ],
-     "move": [
-      0.3,
-      2.0
-     ],
-     "ease": "in"
-    },
-    {
-     "kind": "emoji",
-     "x": 50,
-     "y": 30,
-     "emoji": "💥",
-     "size": 220,
-     "delay": 2.1,
-     "anim": "pop"
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 14,
-     "text": "≈ 1 vez al año",
-     "delay": 2.6
-    },
-    {
-     "kind": "stick",
-     "x": 20,
-     "y": 92,
-     "pose": "look",
-     "expr": "wow",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as8",
-   "fx": [
-    "flash"
-   ],
-   "flashAt": 2.1
-  },
-  {
-   "type": "cartoon",
-   "text": "Meteoritos en la *Antártida*",
-   "narration": "Los trocitos que llegan al suelo se llaman meteoritos. Muchos se encuentran en la Antártida y en los desiertos, porque ahí una piedra oscura sobre el hielo o la arena se ve desde lejos. Hay decenas de miles en museos de todo el mundo.",
-   "bg": "land:ice",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 40,
-     "y": 60,
-     "emoji": "🪨",
-     "size": 140,
-     "delay": 0.6,
-     "anim": "pop"
-    },
-    {
-     "kind": "emoji",
-     "x": 65,
-     "y": 58,
-     "emoji": "🔍",
-     "size": 150,
-     "delay": 1.4,
-     "anim": "float"
-    },
-    {
-     "kind": "stick",
-     "x": 20,
-     "y": 92,
-     "pose": "point",
-     "expr": "happy",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as9"
-  },
-  {
-   "type": "title",
-   "text": "¿Por qué hacen *tanto daño*?",
-   "kicker": "La clave",
-   "narration": "Antes de subir de tamaño, una pregunta: ¿por qué una piedra hace tanto daño? La respuesta es una sola palabra: velocidad.",
-   "bg": "space",
-   "seed": "as10"
-  },
-  {
-   "type": "cartoon",
-   "text": "*20 km* por segundo",
-   "narration": "Un asteroide típico llega a unos veinte kilómetros por segundo. Eso es ir de Madrid a Barcelona en menos de medio minuto. Ningún objeto fabricado por el ser humano va tan rápido cerca del suelo.",
-   "bg": "land:mountains",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 15,
-     "y": 40,
-     "emoji": "☄️",
-     "size": 150,
-     "to": [
-      88,
-      40
-     ],
-     "move": [
-      0.3,
-      1.2
-     ]
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 20,
-     "text": "≈ 20 km/s",
-     "delay": 1.0
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 64,
-     "text": "Madrid → Barcelona: < 30 s",
-     "delay": 2.0
-    }
-   ],
-   "seed": "as11",
-   "fx": [
-    "speedlines"
-   ]
-  },
-  {
-   "type": "cartoon",
-   "text": "Energía *bestial*",
-   "narration": "Y la energía crece con el cuadrado de la velocidad. A esa velocidad, cada kilo de roca lleva más energía que varios kilos de dinamita. Por eso una roca de pocos metros puede explotar como una bomba.",
-   "bg": "chalk",
-   "actors": [
-    {
-     "kind": "tag",
-     "x": 30,
-     "y": 30,
-     "text": "E = ½ · m · v²",
-     "delay": 0.4
-    },
-    {
-     "kind": "emoji",
-     "x": 70,
-     "y": 40,
-     "emoji": "🧨",
-     "size": 180,
-     "delay": 1.6,
-     "anim": "shake"
-    },
-    {
-     "kind": "stick",
-     "x": 85,
-     "y": 92,
-     "pose": "think",
-     "expr": "wow",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as12"
-  },
-  {
-   "type": "cartoon",
-   "text": "Explota en el *aire*",
-   "narration": "Y por eso muchas no llegan al suelo: el aire las frena con tanta fuerza que la roca se rompe y toda esa energía se libera de golpe, en el cielo. Es lo que pasó en los dos casos reales que vienen ahora.",
-   "bg": "land:mountains",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 90,
-     "y": 5,
-     "emoji": "☄️",
-     "size": 140,
-     "to": [
-      50,
-      30
-     ],
-     "move": [
-      0.3,
-      1.8
-     ],
-     "ease": "in"
-    },
-    {
-     "kind": "emoji",
-     "x": 50,
-     "y": 30,
-     "emoji": "💥",
-     "size": 230,
-     "delay": 1.8,
-     "anim": "pop"
-    },
-    {
-     "kind": "stick",
-     "x": 20,
-     "y": 92,
-     "pose": "scared",
-     "expr": "wow",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as13",
-   "fx": [
-    "flash"
-   ],
-   "flashAt": 1.8
-  },
-  {
-   "type": "title",
-   "text": "*20 metros*: Cheliábinsk",
-   "kicker": "Capítulo 2",
-   "narration": "Ahora subimos un poco. Una roca de unos veinte metros, como un edificio de seis pisos. Y esto ya pasó, en dos mil trece.",
-   "bg": "land:ice",
-   "seed": "as14"
-  },
-  {
-   "type": "cartoon",
-   "text": "15 de *febrero* de 2013",
-   "narration": "El quince de febrero de dos mil trece, sobre la ciudad rusa de Cheliábinsk, apareció una bola de fuego más brillante que el Sol. Había miles de cámaras de coche grabando.",
-   "bg": "land:ice",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 92,
-     "y": 4,
-     "emoji": "☄️",
-     "size": 150,
-     "to": [
-      40,
-      34
-     ],
-     "move": [
-      0.3,
-      3.0
-     ],
-     "ease": "in"
-    },
-    {
-     "kind": "emoji",
-     "x": 40,
-     "y": 34,
-     "emoji": "☀️",
-     "size": 180,
-     "delay": 3.0,
-     "anim": "pulse"
-    },
-    {
-     "kind": "tag",
-     "x": 70,
-     "y": 18,
-     "text": "Rusia, 2013",
-     "delay": 1
-    },
-    {
-     "kind": "stick",
-     "x": 80,
-     "y": 92,
-     "pose": "scared",
-     "expr": "wow",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as15",
-   "fx": [
-    "flash"
-   ],
-   "flashAt": 3.0
-  },
-  {
-   "type": "cartoon",
-   "text": "Unas *12.000 toneladas*",
-   "narration": "La roca medía unos veinte metros, pesaba del orden de doce mil toneladas y entró a unos diecinueve kilómetros por segundo. Unas cincuenta veces más rápido que una bala.",
-   "bg": "space",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 35,
-     "y": 42,
-     "emoji": "🪨",
-     "size": 230,
-     "anim": "shake"
-    },
-    {
-     "kind": "tag",
-     "x": 70,
-     "y": 28,
-     "text": "≈ 20 m",
-     "delay": 0.6
-    },
-    {
-     "kind": "tag",
-     "x": 70,
-     "y": 44,
-     "text": "≈ 12.000 t",
-     "delay": 1.4
-    },
-    {
-     "kind": "tag",
-     "x": 70,
-     "y": 60,
-     "text": "19 km/s",
-     "delay": 2.2
-    }
-   ],
-   "seed": "as16"
-  },
-  {
-   "type": "lp",
-   "narration": "Explotó a unos treinta kilómetros de altura. La energía fue de unos quinientos kilotones: unas treinta bombas de Hiroshima.",
-   "lp": {
-    "set": "street",
-    "cam": {
-     "from": [
-      0,
-      2,
-      10
-     ],
-     "to": [
-      0,
-      2,
-      8
-     ],
-     "look": [
-      0,
-      6,
-      -20
-     ],
-     "shake": [
-      1.5,
-      4,
-      0.12
-     ]
-    },
-    "objects": [
-     {
-      "kind": "meteor",
-      "from": [
-       25,
-       30,
-       -70
-      ],
-      "to": [
-       0,
-       22,
-       -50
-      ],
-      "move": [
-       0,
-       1.5
-      ],
-      "scale": 3
-     }
-    ],
-    "cast": [
-     {
-      "who": "man",
-      "pos": [
-       -1.5,
-       0
-      ],
-      "scared": 1.5
-     },
-     {
-      "who": "pepe",
-      "pos": [
-       1.5,
-       0
-      ],
-      "scared": 1.6
-     }
-    ],
-    "overlays": [
-     {
-      "kind": "badge",
-      "text": "≈ 30 HIROSHIMAS",
-      "at": 1.6
-     }
-    ]
-   },
-   "seed": "as17"
-  },
-  {
-   "type": "cartoon",
-   "text": "Los *cristales*",
-   "narration": "Lo peor llegó un minuto y medio después: la onda expansiva. Reventó ventanas en miles de edificios. Unas mil quinientas personas necesitaron atención médica, sobre todo por cristales rotos.",
-   "bg": "land:city",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 30,
-     "y": 42,
-     "emoji": "🪟",
-     "size": 190,
-     "delay": 0.8,
-     "anim": "shake"
-    },
-    {
-     "kind": "emoji",
-     "x": 55,
-     "y": 38,
-     "emoji": "💥",
-     "size": 160,
-     "delay": 1.2,
-     "anim": "pop"
-    },
-    {
-     "kind": "tag",
-     "x": 75,
-     "y": 22,
-     "text": "≈ 1.500 heridos",
-     "delay": 2
-    },
-    {
-     "kind": "stick",
-     "x": 80,
-     "y": 92,
-     "pose": "scared",
-     "expr": "scared",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270,
-     "sweat": true
-    }
-   ],
-   "seed": "as18",
-   "camera": {
-    "shake": 14,
-    "shakeAt": 0.8
-   }
-  },
-  {
-   "type": "cartoon",
-   "text": "Nadie lo *vio venir*",
-   "narration": "Lo más inquietante: nadie lo vio venir. Llegó desde la dirección del Sol, donde los telescopios no pueden mirar de noche. Ese mismo día, por pura casualidad, otro asteroide distinto pasó cerca de la Tierra.",
-   "bg": "land:ice",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 70,
-     "y": 26,
-     "emoji": "☀️",
-     "size": 200,
-     "anim": "pulse"
-    },
-    {
-     "kind": "emoji",
-     "x": 80,
-     "y": 26,
-     "emoji": "☄️",
-     "size": 110,
-     "to": [
-      40,
-      50
-     ],
-     "move": [
-      0.5,
-      3.0
-     ]
-    },
-    {
-     "kind": "emoji",
-     "x": 25,
-     "y": 42,
-     "emoji": "🔭",
-     "size": 170,
-     "delay": 1.5,
-     "anim": "shake"
-    },
-    {
-     "kind": "emoji",
-     "x": 25,
-     "y": 30,
-     "emoji": "❓",
-     "size": 100,
-     "delay": 2,
-     "anim": "pop"
-    }
-   ],
-   "seed": "as19"
-  },
-  {
-   "type": "cartoon",
-   "text": "La gente *miraba*",
-   "narration": "Y aquí hay una lección importante: mucha gente se acercó a la ventana a ver la luz. Por eso hubo tantos cortes. Si un día ves un destello enorme en el cielo, aléjate de los cristales.",
-   "bg": "room-day",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 30,
-     "y": 40,
-     "emoji": "🪟",
-     "size": 220
-    },
-    {
-     "kind": "bubble",
-     "x": 62,
-     "y": 30,
-     "text": "¡Lejos de la ventana!",
-     "delay": 1.4
-    },
-    {
-     "kind": "stick",
-     "x": 60,
-     "y": 92,
-     "pose": "point",
-     "expr": "cool",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as20"
-  },
-  {
-   "type": "title",
-   "text": "*50 metros*: Tunguska",
-   "kicker": "Capítulo 3",
-   "narration": "Si la roca mide unos cincuenta o sesenta metros, como un campo de fútbol de ancho, la cosa cambia mucho.",
-   "bg": "land:forest",
-   "seed": "as21"
-  },
-  {
-   "type": "cartoon",
-   "text": "Siberia, *1908*",
-   "narration": "El treinta de junio de mil novecientos ocho, algo explotó sobre el río Tunguska, en Siberia. No dejó cráter, porque estalló en el aire, a unos kilómetros del suelo.",
-   "bg": "land:forest",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 90,
-     "y": 5,
-     "emoji": "☄️",
-     "size": 160,
-     "to": [
-      50,
-      30
-     ],
-     "move": [
-      0.3,
-      2.4
-     ],
-     "ease": "in"
-    },
-    {
-     "kind": "emoji",
-     "x": 50,
-     "y": 30,
-     "emoji": "💥",
-     "size": 260,
-     "delay": 2.4,
-     "anim": "pop"
-    },
-    {
-     "kind": "tag",
-     "x": 20,
-     "y": 18,
-     "text": "1908",
-     "delay": 0.6
-    }
-   ],
-   "seed": "as22",
-   "fx": [
-    "flash"
-   ],
-   "flashAt": 2.4,
-   "camera": {
-    "shake": 18,
-    "shakeAt": 2.4
-   }
-  },
-  {
-   "type": "cartoon",
-   "text": "*80 millones* de árboles",
-   "narration": "Pero tumbó unos ochenta millones de árboles en más de dos mil kilómetros cuadrados. Es como arrasar una zona del tamaño de toda la ciudad de Madrid y sus alrededores, varias veces.",
-   "bg": "land:forest",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 25,
-     "y": 55,
-     "emoji": "🌲",
-     "size": 140,
-     "rot": 80,
-     "delay": 0.4
-    },
-    {
-     "kind": "emoji",
-     "x": 45,
-     "y": 58,
-     "emoji": "🌲",
-     "size": 140,
-     "rot": 80,
-     "delay": 0.7
-    },
-    {
-     "kind": "emoji",
-     "x": 65,
-     "y": 56,
-     "emoji": "🌲",
-     "size": 140,
-     "rot": 80,
-     "delay": 1.0
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 20,
-     "text": "≈ 2.000 km²",
-     "delay": 1.6
-    },
-    {
-     "kind": "stick",
-     "x": 85,
-     "y": 92,
-     "pose": "facepalm",
-     "expr": "wow",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as23"
-  },
-  {
-   "type": "cartoon",
-   "text": "Por *suerte*, vacío",
-   "narration": "Por suerte, aquella zona estaba casi vacía. Si hubiera explotado sobre una gran ciudad, habría sido una de las peores catástrofes de la historia.",
-   "bg": "land:city",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 50,
-     "y": 38,
-     "emoji": "🏙️",
-     "size": 260
-    },
-    {
-     "kind": "emoji",
-     "x": 50,
-     "y": 38,
-     "emoji": "❌",
-     "size": 160,
-     "delay": 1.6,
-     "anim": "pop"
-    },
-    {
-     "kind": "stick",
-     "x": 20,
-     "y": 92,
-     "pose": "shrug",
-     "expr": "sad",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as24"
-  },
-  {
-   "type": "cartoon",
-   "text": "El *Cráter* de Arizona",
-   "narration": "Y cuando la roca es de hierro, sí llega al suelo. Hace unos cincuenta mil años, un meteorito de hierro de unos cincuenta metros hizo el Cráter del Meteorito, en Arizona: más de un kilómetro de ancho.",
-   "bg": "land:desert",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 88,
-     "y": 5,
-     "emoji": "🪨",
-     "size": 120,
-     "to": [
-      50,
-      60
-     ],
-     "move": [
-      0.3,
-      2.0
-     ],
-     "ease": "in"
-    },
-    {
-     "kind": "emoji",
-     "x": 50,
-     "y": 66,
-     "emoji": "🕳️",
-     "size": 300,
-     "delay": 2.0,
-     "anim": "pop"
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 20,
-     "text": "≈ 1,2 km",
-     "delay": 2.6
-    },
-    {
-     "kind": "stick",
-     "x": 15,
-     "y": 92,
-     "pose": "point",
-     "expr": "wow",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as25",
-   "fx": [
-    "flash"
-   ],
-   "flashAt": 2.0
-  },
-  {
-   "type": "title",
-   "text": "*140 metros*: adiós ciudad",
-   "kicker": "Capítulo 4",
-   "narration": "Ciento cuarenta metros. Es la cifra que más vigila la NASA. Y ahora vas a ver por qué.",
-   "bg": "land:city",
-   "seed": "as26"
-  },
-  {
-   "type": "cartoon",
-   "text": "El número *mágico*",
-   "narration": "Los asteroides de más de ciento cuarenta metros que se acercan a la órbita de la Tierra se consideran potencialmente peligrosos. La NASA tiene el objetivo de encontrar el noventa por ciento de ellos.",
-   "bg": "space",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 50,
-     "y": 42,
-     "emoji": "🔭",
-     "size": 220,
-     "anim": "float"
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 18,
-     "text": "> 140 m",
-     "delay": 0.8
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 66,
-     "text": "objetivo: 90 %",
-     "delay": 1.8
-    }
-   ],
-   "seed": "as27"
-  },
-  {
-   "type": "lp",
-   "narration": "Una roca así no se queda en el aire: llega al suelo y abre un cráter de varios kilómetros. Podría borrar una ciudad entera y dañar toda una región.",
-   "lp": {
-    "set": "desert",
-    "cam": {
-     "from": [
-      0,
-      3,
-      14
-     ],
-     "to": [
-      0,
-      3,
-      11
-     ],
-     "look": [
-      0,
-      3,
-      -20
-     ],
-     "shake": [
-      2.2,
-      4.5,
-      0.2
-     ]
-    },
-    "objects": [
-     {
-      "kind": "meteor",
-      "from": [
-       30,
-       50,
-       -60
-      ],
-      "to": [
-       0,
-       0,
-       -30
-      ],
-      "move": [
-       0,
-       2.2
-      ],
-      "scale": 4
-     },
-     {
-      "kind": "house",
-      "from": [
-       -6,
-       0,
-       -25
-      ]
-     },
-     {
-      "kind": "house",
-      "from": [
-       7,
-       0,
-       -28
-      ]
-     }
-    ],
-    "cast": [
-     {
-      "who": "pepe",
-      "pos": [
-       0,
-       0
-      ],
-      "rot": 3.14,
-      "scared": 2.2
-     }
-    ],
-    "overlays": [
-     {
-      "kind": "stamp",
-      "text": "IMPACTO",
-      "at": 2.3
-     }
-    ]
-   },
-   "seed": "as28"
-  },
-  {
-   "type": "cartoon",
-   "text": "¿*Cada cuánto*?",
-   "narration": "La buena noticia: impactos así son muy raros. Hablamos, de media, de uno cada muchos miles de años. Y los grandes que ya conocemos no tienen ninguna posibilidad de chocar en los próximos cien años.",
-   "bg": "room-day",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 30,
-     "y": 40,
-     "emoji": "📅",
-     "size": 200,
-     "anim": "float"
-    },
-    {
-     "kind": "tag",
-     "x": 62,
-     "y": 28,
-     "text": "muy raros",
-     "delay": 1.0
-    },
-    {
-     "kind": "stick",
-     "x": 70,
-     "y": 92,
-     "pose": "cheer",
-     "expr": "happy",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as29"
-  },
-  {
-   "type": "title",
-   "text": "*1 kilómetro*: el planeta lo nota",
-   "kicker": "Capítulo 5",
-   "narration": "Un kilómetro. Una roca más alta que cualquier rascacielos del mundo. Aquí ya no hablamos de una ciudad: hablamos del planeta.",
-   "bg": "land:mountains",
-   "seed": "as30"
-  },
-  {
-   "type": "cartoon",
-   "text": "Un cráter de *15 km*",
-   "narration": "Un asteroide de un kilómetro abriría un cráter de unos quince o veinte kilómetros. Lanzaría a la atmósfera tanto polvo que el cielo de todo el planeta se oscurecería.",
-   "bg": "land:mountains",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 92,
-     "y": 3,
-     "emoji": "☄️",
-     "size": 190,
-     "to": [
-      50,
-      62
-     ],
-     "move": [
-      0.3,
-      1.8
-     ],
-     "ease": "in"
-    },
-    {
-     "kind": "emoji",
-     "x": 50,
-     "y": 64,
-     "emoji": "💥",
-     "size": 320,
-     "delay": 1.8,
-     "anim": "pop"
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 18,
-     "text": "≈ 15–20 km",
-     "delay": 2.4
-    }
-   ],
-   "seed": "as31",
-   "fx": [
-    "flash",
-    "ash"
-   ],
-   "flashAt": 1.8,
-   "camera": {
-    "shake": 22,
-    "shakeAt": 1.8
-   }
-  },
-  {
-   "type": "cartoon",
-   "text": "Un *invierno* artificial",
-   "narration": "Con menos luz, las temperaturas bajarían varios grados y muchas cosechas fallarían durante uno o dos años. El problema ya no sería la explosión: sería el hambre.",
-   "bg": "land:ice",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 30,
-     "y": 40,
-     "emoji": "🌾",
-     "size": 180,
-     "anim": "shake"
-    },
-    {
-     "kind": "emoji",
-     "x": 60,
-     "y": 34,
-     "emoji": "🌥️",
-     "size": 220,
-     "anim": "float"
-    },
-    {
-     "kind": "tag",
-     "x": 60,
-     "y": 60,
-     "text": "– varios °C",
-     "delay": 1.4
-    },
-    {
-     "kind": "stick",
-     "x": 82,
-     "y": 92,
-     "pose": "scared",
-     "expr": "sad",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270,
-     "sweat": true
-    }
-   ],
-   "seed": "as32",
-   "fx": [
-    "snow"
-   ]
-  },
-  {
-   "type": "cartoon",
-   "text": "¿*Cada cuánto*?",
-   "narration": "Esto pasa, según las estimaciones, una vez cada varios cientos de miles de años. Y aquí hay buena noticia: los científicos creen haber encontrado ya la gran mayoría de los asteroides cercanos de este tamaño. Ninguno viene hacia nosotros.",
-   "bg": "space",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 50,
-     "y": 42,
-     "emoji": "🌍",
-     "size": 230,
-     "anim": "float"
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 18,
-     "text": "1 cada cientos de miles de años",
-     "delay": 1.0
-    },
-    {
-     "kind": "emoji",
-     "x": 80,
-     "y": 30,
-     "emoji": "✅",
-     "size": 120,
-     "delay": 2.4,
-     "anim": "pop"
-    }
-   ],
-   "seed": "as33"
-  },
-  {
-   "type": "title",
-   "text": "*10 kilómetros*: los dinosaurios",
-   "kicker": "Capítulo 6",
-   "narration": "Y ahora el monstruo. Diez kilómetros. Más alto que el Everest. Esto también pasó.",
-   "bg": "land:volcano",
-   "seed": "as34"
-  },
-  {
-   "type": "cartoon",
-   "text": "Hace *66 millones* de años",
-   "narration": "Hace sesenta y seis millones de años, un asteroide de unos diez kilómetros cayó en lo que hoy es la península de Yucatán, en México. Dejó el cráter de Chicxulub: unos ciento ochenta kilómetros de ancho.",
-   "bg": "land:sea",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 25,
-     "y": 52,
-     "emoji": "🦖",
-     "size": 200,
-     "anim": "float"
-    },
-    {
-     "kind": "emoji",
-     "x": 92,
-     "y": 3,
-     "emoji": "☄️",
-     "size": 230,
-     "to": [
-      60,
-      58
-     ],
-     "move": [
-      1.0,
-      3.0
-     ],
-     "ease": "in"
-    },
-    {
-     "kind": "emoji",
-     "x": 60,
-     "y": 58,
-     "emoji": "💥",
-     "size": 360,
-     "delay": 3.0,
-     "anim": "pop"
-    },
-    {
-     "kind": "tag",
-     "x": 60,
-     "y": 18,
-     "text": "≈ 180 km",
-     "delay": 3.6
-    }
-   ],
-   "seed": "as35",
-   "fx": [
-    "flash"
-   ],
-   "flashAt": 3.0,
-   "camera": {
-    "shake": 26,
-    "shakeAt": 3.0
-   }
-  },
-  {
-   "type": "lp",
-   "narration": "En minutos, una lluvia de roca fundida cayó por medio planeta. Hubo incendios enormes, tsunamis gigantes y luego años de oscuridad y frío.",
-   "lp": {
-    "set": "night",
-    "cam": {
-     "from": [
-      0,
-      2.5,
-      9
-     ],
-     "to": [
-      0,
-      2.3,
-      7
-     ],
-     "look": [
-      0,
-      4,
-      -10
-     ],
-     "shake": [
-      0.5,
-      5,
-      0.15
-     ]
-    },
-    "objects": [
-     {
-      "kind": "meteor",
-      "from": [
-       -15,
-       30,
-       -50
-      ],
-      "to": [
-       -4,
-       0,
-       -20
-      ],
-      "move": [
-       0.3,
-       1.8
-      ],
-      "scale": 1.6
-     },
-     {
-      "kind": "meteor",
-      "from": [
-       20,
-       32,
-       -50
-      ],
-      "to": [
-       6,
-       0,
-       -18
-      ],
-      "move": [
-       1.0,
-       2.6
-      ],
-      "scale": 1.6
-     },
-     {
-      "kind": "meteor",
-      "from": [
-       5,
-       35,
-       -50
-      ],
-      "to": [
-       1,
-       0,
-       -15
-      ],
-      "move": [
-       1.8,
-       3.4
-      ],
-      "scale": 1.5
-     }
-    ],
-    "cast": [
-     {
-      "who": "pepe",
-      "pos": [
-       0,
-       0
-      ],
-      "rot": 3.14,
-      "scared": 1.8
-     }
-    ],
-    "overlays": [
-     {
-      "kind": "counter",
-      "text": "AÑO 1: OSCURIDAD",
-      "at": 3.6
-     }
-    ]
-   },
-   "seed": "as36"
-  },
-  {
-   "type": "cartoon",
-   "text": "El *75 %* de las especies",
-   "narration": "Alrededor de tres cuartas partes de las especies de la Tierra desaparecieron. Entre ellas, todos los dinosaurios… menos los que se convirtieron en aves. Las palomas de tu plaza son, literalmente, dinosaurios.",
-   "bg": "land:city",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 30,
-     "y": 44,
-     "emoji": "🦖",
-     "size": 200,
-     "vanish": 1.8
-    },
-    {
-     "kind": "emoji",
-     "x": 30,
-     "y": 44,
-     "emoji": "🕊️",
-     "size": 180,
-     "delay": 2.2,
-     "anim": "pop"
-    },
-    {
-     "kind": "tag",
-     "x": 70,
-     "y": 22,
-     "text": "≈ 75 % de especies",
-     "delay": 1.0
-    },
-    {
-     "kind": "stick",
-     "x": 80,
-     "y": 92,
-     "pose": "point",
-     "expr": "wow",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as37"
-  },
-  {
-   "type": "cartoon",
-   "text": "Y aquí *estamos*",
-   "narration": "Y lo curioso es que ese desastre abrió espacio a los mamíferos. Sin aquel asteroide, probablemente tú y yo no estaríamos aquí viendo este vídeo.",
-   "bg": "land:forest",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 30,
-     "y": 45,
-     "emoji": "🐭",
-     "size": 140,
-     "anim": "float"
-    },
-    {
-     "kind": "emoji",
-     "x": 55,
-     "y": 40,
-     "emoji": "🐒",
-     "size": 170,
-     "delay": 1.4,
-     "anim": "pop"
-    },
-    {
-     "kind": "stick",
-     "x": 80,
-     "y": 92,
-     "pose": "wave",
-     "expr": "happy",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as38"
-  },
-  {
-   "type": "cartoon",
-   "text": "¿Puede *volver* a pasar?",
-   "narration": "¿Puede volver a pasar? Rocas de ese tamaño chocan, de media, una vez cada decenas de millones de años. Y los asteroides cercanos más grandes, los de varios kilómetros, ya están casi todos localizados. Ninguno está en ruta de choque.",
-   "bg": "space",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 50,
-     "y": 40,
-     "emoji": "🔭",
-     "size": 220,
-     "anim": "float"
-    },
-    {
-     "kind": "emoji",
-     "x": 78,
-     "y": 30,
-     "emoji": "✅",
-     "size": 130,
-     "delay": 2.4,
-     "anim": "pop"
-    },
-    {
-     "kind": "stick",
-     "x": 20,
-     "y": 92,
-     "pose": "think",
-     "expr": "cool",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as39"
-  },
-  {
-   "type": "title",
-   "text": "¿Y si cae en el *mar*?",
-   "kicker": "Capítulo 7",
-   "narration": "Siete de cada diez veces, una roca caería en el océano, porque el agua cubre casi tres cuartas partes del planeta. ¿Eso es mejor o peor?",
-   "bg": "ocean",
-   "seed": "as40"
-  },
-  {
-   "type": "cartoon",
-   "text": "*Olas* gigantes",
-   "narration": "Una roca pequeña en mitad del océano apenas haría nada en la costa. Pero un asteroide grande podría levantar olas enormes, que llegarían a costas a cientos o miles de kilómetros.",
-   "bg": "land:sea",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 90,
-     "y": 4,
-     "emoji": "☄️",
-     "size": 150,
-     "to": [
-      50,
-      58
-     ],
-     "move": [
-      0.3,
-      1.8
-     ],
-     "ease": "in"
-    },
-    {
-     "kind": "emoji",
-     "x": 50,
-     "y": 58,
-     "emoji": "🌊",
-     "size": 260,
-     "delay": 1.8,
-     "anim": "pulse"
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 18,
-     "text": "tsunami",
-     "delay": 2.4
-    },
-    {
-     "kind": "stick",
-     "x": 85,
-     "y": 92,
-     "pose": "run",
-     "expr": "scared",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as41"
-  },
-  {
-   "type": "cartoon",
-   "text": "Ya *pasó* en el mar",
-   "narration": "Y ya ha pasado. Hace unos dos millones y medio de años, un asteroide de alrededor de un kilómetro cayó en el océano Antártico, el impacto de Eltanin. No se ha encontrado su cráter en el fondo del mar, pero sí restos del asteroide y del gran revuelo que causó en los sedimentos.",
-   "bg": "ocean",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 90,
-     "y": 4,
-     "emoji": "☄️",
-     "size": 140,
-     "to": [
-      50,
-      40
-     ],
-     "move": [
-      0.3,
-      1.8
-     ],
-     "ease": "in"
-    },
-    {
-     "kind": "emoji",
-     "x": 50,
-     "y": 45,
-     "emoji": "🌊",
-     "size": 220,
-     "delay": 1.8,
-     "anim": "pulse"
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 16,
-     "text": "≈ 2,5 millones de años",
-     "delay": 2.4
-    }
-   ],
-   "seed": "as42"
-  },
-  {
-   "type": "cartoon",
-   "text": "Depende del *tamaño*",
-   "narration": "Cuánto daño haría depende de su tamaño, de su velocidad y de lo lejos que caiga de la costa. Por eso los científicos simulan cada caso con ordenadores, en vez de dar una única respuesta.",
-   "bg": "room",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 30,
-     "y": 40,
-     "emoji": "💻",
-     "size": 200,
-     "anim": "float"
-    },
-    {
-     "kind": "emoji",
-     "x": 60,
-     "y": 34,
-     "emoji": "🌊",
-     "size": 150,
-     "delay": 1,
-     "anim": "pulse"
-    },
-    {
-     "kind": "stick",
-     "x": 80,
-     "y": 92,
-     "pose": "think",
-     "expr": "cool",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as43"
-  },
-  {
-   "type": "title",
-   "text": "¿Nos podemos *defender*?",
-   "kicker": "Capítulo 8",
-   "narration": "Vale. ¿Y si encontramos uno que viene hacia aquí? ¿Podemos hacer algo? Sí. Y ya lo hemos probado.",
-   "bg": "space",
-   "seed": "as44"
-  },
-  {
-   "type": "cartoon",
-   "text": "Misión *DART*",
-   "narration": "En septiembre de dos mil veintidós, la NASA estrelló una nave, la misión DART, contra Dimorphos, una pequeña luna de un asteroide, de unos ciento sesenta metros.",
-   "bg": "space",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 20,
-     "y": 40,
-     "emoji": "🛰️",
-     "size": 160,
-     "to": [
-      62,
-      42
-     ],
-     "move": [
-      0.5,
-      3.2
-     ]
-    },
-    {
-     "kind": "emoji",
-     "x": 70,
-     "y": 42,
-     "emoji": "🪨",
-     "size": 200
-    },
-    {
-     "kind": "emoji",
-     "x": 68,
-     "y": 42,
-     "emoji": "💥",
-     "size": 200,
-     "delay": 3.3,
-     "anim": "pop"
-    },
-    {
-     "kind": "tag",
-     "x": 30,
-     "y": 18,
-     "text": "2022",
-     "delay": 0.6
-    }
-   ],
-   "seed": "as45"
-  },
-  {
-   "type": "lp",
-   "narration": "El choque cambió su órbita: su vuelta alrededor del asteroide grande pasó a durar unos treinta y dos minutos menos. Por primera vez, la humanidad movió un objeto del espacio a propósito.",
-   "lp": {
-    "set": "space",
-    "cam": {
-     "from": [
-      0,
-      2,
-      9
-     ],
-     "to": [
-      0,
-      2,
-      7
-     ],
-     "look": [
-      0,
-      1.5,
-      -2
-     ]
-    },
-    "objects": [
-     {
-      "kind": "rock",
-      "from": [
-       0,
-       0.5,
-       -4
-      ],
-      "scale": 2.5,
-      "spin": 0.3
-     },
-     {
-      "kind": "cube",
-      "from": [
-       -12,
-       1.5,
-       -2
-      ],
-      "to": [
-       -0.5,
-       1.4,
-       -3.5
-      ],
-      "move": [
-       0.3,
-       2.0
-      ],
-      "scale": 0.5,
-      "color": "#cfd8e3"
-     }
-    ],
-    "overlays": [
-     {
-      "kind": "stamp",
-      "text": "¡IMPACTO!",
-      "at": 2.0
-     },
-     {
-      "kind": "badge",
-      "text": "– 32 MINUTOS",
-      "at": 3.0,
-      "y": 330
-     }
-    ]
-   },
-   "seed": "as46"
-  },
-  {
-   "type": "cartoon",
-   "text": "Misión *Hera*",
-   "narration": "Y la historia no acaba ahí. Europa lanzó en dos mil veinticuatro la misión Hera, de la Agencia Espacial Europea, para estudiar de cerca el resultado del choque: el tamaño del agujero, la forma de la pequeña luna y cuánto la movimos de verdad. Así sabremos cuánto empujón hace falta la próxima vez.",
-   "bg": "space",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 25,
-     "y": 40,
-     "emoji": "🛰️",
-     "size": 160,
-     "to": [
-      55,
-      36
-     ],
-     "move": [
-      0.5,
-      4
-     ]
-    },
-    {
-     "kind": "emoji",
-     "x": 72,
-     "y": 42,
-     "emoji": "🪨",
-     "size": 190
-    },
-    {
-     "kind": "tag",
-     "x": 30,
-     "y": 18,
-     "text": "ESA · Hera",
-     "delay": 0.8
-    },
-    {
-     "kind": "stick",
-     "x": 85,
-     "y": 92,
-     "pose": "think",
-     "expr": "cool",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as47"
-  },
-  {
-   "type": "cartoon",
-   "text": "La clave: *verlos antes*",
-   "narration": "La clave es encontrarlos con años de antelación. Un empujón pequeño, hecho con tiempo, basta para que una roca pase de largo. Por eso hay telescopios buscando asteroides todas las noches.",
-   "bg": "land:night",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 30,
-     "y": 44,
-     "emoji": "🔭",
-     "size": 200,
-     "anim": "float"
-    },
-    {
-     "kind": "emoji",
-     "x": 70,
-     "y": 30,
-     "emoji": "☄️",
-     "size": 120,
-     "to": [
-      90,
-      10
-     ],
-     "move": [
-      1,
-      4
-     ]
-    },
-    {
-     "kind": "stick",
-     "x": 55,
-     "y": 92,
-     "pose": "point",
-     "expr": "cool",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as48"
-  },
-  {
-   "type": "cartoon",
-   "text": "El susto de *2024 YR4*",
-   "narration": "Y la vigilancia funciona. A principios de dos mil veinticinco, un asteroide de unos cuarenta a noventa metros, llamado dos mil veinticuatro YR4, llegó a tener alrededor de un tres por ciento de probabilidad de chocar en dos mil treinta y dos. Con más observaciones, el riesgo para la Tierra quedó prácticamente descartado.",
-   "bg": "space",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 60,
-     "y": 40,
-     "emoji": "☄️",
-     "size": 160,
-     "anim": "float"
-    },
-    {
-     "kind": "tag",
-     "x": 30,
-     "y": 22,
-     "text": "≈ 3 %",
-     "delay": 0.8
-    },
-    {
-     "kind": "tag",
-     "x": 30,
-     "y": 60,
-     "text": "→ descartado",
-     "delay": 3.5
-    },
-    {
-     "kind": "emoji",
-     "x": 80,
-     "y": 30,
-     "emoji": "✅",
-     "size": 110,
-     "delay": 4,
-     "anim": "pop"
-    }
-   ],
-   "seed": "as49"
-  },
-  {
-   "type": "cartoon",
-   "text": "La escala de *Turín*",
-   "narration": "Para medir el peligro existe la escala de Turín, del cero al diez. Cero significa ningún riesgo; diez, choque seguro con catástrofe global. Hoy, todos los asteroides conocidos con fecha concreta están en cero o casi.",
-   "bg": "chalk",
-   "actors": [
-    {
-     "kind": "tag",
-     "x": 20,
-     "y": 40,
-     "text": "0",
-     "delay": 0.4
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 40,
-     "text": "5",
-     "delay": 1.0
-    },
-    {
-     "kind": "tag",
-     "x": 80,
-     "y": 40,
-     "text": "10",
-     "delay": 1.6
-    },
-    {
-     "kind": "emoji",
-     "x": 20,
-     "y": 64,
-     "emoji": "✅",
-     "size": 110,
-     "delay": 2.6,
-     "anim": "pop"
-    },
-    {
-     "kind": "stick",
-     "x": 85,
-     "y": 92,
-     "pose": "point",
-     "expr": "cool",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as50"
-  },
-  {
-   "type": "cartoon",
-   "text": "Apophis, *2029*",
-   "narration": "Y una cita para tu calendario: el trece de abril de dos mil veintinueve, el asteroide Apophis, de unos trescientos cuarenta metros, pasará a unos treinta y dos mil kilómetros de la superficie. Más cerca que muchos satélites. Se podrá ver a simple vista desde algunos lugares. Y no, no va a chocar.",
-   "bg": "land:night",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 70,
-     "y": 30,
-     "emoji": "☄️",
-     "size": 160,
-     "to": [
-      20,
-      22
-     ],
-     "move": [
-      0.3,
-      7
-     ]
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 14,
-     "text": "13 abril 2029",
-     "delay": 1.0
-    },
-    {
-     "kind": "emoji",
-     "x": 50,
-     "y": 62,
-     "emoji": "✅",
-     "size": 120,
-     "delay": 4.5,
-     "anim": "pop"
-    },
-    {
-     "kind": "stick",
-     "x": 30,
-     "y": 92,
-     "pose": "look",
-     "expr": "wow",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as51"
-  },
-  {
-   "type": "title",
-   "text": "*Resumen*",
-   "kicker": "Resumen",
-   "narration": "Vamos a resumir lo que te pasaría según el tamaño.",
-   "bg": "space",
-   "seed": "as52"
-  },
-  {
-   "type": "cartoon",
-   "text": "Del *balón* al *coche*",
-   "narration": "Una piedra como un balón: una estrella fugaz espectacular. Como un coche: una explosión muy arriba, cada año, sin peligro.",
-   "bg": "land:night",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 30,
-     "y": 40,
-     "emoji": "⚽",
-     "size": 130,
-     "delay": 0.3,
-     "anim": "pop"
-    },
-    {
-     "kind": "emoji",
-     "x": 65,
-     "y": 40,
-     "emoji": "🚗",
-     "size": 170,
-     "delay": 1.6,
-     "anim": "pop"
-    },
-    {
-     "kind": "stick",
-     "x": 85,
-     "y": 92,
-     "pose": "cheer",
-     "expr": "happy",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as53"
-  },
-  {
-   "type": "cartoon",
-   "text": "De *20* a *140* metros",
-   "narration": "Veinte metros: ventanas rotas, como en Cheliábinsk. Cincuenta: un bosque entero arrasado, como en Tunguska. Ciento cuarenta: una ciudad borrada del mapa.",
-   "bg": "land:city",
-   "actors": [
-    {
-     "kind": "tag",
-     "x": 25,
-     "y": 30,
-     "text": "20 m",
-     "delay": 0.4
-    },
-    {
-     "kind": "tag",
-     "x": 50,
-     "y": 30,
-     "text": "50 m",
-     "delay": 1.6
-    },
-    {
-     "kind": "tag",
-     "x": 75,
-     "y": 30,
-     "text": "140 m",
-     "delay": 3.0
-    },
-    {
-     "kind": "emoji",
-     "x": 75,
-     "y": 55,
-     "emoji": "🏙️",
-     "size": 150,
-     "delay": 3.2,
-     "anim": "shake"
-    }
-   ],
-   "seed": "as54"
-  },
-  {
-   "type": "cartoon",
-   "text": "De *1* a *10* kilómetros",
-   "narration": "Un kilómetro: años de frío en todo el planeta. Diez kilómetros: el fin de los dinosaurios. Por suerte, todos los grandes que conocemos están vigilados y ninguno viene hacia nosotros.",
-   "bg": "space",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 30,
-     "y": 40,
-     "emoji": "🥶",
-     "size": 170,
-     "delay": 0.4,
-     "anim": "pop"
-    },
-    {
-     "kind": "emoji",
-     "x": 65,
-     "y": 40,
-     "emoji": "🦖",
-     "size": 200,
-     "delay": 1.8,
-     "anim": "pop"
-    },
-    {
-     "kind": "emoji",
-     "x": 85,
-     "y": 25,
-     "emoji": "✅",
-     "size": 120,
-     "delay": 3.5,
-     "anim": "pop"
-    }
-   ],
-   "seed": "as55"
-  },
-  {
-   "type": "cartoon",
-   "text": "¿Y *tú*?",
-   "narration": "Y ahora dime en los comentarios: si pudieras ver pasar Apophis en dos mil veintinueve, ¿viajarías para verlo? Si te ha gustado, suscríbete: cada día te cuento qué pasaría si… Nos vemos en el siguiente.",
-   "bg": "land:night",
-   "actors": [
-    {
-     "kind": "emoji",
-     "x": 70,
-     "y": 28,
-     "emoji": "☄️",
-     "size": 140,
-     "to": [
-      30,
-      18
-     ],
-     "move": [
-      0.3,
-      6
-     ]
-    },
-    {
-     "kind": "bubble",
-     "x": 55,
-     "y": 40,
-     "text": "¿Irías a verlo?",
-     "delay": 1
-    },
-    {
-     "kind": "stick",
-     "x": 40,
-     "y": 92,
-     "pose": "wave",
-     "expr": "happy",
-     "name": "TÚ",
-     "color": "#FFD60A",
-     "size": 270
-    }
-   ],
-   "seed": "as56"
-  }
- ]
 }
