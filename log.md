@@ -216,3 +216,10 @@
 - El dueño envió 2 referencias (TikTok "Tu Novia Dice…" y "Deadlockeando", AVE): 3D low-poly real (Blender/Three.js), personajes simples que parpadean y se mueven, objetos animados (tren), cámara en movimiento, infografías animadas (pesa, velocímetro, sello MIENTES). Se puede hacer gratis con @remotion/three (ya instalado). Pendiente: piloto.
 - Nuevo estilo 3D low-poly (escena "lp"): piloto aprobado por el dueño ("mucho mejor"). Primer Short completo: 2026-11-24-a "Mi novia a las 3 de la mañana: ¿me querrías si fuera un GUSANO? 🪱" (25 s), ya construido y revisado → publicar mañana 10:00 TikTok (Short a). Documentado en PIPELINE.md "LOW-POLY 3D".
 - El dueño aprueba el Short 2026-11-24-a en low-poly ("Me vale y me mola").
+
+## 2026-11-24 (martes) — primer día con Shorts en 3D low-poly
+- Verificado ayer: 6/6 completed (YT HH6GyKdMuBE, myFv0PELJW0, L1 T_7Vo1666F0; TikTok a, b, c hormiga v2). La publicación TikTok antigua de c (47898f8d) quedó cancelada, como se quería.
+- Datos TikTok (Windsor, tiempo medio / % visto entero): pizzería V3 7,3 s de 34 s / 8,4 %; agua V3 6,8 s de 36 s / 5,4 %; hormiga V3 7,4 s de 27 s / 6,3 %; churros V3 9,7 s de 31 s / 9,0 %. Antiguos: 4,6–9,6 s de 40–57 s / 1–4,5 %. V3 retiene mejor en proporción. YouTube: Windsor aún no tiene datos de los Shorts de los últimos 2–3 días (0 vistas en todos); los mejores siguen en ~900–1.300 vistas (huesos 1.324, 61 % engaged).
+- Comentarios: contadores de Windsor sin cambios respecto a la lectura completa de ayer (5 créditos) → 0 créditos hoy; ledger actualizado.
+- Elección: a = humor de pareja (gusano, ya construido, low-poly); b = mito del ascensor (¿saltar te salva?) con números reales y velocímetro; L1 = "¿Qué pasaría si un ASTEROIDE chocara contra la Tierra? (según su tamaño)" (búsqueda alta; Cheliábinsk, Tunguska, Chicxulub, DART, Apophis 2029; 56 escenas, 1.735 palabras, 6 escenas low-poly); c = teaser Cheliábinsk ("explotó como 30 Hiroshimas").
+- a: TikTok scheduled 09:00Z (postId 2c89fa06).

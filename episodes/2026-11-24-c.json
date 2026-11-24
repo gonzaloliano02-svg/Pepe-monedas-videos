@@ -1,0 +1,375 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-24-c",
+ "title": "Esta roca explotó como 30 bombas de HIROSHIMA ☄️ (y nadie la vio venir)",
+ "description": "15 de febrero de 2013, Cheliábinsk (Rusia): una roca espacial de unos 20 metros y unas 12.000 toneladas entró a unos 19 km/s y explotó a unos 30 km de altura con una energía de unos 500 kilotones (unas 30 bombas de Hiroshima). La onda expansiva rompió ventanas en miles de edificios y unas 1.500 personas necesitaron atención médica, sobre todo por cristales. Llegó desde la dirección del Sol y nadie la detectó antes.\n\nEL VÍDEO COMPLETO (qué pasaría según el tamaño del asteroide): L1LINK\n\nFuentes: NASA, ESA, Popova et al. 2013 (Science). Cifras aproximadas. Video creado con ayuda de IA.",
+ "tags": [
+  "asteroide",
+  "meteorito",
+  "chelyabinsk",
+  "que pasaria si",
+  "ciencia",
+  "curiosidades",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "lp",
+   "hook": "Explotó como *30 HIROSHIMAS*",
+   "hookDur": 1.6,
+   "narration": "En dos mil trece, una roca de veinte metros entró en el cielo de Rusia.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      0,
+      2,
+      10
+     ],
+     "to": [
+      0,
+      2,
+      8.5
+     ],
+     "look": [
+      0,
+      6,
+      -20
+     ]
+    },
+    "objects": [
+     {
+      "kind": "meteor",
+      "from": [
+       30,
+       40,
+       -80
+      ],
+      "to": [
+       10,
+       28,
+       -60
+      ],
+      "move": [
+       0.2,
+       4.0
+      ],
+      "scale": 1.2
+     }
+    ],
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       1
+      ],
+      "rot": 3.14
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "RUSIA, 2013",
+      "at": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Iba a diecinueve kilómetros por segundo. Unas cincuenta veces más rápido que una bala.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      0,
+      2,
+      9
+     ],
+     "to": [
+      0,
+      2,
+      7.5
+     ],
+     "look": [
+      0,
+      6,
+      -20
+     ]
+    },
+    "objects": [
+     {
+      "kind": "meteor",
+      "from": [
+       10,
+       28,
+       -60
+      ],
+      "to": [
+       -5,
+       20,
+       -45
+      ],
+      "move": [
+       0,
+       4
+      ],
+      "scale": 1.3
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "gauge",
+      "from": 0,
+      "to": 68400,
+      "unit": "km/h",
+      "at": 0.3,
+      "end": 2.6,
+      "y": 1050
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Explotó a treinta kilómetros de altura, con la energía de unas treinta bombas de Hiroshima.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      0,
+      2,
+      9
+     ],
+     "to": [
+      0,
+      2,
+      7.5
+     ],
+     "look": [
+      0,
+      5,
+      -20
+     ],
+     "shake": [
+      1.2,
+      4,
+      0.15
+     ]
+    },
+    "objects": [
+     {
+      "kind": "meteor",
+      "from": [
+       -5,
+       20,
+       -45
+      ],
+      "to": [
+       -8,
+       18,
+       -40
+      ],
+      "move": [
+       0,
+       1.1
+      ],
+      "scale": 1.4,
+      "grow": [
+       1,
+       0,
+       1.1
+      ]
+     }
+    ],
+    "cast": [
+     {
+      "who": "man",
+      "pos": [
+       -1.6,
+       0
+      ],
+      "scared": 1.2
+     },
+     {
+      "who": "pepe",
+      "pos": [
+       1.6,
+       0
+      ],
+      "scared": 1.3
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "≈ 30 HIROSHIMAS",
+      "at": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Y la gente hizo lo peor: se acercó a la ventana a mirar la luz.",
+   "lp": {
+    "set": "room",
+    "cam": {
+     "from": [
+      2,
+      2.4,
+      7
+     ],
+     "to": [
+      1.2,
+      2.3,
+      6
+     ],
+     "look": [
+      -1.5,
+      1.8,
+      -2
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       1.5,
+       0.5
+      ],
+      "to": [
+       -3,
+       -3
+      ],
+      "move": [
+       0.3,
+       2.6
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "ERROR",
+      "at": 2.8
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Minuto y medio después llegó la onda expansiva. Unos mil quinientos heridos, casi todos por cristales rotos.",
+   "lp": {
+    "set": "room",
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      5.5
+     ],
+     "to": [
+      0,
+      1.8,
+      4.6
+     ],
+     "look": [
+      0,
+      2.0,
+      -1
+     ],
+     "shake": [
+      0.2,
+      3.0,
+      0.18
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       -1
+      ],
+      "scared": 0.3
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "≈ 1.500 HERIDOS",
+      "at": 1.6,
+      "y": 300
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "¿Y si la roca fuera de diez kilómetros? Te lo cuento paso a paso en el vídeo completo del canal.",
+   "lp": {
+    "set": "desert",
+    "cam": {
+     "from": [
+      0,
+      2.5,
+      12
+     ],
+     "to": [
+      0,
+      2.5,
+      9
+     ],
+     "look": [
+      0,
+      4,
+      -20
+     ]
+    },
+    "objects": [
+     {
+      "kind": "meteor",
+      "from": [
+       30,
+       60,
+       -90
+      ],
+      "to": [
+       5,
+       25,
+       -50
+      ],
+      "move": [
+       0,
+       5
+      ],
+      "scale": 5
+     }
+    ],
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "rot": 3.14,
+      "scared": 2.0
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "VÍDEO COMPLETO EN EL CANAL",
+      "at": 2.6,
+      "y": 300
+     }
+    ]
+   }
+  }
+ ]
+}

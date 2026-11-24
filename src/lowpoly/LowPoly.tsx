@@ -218,7 +218,7 @@ export const Badge: React.FC<{ text: string; at: number; y?: number; color?: str
   if (f < at) return null;
   return (
     <div style={{ position: "absolute", top: y, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
-      <div style={{ transform: `scale(${s}) rotate(-4deg)`, background: color, color: "#111", fontFamily: font, fontSize: 92,
+      <div style={{ transform: `scale(${s}) rotate(-4deg)`, background: color, color: "#111", fontFamily: font, fontSize: text.length > 16 ? 70 : text.length > 12 ? 80 : 92, maxWidth: 940, textAlign: "center",
         padding: "8px 34px", borderRadius: 60, border: "6px solid #111", boxShadow: "0 10px 0 #111" }}>{text}</div>
     </div>
   );

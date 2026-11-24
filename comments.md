@@ -17,7 +17,11 @@ Updated by the daily run. Never reply twice to the same comment ID.
 | YjrZqeKS6E8 | La Rinconada | 2 |
 | UWigkr88SCE | Manhattan | 2 |
 | NN2hr0dd8-Y | Espagueti (agujero negro) | 2 |
-| (all other videos as of 2026-11-12) | | 0 |
+| Us0XpyT1oC0 | L1 Si no duermes (hora a hora) | 2 |
+| X01dvuVhNLY | 11 días sin dormir | 4 |
+| 0xmZKCKXRqQ | 300 huesos | 4 |
+| PMTmS5UaZ1Y | Mawsynram | 2 |
+| (all other videos as of 2026-11-24) | | 0 |
 
 ## Replied
 | date | videoId | commentId | reply (short) |

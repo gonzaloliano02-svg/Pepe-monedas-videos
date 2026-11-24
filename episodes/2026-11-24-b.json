@@ -1,0 +1,408 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-24-b",
+ "title": "Si se cae el ASCENSOR… ¿te salvas si SALTAS? 🛗",
+ "description": "El mito del ascensor: ¿saltar justo antes del golpe te salva?\n\nLos números: 20 pisos son unos 60 metros; en caída libre llegarías abajo a unos 120 km/h. Un buen salto te quita solo unos 9 km/h. Además, los ascensores tienen varios cables y un freno de emergencia desde que Elisha Otis lo demostró en Nueva York en 1854. Y Betty Lou Oliver sobrevivió en 1945 a una caída de 75 pisos en el Empire State (récord Guinness).\n\nCifras aproximadas (sin rozamiento). Video creado con ayuda de IA.",
+ "tags": [
+  "ascensor",
+  "mitos",
+  "fisica",
+  "que pasaria si",
+  "curiosidades",
+  "animacion",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "lp",
+   "hook": "¿*SALTAR* te salva?",
+   "hookDur": 1.5,
+   "narration": "Vas en un ascensor, piso veinte. Y de repente, el cable se suelta.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      5.6
+     ],
+     "to": [
+      0,
+      1.6,
+      4.8
+     ],
+     "look": [
+      0,
+      2.0,
+      0
+     ],
+     "shake": [
+      2.6,
+      4.5,
+      0.12
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "scared": 2.8
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "PISO 20",
+      "at": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "¿Te salvas si saltas justo antes del golpe?",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0.6,
+      1.7,
+      5.0
+     ],
+     "to": [
+      0.4,
+      1.7,
+      4.4
+     ],
+     "look": [
+      0,
+      2.0,
+      0
+     ],
+     "shake": [
+      0,
+      3,
+      0.06
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.9
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "choice",
+      "a": "SÍ",
+      "b": "NO",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Caerías unos sesenta metros y llegarías abajo a más de ciento veinte kilómetros por hora.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6.2
+     ],
+     "to": [
+      0,
+      1.6,
+      5.2
+     ],
+     "look": [
+      0,
+      2.1,
+      0
+     ],
+     "shake": [
+      0,
+      5,
+      0.1
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "scared": 0.1
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "gauge",
+      "from": 0,
+      "to": 123,
+      "unit": "km/h",
+      "at": 0.4,
+      "end": 3.6,
+      "y": 220
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Y un buen salto te quita, como mucho, unos nueve kilómetros por hora.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6
+     ],
+     "to": [
+      0,
+      1.6,
+      5
+     ],
+     "look": [
+      0,
+      2.1,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "jump": 1.0
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "SOLO –9 KM/H",
+      "at": 1.4,
+      "y": 300
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Chocarías a ciento catorce en vez de a ciento veintitrés. Y encima tendrías que acertar la décima de segundo exacta.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.4
+     ],
+     "to": [
+      0,
+      1.7,
+      4.6
+     ],
+     "look": [
+      0,
+      2.0,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": -0.5
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "MITO",
+      "at": 2.4
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "La buena noticia: los ascensores tienen varios cables y un freno de emergencia. Elisha Otis lo enseñó en Nueva York en mil ochocientos cincuenta y cuatro, cortando su propia cuerda delante del público.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      0,
+      2.2,
+      8
+     ],
+     "to": [
+      0,
+      2.0,
+      6.5
+     ],
+     "look": [
+      0,
+      2.0,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "boss",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "wave": [
+       2.5,
+       4.5
+      ]
+     },
+     {
+      "who": "man",
+      "pos": [
+       -2.6,
+       1.5
+      ],
+      "rot": 0.6
+     },
+     {
+      "who": "woman",
+      "pos": [
+       2.6,
+       1.5
+      ],
+      "rot": -0.6,
+      "scared": 5.5
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "1854",
+      "at": 1.0,
+      "y": 300
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Y en mil novecientos cuarenta y cinco, Betty Lou Oliver cayó setenta y cinco pisos en el Empire State… y sobrevivió. Sigue siendo récord Guinness.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      7
+     ],
+     "to": [
+      0,
+      1.8,
+      5.5
+     ],
+     "look": [
+      0,
+      2.4,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "woman",
+      "pos": [
+       0,
+       0
+      ],
+      "jump": 3.2
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "75 PISOS",
+      "at": 0.4
+     },
+     {
+      "kind": "badge",
+      "text": "RÉCORD GUINNESS",
+      "at": 3.0,
+      "y": 1180
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Así que tranquilo: lo más probable es que el freno te pare mucho antes. ¿Tú saltarías?",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      5.4
+     ],
+     "to": [
+      0,
+      1.6,
+      4.6
+     ],
+     "look": [
+      0,
+      2.0,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "wave": [
+       0.4,
+       1.6
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "choice",
+      "a": "SÍ",
+      "b": "NO",
+      "at": 1.6,
+      "pick": "b",
+      "pickAt": 3.0
+     }
+    ]
+   }
+  }
+ ]
+}
