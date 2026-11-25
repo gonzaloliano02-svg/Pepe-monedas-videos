@@ -27,7 +27,7 @@ export type LpCast = {
   color?: string; // shirt
 };
 export type LpObject = {
-  kind: "train" | "car" | "box" | "coin" | "ball" | "rock" | "pizza" | "burger" | "cake" | "phone" | "money" | "bottle" | "tv" | "bag" | "tree" | "house" | "meteor" | "cube" | "moon" | "earth";
+  kind: "train" | "car" | "box" | "coin" | "ball" | "rock" | "pizza" | "burger" | "cake" | "phone" | "money" | "bottle" | "tv" | "bag" | "tree" | "house" | "meteor" | "cube" | "moon" | "earth" | "bolt";
   vanish?: number;
   from: V3;
   to?: V3;
@@ -234,6 +234,7 @@ const Obj: React.FC<{ o: LpObject; t: number }> = ({ o, t }) => {
       case "bag": return <Box p={[0, 0.45, 0]} s={[0.8, 0.9, 0.4]} c={c ?? "#8d6e63"} />;
       case "tree": return (<><mesh position={[0, 0.8, 0]}><cylinderGeometry args={[0.2, 0.25, 1.6, 6]} /><meshStandardMaterial color="#7a5a3a" {...flat} /></mesh><mesh position={[0, 2.3, 0]}><icosahedronGeometry args={[1.2, 0]} /><meshStandardMaterial color={c ?? "#5f9c4a"} {...flat} /></mesh></>);
       case "house": return (<><Box p={[0, 1.2, 0]} s={[3, 2.4, 3]} c={c ?? "#f2e3c6"} /><mesh position={[0, 3.0, 0]} rotation={[0, Math.PI / 4, 0]}><coneGeometry args={[2.4, 1.4, 4]} /><meshStandardMaterial color="#b5473a" {...flat} /></mesh></>);
+      case "bolt": return (<>{[[0, 9, 0, 0.35], [0.5, 6.5, 0, -0.45], [-0.2, 4, 0, 0.4], [0.3, 1.6, 0, -0.35]].map((q, i) => <mesh key={i} position={[q[0], q[1], q[2]]} rotation={[0, 0, q[3]]}><boxGeometry args={[0.22, 2.8, 0.22]} /><meshBasicMaterial color={(Math.floor(t * 20) % 2) ? "#fff7a8" : "#ffffff"} /></mesh>)}<pointLight position={[0, 4, 1]} intensity={40} distance={30} color="#fff7c0" /></>);
       case "moon": return (<><mesh position={[0, 1, 0]}><icosahedronGeometry args={[1, 2]} /><meshStandardMaterial color={c ?? "#d8d4c8"} emissive="#3a3830" {...flat} /></mesh>{[[0.5, 1.4, 0.75], [-0.4, 0.7, 0.85], [0.1, 0.4, 0.95], [-0.6, 1.5, 0.7]].map((q, i) => <mesh key={i} position={[q[0], q[1], q[2]]}><sphereGeometry args={[0.16 + (i % 2) * 0.08, 6, 6]} /><meshStandardMaterial color="#9e998c" {...flat} /></mesh>)}</>);
       case "earth": return (<><mesh position={[0, 1, 0]}><icosahedronGeometry args={[1, 2]} /><meshStandardMaterial color={c ?? "#2f7fd6"} {...flat} /></mesh>{[[0.4, 1.4, 0.8], [-0.5, 0.8, 0.8], [0.2, 0.5, 0.9]].map((q, i) => <mesh key={i} position={[q[0], q[1], q[2]]}><icosahedronGeometry args={[0.38, 0]} /><meshStandardMaterial color="#4caf50" {...flat} /></mesh>)}</>);
       default: return <Box p={[0, 0.5, 0]} s={[1, 1, 1]} c={c ?? "#c49a6c"} />;
