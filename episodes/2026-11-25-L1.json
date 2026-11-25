@@ -99,17 +99,17 @@
     "cam": {
      "from": [
       0,
-      1,
-      9
+      3.4,
+      10
      ],
      "to": [
-      0,
-      1,
-      7.5
+      0.3,
+      3.4,
+      8.8
      ],
      "look": [
       0,
-      1,
+      2.9,
       0
      ]
     },
@@ -118,8 +118,8 @@
      {
       "kind": "earth",
       "from": [
-       -1.5,
-       0,
+       -3.0,
+       2.2,
        0
       ],
       "scale": 1.6,
@@ -128,8 +128,8 @@
      {
       "kind": "moon",
       "from": [
-       3,
-       0.6,
+       3.5,
+       2.8000000000000003,
        -1
       ],
       "scale": 0.5,
@@ -142,7 +142,7 @@
       "kind": "badge",
       "text": "¿QUÉ PASARÍA?",
       "at": 2.0,
-      "y": 330
+      "y": 230
      }
     ]
    },
@@ -289,7 +289,7 @@
    "narration": "Mira la escena. Pepe sale al campo, mira hacia arriba… y la luz que llevaba miles de millones de años ahí, de repente, se apaga.",
    "lp": {
     "set": "night",
-    "moon": true,
+    "moon": false,
     "cam": {
      "from": [
       0,
@@ -616,17 +616,17 @@
     "cam": {
      "from": [
       3,
-      2,
-      7
+      3.4,
+      10
      ],
      "to": [
-      1.5,
-      1.8,
-      5.5
+      2,
+      3.2,
+      8.5
      ],
      "look": [
       0,
-      1,
+      1.9,
       0
      ]
     },
@@ -635,7 +635,7 @@
       "who": "pepe",
       "pos": [
        0,
-       1
+       2
       ],
       "rot": 0.4,
       "look": [
@@ -654,7 +654,7 @@
       "at": 1.0,
       "end": 3.0,
       "unit": "% marea",
-      "y": 330
+      "y": 200
      }
     ]
    },
@@ -1081,17 +1081,17 @@
     "cam": {
      "from": [
       0,
-      1,
-      8
+      3.4,
+      10
      ],
      "to": [
-      0.5,
-      1,
-      7
+      0.3,
+      3.4,
+      8.8
      ],
      "look": [
       0,
-      1,
+      2.9,
       0
      ]
     },
@@ -1100,8 +1100,8 @@
      {
       "kind": "earth",
       "from": [
-       0,
-       0,
+       -3.0,
+       2.2,
        0
       ],
       "scale": 1.8,
@@ -1110,8 +1110,8 @@
      {
       "kind": "moon",
       "from": [
-       3.5,
-       0.6,
+       4.0,
+       2.8000000000000003,
        -1
       ],
       "scale": 0.5,
@@ -1123,7 +1123,7 @@
       "kind": "label",
       "text": "sin freno",
       "at": 2.2,
-      "y": 330
+      "y": 230
      }
     ]
    },
@@ -1854,7 +1854,7 @@
    "narration": "Así que la próxima vez que veas la Luna llena, piénsalo: estás viendo algo que se aleja, que mueve los océanos, que guía a animales… y que algún día dejará de tapar el Sol.",
    "lp": {
     "set": "night",
-    "moon": true,
+    "moon": false,
     "cam": {
      "from": [
       0,
