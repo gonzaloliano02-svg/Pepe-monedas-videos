@@ -237,3 +237,7 @@
 - Comments: none new (Windsor counts = baseline), 0 credits.
 - Choices (why): a = couple chorra "¿qué cenamos?" (the couple format gave the best retention ever); b = myth-buster with a moving object, rayo en el coche (same "¿te salvas si…?" myth shape as ascensor, #2 retention); L1 = "¿Qué pasaría si la LUNA desapareciera?" (classic high-search "qué pasaría si" topic, never done as long-form); c = Moon teaser.
 - New lp features: objects "moon" and "earth", object `vanish` (shrinks away), spec `moon: false` hides the night-set moon.
+- Worker restarts at ~08:00Z and ~10:05Z killed all builds twice; relaunched each time (TTS cached). L1 render restarted from frame 0 at 10:10Z.
+- Teaser c 11-24 (Chelyabinsk) YouTube: publishAt lost again; re-set to 10:50 Madrid → completed https://www.youtube.com/watch?v=Cq6JLWiovPI (upload 1/3).
+- a "Le pregunto a mi NOVIA qué quiere CENAR 🍕" — QA found burger over faces + badge over counter; fixed, re-rendered. TikTok completed (published immediately ~11:12 Madrid, late because of the restarts) https://www.tiktok.com/@pepe.monedass/video/7712049510683282727 (postId b70080d7).
+- b "Si cae un RAYO en tu coche… ¿te salvan las RUEDAS? ⚡🚗" — first render had Pepe hidden and no lightning; added lp object "bolt", reframed, re-rendered. YouTube completed https://www.youtube.com/watch?v=22eLXtZSSKk publishAt 12:00 Madrid (upload 2/3, description links zdn8x7qbGiw); TikTok scheduled 11:15Z (vidIQ pacing). postId b0977523.
