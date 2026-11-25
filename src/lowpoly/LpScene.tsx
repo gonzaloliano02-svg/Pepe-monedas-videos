@@ -27,7 +27,8 @@ export type LpCast = {
   color?: string; // shirt
 };
 export type LpObject = {
-  kind: "train" | "car" | "box" | "coin" | "ball" | "rock" | "pizza" | "burger" | "cake" | "phone" | "money" | "bottle" | "tv" | "bag" | "tree" | "house" | "meteor" | "cube";
+  kind: "train" | "car" | "box" | "coin" | "ball" | "rock" | "pizza" | "burger" | "cake" | "phone" | "money" | "bottle" | "tv" | "bag" | "tree" | "house" | "meteor" | "cube" | "moon" | "earth";
+  vanish?: number;
   from: V3;
   to?: V3;
   move?: [number, number];
@@ -50,6 +51,7 @@ export type LpSpec = {
   cast?: LpCast[];
   objects?: LpObject[];
   overlays?: LpOverlay[];
+  moon?: boolean;
 };
 
 const LOOKS: Record<string, { skin: string; shirt: string; pants: string; glasses: boolean; hair: string | null }> = {
@@ -83,7 +85,7 @@ const Buildings: React.FC = () => (
   </>
 );
 
-const Set: React.FC<{ set: LpSpec["set"] }> = ({ set }) => {
+const Set: React.FC<{ set: LpSpec["set"]; moon?: boolean }> = ({ set, moon = true }) => {
   switch (set) {
     case "tracks":
       return (<><Ground /><Trees /><Track /></>);
@@ -180,7 +182,7 @@ const Set: React.FC<{ set: LpSpec["set"] }> = ({ set }) => {
         </>
       );
     case "night":
-      return (<><Ground color="#2e3b2c" /><Trees /><mesh position={[8, 14, -60]}><sphereGeometry args={[3, 12, 12]} /><meshBasicMaterial color="#fff6d0" /></mesh></>);
+      return (<><Ground color="#2e3b2c" /><Trees />{moon && <mesh position={[8, 14, -60]}><sphereGeometry args={[3, 12, 12]} /><meshBasicMaterial color="#fff6d0" /></mesh>}</>);
     default:
       return (<><Ground color="#8fc46a" /><Trees /></>);
   }
@@ -200,6 +202,7 @@ const Obj: React.FC<{ o: LpObject; t: number }> = ({ o, t }) => {
   let s = o.scale ?? 1;
   if (o.grow) s *= interpolate(t, [o.grow[1], o.grow[2]], [o.grow[0], 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   if (o.appear !== undefined) s *= Math.min(1, (t - o.appear) * 6);
+  if (o.vanish !== undefined) { if (t > o.vanish + 0.5) return null; if (t > o.vanish) s *= 1 - (t - o.vanish) / 0.5; }
   const c = o.color;
   if (o.kind === "meteor" && o.to && t > (o.move?.[1] ?? 2)) {
     // impact: an expanding fireball that fades, then nothing
@@ -231,6 +234,8 @@ const Obj: React.FC<{ o: LpObject; t: number }> = ({ o, t }) => {
       case "bag": return <Box p={[0, 0.45, 0]} s={[0.8, 0.9, 0.4]} c={c ?? "#8d6e63"} />;
       case "tree": return (<><mesh position={[0, 0.8, 0]}><cylinderGeometry args={[0.2, 0.25, 1.6, 6]} /><meshStandardMaterial color="#7a5a3a" {...flat} /></mesh><mesh position={[0, 2.3, 0]}><icosahedronGeometry args={[1.2, 0]} /><meshStandardMaterial color={c ?? "#5f9c4a"} {...flat} /></mesh></>);
       case "house": return (<><Box p={[0, 1.2, 0]} s={[3, 2.4, 3]} c={c ?? "#f2e3c6"} /><mesh position={[0, 3.0, 0]} rotation={[0, Math.PI / 4, 0]}><coneGeometry args={[2.4, 1.4, 4]} /><meshStandardMaterial color="#b5473a" {...flat} /></mesh></>);
+      case "moon": return (<><mesh position={[0, 1, 0]}><icosahedronGeometry args={[1, 2]} /><meshStandardMaterial color={c ?? "#d8d4c8"} emissive="#3a3830" {...flat} /></mesh>{[[0.5, 1.4, 0.75], [-0.4, 0.7, 0.85], [0.1, 0.4, 0.95], [-0.6, 1.5, 0.7]].map((q, i) => <mesh key={i} position={[q[0], q[1], q[2]]}><sphereGeometry args={[0.16 + (i % 2) * 0.08, 6, 6]} /><meshStandardMaterial color="#9e998c" {...flat} /></mesh>)}</>);
+      case "earth": return (<><mesh position={[0, 1, 0]}><icosahedronGeometry args={[1, 2]} /><meshStandardMaterial color={c ?? "#2f7fd6"} {...flat} /></mesh>{[[0.4, 1.4, 0.8], [-0.5, 0.8, 0.8], [0.2, 0.5, 0.9]].map((q, i) => <mesh key={i} position={[q[0], q[1], q[2]]}><icosahedronGeometry args={[0.38, 0]} /><meshStandardMaterial color="#4caf50" {...flat} /></mesh>)}</>);
       default: return <Box p={[0, 0.5, 0]} s={[1, 1, 1]} c={c ?? "#c49a6c"} />;
     }
   })();
@@ -378,7 +383,7 @@ export const LpSceneView: React.FC<{ spec: LpSpec; words?: { w: string; t: numbe
         ) : set === "space" || set === "night" ? (
           <><ambientLight intensity={0.5} /><directionalLight position={[5, 6, 5]} intensity={1.6} color="#cfd8ff" /></>
         ) : <Lights />}
-        <Set set={set} />
+        <Set set={set} moon={spec.moon} />
         {(spec.objects ?? []).map((o, i) => <Obj key={i} o={o} t={t} />)}
         {(spec.cast ?? []).map((c, i) => <Actor key={i} c={c} t={t} f={f} speaking={speaking} i={i} />)}
       </ThreeCanvas>

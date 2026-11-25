@@ -1,0 +1,441 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-25-b",
+ "title": "Si cae un RAYO en tu coche… ¿te salvan las RUEDAS? ⚡🚗",
+ "description": "El mito de las ruedas de goma: si un rayo cae en tu coche, ¿te salva el caucho?\n\nNo: un rayo calienta el aire a unos 30.000 °C (unas 5 veces la superficie del Sol) y ha atravesado kilómetros de aire; unos centímetros de goma no lo paran. Lo que protege es la carrocería metálica, que conduce la corriente por fuera hasta el suelo (efecto jaula de Faraday). Cierra ventanillas y no toques partes metálicas; un descapotable o un coche de fibra no protegen igual. A cada avión comercial le cae, de media, alrededor de un rayo al año.\n\nFuentes: NOAA/National Weather Service, AEMET. Cifras aproximadas. Video creado con ayuda de IA.",
+ "tags": [
+  "rayo",
+  "rayo en el coche",
+  "jaula de faraday",
+  "mitos",
+  "tormenta",
+  "curiosidades",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "lp",
+   "narration": "Vas en coche, en plena tormenta. Y de repente, un rayo cae justo encima.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      2.5,
+      2.2,
+      8
+     ],
+     "to": [
+      1.5,
+      2.0,
+      6.5
+     ],
+     "look": [
+      0,
+      1,
+      0
+     ],
+     "shake": [
+      2.4,
+      3.6,
+      0.14
+     ]
+    },
+    "objects": [
+     {
+      "kind": "car",
+      "from": [
+       0,
+       0,
+       3
+      ],
+      "to": [
+       0,
+       0,
+       0
+      ],
+      "move": [
+       0,
+       2.2
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "¡RAYO!",
+      "at": 2.4
+     }
+    ]
+   },
+   "hook": "⚡ ¿Te *SALVAS*?",
+   "hookDur": 1.5
+  },
+  {
+   "type": "lp",
+   "narration": "¿Te salvas? Mucha gente dice: sí, por las ruedas de goma.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      2.5,
+      2.2,
+      7
+     ],
+     "to": [
+      1.5,
+      2.0,
+      6
+     ],
+     "look": [
+      0,
+      1,
+      0
+     ]
+    },
+    "objects": [
+     {
+      "kind": "car",
+      "from": [
+       0,
+       0,
+       0
+      ],
+      "rot": 0
+     }
+    ],
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       2.2,
+       1
+      ],
+      "rot": -0.6,
+      "talk": true
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "choice",
+      "a": "SÍ",
+      "b": "NO",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Pero un rayo puede calentar el aire a unos treinta mil grados, unas cinco veces la superficie del Sol.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      0,
+      2.2,
+      9
+     ],
+     "to": [
+      0.0,
+      2.0,
+      7.5
+     ],
+     "look": [
+      0,
+      1,
+      0
+     ],
+     "shake": [
+      0,
+      2,
+      0.08
+     ]
+    },
+    "objects": [
+     {
+      "kind": "car",
+      "from": [
+       0,
+       0,
+       0
+      ],
+      "rot": 0
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "gauge",
+      "from": 0,
+      "to": 30000,
+      "unit": "°C",
+      "at": 0.4,
+      "end": 3.4,
+      "y": 220
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Ha atravesado kilómetros de aire. Unos centímetros de goma no lo paran.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      -2,
+      2.2,
+      6.5
+     ],
+     "to": [
+      -1.2,
+      2.0,
+      5.5
+     ],
+     "look": [
+      0,
+      1,
+      0
+     ]
+    },
+    "objects": [
+     {
+      "kind": "car",
+      "from": [
+       0,
+       0,
+       0
+      ],
+      "rot": 0
+     }
+    ],
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -2.2,
+       1
+      ],
+      "rot": 0.6,
+      "talk": true,
+      "brows": -0.6
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "MITO",
+      "at": 2.0
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Lo que te salva es la carrocería de metal. La corriente va por fuera y baja al suelo, sin pasar por ti.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      1.5,
+      2.2,
+      7.5
+     ],
+     "to": [
+      0.8999999999999999,
+      2.0,
+      5.8
+     ],
+     "look": [
+      0,
+      1,
+      0
+     ]
+    },
+    "objects": [
+     {
+      "kind": "car",
+      "from": [
+       0,
+       0,
+       0
+      ],
+      "rot": 0
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "JAULA DE FARADAY",
+      "at": 1.4,
+      "y": 330
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Eso sí: cierra las ventanillas, no toques nada de metal… y ojo, un descapotable no te protege.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      -1.5,
+      2.2,
+      6.5
+     ],
+     "to": [
+      -0.8999999999999999,
+      2.0,
+      5.4
+     ],
+     "look": [
+      0,
+      1,
+      0
+     ]
+    },
+    "objects": [
+     {
+      "kind": "car",
+      "from": [
+       0,
+       0,
+       0
+      ],
+      "rot": 0
+     }
+    ],
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -2,
+       1.2
+      ],
+      "rot": 0.5,
+      "talk": true,
+      "wave": [
+       0.5,
+       1.6
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "label",
+      "text": "❌ descapotable",
+      "at": 2.6,
+      "y": 330
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Por la misma razón, a un avión de pasajeros le cae más o menos un rayo al año. Y sigue volando.",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      2,
+      9
+     ],
+     "to": [
+      0,
+      2.2,
+      7
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       1
+      ],
+      "rot": 3.14,
+      "look": [
+       0.4,
+       0.5
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "≈ 1 RAYO / AÑO ✈️",
+      "at": 1.6,
+      "y": 330
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "¿Tú te quedarías dentro del coche o saldrías corriendo? Te leo.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      1.8,
+      2.2,
+      6.5
+     ],
+     "to": [
+      1.08,
+      2.0,
+      5.2
+     ],
+     "look": [
+      0,
+      1,
+      0
+     ]
+    },
+    "objects": [
+     {
+      "kind": "car",
+      "from": [
+       0,
+       0,
+       0
+      ],
+      "rot": 0
+     }
+    ],
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       2,
+       1.2
+      ],
+      "rot": -0.5,
+      "talk": true,
+      "wave": [
+       0.8,
+       2.2
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "choice",
+      "a": "DENTRO",
+      "b": "FUERA",
+      "at": 0.8
+     }
+    ]
+   }
+  }
+ ]
+}

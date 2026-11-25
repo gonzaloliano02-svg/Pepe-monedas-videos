@@ -1,0 +1,546 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-25-a",
+ "title": "Le pregunto a mi NOVIA qué quiere CENAR 🍕 (error)",
+ "description": "Le pregunto a mi novia qué quiere cenar… y me dice «lo que tú quieras». 🍕🍔🎂\n\nDato real: en España se suele cenar entre las 21:00 y las 22:00, más tarde que en casi toda Europa.\n\n¿A ti también te pasa? 👇\n\nVideo creado con ayuda de IA.",
+ "tags": [
+  "humor",
+  "parejas",
+  "novios",
+  "que cenamos",
+  "humor español",
+  "animacion",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "lp",
+   "narration": "Le pregunto a mi novia qué quiere cenar. Y me dice: lo que tú quieras.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0,
+      1.65,
+      5.6
+     ],
+     "to": [
+      0.0,
+      1.65,
+      4.8
+     ],
+     "look": [
+      0,
+      1.6,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": [
+       [
+        0,
+        1.6
+       ]
+      ]
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "talk": [
+       [
+        2.2,
+        3.6
+       ]
+      ],
+      "brows": 0.6
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "21:00",
+      "at": 0.4
+     }
+    ]
+   },
+   "hook": "¿Qué *CENAMOS*?",
+   "hookDur": 1.5
+  },
+  {
+   "type": "lp",
+   "narration": "Vale. ¿Pizza? No, que pizza comimos ayer.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0,
+      1.65,
+      5.2
+     ],
+     "to": [
+      0.0,
+      1.65,
+      4.6
+     ],
+     "look": [
+      0,
+      1.6,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": [
+       [
+        0,
+        1.0
+       ]
+      ]
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "talk": [
+       [
+        1.2,
+        3
+       ]
+      ],
+      "brows": -0.6
+     }
+    ],
+    "objects": [
+     {
+      "kind": "pizza",
+      "from": [
+       0,
+       1.7,
+       0.6
+      ],
+      "scale": 0.9,
+      "appear": 0.3,
+      "spin": 0.8
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "NO",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "¿Hamburguesa? Uf, muy pesada.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0.5,
+      1.65,
+      5.2
+     ],
+     "to": [
+      0.3,
+      1.65,
+      4.6
+     ],
+     "look": [
+      0,
+      1.6,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": [
+       [
+        0,
+        1.0
+       ]
+      ]
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "talk": [
+       [
+        1.1,
+        2.4
+       ]
+      ],
+      "brows": -0.8
+     }
+    ],
+    "objects": [
+     {
+      "kind": "burger",
+      "from": [
+       0,
+       1.7,
+       0.6
+      ],
+      "scale": 0.9,
+      "appear": 0.3,
+      "spin": 0.8
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "NO",
+      "at": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "¿Y una tarta? ¿Para cenar? ¿Tú estás bien?",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      -0.4,
+      1.65,
+      5.0
+     ],
+     "to": [
+      -0.24,
+      1.65,
+      4.4
+     ],
+     "look": [
+      0,
+      1.6,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": [
+       [
+        0,
+        0.9
+       ]
+      ],
+      "scared": 1.6
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "talk": [
+       [
+        1.0,
+        2.6
+       ]
+      ],
+      "brows": -1
+     }
+    ],
+    "objects": [
+     {
+      "kind": "cake",
+      "from": [
+       0,
+       1.7,
+       0.6
+      ],
+      "scale": 0.7,
+      "appear": 0.3,
+      "spin": 0.8
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "NO",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "¿Y si cocino yo?",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0,
+      1.65,
+      5.4
+     ],
+     "to": [
+      0.0,
+      1.65,
+      4.2
+     ],
+     "look": [
+      0,
+      1.6,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": true,
+      "brows": 0.8
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "brows": -1
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "choice",
+      "a": "SÍ",
+      "b": "NO",
+      "at": 0.5,
+      "pick": "b",
+      "pickAt": 1.4
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Una hora después… pide pizza ella.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      6.4
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "scared": 1.6
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "talk": true,
+      "wave": [
+       0.6,
+       1.6
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "kind": "pizza",
+      "from": [
+       0,
+       1.7,
+       0.6
+      ],
+      "scale": 1.1,
+      "appear": 1.2,
+      "spin": 0.8
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "22:30",
+      "at": 0.2
+     },
+     {
+      "kind": "badge",
+      "text": "PIZZA 🍕",
+      "at": 1.4,
+      "y": 330
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Dato real: en España se suele cenar entre las nueve y las diez, más tarde que en casi toda Europa.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0,
+      1.65,
+      5.6
+     ],
+     "to": [
+      0.0,
+      1.65,
+      4.6
+     ],
+     "look": [
+      0,
+      1.6,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": true,
+      "wave": [
+       0.3,
+       1.5
+      ]
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "look": [
+       0.3,
+       0
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "label",
+      "text": "🇪🇸 21:00 – 22:00",
+      "at": 0.8,
+      "y": 330
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "¿A ti también te pasa? Te leo en los comentarios.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0,
+      1.65,
+      5.0
+     ],
+     "to": [
+      0.0,
+      1.65,
+      4.2
+     ],
+     "look": [
+      0,
+      1.6,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": true,
+      "wave": [
+       0.6,
+       2.0
+      ]
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "brows": -0.6
+     }
+    ]
+   }
+  }
+ ]
+}

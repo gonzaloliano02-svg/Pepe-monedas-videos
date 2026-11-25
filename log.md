@@ -230,3 +230,10 @@
 - Meteoritos low-poly mejorados: bola de fuego + estela + explosión al impactar (antes se veían como puntos).
 - L1 16:00 "¿Qué pasaría si un ASTEROIDE chocara contra la Tierra? (según su tamaño)" — 10.7 min, cartoon + 5 lp scenes, cartoon thumbnail. Render 09:46→13:45Z (~4 h; an orphan duplicate render of the same file from a worker restart was found and killed at 11:47Z). QA: frame sheet OK, mean −17.2 dB / max −1.2 dB, ASR spot-check OK. YouTube completed https://www.youtube.com/watch?v=zdn8x7qbGiw (postId 03f1492d-91ce-4f4c-8016-164480a93297, upload 3/3), publishAt 16:00 Madrid.
 - c YouTube draft (2467b8f2…, publicationId 48a43b7f…) text now links zdn8x7qbGiw; publishAt 2026-11-25T10:00+01:00. Trigger step (1) updated with these IDs; trigger now says to launch the L1 build first thing (~4 h renders).
+
+## 2026-11-25
+- Verified 2026-11-24: gusano TikTok, ascensor YT+TikTok, Chelyabinsk TikTok, L1 asteroides YT (zdn8x7qbGiw) all completed. Teaser c YouTube draft still pending (today 10:00).
+- Stats (TikTok, full-watch rate / avg s): **lp Shorts win clearly** — gusano 16.7 % / 8.4 s of 25 s (best ever), ascensor 11.3 % / 11.8 s of 44 s, Chelyabinsk 3.4 % / 6.1 s. V3 AI-image ones 5–9 %, older cartoon 1–4.5 %. YouTube Shorts keep plateauing ~900–1,400 views (engaged ~50–60 %); 11-24 YT numbers not in Windsor yet. Long-forms still < 20 views each.
+- Comments: none new (Windsor counts = baseline), 0 credits.
+- Choices (why): a = couple chorra "¿qué cenamos?" (the couple format gave the best retention ever); b = myth-buster with a moving object, rayo en el coche (same "¿te salvas si…?" myth shape as ascensor, #2 retention); L1 = "¿Qué pasaría si la LUNA desapareciera?" (classic high-search "qué pasaría si" topic, never done as long-form); c = Moon teaser.
+- New lp features: objects "moon" and "earth", object `vanish` (shrinks away), spec `moon: false` hides the night-set moon.
