@@ -254,3 +254,4 @@
 - Choices: a = couple chorra "Mi NOVIA me pide UNA foto (vamos por la 47)" (couple format = best retention); b = myth-buster with moving train "Si SALTAS dentro de un TREN a 300 km/h… ¿caes MÁS ATRÁS?" (ascensor-style myth, inertia, real numbers); L1 = "¿Qué pasaría si las ABEJAS desaparecieran? (paso a paso)" (high-search "qué pasaría si", never done); c = bees teaser.
 - Worker restarts ~07:40Z and ~08:05Z killed builds; relaunched each time.
 - 12:5xZ: a publicado en TikTok https://www.tiktok.com/@pepe.monedass/video/7712452436606111015 (tarde, tras arreglar encuadre). Reinicios del worker otra vez; render del largo ahora por trozos de 1200 frames (build/chunks/) para no perderlo entero.
+- ~14:5xZ: b publicado YouTube https://www.youtube.com/watch?v=rBng13NqyXk (subida 2/3) + TikTok (pendiente URL). Otro reinicio ~14:00Z; chunk 000 del L1 se salvó.
