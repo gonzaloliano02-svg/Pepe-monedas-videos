@@ -264,3 +264,6 @@
 - c bees: TikTok completed (17:00Z). YouTube draft (postId bb035c0f…, publicationId 507cef66…) now links IrLO6RoErgg; publish 2026-11-27 10:00 Madrid (publishAt was lost again; set it before publishing).
 - 2026-11-27 prepared: a (novia/patatas) OK; b (moneda rascacielos) OK after fixes: coin/rock falls were invisible (camera aimed at the fall, bigger objects), MITO stamp removed from the choice scene. c (agua teaser) and L1 "¿Qué le pasa a tu CUERPO si dejas de beber AGUA? (hora a hora)" building. Asteroid topic dropped (already done on 2026-11-24).
 - 2 more worker restarts this evening; chunked L1 render resumed fine.
+- 2026-11-27 a: TikTok SCHEDULED 10:00 Madrid (vidIQ status scheduled) — postId 6b006168-f0fa-448b-920d-0bf6c9cfbb89. Do NOT post again.
+- 2026-11-27 c 18:00 (agua teaser): TikTok SCHEDULED 18:00 Madrid (status scheduled) — postId 647f4446-6642-41f4-aae3-4baead4aaded, TikTok publicationId 6699dd82-e412-4791-b3d8-d5d1eb335ac1; YouTube publicationId 10995630-ce51-42bf-9a2f-ff1cd0469a19 kept as draft for 2026-11-28 10:00 (description has L1LINK → water long video).
+- 2026-11-27 b still needs YouTube (after 08:00Z) + TikTok at 12:00; L1 water relaunched after a restart.
