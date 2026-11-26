@@ -376,6 +376,39 @@ def add_word_times(ep: dict) -> None:
         print(f"word timing failed: {e}", flush=True)
 
 
+CHUNK = 1200  # frames per piece; a worker restart then loses at most one piece
+
+
+def render_chunked(comp: str, props: Path, out: Path, frames: int, gl: list, eid: str) -> None:
+    """Render a long video in pieces that survive restarts (finished pieces are skipped), then join them."""
+    cdir = ROOT / "build" / "chunks" / eid
+    cdir.mkdir(parents=True, exist_ok=True)
+    parts = []
+    for i, a in enumerate(range(0, frames, CHUNK)):
+        b = min(a + CHUNK, frames) - 1
+        part = cdir / f"{i:03d}.mp4"
+        parts.append(part)
+        if part.exists():
+            continue
+        tmp = cdir / f"{i:03d}.part.mp4"
+        subprocess.run(["npx", "remotion", "render", "src/index.ts", comp, str(tmp), f"--props={props}",
+                        f"--frames={a}-{b}", "--muted", "--crf=24", "--concurrency=4", "--x264-preset=medium"] + gl,
+                       cwd=ROOT, check=True)
+        tmp.replace(part)
+        print(f"chunk {i} done ({b + 1}/{frames})", flush=True)
+    wav = cdir / "audio.wav"
+    if not wav.exists():
+        tmp = cdir / "audio.part.wav"
+        subprocess.run(["npx", "remotion", "render", "src/index.ts", comp, str(tmp), f"--props={props}",
+                        "--codec=wav"], cwd=ROOT, check=True)
+        tmp.replace(wav)
+    lst = cdir / "list.txt"
+    lst.write_text("".join(f"file '{p}'\n" for p in parts))
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-i", str(wav),
+                    "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", str(out)],
+                   check=True)
+
+
 def build_story(ep: dict, adir: Path) -> None:
     """Long-form 2D video (format "story"), 1920x1080 @ 24 fps, plus thumbnail."""
     eid = ep["id"]
@@ -415,12 +448,16 @@ def build_story(ep: dict, adir: Path) -> None:
     props = ROOT / "build" / f"{eid}.props.json"
     props.write_text(json.dumps(ep, ensure_ascii=False))
     out = ROOT / "videos" / f"{eid}.mp4"
-    subprocess.run(
-        ["npx", "remotion", "render", "src/index.ts", "StoryV" if vertical else "Story", str(out),
-         f"--props={props}", "--crf=24", "--concurrency=4", "--x264-preset=medium"]
-        + (["--gl=swangle"] if any(sc["type"] == "lp" for sc in ep["scenes"]) else []),
-        cwd=ROOT, check=True,
-    )
+    comp = "StoryV" if vertical else "Story"
+    gl = ["--gl=swangle"] if any(sc["type"] == "lp" for sc in ep["scenes"]) else []
+    if vertical:
+        subprocess.run(
+            ["npx", "remotion", "render", "src/index.ts", comp, str(out),
+             f"--props={props}", "--crf=24", "--concurrency=4", "--x264-preset=medium"] + gl,
+            cwd=ROOT, check=True,
+        )
+    else:
+        render_chunked(comp, props, out, int(total), gl, eid)
     mb = out.stat().st_size / 1e6
     if mb > MAX_MB:  # re-encode to fit GitHub's limit
         kbps = int(MAX_MB * 8000 / (total / fps) * 0.92) - 128
