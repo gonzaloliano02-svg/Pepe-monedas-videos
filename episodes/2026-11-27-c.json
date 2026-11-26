@@ -1,0 +1,317 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-27-c",
+ "title": "¿Cuántos días AGUANTAS sin beber AGUA? 💧",
+ "description": "¿Cuánto aguanta el cuerpo sin agua? 💧 Con un 2 % menos ya rindes peor, al primer día llegan el dolor de cabeza y el pulso rápido, y lo normal es aguantar solo unos pocos días (con calor, menos). El caso extremo: 18 días, Austria, 1979.\n\nVídeo completo hora a hora 👉 L1LINK\n\nCifras aproximadas; no es consejo médico. Video creado con ayuda de IA.\n\n#shorts #agua #cuerpohumano #curiosidades",
+ "tags": [
+  "agua",
+  "deshidratacion",
+  "cuerpo humano",
+  "curiosidades",
+  "salud",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "lp",
+   "narration": "¿Cuánto aguantas sin beber agua? Menos de lo que crees.",
+   "lp": {
+    "set": "desert",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6.0
+     ],
+     "to": [
+      0,
+      1.6,
+      5.0
+     ],
+     "look": [
+      0,
+      2.0,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "kind": "bottle",
+      "from": [
+       1.3,
+       0,
+       0.6
+      ],
+      "scale": 0.9
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "0 LITROS",
+      "at": 0.3
+     }
+    ]
+   },
+   "hook": "¿Cuánto aguantas *SIN AGUA*? 💧",
+   "hookDur": 1.6
+  },
+  {
+   "type": "lp",
+   "narration": "Con solo un dos por ciento menos de agua, ya te concentras peor.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.8
+     ],
+     "to": [
+      0,
+      1.7,
+      4.8
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": -0.5
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "gauge",
+      "from": 0,
+      "to": 2,
+      "unit": "%",
+      "at": 0.3,
+      "end": 2.6,
+      "y": 230
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Al primer día: boca seca, dolor de cabeza y el corazón latiendo más rápido.",
+   "lp": {
+    "set": "desert",
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      6.2
+     ],
+     "to": [
+      0,
+      1.8,
+      5.2
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "scared": 1.0,
+      "talk": true
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "label",
+      "text": "24 HORAS",
+      "at": 0.6,
+      "y": 360
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Lo normal es aguantar solo unos pocos días. Con calor, incluso menos de uno.",
+   "lp": {
+    "set": "desert",
+    "cam": {
+     "from": [
+      2,
+      1.6,
+      8
+     ],
+     "to": [
+      1,
+      2.2,
+      6.5
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.6
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "PELIGRO",
+      "at": 2.2
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Pero en mil novecientos setenta y nueve, un chico en Austria aguantó dieciocho días… olvidado en una celda.",
+   "lp": {
+    "set": "night",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.7
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "DÍA 18",
+      "at": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Te lo cuento hora a hora en el vídeo completo del canal. ¿Cuánta agua bebes tú al día?",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6.0
+     ],
+     "to": [
+      0,
+      1.6,
+      5.0
+     ],
+     "look": [
+      0,
+      2.1,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.3,
+      "talk": true
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.3,
+      "wave": [
+       1.5,
+       3
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -2.6,
+       0,
+       -3
+      ]
+     },
+     {
+      "kind": "tree",
+      "from": [
+       2.8,
+       0,
+       -4
+      ]
+     }
+    ],
+    "overlays": []
+   }
+  }
+ ]
+}

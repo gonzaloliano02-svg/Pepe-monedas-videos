@@ -1,0 +1,1435 @@
+{
+ "id": "2026-11-27-L1",
+ "format": "story",
+ "title": "¿Qué le pasa a tu CUERPO si dejas de beber AGUA? (hora a hora)",
+ "tags": [
+  "que pasa si no bebes agua",
+  "deshidratacion",
+  "cuanto aguanta el cuerpo sin agua",
+  "agua",
+  "cuerpo humano",
+  "que pasaria si",
+  "salud",
+  "curiosidades",
+  "ciencia",
+  "animacion"
+ ],
+ "description": "CHAPTERS",
+ "thumbnail": {
+  "text": "¿Y si dejas de beber *AGUA*?",
+  "kicker": "Hora a hora",
+  "emoji": "💧",
+  "env": "day",
+  "bg": "land:desert",
+  "fx": [],
+  "actors": [
+   {
+    "kind": "stick",
+    "x": 72,
+    "y": 92,
+    "pose": "scared",
+    "expr": "dizzy",
+    "name": "TÚ",
+    "color": "#FFD60A",
+    "size": 500,
+    "delay": -2
+   },
+   {
+    "kind": "emoji",
+    "x": 88,
+    "y": 24,
+    "emoji": "💧",
+    "size": 220,
+    "delay": -2
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "type": "cartoon",
+   "text": "Sin *agua*",
+   "narration": "¿Qué le pasa a tu cuerpo si dejas de beber agua? Ni un vaso, ni un refresco, nada. Hoy vamos a verlo hora a hora: desde la primera señal de sed hasta el límite de lo que aguanta un ser humano.",
+   "bg": "land:desert",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 40,
+     "emoji": "💧",
+     "size": 220,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 40,
+     "emoji": "❌",
+     "size": 200,
+     "anim": "pop",
+     "delay": 3.0
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 30,
+     "y": 92,
+     "pose": "look",
+     "expr": "wow",
+     "size": 270,
+     "pose2": "scared",
+     "poseAt": 3.0,
+     "expr2": "scared"
+    },
+    {
+     "kind": "clock",
+     "x": 85,
+     "y": 20,
+     "size": 120,
+     "speed": 1
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1,
+     1.1
+    ]
+   },
+   "seed": "ag1"
+  },
+  {
+   "type": "lp",
+   "narration": "Spoiler: aguantas mucho menos sin agua que sin comida. Y los primeros síntomas llegan muchísimo antes de lo que crees.",
+   "lp": {
+    "set": "desert",
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      6.4
+     ],
+     "to": [
+      0,
+      1.8,
+      5.4
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.6
+     }
+    ],
+    "objects": [
+     {
+      "kind": "bottle",
+      "from": [
+       1.3,
+       0,
+       0.6
+      ],
+      "scale": 0.9
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "HORA A HORA",
+      "at": 1.2,
+      "y": 230
+     }
+    ]
+   },
+   "seed": "ag2"
+  },
+  {
+   "type": "cartoon",
+   "text": "Con *datos* reales",
+   "narration": "Todo está basado en datos médicos y en estudios de fisiología. Y al final te cuento el récord: un hombre que pasó dieciocho días encerrado en una celda… sin que nadie le diera de beber.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 45,
+     "emoji": "💧",
+     "size": 150,
+     "anim": "pop",
+     "delay": 0.4
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🩺",
+     "size": 150,
+     "anim": "pop",
+     "delay": 1.4
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 45,
+     "emoji": "📊",
+     "size": 150,
+     "anim": "pop",
+     "delay": 2.4
+    }
+   ],
+   "seed": "ag3"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 1",
+   "text": "Eres *agua*",
+   "narration": "Capítulo uno. Antes de nada: ¿cuánta agua tienes dentro?",
+   "bg": "room-day",
+   "seed": "ag4"
+  },
+  {
+   "type": "stat",
+   "value": 60,
+   "suffix": " %",
+   "label": "de tu cuerpo es *agua* (adulto, aprox.)",
+   "narration": "Un adulto es, más o menos, un sesenta por ciento agua. Una persona de setenta kilos lleva dentro unos cuarenta litros. Está en la sangre, dentro de cada célula, en los músculos y hasta en los huesos.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 12,
+     "y": 85,
+     "emoji": "🧍",
+     "size": 150,
+     "anim": "pulse"
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 88,
+     "y": 96,
+     "pose": "point",
+     "expr": "wow",
+     "size": 220,
+     "flip": true
+    }
+   ],
+   "decimals": 0,
+   "seed": "ag5"
+  },
+  {
+   "type": "cartoon",
+   "text": "Lo que *pierdes* cada día",
+   "narration": "El problema es que esa agua se escapa todo el rato. Al orinar, al sudar e incluso al respirar: cada vez que exhalas sale vapor. En total, un adulto pierde unos dos litros y medio al día sin hacer nada especial.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 40,
+     "emoji": "🚽",
+     "size": 140,
+     "anim": "pop",
+     "delay": 0.5
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "💦",
+     "size": 140,
+     "anim": "pop",
+     "delay": 2.0
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 40,
+     "emoji": "🌬️",
+     "size": 140,
+     "anim": "pop",
+     "delay": 3.5
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 62,
+     "text": "≈ 2,5 litros al día",
+     "delay": 5
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 50,
+     "y": 94,
+     "pose": "shrug",
+     "expr": "calm",
+     "size": 230
+    }
+   ],
+   "seed": "ag6"
+  },
+  {
+   "type": "cartoon",
+   "text": "Y la *comida* también cuenta",
+   "narration": "Ojo: no toda el agua que tomas viene del vaso. Más o menos una quinta parte llega con la comida. Una sandía, por ejemplo, es más de un noventa por ciento agua. Así que hoy dejamos de beber… y también de comer cosas húmedas.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 40,
+     "emoji": "🍉",
+     "size": 220,
+     "anim": "spin"
+    },
+    {
+     "kind": "tag",
+     "x": 65,
+     "y": 64,
+     "text": "≈ 20 % viene de la comida",
+     "delay": 3
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 28,
+     "y": 92,
+     "pose": "point",
+     "expr": "happy",
+     "size": 270
+    }
+   ],
+   "seed": "ag7"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 2",
+   "text": "Las primeras *horas*",
+   "narration": "Capítulo dos. Empieza el experimento.",
+   "bg": "land:city",
+   "actors": [
+    {
+     "kind": "clock",
+     "x": 50,
+     "y": 80,
+     "size": 150,
+     "speed": 1
+    }
+   ],
+   "seed": "ag8"
+  },
+  {
+   "type": "cartoon",
+   "text": "Hora *2*: todo normal",
+   "narration": "Las primeras horas no notas casi nada. Tu cuerpo tiene reservas y unos sensores en el cerebro vigilan sin parar lo concentrada que está tu sangre. De momento, todo en orden.",
+   "bg": "land:city",
+   "actors": [
+    {
+     "kind": "clock",
+     "x": 78,
+     "y": 36,
+     "size": 150,
+     "speed": 1
+    },
+    {
+     "kind": "tag",
+     "x": 78,
+     "y": 58,
+     "text": "2 h sin beber",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 35,
+     "y": 92,
+     "pose": "walk",
+     "expr": "happy",
+     "size": 270,
+     "to": [
+      50,
+      92
+     ],
+     "move": [
+      0,
+      3
+     ]
+    }
+   ],
+   "seed": "ag9"
+  },
+  {
+   "type": "cartoon",
+   "text": "La *sed* llega tarde",
+   "narration": "La sed aparece cuando ya has perdido alrededor de un uno o dos por ciento de tu peso en agua. Es decir: cuando tienes sed, tu cuerpo ya va un poco por detrás.",
+   "bg": "land:city",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 42,
+     "emoji": "👅",
+     "size": 200,
+     "anim": "shake"
+    },
+    {
+     "kind": "tag",
+     "x": 65,
+     "y": 64,
+     "text": "1–2 % del peso",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 28,
+     "y": 92,
+     "pose": "think",
+     "expr": "sad",
+     "size": 270
+    }
+   ],
+   "seed": "ag10"
+  },
+  {
+   "type": "lp",
+   "narration": "Y con solo un dos por ciento menos, ya se ha medido que te concentras peor y rindes menos haciendo deporte.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.8
+     ],
+     "to": [
+      0,
+      1.7,
+      4.8
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": -0.5
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "gauge",
+      "from": 0,
+      "to": 2,
+      "unit": "%",
+      "at": 0.3,
+      "end": 3.0,
+      "y": 230
+     }
+    ]
+   },
+   "seed": "ag11"
+  },
+  {
+   "type": "cartoon",
+   "text": "El truco de los *riñones*",
+   "narration": "Mientras, tu cerebro manda una hormona, la vasopresina, a los riñones. El mensaje es: ahorrad agua. Los riñones obedecen y la orina sale menos y mucho más oscura.",
+   "bg": "room",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 35,
+     "emoji": "🧠",
+     "size": 150,
+     "anim": "pulse"
+    },
+    {
+     "kind": "arrow",
+     "x": 35,
+     "y": 40,
+     "to": [
+      60,
+      45
+     ],
+     "text": "vasopresina",
+     "color": "#ff4d6d",
+     "delay": 1.5
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 48,
+     "emoji": "🫘",
+     "size": 170,
+     "anim": "pulse",
+     "delay": 2.5
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 68,
+     "text": "Orina más oscura",
+     "delay": 5
+    }
+   ],
+   "seed": "ag12"
+  },
+  {
+   "type": "cartoon",
+   "text": "El color *chivato*",
+   "narration": "Por eso el color de la orina es una buena pista. Clarita, como limonada: vas bien. Oscura, como zumo de manzana: te falta agua. No es un test perfecto, pero ayuda.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 42,
+     "emoji": "🍋",
+     "size": 160,
+     "anim": "pop",
+     "delay": 0.5
+    },
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 62,
+     "emoji": "✅",
+     "size": 90,
+     "anim": "pop",
+     "delay": 1.5
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 42,
+     "emoji": "🧃",
+     "size": 160,
+     "anim": "pop",
+     "delay": 3
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 62,
+     "emoji": "⚠️",
+     "size": 90,
+     "anim": "pop",
+     "delay": 4
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 50,
+     "y": 94,
+     "pose": "point",
+     "expr": "cool",
+     "size": 220
+    }
+   ],
+   "seed": "ag13"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 3",
+   "text": "El *primer día*",
+   "narration": "Capítulo tres. Han pasado veinticuatro horas.",
+   "bg": "land:desert",
+   "actors": [
+    {
+     "kind": "clock",
+     "x": 50,
+     "y": 80,
+     "size": 150,
+     "speed": 1.5
+    }
+   ],
+   "seed": "ag14"
+  },
+  {
+   "type": "cartoon",
+   "text": "Hora *24*: dolor de cabeza",
+   "narration": "A las veinticuatro horas la sed ya es constante. Tienes la boca seca, la piel menos elástica y, muy a menudo, dolor de cabeza. Te notas cansado y de mal humor.",
+   "bg": "land:desert",
+   "actors": [
+    {
+     "kind": "clock",
+     "x": 78,
+     "y": 36,
+     "size": 150,
+     "speed": 1
+    },
+    {
+     "kind": "tag",
+     "x": 78,
+     "y": 58,
+     "text": "24 h sin beber",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 35,
+     "y": 92,
+     "pose": "facepalm",
+     "expr": "sad",
+     "size": 270
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 40,
+     "emoji": "🤕",
+     "size": 150,
+     "anim": "shake",
+     "delay": 2
+    }
+   ],
+   "seed": "ag15"
+  },
+  {
+   "type": "cartoon",
+   "text": "La sangre se *espesa*",
+   "narration": "Con menos agua, tu sangre tiene menos volumen. Para mantener la presión, el corazón late más rápido. Te levantas del sofá y puede que veas puntitos o te marees un segundo.",
+   "bg": "room",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 40,
+     "emoji": "❤️",
+     "size": 200,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 65,
+     "y": 62,
+     "text": "Más pulsaciones",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 28,
+     "y": 92,
+     "pose": "idle",
+     "expr": "dizzy",
+     "size": 270,
+     "pose2": "scared",
+     "poseAt": 4
+    }
+   ],
+   "seed": "ag16"
+  },
+  {
+   "type": "cartoon",
+   "text": "Sudas *menos*",
+   "narration": "Y aquí viene algo peligroso: para no perder más agua, sudas menos. Pero el sudor es tu aire acondicionado. Sin él, tu temperatura sube, sobre todo si hace calor o te mueves.",
+   "bg": "land:desert",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 40,
+     "emoji": "🌡️",
+     "size": 200,
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 85,
+     "y": 15,
+     "emoji": "☀️",
+     "size": 150,
+     "anim": "pulse"
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 30,
+     "y": 92,
+     "pose": "scared",
+     "expr": "dizzy",
+     "size": 270
+    }
+   ],
+   "seed": "ag17"
+  },
+  {
+   "type": "lp",
+   "narration": "Por eso el calor cambia todo: en pleno desierto, sin sombra, el cuerpo puede perder más de un litro de sudor por hora.",
+   "lp": {
+    "set": "desert",
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      6.2
+     ],
+     "to": [
+      0,
+      1.8,
+      5.2
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "scared": 1.0,
+      "talk": true
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "label",
+      "text": "+1 LITRO / HORA",
+      "at": 1.4,
+      "y": 360
+     }
+    ]
+   },
+   "seed": "ag18"
+  },
+  {
+   "type": "cartoon",
+   "text": "Tu cerebro *encoge*",
+   "narration": "Hay estudios con resonancias en los que, tras deshidratarse, el tejido del cerebro pierde un poquito de volumen. Se recupera al beber, pero explica por qué cuesta tanto pensar.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🧠",
+     "size": 260,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 68,
+     "text": "Se recupera al beber",
+     "delay": 3
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 82,
+     "y": 92,
+     "pose": "think",
+     "expr": "dizzy",
+     "size": 230,
+     "flip": true
+    }
+   ],
+   "seed": "ag19"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 4",
+   "text": "El *segundo día*",
+   "narration": "Capítulo cuatro. Cuarenta y ocho horas sin una gota.",
+   "bg": "land:night",
+   "actors": [
+    {
+     "kind": "clock",
+     "x": 50,
+     "y": 80,
+     "size": 150,
+     "speed": 2
+    }
+   ],
+   "seed": "ag20"
+  },
+  {
+   "type": "cartoon",
+   "text": "Hora *48*: todo cuesta",
+   "narration": "A las cuarenta y ocho horas, más o menos, la cosa ya es seria. Sientes debilidad, mareos, calambres. Los riñones casi no producen orina y te cuesta concentrarte hasta para leer.",
+   "bg": "land:night",
+   "actors": [
+    {
+     "kind": "clock",
+     "x": 78,
+     "y": 36,
+     "size": 150,
+     "speed": 1
+    },
+    {
+     "kind": "tag",
+     "x": 78,
+     "y": 58,
+     "text": "48 h sin beber",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 35,
+     "y": 92,
+     "pose": "idle",
+     "expr": "dizzy",
+     "size": 270
+    },
+    {
+     "kind": "emoji",
+     "x": 38,
+     "y": 48,
+     "emoji": "💫",
+     "size": 120,
+     "anim": "spin",
+     "delay": 2
+    }
+   ],
+   "seed": "ag21"
+  },
+  {
+   "type": "stat",
+   "value": 10,
+   "suffix": " %",
+   "label": "de agua perdida: *emergencia* médica",
+   "narration": "Los médicos lo resumen así: perder alrededor del diez por ciento del peso en agua es una emergencia. Confusión, el pulso muy rápido, la tensión que cae. Y a partir de ahí, el riesgo es real.",
+   "bg": "land:night",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 12,
+     "y": 85,
+     "emoji": "🚑",
+     "size": 150,
+     "anim": "shake"
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 88,
+     "y": 96,
+     "pose": "scared",
+     "expr": "scared",
+     "size": 220,
+     "flip": true
+    }
+   ],
+   "decimals": 0,
+   "seed": "ag22"
+  },
+  {
+   "type": "cartoon",
+   "text": "Los riñones *fallan*",
+   "narration": "Si sigue así, los riñones no pueden filtrar bien la sangre y se acumulan sustancias que deberían salir. Es una de las razones por las que la deshidratación grave es tan peligrosa.",
+   "bg": "room",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 42,
+     "emoji": "🫘",
+     "size": 190,
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 78,
+     "y": 25,
+     "emoji": "⚠️",
+     "size": 110,
+     "anim": "pop",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 28,
+     "y": 92,
+     "pose": "scared",
+     "expr": "sad",
+     "size": 270
+    }
+   ],
+   "seed": "ag23"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 5",
+   "text": "El *límite*",
+   "narration": "Capítulo cinco. ¿Cuánto aguanta de verdad un ser humano?",
+   "bg": "land:desert",
+   "actors": [
+    {
+     "kind": "clock",
+     "x": 50,
+     "y": 80,
+     "size": 150,
+     "speed": 3
+    }
+   ],
+   "seed": "ag24"
+  },
+  {
+   "type": "cartoon",
+   "text": "La regla del *tres*",
+   "narration": "Se suele decir: tres minutos sin aire, tres días sin agua, tres semanas sin comida. No es exacto, pero da una idea. Sin agua, lo normal son unos pocos días.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 40,
+     "emoji": "🫁",
+     "size": 130,
+     "anim": "pop",
+     "delay": 0.5
+    },
+    {
+     "kind": "tag",
+     "x": 20,
+     "y": 60,
+     "text": "3 min",
+     "delay": 1
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "💧",
+     "size": 130,
+     "anim": "pop",
+     "delay": 2
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 60,
+     "text": "≈ 3 días",
+     "delay": 2.5
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 40,
+     "emoji": "🍞",
+     "size": 130,
+     "anim": "pop",
+     "delay": 4
+    },
+    {
+     "kind": "tag",
+     "x": 80,
+     "y": 60,
+     "text": "≈ 3 semanas",
+     "delay": 4.5
+    }
+   ],
+   "seed": "ag25"
+  },
+  {
+   "type": "cartoon",
+   "text": "Depende *muchísimo*",
+   "narration": "Pero depende muchísimo del calor y de lo que te muevas. A la sombra y quieto, puedes aguantar bastante más. Caminando bajo el sol del desierto, mucho menos: incluso menos de un día.",
+   "bg": "land:desert",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 40,
+     "emoji": "🏖️",
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 40,
+     "emoji": "🏜️",
+     "size": 150,
+     "anim": "float",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 50,
+     "y": 94,
+     "pose": "shrug",
+     "expr": "calm",
+     "size": 230
+    }
+   ],
+   "seed": "ag26"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *récord*",
+   "narration": "El caso más famoso es el de un joven en Austria, en 1979. Lo metieron en una celda de una comisaría… y se olvidaron de él. Pasó dieciocho días allí sin que nadie le diera agua.",
+   "bg": "room",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 38,
+     "emoji": "🚔",
+     "size": 190,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 65,
+     "y": 60,
+     "text": "1979 · Austria",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 30,
+     "y": 92,
+     "pose": "scared",
+     "expr": "wow",
+     "size": 270,
+     "pose2": "facepalm",
+     "poseAt": 6
+    }
+   ],
+   "seed": "ag27"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Cómo *sobrevivió*?",
+   "narration": "Sobrevivió de milagro. Según se contó, lamía la humedad que se condensaba en las paredes. Es un caso extremo: no lo intentes en casa.",
+   "bg": "room",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 40,
+     "emoji": "🧱",
+     "size": 190,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 62,
+     "y": 58,
+     "emoji": "💧",
+     "size": 90,
+     "anim": "pulse",
+     "delay": 2
+    },
+    {
+     "kind": "tag",
+     "x": 60,
+     "y": 72,
+     "text": "No lo intentes",
+     "delay": 4
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 25,
+     "y": 92,
+     "pose": "facepalm",
+     "expr": "wow",
+     "size": 270
+    }
+   ],
+   "seed": "ag28"
+  },
+  {
+   "type": "lp",
+   "narration": "Dieciocho días es una barbaridad. Lo normal, en una persona sana y sin calor extremo, son unos pocos días.",
+   "lp": {
+    "set": "night",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.7
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "DÍA 18",
+      "at": 0.8
+     }
+    ]
+   },
+   "seed": "ag29"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 6",
+   "text": "Y al *beber*",
+   "narration": "Capítulo seis. ¿Qué pasa cuando por fin bebes?",
+   "bg": "land:forest",
+   "seed": "ag30"
+  },
+  {
+   "type": "cartoon",
+   "text": "Vuelve *rápido*",
+   "narration": "La buena noticia: si la deshidratación es leve, se arregla bastante rápido. El agua empieza a pasar a la sangre en minutos, y en unas horas la mayoría de síntomas desaparecen.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 42,
+     "emoji": "🥤",
+     "size": 200,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 65,
+     "y": 64,
+     "text": "Minutos",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 28,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "happy",
+     "size": 270
+    }
+   ],
+   "seed": "ag31"
+  },
+  {
+   "type": "cartoon",
+   "text": "Pero *despacio*",
+   "narration": "En casos graves no basta con beberse una garrafa. En el hospital se rehidrata poco a poco y con sales, porque el cuerpo también ha perdido sodio y potasio.",
+   "bg": "room",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 40,
+     "emoji": "🏥",
+     "size": 190,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 58,
+     "emoji": "🧂",
+     "size": 110,
+     "anim": "pop",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 28,
+     "y": 92,
+     "pose": "point",
+     "expr": "calm",
+     "size": 270
+    }
+   ],
+   "seed": "ag32"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *otro* extremo",
+   "narration": "Y cuidado con el extremo contrario: beber muchísima agua en muy poco tiempo también es peligroso. La sangre se diluye demasiado y baja el sodio. Pasa, por ejemplo, en algunas carreras de resistencia.",
+   "bg": "land:city",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 40,
+     "emoji": "🚰",
+     "size": 190,
+     "anim": "shake"
+    },
+    {
+     "kind": "emoji",
+     "x": 78,
+     "y": 24,
+     "emoji": "⚠️",
+     "size": 110,
+     "anim": "pop",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 28,
+     "y": 92,
+     "pose": "scared",
+     "expr": "wow",
+     "size": 270
+    }
+   ],
+   "seed": "ag33"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 7",
+   "text": "¿Cuánto *beber*?",
+   "narration": "Capítulo siete. Entonces, ¿cuánta agua hay que beber?",
+   "bg": "room-day",
+   "seed": "ag34"
+  },
+  {
+   "type": "cartoon",
+   "text": "Lo de los *8 vasos*",
+   "narration": "Lo de los ocho vasos al día no tiene una base científica clara. La autoridad europea de seguridad alimentaria da una referencia de unos dos litros al día para mujeres y dos y medio para hombres, contando también el agua de la comida.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 40,
+     "emoji": "🥛",
+     "size": 120,
+     "anim": "pop",
+     "delay": 0.3
+    },
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 40,
+     "emoji": "🥛",
+     "size": 120,
+     "anim": "pop",
+     "delay": 0.6
+    },
+    {
+     "kind": "emoji",
+     "x": 55,
+     "y": 40,
+     "emoji": "🥛",
+     "size": 120,
+     "anim": "pop",
+     "delay": 0.9
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 35,
+     "emoji": "❓",
+     "size": 140,
+     "anim": "pulse",
+     "delay": 2
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 64,
+     "text": "≈ 2 – 2,5 L (con comida)",
+     "delay": 5
+    }
+   ],
+   "seed": "ag35"
+  },
+  {
+   "type": "cartoon",
+   "text": "Tu sed *sabe*",
+   "narration": "Para la mayoría de gente sana, lo más sencillo es beber cuando tienes sed y beber más si hace calor, haces deporte o estás enfermo. Ojo con las personas mayores: con la edad, la sed avisa peor.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 40,
+     "emoji": "👵",
+     "size": 170,
+     "anim": "float"
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 62,
+     "text": "La sed avisa peor",
+     "delay": 4
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 28,
+     "y": 92,
+     "pose": "point",
+     "expr": "happy",
+     "size": 270
+    }
+   ],
+   "seed": "ag36"
+  },
+  {
+   "type": "lp",
+   "narration": "Resumen: sin agua aguantas días, no semanas. Y la sed llega cuando ya vas un poco tarde.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.6
+     ],
+     "to": [
+      0,
+      1.7,
+      4.6
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "wave": [
+       3.0,
+       4.5
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "kind": "bottle",
+      "from": [
+       1.2,
+       0.9,
+       0.5
+      ],
+      "scale": 0.7
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "BEBE AGUA",
+      "at": 1.0,
+      "y": 330
+     }
+    ]
+   },
+   "seed": "ag37"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Y *tú*?",
+   "narration": "Y ahora dime en los comentarios: ¿cuánta agua bebes al día de verdad? Si te ha gustado, suscríbete: cada día te cuento qué pasaría si… Nos vemos en el siguiente.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 25,
+     "emoji": "💧",
+     "size": 110,
+     "anim": "float",
+     "to": [
+      70,
+      20
+     ],
+     "move": [
+      0.4,
+      3
+     ]
+    },
+    {
+     "kind": "bubble",
+     "x": 55,
+     "y": 45,
+     "text": "¿Cuánta agua bebes?",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 30,
+     "y": 92,
+     "pose": "wave",
+     "expr": "happy",
+     "size": 270
+    }
+   ],
+   "seed": "ag38"
+  }
+ ]
+}
