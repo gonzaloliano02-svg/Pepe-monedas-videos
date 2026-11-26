@@ -255,3 +255,6 @@
 - Worker restarts ~07:40Z and ~08:05Z killed builds; relaunched each time.
 - 12:5xZ: a publicado en TikTok https://www.tiktok.com/@pepe.monedass/video/7712452436606111015 (tarde, tras arreglar encuadre). Reinicios del worker otra vez; render del largo ahora por trozos de 1200 frames (build/chunks/) para no perderlo entero.
 - ~14:5xZ: b publicado YouTube https://www.youtube.com/watch?v=rBng13NqyXk (subida 2/3) + TikTok (pendiente URL). Otro reinicio ~14:00Z; chunk 000 del L1 se salvó.
+- b TikTok: https://www.tiktok.com/@pepe.monedass/video/7712491630586072353
+- c 18:00: TikTok programado (vidIQ status scheduled 17:00Z). Borrador c: postId bb035c0f-876f-4805-87af-6595733598ee, YouTube publicationId 507cef66-d418-4ea3-81d8-ab1060aff3d5 (para 2026-11-27 10:00; sustituir L1LINK).
+- Trigger actualizado: Shorts antes que el largo, trabajar un día por adelantado, render por trozos, lista de fallos de encuadre conocidos.
