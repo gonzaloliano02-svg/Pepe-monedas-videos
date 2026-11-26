@@ -1,0 +1,1910 @@
+{
+ "id": "2026-11-26-L1",
+ "format": "story",
+ "title": "¿Qué pasaría si las ABEJAS desaparecieran? (paso a paso)",
+ "tags": [
+  "que pasaria si las abejas desaparecieran",
+  "abejas",
+  "que pasaria si",
+  "polinizacion",
+  "sin abejas",
+  "einstein abejas",
+  "naturaleza",
+  "curiosidades",
+  "ciencia",
+  "animacion"
+ ],
+ "description": "CHAPTERS",
+ "thumbnail": {
+  "text": "¿Y si las ABEJAS *DESAPARECEN*?",
+  "kicker": "Paso a paso",
+  "emoji": "🐝",
+  "env": "day",
+  "bg": "land:forest",
+  "fx": [],
+  "actors": [
+   {
+    "kind": "stick",
+    "x": 72,
+    "y": 92,
+    "pose": "scared",
+    "expr": "scared",
+    "name": "TÚ",
+    "color": "#FFD60A",
+    "size": 500,
+    "delay": -2
+   },
+   {
+    "kind": "emoji",
+    "x": 88,
+    "y": 24,
+    "emoji": "🐝",
+    "size": 220,
+    "delay": -2
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "type": "cartoon",
+   "text": "Un mundo *sin abejas*",
+   "narration": "¿Qué pasaría si mañana desaparecieran todas las abejas del planeta? No solo las de la miel: todas. Hay unas veinte mil especies, y hoy vamos a ver paso a paso qué cambiaría en tu nevera, en el campo y en tu cartera.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 30,
+     "emoji": "🐝",
+     "size": 110,
+     "to": [
+      70,
+      25
+     ],
+     "move": [
+      0.2,
+      3.0
+     ]
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 55,
+     "emoji": "🌼",
+     "size": 160,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 55,
+     "emoji": "❌",
+     "size": 150,
+     "delay": 3.0,
+     "anim": "pop"
+    },
+    {
+     "kind": "stick",
+     "x": 30,
+     "y": 92,
+     "pose": "look",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 270,
+     "pose2": "scared",
+     "poseAt": 3.0,
+     "expr2": "scared"
+    }
+   ],
+   "seed": "as1",
+   "camera": {
+    "zoom": [
+     1,
+     1.1
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Spoiler: no nos moriríamos de hambre en un mes. Pero tu plato sería mucho más aburrido… y mucho más caro.",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      6.6
+     ],
+     "to": [
+      0,
+      1.8,
+      5.6
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.6
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -3,
+       0,
+       -3
+      ]
+     },
+     {
+      "kind": "tree",
+      "from": [
+       3,
+       0,
+       -4
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "¿QUÉ PASARÍA?",
+      "at": 1.2,
+      "y": 230
+     }
+    ]
+   },
+   "seed": "as2"
+  },
+  {
+   "type": "cartoon",
+   "text": "Con *datos* reales",
+   "narration": "Todo lo que vas a ver está basado en estudios de la FAO y de universidades de todo el mundo. Y al final, una frase famosa sobre las abejas que se atribuye a Einstein… y que casi seguro nunca dijo.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 45,
+     "emoji": "🐝",
+     "size": 150,
+     "delay": 0.4,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🍎",
+     "size": 150,
+     "delay": 1.4,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 45,
+     "emoji": "🧑‍🔬",
+     "size": 150,
+     "delay": 2.4,
+     "anim": "pop"
+    }
+   ],
+   "seed": "as3"
+  },
+  {
+   "type": "title",
+   "text": "Lo que *hacen*",
+   "kicker": "Capítulo 1",
+   "narration": "Primero hay que entender qué hacen las abejas, porque no es la miel. Es algo mucho más importante.",
+   "bg": "land:forest",
+   "seed": "as4"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Polinizar*",
+   "narration": "Muchas plantas necesitan que el polen de una flor llegue a otra para formar el fruto y las semillas. Y como las plantas no se pueden mover, necesitan un mensajero. Ahí entran las abejas. Y no lo hacen por amor a las plantas: lo hacen por la comida. Es un trato que dura desde hace más de cien millones de años.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 50,
+     "emoji": "🌸",
+     "size": 150,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 50,
+     "emoji": "🌸",
+     "size": 150,
+     "delay": 0.4,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 40,
+     "emoji": "🐝",
+     "size": 110,
+     "to": [
+      75,
+      40
+     ],
+     "move": [
+      0.8,
+      3.2
+     ]
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 16,
+     "text": "polen →",
+     "delay": 1.4
+    }
+   ],
+   "seed": "as5"
+  },
+  {
+   "type": "cartoon",
+   "text": "Pelos *pegajosos*",
+   "narration": "Las abejas tienen el cuerpo lleno de pelitos donde se pega el polen. Van de flor en flor buscando néctar para comer, y sin querer van repartiendo polen por todas partes.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 42,
+     "emoji": "🐝",
+     "size": 200,
+     "anim": "float"
+    },
+    {
+     "kind": "tag",
+     "x": 40,
+     "y": 16,
+     "text": "pelos + polen",
+     "delay": 1.0
+    },
+    {
+     "kind": "emoji",
+     "x": 72,
+     "y": 42,
+     "emoji": "🌼",
+     "size": 150,
+     "delay": 1.6,
+     "anim": "pop"
+    }
+   ],
+   "seed": "as6"
+  },
+  {
+   "type": "cartoon",
+   "text": "No *solo* abejas",
+   "narration": "Ojo, no son las únicas. También polinizan moscas, mariposas, escarabajos, murciélagos y hasta algunos pájaros. Pero las abejas son, con diferencia, las más importantes para nuestros cultivos.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 40,
+     "emoji": "🦋",
+     "size": 130,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 40,
+     "emoji": "🪰",
+     "size": 120,
+     "delay": 0.6,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 40,
+     "emoji": "🦇",
+     "size": 130,
+     "delay": 1.2,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 40,
+     "emoji": "🐝",
+     "size": 170,
+     "delay": 1.8,
+     "anim": "pulse"
+    }
+   ],
+   "seed": "as7"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Tres de cada cuatro*",
+   "narration": "Un estudio muy citado calculó que unos tres de cada cuatro tipos de cultivos importantes del mundo producen más o mejor gracias a los polinizadores. No es lo mismo que tres de cada cuatro bocados, ahora verás por qué.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 42,
+     "emoji": "🍎",
+     "size": 150,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 42,
+     "emoji": "🥒",
+     "size": 150,
+     "delay": 0.6,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 42,
+     "emoji": "🍓",
+     "size": 150,
+     "delay": 1.2,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 16,
+     "text": "≈ 3 de cada 4 cultivos",
+     "delay": 1.8
+    }
+   ],
+   "seed": "as8"
+  },
+  {
+   "type": "cartoon",
+   "text": "La *miel*, lo de menos",
+   "narration": "La miel la hacen sobre todo las abejas melíferas, una pequeña parte de todas las especies. La mayoría de abejas son solitarias: no viven en colmenas, no hacen miel y muchas ni siquiera pican.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 45,
+     "emoji": "🍯",
+     "size": 170,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 45,
+     "emoji": "🐝",
+     "size": 150,
+     "delay": 1.0,
+     "anim": "float"
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 16,
+     "text": "solitarias",
+     "delay": 1.6
+    }
+   ],
+   "seed": "as9"
+  },
+  {
+   "type": "cartoon",
+   "text": "La *colmena*",
+   "narration": "En una colmena de abejas de la miel puede haber decenas de miles de abejas. Hay una sola reina, que en plena temporada puede poner más de mil huevos al día, y miles de obreras que en verano viven solo unas semanas, trabajando sin parar.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 42,
+     "emoji": "👑",
+     "size": 150,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 35,
+     "y": 16,
+     "text": "1 reina",
+     "delay": 0.8
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 42,
+     "emoji": "🐝",
+     "size": 150,
+     "delay": 1.2,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 16,
+     "text": "miles de obreras",
+     "delay": 1.8
+    }
+   ],
+   "seed": "as10"
+  },
+  {
+   "type": "cartoon",
+   "text": "Una *cucharadita*",
+   "narration": "Y un dato que da que pensar: una abeja obrera, en toda su vida, solo produce una pequeña fracción de una cucharadita de miel. Cada tarro que compras es el trabajo de miles de abejas.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 42,
+     "emoji": "🥄",
+     "size": 160,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 42,
+     "emoji": "🍯",
+     "size": 160,
+     "delay": 1.2,
+     "anim": "pop"
+    },
+    {
+     "kind": "stick",
+     "x": 85,
+     "y": 92,
+     "pose": "look",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220
+    }
+   ],
+   "seed": "as11"
+  },
+  {
+   "type": "title",
+   "text": "Tu *nevera*",
+   "kicker": "Capítulo 2",
+   "narration": "Vamos a lo que notarías primero: abres la nevera… y falta medio supermercado.",
+   "bg": "room-day",
+   "seed": "as12"
+  },
+  {
+   "type": "lp",
+   "narration": "Pepe abre la nevera el primer lunes sin abejas. Fruta: casi nada. Verdura: poca y carísima.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      6.6
+     ],
+     "to": [
+      0,
+      1.8,
+      5.8
+     ],
+     "look": [
+      0,
+      1.7,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.8
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "SIN ABEJAS · DÍA 1",
+      "at": 0
+     }
+    ]
+   },
+   "seed": "as13"
+  },
+  {
+   "type": "cartoon",
+   "text": "Adiós *manzanas*",
+   "narration": "Manzanas, peras, cerezas, melones, sandías, calabacines, pepinos, almendras… Todos dependen mucho de los polinizadores. Sin abejas, su producción caería muchísimo. Algunas plantas darían algo de fruto con el viento o con otros insectos, pero frutos más pequeños, más deformes y muchos menos.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 40,
+     "emoji": "🍎",
+     "size": 130,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 40,
+     "emoji": "🍐",
+     "size": 130,
+     "delay": 0.4,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 40,
+     "emoji": "🍒",
+     "size": 130,
+     "delay": 0.8,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 40,
+     "emoji": "🍉",
+     "size": 130,
+     "delay": 1.2,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 16,
+     "text": "mucho menos",
+     "delay": 1.8
+    }
+   ],
+   "seed": "as14"
+  },
+  {
+   "type": "cartoon",
+   "text": "Las *almendras*",
+   "narration": "El caso más famoso son las almendras de California, que producen la mayor parte de las almendras del mundo. Cada primavera llevan allí en camiones unos dos millones de colmenas solo para polinizar los almendros.",
+   "bg": "land:desert",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 45,
+     "emoji": "🚚",
+     "size": 160,
+     "to": [
+      70,
+      45
+     ],
+     "move": [
+      0.4,
+      3.5
+     ]
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 16,
+     "text": "≈ 2 millones de colmenas",
+     "delay": 1.2
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 60,
+     "emoji": "🌳",
+     "size": 140,
+     "anim": "pop"
+    }
+   ],
+   "seed": "as15"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *café* y el *chocolate*",
+   "narration": "¿Y el café? Las plantas de café pueden autopolinizarse, pero con abejas suelen dar más y mejores granos. ¿Y el chocolate? Sorpresa: el cacao lo polinizan sobre todo unas mosquitas diminutas, no las abejas.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 42,
+     "emoji": "☕",
+     "size": 160,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 42,
+     "emoji": "🍫",
+     "size": 160,
+     "delay": 1.6,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 16,
+     "text": "¡mosquitas!",
+     "delay": 2.4
+    }
+   ],
+   "seed": "as16"
+  },
+  {
+   "type": "cartoon",
+   "text": "Lo que *sí* quedaría",
+   "narration": "Ahora la buena noticia. El trigo, el arroz y el maíz, que son la base de lo que come la humanidad, se polinizan con el viento. Pan, arroz y pasta seguirían existiendo. Y también las patatas, que normalmente se plantan a partir de trozos de otras patatas, sin necesidad de flores ni semillas.",
+   "bg": "land:mountains",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 45,
+     "emoji": "🌾",
+     "size": 150,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🍚",
+     "size": 150,
+     "delay": 0.8,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 45,
+     "emoji": "🌽",
+     "size": 150,
+     "delay": 1.6,
+     "anim": "pop"
+    },
+    {
+     "kind": "stick",
+     "x": 85,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220
+    }
+   ],
+   "seed": "as17"
+  },
+  {
+   "type": "cartoon",
+   "text": "Los *tomates*",
+   "narration": "¿Y los tomates? Las flores del tomate sueltan el polen cuando algo las hace vibrar. Los abejorros son expertos: se agarran a la flor y zumban fuerte. Por eso en muchos invernaderos se usan colmenas de abejorros para tener más tomates.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 45,
+     "emoji": "🍅",
+     "size": 170,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 62,
+     "y": 38,
+     "emoji": "🐝",
+     "size": 140,
+     "delay": 1.0,
+     "anim": "shake"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 16,
+     "text": "zumbido = polen",
+     "delay": 1.6
+    }
+   ],
+   "seed": "as18"
+  },
+  {
+   "type": "cartoon",
+   "text": "Las *calorías* aguantan",
+   "narration": "Por eso los científicos calculan que los cultivos que dependen de polinizadores son alrededor de un tercio de lo que se produce, pero menos de un diez por ciento de las calorías. No nos quedaríamos sin comida… nos quedaríamos sin variedad.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "tag",
+     "x": 30,
+     "y": 30,
+     "text": "≈ 1/3 del volumen",
+     "delay": 0.6
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 30,
+     "text": "< 10 % calorías",
+     "delay": 1.6
+    },
+    {
+     "kind": "stick",
+     "x": 50,
+     "y": 92,
+     "pose": "think",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 230
+    }
+   ],
+   "seed": "as19"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Vitaminas* en peligro",
+   "narration": "Y ahí está el problema de verdad: la fruta, la verdura y los frutos secos son los que nos dan muchas vitaminas y minerales. Sin abejas, mucha gente comería peor. Algunos estudios calculan que aumentarían las enfermedades por mala alimentación.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 42,
+     "emoji": "💊",
+     "size": 150,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 42,
+     "emoji": "🥦",
+     "size": 150,
+     "delay": 1.0,
+     "anim": "pop"
+    },
+    {
+     "kind": "stick",
+     "x": 85,
+     "y": 92,
+     "pose": "scared",
+     "expr": "scared",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220
+    }
+   ],
+   "seed": "as20"
+  },
+  {
+   "type": "title",
+   "text": "Tu *cartera*",
+   "kicker": "Capítulo 3",
+   "narration": "El tercer cambio lo notarías en el ticket del supermercado.",
+   "bg": "land:city",
+   "seed": "as21"
+  },
+  {
+   "type": "cartoon",
+   "text": "Precios por las *nubes*",
+   "narration": "Si un producto escasea, sube de precio. Las manzanas, las fresas o los aguacates pasarían a ser casi un lujo, y muchos agricultores tendrían que cambiar de cultivo o cerrar.",
+   "bg": "land:city",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 42,
+     "emoji": "🍓",
+     "size": 150,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 42,
+     "emoji": "💸",
+     "size": 160,
+     "delay": 1.0,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 16,
+     "text": "↑ precio",
+     "delay": 1.6
+    }
+   ],
+   "seed": "as22"
+  },
+  {
+   "type": "lp",
+   "narration": "Pepe y su novia en la caja del súper. Una bolsa de manzanas. El precio en la pantalla… se queda pensando.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      6.6
+     ],
+     "to": [
+      0,
+      1.8,
+      5.8
+     ],
+     "look": [
+      0,
+      1.7,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "scared": 2.2
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "talk": true
+     }
+    ],
+    "objects": [
+     {
+      "kind": "money",
+      "from": [
+       0,
+       1.05,
+       0.9
+      ],
+      "scale": 0.6,
+      "appear": 1.0
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "¡¿CUÁNTO?!",
+      "at": 2.2
+     }
+    ]
+   },
+   "seed": "as23"
+  },
+  {
+   "type": "cartoon",
+   "text": "Miles de *millones*",
+   "narration": "Los economistas han intentado ponerle precio al trabajo de los polinizadores. Las cifras varían mucho según el estudio, pero se cuentan en cientos de miles de millones de dólares al año.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 42,
+     "emoji": "💰",
+     "size": 180,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 40,
+     "y": 16,
+     "text": "cientos de miles de millones $",
+     "delay": 1.2
+    }
+   ],
+   "seed": "as24"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Ropa* también",
+   "narration": "Y no solo comida. El algodón también se beneficia de los polinizadores, igual que muchas plantas que se usan para alimentar al ganado, como la alfalfa. Así que hasta la leche y la carne lo notarían.",
+   "bg": "land:mountains",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 42,
+     "emoji": "👕",
+     "size": 150,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 55,
+     "y": 42,
+     "emoji": "🐄",
+     "size": 150,
+     "delay": 1.0,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 42,
+     "emoji": "🥛",
+     "size": 140,
+     "delay": 1.8,
+     "anim": "pop"
+    }
+   ],
+   "seed": "as25"
+  },
+  {
+   "type": "title",
+   "text": "Polinizar *a mano*",
+   "kicker": "Capítulo 4",
+   "narration": "¿Y no podríamos hacer nosotros el trabajo de las abejas? Pues ya se ha hecho.",
+   "bg": "land:forest",
+   "seed": "as26"
+  },
+  {
+   "type": "cartoon",
+   "text": "Los *pinceles* de China",
+   "narration": "En algunas zonas de China, donde había muy pocos polinizadores, se han polinizado frutales a mano: personas subidas a los árboles con pinceles, flor a flor.",
+   "bg": "land:mountains",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 45,
+     "emoji": "🌳",
+     "size": 180
+    },
+    {
+     "kind": "emoji",
+     "x": 55,
+     "y": 40,
+     "emoji": "🖌️",
+     "size": 140,
+     "delay": 0.8,
+     "anim": "float"
+    },
+    {
+     "kind": "stick",
+     "x": 80,
+     "y": 92,
+     "pose": "think",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220
+    }
+   ],
+   "seed": "as27"
+  },
+  {
+   "type": "lp",
+   "narration": "Imagina a Pepe subido a un manzano con un pincel. Flor uno. Flor dos. Flor tres. Le quedan unas cien mil.",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      2.2,
+      7.0
+     ],
+     "to": [
+      0,
+      2.2,
+      5.8
+     ],
+     "look": [
+      0,
+      2.2,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": -0.6
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       1.8,
+       0,
+       -1
+      ],
+      "scale": 1.3
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "FLOR 3 / 100.000",
+      "at": 0
+     }
+    ]
+   },
+   "seed": "as28"
+  },
+  {
+   "type": "cartoon",
+   "text": "Carísimo y *lentísimo*",
+   "narration": "Funciona, pero es lentísimo y caro. Una sola colmena puede tener decenas de miles de abejas trabajando a la vez, gratis, de sol a sol. Ningún ejército de personas con pinceles puede competir con eso. Y las abejas, además, saben solas qué flores están abiertas cada día, algo que a nosotros nos costaría muchísimo saber.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 42,
+     "emoji": "🐝",
+     "size": 140,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 30,
+     "y": 16,
+     "text": "decenas de miles",
+     "delay": 0.8
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 42,
+     "emoji": "🧑‍🌾",
+     "size": 150,
+     "delay": 1.4,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 16,
+     "text": "1 persona",
+     "delay": 1.8
+    }
+   ],
+   "seed": "as29"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Y los *drones*?",
+   "narration": "También se han probado pequeños drones polinizadores y máquinas que soplan polen sobre los árboles. Son experimentos interesantes, pero hoy por hoy no pueden sustituir a miles de millones de insectos.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 35,
+     "emoji": "🚁",
+     "size": 150,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 55,
+     "emoji": "🌸",
+     "size": 140,
+     "delay": 1.0,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 16,
+     "text": "experimental",
+     "delay": 1.6
+    }
+   ],
+   "seed": "as30"
+  },
+  {
+   "type": "cartoon",
+   "text": "La *vainilla*",
+   "narration": "Y hay un ejemplo histórico precioso: la vainilla. Su polinizador natural vive en México. Cuando se llevó la planta a otras islas, no daba fruto. En mil ochocientos cuarenta y uno, un chico esclavizado de doce años, Edmond Albius, inventó una forma rápida de polinizarla a mano. Todavía hoy se usa.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 45,
+     "emoji": "🌺",
+     "size": 160,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 35,
+     "y": 16,
+     "text": "1841",
+     "delay": 0.8
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 45,
+     "emoji": "🍦",
+     "size": 150,
+     "delay": 1.8,
+     "anim": "pop"
+    },
+    {
+     "kind": "stick",
+     "x": 85,
+     "y": 92,
+     "pose": "point",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220
+    }
+   ],
+   "seed": "as31"
+  },
+  {
+   "type": "cartoon",
+   "text": "Por eso es *cara*",
+   "narration": "Por eso la vainilla natural es una de las especias más caras del mundo: en muchos sitios cada flor se sigue polinizando a mano, una a una. Ahora imagina eso con todas las manzanas del planeta.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 42,
+     "emoji": "🍦",
+     "size": 160,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 42,
+     "emoji": "💰",
+     "size": 160,
+     "delay": 1.0,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 16,
+     "text": "flor a flor",
+     "delay": 1.6
+    }
+   ],
+   "seed": "as32"
+  },
+  {
+   "type": "title",
+   "text": "La *naturaleza*",
+   "kicker": "Capítulo 5",
+   "narration": "Y el golpe más grande no sería en las granjas. Sería en la naturaleza salvaje.",
+   "bg": "land:forest",
+   "seed": "as33"
+  },
+  {
+   "type": "cartoon",
+   "text": "*Plantas* silvestres",
+   "narration": "Se calcula que alrededor de nueve de cada diez plantas con flor dependen, al menos en parte, de animales para polinizarse. Sin abejas, muchas plantas silvestres producirían menos semillas, y algunas irían desapareciendo.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 50,
+     "emoji": "🌻",
+     "size": 150,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 50,
+     "emoji": "🌷",
+     "size": 150,
+     "delay": 0.6,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 50,
+     "emoji": "🥀",
+     "size": 150,
+     "delay": 1.4,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 16,
+     "text": "≈ 9 de cada 10",
+     "delay": 1.8
+    }
+   ],
+   "seed": "as34"
+  },
+  {
+   "type": "cartoon",
+   "text": "Efecto *dominó*",
+   "narration": "Y detrás de las plantas van los animales que se las comen: pájaros que comen bayas, ratones que comen semillas, y los que se comen a esos ratones. Es un efecto dominó. Nadie sabe exactamente hasta dónde llegaría, porque los ecosistemas son muy complicados, pero los ecólogos coinciden en que el golpe sería serio.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 45,
+     "emoji": "🫐",
+     "size": 120,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 45,
+     "emoji": "🐦",
+     "size": 130,
+     "delay": 0.6,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 45,
+     "emoji": "🐭",
+     "size": 120,
+     "delay": 1.2,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 45,
+     "emoji": "🦉",
+     "size": 140,
+     "delay": 1.8,
+     "anim": "pop"
+    }
+   ],
+   "seed": "as35"
+  },
+  {
+   "type": "cartoon",
+   "text": "Los *otros* polinizadores",
+   "narration": "Moscas, mariposas y escarabajos harían parte del trabajo. Pero no todo: muchas flores están hechas a la medida de las abejas, con formas y colores pensados para ellas.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 45,
+     "emoji": "🦋",
+     "size": 140,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 45,
+     "emoji": "🌺",
+     "size": 150,
+     "delay": 1.0,
+     "anim": "pop"
+    },
+    {
+     "kind": "stick",
+     "x": 85,
+     "y": 92,
+     "pose": "shrug",
+     "expr": "cool",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220
+    }
+   ],
+   "seed": "as36"
+  },
+  {
+   "type": "cartoon",
+   "text": "Ven *otro color*",
+   "narration": "Por cierto, las abejas ven la luz ultravioleta, que nosotros no vemos. Muchas flores tienen dibujos en ultravioleta, como pistas de aterrizaje que señalan dónde está el néctar.",
+   "bg": "land:night",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 42,
+     "emoji": "🌼",
+     "size": 190,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 40,
+     "y": 16,
+     "text": "ultravioleta",
+     "delay": 1.0
+    },
+    {
+     "kind": "emoji",
+     "x": 72,
+     "y": 42,
+     "emoji": "🐝",
+     "size": 140,
+     "delay": 1.4,
+     "anim": "float"
+    }
+   ],
+   "seed": "as37"
+  },
+  {
+   "type": "title",
+   "text": "*Mitos* sobre las abejas",
+   "kicker": "Capítulo 6",
+   "narration": "Ahora, varias cosas que se dicen mucho sobre las abejas y que no son del todo así.",
+   "bg": "chalk",
+   "seed": "as38"
+  },
+  {
+   "type": "cartoon",
+   "text": "La frase de *Einstein*",
+   "narration": "Mito uno: Einstein dijo que si desaparecieran las abejas, a la humanidad le quedarían cuatro años de vida. No hay ninguna prueba de que lo dijera, y además es falso: como has visto, no nos extinguiríamos.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 42,
+     "emoji": "👴",
+     "size": 170,
+     "anim": "pop"
+    },
+    {
+     "kind": "bubble",
+     "x": 60,
+     "y": 25,
+     "text": "¿4 años?",
+     "delay": 0.8
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 70,
+     "text": "MITO",
+     "delay": 2.4
+    }
+   ],
+   "seed": "as39"
+  },
+  {
+   "type": "lp",
+   "narration": "Mito dos: todas las abejas pican y mueren al picar. La mayoría de especies casi nunca pican, y la abeja de la miel sí suele morir, porque su aguijón tiene ganchos y se queda clavado en la piel.",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      6.6
+     ],
+     "to": [
+      0,
+      1.8,
+      5.6
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "scared": 1.0
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "talk": true
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "MITO",
+      "at": 2.4
+     }
+    ]
+   },
+   "seed": "as40"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Las abejas *duermen*?",
+   "narration": "Y un dato curioso: las abejas también duermen. Se quedan quietas, con las antenas caídas, y si no las dejan dormir, se orientan peor y bailan peor para avisar a sus compañeras de dónde hay flores.",
+   "bg": "land:night",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 45,
+     "emoji": "🐝",
+     "size": 170,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 30,
+     "emoji": "💤",
+     "size": 130,
+     "delay": 1.0,
+     "anim": "pulse"
+    },
+    {
+     "kind": "stick",
+     "x": 85,
+     "y": 92,
+     "pose": "look",
+     "expr": "wow",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220
+    }
+   ],
+   "seed": "as41"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *baile* de las abejas",
+   "narration": "Sí, bailan. Una abeja que encuentra flores vuelve a la colmena y hace un baile en forma de ocho. El ángulo y la duración del baile indican la dirección y la distancia. Ese descubrimiento, del científico austriaco Karl von Frisch, ganó un Premio Nobel en mil novecientos setenta y tres. Las abejas tienen su propio GPS bailado.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 42,
+     "emoji": "🐝",
+     "size": 170,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 40,
+     "y": 16,
+     "text": "baile en ocho",
+     "delay": 1.0
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 42,
+     "emoji": "🏅",
+     "size": 140,
+     "delay": 1.8,
+     "anim": "pop"
+    }
+   ],
+   "seed": "as42"
+  },
+  {
+   "type": "cartoon",
+   "text": "La miel que *no caduca*",
+   "narration": "Mito tres: la miel caduca. Bien cerrada, la miel aguanta muchísimo tiempo, porque tiene tan poca agua y es tan ácida que a los microbios les cuesta vivir en ella. Puede cristalizar, pero eso no significa que esté mala.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 42,
+     "emoji": "🍯",
+     "size": 180,
+     "anim": "float"
+    },
+    {
+     "kind": "tag",
+     "x": 40,
+     "y": 16,
+     "text": "no se estropea fácil",
+     "delay": 1.0
+    },
+    {
+     "kind": "stick",
+     "x": 80,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220
+    }
+   ],
+   "seed": "as43"
+  },
+  {
+   "type": "title",
+   "text": "¿Está *pasando*?",
+   "kicker": "Capítulo 7",
+   "narration": "La pregunta importante: ¿están desapareciendo las abejas de verdad?",
+   "bg": "land:city",
+   "seed": "as44"
+  },
+  {
+   "type": "cartoon",
+   "text": "Problemas *reales*",
+   "narration": "No van a desaparecer de golpe, pero muchas especies de abejas silvestres están en declive: por la pérdida de flores y de sitios donde anidar, algunos pesticidas, parásitos y el cambio climático.",
+   "bg": "land:city",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 45,
+     "emoji": "🏭",
+     "size": 140,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🧪",
+     "size": 140,
+     "delay": 0.6,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 45,
+     "emoji": "🌡️",
+     "size": 140,
+     "delay": 1.2,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 16,
+     "text": "en declive",
+     "delay": 1.8
+    }
+   ],
+   "seed": "as45"
+  },
+  {
+   "type": "cartoon",
+   "text": "Las de la *miel*",
+   "narration": "Curiosamente, el número de colmenas de abejas de la miel en el mundo ha aumentado en las últimas décadas, porque los apicultores las cuidan y las reponen. Las que más sufren son las silvestres.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 42,
+     "emoji": "🍯",
+     "size": 150,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 30,
+     "y": 16,
+     "text": "colmenas ↑",
+     "delay": 0.8
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 42,
+     "emoji": "🐝",
+     "size": 150,
+     "delay": 1.4,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 70,
+     "y": 16,
+     "text": "silvestres ↓",
+     "delay": 1.8
+    }
+   ],
+   "seed": "as46"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *misterio* de 2006",
+   "narration": "En dos mil seis, en Estados Unidos, muchos apicultores encontraron colmenas casi vacías: las obreras se habían ido y no volvían. Lo llamaron síndrome del colapso de colonias. Hoy se cree que influyen varias causas a la vez, como parásitos, virus, pesticidas y mala alimentación.",
+   "bg": "land:city",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 42,
+     "emoji": "🏠",
+     "size": 150,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 42,
+     "emoji": "❓",
+     "size": 130,
+     "delay": 1.0,
+     "anim": "pop"
+    },
+    {
+     "kind": "tag",
+     "x": 65,
+     "y": 16,
+     "text": "2006",
+     "delay": 0.6
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 45,
+     "emoji": "🦠",
+     "size": 140,
+     "delay": 1.8,
+     "anim": "shake"
+    }
+   ],
+   "seed": "as47"
+  },
+  {
+   "type": "cartoon",
+   "text": "El *ácaro* varroa",
+   "narration": "Uno de los grandes enemigos es un ácaro diminuto llamado varroa, que se pega a las abejas y les transmite virus. Llegó a Europa hace unas décadas y hoy los apicultores tienen que vigilarlo constantemente.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 40,
+     "y": 42,
+     "emoji": "🐝",
+     "size": 170,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 55,
+     "y": 35,
+     "emoji": "🕷️",
+     "size": 90,
+     "delay": 1.0,
+     "anim": "shake"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 16,
+     "text": "varroa",
+     "delay": 1.6
+    }
+   ],
+   "seed": "as48"
+  },
+  {
+   "type": "cartoon",
+   "text": "Lo que *puedes* hacer",
+   "narration": "Y puedes ayudar: plantar flores en el balcón, dejar un rincón del jardín sin cortar, evitar insecticidas en casa y comprar miel local. Parece poco, pero para una abeja solitaria es un restaurante nuevo. Y si ves una abeja cansada en el suelo, a veces solo necesita un poco de agua con azúcar para recuperarse.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 45,
+     "emoji": "🌼",
+     "size": 140,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🪴",
+     "size": 140,
+     "delay": 0.6,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 45,
+     "emoji": "🍯",
+     "size": 140,
+     "delay": 1.2,
+     "anim": "pop"
+    },
+    {
+     "kind": "stick",
+     "x": 85,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 220
+    }
+   ],
+   "seed": "as49"
+  },
+  {
+   "type": "title",
+   "text": "*Resumen*",
+   "kicker": "Resumen",
+   "narration": "Resumen de lo que pasaría si desaparecieran todas las abejas.",
+   "bg": "land:forest",
+   "seed": "as50"
+  },
+  {
+   "type": "cartoon",
+   "text": "En tu *plato*",
+   "narration": "En tu plato: mucha menos fruta, verdura y frutos secos, aunque seguirían el pan, el arroz y la pasta.",
+   "bg": "room-day",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 42,
+     "emoji": "🍎",
+     "size": 140,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 55,
+     "y": 42,
+     "emoji": "❌",
+     "size": 130,
+     "delay": 0.6,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 42,
+     "emoji": "🍞",
+     "size": 140,
+     "delay": 1.2,
+     "anim": "pop"
+    }
+   ],
+   "seed": "as51"
+  },
+  {
+   "type": "cartoon",
+   "text": "En el *mundo*",
+   "narration": "En el mundo: precios por las nubes, gente polinizando a mano y una naturaleza con menos flores, menos frutos y menos animales.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 45,
+     "emoji": "💸",
+     "size": 140,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🖌️",
+     "size": 140,
+     "delay": 0.8,
+     "anim": "pop"
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 45,
+     "emoji": "🥀",
+     "size": 140,
+     "delay": 1.6,
+     "anim": "pop"
+    }
+   ],
+   "seed": "as52"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Y *tú*?",
+   "narration": "Y ahora dime en los comentarios: ¿qué fruta echarías más de menos? Si te ha gustado, suscríbete: cada día te cuento qué pasaría si… Nos vemos en el siguiente.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 25,
+     "emoji": "🐝",
+     "size": 110,
+     "to": [
+      70,
+      20
+     ],
+     "move": [
+      0.4,
+      3
+     ]
+    },
+    {
+     "kind": "bubble",
+     "x": 55,
+     "y": 45,
+     "text": "¿Qué fruta echarías de menos?",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "x": 30,
+     "y": 92,
+     "pose": "wave",
+     "expr": "happy",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "size": 270
+    }
+   ],
+   "seed": "as53"
+  }
+ ]
+}

@@ -1,0 +1,425 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-26-c",
+ "title": "Si desaparecieran las ABEJAS, faltaría MEDIO supermercado 🐝",
+ "description": "Si desaparecieran las abejas, faltaría medio supermercado. 🐝🍎 Manzanas, cerezas, almendras y sandías dependen mucho de los polinizadores; el pan, el arroz y la pasta no (los poliniza el viento). Y la frase de Einstein de los 4 años: no hay pruebas de que la dijera.\n\nVídeo completo paso a paso 👉 L1LINK\n\nFuentes: FAO, Klein et al. (2007). Cifras aproximadas. Video creado con ayuda de IA.\n\n#shorts #abejas #naturaleza #curiosidades",
+ "tags": [
+  "abejas",
+  "sin abejas",
+  "polinizacion",
+  "curiosidades",
+  "naturaleza",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "lp",
+   "narration": "Si mañana desaparecieran todas las abejas, abrirías la nevera… y faltaría medio supermercado.",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6.0
+     ],
+     "to": [
+      0,
+      1.6,
+      5.0
+     ],
+     "look": [
+      0,
+      2.1,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -2.6,
+       0,
+       -3
+      ]
+     },
+     {
+      "kind": "tree",
+      "from": [
+       2.8,
+       0,
+       -4
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "SIN ABEJAS",
+      "at": 0.3
+     }
+    ]
+   },
+   "hook": "¿Un mundo *SIN ABEJAS*? 🐝",
+   "hookDur": 1.6
+  },
+  {
+   "type": "lp",
+   "narration": "Manzanas, cerezas, almendras, sandías: todas dependen mucho de los polinizadores.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0,
+      1.65,
+      6.3
+     ],
+     "to": [
+      0,
+      1.65,
+      5.5
+     ],
+     "look": [
+      0,
+      1.6,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": true
+     }
+    ],
+    "objects": [
+     {
+      "kind": "ball",
+      "from": [
+       0.4,
+       1.15,
+       0.9
+      ],
+      "scale": 0.4,
+      "color": "#d62828",
+      "appear": 0.4
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "label",
+      "text": "≈ 3 DE CADA 4 CULTIVOS",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Y lo poco que quedase, carísimo.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0,
+      1.65,
+      5.9
+     ],
+     "to": [
+      0,
+      1.65,
+      5.3
+     ],
+     "look": [
+      0,
+      1.6,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "scared": 1.0
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "talk": true
+     }
+    ],
+    "objects": [
+     {
+      "kind": "money",
+      "from": [
+       0,
+       1.05,
+       0.9
+      ],
+      "scale": 0.55,
+      "appear": 0.4
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "¡¿CUÁNTO?!",
+      "at": 1.1
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "En algunas zonas de China ya se han polinizado frutales a mano, flor a flor, con pinceles.",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      2.0,
+      6.6
+     ],
+     "to": [
+      0,
+      2.0,
+      5.6
+     ],
+     "look": [
+      0,
+      2.1,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.6,
+       0
+      ],
+      "talk": true,
+      "brows": -0.6
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       1.6,
+       0,
+       -1
+      ],
+      "scale": 1.2
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "FLOR 3 / 100.000",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Pero tranquilo: el pan, el arroz y la pasta seguirían, porque esos cultivos los poliniza el viento.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      5.6
+     ],
+     "to": [
+      0,
+      1.6,
+      4.8
+     ],
+     "look": [
+      0,
+      2.0,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "wave": [
+       2.6,
+       4
+      ]
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "PAN Y ARROZ: SÍ",
+      "at": 1.6,
+      "y": 360
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Y la famosa frase de Einstein, que nos quedarían cuatro años de vida… no hay ninguna prueba de que la dijera.",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6.0
+     ],
+     "to": [
+      0,
+      1.6,
+      5.0
+     ],
+     "look": [
+      0,
+      2.1,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "novia",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": -0.6
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -2.6,
+       0,
+       -3
+      ]
+     },
+     {
+      "kind": "tree",
+      "from": [
+       2.8,
+       0,
+       -4
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "MITO",
+      "at": 2.4
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Te lo cuento paso a paso en el vídeo completo del canal. ¿Qué fruta echarías más de menos?",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6.0
+     ],
+     "to": [
+      0,
+      1.6,
+      5.0
+     ],
+     "look": [
+      0,
+      2.1,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.3,
+      "talk": true
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.3,
+      "wave": [
+       1.5,
+       3
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -2.6,
+       0,
+       -3
+      ]
+     },
+     {
+      "kind": "tree",
+      "from": [
+       2.8,
+       0,
+       -4
+      ]
+     }
+    ],
+    "overlays": []
+   }
+  }
+ ]
+}
