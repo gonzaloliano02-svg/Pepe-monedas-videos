@@ -127,7 +127,8 @@
      {
       "kind": "label",
       "text": "≈ 3 DE CADA 4 CULTIVOS",
-      "at": 1.2
+      "at": 1.2,
+      "y": 420
      }
     ]
    }
@@ -242,7 +243,7 @@
     "overlays": [
      {
       "kind": "counter",
-      "text": "FLOR 3 / 100.000",
+      "text": "3 / 100.000",
       "at": 1.2
      }
     ]
