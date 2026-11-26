@@ -157,11 +157,6 @@
       "at": 0,
       "pick": "b",
       "pickAt": 0.5
-     },
-     {
-      "kind": "stamp",
-      "text": "MITO",
-      "at": 1.0
      }
     ]
    }
