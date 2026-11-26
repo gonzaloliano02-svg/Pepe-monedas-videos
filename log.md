@@ -258,3 +258,9 @@
 - b TikTok: https://www.tiktok.com/@pepe.monedass/video/7712491630586072353
 - c 18:00: TikTok programado (vidIQ status scheduled 17:00Z). Borrador c: postId bb035c0f-876f-4805-87af-6595733598ee, YouTube publicationId 507cef66-d418-4ea3-81d8-ab1060aff3d5 (para 2026-11-27 10:00; sustituir L1LINK).
 - Trigger actualizado: Shorts antes que el largo, trabajar un día por adelantado, render por trozos, lista de fallos de encuadre conocidos.
+
+### 2026-11-26 (evening)
+- L1 bees PUBLISHED on YouTube 21:3x Madrid (upload 3/3, vidIQ status completed): https://www.youtube.com/watch?v=IrLO6RoErgg — postId a78ab230-e01a-479f-a037-6ba3eced7e42, thumbnail 11c2405d…, chapters + sources.
+- c bees: TikTok completed (17:00Z). YouTube draft (postId bb035c0f…, publicationId 507cef66…) now links IrLO6RoErgg; publish 2026-11-27 10:00 Madrid (publishAt was lost again; set it before publishing).
+- 2026-11-27 prepared: a (novia/patatas) OK; b (moneda rascacielos) OK after fixes: coin/rock falls were invisible (camera aimed at the fall, bigger objects), MITO stamp removed from the choice scene. c (agua teaser) and L1 "¿Qué le pasa a tu CUERPO si dejas de beber AGUA? (hora a hora)" building. Asteroid topic dropped (already done on 2026-11-24).
+- 2 more worker restarts this evening; chunked L1 render resumed fine.
