@@ -1,0 +1,526 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-27-a",
+ "title": "Mi NOVIA dice «no tengo hambre»… y se come MIS patatas 🍟",
+ "description": "Mi novia dice «no tengo hambre»… y se come mis patatas. 🍟😤\n\nDato real: oler o ver comida hace que salives y que el cuerpo se prepare para comer, aunque no tuvieras hambre.\n\n¿A ti también te roban la comida? Etiqueta a quien lo hace 👇\n\nVídeo creado con ayuda de IA.",
+ "tags": [
+  "humor",
+  "parejas",
+  "novios",
+  "comida",
+  "humor español",
+  "animacion",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "lp",
+   "narration": "Le pregunto a mi novia: ¿pedimos algo de cenar? Y me dice: no, no tengo hambre.",
+   "hook": "«NO tengo *HAMBRE*» 🍟",
+   "hookDur": 1.5,
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.2
+     ],
+     "to": [
+      0,
+      1.7,
+      5.4
+     ],
+     "look": [
+      0,
+      1.7,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": [
+       [
+        0,
+        1.4
+       ]
+      ]
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "talk": [
+       [
+        1.8,
+        3.6
+       ]
+      ],
+      "brows": -0.4
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "21:00",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Vale. Me pido una hamburguesa con patatas. Solo para mí.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0.3,
+      1.65,
+      5.9
+     ],
+     "to": [
+      0.3,
+      1.65,
+      5.2
+     ],
+     "look": [
+      0,
+      1.6,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": true,
+      "brows": 0.6
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35
+     }
+    ],
+    "objects": [
+     {
+      "kind": "burger",
+      "from": [
+       0,
+       1.05,
+       0.9
+      ],
+      "scale": 0.54,
+      "appear": 0.4,
+      "spin": 0.8
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "SOLO PARA MÍ",
+      "at": 1.2,
+      "y": 360
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Llega la comida. Me giro un segundo a por el ketchup.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.3
+     ],
+     "look": [
+      0,
+      1.7,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": -0.6,
+      "look": [
+       1,
+       0
+      ]
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35
+     }
+    ],
+    "objects": [
+     {
+      "kind": "box",
+      "from": [
+       0,
+       1.0,
+       0.9
+      ],
+      "scale": 0.4,
+      "appear": 0.2
+     }
+    ],
+    "overlays": []
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Vuelvo, y faltan la mitad de las patatas.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.6
+     ],
+     "to": [
+      0,
+      1.7,
+      4.6
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "scared": 0.5
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "brows": 0.8
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "¡LADRONA!",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Ella, con la boca llena: yo no he sido.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0.5,
+      1.7,
+      5.8
+     ],
+     "to": [
+      0.5,
+      1.7,
+      5.2
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "talk": true,
+      "brows": -0.8,
+      "look": [
+       -0.5,
+       0
+      ]
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "MIENTE",
+      "at": 1.4
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Patata uno, patata dos, patata diez. Sin hambre, eh.",
+   "lp": {
+    "set": "kitchen",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.2
+     ],
+     "to": [
+      0,
+      1.7,
+      5.4
+     ],
+     "look": [
+      0,
+      1.7,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": true,
+      "brows": 0.8
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "PATATA 1",
+      "at": 0.1
+     },
+     {
+      "kind": "counter",
+      "text": "PATATA 10",
+      "at": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Dato real: oler o ver comida hace que salives y que el cuerpo se prepare para comer, aunque no tuvieras hambre.",
+   "lp": {
+    "set": "room",
+    "cam": {
+     "from": [
+      0,
+      2.0,
+      7.0
+     ],
+     "to": [
+      0,
+      1.9,
+      6.0
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": true
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "DATO REAL",
+      "at": 0.3,
+      "y": 300
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "O sea, que la culpa es de mis patatas por oler tan bien.",
+   "lp": {
+    "set": "room",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.2
+     ],
+     "to": [
+      0,
+      1.7,
+      5.4
+     ],
+     "look": [
+      0,
+      1.7,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": true,
+      "wave": [
+       0.3,
+       1.6
+      ]
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "brows": 0.6
+     }
+    ],
+    "objects": [],
+    "overlays": []
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "¿A ti también te roban la comida? Etiqueta a quien lo hace.",
+   "lp": {
+    "set": "room",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.2
+     ],
+     "to": [
+      0,
+      1.7,
+      5.4
+     ],
+     "look": [
+      0,
+      1.7,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": true,
+      "wave": [
+       0.4,
+       2.0
+      ]
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "brows": -0.6
+     }
+    ],
+    "objects": [],
+    "overlays": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,431 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-27-b",
+ "title": "Si tiras una MONEDA desde un rascacielos… ¿MATA a alguien? 🪙",
+ "description": "Si tiras una moneda desde lo alto de un rascacielos… ¿puede matar a alguien? Spoiler: no. 🪙\n\nEl aire la frena: una moneda plana y ligera no pasa de unos 40–80 km/h, por alta que sea la caída. Dolería, pero no atraviesa un cráneo. Eso sí: un objeto pesado y compacto (un tornillo, una herramienta) sí es peligroso, así que no tires nada.\n\n¿Qué otro mito desmonto? 👇\n\nVídeo creado con ayuda de IA.",
+ "tags": [
+  "curiosidades",
+  "fisica",
+  "mitos",
+  "moneda",
+  "rascacielos",
+  "ciencia",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "lp",
+   "narration": "Si tiras una moneda desde lo alto de un rascacielos, ¿puede matar a alguien abajo?",
+   "hook": "¿Una *MONEDA* mata? 🪙",
+   "hookDur": 1.6,
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      2,
+      1.6,
+      8
+     ],
+     "to": [
+      1.5,
+      4.5,
+      7
+     ],
+     "look": [
+      0,
+      7,
+      0
+     ]
+    },
+    "cast": [],
+    "objects": [
+     {
+      "kind": "coin",
+      "from": [
+       0,
+       14,
+       0
+      ],
+      "to": [
+       0,
+       0.3,
+       0
+      ],
+      "move": [
+       0.4,
+       3.6
+      ],
+      "spin": 3,
+      "scale": 0.6
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "400 METROS",
+      "at": 0.4,
+      "y": 300
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Mucha gente dice que sí: que cae tan rápido que atraviesa la cabeza.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.6
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "choice",
+      "a": "MATA",
+      "b": "NO",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Pues no. Es un mito.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.6
+     ],
+     "to": [
+      0,
+      1.7,
+      4.8
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "jump": 0.3
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "choice",
+      "a": "MATA",
+      "b": "NO",
+      "at": 0,
+      "pick": "b",
+      "pickAt": 0.5
+     },
+     {
+      "kind": "stamp",
+      "text": "MITO",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Mientras cae, el aire la frena. Una moneda es plana y ligera, así que da vueltas y deja de acelerar.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      1.5,
+      6,
+      6
+     ],
+     "to": [
+      1,
+      4,
+      5
+     ],
+     "look": [
+      0,
+      4,
+      0
+     ]
+    },
+    "cast": [],
+    "objects": [
+     {
+      "kind": "coin",
+      "from": [
+       0,
+       9,
+       0
+      ],
+      "to": [
+       0,
+       1,
+       0
+      ],
+      "move": [
+       0,
+       4.5
+      ],
+      "spin": 4,
+      "scale": 0.7
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "gauge",
+      "from": 0,
+      "to": 60,
+      "unit": "km/h",
+      "at": 0.3,
+      "end": 3.5,
+      "y": 230
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Como mucho llega a unos cuarenta u ochenta kilómetros por hora. Te dolería, pero no te atraviesa el cráneo.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "scared": 1.2,
+      "talk": [
+       [
+        0,
+        1.0
+       ]
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "kind": "coin",
+      "from": [
+       0,
+       6,
+       0.3
+      ],
+      "to": [
+       0,
+       2.3,
+       0.3
+      ],
+      "move": [
+       0.6,
+       1.2
+      ],
+      "spin": 4,
+      "scale": 0.4
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "¡AY!",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Lo peligroso de verdad es un objeto pesado y compacto, como un tornillo o una herramienta.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      2,
+      1.6,
+      8
+     ],
+     "to": [
+      1.5,
+      3,
+      7
+     ],
+     "look": [
+      0,
+      4,
+      0
+     ]
+    },
+    "cast": [],
+    "objects": [
+     {
+      "kind": "rock",
+      "from": [
+       0,
+       12,
+       0
+      ],
+      "to": [
+       0,
+       0.4,
+       0
+      ],
+      "move": [
+       0.3,
+       2.2
+      ],
+      "scale": 0.5
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "PELIGRO",
+      "at": 2.3
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Así que no tires nada desde arriba. Ni monedas.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": -0.6
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "NO TIRES NADA",
+      "at": 0.5,
+      "y": 330
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "¿Tú lo sabías? Dime en los comentarios qué otro mito quieres que desmonte.",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6.0
+     ],
+     "to": [
+      0,
+      1.6,
+      5.0
+     ],
+     "look": [
+      0,
+      2.1,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "wave": [
+       1.5,
+       3.2
+      ]
+     }
+    ],
+    "objects": [],
+    "overlays": []
+   }
+  }
+ ]
+}
