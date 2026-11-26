@@ -58,18 +58,7 @@
       "brows": 0.6
      }
     ],
-    "objects": [
-     {
-      "kind": "phone",
-      "from": [
-       -0.45,
-       1.0,
-       0.6
-      ],
-      "scale": 0.6,
-      "appear": 0.2
-     }
-    ],
+    "objects": [],
     "overlays": [
      {
       "kind": "counter",
@@ -88,18 +77,18 @@
     "set": "street",
     "cam": {
      "from": [
-      0.4,
+      0,
       1.7,
-      5.6
+      6.0
      ],
      "to": [
-      0.3,
+      0,
       1.7,
-      5.0
+      5.3
      ],
      "look": [
-      0.4,
-      1.8,
+      0,
+      1.7,
       0
      ]
     },
@@ -128,18 +117,7 @@
       "brows": -0.8
      }
     ],
-    "objects": [
-     {
-      "kind": "phone",
-      "from": [
-       -0.45,
-       1.0,
-       0.6
-      ],
-      "scale": 0.6,
-      "appear": 0.2
-     }
-    ],
+    "objects": [],
     "overlays": [
      {
       "kind": "stamp",
@@ -256,7 +234,7 @@
       "at": 0.2
      },
      {
-      "kind": "label",
+      "kind": "stamp",
       "text": "¿Y LOS PIES?",
       "at": 1.2
      }
@@ -379,13 +357,8 @@
     "overlays": [
      {
       "kind": "counter",
-      "text": "FOTO 47",
+      "text": "FOTO 47 ✅",
       "at": 0.2
-     },
-     {
-      "kind": "badge",
-      "text": "¡POR FIN!",
-      "at": 1.6
      }
     ]
    }
@@ -441,7 +414,7 @@
     "overlays": [
      {
       "kind": "stamp",
-      "text": "LA PRIMERA",
+      "text": "1ª",
       "at": 2.6
      }
     ]
@@ -496,8 +469,8 @@
     "objects": [],
     "overlays": [
      {
-      "kind": "label",
-      "text": "≈ 1827 · HORAS",
+      "kind": "counter",
+      "text": "AÑO 1827",
       "at": 1.2
      }
     ]
