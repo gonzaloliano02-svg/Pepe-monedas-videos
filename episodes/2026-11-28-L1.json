@@ -1,0 +1,1250 @@
+{
+ "id": "2026-11-28-L1",
+ "format": "story",
+ "title": "¿Qué pasaría si el SOL se apagara ahora mismo? (minuto a minuto)",
+ "tags": [
+  "que pasaria si el sol se apagara",
+  "sol",
+  "que pasaria si",
+  "el sol se apaga",
+  "espacio",
+  "astronomia",
+  "curiosidades",
+  "ciencia",
+  "animacion"
+ ],
+ "description": "CHAPTERS",
+ "thumbnail": {
+  "text": "¿Y si el *SOL* se apaga?",
+  "kicker": "Minuto a minuto",
+  "emoji": "☀️",
+  "env": "night",
+  "bg": "land:night",
+  "fx": [],
+  "actors": [
+   {
+    "kind": "stick",
+    "x": 72,
+    "y": 92,
+    "pose": "scared",
+    "expr": "scared",
+    "name": "TÚ",
+    "color": "#FFD60A",
+    "size": 500,
+    "delay": -2
+   },
+   {
+    "kind": "emoji",
+    "x": 88,
+    "y": 24,
+    "emoji": "🌑",
+    "size": 220,
+    "delay": -2
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "type": "cartoon",
+   "text": "Sin *Sol*",
+   "narration": "¿Qué pasaría si el Sol se apagara ahora mismo? Sin avisar, como quien apaga una bombilla. Hoy lo vemos minuto a minuto: lo que notarías tú, qué pasaría con la Luna, con los océanos… y quién sobreviviría al final.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 40,
+     "emoji": "☀️",
+     "size": 240,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 40,
+     "emoji": "❌",
+     "size": 200,
+     "anim": "pop",
+     "delay": 3.0
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 28,
+     "y": 92,
+     "pose": "look",
+     "expr": "wow",
+     "size": 270,
+     "pose2": "scared",
+     "poseAt": 3.0,
+     "expr2": "scared"
+    },
+    {
+     "kind": "clock",
+     "x": 85,
+     "y": 18,
+     "size": 110,
+     "speed": 1
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1,
+     1.1
+    ]
+   },
+   "seed": "sol1"
+  },
+  {
+   "type": "lp",
+   "narration": "Spoiler: durante ocho minutos no te enterarías de nada. Y luego… todo cambiaría muy rápido.",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      6.4
+     ],
+     "to": [
+      0,
+      1.8,
+      5.4
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.6
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -3,
+       0,
+       -3
+      ]
+     },
+     {
+      "kind": "tree",
+      "from": [
+       3,
+       0,
+       -4
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "MINUTO A MINUTO",
+      "at": 1.2,
+      "y": 230
+     }
+    ]
+   },
+   "seed": "sol2"
+  },
+  {
+   "type": "cartoon",
+   "text": "Ciencia *real*",
+   "narration": "Es imposible que el Sol se apague de golpe: no funciona así. Pero es un experimento mental genial para entender lo mucho que dependemos de él. Todo lo que vas a ver se basa en física y en cálculos de astrónomos.",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 45,
+     "emoji": "☀️",
+     "size": 150,
+     "anim": "pop",
+     "delay": 0.4
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🔭",
+     "size": 150,
+     "anim": "pop",
+     "delay": 1.4
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 45,
+     "emoji": "🧮",
+     "size": 150,
+     "anim": "pop",
+     "delay": 2.4
+    }
+   ],
+   "seed": "sol3"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 1",
+   "text": "Los primeros *8 minutos*",
+   "narration": "Capítulo uno. Los primeros ocho minutos.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "clock",
+     "x": 50,
+     "y": 80,
+     "size": 150,
+     "speed": 1
+    }
+   ],
+   "seed": "sol4"
+  },
+  {
+   "type": "cartoon",
+   "text": "No te *enteras*",
+   "narration": "La luz del Sol tarda unos ocho minutos y veinte segundos en llegar a la Tierra. Así que, si se apagara ahora, seguirías viendo el Sol brillar tan tranquilo durante esos ocho minutos.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 25,
+     "emoji": "☀️",
+     "size": 170,
+     "anim": "pulse"
+    },
+    {
+     "kind": "arrow",
+     "x": 70,
+     "y": 32,
+     "to": [
+      40,
+      60
+     ],
+     "text": "8 min 20 s",
+     "color": "#ffd60a",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 30,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "happy",
+     "size": 270
+    }
+   ],
+   "seed": "sol5"
+  },
+  {
+   "type": "stat",
+   "value": 150,
+   "suffix": "",
+   "label": "millones de km hasta el *Sol*",
+   "narration": "Porque el Sol está a unos ciento cincuenta millones de kilómetros. Y la luz, aunque es lo más rápido que existe, también tarda en recorrer ese camino.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 12,
+     "y": 85,
+     "emoji": "🌍",
+     "size": 130,
+     "anim": "pulse"
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 88,
+     "y": 96,
+     "pose": "point",
+     "expr": "wow",
+     "size": 220,
+     "flip": true
+    }
+   ],
+   "decimals": 0,
+   "seed": "sol6"
+  },
+  {
+   "type": "cartoon",
+   "text": "La gravedad *también*",
+   "narration": "Y aquí viene lo curioso: la gravedad del Sol también viaja a la velocidad de la luz. Así que durante esos ocho minutos la Tierra seguiría girando a su alrededor… alrededor de un Sol que ya no está.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 50,
+     "emoji": "🌍",
+     "size": 150,
+     "anim": "spin"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 45,
+     "emoji": "⚫",
+     "size": 170,
+     "anim": "pulse"
+    },
+    {
+     "kind": "arrow",
+     "x": 35,
+     "y": 35,
+     "to": [
+      62,
+      40
+     ],
+     "text": "gravedad",
+     "color": "#4cc9f0",
+     "delay": 2
+    }
+   ],
+   "seed": "sol7"
+  },
+  {
+   "type": "cartoon",
+   "text": "Minuto *8*: oscuridad",
+   "narration": "Y entonces, de golpe: oscuridad. En la mitad de la Tierra donde era de día, el cielo se vuelve negro en un instante. Y aparecen las estrellas a mediodía.",
+   "bg": "land:night",
+   "actors": [
+    {
+     "kind": "clock",
+     "x": 78,
+     "y": 36,
+     "size": 150,
+     "speed": 1
+    },
+    {
+     "kind": "tag",
+     "x": 78,
+     "y": 58,
+     "text": "8 min 20 s",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 35,
+     "y": 92,
+     "pose": "scared",
+     "expr": "scared",
+     "size": 270
+    },
+    {
+     "kind": "emoji",
+     "x": 55,
+     "y": 20,
+     "emoji": "✨",
+     "size": 110,
+     "anim": "pulse",
+     "delay": 1.5
+    }
+   ],
+   "seed": "sol8"
+  },
+  {
+   "type": "lp",
+   "narration": "Imagina estar en la calle a las doce del mediodía… y ver de repente el cielo lleno de estrellas.",
+   "lp": {
+    "set": "night",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "scared": 0.8,
+      "talk": true
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "12:00",
+      "at": 0.6
+     }
+    ]
+   },
+   "seed": "sol9"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Y la *Luna*?",
+   "narration": "La Luna no tiene luz propia: brilla porque refleja la del Sol. Así que, poco más de un segundo después que el cielo, la Luna también se apagaría. Seguiría ahí arriba, pero casi no la verías.",
+   "bg": "land:night",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 30,
+     "emoji": "🌕",
+     "size": 190,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 30,
+     "emoji": "🌑",
+     "size": 190,
+     "anim": "pop",
+     "delay": 3
+    },
+    {
+     "kind": "tag",
+     "x": 65,
+     "y": 55,
+     "text": "≈ 1 segundo después",
+     "delay": 4
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 28,
+     "y": 92,
+     "pose": "look",
+     "expr": "wow",
+     "size": 270
+    }
+   ],
+   "seed": "sol10"
+  },
+  {
+   "type": "cartoon",
+   "text": "Los planetas, *uno a uno*",
+   "narration": "Y los planetas, que también brillan con luz reflejada, se irían apagando uno a uno. Primero Venus y Marte. Júpiter, más o menos media hora después. Y Saturno, más de una hora después.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "🪐",
+     "size": 140,
+     "anim": "pop",
+     "delay": 0.5
+    },
+    {
+     "kind": "emoji",
+     "x": 55,
+     "y": 30,
+     "emoji": "🔴",
+     "size": 90,
+     "anim": "pop",
+     "delay": 1.5
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 45,
+     "emoji": "🌕",
+     "size": 120,
+     "anim": "pop",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 85,
+     "y": 92,
+     "pose": "think",
+     "expr": "wow",
+     "size": 230,
+     "flip": true
+    }
+   ],
+   "seed": "sol11"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 2",
+   "text": "La Tierra *se suelta*",
+   "narration": "Capítulo dos. La Tierra se suelta.",
+   "bg": "space",
+   "seed": "sol12"
+  },
+  {
+   "type": "cartoon",
+   "text": "Línea *recta*",
+   "narration": "Sin la gravedad del Sol, la Tierra dejaría de dar vueltas y saldría disparada en línea recta, a unos ciento siete mil kilómetros por hora: la velocidad a la que ya viaja hoy.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 50,
+     "emoji": "🌍",
+     "size": 160,
+     "anim": "spin",
+     "to": [
+      80,
+      40
+     ],
+     "move": [
+      0.5,
+      6
+     ]
+    },
+    {
+     "kind": "tag",
+     "x": 60,
+     "y": 70,
+     "text": "≈ 107.000 km/h",
+     "delay": 3
+    }
+   ],
+   "seed": "sol13"
+  },
+  {
+   "type": "lp",
+   "narration": "Tranquilo: no lo notarías. No habría un tirón ni un frenazo. Seguirías en el sofá… viajando hacia ninguna parte.",
+   "lp": {
+    "set": "room",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.6
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "SIN TIRÓN",
+      "at": 1.8
+     }
+    ]
+   },
+   "seed": "sol14"
+  },
+  {
+   "type": "cartoon",
+   "text": "La Luna se *queda*",
+   "narration": "La Luna, en cambio, seguiría girando alrededor de la Tierra, porque es la Tierra la que la sujeta. Se irían juntas, como una pareja perdida en el espacio.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 45,
+     "y": 50,
+     "emoji": "🌍",
+     "size": 170,
+     "anim": "spin"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 35,
+     "emoji": "🌑",
+     "size": 90,
+     "anim": "spin"
+    },
+    {
+     "kind": "tag",
+     "x": 55,
+     "y": 72,
+     "text": "Seguimos juntas",
+     "delay": 3
+    }
+   ],
+   "seed": "sol15"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 3",
+   "text": "El *frío*",
+   "narration": "Capítulo tres. Llega el frío.",
+   "bg": "land:ice",
+   "actors": [
+    {
+     "kind": "clock",
+     "x": 50,
+     "y": 80,
+     "size": 150,
+     "speed": 2
+    }
+   ],
+   "seed": "sol16"
+  },
+  {
+   "type": "cartoon",
+   "text": "Primer *día*",
+   "narration": "Sin Sol, la Tierra empieza a perder calor hacia el espacio. Pero no se congela al instante: el suelo, el aire y sobre todo los océanos guardan muchísimo calor.",
+   "bg": "land:ice",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 42,
+     "emoji": "🌡️",
+     "size": 190,
+     "anim": "shake"
+    },
+    {
+     "kind": "tag",
+     "x": 65,
+     "y": 64,
+     "text": "Baja… poco a poco",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 28,
+     "y": 92,
+     "pose": "idle",
+     "expr": "sad",
+     "size": 270
+    }
+   ],
+   "seed": "sol17"
+  },
+  {
+   "type": "stat",
+   "value": -18,
+   "suffix": "°C",
+   "label": "media en la Tierra tras *una semana* (aprox.)",
+   "narration": "Según cálculos de astrónomos, en una semana la temperatura media de la superficie bajaría hasta unos dieciocho grados bajo cero.",
+   "bg": "land:ice",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 12,
+     "y": 85,
+     "emoji": "🥶",
+     "size": 140,
+     "anim": "shake"
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 88,
+     "y": 96,
+     "pose": "scared",
+     "expr": "scared",
+     "size": 220,
+     "flip": true
+    }
+   ],
+   "decimals": 0,
+   "seed": "sol18"
+  },
+  {
+   "type": "stat",
+   "value": -73,
+   "suffix": "°C",
+   "label": "al cabo de *un año* (aprox.)",
+   "narration": "Y al cabo de un año, rondaría los setenta y tres grados bajo cero. Más frío que casi cualquier invierno de la Antártida.",
+   "bg": "land:ice",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 12,
+     "y": 85,
+     "emoji": "❄️",
+     "size": 140,
+     "anim": "spin"
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 88,
+     "y": 96,
+     "pose": "facepalm",
+     "expr": "sad",
+     "size": 220,
+     "flip": true
+    }
+   ],
+   "decimals": 0,
+   "seed": "sol19"
+  },
+  {
+   "type": "lp",
+   "narration": "Y ojo: hablamos de la media. En algunos sitios bajaría mucho más rápido.",
+   "lp": {
+    "set": "night",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "scared": 2.4
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "gauge",
+      "from": 15,
+      "to": -73,
+      "unit": "°C",
+      "at": 0.3,
+      "end": 3.0,
+      "y": 230
+     }
+    ]
+   },
+   "seed": "sol20"
+  },
+  {
+   "type": "cartoon",
+   "text": "Los *océanos*",
+   "narration": "Los océanos se congelarían por arriba. Pero el hielo hace de manta: aísla el agua de debajo. Por eso, bajo una capa de hielo cada vez más gruesa, el fondo del mar podría seguir líquido durante muchísimo tiempo.",
+   "bg": "ocean",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 25,
+     "emoji": "🧊",
+     "size": 170,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 60,
+     "emoji": "🌊",
+     "size": 170,
+     "anim": "float"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 80,
+     "text": "Hielo arriba, agua abajo",
+     "delay": 3
+    }
+   ],
+   "seed": "sol21"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 4",
+   "text": "Las *plantas*",
+   "narration": "Capítulo cuatro. ¿Qué pasa con la vida?",
+   "bg": "land:forest",
+   "seed": "sol22"
+  },
+  {
+   "type": "cartoon",
+   "text": "Sin *fotosíntesis*",
+   "narration": "Las plantas fabrican su alimento con la luz del Sol. Sin luz, la fotosíntesis se para al instante. Las plantas pequeñas morirían en pocas semanas.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 45,
+     "emoji": "🌱",
+     "size": 190,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 72,
+     "y": 30,
+     "emoji": "❌",
+     "size": 100,
+     "anim": "pop",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 28,
+     "y": 92,
+     "pose": "look",
+     "expr": "sad",
+     "size": 270
+    }
+   ],
+   "seed": "sol23"
+  },
+  {
+   "type": "cartoon",
+   "text": "Los *árboles* aguantan",
+   "narration": "Los árboles grandes resistirían más, porque tienen reservas de azúcar en el tronco. Algunos cálculos hablan de meses o incluso años… si el frío no los mata antes.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 62,
+     "y": 40,
+     "emoji": "🌳",
+     "size": 230,
+     "anim": "float"
+    },
+    {
+     "kind": "tag",
+     "x": 62,
+     "y": 66,
+     "text": "Reservas en el tronco",
+     "delay": 3
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 25,
+     "y": 92,
+     "pose": "point",
+     "expr": "wow",
+     "size": 270
+    }
+   ],
+   "seed": "sol24"
+  },
+  {
+   "type": "cartoon",
+   "text": "La cadena *se rompe*",
+   "narration": "Y sin plantas, se rompe la cadena: los animales que comen plantas se quedan sin comida, y después los que se comen a esos animales. En la superficie, casi todo desaparecería.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 20,
+     "y": 40,
+     "emoji": "🌿",
+     "size": 120,
+     "anim": "pop",
+     "delay": 0.5
+    },
+    {
+     "kind": "emoji",
+     "x": 45,
+     "y": 40,
+     "emoji": "🐇",
+     "size": 120,
+     "anim": "pop",
+     "delay": 1.5
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 40,
+     "emoji": "🦊",
+     "size": 120,
+     "anim": "pop",
+     "delay": 2.5
+    },
+    {
+     "kind": "emoji",
+     "x": 85,
+     "y": 25,
+     "emoji": "💀",
+     "size": 90,
+     "anim": "pop",
+     "delay": 4
+    }
+   ],
+   "seed": "sol25"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 5",
+   "text": "¿Quién *sobrevive*?",
+   "narration": "Capítulo cinco. ¿Quién sobreviviría?",
+   "bg": "ocean",
+   "seed": "sol26"
+  },
+  {
+   "type": "cartoon",
+   "text": "En el *fondo* del mar",
+   "narration": "Los grandes supervivientes estarían en el fondo del océano. Junto a las fuentes hidrotermales viven bacterias que no usan la luz del Sol: sacan la energía de sustancias químicas que salen del interior de la Tierra.",
+   "bg": "ocean",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 60,
+     "emoji": "🌋",
+     "size": 170,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 40,
+     "emoji": "🦠",
+     "size": 110,
+     "anim": "float",
+     "delay": 1.5
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 80,
+     "text": "Sin luz solar",
+     "delay": 3
+    }
+   ],
+   "seed": "sol27"
+  },
+  {
+   "type": "cartoon",
+   "text": "El calor de la *Tierra*",
+   "narration": "El interior de nuestro planeta sigue caliente por sí solo. Ese calor saldría durante miles de millones de años, así que esos ecosistemas podrían seguir allí abajo, en la oscuridad.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🌍",
+     "size": 240,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 50,
+     "y": 72,
+     "text": "Calor interno",
+     "delay": 2
+    }
+   ],
+   "seed": "sol28"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Y los *humanos*?",
+   "narration": "¿Y nosotros? Con mucha tecnología, unos pocos quizá aguantarían un tiempo: cerca de volcanes, con energía geotérmica, o con centrales nucleares. Islandia, por ejemplo, ya calienta muchas casas con el calor de la Tierra.",
+   "bg": "land:ice",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 65,
+     "y": 40,
+     "emoji": "🏭",
+     "size": 170,
+     "anim": "float"
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 22,
+     "emoji": "🇮🇸",
+     "size": 90,
+     "anim": "pop",
+     "delay": 3
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 28,
+     "y": 92,
+     "pose": "think",
+     "expr": "calm",
+     "size": 270
+    }
+   ],
+   "seed": "sol29"
+  },
+  {
+   "type": "lp",
+   "narration": "Pero sin Sol, sin plantas y sin comida fresca… sería una supervivencia muy, muy difícil.",
+   "lp": {
+    "set": "night",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": -0.6
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "MUY DIFÍCIL",
+      "at": 1.6,
+      "y": 330
+     }
+    ]
+   },
+   "seed": "sol30"
+  },
+  {
+   "type": "title",
+   "kicker": "Capítulo 6",
+   "text": "¿Puede *pasar*?",
+   "narration": "Capítulo seis. ¿Puede pasar de verdad?",
+   "bg": "space",
+   "seed": "sol31"
+  },
+  {
+   "type": "cartoon",
+   "text": "Tranquilo: *no*",
+   "narration": "No. El Sol no puede apagarse de golpe. Le queda combustible para unos cinco mil millones de años más. Y cuando se le acabe, primero se hinchará como una gigante roja.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 42,
+     "emoji": "☀️",
+     "size": 220,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 60,
+     "y": 70,
+     "text": "≈ 5.000 millones de años",
+     "delay": 2.5
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 25,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "happy",
+     "size": 270
+    }
+   ],
+   "seed": "sol32"
+  },
+  {
+   "type": "cartoon",
+   "text": "Su *final*",
+   "narration": "Al final quedará una enana blanca: una bola pequeñita y muy caliente, del tamaño de la Tierra, que se irá enfriando poco a poco durante muchísimo tiempo.",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 60,
+     "y": 45,
+     "emoji": "⚪",
+     "size": 120,
+     "anim": "pulse"
+    },
+    {
+     "kind": "tag",
+     "x": 60,
+     "y": 62,
+     "text": "Enana blanca",
+     "delay": 2
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 25,
+     "y": 92,
+     "pose": "look",
+     "expr": "wow",
+     "size": 270
+    }
+   ],
+   "seed": "sol33"
+  },
+  {
+   "type": "lp",
+   "narration": "Resumen: ocho minutos sin enterarte, oscuridad total, la Tierra suelta por el espacio y un frío brutal. Menos mal que no va a pasar.",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.8
+     ],
+     "to": [
+      0,
+      1.7,
+      4.8
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "wave": [
+       4.0,
+       5.5
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -2.6,
+       0,
+       -3
+      ]
+     },
+     {
+      "kind": "tree",
+      "from": [
+       2.8,
+       0,
+       -4
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "8 MIN",
+      "at": 0.6
+     }
+    ]
+   },
+   "seed": "sol34"
+  },
+  {
+   "type": "cartoon",
+   "text": "¿Y *tú*?",
+   "narration": "Y ahora dime en los comentarios: ¿qué harías tú en esos ocho minutos? Si te ha gustado, suscríbete: cada día te cuento qué pasaría si… Nos vemos en el siguiente.",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 18,
+     "emoji": "☀️",
+     "size": 130,
+     "anim": "pulse"
+    },
+    {
+     "kind": "bubble",
+     "x": 55,
+     "y": 45,
+     "text": "¿Qué harías en 8 minutos?",
+     "delay": 1
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 30,
+     "y": 92,
+     "pose": "wave",
+     "expr": "happy",
+     "size": 270
+    }
+   ],
+   "seed": "sol35"
+  }
+ ]
+}

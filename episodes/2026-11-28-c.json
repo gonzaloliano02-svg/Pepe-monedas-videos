@@ -1,0 +1,340 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-28-c",
+ "title": "Si el SOL se apagara, tardarías 8 MINUTOS en enterarte ☀️",
+ "description": "Si el Sol se apagara ahora mismo, tardarías unos 8 minutos en enterarte: es lo que tarda su luz en llegar. Después, oscuridad total y un frío brutal (≈ −18 °C de media en una semana, ≈ −73 °C en un año, según cálculos aproximados). Tranquilo: al Sol le quedan unos 5.000 millones de años.\n\nVídeo completo minuto a minuto 👉 L1LINK\n\nCifras aproximadas. Vídeo creado con ayuda de IA.\n\n#shorts #sol #espacio #curiosidades",
+ "tags": [
+  "sol",
+  "espacio",
+  "astronomia",
+  "curiosidades",
+  "que pasaria si",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "lp",
+   "narration": "Si el Sol se apagara ahora mismo, durante ocho minutos no te enterarías.",
+   "hook": "¿Y si el *SOL* se apaga? ☀️",
+   "hookDur": 1.6,
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6.0
+     ],
+     "to": [
+      0,
+      1.6,
+      5.0
+     ],
+     "look": [
+      0,
+      2.0,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.6
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -2.6,
+       0,
+       -3
+      ]
+     },
+     {
+      "kind": "tree",
+      "from": [
+       2.8,
+       0,
+       -4
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "8 MIN",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Porque su luz tarda unos ocho minutos en llegar.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.8
+     ],
+     "to": [
+      0,
+      1.7,
+      4.8
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "8 MIN 20 S",
+      "at": 0.8,
+      "y": 330
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Y después: oscuridad total. Estrellas a mediodía.",
+   "lp": {
+    "set": "night",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "scared": 0.6
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "¡APAGÓN!",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "En una semana, unos dieciocho grados bajo cero de media. En un año, unos setenta bajo cero.",
+   "lp": {
+    "set": "night",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "scared": 3.0
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "gauge",
+      "from": 15,
+      "to": -73,
+      "unit": "°C",
+      "at": 0.3,
+      "end": 4.0,
+      "y": 230
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Tranquilo: no puede pasar. Al Sol le quedan unos cinco mil millones de años.",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6.0
+     ],
+     "to": [
+      0,
+      1.6,
+      5.0
+     ],
+     "look": [
+      0,
+      2.0,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "jump": 2.0
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -2.6,
+       0,
+       -3
+      ]
+     },
+     {
+      "kind": "tree",
+      "from": [
+       2.8,
+       0,
+       -4
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "NO PASARÁ",
+      "at": 1.0,
+      "y": 330
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Te lo cuento minuto a minuto en el vídeo completo del canal. ¿Qué harías tú en esos ocho minutos?",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6.0
+     ],
+     "to": [
+      0,
+      1.6,
+      5.0
+     ],
+     "look": [
+      0,
+      2.0,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.3,
+      "talk": true
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.3,
+      "wave": [
+       1.5,
+       3
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -2.6,
+       0,
+       -3
+      ]
+     },
+     {
+      "kind": "tree",
+      "from": [
+       2.8,
+       0,
+       -4
+      ]
+     }
+    ],
+    "overlays": []
+   }
+  }
+ ]
+}
