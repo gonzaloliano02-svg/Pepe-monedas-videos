@@ -1,0 +1,423 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-28-b",
+ "title": "Si saltas de un avión SIN paracaídas… ¿a qué VELOCIDAD caes? 🪂",
+ "description": "Si saltas de un avión sin paracaídas… ¿a qué velocidad caes? 🪂\n\nAl principio aceleras, pero el aire te frena: tumbado boca abajo no pasas de unos 200 km/h (la velocidad terminal), y llegas a ella en unos 12 segundos. En 1972, Vesna Vulović sobrevivió a una caída de más de 10.000 metros dentro de los restos de un avión (récord Guinness).\n\n¿Lo sabías? 👇\n\nVídeo creado con ayuda de IA.",
+ "tags": [
+  "curiosidades",
+  "fisica",
+  "paracaidas",
+  "velocidad terminal",
+  "ciencia",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "lp",
+   "narration": "Si saltas de un avión sin paracaídas, ¿a qué velocidad caes?",
+   "hook": "¿SIN *PARACAÍDAS*? 🪂",
+   "hookDur": 1.5,
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      0,
+      5.5,
+      7.5
+     ],
+     "to": [
+      0,
+      2.5,
+      5.5
+     ],
+     "look": [
+      0,
+      3.2,
+      0
+     ]
+    },
+    "cast": [],
+    "objects": [
+     {
+      "kind": "rock",
+      "from": [
+       0,
+       10,
+       0
+      ],
+      "to": [
+       0,
+       0.5,
+       0
+      ],
+      "move": [
+       0.2,
+       3.4
+      ],
+      "scale": 0.9
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "4.000 METROS",
+      "at": 0.4,
+      "y": 300
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Mucha gente piensa que cada vez más rápido, sin parar.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.2
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.6
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "choice",
+      "a": "SIN FIN",
+      "b": "TOPE",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Pues no. Hay un tope.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.6
+     ],
+     "to": [
+      0,
+      1.7,
+      4.8
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "jump": 0.3
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "choice",
+      "a": "SIN FIN",
+      "b": "TOPE",
+      "at": 0,
+      "pick": "b",
+      "pickAt": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "El aire te empuja hacia arriba cada vez más fuerte, hasta que frena tu aceleración.",
+   "lp": {
+    "set": "street",
+    "cam": {
+     "from": [
+      0,
+      5.5,
+      7.5
+     ],
+     "to": [
+      0,
+      3.0,
+      6.0
+     ],
+     "look": [
+      0,
+      3.0,
+      0
+     ]
+    },
+    "cast": [],
+    "objects": [
+     {
+      "kind": "rock",
+      "from": [
+       0.9,
+       7,
+       0
+      ],
+      "to": [
+       0.9,
+       0.5,
+       0
+      ],
+      "move": [
+       0,
+       4.5
+      ],
+      "scale": 0.8
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "gauge",
+      "from": 0,
+      "to": 200,
+      "unit": "km/h",
+      "at": 0.3,
+      "end": 4.0,
+      "y": 230
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Boca abajo, te quedas en unos doscientos kilómetros por hora. Y llegas en solo unos doce segundos.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.8
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "scared": 0.6
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "12 SEG",
+      "at": 2.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "A partir de ahí da igual la altura: no vas más rápido. Los paracaidistas lo llaman velocidad terminal.",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6.0
+     ],
+     "to": [
+      0,
+      1.6,
+      5.2
+     ],
+     "look": [
+      0,
+      2.1,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": -0.5
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -2.6,
+       0,
+       -3
+      ]
+     },
+     {
+      "kind": "tree",
+      "from": [
+       2.8,
+       0,
+       -4
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "200 KM/H",
+      "at": 1.0,
+      "y": 330
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Y el dato más loco: en mil novecientos setenta y dos, una azafata sobrevivió a una caída de más de diez mil metros, dentro de los restos del avión.",
+   "lp": {
+    "set": "night",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.2
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "scared": 1.0
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "10.160 M",
+      "at": 2.0
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Es un récord Guinness. Pero no lo intentes. ¿Qué otra caída quieres que calcule?",
+   "lp": {
+    "set": "field",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6.0
+     ],
+     "to": [
+      0,
+      1.6,
+      5.2
+     ],
+     "look": [
+      0,
+      2.1,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "wave": [
+       2.4,
+       4
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -2.6,
+       0,
+       -3
+      ]
+     },
+     {
+      "kind": "tree",
+      "from": [
+       2.8,
+       0,
+       -4
+      ]
+     }
+    ],
+    "overlays": []
+   }
+  }
+ ]
+}

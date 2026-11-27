@@ -1,0 +1,376 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-28-a",
+ "title": "Mi NOVIA tiene los pies HELADOS… y los pone en MI espalda 🥶",
+ "description": "Mi novia tiene los pies helados… y los pone en mi espalda. 🥶😤\n\nDato real: en un estudio de la Universidad de Utah (1998), las manos de las mujeres estaban de media casi 3 °C más frías que las de los hombres.\n\nEtiqueta a quien te hace esto 👇\n\nVídeo creado con ayuda de IA.",
+ "tags": [
+  "humor",
+  "parejas",
+  "novios",
+  "pies frios",
+  "humor español",
+  "animacion",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "lp",
+   "narration": "Tres de la mañana. Estoy dormido, calentito, feliz.",
+   "hook": "Sus pies *HELADOS* 🥶",
+   "hookDur": 1.5,
+   "lp": {
+    "set": "bed",
+    "cast": [
+     {
+      "who": "pepe",
+      "lie": "left"
+     },
+     {
+      "who": "novia",
+      "lie": "right"
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "03:00",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Y de repente… algo helado se me pega a la espalda.",
+   "lp": {
+    "set": "bed",
+    "cast": [
+     {
+      "who": "pepe",
+      "lie": "left",
+      "brows": 1.0
+     },
+     {
+      "who": "novia",
+      "lie": "right"
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "¡HIELO!",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Son los pies de mi novia. Dos cubitos de hielo con uñas.",
+   "lp": {
+    "set": "bed",
+    "cast": [
+     {
+      "who": "pepe",
+      "talk": true,
+      "lie": "left",
+      "brows": 1.0
+     },
+     {
+      "who": "novia",
+      "brows": 0.6,
+      "lie": "right"
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "gauge",
+      "from": 36,
+      "to": 5,
+      "unit": "°C",
+      "at": 0.4,
+      "end": 2.4,
+      "y": 260
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Le digo: ¿pero tú estás viva? Y me dice: es que tengo frío.",
+   "lp": {
+    "set": "room",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.2
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": [
+       [
+        0,
+        1.6
+       ]
+      ],
+      "brows": 0.7
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "talk": [
+       [
+        1.9,
+        3.6
+       ]
+      ]
+     }
+    ],
+    "objects": [],
+    "overlays": []
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Con dos mantas, un pijama de invierno y la calefacción a veinticuatro grados.",
+   "lp": {
+    "set": "room",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.6
+     ],
+     "to": [
+      0,
+      1.7,
+      4.8
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": true
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "24 °C",
+      "at": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Pero ojo, que tiene parte de razón. Dato real:",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.8
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": -0.5
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "DATO REAL",
+      "at": 1.0,
+      "y": 300
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "en un estudio de la Universidad de Utah, las manos de las mujeres estaban casi tres grados más frías que las de los hombres.",
+   "lp": {
+    "set": "office",
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.4
+     ],
+     "to": [
+      0,
+      1.7,
+      4.6000000000000005
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "label",
+      "text": "−3 °C",
+      "at": 1.4,
+      "y": 380
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Así que no es maldad. Es biología. Pero mi espalda no es una estufa.",
+   "lp": {
+    "set": "bed",
+    "cast": [
+     {
+      "who": "pepe",
+      "talk": true,
+      "brows": 0.6,
+      "lie": "left"
+     },
+     {
+      "who": "novia",
+      "lie": "right"
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "¡QUITA!",
+      "at": 2.4
+     }
+    ]
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Etiqueta a quien te hace esto.",
+   "lp": {
+    "set": "room",
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6.0
+     ],
+     "to": [
+      0,
+      1.6,
+      5.2
+     ],
+     "look": [
+      0,
+      2.0,
+      0
+     ]
+    },
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.3,
+      "talk": true
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.3,
+      "wave": [
+       0.6,
+       2
+      ]
+     }
+    ],
+    "objects": [],
+    "overlays": []
+   }
+  }
+ ]
+}
