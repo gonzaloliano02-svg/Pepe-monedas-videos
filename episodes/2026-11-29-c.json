@@ -1,0 +1,341 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-29-c",
+ "title": "Si caes por un AGUJERO que atraviesa la TIERRA, tardas 40 MINUTOS 🕳️🌍",
+ "description": "Si cayeras por un agujero que atraviesa la Tierra (sin aire y de polo a polo), llegarías al otro lado en unos 40 minutos, pasando por el centro a más de 28.000 km/h. Allí no pesarías nada. El agujero más profundo jamás hecho, el de Kola, llega a 12,2 km.\n\nVídeo completo paso a paso 👉 L1LINK\n\nCifras aproximadas; experimento mental. Vídeo creado con ayuda de IA.\n\n#shorts #tierra #ciencia #curiosidades",
+ "tags": [
+  "tierra",
+  "agujero",
+  "fisica",
+  "curiosidades",
+  "que pasaria si",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "lp",
+   "narration": "Si te tiras por un agujero que atraviesa la Tierra, llegas al otro lado en unos cuarenta minutos.",
+   "lp": {
+    "set": "field",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "scared": 1.0,
+      "brows": 0.8
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -3,
+       0,
+       -3
+      ]
+     },
+     {
+      "kind": "tree",
+      "from": [
+       3,
+       0,
+       -4
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "40 MIN",
+      "at": 0.2
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    }
+   },
+   "hook": "¿Un agujero que *ATRAVIESA* la Tierra? 🕳️",
+   "hookDur": 1.6
+  },
+  {
+   "type": "lp",
+   "narration": "Caes cada vez más rápido. En el centro vas a más de veintiocho mil kilómetros por hora.",
+   "lp": {
+    "set": "space",
+    "cast": [],
+    "objects": [
+     {
+      "kind": "earth",
+      "from": [
+       0,
+       0.9,
+       0
+      ],
+      "scale": 1.0,
+      "spin": 0.3
+     },
+     {
+      "kind": "rock",
+      "from": [
+       0,
+       3.6,
+       1.2
+      ],
+      "to": [
+       0,
+       0.9,
+       1.2
+      ],
+      "move": [
+       0.2,
+       3.6
+      ],
+      "scale": 0.3
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "gauge",
+      "from": 0,
+      "to": 28000,
+      "unit": "km/h",
+      "at": 0.3,
+      "end": 3.8,
+      "y": 230
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      8.0
+     ],
+     "to": [
+      0,
+      1.5,
+      7.0
+     ],
+     "look": [
+      0,
+      1.6,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Y ahí no pesarías nada: la Tierra tira de ti igual por todos lados.",
+   "lp": {
+    "set": "space",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "jump": 0.5,
+      "talk": true,
+      "brows": 0.6
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "PESO: 0 KG",
+      "at": 1.0,
+      "y": 280
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.2
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Luego vas frenando, frenando… justo hasta asomar la cabeza al otro lado del mundo.",
+   "lp": {
+    "set": "beach",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "jump": 1.6,
+      "wave": [
+       2.0,
+       3.6
+      ]
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "label",
+      "text": "¡HOLA, MUNDO!",
+      "at": 2.0,
+      "y": 420
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.2
+     ],
+     "to": [
+      0,
+      1.7,
+      5.4
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "El problema: el agujero más profundo que hemos hecho llega a solo doce kilómetros.",
+   "lp": {
+    "set": "desert",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": -0.6
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "12 KM",
+      "at": 1.6,
+      "y": 300
+     },
+     {
+      "kind": "stamp",
+      "text": "¡NI CERCA!",
+      "at": 3.2
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.2
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Te lo cuento paso a paso en el vídeo completo del canal. ¿Tú te tirarías?",
+   "lp": {
+    "set": "field",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.3,
+      "talk": true
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.3,
+      "scared": 2.2
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "choice",
+      "a": "SÍ",
+      "b": "NO",
+      "at": 2.0
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.3
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    }
+   }
+  }
+ ]
+}

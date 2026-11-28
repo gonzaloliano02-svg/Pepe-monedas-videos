@@ -1,0 +1,484 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-29-b",
+ "title": "Si te TRAGAS un chicle… ¿se queda 7 AÑOS dentro? 🍬",
+ "description": "Si te tragas un chicle… ¿se queda 7 años en tu estómago? 🍬\n\nEs un mito: tu cuerpo no digiere la goma base, pero el intestino la empuja como al resto de la comida y sale en pocos días. Eso sí, tragarse muchos de golpe puede causar una obstrucción: hay casos descritos en niños.\n\n¿Qué mito quieres que desmonte? 👇\n\nVídeo creado con ayuda de IA.",
+ "tags": [
+  "curiosidades",
+  "mitos",
+  "chicle",
+  "cuerpo humano",
+  "ciencia",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "lp",
+   "narration": "Si te tragas un chicle, ¿se queda siete años en tu estómago?",
+   "lp": {
+    "set": "office",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "scared": 0.8,
+      "brows": 0.8
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "7 AÑOS",
+      "at": 0.2
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.8
+     ],
+     "to": [
+      0,
+      1.7,
+      4.9
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    }
+   },
+   "hook": "¿*7 AÑOS* dentro? 🍬",
+   "hookDur": 1.5
+  },
+  {
+   "type": "lp",
+   "narration": "Te lo habrán dicho mil veces de pequeño.",
+   "lp": {
+    "set": "kitchen",
+    "cast": [
+     {
+      "who": "granny",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": true,
+      "brows": -0.6
+     },
+     {
+      "who": "kid",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "scared": 1.2
+     }
+    ],
+    "objects": [],
+    "overlays": [],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.2
+     ],
+     "look": [
+      0,
+      1.5,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "¿Verdad o mito?",
+   "lp": {
+    "set": "office",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.6
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "choice",
+      "a": "VERDAD",
+      "b": "MITO",
+      "at": 0.3
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.2
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Mito. Y de los gordos.",
+   "lp": {
+    "set": "office",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "jump": 0.3
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "choice",
+      "a": "VERDAD",
+      "b": "MITO",
+      "at": 0,
+      "pick": "b",
+      "pickAt": 0.3
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.6
+     ],
+     "to": [
+      0,
+      1.7,
+      4.8
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Es verdad que tu cuerpo no puede digerir la goma del chicle.",
+   "lp": {
+    "set": "field",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.4
+     }
+    ],
+    "objects": [
+     {
+      "kind": "ball",
+      "from": [
+       1.1,
+       1.6,
+       0.5
+      ],
+      "scale": 0.35,
+      "appear": 0.4,
+      "color": "#ff7eb6",
+      "spin": 1
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "label",
+      "text": "NO SE DIGIERE",
+      "at": 1.0,
+      "y": 420
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.2
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Pero tu intestino no la deja ahí parada: la va empujando, igual que al resto de la comida.",
+   "lp": {
+    "set": "field",
+    "cast": [],
+    "objects": [
+     {
+      "kind": "ball",
+      "from": [
+       -3,
+       1.2,
+       0
+      ],
+      "to": [
+       3,
+       1.2,
+       0
+      ],
+      "move": [
+       0.3,
+       4.5
+      ],
+      "scale": 0.5,
+      "color": "#ff7eb6",
+      "spin": 3
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "EMPUJA Y EMPUJA",
+      "at": 0.8,
+      "y": 300
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.6,
+      6.0
+     ],
+     "to": [
+      0,
+      1.6,
+      5.4
+     ],
+     "look": [
+      0,
+      1.3,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Y en pocos días sale por donde ya te imaginas.",
+   "lp": {
+    "set": "room",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "jump": 1.0,
+      "talk": true
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "POCOS DÍAS",
+      "at": 0.2
+     },
+     {
+      "kind": "stamp",
+      "text": "¡ADIÓS!",
+      "at": 1.6
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.8
+     ],
+     "to": [
+      0,
+      1.7,
+      5.0
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Eso sí: tragarte muchísimos de golpe puede atascarte. Hay casos de niños en revistas médicas.",
+   "lp": {
+    "set": "kitchen",
+    "cast": [
+     {
+      "who": "kid",
+      "pos": [
+       0,
+       0
+      ],
+      "scared": 1.5
+     }
+    ],
+    "objects": [
+     {
+      "kind": "ball",
+      "from": [
+       -0.6,
+       1.5,
+       0.8
+      ],
+      "scale": 0.25,
+      "appear": 0.3,
+      "color": "#ff7eb6"
+     },
+     {
+      "kind": "ball",
+      "from": [
+       0.6,
+       1.5,
+       0.8
+      ],
+      "scale": 0.25,
+      "appear": 0.6,
+      "color": "#7ee0ff"
+     },
+     {
+      "kind": "ball",
+      "from": [
+       0,
+       1.9,
+       0.8
+      ],
+      "scale": 0.25,
+      "appear": 0.9,
+      "color": "#ffd60a"
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "DATO REAL",
+      "at": 1.2,
+      "y": 260
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.6
+     ],
+     "to": [
+      0,
+      1.7,
+      4.8
+     ],
+     "look": [
+      0,
+      1.3,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Así que uno, tranquilo. Cien, mejor no. ¿Qué otro mito quieres que desmonte?",
+   "lp": {
+    "set": "office",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "wave": [
+       2.2,
+       3.6
+      ]
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "1 = TRANQUILO",
+      "at": 0.3,
+      "y": 260
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.2
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    }
+   }
+  }
+ ]
+}

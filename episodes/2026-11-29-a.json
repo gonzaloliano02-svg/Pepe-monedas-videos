@@ -1,0 +1,591 @@
+{
+ "format": "story",
+ "vertical": true,
+ "tempo": 1.15,
+ "scenePad": 0.15,
+ "id": "2026-11-29-a",
+ "title": "Mi NOVIA va al súper «solo a por LECHE»… y vuelve con 7 BOLSAS 🛒",
+ "description": "Mi novia va al súper «solo a por leche»… y vuelve con 7 bolsas. 🛒😤\n\nDato real: el carrito de la compra lo inventó en 1937 Sylvan Goldman, dueño de una cadena de supermercados de Oklahoma (EE. UU.).\n\nEtiqueta a quien te hace esto 👇\n\nVídeo creado con ayuda de IA.",
+ "tags": [
+  "humor",
+  "parejas",
+  "novios",
+  "supermercado",
+  "humor español",
+  "animacion",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "type": "lp",
+   "narration": "Mi novia me dice: voy al súper un momento, solo a por leche.",
+   "lp": {
+    "set": "kitchen",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "talk": true,
+      "brows": 0.3
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "18:00",
+      "at": 0.3
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.2
+     ],
+     "to": [
+      0,
+      1.7,
+      5.4
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    }
+   },
+   "hook": "«Solo a por *LECHE*» 🛒",
+   "hookDur": 1.5
+  },
+  {
+   "type": "lp",
+   "narration": "Le digo: ¿te acompaño? Y me dice: no hace falta, son dos minutos.",
+   "lp": {
+    "set": "kitchen",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": [
+       [
+        0,
+        1.2
+       ]
+      ]
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "talk": [
+       [
+        1.4,
+        3.6
+       ]
+      ],
+      "wave": [
+       2.0,
+       3.2
+      ]
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "2 MINUTOS",
+      "at": 1.6,
+      "y": 330
+     }
+    ],
+    "cam": {
+     "from": [
+      0.3,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0.3,
+      1.7,
+      5.3
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Una hora y media después, me llama por teléfono.",
+   "lp": {
+    "set": "room",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "scared": 0.6,
+      "brows": 0.8
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "19:32",
+      "at": 0.2
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.6
+     ],
+     "to": [
+      0,
+      1.7,
+      4.8
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Que si puedo bajar a ayudarla con las bolsas.",
+   "lp": {
+    "set": "street",
+    "cast": [
+     {
+      "who": "novia",
+      "pos": [
+       0.4,
+       0
+      ],
+      "talk": true,
+      "brows": 0.5
+     }
+    ],
+    "objects": [
+     {
+      "kind": "bag",
+      "from": [
+       -0.6,
+       0.4,
+       0.6
+      ],
+      "scale": 0.8,
+      "appear": 0.6
+     },
+     {
+      "kind": "bag",
+      "from": [
+       -1.2,
+       0.4,
+       0.3
+      ],
+      "scale": 0.8,
+      "appear": 1.0
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "¡BOLSAS!",
+      "at": 1.4
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.4
+     ],
+     "to": [
+      0,
+      1.7,
+      5.6
+     ],
+     "look": [
+      0,
+      1.6,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Siete bolsas. Chocolate, velas, una tarta, un cojín con forma de aguacate…",
+   "lp": {
+    "set": "street",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.9,
+       0
+      ],
+      "scared": 0.4
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.9,
+       0
+      ],
+      "rot": -0.3
+     }
+    ],
+    "objects": [
+     {
+      "kind": "bag",
+      "from": [
+       0,
+       0.4,
+       0.8
+      ],
+      "scale": 0.8,
+      "appear": 0.3
+     },
+     {
+      "kind": "bag",
+      "from": [
+       -0.4,
+       0.4,
+       1.2
+      ],
+      "scale": 0.8,
+      "appear": 0.6
+     },
+     {
+      "kind": "bag",
+      "from": [
+       0.4,
+       0.4,
+       1.2
+      ],
+      "scale": 0.8,
+      "appear": 0.9
+     },
+     {
+      "kind": "cake",
+      "from": [
+       0,
+       1.2,
+       1.0
+      ],
+      "scale": 0.5,
+      "appear": 2.0,
+      "spin": 0.8
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "7 BOLSAS",
+      "at": 0.3
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.6
+     ],
+     "to": [
+      0,
+      1.7,
+      5.8
+     ],
+     "look": [
+      0,
+      1.5,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "¿Y la leche? Se le ha olvidado.",
+   "lp": {
+    "set": "kitchen",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": [
+       [
+        0,
+        0.9
+       ]
+      ],
+      "brows": -0.6
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "talk": [
+       [
+        1.0,
+        2.4
+       ]
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "kind": "bottle",
+      "from": [
+       0,
+       1.05,
+       0.9
+      ],
+      "scale": 0.5,
+      "appear": 0.3
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "SIN LECHE",
+      "at": 1.2
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      5.9
+     ],
+     "to": [
+      0,
+      1.7,
+      5.2
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Pero ojo, dato real: el carrito de la compra lo inventó en mil novecientos treinta y siete el dueño de unos supermercados de Oklahoma.",
+   "lp": {
+    "set": "street",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.6
+     }
+    ],
+    "objects": [
+     {
+      "kind": "box",
+      "from": [
+       1.3,
+       0.5,
+       0.4
+      ],
+      "scale": 0.7,
+      "appear": 1.0,
+      "to": [
+       0.8,
+       0.5,
+       0.6
+      ],
+      "move": [
+       1.0,
+       3.0
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "DATO REAL",
+      "at": 0.4,
+      "y": 260
+     },
+     {
+      "kind": "label",
+      "text": "AÑO 1937",
+      "at": 2.4,
+      "y": 420
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.2
+     ],
+     "to": [
+      0,
+      1.7,
+      5.4
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Para que la gente pudiera comprar más cosas sin cansarse. Y vaya si funcionó.",
+   "lp": {
+    "set": "kitchen",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.8,
+       0
+      ],
+      "rot": 0.35,
+      "talk": true
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.8,
+       0
+      ],
+      "rot": -0.35,
+      "jump": 1.8
+     }
+    ],
+    "objects": [
+     {
+      "kind": "cake",
+      "from": [
+       0,
+       1.05,
+       0.9
+      ],
+      "scale": 0.5,
+      "appear": 0.2,
+      "spin": 0.6
+     }
+    ],
+    "overlays": [],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.2
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "type": "lp",
+   "narration": "Etiqueta a quien te hace esto.",
+   "lp": {
+    "set": "street",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       -0.9,
+       0
+      ],
+      "rot": 0.3,
+      "talk": true
+     },
+     {
+      "who": "novia",
+      "pos": [
+       0.9,
+       0
+      ],
+      "rot": -0.3,
+      "wave": [
+       0.3,
+       1.6
+      ]
+     }
+    ],
+    "objects": [],
+    "overlays": [],
+    "cam": {
+     "from": [
+      0,
+      1.7,
+      6.0
+     ],
+     "to": [
+      0,
+      1.7,
+      5.3
+     ],
+     "look": [
+      0,
+      1.8,
+      0
+     ]
+    }
+   }
+  }
+ ]
+}
