@@ -1,0 +1,1166 @@
+{
+ "id": "2026-11-29-L1",
+ "format": "story",
+ "title": "¿Qué pasaría si cayeras por un AGUJERO que atraviesa la TIERRA? (paso a paso)",
+ "tags": [
+  "agujero que atraviesa la tierra",
+  "que pasaria si",
+  "centro de la tierra",
+  "tren de gravedad",
+  "pozo de kola",
+  "fisica",
+  "ciencia",
+  "curiosidades",
+  "animacion"
+ ],
+ "description": "CHAPTERS",
+ "thumbnail": {
+  "text": "¿Y si caes por un *AGUJERO*?",
+  "kicker": "Atraviesa la Tierra",
+  "emoji": "🕳️",
+  "env": "night",
+  "bg": "land:volcano",
+  "fx": [],
+  "actors": [
+   {
+    "kind": "stick",
+    "x": 72,
+    "y": 92,
+    "pose": "fall",
+    "expr": "scared",
+    "name": "TÚ",
+    "color": "#FFD60A",
+    "size": 500,
+    "delay": -2
+   },
+   {
+    "kind": "emoji",
+    "x": 88,
+    "y": 24,
+    "emoji": "🌍",
+    "size": 220,
+    "delay": -2
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "type": "cartoon",
+   "narration": "¿Qué pasaría si cavaras un agujero que atraviesa la Tierra de lado a lado… y saltaras dentro? Hoy lo vemos paso a paso: cuánto tardarías, a qué velocidad irías, qué encontrarías en el centro… y dónde saldrías.",
+   "text": "Un agujero *de lado a lado*",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🌍",
+     "size": 260,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🕳️",
+     "size": 110,
+     "anim": "pop",
+     "delay": 2.0
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 18,
+     "y": 92,
+     "pose": "point",
+     "expr": "wow",
+     "size": 250
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1,
+     1.12
+    ]
+   },
+   "seed": "hole1"
+  },
+  {
+   "type": "lp",
+   "narration": "Spoiler: llegarías al otro lado del planeta en unos cuarenta minutos. Menos de lo que tardas en ver un episodio de tu serie.",
+   "lp": {
+    "set": "field",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "talk": true,
+      "brows": 0.6
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -3,
+       0,
+       -3
+      ]
+     },
+     {
+      "kind": "tree",
+      "from": [
+       3,
+       0,
+       -4
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "40 MIN",
+      "at": 1.0
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      6.4
+     ],
+     "to": [
+      0,
+      1.8,
+      5.4
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    }
+   },
+   "seed": "hole2"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Ojo: esto es imposible de construir, ya verás por qué. Pero los físicos lo usan como experimento mental desde hace siglos, y los números son de verdad.",
+   "text": "Experimento *mental*",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 25,
+     "y": 45,
+     "emoji": "🧠",
+     "size": 150,
+     "anim": "pop",
+     "delay": 0.4
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "📐",
+     "size": 150,
+     "anim": "pop",
+     "delay": 1.4
+    },
+    {
+     "kind": "emoji",
+     "x": 75,
+     "y": 45,
+     "emoji": "🧮",
+     "size": 150,
+     "anim": "pop",
+     "delay": 2.4
+    }
+   ],
+   "seed": "hole3"
+  },
+  {
+   "type": "title",
+   "narration": "Capítulo uno. El agujero.",
+   "kicker": "Capítulo 1",
+   "text": "El *agujero*",
+   "bg": "land:desert",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 80,
+     "emoji": "⛏️",
+     "size": 150,
+     "anim": "pulse"
+    }
+   ],
+   "seed": "hole4"
+  },
+  {
+   "type": "stat",
+   "narration": "Para empezar, el agujero tendría que medir unos doce mil setecientos kilómetros. Es el diámetro de la Tierra. Más que ir de Madrid a Pekín.",
+   "value": 12742,
+   "suffix": "",
+   "label": "km de lado a lado",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 12,
+     "y": 85,
+     "emoji": "🌍",
+     "size": 130,
+     "anim": "pulse"
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 88,
+     "y": 96,
+     "pose": "point",
+     "expr": "wow",
+     "size": 220,
+     "flip": true
+    }
+   ],
+   "decimals": 0,
+   "seed": "hole5"
+  },
+  {
+   "type": "cartoon",
+   "narration": "¿Y cuánto hemos conseguido cavar de verdad? El agujero más profundo jamás hecho es el pozo de Kola, en Rusia. Los soviéticos llegaron en mil novecientos ochenta y nueve a algo más de doce kilómetros.",
+   "text": "Récord: *12 km*",
+   "bg": "land:ice",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 50,
+     "emoji": "🏗️",
+     "size": 170,
+     "anim": "pop",
+     "delay": 0.3
+    },
+    {
+     "kind": "arrow",
+     "x": 55,
+     "y": 30,
+     "to": [
+      55,
+      75
+     ],
+     "text": "12,2 km",
+     "color": "#FFD60A",
+     "delay": 1.6
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 78,
+     "y": 92,
+     "pose": "look",
+     "expr": "wow",
+     "size": 250
+    }
+   ],
+   "seed": "hole6"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Doce kilómetros parece mucho, pero no llega ni al uno por ciento del camino hasta el centro. Y tuvieron que parar: allí abajo la roca estaba a unos ciento ochenta grados.",
+   "text": "Ni el *1 %*",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 35,
+     "y": 45,
+     "emoji": "🌡️",
+     "size": 160,
+     "anim": "shake",
+     "delay": 1.0
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 70,
+     "y": 92,
+     "pose": "facepalm",
+     "expr": "sad",
+     "size": 260
+    }
+   ],
+   "seed": "hole7"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Debajo de tus pies hay capas. Primero la corteza, que tiene entre cinco y setenta kilómetros. Luego el manto, roca caliente que fluye muy despacio, hasta casi tres mil kilómetros. Y en el centro, el núcleo de hierro.",
+   "text": "Capas",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🌍",
+     "size": 220,
+     "anim": "pulse"
+    },
+    {
+     "kind": "arrow",
+     "x": 20,
+     "y": 25,
+     "to": [
+      42,
+      40
+     ],
+     "text": "corteza",
+     "color": "#FFD60A",
+     "delay": 1.0
+    },
+    {
+     "kind": "arrow",
+     "x": 80,
+     "y": 25,
+     "to": [
+      58,
+      45
+     ],
+     "text": "manto",
+     "color": "#FFD60A",
+     "delay": 3.0
+    },
+    {
+     "kind": "arrow",
+     "x": 80,
+     "y": 75,
+     "to": [
+      52,
+      48
+     ],
+     "text": "núcleo",
+     "color": "#FFD60A",
+     "delay": 5.0
+    }
+   ],
+   "seed": "hole8"
+  },
+  {
+   "type": "title",
+   "narration": "Capítulo dos. El salto.",
+   "kicker": "Capítulo 2",
+   "text": "El *salto*",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 80,
+     "emoji": "🕳️",
+     "size": 150,
+     "anim": "pulse"
+    }
+   ],
+   "seed": "hole9"
+  },
+  {
+   "type": "lp",
+   "narration": "Imagina que el agujero ya existe, va de polo a polo y no tiene aire dentro. Te asomas… y saltas.",
+   "lp": {
+    "set": "field",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "scared": 2.5,
+      "brows": 0.8
+     }
+    ],
+    "objects": [
+     {
+      "kind": "tree",
+      "from": [
+       -3,
+       0,
+       -3
+      ]
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "stamp",
+      "text": "¡SALTA!",
+      "at": 2.8
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      6.0
+     ],
+     "to": [
+      0,
+      1.8,
+      5.0
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    }
+   },
+   "seed": "hole10"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Al principio caes como en cualquier caída: cada segundo, unos treinta y cinco kilómetros por hora más rápido. Sin aire que te frene, no hay velocidad máxima.",
+   "text": "Cada vez *más rápido*",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 50,
+     "y": 60,
+     "pose": "fall",
+     "expr": "scared",
+     "size": 260
+    },
+    {
+     "kind": "arrow",
+     "x": 20,
+     "y": 30,
+     "to": [
+      20,
+      80
+     ],
+     "text": "+35 km/h cada segundo",
+     "color": "#FFD60A",
+     "delay": 1.2
+    }
+   ],
+   "seed": "hole11"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Pero aquí viene lo raro. Cuanto más bajas, menos tira la Tierra de ti. Porque una parte del planeta ya está por encima de tu cabeza, tirando hacia arriba.",
+   "text": "Pesas *menos*",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🌍",
+     "size": 220,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "⬇️",
+     "size": 80,
+     "anim": "pop",
+     "delay": 1.5
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 85,
+     "y": 95,
+     "pose": "think",
+     "expr": "wow",
+     "size": 220,
+     "flip": true
+    }
+   ],
+   "seed": "hole12"
+  },
+  {
+   "type": "lp",
+   "narration": "Aun así sigues acelerando todo el rato. Y a mitad de camino ya vas más rápido que cualquier avión.",
+   "lp": {
+    "set": "space",
+    "cast": [],
+    "objects": [
+     {
+      "kind": "rock",
+      "from": [
+       0,
+       5,
+       0.5
+      ],
+      "to": [
+       0,
+       0.6,
+       0.5
+      ],
+      "move": [
+       0.2,
+       3.6
+      ],
+      "scale": 0.9,
+      "spin": 2
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "gauge",
+      "from": 0,
+      "to": 25000,
+      "unit": "km/h",
+      "at": 0.3,
+      "end": 3.8,
+      "y": 230
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      5.5,
+      7.5
+     ],
+     "to": [
+      0,
+      3.0,
+      6.0
+     ],
+     "look": [
+      0,
+      3.0,
+      0
+     ]
+    }
+   },
+   "seed": "hole13"
+  },
+  {
+   "type": "title",
+   "narration": "Capítulo tres. El centro de la Tierra.",
+   "kicker": "Capítulo 3",
+   "text": "El *centro*",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 80,
+     "emoji": "🔥",
+     "size": 150,
+     "anim": "pulse"
+    }
+   ],
+   "seed": "hole14"
+  },
+  {
+   "type": "stat",
+   "narration": "A los veinte minutos, más o menos, pasas por el centro de la Tierra. Y lo haces a más de veintiocho mil kilómetros por hora. Varias veces más rápido que una bala de fusil.",
+   "value": 28000,
+   "suffix": "",
+   "label": "km/h en el centro",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 85,
+     "y": 96,
+     "pose": "scared",
+     "expr": "scared",
+     "size": 220,
+     "flip": true
+    }
+   ],
+   "decimals": 0,
+   "seed": "hole15"
+  },
+  {
+   "type": "lp",
+   "narration": "Y justo ahí, no pesas nada. Cero. La Tierra tira de ti igual hacia todos los lados, así que flotas.",
+   "lp": {
+    "set": "space",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "jump": 0.6,
+      "talk": true,
+      "brows": 0.7
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "badge",
+      "text": "PESO: 0 KG",
+      "at": 1.6,
+      "y": 280
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      6.0
+     ],
+     "to": [
+      0,
+      1.8,
+      5.2
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    }
+   },
+   "seed": "hole16"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Eso sí, alrededor tendrías un horno. El núcleo de la Tierra está a unos cinco mil grados, parecido a la superficie del Sol.",
+   "text": "Como el *Sol*",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "☀️",
+     "size": 160,
+     "anim": "pulse"
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 40,
+     "emoji": "🌍",
+     "size": 160,
+     "anim": "pulse",
+     "delay": 0.8
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 50,
+     "y": 95,
+     "pose": "scared",
+     "expr": "scared",
+     "size": 220
+    }
+   ],
+   "seed": "hole17"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Y la presión allí abajo es de unos tres millones y medio de veces la del aire que respiras. Suficiente para aplastar casi cualquier cosa.",
+   "text": "Aplastado",
+   "bg": "chalk",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 40,
+     "emoji": "🗜️",
+     "size": 180,
+     "anim": "shake",
+     "delay": 0.6
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 80,
+     "y": 95,
+     "pose": "facepalm",
+     "expr": "dizzy",
+     "size": 220
+    }
+   ],
+   "seed": "hole18"
+  },
+  {
+   "type": "title",
+   "narration": "Capítulo cuatro. El otro lado.",
+   "kicker": "Capítulo 4",
+   "text": "El *otro lado*",
+   "bg": "land:sea",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 80,
+     "emoji": "🌏",
+     "size": 150,
+     "anim": "pulse"
+    }
+   ],
+   "seed": "hole19"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Después del centro empieza la subida. Ahora la gravedad tira de ti hacia atrás, así que vas frenando… exactamente igual que aceleraste al bajar.",
+   "text": "Ahora *frenas*",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 50,
+     "y": 60,
+     "pose": "float",
+     "expr": "calm",
+     "size": 260
+    },
+    {
+     "kind": "arrow",
+     "x": 80,
+     "y": 80,
+     "to": [
+      80,
+      25
+     ],
+     "text": "frenas",
+     "color": "#FFD60A",
+     "delay": 1.0
+    }
+   ],
+   "seed": "hole20"
+  },
+  {
+   "type": "lp",
+   "narration": "Y a los cuarenta minutos más o menos, llegas al otro lado justo con velocidad cero. Asomas la cabeza… y saludas.",
+   "lp": {
+    "set": "beach",
+    "cast": [
+     {
+      "who": "pepe",
+      "pos": [
+       0,
+       0
+      ],
+      "jump": 2.4,
+      "wave": [
+       3.0,
+       5.0
+      ]
+     }
+    ],
+    "objects": [],
+    "overlays": [
+     {
+      "kind": "counter",
+      "text": "40 MIN",
+      "at": 0.3
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      1.8,
+      6.2
+     ],
+     "to": [
+      0,
+      1.8,
+      5.4
+     ],
+     "look": [
+      0,
+      1.9,
+      0
+     ]
+    }
+   },
+   "seed": "hole21"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Por cierto, si cavas desde España no sales en China, como dice el chiste. Saldrías cerca de Nueva Zelanda. Y desde casi cualquier otro sitio, saldrías en mitad del océano.",
+   "text": "¿*China*?",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 30,
+     "y": 40,
+     "emoji": "🇪🇸",
+     "size": 130,
+     "anim": "pop",
+     "delay": 0.4
+    },
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 60,
+     "emoji": "🇳🇿",
+     "size": 130,
+     "anim": "pop",
+     "delay": 2.4
+    },
+    {
+     "kind": "arrow",
+     "x": 35,
+     "y": 45,
+     "to": [
+      65,
+      58
+     ],
+     "text": "",
+     "color": "#FFD60A",
+     "delay": 1.4
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 85,
+     "y": 95,
+     "pose": "shrug",
+     "expr": "happy",
+     "size": 210,
+     "flip": true
+    }
+   ],
+   "seed": "hole22"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Y si no te agarras a nada, vuelves a caer. Ida y vuelta, para siempre, como un péndulo gigante. Cada viaje completo dura unos ochenta minutos.",
+   "text": "Ida y *vuelta*",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🌍",
+     "size": 200,
+     "anim": "pulse"
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 22,
+     "y": 92,
+     "pose": "float",
+     "expr": "dizzy",
+     "size": 220
+    }
+   ],
+   "seed": "hole23"
+  },
+  {
+   "type": "title",
+   "narration": "Capítulo cinco. Los problemas.",
+   "kicker": "Capítulo 5",
+   "text": "Los *problemas*",
+   "bg": "land:storm",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 80,
+     "emoji": "⚠️",
+     "size": 150,
+     "anim": "shake"
+    }
+   ],
+   "seed": "hole24"
+  },
+  {
+   "type": "lp",
+   "narration": "Problema número uno: el aire. Con aire dentro, nunca pasarías de unos doscientos kilómetros por hora, como un paracaidista.",
+   "lp": {
+    "set": "street",
+    "cast": [],
+    "objects": [
+     {
+      "kind": "rock",
+      "from": [
+       0.9,
+       7,
+       0
+      ],
+      "to": [
+       0.9,
+       0.5,
+       0
+      ],
+      "move": [
+       0,
+       4.5
+      ],
+      "scale": 0.8
+     }
+    ],
+    "overlays": [
+     {
+      "kind": "gauge",
+      "from": 0,
+      "to": 200,
+      "unit": "km/h",
+      "at": 0.3,
+      "end": 4.0,
+      "y": 230
+     }
+    ],
+    "cam": {
+     "from": [
+      0,
+      5.5,
+      7.5
+     ],
+     "to": [
+      0,
+      3.0,
+      6.0
+     ],
+     "look": [
+      0,
+      3.0,
+      0
+     ]
+    }
+   },
+   "seed": "hole25"
+  },
+  {
+   "type": "cartoon",
+   "narration": "El viaje duraría días en vez de minutos. Y al final te quedarías parado en el centro, flotando, sin poder salir.",
+   "text": "Días *cayendo*",
+   "bg": "space",
+   "actors": [
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 50,
+     "y": 55,
+     "pose": "float",
+     "expr": "sad",
+     "size": 240
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 25,
+     "emoji": "⏳",
+     "size": 140,
+     "anim": "pulse",
+     "delay": 1.0
+    }
+   ],
+   "seed": "hole26"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Problema número dos: la Tierra gira. Si el agujero no va de polo a polo, al caer te irías desplazando hacia un lado y acabarías chocando contra la pared.",
+   "text": "La *pared*",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🌍",
+     "size": 200,
+     "anim": "spin"
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 80,
+     "y": 95,
+     "pose": "facepalm",
+     "expr": "dizzy",
+     "size": 210,
+     "flip": true
+    }
+   ],
+   "seed": "hole27"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Y problema número tres: ningún material aguanta ese calor y esa presión. Las paredes se derretirían o se cerrarían, y el agujero se llenaría de roca fundida.",
+   "text": "Magma",
+   "bg": "land:volcano",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🌋",
+     "size": 190,
+     "anim": "shake",
+     "delay": 0.5
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 20,
+     "y": 95,
+     "pose": "scared",
+     "expr": "scared",
+     "size": 220
+    }
+   ],
+   "seed": "hole28"
+  },
+  {
+   "type": "title",
+   "narration": "Capítulo seis. ¿Se podría hacer de verdad?",
+   "kicker": "Capítulo 6",
+   "text": "¿Se *podría*?",
+   "bg": "land:mountains",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 80,
+     "emoji": "🤔",
+     "size": 150,
+     "anim": "pulse"
+    }
+   ],
+   "seed": "hole29"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Con lo que sabemos hoy, no. Ni de lejos. Hemos llegado a doce kilómetros, y faltan más de doce mil. Es como si quisieras cruzar un campo de fútbol y solo hubieras avanzado diez centímetros.",
+   "text": "*No*",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 70,
+     "y": 40,
+     "emoji": "⚽",
+     "size": 150,
+     "anim": "pop",
+     "delay": 1.0
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 30,
+     "y": 92,
+     "pose": "shrug",
+     "expr": "sad",
+     "size": 250
+    }
+   ],
+   "seed": "hole30"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Pero la idea tiene nombre: el tren de gravedad. Un túnel recto entre dos ciudades, sin motor, solo cayendo. Curiosamente, cualquier túnel recto sin rozamiento tardaría lo mismo: unos cuarenta minutos.",
+   "text": "Trenes de *gravedad*",
+   "bg": "land:city",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🚄",
+     "size": 170,
+     "anim": "float"
+    },
+    {
+     "kind": "arrow",
+     "x": 20,
+     "y": 70,
+     "to": [
+      80,
+      70
+     ],
+     "text": "≈ 40 min",
+     "color": "#FFD60A",
+     "delay": 1.5
+    }
+   ],
+   "seed": "hole31"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Resumen: unos cuarenta minutos de caída, más de veintiocho mil kilómetros por hora en el centro, cero kilos al pasar por él… y un baño de hierro a cinco mil grados. Mejor quedarse arriba.",
+   "text": "Resumen",
+   "bg": "earth",
+   "actors": [
+    {
+     "kind": "emoji",
+     "x": 50,
+     "y": 45,
+     "emoji": "🌍",
+     "size": 220,
+     "anim": "pulse"
+    },
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 20,
+     "y": 92,
+     "pose": "cheer",
+     "expr": "happy",
+     "size": 230
+    }
+   ],
+   "seed": "hole32"
+  },
+  {
+   "type": "cartoon",
+   "narration": "Y ahora dime en los comentarios: ¿tú te tirarías? Si te ha gustado, suscríbete: cada día te cuento qué pasaría si… Nos vemos en el siguiente.",
+   "text": "¿Y *tú*?",
+   "bg": "land:forest",
+   "actors": [
+    {
+     "kind": "stick",
+     "name": "TÚ",
+     "color": "#FFD60A",
+     "x": 50,
+     "y": 92,
+     "pose": "wave",
+     "expr": "happy",
+     "size": 280
+    },
+    {
+     "kind": "emoji",
+     "x": 80,
+     "y": 30,
+     "emoji": "🕳️",
+     "size": 140,
+     "anim": "pulse"
+    }
+   ],
+   "seed": "hole33"
+  }
+ ]
+}
